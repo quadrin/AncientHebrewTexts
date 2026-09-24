@@ -1,0 +1,216 @@
+{
+"version": "v1 segmentation, contact sheets seed 11",
+"judgements": {
+"B-480875": [
+"ok",
+"ok"
+],
+"B-365130": [
+"ok",
+"ok"
+],
+"B-364122": [
+"ok",
+"ok"
+],
+"B-480867": [
+"tissue",
+"spurious band on tissue"
+],
+"B-364384": [
+"ok",
+"missed sparse line"
+],
+"B-365587": [
+"ok",
+"ok"
+],
+"B-360682": [
+"ok",
+"ok"
+],
+"B-360590": [
+"ok",
+"ok"
+],
+"B-506555": [
+"ok",
+"ok"
+],
+"B-295836": [
+"ok",
+"ok"
+],
+"B-483617": [
+"ok",
+"ok"
+],
+"B-508010": [
+"ok",
+"ok"
+],
+"B-360606": [
+"ok",
+"ok"
+],
+"B-359930": [
+"ok",
+"ok"
+],
+"B-363622": [
+"ok",
+"ok"
+],
+"B-362579": [
+"ok",
+"ok"
+],
+"B-295672": [
+"ok",
+"ok"
+],
+"B-295576": [
+"ok",
+"ok"
+],
+"B-364977": [
+"ok",
+"ok"
+],
+"B-366516": [
+"ok",
+"ok"
+],
+"B-365850": [
+"ok",
+"ok"
+],
+"B-358753": [
+"ok",
+"ok"
+],
+"B-482124": [
+"ok",
+"ok"
+],
+"B-363951": [
+"ok",
+"ok"
+],
+"B-480887": [
+"tissue",
+"ok"
+],
+"B-366620": [
+"ok",
+"faded ink: spurious bands"
+],
+"B-295462": [
+"ok",
+"missed sparse line"
+],
+"B-508036": [
+"ok",
+"ok"
+],
+"B-366554": [
+"ok",
+"ok"
+],
+"B-295707": [
+"ok",
+"ok"
+],
+"B-482530": [
+"ok",
+"ok"
+],
+"B-358307": [
+"ok",
+"ok"
+],
+"B-364839": [
+"ok",
+"ok"
+],
+"B-359117": [
+"multi",
+"two pieces at different slopes: over-segmented"
+],
+"B-359065": [
+"ok",
+"one large letter split in two bands (doubtful)"
+],
+"B-358659": [
+"ok",
+"ok"
+],
+"B-360686": [
+"ok",
+"ok"
+],
+"B-474619": [
+"ok",
+"ok"
+],
+"B-499730": [
+"ok",
+"large tilted image: over-segmented"
+],
+"B-358517": [
+"ok",
+"ok"
+],
+"B-363736": [
+"ok",
+"ok"
+],
+"B-362799": [
+"ok",
+"ok"
+],
+"B-363558": [
+"ok",
+"ok"
+],
+"B-365621": [
+"ok",
+"crack read as a line"
+],
+"B-360728": [
+"ok",
+"ok"
+],
+"B-477313": [
+"ok",
+"tiny blurred fragment: spurious band"
+],
+"B-474475": [
+"ok",
+"ok"
+],
+"B-365956": [
+"ok",
+"ok"
+],
+"B-362107": [
+"ok",
+"ok"
+],
+"B-364286": [
+"ok",
+"ok"
+],
+"B-358163": [
+"ok",
+"faded ink: bands doubtful"
+],
+"B-366722": [
+"ok",
+"crack read as a line"
+]
+},
+"notes": {
+"B-366516": "4Q9: image shows 4-5 text lines, transcription has 1 line with preserved letters (pairing or transcription problem)"
+}
+}

@@ -137,26 +137,56 @@ def binarise(g, mask, win=61):
 
 
 # ---------------------------------------------------------------- deskew + lines
-def best_angle(ink, span=8.0, step=0.25):
-    ys, xs = np.nonzero(ink)
-    if len(ys) < 50:
-        return 0.0
+def _angle_scores(xs, ys, angles):
     cx, cy = xs.mean(), ys.mean()
-    best, ba = -1, 0.0
-    for a in np.arange(-span, span + 1e-9, step):
+    out = []
+    for a in angles:
         r = np.deg2rad(a)
         yy = (-(xs - cx) * np.sin(r) + (ys - cy) * np.cos(r)).astype(int)
         h = np.bincount(yy - yy.min())
-        score = float((h.astype(np.float64) ** 2).sum())
-        if score > best:
-            best, ba = score, a
-    return float(ba)
+        out.append(float((h.astype(np.float64) ** 2).sum()))
+    return np.array(out)
+
+
+def best_angle(ink, span=15.0, wide=25.0, step=0.25):
+    """Projection-profile deskew. Angles beyond +-span are accepted only when
+    they beat the best angle inside +-span by 30% (large, tilted pieces)."""
+    ys, xs = np.nonzero(ink)
+    if len(ys) < 50:
+        return 0.0
+    angles = np.arange(-wide, wide + 1e-9, step)
+    sc = _angle_scores(xs, ys, angles)
+    inner = np.abs(angles) <= span
+    a_in = angles[inner][np.argmax(sc[inner])]
+    a_all = angles[np.argmax(sc)]
+    if abs(a_all) > span and sc.max() > 1.5 * sc[inner].max():
+        return float(a_all)
+    return float(a_in)
 
 
 def rotate(img, angle, interp=cv2.INTER_LINEAR):
     H, W = img.shape
     M = cv2.getRotationMatrix2D((W / 2, H / 2), angle, 1.0)
     return cv2.warpAffine(img, M, (W, H), flags=interp, borderValue=0)
+
+
+def dark_ink(g, ink, mask, rel=0.6):
+    """Ink components darker than rel x parchment median (cracks and shadows
+    are grey in infrared, ink near black). Falls back to all ink when the dark
+    part is under half the ink (faded fragments). Returns (ink, contrast)."""
+    med = float(np.median(g[mask == 1])) if mask.any() else 128.0
+    n, lab, st, _ = cv2.connectedComponentsWithStats(ink)
+    if n < 2:
+        return ink, None
+    sums = np.bincount(lab.ravel(), weights=g.ravel().astype(np.float64), minlength=n)
+    means = sums[1:] / np.maximum(st[1:, 4], 1) / max(med, 1)
+    area = st[1:, 4]
+    contrast = float(np.average(means, weights=area))
+    dark = means < rel
+    if area[dark].sum() < 0.5 * area.sum():
+        return ink, contrast
+    keep = np.concatenate([[False], dark])
+    return keep[lab].astype(np.uint8), contrast
 
 
 def lines_from_profile(ink, mask):
@@ -224,7 +254,7 @@ def process(name, url, save=True):
     if 'error' in info or mask.sum() < 2000:
         return dict(name=name, inverse_scale=inv, mask=info, error=info.get('error', 'tiny mask'))
     ink = binarise(g, mask)
-    angle = best_angle(ink)
+    angle = best_angle(dark_ink(g, ink, mask)[0])
     g2, m2 = rotate(g, angle), rotate(mask * 255, angle, cv2.INTER_NEAREST) // 255
     i2 = rotate(ink * 255, angle, cv2.INTER_NEAREST) // 255
     ys, xs = np.nonzero(m2)
@@ -232,10 +262,13 @@ def process(name, url, save=True):
     y0, y1 = max(0, ys.min() - pad), min(m2.shape[0], ys.max() + pad)
     x0, x1 = max(0, xs.min() - pad), min(m2.shape[1], xs.max() + pad)
     g2, m2, i2 = g2[y0:y1, x0:x1], m2[y0:y1, x0:x1], i2[y0:y1, x0:x1]
-    bands, pitch = lines_from_profile(i2, m2)
+    dk, contrast = dark_ink(g2, i2, m2)
+    bands, pitch = lines_from_profile(dk, m2)
     rec = dict(name=name, inverse_scale=inv, shape=list(g.shape), angle=angle,
                box=[int(x0), int(y0), int(x1), int(y1)], mask=info, pitch=pitch,
-               ink_px=int(i2.sum()), lines=bands)
+               ink_px=int(i2.sum()), dark_ink_px=int(dk.sum()),
+               ink_contrast=round(contrast, 3) if contrast is not None else None,
+               lines=bands)
     if save:
         for d in ('crop', 'ink', 'seg'):
             os.makedirs(f'{D2}/{d}', exist_ok=True)
