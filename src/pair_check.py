@@ -27,6 +27,10 @@ def fetch(url, tries=4):
 
 def features(g, full_w):
     sc = full_w / g.shape[1]                      # full-res px per preview px
+    # some images are underexposed; stretch so the brightest parchment is ~230
+    hi = np.percentile(g, 99.9)
+    if hi > 20:
+        g = np.clip(g.astype(np.float32) * (230.0 / hi), 0, 255).astype(np.uint8)
     b = cv2.GaussianBlur(g, (0, 0), 1)
     fg = b > 40
     if fg.sum() < 200:
