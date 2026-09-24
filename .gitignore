@@ -1,0 +1,5 @@
+data/
+*.jpg
+*.png
+*.tif
+__pycache__/
