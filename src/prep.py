@@ -148,20 +148,19 @@ def _angle_scores(xs, ys, angles):
     return np.array(out)
 
 
-def best_angle(ink, span=15.0, wide=25.0, step=0.25):
-    """Projection-profile deskew. Angles beyond +-span are accepted only when
-    they beat the best angle inside +-span by 30% (large, tilted pieces)."""
+def best_angle(ink, wide=18.0, step=0.25, penalty=0.02):
+    """Projection-profile deskew with a prior towards 0 degrees.
+
+    Short texts give flat, unreliable score curves, so an angle a must raise
+    the profile score over the 0-degree score by more than penalty*|a|
+    (15 degrees needs +30%)."""
     ys, xs = np.nonzero(ink)
     if len(ys) < 50:
         return 0.0
     angles = np.arange(-wide, wide + 1e-9, step)
     sc = _angle_scores(xs, ys, angles)
-    inner = np.abs(angles) <= span
-    a_in = angles[inner][np.argmax(sc[inner])]
-    a_all = angles[np.argmax(sc)]
-    if abs(a_all) > span and sc.max() > 1.5 * sc[inner].max():
-        return float(a_all)
-    return float(a_in)
+    gain = sc / sc[np.argmin(np.abs(angles))]
+    return float(angles[np.argmax(gain - penalty * np.abs(angles))])
 
 
 def rotate(img, angle, interp=cv2.INTER_LINEAR):
