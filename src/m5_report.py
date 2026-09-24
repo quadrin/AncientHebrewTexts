@@ -10,16 +10,36 @@ Writes reports/M5_summary.json and prints tables.
 import json, sys, collections
 import numpy as np
 
-TOL = 300
 BINS = [(0, 9), (10, 19), (20, 39), (40, 10 ** 6)]
 
 
-def correct(m):
-    if not m['hits'] or not m['truth']:
+# synoptic passages: a hit in either copy is the same text
+PARALLEL = [('Ps.18', '2Sam.22'), ('Isa.36', '2Kgs.18'), ('Isa.37', '2Kgs.19'), ('Isa.38', '2Kgs.20'),
+            ('Ps.14', 'Ps.53'), ('Ps.105', '1Chr.16'), ('Ps.96', '1Chr.16'), ('Jer.52', '2Kgs.25')]
+
+
+def same_place(a, b):
+    """Two corpus references point at the same passage."""
+    if a is None or b is None:
         return False
-    s, d, ref, o = m['hits'][0]
-    tdocs = {t[0] for t in m['truth']}
-    return d in tdocs and any(abs(o - p) <= TOL for p in m['truth_pos'])
+    if '.' in a and '.' in b and ' ' not in a and ' ' not in b:          # MT: Book.ch.v
+        (ba, ca, va), (bb, cb, vb) = a.split('.')[:3], b.split('.')[:3]
+        if f'{ba}.{ca}' != f'{bb}.{cb}':
+            pair = {f'{ba}.{ca}', f'{bb}.{cb}'}
+            return any(pair == set(p) for p in PARALLEL)
+        return abs(int(va) - int(vb)) <= 3
+    sa, fa = a.split(' ')[0], a.split(' ')[1].split(':')[0] if ' ' in a else ''
+    sb, fb = b.split(' ')[0], b.split(' ')[1].split(':')[0] if ' ' in b else ''
+    return sa == sb and fa == fb
+
+
+def correct(r, mode):
+    m = r[mode]
+    if not m['hits']:
+        return False
+    ref = m['hits'][0][2]
+    truths = [t[1] for md in ('ex', 'sk') for t in r[md]['truth']]
+    return any(same_place(ref, t) for t in truths)
 
 
 def main(path='data/m5/results.json', out='reports/M5_summary.json'):
@@ -36,9 +56,9 @@ def main(path='data/m5/results.json', out='reports/M5_summary.json'):
             rs = [r for r in R if lo <= r['preserved'] <= hi]
             idr = [r for r in rs if r['ex']['truth'] or r['sk']['truth']]
             row = dict(letters=f'{lo}-{hi if hi < 10**6 else "+"}', images=len(rs), identifiable=len(idr),
-                       top1_correct=sum(correct(r[mode]) for r in idr))
+                       top1_correct=sum(correct(r, mode) for r in idr))
             for fp, t in thr.items():
-                row[f'id@fp{fp}'] = sum(correct(r[mode]) and r[mode]['hits'][0][0] >= t for r in idr)
+                row[f'id@fp{fp}'] = sum(correct(r, mode) and r[mode]['hits'][0][0] >= t for r in idr)
                 # real fragments with no parallel whose best score still clears the bar
                 nid = [r for r in rs if r not in idr and r[mode]['hits']]
                 row[f'noparallel_over@fp{fp}'] = sum(r[mode]['hits'][0][0] >= t for r in nid)
