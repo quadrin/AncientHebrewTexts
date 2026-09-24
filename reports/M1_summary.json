@@ -1,0 +1,72 @@
+{
+ "train": {
+  "image_many|Recto": {
+   "images": 205,
+   "preserved": 31652
+  },
+  "image_many|Verso": {
+   "images": 4,
+   "preserved": 80
+  },
+  "multi_column|Recto": {
+   "images": 1,
+   "preserved": 57
+  },
+  "no_text|Recto": {
+   "images": 13,
+   "preserved": 0
+  },
+  "no_text|Verso": {
+   "images": 1,
+   "preserved": 0
+  },
+  "one_to_one|Recto": {
+   "images": 4436,
+   "preserved": 120312
+  },
+  "one_to_one|Verso": {
+   "images": 265,
+   "preserved": 2746
+  },
+  "shared|Recto": {
+   "images": 2223,
+   "preserved": 359143
+  },
+  "shared|Verso": {
+   "images": 29,
+   "preserved": 1924
+  },
+  "unlinked|Recto": {
+   "images": 1657,
+   "preserved": 0
+  },
+  "unlinked|Verso": {
+   "images": 225,
+   "preserved": 0
+  },
+  "verso_back|Verso": {
+   "images": 70,
+   "preserved": 27309
+  }
+ },
+ "target": {
+  "one_to_one|Recto": {
+   "images": 163,
+   "preserved": 1410
+  },
+  "shared|Recto": {
+   "images": 8,
+   "preserved": 52
+  },
+  "unlinked|Recto": {
+   "images": 2288,
+   "preserved": 0
+  }
+ },
+ "train_link_mix": {
+  "catalogue/exact": 4365,
+  "catalogue/subsiglum": 94,
+  "artefact/exact": 235,
+  "catalogue/side_swapped": 7
+ }
+}

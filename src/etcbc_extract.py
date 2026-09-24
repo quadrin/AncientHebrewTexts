@@ -2,10 +2,12 @@
 
 Writes data/m0/etcbc_lines.json: one record per line
   [scroll, fragment, line, text, marks]
-where text holds consonants and word separators (' ') only, and marks has
-one character per text character:
+where text holds consonants, word separators (' ', taken from the word
+feature `after`, so prefixes such as ו ה ל stay joined as written) and '#'
+for a lacuna the editor left unreconstructed. marks has one character per
+text character:
   '.' preserved, 'u' preserved but uncertain (unc >= 1), 'r' reconstructed,
-  'p' paleo-Hebrew script, ' ' separator.
+  'p' paleo-Hebrew script, ' ' separator, '#' lacuna.
 Final forms are kept as written.
 
 Also writes data/m0/etcbc_fragments.json with per-fragment counts.
@@ -30,7 +32,7 @@ def mark(s, F):
 if __name__ == '__main__':
     os.makedirs(OUT, exist_ok=True)
     api = Fabric(locations=TFDIR, silent='deep').load(
-        'otype scroll fragment line glyph rec unc lang script type', silent='deep')
+        'otype scroll fragment line glyph rec unc lang script type after', silent='deep')
     F, L = api.F, api.L
     lines, frags = [], []
     for sc in F.otype.s('scroll'):
@@ -43,6 +45,11 @@ if __name__ == '__main__':
                 text, marks = [], []
                 for w in L.d(ln, 'word'):
                     for s in L.d(w, 'sign'):
+                        if F.type.v(s) == 'missing':
+                            if not text or text[-1] != '#':
+                                text.append('#')
+                                marks.append('#')
+                            continue
                         if F.type.v(s) != 'cons':
                             continue
                         m = mark(s, F)
@@ -51,11 +58,11 @@ if __name__ == '__main__':
                         c[m] += 1
                         if F.lang.v(s) == 'a':
                             c['aramaic'] += 1
-                    if text and text[-1] != ' ':
+                    if F.after.v(w) == ' ' and text and text[-1] != ' ':
                         text.append(' ')
                         marks.append(' ')
                 t, m = ''.join(text).strip(), ''.join(marks).strip()
-                if t:
+                if t.replace('#', '').strip():
                     nlines += 1
                     lines.append([scroll, frag, F.line.v(ln), t, m])
             frags.append(dict(scroll=scroll, fragment=frag, lines=nlines,
