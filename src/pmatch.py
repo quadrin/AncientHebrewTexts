@@ -108,26 +108,62 @@ class Corpus:
                 s[n - i:] = -1e9
         return s
 
-    def search(self, lines, W=(15, 140), top=5, min_letters=1):
+    def line_scores_gapped(self, table, gap=4.0):
+        """Local alignment with single-step gaps, scored at the START offset.
+
+        A_i[j]: best score with reading position i on corpus position j.
+          A_i[j] = s(i, c_j) + max(0, A_{i-1}[j-1],
+                                   A_{i-1}[j-2] - gap,   # a corpus letter the reading missed
+                                   A_{i-2}[j-1] - gap)   # an extra letter in the reading
+        Runs right to left over the corpus so the result is indexed by the
+        start position, like line_scores. Computed row by row with numpy.
+        """
+        L = len(table)
+        if L == 0:
+            return None
+        ids = self.ids[::-1].astype(np.int64)         # reversed corpus
+        n = len(ids)
+        NEG = np.float32(-1e9)
+
+        def shift(a, k):
+            out = np.full(n, NEG, np.float32)
+            out[k:] = a[:n - k]
+            return out
+        prev2 = np.full(n, NEG, np.float32)
+        prev = np.full(n, NEG, np.float32)
+        best = np.full(n, NEG, np.float32)
+        # reading reversed too, so alignment order stays consistent
+        for i in range(L - 1, -1, -1):
+            s = table[i][ids].astype(np.float32)
+            cand = np.maximum(np.float32(0), shift(prev, 1))
+            cand = np.maximum(cand, shift(prev, 2) - gap)
+            cand = np.maximum(cand, shift(prev2, 1) - gap)
+            cur = s + cand
+            best = np.maximum(best, cur)
+            prev2, prev = prev, cur
+        return best[::-1].copy()                      # index = start position in the corpus
+
+    def search(self, lines, W=(15, 140), top=5, min_letters=1, gapped=False):
         """lines: list of lists of distributions (top to bottom).
         Returns best total score and the top hits [(score, doc, ref, offset)]."""
         tables = [self.llr_table(l) for l in lines]
         tables = [t for t in tables if len(t) >= min_letters]
         if not tables:
             return None
-        acc = self.line_scores(tables[0]).astype(np.float64)
-        prev_len = len(tables[0])
-        for t in tables[1:]:
-            s = self.line_scores(t)
-            # best offset of this line in [o + W0, o + W1]; the window starts
-            # after the previous line's own letters
-            size = W[1] - W[0] + 1
-            mx = maximum_filter1d(s, size=size, origin=-(size // 2), mode='constant', cval=-1e9)
-            shift = W[0]
-            nxt = np.full_like(acc, -1e9)
-            nxt[:len(acc) - shift] = mx[shift:]
-            acc = acc + nxt
-            prev_len = len(t)
+        score = self.line_scores_gapped if gapped else self.line_scores
+        # chain lines top to bottom: each next line starts W0..W1 letters after
+        # the previous one. Built backwards: T_k = s_k,
+        # T_{k-1}[o] = s_{k-1}[o] + max(T_k[o+W0 .. o+W1]).
+        size = W[1] - W[0] + 1
+        acc = None
+        for t in reversed(tables):
+            s = score(t).astype(np.float64)
+            if acc is not None:
+                mx = maximum_filter1d(acc, size=size, origin=-(size // 2), mode='constant', cval=-1e9)
+                nxt = np.full_like(s, -1e9)
+                nxt[:len(s) - W[0]] = mx[W[0]:]
+                s = s + nxt
+            acc = s
         order = np.argsort(-acc)[:200]
         hits, seen = [], []
         for o in order:

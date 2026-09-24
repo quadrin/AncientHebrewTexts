@@ -69,8 +69,16 @@ def shuffled(reading, rnd):
 
 
 def main():
-    model_path = sys.argv[1] if len(sys.argv) > 1 else 'data/m4/run1/best.pt'
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument('model', nargs='?', default='data/m4/run1/best.pt')
+    ap.add_argument('--gapped', action='store_true')
+    ap.add_argument('--out', default=f'{D5}/results.json')
+    a = ap.parse_args()
+    model_path = a.model
     os.makedirs(D5, exist_ok=True)
+    cache_path = f'{D5}/readings_{os.path.basename(os.path.dirname(model_path))}.json'
+    cache = json.load(open(cache_path)) if os.path.exists(cache_path) else {}
     split = json.load(open('reports/M4_split.json'))
     test = set(split['test'])
     pairs = [r for r in json.load(open('data/m1/pairs.json'))
@@ -90,17 +98,19 @@ def main():
             corpora[ex] = {m: pmatch.Corpus(exclude={ex}, mode=m) for m in ('ex', 'sk')}
         cs = corpora[ex]
         tlines = list(r['lines'].values())[0]
-        reading = read_image(model, r['name'])
+        if r['name'] not in cache:
+            cache[r['name']] = read_image(model, r['name'])
+        reading = cache[r['name']]
         rd = [l['probs'] for l in reading if l['probs']]
         rec = dict(name=r['name'], manuscript=r['manuscript'], preserved=r['preserved'],
                    read_letters=sum(len(l) for l in rd), read_lines=len(rd),
                    reading=[l['text'] for l in reading])
         for mode, c in cs.items():
             run, where = truth(c, tlines)
-            hits = c.search(rd) if rd else None
+            hits = c.search(rd, gapped=a.gapped) if rd else None
             null = []
             for _ in range(N_SHUF):
-                h = c.search(shuffled(rd, rnd)) if rd else None
+                h = c.search(shuffled(rd, rnd), gapped=a.gapped) if rd else None
                 null.append(h[0][0] if h else None)
             rec[mode] = dict(truth_run=run, truth=[(d, ref) for d, ref, _ in where],
                              truth_pos=[p for _, _, p in where],
@@ -109,8 +119,9 @@ def main():
         results.append(rec)
         if k % 10 == 9:
             print(k + 1, 'done', round(time.time() - t0), 's', file=sys.stderr)
-            json.dump(results, open(f'{D5}/results.json', 'w'), ensure_ascii=False)
-    json.dump(results, open(f'{D5}/results.json', 'w'), ensure_ascii=False)
+            json.dump(results, open(a.out, 'w'), ensure_ascii=False)
+    json.dump(results, open(a.out, 'w'), ensure_ascii=False)
+    json.dump(cache, open(cache_path, 'w'), ensure_ascii=False)
 
 
 if __name__ == '__main__':

@@ -1,6 +1,6 @@
 """M2 batch: preprocess the clean one-to-one pairs and compare line counts.
 
-Usage: python3 src/prep_batch.py [parchment|papyrus|all]
+Usage: python3 src/prep_batch.py [parchment|papyrus|all|target]
 Writes data/m2/{raw,crop,ink,seg}/ and data/m2/batch_{set}.json, and prints
 line-count agreement against the transcription.
 """
@@ -41,9 +41,13 @@ if __name__ == '__main__':
     which = sys.argv[1] if len(sys.argv) > 1 else 'parchment'
     pairs = json.load(open('data/m1/pairs.json'))
     urls = {x['name']: x['url'] for x in json.load(open('data/m0/inventory_images.json'))}
-    sel = [r for r in pairs if r['split'] == 'train' and r['category'] == 'one_to_one'
-           and r['side'] == 'Recto' and 'ink' in r and not r['ink'].get('flag')
-           and (which == 'all' or r['material'].lower() == which)]
+    if which == 'target':
+        # unidentified sets for M7: every recto image, no transcription
+        sel = [r for r in pairs if r['split'] == 'target' and r['side'] == 'Recto']
+    else:
+        sel = [r for r in pairs if r['split'] == 'train' and r['category'] == 'one_to_one'
+               and r['side'] == 'Recto' and 'ink' in r and not r['ink'].get('flag')
+               and (which == 'all' or r['material'].lower() == which)]
     print(len(sel), 'images', file=sys.stderr)
     with Pool(4) as pool:
         res = {}
@@ -51,6 +55,13 @@ if __name__ == '__main__':
             res[r['name']] = r
             if k % 250 == 249:
                 print(k + 1, file=sys.stderr)
+    if which == 'target':
+        out = [dict(name=r['name'], manuscript=r['manuscript'], material=r['material'],
+                    detected=len(res[r['name']].get('lines', [])) if 'error' not in res[r['name']] else None,
+                    error=res[r['name']].get('error')) for r in sel]
+        json.dump(out, open(f'{D2}/batch_target.json', 'w'))
+        print(json.dumps(dict(images=len(out), errors=sum(1 for o in out if o['error'])), indent=1))
+        sys.exit(0)
     out = []
     for r in sel:
         s = res[r['name']]
