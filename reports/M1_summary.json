@@ -68,5 +68,107 @@
   "catalogue/subsiglum": 94,
   "artefact/exact": 235,
   "catalogue/side_swapped": 7
+ },
+ "ink_check": {
+  "all": {
+   "n": 4668,
+   "spearman": 0.623,
+   "spearman_unflagged": 0.665,
+   "clean": 4504,
+   "clean_letters": 101838,
+   "blobs_per_letter_median": 0.42,
+   "flags": {
+    "letters_without_ink": 113,
+    "too_many_letters_for_area": 50,
+    "ink_without_letters": 1
+   }
+  },
+  "recto": {
+   "n": 4405,
+   "spearman": 0.636,
+   "spearman_unflagged": 0.684,
+   "clean": 4243,
+   "clean_letters": 99533,
+   "blobs_per_letter_median": 0.41,
+   "flags": {
+    "letters_without_ink": 111,
+    "too_many_letters_for_area": 50,
+    "ink_without_letters": 1
+   }
+  },
+  "recto_parchment": {
+   "n": 3318,
+   "spearman": 0.65,
+   "spearman_unflagged": 0.714,
+   "clean": 3160,
+   "clean_letters": 90975,
+   "blobs_per_letter_median": 0.39,
+   "flags": {
+    "letters_without_ink": 110,
+    "too_many_letters_for_area": 47,
+    "ink_without_letters": 1
+   }
+  },
+  "recto_papyrus": {
+   "n": 1087,
+   "spearman": 0.522,
+   "spearman_unflagged": 0.519,
+   "clean": 1083,
+   "clean_letters": 8558,
+   "blobs_per_letter_median": 0.74,
+   "flags": {
+    "letters_without_ink": 1,
+    "too_many_letters_for_area": 3
+   }
+  },
+  "catalogue_exact": {
+   "n": 4336,
+   "spearman": 0.633,
+   "spearman_unflagged": 0.677,
+   "clean": 4188,
+   "clean_letters": 95295,
+   "blobs_per_letter_median": 0.42,
+   "flags": {
+    "letters_without_ink": 101,
+    "too_many_letters_for_area": 47
+   }
+  },
+  "artefact": {
+   "n": 232,
+   "spearman": 0.388,
+   "spearman_unflagged": 0.425,
+   "clean": 227,
+   "clean_letters": 3291,
+   "blobs_per_letter_median": 0.38,
+   "flags": {
+    "letters_without_ink": 5
+   }
+  },
+  "subsiglum": {
+   "n": 93,
+   "spearman": 0.495,
+   "spearman_unflagged": 0.631,
+   "clean": 82,
+   "clean_letters": 2602,
+   "blobs_per_letter_median": 0.41,
+   "flags": {
+    "letters_without_ink": 7,
+    "too_many_letters_for_area": 3,
+    "ink_without_letters": 1
+   }
+  },
+  "verso": {
+   "n": 263,
+   "spearman": 0.467,
+   "spearman_unflagged": 0.471,
+   "clean": 261,
+   "clean_letters": 2305,
+   "blobs_per_letter_median": 1.3,
+   "flags": {
+    "letters_without_ink": 2
+   }
+  },
+  "density_limit_letters_per_mpx": 172.9,
+  "density_ref_median": 27.7
  }
 }

@@ -85,6 +85,10 @@ Do them in order. Each milestone ends with a short `reports/Mx.md` stating what 
 - Most 4Q9999 images show a fragment on one or two tissue strips; the strips are textured and can pass as parchment in a naive mask.
 - Common words (אשר, לשארית, החכמה, עליכם) produce dozens to hundreds of chance hits. Only multi-line or long-line matches carry weight.
 - Aramaic fragments exist in the target pool; the matcher needs the Aramaic scrolls in its reference set.
+- Leon Levy `frag_num` is the IAA piece number on the plate, not the edition fragment number (they agree 7% of the time). Join images to text through SQE catalogue matches on IAA plate/fragment/side (M0, M1).
+- ETCBC splits prefixes (ו, ה, ל) into separate words. Take word spaces from the `after` feature, not from word boundaries.
+- A "one-to-one" image–text pair can still be wrong in size: ETCBC column numbers (`2`, `6a`) and join labels (`f6_10`, `f3ii+5`) are editorial assemblies of many pieces. Check letters against the parchment area (M1).
+- Some infrared images are underexposed. Stretch the brightness before any fixed threshold.
 
 ## Files in `prior_work/`
 
