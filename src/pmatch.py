@@ -3,8 +3,10 @@ probabilities, several lines) in a reference corpus.
 
 Corpus: MT books (data/ref/bible.json) plus the preserved letters of every
 ETCBC scroll (data/ref/dss_lines.json), final forms folded into medial forms
-(22 letters). A barrier symbol sits between lacunae, scroll lines of different
-fragments, and documents, so no match crosses a gap.
+(22 letters). Barrier symbols stop matches from crossing gaps: one per
+reconstructed letter (so letter distances across a reconstruction are kept for
+the line-spacing window), one per lacuna of unknown length, fragment break and
+document end.
 
 Line score at offset o: sum_i log((P_i[c_{o+i}] + eps) / E_q[P_i + eps]), a
 log-likelihood ratio of "the fragment shows this text" against "random letters
@@ -36,8 +38,13 @@ class Corpus:
         ids, refs, docs = [], [], []
 
         def add(label, seq):
-            # seq: list of (letter or None for barrier, ref)
+            # seq: list of (letter, ref); letter None = barrier of unknown
+            # length (collapsed), letter '' = one reconstructed letter (one
+            # barrier each, so distances across reconstructions are kept)
             for c, r in seq:
+                if c == '':
+                    ids.append(BAR); refs.append(r); docs.append(label)
+                    continue
                 if c is None:
                     if ids and ids[-1] != BAR:
                         ids.append(BAR); refs.append(r); docs.append(label)
@@ -67,7 +74,9 @@ class Corpus:
                 for c, k in zip(t, m):
                     if k in '.u' and 'א' <= c <= 'ת':
                         seq.append((c, f'{s} {f}:{l}'))
-                    elif k in 'r#p':
+                    elif k == 'r' and not (mode == 'sk' and _norm(c) in 'וי'):
+                        seq.append(('', f'{s} {f}:{l}'))
+                    elif k in '#p':
                         seq.append((None, None))
             add('DSS ' + s, seq)
         self.ids = np.array(ids, np.int8)
