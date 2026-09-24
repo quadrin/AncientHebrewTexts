@@ -154,10 +154,15 @@ class Corpus:
         # chain lines top to bottom: each next line starts W0..W1 letters after
         # the previous one. Built backwards: T_k = s_k,
         # T_{k-1}[o] = s_{k-1}[o] + max(T_k[o+W0 .. o+W1]).
+        # A band can be junk (a crack, letter tips at a broken edge) or a line
+        # the matcher cannot place: every line contributes max(score, 0), so it
+        # may be skipped while the spacing still advances one line. A reported
+        # offset then lies within about one line of the matched text.
         size = W[1] - W[0] + 1
         acc = None
-        for t in reversed(tables):
+        for k, t in enumerate(reversed(tables)):
             s = score(t).astype(np.float64)
+            s = np.maximum(s, 0.0)
             if acc is not None:
                 mx = maximum_filter1d(acc, size=size, origin=-(size // 2), mode='constant', cval=-1e9)
                 nxt = np.full_like(s, -1e9)
