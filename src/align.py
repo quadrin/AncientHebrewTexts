@@ -88,8 +88,10 @@ def align(bands, tlines, pitch, cw, skip_band=1.0, skip_line=1.2, fit=0.5):
 
 
 def crop_line(g, band, pitch, pad_x=12):
-    top = max(0, int(band['y'] - 0.75 * pitch))
-    bot = min(g.shape[0], int(band['y'] + 0.45 * pitch))
+    # generous window: the profile peak can sit anywhere on the letter body,
+    # and neighbouring ascenders/descenders are normal in line images
+    top = max(0, int(band['y'] - 0.7 * pitch))
+    bot = min(g.shape[0], int(band['y'] + 0.7 * pitch))
     x0 = max(0, band['x0'] - pad_x)
     x1 = min(g.shape[1], band['x1'] + pad_x)
     return g[top:bot, x0:x1]

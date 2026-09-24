@@ -1,0 +1,18 @@
+{
+ "char_width_per_pitch": 0.284,
+ "fragments": {
+  "fragments": 3159,
+  "lines_misfit": 1832,
+  "lines_B": 4403,
+  "fragments_counts_agree": 1794,
+  "lines_A": 2318,
+  "no_bands_or_text": 4
+ },
+ "letters": {
+  "fragments": 90941,
+  "tier_B": 49551,
+  "tier_B_nogap": 37975,
+  "tier_A": 17861,
+  "tier_A_nogap": 15328
+ }
+}
