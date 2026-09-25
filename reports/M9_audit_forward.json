@@ -1,0 +1,44 @@
+{
+ "images": 6658,
+ "verdicts": {
+  "too_short": 2476,
+  "other_frag": 59,
+  "ok": 3011,
+  "no_fit": 188,
+  "elsewhere": 78,
+  "weak": 829,
+  "split_record": 17
+ },
+ "by_category": {
+  "shared|too_short": 600,
+  "shared|other_frag": 29,
+  "shared|ok": 1119,
+  "shared|no_fit": 85,
+  "image_many|elsewhere": 7,
+  "one_to_one|ok": 1763,
+  "one_to_one|too_short": 1844,
+  "one_to_one|weak": 481,
+  "image_many|too_short": 32,
+  "shared|elsewhere": 36,
+  "image_many|ok": 129,
+  "shared|weak": 327,
+  "image_many|weak": 21,
+  "one_to_one|other_frag": 28,
+  "one_to_one|no_fit": 90,
+  "one_to_one|elsewhere": 35,
+  "image_many|no_fit": 13,
+  "shared|split_record": 16,
+  "image_many|other_frag": 2,
+  "one_to_one|split_record": 1
+ },
+ "verdicts_relabelled": {
+  "too_short": 2476,
+  "other_frag": 90,
+  "ok": 3011,
+  "weak_elsewhere": 78,
+  "weak": 816,
+  "no_fit": 154,
+  "split_record": 33
+ },
+ "elsewhere_E_below_1": 0
+}

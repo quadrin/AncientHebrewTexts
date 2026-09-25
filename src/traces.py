@@ -62,16 +62,17 @@ def viterbi(logp, y):
     dp[0, 0] = logp[0, 0]
     if S > 1:
         dp[0, 1] = logp[0, ext[1]]
+    ext = np.array(ext)
+    skip = np.zeros(S, bool)
+    skip[2:] = (ext[2:] != 0) & (ext[2:] != ext[:-2])
     for t in range(1, T):
-        for s in range(S):
-            cands = [(dp[t - 1, s], s)]
-            if s >= 1:
-                cands.append((dp[t - 1, s - 1], s - 1))
-            if s >= 2 and ext[s] != 0 and ext[s] != ext[s - 2]:
-                cands.append((dp[t - 1, s - 2], s - 2))
-            v, k = max(cands)
-            dp[t, s] = v + logp[t, ext[s]]
-            bp[t, s] = k
+        a = dp[t - 1]
+        b = np.full(S, NEG); b[1:] = a[:-1]
+        c = np.full(S, NEG); c[2:] = np.where(skip[2:], a[:-2], NEG)
+        st = np.stack([a, b, c])
+        k = st.argmax(0)
+        dp[t] = st[k, np.arange(S)] + logp[t, ext]
+        bp[t] = np.arange(S) - k
     s = S - 1 if S == 1 or dp[T - 1, S - 1] >= dp[T - 1, S - 2] else S - 2
     if dp[T - 1, s] <= NEG / 2:
         return None
