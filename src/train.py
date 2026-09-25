@@ -119,14 +119,14 @@ def block(i, o, pool):
 
 
 class CRNN(nn.Module):
-    def __init__(self, n_out=len(ALPHABET) + 1, hid=192):
+    def __init__(self, n_out=len(ALPHABET) + 1, hid=192, height=64):
         super().__init__()
         self.cnn = nn.Sequential(
             block(1, 32, (2, 2)),            # 32 x W/2
             block(32, 64, (2, 2)),           # 16 x W/4
             block(64, 128, None), block(128, 128, (2, 1)),     # 8
             block(128, 192, None), block(192, 192, (2, 1)),    # 4
-            block(192, 256, (4, 1)),         # 1
+            block(192, 256, (height // 16, 1)),   # 1
             nn.Dropout2d(0.1))
         self.rnn = nn.LSTM(256, hid, num_layers=2, bidirectional=True, batch_first=True, dropout=0.25)
         self.out = nn.Linear(2 * hid, n_out)
@@ -200,11 +200,18 @@ def main():
     ap.add_argument('--bs', type=int, default=16)
     ap.add_argument('--lr', type=float, default=1e-3)
     ap.add_argument('--exclude', default='', help='file with line ids to leave out (CTC cleaning)')
+    ap.add_argument('--extra', default='', help='comma-separated extra manifests (e.g. data/m3/manifest_self.jsonl)')
+    ap.add_argument('--height', type=int, default=64)
+    ap.add_argument('--init', default='', help='start from these weights')
     a = ap.parse_args()
     torch.set_num_threads(4)
     torch.manual_seed(0); random.seed(0); np.random.seed(0)
     os.makedirs(a.out, exist_ok=True)
+    global H
+    H = a.height
     man = [json.loads(l) for l in open('data/m3/manifest.jsonl')]
+    for f in filter(None, a.extra.split(',')):
+        man += [json.loads(l) for l in open(f)]
     if a.exclude:
         drop = set(json.load(open(a.exclude)))
         man = [r for r in man if r['id'] not in drop]
@@ -223,7 +230,9 @@ def main():
     dtr, dva = Lines(tr, True), Lines(va, False)
     ltr = torch.utils.data.DataLoader(dtr, batch_sampler=Bucket(widths(tr), a.bs), collate_fn=collate, num_workers=0)
     lva = torch.utils.data.DataLoader(dva, batch_sampler=Bucket(widths(va), 32, False), collate_fn=collate)
-    model = CRNN()
+    model = CRNN(height=H)
+    if a.init:
+        model.load_state_dict(torch.load(a.init, map_location='cpu'))
     opt = torch.optim.AdamW(model.parameters(), lr=a.lr, weight_decay=1e-4)
     steps = a.epochs * len(ltr)
     sched = torch.optim.lr_scheduler.OneCycleLR(opt, max_lr=a.lr, total_steps=steps, pct_start=0.1)
@@ -250,7 +259,8 @@ def main():
             torch.save(model.state_dict(), f'{a.out}/best.pt')
         json.dump(log, open(f'{a.out}/log.json', 'w'))
     torch.save(model.state_dict(), f'{a.out}/last.pt')
-    json.dump(dict(args=vars(a), best_val_cer=best, n_train=len(tr), n_val=len(va)), open(f'{a.out}/run.json', 'w'))
+    json.dump(dict(args=vars(a), best_val_cer=best, n_train=len(tr), n_val=len(va),
+                   train_letters=sum(r['letters'] for r in tr)), open(f'{a.out}/run.json', 'w'))
 
 
 if __name__ == '__main__':
