@@ -35,7 +35,8 @@ class Corpus:
     def __init__(self, exclude=(), mode='ex', targum=False, mt=True, keep=None, q=None):
         """exclude: normalised scroll sigla to leave out (the fragment's own manuscript).
         targum: also search the Aramaic targums (data/ref/targum.json), for Aramaic targets.
-        mt: include the Masoretic text. keep: optional callable (scroll, fragment) -> bool
+        mt: include the Masoretic text (True), none of it (False), or a set of
+        book codes ('Gen', 'Ps', ...). keep: optional callable (scroll, fragment) -> bool
         restricting the scroll fragments (a small, targeted corpus). q: letter
         frequencies to use (pass the full corpus's for small corpora)."""
         self.mode = mode
@@ -63,6 +64,8 @@ class Corpus:
         for ref, t in json.load(open('data/ref/bible.json')):
             by_book[ref.split('.')[0]].append((ref, t))
         for b, vs in (by_book.items() if mt else []):
+            if mt is not True and b not in mt:
+                continue
             add('MT ' + b, [(c, r) for r, t in vs for c in t if c != ' '])
         if targum:
             by_work = collections.defaultdict(list)
