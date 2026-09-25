@@ -10,6 +10,14 @@ as 4Q365 -> Genesis and 4Q432 -> 1QHa.) A held-out test piece
 (own manuscript left out, as in M5) gets p = share of length-matched decoys
 (read letters within x1.5) whose best score is at least its own.
 
+Decoy rule v3 (env DECOY_RULE=v3; the v2 tail was full of true parallels,
+e.g. 4Q58 -> Isaiah, 4Q258 -> 1QS, 1Q8 -> Isaiah, let in through catalogue
+links to the wrong fragment): in addition to the run test, the manuscript's
+composition must be non-biblical and have no other copy, the forward audit
+(audit_summary.py) must not flag the photo as showing other text
+(other_frag, split_record, weak_elsewhere, no_fit), and the manuscript's own
+text is excluded by its base name ('4Q321a-190' -> '4Q321a').
+
 Compares bg='unigram' (M5/M6 scorer) with bg='lm' (letter 4-gram background).
 Measure: biblical test pieces whose top hit is in their own book, at decoy
 p <= 0.01 and 0.05, by read letters; false-positive check on held-out decoys
@@ -28,7 +36,7 @@ from prior import BOOKMAP, load_meta  # noqa: E402
 
 BANDS = [(3, 5), (6, 9), (10, 19), (20, 39), (40, 10 ** 6)]
 N_DECOY_MS = 400
-PER_MS = 8
+PER_MS = int(os.environ.get('PER_MS', 8))
 DECOY_RUN = 8
 
 
@@ -39,6 +47,11 @@ def main():
     held = set(split['test']) | set(split['val'])
     ncopies = collections.Counter(comp.values())
     audit_rd = json.load(open(os.environ.get('DECOYS', 'data/audit/readings.json')))
+    rule = os.environ.get('DECOY_RULE', 'v2')
+    flagged = set()
+    if rule == 'v3':
+        flagged = {r['name'] for r in json.load(open('data/audit/forward_flags.json'))
+                   if r['verdict2'] in ('other_frag', 'split_record', 'weak_elsewhere', 'no_fit')}
     # decoys: images whose own transcription has no >= DECOY_RUN-letter parallel
     from m5_eval import truth
     et_lines = collections.defaultdict(list)
@@ -49,6 +62,10 @@ def main():
         ms = pairs[n]['manuscript']
         if ms in held:
             continue
+        if rule == 'v3':
+            cm = comp.get(ms, comp.get(ms.split('-')[0], ms))
+            if cm in BOOKMAP or ncopies[cm] > 1 or n in flagged:
+                continue
         rd = [l['probs'] for l in lines if l['probs']]
         k = sum(len(l) for l in rd)
         if k >= 3:
@@ -57,7 +74,7 @@ def main():
     by_ms = {}
     for ms in rnd.sample(sorted(cand), min(N_DECOY_MS, len(cand))):
         scrolls = {x['etcbc'][0] for n, _, _ in cand[ms] for x in pairs[n]['links']}
-        c = pmatch.Corpus(exclude={nms(s_) for s_ in scrolls} | {nms(ms)})
+        c = pmatch.Corpus(exclude={nms(s_) for s_ in scrolls} | {nms(ms), nms(ms.split('-')[0])})
         keep = []
         for n, rd, k in cand[ms]:
             tl = [l for x in pairs[n]['links'] for l in et_lines[(x['etcbc'][0], x['etcbc'][1])]]
@@ -69,7 +86,8 @@ def main():
         if keep:
             by_ms[ms] = keep
     dms = sorted(by_ms)
-    json.dump(sorted(n for v in by_ms.values() for n, _, _ in v), open('data/m5/decoy_names.json', 'w'))
+    json.dump(sorted(n for v in by_ms.values() for n, _, _ in v),
+              open(os.environ.get('DECOY_NAMES', 'data/m5/decoy_names.json'), 'w'))
     print(len(dms), 'decoy manuscripts,', sum(len(v) for v in by_ms.values()), 'decoy readings', file=sys.stderr, flush=True)
     test_rd = json.load(open('data/m5/readings_run2.json'))
     tests = []
@@ -82,7 +100,8 @@ def main():
     res = json.load(open(path)) if os.path.exists(path) else {}
     base_lm = pmatch.Corpus(bg='lm').lm
     t0 = time.time()
-    for bg in ('unigram', 'lm'):
+    bgs = os.environ.get('BGS', 'unigram,lm').split(',')
+    for bg in bgs:
         if bg in res:
             continue
         dec, tst = [], []
@@ -92,7 +111,7 @@ def main():
             by_t[ms].append((n, rd, k))
         todo += [(ms, v, 'test') for ms, v in by_t.items()]
         for ms, items, kind in todo:
-            c = pmatch.Corpus(exclude={nms(ms)}, bg=bg, lm=base_lm if bg == 'lm' else None)
+            c = pmatch.Corpus(exclude={nms(ms), nms(ms.split('-')[0])}, bg=bg, lm=base_lm if bg == 'lm' else None)
             for n, rd, k in items:
                 h = c.search(rd, top=1)
                 rec = dict(name=n, manuscript=ms, read=k, score=h[0][0], ref=h[0][2], doc=h[0][1])
@@ -102,7 +121,7 @@ def main():
         print(bg, len(dec), 'decoys', len(tst), 'tests', round(time.time() - t0), 's', file=sys.stderr, flush=True)
 
     out = {}
-    for bg in ('unigram', 'lm'):
+    for bg in bgs:
         dec, tst = res[bg]['decoys'], res[bg]['tests']
         dl = np.array([d['read'] for d in dec]); ds = np.array([d['score'] for d in dec])
 

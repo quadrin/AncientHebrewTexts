@@ -51,7 +51,8 @@ The session also validated the matcher: a blind text-only overlap check re-ident
 
 - Base: `https://sqe-api.deadseascrolls.org.il/v1`, spec at `/swagger/v1/swagger.json`. 1,369 public editions (`GET /editions`).
 - Useful endpoints: `/editions/{id}/text-fragments`, `/editions/{id}/text-fragments/{tf}/lines`, `/editions/{id}/artefacts`, `/catalogue/editions/{id}/imaged-object-text-fragment-matches`, `/catalogue/imaged-objects/{io}/text-fragments`, `/editions/{id}/script-lines`.
-- `/editions/{id}/artefacts/{aid}/rois` exists, but a sample of 29 editions (including 4Q51, 4Q27, 4Q266, 1QS) returned zero ROIs. Do not count on sign-level boxes; the pairing is at fragment level, and letter positions have to be learned.
+- `/editions/{id}/artefacts/{aid}/rois` always returns an empty list. The sign-level ROIs are in `/editions/{id}/script-lines` (one call per edition): letter polygons (WKT, SQE master-image coordinates, 7216 × 5412 at 1,215 ppi) on 81 editions, about 3,400 letters on IAA fragment images (e.g. 4Q51 812 ROIs, 4Q299 766, 4Q27 none). Too few to train on; use them as a gold standard for alignment and letter-level tests. Registration to the Leon Levy photos still has to be checked.
+- `/imaged-objects/{IAA-plate-frag}` lists IIIF images on `iaa.iiifhosting.com`: colour, IR 924 nm, and IR raking left/right, for recto and verso. So raking light and every verso are public too, not only the Leon Levy IR and colour composites.
 
 ### Transcriptions
 
