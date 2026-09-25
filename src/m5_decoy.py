@@ -2,8 +2,11 @@
 
 Shuffled readings are too weak a control (real readings consist of real words
 and beat shuffled letters everywhere). Decoys here are real readings with no
-true parallel: images of non-biblical compositions that survive in a single
-manuscript, searched with their own manuscript left out. A held-out test piece
+known true parallel: images whose own linked transcription has no preserved
+run of >= DECOY_RUN letters anywhere else in the corpus (checked like the M5
+ground truth), searched with their own manuscript left out. (A first version
+used single-copy non-biblical compositions; that let in real parallels such
+as 4Q365 -> Genesis and 4Q432 -> 1QHa.) A held-out test piece
 (own manuscript left out, as in M5) gets p = share of length-matched decoys
 (read letters within x1.5) whose best score is at least its own.
 
@@ -24,7 +27,9 @@ from inventory import nms  # noqa: E402
 from prior import BOOKMAP, load_meta  # noqa: E402
 
 BANDS = [(3, 5), (6, 9), (10, 19), (20, 39), (40, 10 ** 6)]
-N_DECOY_MS = 150
+N_DECOY_MS = 400
+PER_MS = 8
+DECOY_RUN = 8
 
 
 def main():
@@ -34,19 +39,38 @@ def main():
     held = set(split['test']) | set(split['val'])
     ncopies = collections.Counter(comp.values())
     audit_rd = json.load(open(os.environ.get('DECOYS', 'data/audit/readings.json')))
-    # decoys: single-copy, non-biblical compositions, not held out
-    by_ms = collections.defaultdict(list)
+    # decoys: images whose own transcription has no >= DECOY_RUN-letter parallel
+    from m5_eval import truth
+    et_lines = collections.defaultdict(list)
+    for s_, f, l, t, m in json.load(open('data/m0/etcbc_lines.json')):
+        et_lines[(s_, f)].append(dict(line=l, text=t, marks=m))
+    cand = collections.defaultdict(list)
     for n, lines in audit_rd.items():
         ms = pairs[n]['manuscript']
-        m = ll.get(ms, {})
-        if ms in held or m.get('composition_type') in ('Scripture', 'Scripture?') or ncopies[comp.get(ms, ms)] != 1:
+        if ms in held:
             continue
         rd = [l['probs'] for l in lines if l['probs']]
         k = sum(len(l) for l in rd)
         if k >= 3:
-            by_ms[ms].append((n, rd, k))
+            cand[ms].append((n, rd, k))
     rnd = random.Random(0)
-    dms = rnd.sample(sorted(by_ms), min(N_DECOY_MS, len(by_ms)))
+    by_ms = {}
+    for ms in rnd.sample(sorted(cand), min(N_DECOY_MS, len(cand))):
+        scrolls = {x['etcbc'][0] for n, _, _ in cand[ms] for x in pairs[n]['links']}
+        c = pmatch.Corpus(exclude={nms(s_) for s_ in scrolls} | {nms(ms)})
+        keep = []
+        for n, rd, k in cand[ms]:
+            tl = [l for x in pairs[n]['links'] for l in et_lines[(x['etcbc'][0], x['etcbc'][1])]]
+            run, where = truth(c, tl, min_len=DECOY_RUN)
+            if not where:
+                keep.append((n, rd, k))
+            if len(keep) >= PER_MS:
+                break
+        if keep:
+            by_ms[ms] = keep
+    dms = sorted(by_ms)
+    json.dump(sorted(n for v in by_ms.values() for n, _, _ in v), open('data/m5/decoy_names.json', 'w'))
+    print(len(dms), 'decoy manuscripts,', sum(len(v) for v in by_ms.values()), 'decoy readings', file=sys.stderr, flush=True)
     test_rd = json.load(open('data/m5/readings_run2.json'))
     tests = []
     for n, lines in test_rd.items():
@@ -54,7 +78,7 @@ def main():
         k = sum(len(l) for l in rd)
         if k >= 3:
             tests.append((n, pairs[n]['manuscript'], rd, k))
-    path = 'data/m5/decoy_scores.json'
+    path = os.environ.get('OUT', 'data/m5/decoy_scores_v2.json')
     res = json.load(open(path)) if os.path.exists(path) else {}
     base_lm = pmatch.Corpus(bg='lm').lm
     t0 = time.time()
@@ -62,7 +86,7 @@ def main():
         if bg in res:
             continue
         dec, tst = [], []
-        todo = [(ms, [(n, rd, k) for n, rd, k in by_ms[ms][:4]], 'decoy') for ms in dms]
+        todo = [(ms, by_ms[ms], 'decoy') for ms in dms]
         by_t = collections.defaultdict(list)
         for n, ms, rd, k in tests:
             by_t[ms].append((n, rd, k))
@@ -112,7 +136,7 @@ def main():
         out[bg] = dict(rows=rows, decoys=len(dec), fp_rate_at_0_01=round(float(np.mean(np.array(fp) <= 0.01)), 4),
                        fp_rate_at_0_05=round(float(np.mean(np.array(fp) <= 0.05)), 4), fp_n=len(fp))
         print(bg, json.dumps(out[bg], indent=1))
-    json.dump(out, open('reports/M9_m5_decoy.json', 'w'), indent=1)
+    json.dump(out, open(os.environ.get('REPORT', 'reports/M9_m5_decoy.json'), 'w'), indent=1)
 
 
 if __name__ == '__main__':

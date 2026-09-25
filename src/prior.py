@@ -10,8 +10,9 @@ For a piece x:
      composition (ETCBC scrolls with the same Leon Levy composition name);
      plus the candidate's own transcription (catalogue-error case)
   3. restricted search of x's reading in that union, W = (1, 140) for scrolls
-  4. calibration - decoys: readings of identified pieces from compositions
-     outside the candidate set, of similar length, searched in the same union;
+  4. calibration - decoys: readings of identified pieces whose own text has no
+     known parallel (m5_decoy.py) and whose composition is outside the
+     candidate set, of similar length, searched in the same union;
      p = rank of x's best score among the decoys'
 
 Validation (held-out M5 manuscripts): x's own manuscript's transcription is
@@ -90,8 +91,12 @@ def validate(K):
     ref_plate = np.array([inv[n]['plate'] for n in ref])
     full = pmatch.Corpus()
     rnd = random.Random(0)
+    # decoys: images whose own text has no known parallel (m5_decoy.py)
+    clean = set(json.load(open('data/m5/decoy_names.json')))
     decoy_pool = []
     for d, lines in audit_rd.items():
+        if d not in clean:
+            continue
         rd = [l['probs'] for l in lines if l['probs']]
         k = sum(len(l) for l in rd)
         if k >= 3:
