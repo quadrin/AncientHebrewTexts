@@ -9,9 +9,10 @@ Pieces searched (full Hebrew reference, local line scores, run-4 readings):
           manuscripts, searched with every witness of their book masked (the
           MT book and all scroll copies of it): 'lost text with
           near-neighbours'
-One full corpus is built once; exclusion masks the score array (a line chain
-that runs across a document boundary is the only difference from a rebuilt
-corpus).
+One full corpus is built once; exclusion masks every line's score before
+chaining (pmatch.score_array(mask=...)). Masking only the start offsets was
+wrong: a many-line chain starting in the previous document reached the
+piece's own text through its later lines (4Q184 -> '4Q183').
 
 Per search:
   S     best fragment score (nats; each position is a likelihood ratio with
@@ -109,11 +110,9 @@ class Groups:
 
 
 def search(c, G, rd, mask):
-    acc = c.score_array(rd, W)
+    acc = c.score_array(rd, W, mask=mask)
     if acc is None:
         return None
-    acc = acc.copy()
-    acc[mask] = -1e9
     b = int(np.argmax(acc))
     S = float(acc[b])
     gtop = G.group[G.doc_id[b]]
@@ -146,6 +145,35 @@ class Null:
             E = float((b['t'] >= T).sum()) / max(b['n'], 1)
         else:
             E = b['Eu'] * np.exp(-b['lam'] * (T - b['u']))
+        return float(1 - np.exp(-E))
+
+
+class WindowNull:
+    """Decoys of similar length (read letters within x1.5), own manuscript left out.
+    tail=False: p = share of those decoys whose best T is >= the piece's (M5 style).
+    tail=True: expected islands per search above T, counted on those decoys and
+    extended past their 90th percentile with a fitted exponential; p = 1 - exp(-E)."""
+
+    def __init__(self, recs, tail):
+        self.recs, self.tail = recs, tail
+        self.read = np.array([r['read'] for r in recs], float)
+
+    def p(self, r):
+        sel = [x for x, k in zip(self.recs, np.abs(np.log(self.read / r['read'])) <= np.log(1.5))
+               if k and x['manuscript'] != r['manuscript']]
+        if len(sel) < 20:
+            sel = sorted(self.recs, key=lambda x: abs(np.log(x['read'] / r['read'])))[:20]
+        if not self.tail:
+            best = np.array([x['T'] for x in sel])
+            return float((1 + (best >= r['T']).sum()) / (len(best) + 1))
+        t = np.concatenate([x['islands'] for x in sel])
+        u = np.percentile(t, 90)
+        if r['T'] <= u:
+            E = float((t >= r['T']).sum()) / len(sel)
+        else:
+            ex = t[t > u] - u
+            lam = 1.0 / max(ex.mean(), 1e-3)
+            E = float((t > u).sum()) / len(sel) * np.exp(-lam * (r['T'] - u))
         return float(1 - np.exp(-E))
 
 
@@ -216,29 +244,36 @@ def main():
     bins = list(np.quantile([r['I'] for r in dec], np.linspace(0, 1, NBINS + 1)))
     bins[0], bins[-1] = -1e9, 1e9
     out = dict(pieces=dict(test=len(tst), decoy=len(dec), srcx=len(srcx)), models={})
-    for name, fit in (('decoy_half', cal), ('decoy_half+srcx', cal + srcx)):
-        null = Null(fit, bins)
-        pc = np.array([null.p(r['I'], r['T']) for r in chk])
-        ps = np.array([null.p(r['I'], r['T']) for r in srcx]) if name == 'decoy_half' else None
+    models = [('bins_I|decoy_half', lambda f: Null(f, bins), cal),
+              ('bins_I|decoy_half+srcx', lambda f: Null(f, bins), cal + srcx),
+              ('window_max|decoy_half', lambda f: WindowNull(f, False), cal),
+              ('window_tail|decoy_half', lambda f: WindowNull(f, True), cal),
+              ('window_tail|decoy_half+srcx', lambda f: WindowNull(f, True), cal + srcx)]
+    for name, make, fit in models:
+        null = make(fit)
+        pv = (lambda r: null.p(r['I'], r['T'])) if isinstance(null, Null) else null.p
+        pc = np.array([pv(r) for r in chk])
+        ps = np.array([pv(r) for r in srcx]) if 'srcx' not in name else None
         rows = []
+        own_books = lambda r: {'B:' + x for x in BOOKMAP[comp[r['manuscript']]]}
         for lo, hi in BANDS:
             b = [r for r in tst if lo <= r['read'] <= hi and comp.get(r['manuscript'], '') in BOOKMAP]
-            own_books = lambda r: {'B:' + x for x in BOOKMAP[comp[r['manuscript']]]}
             row = dict(read=f'{lo}-{hi if hi < 10**6 else "+"}', biblical=len(b),
                        top1_own_book=sum(bool(set(r['groups']) & own_books(r)) for r in b))
             for a in (0.05, 0.01, 0.001):
-                sel = [r for r in b if null.p(r['I'], r['T']) <= a]
+                sel = [r for r in b if pv(r) <= a]
                 row[f'p<={a}'] = len(sel)
                 row[f'p<={a}_own_book'] = sum(bool(set(r['groups']) & own_books(r)) for r in sel)
             rows.append(row)
+        b10 = [r for r in tst if r['read'] >= 10 and comp.get(r['manuscript'], '') in BOOKMAP]
+        pooled = {str(a): sum(1 for r in b10 if pv(r) <= a and set(r['groups']) & own_books(r)) for a in (0.05, 0.01, 0.001)}
         out['models'][name] = dict(
-            rows=rows,
+            rows=rows, pooled_10plus_own_book=pooled, pooled_10plus_n=len(b10),
             heldout_decoys=len(chk),
             heldout_decoy_rate={str(a): round(float((pc <= a).mean()), 4) for a in (0.05, 0.01, 0.001)},
             srcx_rate=({str(a): round(float((ps <= a).mean()), 4) for a in (0.05, 0.01, 0.001)}
-                       if ps is not None else None),
-            bins=[dict(I_lo=round(float(lo), 1), n=t['n'], u=round(t['u'], 2), lam=round(t['lam'], 3),
-                       Eu=round(t['Eu'], 3)) for lo, t in zip(bins, null.tab)])
+                       if ps is not None else None))
+        print(name, pooled, out['models'][name]['heldout_decoy_rate'], out['models'][name]['srcx_rate'], flush=True)
     json.dump(out, open('reports/E4.json', 'w'), indent=1)
     print(json.dumps(out, indent=1))
 

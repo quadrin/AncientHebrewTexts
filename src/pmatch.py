@@ -276,8 +276,12 @@ class Corpus:
             self.doc_names = [self.docs[i] for i in starts]
         return np.maximum.reduceat(acc, self.doc_start)
 
-    def score_array(self, lines, W=(15, 140), min_letters=1, gapped=False):
-        """Fragment score at every corpus offset (line 1 start), or None."""
+    def score_array(self, lines, W=(15, 140), min_letters=1, gapped=False, mask=None):
+        """Fragment score at every corpus offset (line 1 start), or None.
+        mask: optional boolean array over corpus positions to leave out (e.g. the
+        piece's own manuscript). Every line scores 0 there, before chaining, so a
+        chain that starts elsewhere cannot reach the masked text through a later
+        line; start offsets inside the mask get -inf."""
         tables = [self.llr_table(l) for l in lines]
         tables = [t for t in tables if len(t) >= min_letters]
         if not tables:
@@ -295,6 +299,8 @@ class Corpus:
         for k, t in enumerate(reversed(tables)):
             s = score(t).astype(np.float64)
             s = np.maximum(s, 0.0)
+            if mask is not None:
+                s[mask] = 0.0
             if acc is not None:
                 # lines that would fall past the end of the reference count
                 # as skipped (0), like any other unplaceable line
@@ -304,4 +310,6 @@ class Corpus:
                     nxt[:len(s) - W[0]] = mx[W[0]:]
                 s = s + nxt
             acc = s
+        if mask is not None:
+            acc[mask] = -1e9
         return acc
