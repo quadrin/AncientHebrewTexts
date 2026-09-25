@@ -50,6 +50,8 @@ def main():
     ap.add_argument('--gapped', action='store_true')
     ap.add_argument('--limit', type=int, default=0)
     ap.add_argument('--m5', default='', help='M5 results file whose controls join the null pool')
+    ap.add_argument('--out', default=f'{D7}/results.json')
+    ap.add_argument('--no-targum', action='store_true', help='do not search targums for Aramaic targets')
     a = ap.parse_args()
     os.makedirs(f'{D7}/crops', exist_ok=True)
     batch = [b for b in json.load(open('data/m2/batch_target.json')) if not b['error']]
@@ -59,6 +61,13 @@ def main():
     if a.limit:
         batch = batch[:a.limit]
     etcbc_scrolls = {nms(s) for s, *_ in json.load(open('data/ref/dss_lines.json'))}
+    lang = {}
+    for f in ('data/m0/ll_manuscripts.json',):
+        for m in json.load(open(f)):
+            lang[m['manuscript_number']] = m.get('script_language', '')
+    for k, m in json.load(open('data/m0/ll_other_manuscripts.json')).items():
+        if m:
+            lang[k] = m.get('script_language', '')
 
     model = load_model(a.model)
     rpath = f'{D7}/readings.json'
@@ -86,38 +95,41 @@ def main():
     for k, (b, rd, n) in enumerate(todo):
         ex = nms(b['manuscript'])
         ex = ex if ex in etcbc_scrolls else None
-        if ex not in corpora:
+        aram = lang.get(b['manuscript'], '').startswith('Aramaic') and not a.no_targum
+        if (ex, aram) not in corpora:
             corpora.clear()
-            corpora[ex] = pmatch.Corpus(exclude={ex} if ex else (), mode='ex')
-        c = corpora[ex]
+            corpora[(ex, aram)] = pmatch.Corpus(exclude={ex} if ex else (), mode='ex', targum=aram)
+        c = corpora[(ex, aram)]
         hits = c.search(rd, gapped=a.gapped)
         null = [c.search(shuffled(rd, rnd), gapped=a.gapped)[0][0] for _ in range(N_SHUF)]
-        results.append(dict(name=b['name'], manuscript=b['manuscript'], read_letters=n, read_lines=len(rd),
+        results.append(dict(name=b['name'], manuscript=b['manuscript'], read_letters=n, read_lines=len(rd), targum=aram,
                             reading=[l['text'] for l in readings[b['name']]],
                             hits=[(round(s, 2), d, ref, o) for s, d, ref, o in hits],
                             null=[round(x, 2) for x in null]))
         if k % 20 == 19:
             print(k + 1, 'matched', round(time.time() - t0), 's', file=sys.stderr)
-            json.dump(results, open(f'{D7}/results.json', 'w'), ensure_ascii=False)
-    json.dump(results, open(f'{D7}/results.json', 'w'), ensure_ascii=False)
+            json.dump(results, open(a.out, 'w'), ensure_ascii=False)
+    json.dump(results, open(a.out, 'w'), ensure_ascii=False)
 
     # ---- p-values from pooled controls in the same read-letter band
+    # controls pooled by read-letter band and by corpus (with / without targums:
+    # a bigger corpus gives higher chance scores); M5 controls used no targums
     pool = collections.defaultdict(list)
     for r in results:
-        pool[band(r['read_letters'])] += r['null']
+        pool[(band(r['read_letters']), r['targum'])] += r['null']
     if a.m5 and os.path.exists(a.m5):
         for r in json.load(open(a.m5)):
             bd = band(r['read_letters'])
             if bd:
-                pool[bd] += [x for x in r['ex']['null'] if x is not None]
+                pool[(bd, False)] += [x for x in r['ex']['null'] if x is not None]
     pool = {k: np.sort(np.array(v)) for k, v in pool.items()}
     for r in results:
-        nb = pool[band(r['read_letters'])]
+        nb = pool[(band(r['read_letters']), r['targum'])]
         s = r['hits'][0][0]
         r['p'] = float((np.sum(nb >= s) + 1) / (len(nb) + 1))
         r['E'] = r['p'] * len(results)
     results.sort(key=lambda r: r['p'])
-    json.dump(results, open(f'{D7}/results.json', 'w'), ensure_ascii=False)
+    json.dump(results, open(a.out, 'w'), ensure_ascii=False)
 
     # ---- crops for the reviewer (local only)
     for r in results[:60]:

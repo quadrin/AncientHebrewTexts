@@ -32,8 +32,9 @@ def _norm(c):
 
 
 class Corpus:
-    def __init__(self, exclude=(), mode='ex'):
-        """exclude: normalised scroll sigla to leave out (the fragment's own manuscript)."""
+    def __init__(self, exclude=(), mode='ex', targum=False):
+        """exclude: normalised scroll sigla to leave out (the fragment's own manuscript).
+        targum: also search the Aramaic targums (data/ref/targum.json), for Aramaic targets."""
         self.mode = mode
         ids, refs, docs = [], [], []
 
@@ -60,6 +61,12 @@ class Corpus:
             by_book[ref.split('.')[0]].append((ref, t))
         for b, vs in by_book.items():
             add('MT ' + b, [(c, r) for r, t in vs for c in t if c != ' '])
+        if targum:
+            by_work = collections.defaultdict(list)
+            for ref, t in json.load(open('data/ref/targum.json')):
+                by_work[ref.rsplit('.', 2)[0]].append((ref, t))
+            for w, vs in by_work.items():
+                add('TG ' + w, [(c, r) for r, t in vs for c in t if c != ' '])
         by_scroll = collections.defaultdict(list)
         for s, f, l, t, m, _ in json.load(open('data/ref/dss_lines.json')):
             by_scroll[s].append((f, l, t, m))

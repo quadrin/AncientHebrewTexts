@@ -1,6 +1,6 @@
 """M2 batch: preprocess the clean one-to-one pairs and compare line counts.
 
-Usage: python3 src/prep_batch.py [parchment|papyrus|all|target]
+Usage: python3 src/prep_batch.py [parchment|papyrus|all|target|shared]
 Writes data/m2/{raw,crop,ink,seg}/ and data/m2/batch_{set}.json, and prints
 line-count agreement against the transcription.
 """
@@ -44,6 +44,11 @@ if __name__ == '__main__':
     if which == 'target':
         # unidentified sets for M7: every recto image, no transcription
         sel = [r for r in pairs if r['split'] == 'target' and r['side'] == 'Recto']
+    elif which == 'shared':
+        # text fragments spread over several pieces, or several on one piece:
+        # aligned later with the recogniser's own reading (align_self.py)
+        sel = [r for r in pairs if r['split'] == 'train' and r['category'] in ('shared', 'image_many')
+               and r['side'] == 'Recto']
     else:
         sel = [r for r in pairs if r['split'] == 'train' and r['category'] == 'one_to_one'
                and r['side'] == 'Recto' and 'ink' in r and not r['ink'].get('flag')
@@ -55,11 +60,11 @@ if __name__ == '__main__':
             res[r['name']] = r
             if k % 250 == 249:
                 print(k + 1, file=sys.stderr)
-    if which == 'target':
+    if which in ('target', 'shared'):
         out = [dict(name=r['name'], manuscript=r['manuscript'], material=r['material'],
                     detected=len(res[r['name']].get('lines', [])) if 'error' not in res[r['name']] else None,
                     error=res[r['name']].get('error')) for r in sel]
-        json.dump(out, open(f'{D2}/batch_target.json', 'w'))
+        json.dump(out, open(f'{D2}/batch_{which}.json', 'w'))
         print(json.dumps(dict(images=len(out), errors=sum(1 for o in out if o['error'])), indent=1))
         sys.exit(0)
     out = []
