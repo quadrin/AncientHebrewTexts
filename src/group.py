@@ -107,9 +107,14 @@ def piece_pvalues(real, null, reads):
     return p, pn
 
 
-def group_stat(logp):
-    """logp: (k, D) of -log p -> (best doc index, statistic)."""
-    s = logp.sum(0)
+TRUNC = -np.log(0.05)
+
+
+def group_stat(logp, truncated=False):
+    """logp: (k, D) of -log p -> (best doc index, statistic).
+    truncated: only pieces with p < 0.05 for a document count towards it
+    (robust for large, mixed groups such as whole plates)."""
+    s = np.maximum(logp - TRUNC, 0).sum(0) if truncated else logp.sum(0)
     d = int(np.argmax(s))
     return d, float(s[d])
 
@@ -205,36 +210,35 @@ def validate():
 
 
 def plates():
+    """4Q9999 plates hold ~38 pieces each, surely from many manuscripts. Ask
+    whether several pieces on one plate point to the same document: truncated
+    Fisher statistic, against random sets of the same size from all pieces."""
     real, null, docs, meta = load('target')
     reads = [m['read'] for m in meta]
-    p, pn = piece_pvalues(real, null, reads)
-    lp, nlp = -np.log(p), -np.log(pn)
+    p, _ = piece_pvalues(real, null, reads)
+    lp = -np.log(p)
     inv = {x['name']: x for x in json.load(open('data/m0/inventory_images.json'))}
     groups = collections.defaultdict(list)
     for i, m in enumerate(meta):
-        if m['manuscript'] == '4Q9999':
-            groups[inv[m['name']]['plate']].append(i)
+        groups[inv[m['name']]['plate']].append(i)
     rnd = random.Random(2)
-    owner = [inv[m['name']]['plate'] for m in meta]
-    thr_cache = {}
     rows = []
     for plate, idx in groups.items():
         k = len(idx)
-        if k not in thr_cache:
-            vals, _ = mixed_null(lp, owner, k, rnd, draws=1000)
-            thr_cache[k] = (float(np.quantile(vals, 0.99)), vals)
-        thr, vals = thr_cache[k]
-        d, s = group_stat(lp[idx])
-        pval = (1 + sum(v >= s for v in vals)) / (len(vals) + 1)
-        contrib = sorted(((float(lp[i, d]), meta[i]['name'], meta[i]['read']) for i in idx), reverse=True)
-        rows.append(dict(plate=plate, pieces=k, best_doc=docs[d], stat=round(s, 2), threshold_1pct=round(thr, 2),
-                         p=round(pval, 4), top_pieces=contrib[:4]))
+        vals = [group_stat(lp[rnd.sample(range(len(meta)), k)], truncated=True)[1] for _ in range(1000)]
+        d, st = group_stat(lp[idx], truncated=True)
+        pval = (1 + sum(v >= st for v in vals)) / (len(vals) + 1)
+        contrib = sorted(((round(float(lp[i, d]), 2), meta[i]['name'], meta[i]['read']) for i in idx
+                          if lp[i, d] > TRUNC), reverse=True)
+        rows.append(dict(plate=plate, pieces=k, best_doc=docs[d], stat=round(st, 2),
+                         decoy_median=round(float(np.median(vals)), 2), p=round(pval, 4),
+                         pieces_pointing=contrib))
     rows.sort(key=lambda r: r['p'])
     for r in rows:
         r['E'] = round(r['p'] * len(rows), 3)
     json.dump(rows, open(f'{DG}/plates.json', 'w'), ensure_ascii=False, indent=1)
-    for r in rows[:15]:
-        print(r)
+    for r in rows[:12]:
+        print({k: v for k, v in r.items() if k != 'pieces_pointing'}, r['pieces_pointing'][:4])
 
 
 if __name__ == '__main__':
