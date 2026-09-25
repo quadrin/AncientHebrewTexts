@@ -68,9 +68,31 @@ class LetterLM:
         return (x[:-3] * S + x[1:-2]) * S + x[2:-1]
 
 
+def window_lse(x, size, mx):
+    """y[i] = log(sum(exp(x[i:i+size]))) (past the end: exp = 0), computed in blocks
+    of `size` with the block-pair maximum as reference; clamped to
+    [mx, mx + log(size)] (mx: the window maximum), which also covers
+    cancellation in the cumulative sums."""
+    n = len(x)
+    nb = -(-n // size)
+    X = np.full((nb + 1) * size, -np.inf)
+    X[:n] = x
+    Xr = X.reshape(nb + 1, size)
+    R = np.concatenate([Xr[:-1], Xr[1:]], axis=1)             # nb x 2*size
+    ref = R.max(1)
+    ref = np.where(np.isfinite(ref), ref, 0.0)
+    E = np.exp(R - ref[:, None])
+    CS = np.concatenate([np.zeros((nb, 1)), np.cumsum(E, axis=1)], axis=1)
+    with np.errstate(divide='ignore', invalid='ignore'):
+        Y = ref[:, None] + np.log(CS[:, size:2 * size] - CS[:, :size])
+    y = Y.reshape(-1)[:n]
+    y = np.where(np.isfinite(y), y, -np.inf)
+    return np.clip(y, mx, mx + np.log(size))
+
+
 class Corpus:
     def __init__(self, exclude=(), mode='ex', targum=False, mt=True, keep=None, q=None, bg='unigram', lm=None,
-                 local=None):
+                 local=None, entrap=False):
         """exclude: normalised scroll sigla to leave out (the fragment's own manuscript).
         targum: also search the Aramaic targums (data/ref/targum.json), for Aramaic targets.
         mt: include the Masoretic text (True), none of it (False), or a set of
@@ -83,6 +105,9 @@ class Corpus:
         ones much (real readings consist of real words, which fit any Hebrew
         text better than random letters do). lm: a trained LetterLM to reuse
         (pass the full corpus's for small corpora).
+        entrap: also add the entrapment corpus (data/ref/entrap.json: Mishnah and
+        Tosefta with shared stretches blanked) as documents 'EN <work>'; the
+        letter frequencies q stay those of the reference.
         local: score each reading line by its best contiguous stretch on each
         diagonal (misread letters at the ends of a long line then cost nothing)
         instead of the sum over the whole line."""
@@ -120,6 +145,7 @@ class Corpus:
                 by_work[ref.rsplit('.', 2)[0]].append((ref, t))
             for w, vs in by_work.items():
                 add('TG ' + w, [(c, r) for r, t in vs for c in t if c != ' '])
+        n_ref = None
         by_scroll = collections.defaultdict(list)
         for s, f, l, t, m, _ in json.load(open('data/ref/dss_lines.json')):
             by_scroll[s].append((f, l, t, m))
@@ -142,9 +168,17 @@ class Corpus:
                         seq.append((None, None))
             if seq:
                 add('DSS ' + s, seq)
+        n_ref = len(ids)
+        if entrap:
+            by_work = collections.defaultdict(list)
+            for ref, t in json.load(open('data/ref/entrap.json')):
+                by_work[ref.rsplit('.', 2)[0]].append((ref, t))
+            for w, vs in by_work.items():
+                add('EN ' + w, [(None if c == '|' else c, r) for r, t in vs for c in t if c != ' '])
         self.ids = np.array(ids, np.int8)
         self.refs, self.docs = refs, docs
-        cnt = np.bincount(self.ids[self.ids != BAR], minlength=len(LET)).astype(np.float64)
+        ref_ids = self.ids[:n_ref]
+        cnt = np.bincount(ref_ids[ref_ids != BAR], minlength=len(LET)).astype(np.float64)
         self.q = q if q is not None else cnt / cnt.sum()
         self.letters = int(cnt.sum())
         self.bg = bg
@@ -276,12 +310,16 @@ class Corpus:
             self.doc_names = [self.docs[i] for i in starts]
         return np.maximum.reduceat(acc, self.doc_start)
 
-    def score_array(self, lines, W=(15, 140), min_letters=1, gapped=False, mask=None):
+    def score_array(self, lines, W=(15, 140), min_letters=1, gapped=False, mask=None, forward=False):
         """Fragment score at every corpus offset (line 1 start), or None.
         mask: optional boolean array over corpus positions to leave out (e.g. the
         piece's own manuscript). Every line scores 0 there, before chaining, so a
         chain that starts elsewhere cannot reach the masked text through a later
-        line; start offsets inside the mask get -inf."""
+        line; start offsets inside the mask get -inf.
+        forward: sum over line spacings instead of taking the best one: the next
+        line contributes log(mean over the W window of exp(score)) (a uniform
+        prior over spacings), so the chained score stays a likelihood ratio with
+        mean 1 and the spacing multiplicity drops out of ln N."""
         tables = [self.llr_table(l) for l in lines]
         tables = [t for t in tables if len(t) >= min_letters]
         if not tables:
@@ -305,6 +343,8 @@ class Corpus:
                 # lines that would fall past the end of the reference count
                 # as skipped (0), like any other unplaceable line
                 mx = maximum_filter1d(acc, size=size, origin=-(size // 2), mode='constant', cval=0.0)
+                if forward:
+                    mx = window_lse(acc, size, mx) - np.log(size)
                 nxt = np.zeros_like(s)
                 if len(s) > W[0]:
                     nxt[:len(s) - W[0]] = mx[W[0]:]

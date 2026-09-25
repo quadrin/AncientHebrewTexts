@@ -2,6 +2,7 @@
 
 Usage: python3 src/reread.py MODEL OUT.json SET
   SET = m5test : the M5 held-out test images (keys of data/m5/readings_run2.json)
+        m7target: the M7 target images (keys of data/m7/readings_run2.json)
         decoy_v4: identified images that can be v4 decoys (m5_decoy.py rules,
                   before the per-image run test)
 """
@@ -12,6 +13,8 @@ from recognise import load_model, read_image  # noqa: E402
 model_path, out, which = sys.argv[1:4]
 if which == 'm5test':
     names = list(json.load(open('data/m5/readings_run2.json')))
+elif which == 'm7target':
+    names = list(json.load(open('data/m7/readings_run2.json')))
 else:
     from prior import load_meta, BOOKMAP
     ll, comp, etcbc = load_meta()
