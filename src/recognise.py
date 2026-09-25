@@ -19,13 +19,19 @@ D2 = 'data/m2'
 
 
 def load_model(path):
-    m = CRNN()
+    """Weights plus the line height the run was trained at (run.json, default 64)."""
+    h = H
+    rj = os.path.join(os.path.dirname(path), 'run.json')
+    if os.path.exists(rj):
+        h = json.load(open(rj))['args'].get('height', H)
+    m = CRNN(height=h)
     m.load_state_dict(torch.load(path, map_location='cpu'))
     m.eval()
+    m.height = h
     return m
 
 
-def prep_line(g):
+def prep_line(g, H=H):
     inside = g > 0
     fill = np.median(g[inside]) if inside.any() else 200
     g = np.where(inside, g, fill).astype(np.uint8)
@@ -63,7 +69,7 @@ def positions(probs, topk=5, min_p=0.01):
 
 def read_line(model, g, topk=5):
     with torch.no_grad():
-        lg = model(prep_line(g))[0]
+        lg = model(prep_line(g, getattr(model, 'height', H)))[0]
     probs = F.softmax(lg, -1).numpy()
     pos = positions(probs, topk)[::-1]           # to reading order (right to left)
     text = ''.join(s for s, _ in pos)

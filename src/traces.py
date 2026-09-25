@@ -115,7 +115,7 @@ def main():
             skipped['no_image'] += 1
             continue
         with torch.no_grad():
-            lg = model(prep_line(g))[0]
+            lg = model(prep_line(g, getattr(model, 'height', 64)))[0]
         logp = F.log_softmax(lg, -1).numpy()
         prob = np.exp(logp)
         # network order is left to right: reverse the label

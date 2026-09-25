@@ -1,0 +1,55 @@
+{
+ "unigram": {
+  "rows": [
+   {
+    "read": "3-5",
+    "biblical": 32,
+    "p<=0.01": 0,
+    "p<=0.01_own_book": 0,
+    "p<=0.05": 0,
+    "p<=0.05_own_book": 0,
+    "top1_own_book": 1
+   },
+   {
+    "read": "6-9",
+    "biblical": 21,
+    "p<=0.01": 0,
+    "p<=0.01_own_book": 0,
+    "p<=0.05": 0,
+    "p<=0.05_own_book": 0,
+    "top1_own_book": 3
+   },
+   {
+    "read": "10-19",
+    "biblical": 21,
+    "p<=0.01": 0,
+    "p<=0.01_own_book": 0,
+    "p<=0.05": 2,
+    "p<=0.05_own_book": 2,
+    "top1_own_book": 12
+   },
+   {
+    "read": "20-39",
+    "biblical": 14,
+    "p<=0.01": 1,
+    "p<=0.01_own_book": 1,
+    "p<=0.05": 5,
+    "p<=0.05_own_book": 5,
+    "top1_own_book": 9
+   },
+   {
+    "read": "40-+",
+    "biblical": 24,
+    "p<=0.01": 0,
+    "p<=0.01_own_book": 0,
+    "p<=0.05": 7,
+    "p<=0.05_own_book": 7,
+    "top1_own_book": 21
+   }
+  ],
+  "decoys": 736,
+  "fp_rate_at_0_01": 0.0,
+  "fp_rate_at_0_05": 0.0028,
+  "fp_n": 362
+ }
+}
