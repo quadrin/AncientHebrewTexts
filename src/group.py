@@ -125,6 +125,25 @@ def null_threshold(nlp, k, rnd, q=0.99, draws=2000):
     return float(np.quantile(vals, q)), vals
 
 
+def mixed_null(lp, owner, k, rnd, draws=2000):
+    """Decoy groups: k real pieces from k different manuscripts. They contain
+    real words but share no source, which is what a same-manuscript group must
+    beat. Returns the statistics and best-document indices."""
+    by = collections.defaultdict(list)
+    for i, o in enumerate(owner):
+        by[o].append(i)
+    keys = list(by)
+    vals, docs = [], []
+    if len(keys) < k:
+        return vals, docs
+    for _ in range(draws):
+        ii = [rnd.choice(by[m]) for m in rnd.sample(keys, k)]
+        d, st = group_stat(lp[ii])
+        vals.append(st)
+        docs.append(d)
+    return vals, docs
+
+
 def load(tag):
     z = np.load(f'{DG}/{tag}.npz')
     meta = json.load(open(f'{DG}/{tag}.json'))
@@ -141,38 +160,48 @@ def validate():
     real, null, docs, meta = load('m5')
     reads = [m['read'] for m in meta]
     p, pn = piece_pvalues(real, null, reads)
-    lp, nlp = -np.log(p), -np.log(pn)
+    lp = -np.log(p)
     ll = {m['manuscript_number']: m for m in json.load(open('data/m0/ll_manuscripts.json'))}
     rnd = random.Random(1)
+    small = [i for i, m in enumerate(meta) if m['read'] <= 19]
+    owner_small = [meta[i]['manuscript'] for i in small]
+    lp_small = lp[small]
     by_ms = collections.defaultdict(list)
-    for i, m in enumerate(meta):
-        if ll.get(m['manuscript'], {}).get('composition_name') in BOOKS and m['read'] <= 19:
-            by_ms[m['manuscript']].append(i)
+    for j, i in enumerate(small):
+        if ll.get(meta[i]['manuscript'], {}).get('composition_name') in BOOKS:
+            by_ms[meta[i]['manuscript']].append(j)
     out = []
     for k in (1, 2, 3, 5, 8):
-        thr, _ = null_threshold(nlp, k, rnd)
-        n = own = over = over_own = 0
+        vals, ddocs = mixed_null(lp_small, owner_small, k, rnd)
+        if not vals:
+            continue
+        thr = float(np.quantile(vals, 0.99))
+        thr5 = float(np.quantile(vals, 0.95))
+        n = own = over = over_own = over5 = over5_own = 0
+        decoy_own = []
         for ms, idx in by_ms.items():
             if len(idx) < k:
                 continue
             books = {'MT ' + b for b in BOOKS[ll[ms]['composition_name']]}
-            for _ in range(min(20, max(1, len(idx)))):
+            # how often a decoy group lands on this manuscript's book: chance level
+            decoy_own.append(np.mean([docs[d] in books for d in ddocs]))
+            for _ in range(20):
                 g = rnd.sample(idx, k)
-                d, s = group_stat(lp[g])
-                n += 1
+                d, st = group_stat(lp_small[g])
                 hit = docs[d] in books
-                own += hit
-                if s >= thr:
-                    over += 1
-                    over_own += hit
-        chance = np.mean([sum(1 for b in BOOKS[ll[ms]['composition_name']]) / len([d for d in docs if d.startswith('MT ')])
-                          for ms in by_ms]) if by_ms else 0
-        row = dict(group_size=k, groups=n, best_doc_own_book=own, over_1pct=over, over_1pct_own_book=over_own,
-                   threshold=round(thr, 2))
+                n += 1; own += hit
+                if st >= thr:
+                    over += 1; over_own += hit
+                if st >= thr5:
+                    over5 += 1; over5_own += hit
+        row = dict(group_size=k, groups=n, best_doc_own_book=own, chance_own_book=round(float(np.mean(decoy_own)) * n, 1) if decoy_own else None,
+                   over_5pct=over5, over_5pct_own_book=over5_own, over_1pct=over, over_1pct_own_book=over_own,
+                   threshold_1pct=round(thr, 2))
         out.append(row)
         print(row)
-    json.dump(dict(pieces=len(meta), small_biblical_pieces=sum(len(v) for v in by_ms.values()),
-                   manuscripts=len(by_ms), rows=out), open('reports/M8_group_validation.json', 'w'), indent=1)
+    json.dump(dict(null='decoy groups of real pieces from different manuscripts', pieces_small=len(small),
+                   biblical_manuscripts=len(by_ms), rows=out),
+              open('reports/M8_group_validation.json', 'w'), indent=1)
 
 
 def plates():
@@ -186,12 +215,14 @@ def plates():
         if m['manuscript'] == '4Q9999':
             groups[inv[m['name']]['plate']].append(i)
     rnd = random.Random(2)
+    owner = [inv[m['name']]['plate'] for m in meta]
     thr_cache = {}
     rows = []
     for plate, idx in groups.items():
         k = len(idx)
         if k not in thr_cache:
-            thr_cache[k] = null_threshold(nlp, k, rnd, draws=1000)
+            vals, _ = mixed_null(lp, owner, k, rnd, draws=1000)
+            thr_cache[k] = (float(np.quantile(vals, 0.99)), vals)
         thr, vals = thr_cache[k]
         d, s = group_stat(lp[idx])
         pval = (1 + sum(v >= s for v in vals)) / (len(vals) + 1)

@@ -1,0 +1,62 @@
+{
+ "null": "decoy groups of real pieces from different manuscripts",
+ "pieces_small": 121,
+ "biblical_manuscripts": 12,
+ "rows": [
+  {
+   "group_size": 1,
+   "groups": 240,
+   "best_doc_own_book": 15,
+   "chance_own_book": 3.6,
+   "over_5pct": 26,
+   "over_5pct_own_book": 0,
+   "over_1pct": 6,
+   "over_1pct_own_book": 0,
+   "threshold_1pct": 6.8
+  },
+  {
+   "group_size": 2,
+   "groups": 220,
+   "best_doc_own_book": 13,
+   "chance_own_book": 4.2,
+   "over_5pct": 3,
+   "over_5pct_own_book": 0,
+   "over_1pct": 0,
+   "over_1pct_own_book": 0,
+   "threshold_1pct": 11.61
+  },
+  {
+   "group_size": 3,
+   "groups": 140,
+   "best_doc_own_book": 19,
+   "chance_own_book": 2.1,
+   "over_5pct": 19,
+   "over_5pct_own_book": 4,
+   "over_1pct": 2,
+   "over_1pct_own_book": 0,
+   "threshold_1pct": 14.15
+  },
+  {
+   "group_size": 5,
+   "groups": 100,
+   "best_doc_own_book": 22,
+   "chance_own_book": 2.2,
+   "over_5pct": 11,
+   "over_5pct_own_book": 8,
+   "over_1pct": 4,
+   "over_1pct_own_book": 2,
+   "threshold_1pct": 17.66
+  },
+  {
+   "group_size": 8,
+   "groups": 80,
+   "best_doc_own_book": 28,
+   "chance_own_book": 2.0,
+   "over_5pct": 24,
+   "over_5pct_own_book": 5,
+   "over_1pct": 7,
+   "over_1pct_own_book": 1,
+   "threshold_1pct": 22.91
+  }
+ ]
+}
