@@ -1,0 +1,24 @@
+{
+ "images": 73,
+ "verdicts": {
+  "no_fit": 8,
+  "ok": 46,
+  "elsewhere": 1,
+  "too_short": 11,
+  "weak": 7
+ },
+ "by_category": {
+  "one_to_one|no_fit": 4,
+  "one_to_one|ok": 22,
+  "one_to_one|elsewhere": 1,
+  "one_to_one|too_short": 9,
+  "shared|ok": 23,
+  "shared|weak": 3,
+  "image_many|ok": 1,
+  "one_to_one|weak": 4,
+  "shared|no_fit": 3,
+  "image_many|too_short": 1,
+  "shared|too_short": 1,
+  "image_many|no_fit": 1
+ }
+}
