@@ -31,14 +31,57 @@ def _norm(c):
     return c.translate(FIN)
 
 
+class LetterLM:
+    """Interpolated letter 4-gram model over the 22 letters plus the barrier.
+
+    table[ctx] is the predictive distribution over the 22 letters for each of
+    the 23^3 three-symbol contexts (barriers included, so a context resets at
+    gaps). Orders 0-3 are interpolated with fixed weights; each order uses
+    add-ALPHA smoothing."""
+    ALPHA = 0.1
+    WEIGHTS = (0.05, 0.15, 0.3, 0.5)
+
+    def __init__(self, ids):
+        V, S = len(LET), len(LET) + 1
+        x = ids.astype(np.int64)
+        c0, c1, c2, c3 = x[3:], x[2:-1], x[1:-2], x[:-3]      # target and 3 previous symbols
+        ok = c0 != BAR
+        c0, c1, c2, c3 = c0[ok], c1[ok], c2[ok], c3[ok]
+
+        def dist(ctx_id, n_ctx):
+            cnt = np.zeros((n_ctx, V))
+            np.add.at(cnt, (ctx_id, c0), 1)
+            return (cnt + self.ALPHA) / (cnt.sum(1, keepdims=True) + V * self.ALPHA)
+        p0 = dist(np.zeros_like(c0), 1)
+        p1 = dist(c1, S)
+        p2 = dist(c2 * S + c1, S * S)
+        p3 = dist((c3 * S + c2) * S + c1, S ** 3)
+        a, b, c = np.meshgrid(np.arange(S), np.arange(S), np.arange(S), indexing='ij')   # c3, c2, c1
+        a, b, c = a.ravel(), b.ravel(), c.ravel()
+        w0, w1, w2, w3 = self.WEIGHTS
+        self.table = (w0 * p0[0][None, :] + w1 * p1[c] + w2 * p2[b * S + c] + w3 * p3[(a * S + b) * S + c])
+        self.S = S
+
+    def contexts(self, ids):
+        S = self.S
+        x = np.concatenate([[BAR, BAR, BAR], ids.astype(np.int64)])
+        return (x[:-3] * S + x[1:-2]) * S + x[2:-1]
+
+
 class Corpus:
-    def __init__(self, exclude=(), mode='ex', targum=False, mt=True, keep=None, q=None):
+    def __init__(self, exclude=(), mode='ex', targum=False, mt=True, keep=None, q=None, bg='unigram', lm=None):
         """exclude: normalised scroll sigla to leave out (the fragment's own manuscript).
         targum: also search the Aramaic targums (data/ref/targum.json), for Aramaic targets.
         mt: include the Masoretic text (True), none of it (False), or a set of
         book codes ('Gen', 'Ps', ...). keep: optional callable (scroll, fragment) -> bool
         restricting the scroll fragments (a small, targeted corpus). q: letter
-        frequencies to use (pass the full corpus's for small corpora)."""
+        frequencies to use (pass the full corpus's for small corpora).
+        bg: background model for the log-likelihood ratio. 'unigram' compares a
+        match with random letters of corpus frequency; 'lm' compares it with a
+        letter 4-gram model of Hebrew, so that common words earn little and rare
+        ones much (real readings consist of real words, which fit any Hebrew
+        text better than random letters do). lm: a trained LetterLM to reuse
+        (pass the full corpus's for small corpora)."""
         self.mode = mode
         ids, refs, docs = [], [], []
 
@@ -100,6 +143,10 @@ class Corpus:
         cnt = np.bincount(self.ids[self.ids != BAR], minlength=len(LET)).astype(np.float64)
         self.q = q if q is not None else cnt / cnt.sum()
         self.letters = int(cnt.sum())
+        self.bg = bg
+        if bg == 'lm':
+            self.lm = lm if lm is not None else LetterLM(self.ids)
+            self.ctx = self.lm.contexts(self.ids)
 
     # -------------------------------------------------------------- scoring
     def llr_table(self, dists):
@@ -116,9 +163,24 @@ class Corpus:
                     continue
                 p[IDX['ו']] = p[IDX['י']] = 0
             p = p / p.sum() if p.sum() else np.full(len(LET), 1 / len(LET))
-            den = float(np.dot(self.q, p + EPS))
-            rows.append(np.concatenate([np.log((p + EPS) / den), [-20.0]]))
-        return np.array(rows) if rows else np.zeros((0, len(LET) + 1))
+            if self.bg == 'lm':
+                rows.append(np.concatenate([np.log(p + EPS), [-20.0], p + EPS]))
+            else:
+                den = float(np.dot(self.q, p + EPS))
+                rows.append(np.concatenate([np.log((p + EPS) / den), [-20.0]]))
+        width = len(LET) + 1 + (len(LET) if self.bg == 'lm' else 0)
+        return np.array(rows) if rows else np.zeros((0, width))
+
+    def _col(self, row, ids):
+        """Score of one reading position at every corpus position (ids order)."""
+        if self.bg != 'lm':
+            return row[ids]
+        num = row[:len(LET) + 1][ids]
+        v = self.lm.table @ row[len(LET) + 1:]          # expected P(reading) per context
+        ctx = self.ctx if ids is self._ids64 else self.ctx[::-1]
+        col = num - np.log(v[ctx])
+        col[ids == BAR] = -20.0
+        return col
 
     def line_scores(self, table):
         n = len(self.ids)
@@ -126,12 +188,12 @@ class Corpus:
         if L == 0:
             return None
         s = np.zeros(n, np.float32)
-        ids = self.ids.astype(np.int64)
+        ids = self._ids64 = getattr(self, '_ids64', None) if getattr(self, '_ids64', None) is not None else self.ids.astype(np.int64)
         for i in range(L):
             if i >= n:                       # line longer than a tiny corpus
                 s[:] = -1e9
                 break
-            col = table[i][ids]
+            col = self._col(table[i], ids)
             s[:n - i] += col[i:]
             if i:
                 s[n - i:] = -1e9
@@ -163,7 +225,7 @@ class Corpus:
         best = np.full(n, NEG, np.float32)
         # reading reversed too, so alignment order stays consistent
         for i in range(L - 1, -1, -1):
-            s = table[i][ids].astype(np.float32)
+            s = self._col(table[i], ids).astype(np.float32)
             cand = np.maximum(np.float32(0), shift(prev, 1))
             cand = np.maximum(cand, shift(prev, 2) - gap)
             cand = np.maximum(cand, shift(prev2, 1) - gap)
