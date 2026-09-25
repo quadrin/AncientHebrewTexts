@@ -1,6 +1,6 @@
 """M2 batch: preprocess the clean one-to-one pairs and compare line counts.
 
-Usage: python3 src/prep_batch.py [parchment|papyrus|all|target|shared]
+Usage: python3 src/prep_batch.py [parchment|papyrus|all|target|shared|verso]
 Writes data/m2/{raw,crop,ink,seg}/ and data/m2/batch_{set}.json, and prints
 line-count agreement against the transcription.
 """
@@ -49,6 +49,9 @@ if __name__ == '__main__':
         # aligned later with the recogniser's own reading (align_self.py)
         sel = [r for r in pairs if r['split'] == 'train' and r['category'] in ('shared', 'image_many')
                and r['side'] == 'Recto']
+    elif which == 'verso':
+        # every verso photo of a square-script manuscript (M9 hidden-ink test)
+        sel = [r for r in pairs if r['side'] == 'Verso']
     else:
         sel = [r for r in pairs if r['split'] == 'train' and r['category'] == 'one_to_one'
                and r['side'] == 'Recto' and 'ink' in r and not r['ink'].get('flag')
@@ -60,7 +63,7 @@ if __name__ == '__main__':
             res[r['name']] = r
             if k % 250 == 249:
                 print(k + 1, file=sys.stderr)
-    if which in ('target', 'shared'):
+    if which in ('target', 'shared', 'verso'):
         out = [dict(name=r['name'], manuscript=r['manuscript'], material=r['material'],
                     detected=len(res[r['name']].get('lines', [])) if 'error' not in res[r['name']] else None,
                     error=res[r['name']].get('error')) for r in sel]

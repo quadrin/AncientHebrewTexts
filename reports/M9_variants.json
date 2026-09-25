@@ -1,0 +1,532 @@
+{
+ "scroll_verses": 12906,
+ "verses_not_in_mt": 1195,
+ "not_in_mt_by_book": {
+  "PAM43113": 92,
+  "6Q4": 92,
+  "8Q3": 79,
+  "1Q4": 50,
+  "1Q13": 50,
+  "4Q27": 50,
+  "4Q23": 49,
+  "1Q6": 48
+ },
+ "words": {
+  "same": 33405,
+  "orthographic": 5695,
+  "plus": 1073,
+  "substantive": 2069,
+  "long_form": 1057
+ },
+ "manuscripts_profiled": 102,
+ "substantive_rate_median": 0.033,
+ "fuller_rate_median": 0.037,
+ "most_divergent": [
+  {
+   "scroll": "4Q86",
+   "words": 66,
+   "same": 0.803,
+   "fuller": 0.015,
+   "shorter": 0.015,
+   "long_form": 0.0,
+   "substantive": 0.167,
+   "pluses": 2
+  },
+  {
+   "scroll": "4Q107",
+   "words": 105,
+   "same": 0.629,
+   "fuller": 0.067,
+   "shorter": 0.114,
+   "long_form": 0.019,
+   "substantive": 0.162,
+   "pluses": 8
+  },
+  {
+   "scroll": "4Q111",
+   "words": 113,
+   "same": 0.619,
+   "fuller": 0.177,
+   "shorter": 0.027,
+   "long_form": 0.009,
+   "substantive": 0.15,
+   "pluses": 6
+  },
+  {
+   "scroll": "4Q88",
+   "words": 62,
+   "same": 0.677,
+   "fuller": 0.113,
+   "shorter": 0.016,
+   "long_form": 0.0,
+   "substantive": 0.145,
+   "pluses": 3
+  },
+  {
+   "scroll": "4Q52",
+   "words": 223,
+   "same": 0.803,
+   "fuller": 0.009,
+   "shorter": 0.036,
+   "long_form": 0.009,
+   "substantive": 0.143,
+   "pluses": 7
+  },
+  {
+   "scroll": "4Q83",
+   "words": 191,
+   "same": 0.649,
+   "fuller": 0.073,
+   "shorter": 0.042,
+   "long_form": 0.089,
+   "substantive": 0.126,
+   "pluses": 10
+  },
+  {
+   "scroll": "4Q51",
+   "words": 871,
+   "same": 0.737,
+   "fuller": 0.117,
+   "shorter": 0.025,
+   "long_form": 0.0,
+   "substantive": 0.113,
+   "pluses": 139
+  },
+  {
+   "scroll": "4Q53",
+   "words": 122,
+   "same": 0.598,
+   "fuller": 0.221,
+   "shorter": 0.008,
+   "long_form": 0.049,
+   "substantive": 0.107,
+   "pluses": 10
+  },
+  {
+   "scroll": "2Q13",
+   "words": 96,
+   "same": 0.667,
+   "fuller": 0.198,
+   "shorter": 0.0,
+   "long_form": 0.042,
+   "substantive": 0.094,
+   "pluses": 1
+  },
+  {
+   "scroll": "4Q37",
+   "words": 110,
+   "same": 0.691,
+   "fuller": 0.2,
+   "shorter": 0.009,
+   "long_form": 0.009,
+   "substantive": 0.091,
+   "pluses": 3
+  },
+  {
+   "scroll": "4Q54",
+   "words": 77,
+   "same": 0.818,
+   "fuller": 0.065,
+   "shorter": 0.026,
+   "long_form": 0.0,
+   "substantive": 0.091,
+   "pluses": 1
+  },
+  {
+   "scroll": "4Q109",
+   "words": 82,
+   "same": 0.683,
+   "fuller": 0.171,
+   "shorter": 0.061,
+   "long_form": 0.0,
+   "substantive": 0.085,
+   "pluses": 2
+  },
+  {
+   "scroll": "4Q112",
+   "words": 318,
+   "same": 0.868,
+   "fuller": 0.013,
+   "shorter": 0.022,
+   "long_form": 0.006,
+   "substantive": 0.085,
+   "pluses": 7
+  },
+  {
+   "scroll": "11Q5",
+   "words": 2019,
+   "same": 0.66,
+   "fuller": 0.141,
+   "shorter": 0.011,
+   "long_form": 0.105,
+   "substantive": 0.08,
+   "pluses": 180
+  },
+  {
+   "scroll": "11Q7",
+   "words": 76,
+   "same": 0.789,
+   "fuller": 0.092,
+   "shorter": 0.0,
+   "long_form": 0.039,
+   "substantive": 0.079,
+   "pluses": 0
+  }
+ ],
+ "least_divergent": [
+  {
+   "scroll": "4Q2",
+   "words": 178,
+   "same": 1.0,
+   "fuller": 0.0,
+   "shorter": 0.0,
+   "long_form": 0.0,
+   "substantive": 0.0,
+   "pluses": 0
+  },
+  {
+   "scroll": "4Q25",
+   "words": 55,
+   "same": 0.927,
+   "fuller": 0.018,
+   "shorter": 0.018,
+   "long_form": 0.018,
+   "substantive": 0.0,
+   "pluses": 0
+  },
+  {
+   "scroll": "4Q26c",
+   "words": 83,
+   "same": 1.0,
+   "fuller": 0.0,
+   "shorter": 0.0,
+   "long_form": 0.0,
+   "substantive": 0.0,
+   "pluses": 0
+  },
+  {
+   "scroll": "4Q28",
+   "words": 67,
+   "same": 0.97,
+   "fuller": 0.0,
+   "shorter": 0.03,
+   "long_form": 0.0,
+   "substantive": 0.0,
+   "pluses": 0
+  },
+  {
+   "scroll": "4Q32",
+   "words": 56,
+   "same": 1.0,
+   "fuller": 0.0,
+   "shorter": 0.0,
+   "long_form": 0.0,
+   "substantive": 0.0,
+   "pluses": 0
+  },
+  {
+   "scroll": "4Q34",
+   "words": 61,
+   "same": 1.0,
+   "fuller": 0.0,
+   "shorter": 0.0,
+   "long_form": 0.0,
+   "substantive": 0.0,
+   "pluses": 0
+  },
+  {
+   "scroll": "4Q103",
+   "words": 51,
+   "same": 0.98,
+   "fuller": 0.0,
+   "shorter": 0.02,
+   "long_form": 0.0,
+   "substantive": 0.0,
+   "pluses": 0
+  },
+  {
+   "scroll": "4Q155",
+   "words": 52,
+   "same": 0.942,
+   "fuller": 0.058,
+   "shorter": 0.0,
+   "long_form": 0.0,
+   "substantive": 0.0,
+   "pluses": 2
+  },
+  {
+   "scroll": "Mur1",
+   "words": 160,
+   "same": 0.994,
+   "fuller": 0.0,
+   "shorter": 0.006,
+   "long_form": 0.0,
+   "substantive": 0.0,
+   "pluses": 0
+  },
+  {
+   "scroll": "Sdeir1",
+   "words": 72,
+   "same": 1.0,
+   "fuller": 0.0,
+   "shorter": 0.0,
+   "long_form": 0.0,
+   "substantive": 0.0,
+   "pluses": 0
+  }
+ ],
+ "fullest_spelling": [
+  {
+   "scroll": "4Q53",
+   "words": 122,
+   "same": 0.598,
+   "fuller": 0.221,
+   "shorter": 0.008,
+   "long_form": 0.049,
+   "substantive": 0.107,
+   "pluses": 10
+  },
+  {
+   "scroll": "4Q57",
+   "words": 366,
+   "same": 0.689,
+   "fuller": 0.21,
+   "shorter": 0.016,
+   "long_form": 0.019,
+   "substantive": 0.057,
+   "pluses": 2
+  },
+  {
+   "scroll": "4Q37",
+   "words": 110,
+   "same": 0.691,
+   "fuller": 0.2,
+   "shorter": 0.009,
+   "long_form": 0.009,
+   "substantive": 0.091,
+   "pluses": 3
+  },
+  {
+   "scroll": "4Q41",
+   "words": 486,
+   "same": 0.728,
+   "fuller": 0.2,
+   "shorter": 0.016,
+   "long_form": 0.008,
+   "substantive": 0.027,
+   "pluses": 7
+  },
+  {
+   "scroll": "4Q27",
+   "words": 592,
+   "same": 0.723,
+   "fuller": 0.199,
+   "shorter": 0.012,
+   "long_form": 0.017,
+   "substantive": 0.044,
+   "pluses": 57
+  },
+  {
+   "scroll": "2Q13",
+   "words": 96,
+   "same": 0.667,
+   "fuller": 0.198,
+   "shorter": 0.0,
+   "long_form": 0.042,
+   "substantive": 0.094,
+   "pluses": 1
+  },
+  {
+   "scroll": "4Q13",
+   "words": 219,
+   "same": 0.726,
+   "fuller": 0.196,
+   "shorter": 0.014,
+   "long_form": 0.005,
+   "substantive": 0.055,
+   "pluses": 14
+  },
+  {
+   "scroll": "4Q129",
+   "words": 155,
+   "same": 0.619,
+   "fuller": 0.181,
+   "shorter": 0.013,
+   "long_form": 0.148,
+   "substantive": 0.026,
+   "pluses": 9
+  },
+  {
+   "scroll": "4Q137",
+   "words": 256,
+   "same": 0.578,
+   "fuller": 0.18,
+   "shorter": 0.035,
+   "long_form": 0.164,
+   "substantive": 0.039,
+   "pluses": 17
+  },
+  {
+   "scroll": "1Qisaa",
+   "words": 16073,
+   "same": 0.699,
+   "fuller": 0.179,
+   "shorter": 0.014,
+   "long_form": 0.034,
+   "substantive": 0.061,
+   "pluses": 201
+  }
+ ],
+ "shared_pairs": [
+  {
+   "a": "1Q8",
+   "b": "1Qisaa",
+   "overlap": 2133,
+   "shared_substantive": 11,
+   "rate": 0.005,
+   "examples": [
+    "Isa.26.1 w5",
+    "Isa.44.25 w10",
+    "Isa.45.2 w4",
+    "Isa.51.7 w12"
+   ]
+  },
+  {
+   "a": "4Q138",
+   "b": "4Q38",
+   "overlap": 40,
+   "shared_substantive": 4,
+   "rate": 0.1,
+   "examples": [
+    "Deut.11.10 w11",
+    "Deut.11.9 w2",
+    "Deut.11.10 w5",
+    "Deut.11.12 w13"
+   ]
+  },
+  {
+   "a": "1Qisaa",
+   "b": "4Q56",
+   "overlap": 498,
+   "shared_substantive": 4,
+   "rate": 0.008,
+   "examples": [
+    "Isa.3.18 w8",
+    "Isa.19.18 w15",
+    "Isa.26.12 w2",
+    "Isa.44.25 w10"
+   ]
+  },
+  {
+   "a": "4Q138",
+   "b": "4Q37",
+   "overlap": 7,
+   "shared_substantive": 2,
+   "rate": 0.286,
+   "examples": [
+    "Deut.11.7 w8",
+    "Deut.11.10 w4"
+   ]
+  },
+  {
+   "a": "4Q129",
+   "b": "4Q130",
+   "overlap": 24,
+   "shared_substantive": 2,
+   "rate": 0.083,
+   "examples": [
+    "Exod.13.15 w19",
+    "Exod.13.15 w28"
+   ]
+  },
+  {
+   "a": "4Q135",
+   "b": "4Q41",
+   "overlap": 61,
+   "shared_substantive": 2,
+   "rate": 0.033,
+   "examples": [
+    "Deut.5.24 w15",
+    "Deut.5.24 w20"
+   ]
+  },
+  {
+   "a": "4Q37",
+   "b": "4Q41",
+   "overlap": 67,
+   "shared_substantive": 2,
+   "rate": 0.03,
+   "examples": [
+    "Deut.8.9 w16",
+    "Deut.5.22 w13"
+   ]
+  },
+  {
+   "a": "4Q138",
+   "b": "8Q4",
+   "overlap": 87,
+   "shared_substantive": 2,
+   "rate": 0.023,
+   "examples": [
+    "Deut.11.12 w13",
+    "Deut.11.11 w4"
+   ]
+  },
+  {
+   "a": "1Qisaa",
+   "b": "4Q60",
+   "overlap": 120,
+   "shared_substantive": 2,
+   "rate": 0.017,
+   "examples": [
+    "Isa.6.10 w14",
+    "Isa.22.15 w11"
+   ]
+  },
+  {
+   "a": "1Qisaa",
+   "b": "4Q59",
+   "overlap": 164,
+   "shared_substantive": 2,
+   "rate": 0.012,
+   "examples": [
+    "Isa.8.8 w14",
+    "Isa.8.10 w9"
+   ]
+  },
+  {
+   "a": "4Q41",
+   "b": "Xq3",
+   "overlap": 174,
+   "shared_substantive": 2,
+   "rate": 0.011,
+   "examples": [
+    "Deut.5.14 w1",
+    "Deut.5.21 w6"
+   ]
+  },
+  {
+   "a": "4Q137",
+   "b": "4Q41",
+   "overlap": 204,
+   "shared_substantive": 2,
+   "rate": 0.01,
+   "examples": [
+    "Deut.5.1 w8",
+    "Deut.5.24 w20"
+   ]
+  },
+  {
+   "a": "1Qisaa",
+   "b": "4Q57",
+   "overlap": 354,
+   "shared_substantive": 2,
+   "rate": 0.006,
+   "examples": [
+    "Isa.11.8 w8",
+    "Isa.46.9 w5"
+   ]
+  }
+ ],
+ "n_pairs_ge2": 13
+}
