@@ -161,7 +161,31 @@ class Corpus:
 
     def search(self, lines, W=(15, 140), top=5, min_letters=1, gapped=False):
         """lines: list of lists of distributions (top to bottom).
-        Returns best total score and the top hits [(score, doc, ref, offset)]."""
+        Returns the top hits [(score, doc, ref, offset)], best first."""
+        acc = self.score_array(lines, W, min_letters, gapped)
+        if acc is None:
+            return None
+        order = np.argsort(-acc)[:200]
+        hits, seen = [], []
+        for o in order:
+            if any(abs(o - p) < 50 for p in seen):
+                continue
+            seen.append(o)
+            hits.append((float(acc[o]), self.docs[o], self.refs[o], int(o)))
+            if len(hits) == top:
+                break
+        return hits
+
+    def doc_max(self, acc):
+        """Best score inside each document (self.doc_names order)."""
+        if not hasattr(self, 'doc_start'):
+            starts = [0] + [i for i in range(1, len(self.docs)) if self.docs[i] != self.docs[i - 1]]
+            self.doc_start = np.array(starts)
+            self.doc_names = [self.docs[i] for i in starts]
+        return np.maximum.reduceat(acc, self.doc_start)
+
+    def score_array(self, lines, W=(15, 140), min_letters=1, gapped=False):
+        """Fragment score at every corpus offset (line 1 start), or None."""
         tables = [self.llr_table(l) for l in lines]
         tables = [t for t in tables if len(t) >= min_letters]
         if not tables:
@@ -185,13 +209,4 @@ class Corpus:
                 nxt[:len(s) - W[0]] = mx[W[0]:]
                 s = s + nxt
             acc = s
-        order = np.argsort(-acc)[:200]
-        hits, seen = [], []
-        for o in order:
-            if any(abs(o - p) < 50 for p in seen):
-                continue
-            seen.append(o)
-            hits.append((float(acc[o]), self.docs[o], self.refs[o], int(o)))
-            if len(hits) == top:
-                break
-        return hits
+        return acc
