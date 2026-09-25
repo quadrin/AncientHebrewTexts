@@ -1,0 +1,52 @@
+{
+ "K": 20,
+ "pieces": 187,
+ "own_ms_in_topK": 56,
+ "median_corpus_letters": 428788,
+ "bands": [
+  {
+   "read": "3-5",
+   "biblical_pieces": 31,
+   "own_book_in_corpus": 14,
+   "top_in_own_book": 2,
+   "p001": 0,
+   "p001_own_book": 0,
+   "p005": 0,
+   "p005_own_book": 0
+  },
+  {
+   "read": "6-9",
+   "biblical_pieces": 21,
+   "own_book_in_corpus": 14,
+   "top_in_own_book": 4,
+   "p001": 0,
+   "p001_own_book": 0,
+   "p005": 0,
+   "p005_own_book": 0
+  },
+  {
+   "read": "10-19",
+   "biblical_pieces": 21,
+   "own_book_in_corpus": 16,
+   "top_in_own_book": 11,
+   "p001": 0,
+   "p001_own_book": 0,
+   "p005": 2,
+   "p005_own_book": 2
+  },
+  {
+   "read": "20-+",
+   "biblical_pieces": 38,
+   "own_book_in_corpus": 18,
+   "top_in_own_book": 17,
+   "p001": 3,
+   "p001_own_book": 3,
+   "p005": 10,
+   "p005_own_book": 10
+  }
+ ],
+ "non_biblical": {
+  "pieces": 76,
+  "p001": 0
+ }
+}
