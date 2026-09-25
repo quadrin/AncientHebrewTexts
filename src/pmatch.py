@@ -32,9 +32,12 @@ def _norm(c):
 
 
 class Corpus:
-    def __init__(self, exclude=(), mode='ex', targum=False):
+    def __init__(self, exclude=(), mode='ex', targum=False, mt=True, keep=None, q=None):
         """exclude: normalised scroll sigla to leave out (the fragment's own manuscript).
-        targum: also search the Aramaic targums (data/ref/targum.json), for Aramaic targets."""
+        targum: also search the Aramaic targums (data/ref/targum.json), for Aramaic targets.
+        mt: include the Masoretic text. keep: optional callable (scroll, fragment) -> bool
+        restricting the scroll fragments (a small, targeted corpus). q: letter
+        frequencies to use (pass the full corpus's for small corpora)."""
         self.mode = mode
         ids, refs, docs = [], [], []
 
@@ -59,7 +62,7 @@ class Corpus:
         by_book = collections.defaultdict(list)
         for ref, t in json.load(open('data/ref/bible.json')):
             by_book[ref.split('.')[0]].append((ref, t))
-        for b, vs in by_book.items():
+        for b, vs in (by_book.items() if mt else []):
             add('MT ' + b, [(c, r) for r, t in vs for c in t if c != ' '])
         if targum:
             by_work = collections.defaultdict(list)
@@ -75,6 +78,8 @@ class Corpus:
                 continue
             seq, last_f = [], None
             for f, l, t, m in ls:
+                if keep is not None and not keep(s, f):
+                    continue
                 if f != last_f:
                     seq.append((None, None))
                     last_f = f
@@ -85,11 +90,13 @@ class Corpus:
                         seq.append(('', f'{s} {f}:{l}'))
                     elif k in '#p':
                         seq.append((None, None))
-            add('DSS ' + s, seq)
+            if seq:
+                add('DSS ' + s, seq)
         self.ids = np.array(ids, np.int8)
         self.refs, self.docs = refs, docs
         cnt = np.bincount(self.ids[self.ids != BAR], minlength=len(LET)).astype(np.float64)
-        self.q = cnt / cnt.sum()
+        self.q = q if q is not None else cnt / cnt.sum()
+        self.letters = int(cnt.sum())
 
     # -------------------------------------------------------------- scoring
     def llr_table(self, dists):
@@ -118,6 +125,9 @@ class Corpus:
         s = np.zeros(n, np.float32)
         ids = self.ids.astype(np.int64)
         for i in range(L):
+            if i >= n:                       # line longer than a tiny corpus
+                s[:] = -1e9
+                break
             col = table[i][ids]
             s[:n - i] += col[i:]
             if i:
@@ -204,9 +214,12 @@ class Corpus:
             s = score(t).astype(np.float64)
             s = np.maximum(s, 0.0)
             if acc is not None:
-                mx = maximum_filter1d(acc, size=size, origin=-(size // 2), mode='constant', cval=-1e9)
-                nxt = np.full_like(s, -1e9)
-                nxt[:len(s) - W[0]] = mx[W[0]:]
+                # lines that would fall past the end of the reference count
+                # as skipped (0), like any other unplaceable line
+                mx = maximum_filter1d(acc, size=size, origin=-(size // 2), mode='constant', cval=0.0)
+                nxt = np.zeros_like(s)
+                if len(s) > W[0]:
+                    nxt[:len(s) - W[0]] = mx[W[0]:]
                 s = s + nxt
             acc = s
         return acc

@@ -1,0 +1,11 @@
+{
+ "pieces": 5216,
+ "manuscripts": 423,
+ "queries": 3432,
+ "top1": 0.175,
+ "top5": 0.338,
+ "top10": 0.425,
+ "chance_top1": 0.0145,
+ "chance_top10": 0.126,
+ "note": "neighbours on the same IAA plate are excluded"
+}
