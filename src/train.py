@@ -185,8 +185,14 @@ def evaluate(model, loader, recs):
 
 # ------------------------------------------------------------------ main
 def select(man, split, which, tiers, gaps):
-    ms = set(split[which])
-    return [r for r in man if r['tier'] and r['tier'] in tiers and r['manuscript'] in ms
+    if which == 'train':
+        # anything not held out: the split lists only parchment manuscripts,
+        # papyrus manuscripts (added later) are in no list
+        held = set(split['val']) | set(split['test'])
+        keep = lambda ms: ms not in held
+    else:
+        keep = set(split[which]).__contains__
+    return [r for r in man if r['tier'] and r['tier'] in tiers and keep(r['manuscript'])
             and (gaps or not r['has_gap']) and r['letters'] >= 1
             and os.path.exists(f'data/m3/lines/{r["id"]}.png')]
 
