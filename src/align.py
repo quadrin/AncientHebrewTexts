@@ -98,9 +98,12 @@ def crop_line(g, band, pitch, pad_x=12):
 
 
 def main():
+    # optional: batch name (default parchment) -> manifest suffix and summary name
+    which = sys.argv[1] if len(sys.argv) > 1 else 'parchment'
+    suffix = '' if which == 'parchment' else f'_{which}'
     os.makedirs(f'{D3}/lines', exist_ok=True)
     pairs = {r['name']: r for r in json.load(open('data/m1/pairs.json'))}
-    batch = json.load(open(f'{D2}/batch_parchment.json'))
+    batch = json.load(open(f'{D2}/batch_{which}.json'))
     segs = {}
     for b in batch:
         p = f'{D2}/seg/{b["name"]}.json'
@@ -120,7 +123,7 @@ def main():
     print('char width / pitch: median %.3f (IQR %.3f-%.3f, n=%d)' % (
         cw, np.percentile(ratios, 25), np.percentile(ratios, 75), len(ratios)), file=sys.stderr)
 
-    man = open(f'{D3}/manifest.jsonl', 'w')
+    man = open(f'{D3}/manifest{suffix}.jsonl', 'w')
     stats = collections.Counter()
     letters = collections.Counter()
     for name, s in segs.items():
@@ -162,7 +165,7 @@ def main():
         stats['fragments_counts_agree'] += counts_agree
     man.close()
     out = dict(char_width_per_pitch=round(cw, 3), fragments=dict(stats), letters=dict(letters))
-    json.dump(out, open('reports/M3_summary.json', 'w'), indent=1)
+    json.dump(out, open(f'reports/M3_summary{suffix}.json', 'w'), indent=1)
     print(json.dumps(out, indent=1))
 
 

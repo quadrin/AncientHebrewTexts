@@ -1,6 +1,6 @@
 """M3 check: sheet of line crops with their labels, for inspection by eye (local only).
 
-Usage: python3 src/line_sheet.py TIER N SEED OUT
+Usage: python3 src/line_sheet.py TIER N SEED OUT [MANIFEST]
 """
 import json, random, sys
 from PIL import Image, ImageDraw, ImageFont
@@ -10,7 +10,7 @@ SMALL = ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', 14
 
 if __name__ == '__main__':
     tier, n, seed, out = sys.argv[1], int(sys.argv[2]), int(sys.argv[3]), sys.argv[4]
-    man = [json.loads(l) for l in open('data/m3/manifest.jsonl')]
+    man = [json.loads(l) for l in open(sys.argv[5] if len(sys.argv) > 5 else 'data/m3/manifest.jsonl')]
     rs = [r for r in man if r['tier'] == tier and r['letters'] >= 3]
     random.seed(seed)
     rs = random.sample(rs, n)

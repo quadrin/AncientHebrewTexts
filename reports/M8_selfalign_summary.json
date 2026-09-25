@@ -1,0 +1,12 @@
+{
+ "bands": {
+  "bands": 8766,
+  "rejected": 3290,
+  "lines_shared": 2532,
+  "lines_misfit": 303
+ },
+ "letters": {
+  "shared": 31778,
+  "misfit": 2641
+ }
+}

@@ -15,7 +15,7 @@ A band is labelled when
 The label is the matched stretch of the editors' transcription, never the
 model's reading. Output: data/m3/lines/{id}.png and data/m3/manifest_self.jsonl.
 
-Usage: python3 src/align_self.py MODEL
+Usage: python3 src/align_self.py MODEL [papyrus|shared|misfit]
 """
 import json, os, sys, collections
 import numpy as np, cv2
@@ -61,8 +61,11 @@ def label_span(label, start, end):
 
 def main():
     model = load_model(sys.argv[1])
+    only = sys.argv[2] if len(sys.argv) > 2 else None        # e.g. 'papyrus': run one source, append
     split = json.load(open('reports/M4_split.json'))
-    train_ms = set(split['train'])
+    # papyrus manuscripts are in no split list (the split was built from the
+    # parchment lines): allow every manuscript that is not held out
+    held_out = set(split['test']) | set(split['val'])
     pairs = {r['name']: r for r in json.load(open('data/m1/pairs.json'))}
     et_lines = collections.defaultdict(list)
     for s, f, l, t, m in json.load(open('data/m0/etcbc_lines.json')):
@@ -74,13 +77,14 @@ def main():
     for f, cat in (('data/m2/batch_shared.json', 'shared'), ('data/m2/batch_parchment.json', 'misfit'),
                    ('data/m2/batch_papyrus.json', 'papyrus')):
         if os.path.exists(f):
-            names += [(b['name'], cat) for b in json.load(open(f)) if not b.get('error')]
-    out = open('data/m3/manifest_self.jsonl', 'w')
+            if only is None or cat == only:
+                names += [(b['name'], cat) for b in json.load(open(f)) if not b.get('error')]
+    out = open('data/m3/manifest_self.jsonl', 'a' if only else 'w')
     stats = collections.Counter()
     letters = collections.Counter()
     for k, (name, cat) in enumerate(names):
         pr = pairs[name]
-        if pr['manuscript'] not in train_ms or not os.path.exists(f'data/m2/seg/{name}.json'):
+        if pr['manuscript'] in held_out or not os.path.exists(f'data/m2/seg/{name}.json'):
             continue
         cands = []
         for x in pr['links']:
@@ -134,7 +138,7 @@ def main():
             print(k + 1, dict(stats), file=sys.stderr, flush=True)
     out.close()
     res = dict(bands=dict(stats), letters=dict(letters))
-    json.dump(res, open('reports/M8_selfalign_summary.json', 'w'), indent=1)
+    json.dump(res, open(f'reports/M8_selfalign_summary{"_" + only if only else ""}.json', 'w'), indent=1)
     print(json.dumps(res, indent=1))
 
 

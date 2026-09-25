@@ -212,6 +212,16 @@ def main():
     man = [json.loads(l) for l in open('data/m3/manifest.jsonl')]
     for f in filter(None, a.extra.split(',')):
         man += [json.loads(l) for l in open(f)]
+    # one label per band: prefer width-aligned tiers A/B over self-aligned S
+    rank = {'A': 0, 'B': 1, 'S': 2}
+    best = {}
+    for r in man:
+        if not r.get('tier'):
+            continue
+        k = (r['name'], r['band'])
+        if k not in best or rank[r['tier']] < rank[best[k]['tier']]:
+            best[k] = r
+    man = list(best.values())
     if a.exclude:
         drop = set(json.load(open(a.exclude)))
         man = [r for r in man if r['id'] not in drop]
