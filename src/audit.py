@@ -47,7 +47,7 @@ from inventory import nms  # noqa: E402
 DA = 'data/audit'
 MIN_READ = 6
 N_SHUF = 100
-N_DECOY = 150
+N_DECOY = 600
 W_SCROLL = (1, 140)
 # M5 per-band 1% thresholds (run-2 model, full corpus): read letters -> score
 M5_THR = [(1, 9, 17.7), (10, 19, 25.5), (20, 39, 39.7), (40, 10 ** 6, 44.9)]

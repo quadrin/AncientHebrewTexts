@@ -16,7 +16,7 @@ offset d in [W0, W1] letters later (the line width is unknown), summed.
 Modes: 'ex' exact spelling; 'sk' drops ו and י (positions where the reading
 puts over half its mass on ו/י, and those letters in the corpus).
 """
-import json, re, collections
+import json, os, re, collections
 import numpy as np
 from scipy.ndimage import maximum_filter1d
 
@@ -69,7 +69,8 @@ class LetterLM:
 
 
 class Corpus:
-    def __init__(self, exclude=(), mode='ex', targum=False, mt=True, keep=None, q=None, bg='unigram', lm=None):
+    def __init__(self, exclude=(), mode='ex', targum=False, mt=True, keep=None, q=None, bg='unigram', lm=None,
+                 local=None):
         """exclude: normalised scroll sigla to leave out (the fragment's own manuscript).
         targum: also search the Aramaic targums (data/ref/targum.json), for Aramaic targets.
         mt: include the Masoretic text (True), none of it (False), or a set of
@@ -81,7 +82,10 @@ class Corpus:
         letter 4-gram model of Hebrew, so that common words earn little and rare
         ones much (real readings consist of real words, which fit any Hebrew
         text better than random letters do). lm: a trained LetterLM to reuse
-        (pass the full corpus's for small corpora)."""
+        (pass the full corpus's for small corpora).
+        local: score each reading line by its best contiguous stretch on each
+        diagonal (misread letters at the ends of a long line then cost nothing)
+        instead of the sum over the whole line."""
         self.mode = mode
         ids, refs, docs = [], [], []
 
@@ -144,6 +148,8 @@ class Corpus:
         self.q = q if q is not None else cnt / cnt.sum()
         self.letters = int(cnt.sum())
         self.bg = bg
+        # default from the environment so whole pipelines can switch: PMATCH_LOCAL=1
+        self.local = (os.environ.get('PMATCH_LOCAL') == '1') if local is None else local
         if bg == 'lm':
             self.lm = lm if lm is not None else LetterLM(self.ids)
             self.ctx = self.lm.contexts(self.ids)
@@ -189,6 +195,17 @@ class Corpus:
             return None
         s = np.zeros(n, np.float32)
         ids = self._ids64 = getattr(self, '_ids64', None) if getattr(self, '_ids64', None) is not None else self.ids.astype(np.int64)
+        if self.local:
+            # Kadane along each diagonal: E_i[o] = max(E_{i-1}[o], 0) + col_i[o+i]
+            best = np.full(n, -1e9, np.float32)
+            E = np.zeros(n, np.float32)
+            for i in range(min(L, n)):
+                col = self._col(table[i], ids)
+                v = np.full(n, -1e9, np.float32)
+                v[:n - i] = col[i:]
+                E = np.maximum(E, 0) + v
+                best = np.maximum(best, E)
+            return best
         for i in range(L):
             if i >= n:                       # line longer than a tiny corpus
                 s[:] = -1e9
