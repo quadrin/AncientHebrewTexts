@@ -1,0 +1,108 @@
+{
+ "unigram": {
+  "rows": [
+   {
+    "read": "3-5",
+    "biblical": 32,
+    "p<=0.01": 0,
+    "p<=0.01_own_book": 0,
+    "p<=0.05": 0,
+    "p<=0.05_own_book": 0,
+    "top1_own_book": 1
+   },
+   {
+    "read": "6-9",
+    "biblical": 21,
+    "p<=0.01": 0,
+    "p<=0.01_own_book": 0,
+    "p<=0.05": 0,
+    "p<=0.05_own_book": 0,
+    "top1_own_book": 3
+   },
+   {
+    "read": "10-19",
+    "biblical": 21,
+    "p<=0.01": 0,
+    "p<=0.01_own_book": 0,
+    "p<=0.05": 0,
+    "p<=0.05_own_book": 0,
+    "top1_own_book": 12
+   },
+   {
+    "read": "20-39",
+    "biblical": 14,
+    "p<=0.01": 0,
+    "p<=0.01_own_book": 0,
+    "p<=0.05": 4,
+    "p<=0.05_own_book": 4,
+    "top1_own_book": 9
+   },
+   {
+    "read": "40-+",
+    "biblical": 24,
+    "p<=0.01": 0,
+    "p<=0.01_own_book": 0,
+    "p<=0.05": 7,
+    "p<=0.05_own_book": 7,
+    "top1_own_book": 21
+   }
+  ],
+  "decoys": 243,
+  "fp_rate_at_0_01": 0.0,
+  "fp_rate_at_0_05": 0.0252,
+  "fp_n": 119
+ },
+ "lm": {
+  "rows": [
+   {
+    "read": "3-5",
+    "biblical": 32,
+    "p<=0.01": 0,
+    "p<=0.01_own_book": 0,
+    "p<=0.05": 0,
+    "p<=0.05_own_book": 0,
+    "top1_own_book": 2
+   },
+   {
+    "read": "6-9",
+    "biblical": 21,
+    "p<=0.01": 0,
+    "p<=0.01_own_book": 0,
+    "p<=0.05": 0,
+    "p<=0.05_own_book": 0,
+    "top1_own_book": 2
+   },
+   {
+    "read": "10-19",
+    "biblical": 21,
+    "p<=0.01": 0,
+    "p<=0.01_own_book": 0,
+    "p<=0.05": 0,
+    "p<=0.05_own_book": 0,
+    "top1_own_book": 8
+   },
+   {
+    "read": "20-39",
+    "biblical": 14,
+    "p<=0.01": 0,
+    "p<=0.01_own_book": 0,
+    "p<=0.05": 2,
+    "p<=0.05_own_book": 2,
+    "top1_own_book": 8
+   },
+   {
+    "read": "40-+",
+    "biblical": 24,
+    "p<=0.01": 0,
+    "p<=0.01_own_book": 0,
+    "p<=0.05": 7,
+    "p<=0.05_own_book": 7,
+    "top1_own_book": 21
+   }
+  ],
+  "decoys": 243,
+  "fp_rate_at_0_01": 0.0,
+  "fp_rate_at_0_05": 0.0336,
+  "fp_n": 119
+ }
+}
