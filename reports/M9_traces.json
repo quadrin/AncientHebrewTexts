@@ -1,0 +1,111 @@
+{
+ "lines": 774,
+ "skipped": {},
+ "letters": 8412,
+ "groups": {
+  "certain|inside": {
+   "letters": 6003,
+   "median_own": 0.909,
+   "share_own_ge_0_5": 0.678,
+   "contested": 496,
+   "contested_rate": 0.0826
+  },
+  "certain|edge": {
+   "letters": 922,
+   "median_own": 0.397,
+   "share_own_ge_0_5": 0.459,
+   "contested": 79,
+   "contested_rate": 0.0857
+  },
+  "uncertain|inside": {
+   "letters": 688,
+   "median_own": 0.041,
+   "share_own_ge_0_5": 0.158,
+   "contested": 113,
+   "contested_rate": 0.1642
+  },
+  "uncertain|edge": {
+   "letters": 799,
+   "median_own": 0.032,
+   "share_own_ge_0_5": 0.063,
+   "contested": 104,
+   "contested_rate": 0.1302
+  }
+ },
+ "certain": {
+  "letters": 6925,
+  "median_own": 0.872,
+  "share_own_ge_0_5": 0.649,
+  "contested": 575,
+  "contested_rate": 0.083
+ },
+ "uncertain": {
+  "letters": 1487,
+  "median_own": 0.035,
+  "share_own_ge_0_5": 0.107,
+  "contested": 217,
+  "contested_rate": 0.1459
+ },
+ "uncertain_contested_pairs": [
+  [
+   "ר->ו",
+   7
+  ],
+  [
+   "ה->ו",
+   7
+  ],
+  [
+   "ו->א",
+   5
+  ],
+  [
+   "ת->ה",
+   5
+  ],
+  [
+   "ה->י",
+   4
+  ],
+  [
+   "ו->ר",
+   4
+  ],
+  [
+   "י->ה",
+   4
+  ],
+  [
+   "מ->א",
+   4
+  ],
+  [
+   "ו->י",
+   4
+  ],
+  [
+   "ת->ב",
+   4
+  ],
+  [
+   "ו->ה",
+   3
+  ],
+  [
+   "ר->י",
+   3
+  ],
+  [
+   "ב->ת",
+   3
+  ],
+  [
+   "י->ו",
+   3
+  ],
+  [
+   "ש->ם",
+   3
+  ]
+ ]
+}
