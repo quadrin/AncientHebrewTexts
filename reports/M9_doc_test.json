@@ -1,0 +1,58 @@
+{
+ "manuscripts_with_edition": 50,
+ "manuscripts_tested": 22,
+ "images_read": 52,
+ "documentary": {
+  "lines": 303,
+  "median": 0.5,
+  "share_le_0_35": 0.185
+ },
+ "documentary_control": {
+  "lines": 303,
+  "median": 0.611,
+  "share_le_0_35": 0.026
+ },
+ "literary_test_set": {
+  "lines": 456,
+  "median": 0.288,
+  "share_le_0_35": 0.57
+ },
+ "by_collection": {
+  "MAS": {
+   "own": {
+    "lines": 121,
+    "median": 0.475,
+    "share_le_0_35": 0.273
+   },
+   "control": {
+    "lines": 121,
+    "median": 0.633,
+    "share_le_0_35": 0.008
+   }
+  },
+  "MUR": {
+   "own": {
+    "lines": 144,
+    "median": 0.6,
+    "share_le_0_35": 0.118
+   },
+   "control": {
+    "lines": 144,
+    "median": 0.6,
+    "share_le_0_35": 0.049
+   }
+  },
+  "XHE": {
+   "own": {
+    "lines": 38,
+    "median": 0.5,
+    "share_le_0_35": 0.158
+   },
+   "control": {
+    "lines": 38,
+    "median": 0.6,
+    "share_le_0_35": 0.0
+   }
+  }
+ }
+}

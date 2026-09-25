@@ -1,0 +1,557 @@
+{
+ "versos": 590,
+ "by_material": {
+  "Parchment": {
+   "linked": 151,
+   "unlinked": 37,
+   "auc": {
+    "dark_ink": 0.677,
+    "lines": 0.405,
+    "read": 0.481,
+    "conf": 0.509
+   },
+   "median_conf_linked": 2.0,
+   "median_conf_unlinked": 1.0
+  },
+  "Papyrus": {
+   "linked": 213,
+   "unlinked": 189,
+   "auc": {
+    "dark_ink": 0.594,
+    "lines": 0.589,
+    "read": 0.622,
+    "conf": 0.561
+   },
+   "median_conf_linked": 1.0,
+   "median_conf_unlinked": 0.0
+  }
+ },
+ "unlinked_with_conf_ge_linked_q1": 106,
+ "linked_q1_conf": 0.0,
+ "queue": [
+  {
+   "name": "B-496042",
+   "manuscript": "4Q414",
+   "material": "Parchment",
+   "conf": 119,
+   "read": 165,
+   "lines": 8,
+   "dark_ink": 0.14803,
+   "reading": [
+    "יאשיי אל תמושי בלבבך וש",
+    "לתהלכותמיםכול היים יבחיקי בי",
+    "מעולם יזרעפי תפרעו ברות קד",
+    "לוא ימיש ורעכה  ואיובת לנפשן ימ",
+    "ה תשיש בפרו ב אתזה עד לע",
+    "מדובים אל בבות מכיע לבבר",
+    "קצום יפרחה תהלה כלו כל אנשין",
+    " והתחדש ת מולדים"
+   ]
+  },
+  {
+   "name": "B-499678",
+   "manuscript": "4Q512",
+   "material": "Papyrus",
+   "conf": 117,
+   "read": 234,
+   "lines": 16,
+   "dark_ink": 0.17525,
+   "reading": [
+    " וביים הדשיטןטשיענו ואל",
+    "היא ישרדל ים להסהר ב",
+    "צפש ברפיפר קודש",
+    "מכא במוןיםלוחות עו",
+    "ימוךחוה דות עתימדיף וווה",
+    "אם מומל הולרו ואלוכול",
+    "ופהתתו את מומ",
+    "א אל ציתנהות מה",
+    "וטנדית מאה ההיוםוא",
+    "נדה להזקד עשלכה מו קבוכאה",
+    "דם ולה יולמשמתם ועל דר",
+    "לישיה לר ותקדקהו",
+    "ם ותתעבם לן",
+    "את מעשילים ואל",
+    "בזתעגנדה לובהה",
+    " מהר י"
+   ]
+  },
+  {
+   "name": "B-495670",
+   "manuscript": "4Q512",
+   "material": "Papyrus",
+   "conf": 39,
+   "read": 70,
+   "lines": 8,
+   "dark_ink": 0.11208,
+   "reading": [
+    "ולמיער שפת בשן ככו ושבועו",
+    "מי ארבעת ביעדי",
+    "יעד אוךש א",
+    "ן ל כ מוהה",
+    "בהה",
+    "לה תקדש א",
+    "ואמר ברוך גת",
+    "מם "
+   ]
+  },
+  {
+   "name": "B-371065",
+   "manuscript": "Mas 1e",
+   "material": "Parchment",
+   "conf": 26,
+   "read": 301,
+   "lines": 40,
+   "dark_ink": 0.01713,
+   "reading": [
+    "ל אמןמ",
+    "לן לאא",
+    "ין רה הם",
+    "שם",
+    "ם לא",
+    " םל",
+    "אהאן ",
+    "י שיןהלךלכאה",
+    "הה ה אן",
+    "מההההלה",
+    "ימ אן ר ר",
+    "אמההל ו א",
+    "ה ל ה יה",
+    "לתן ל תלהי ",
+    "שהן שאאי",
+    " לה תו  ה",
+    "ים נ האר ",
+    "ההיןא ה נ ו אי",
+    "ה ה התאןי א ם",
+    "א ם י פ   מןםא",
+    "א אוןוהולי ה",
+    "י א האה ליה",
+    "ת  אה יל אר אר ה ו",
+    "ם א פליה ירכם ול א מוה מ",
+    "איה  י ליהלהיילגה",
+    " ואה ן ",
+    "אה יי מלה האהאאל",
+    "ין  ה י הא",
+    "לה  אי יהה יהה ל",
+    " תן ן ם ו א  ע",
+    " אנן אשהו  מ ולוא",
+    "ין את",
+    "י ה     ה ה בניכ",
+    "ב ה מש  ם יני ם",
+    "מש אי  אי םםאמממהם",
+    "י לההי ה אמ",
+    "יעהנ ה ו ה ",
+    "יי היבמן ק ל ",
+    " ל הי",
+    "מיהתמ"
+   ]
+  },
+  {
+   "name": "B-481487",
+   "manuscript": "4Q512",
+   "material": "Papyrus",
+   "conf": 22,
+   "read": 41,
+   "lines": 5,
+   "dark_ink": 0.13307,
+   "reading": [
+    "אכמבגדי",
+    "הבוברך וענו",
+    "ר ני הטהובר",
+    "ון  אתה קדשרה",
+    "ל ת נית"
+   ]
+  },
+  {
+   "name": "B-481479",
+   "manuscript": "4Q512",
+   "material": "Papyrus",
+   "conf": 20,
+   "read": 33,
+   "lines": 5,
+   "dark_ink": 0.22174,
+   "reading": [
+    "לה בהושו",
+    "ואתאל ושר",
+    "טמ עלפטהו",
+    "והרת תדש",
+    "הה י"
+   ]
+  },
+  {
+   "name": "B-481513",
+   "manuscript": "4Q512",
+   "material": "Papyrus",
+   "conf": 19,
+   "read": 47,
+   "lines": 8,
+   "dark_ink": 0.15383,
+   "reading": [
+    "תאם",
+    "הון",
+    "בימ ל",
+    "ב זהואה",
+    "ו אתה אל יע",
+    "ה חחיקוו קוד",
+    "מתקש ביד",
+    "בה ום ני"
+   ]
+  },
+  {
+   "name": "B-371009",
+   "manuscript": "4Q14",
+   "material": "Parchment",
+   "conf": 17,
+   "read": 139,
+   "lines": 18,
+   "dark_ink": 0.01431,
+   "reading": [
+    "י ש הה שה שה",
+    "טהין יה הואע יאי ה שב",
+    "התדבהאלנתו",
+    " ל היה תד",
+    " אנו  הלעה ם ען",
+    "ו וין ה ",
+    "קו  ן אה לוה",
+    "ם ן  אה הם",
+    "שאיל שהרהאבעב",
+    "םעלה ה הן אהא",
+    "יהם הה",
+    "ןוען  לל",
+    "לאה ",
+    "כולוו",
+    "הלה ההאן",
+    " ין  רך",
+    "ם למהלתא",
+    "ן עהייהללאלל"
+   ]
+  },
+  {
+   "name": "B-481507",
+   "manuscript": "4Q512",
+   "material": "Papyrus",
+   "conf": 14,
+   "read": 30,
+   "lines": 7,
+   "dark_ink": 0.15879,
+   "reading": [
+    "ל",
+    "ן וענה",
+    "עם קוד",
+    "קמו הע",
+    "ם ואדים",
+    " לאשרא",
+    "היא"
+   ]
+  },
+  {
+   "name": "B-481489",
+   "manuscript": "4Q512",
+   "material": "Papyrus",
+   "conf": 14,
+   "read": 25,
+   "lines": 5,
+   "dark_ink": 0.15077,
+   "reading": [
+    "ביכ",
+    "ר י",
+    "ה ביהרול",
+    "א רחל ואני",
+    "וש כפי"
+   ]
+  },
+  {
+   "name": "B-481511",
+   "manuscript": "4Q512",
+   "material": "Papyrus",
+   "conf": 13,
+   "read": 24,
+   "lines": 3,
+   "dark_ink": 0.15187,
+   "reading": [
+    "יית",
+    "ישמשהרום הב",
+    "לתנו כה עמאזה"
+   ]
+  },
+  {
+   "name": "B-495682",
+   "manuscript": "4Q512",
+   "material": "Papyrus",
+   "conf": 13,
+   "read": 69,
+   "lines": 6,
+   "dark_ink": 0.11293,
+   "reading": [
+    "ים ם כלפה",
+    "ןאת מות אהםונק במ",
+    "הום להבם ה ק ב ע",
+    "ל אבוםנדם הר דהלך ",
+    "יעמקימה",
+    "ם לביא למםדאט הין הה"
+   ]
+  },
+  {
+   "name": "B-495676",
+   "manuscript": "4Q512",
+   "material": "Papyrus",
+   "conf": 12,
+   "read": 15,
+   "lines": 4,
+   "dark_ink": 0.15195,
+   "reading": [
+    "לרא",
+    "פת ו",
+    "יה בנד",
+    "ם טיה"
+   ]
+  },
+  {
+   "name": "B-481519",
+   "manuscript": "4Q512",
+   "material": "Papyrus",
+   "conf": 11,
+   "read": 20,
+   "lines": 4,
+   "dark_ink": 0.16037,
+   "reading": [
+    "הך רת",
+    "ישבמכוכ",
+    "תפלה עד ע",
+    "הב"
+   ]
+  },
+  {
+   "name": "B-371145",
+   "manuscript": "4Q338",
+   "material": "Parchment",
+   "conf": 11,
+   "read": 163,
+   "lines": 26,
+   "dark_ink": 0.02867,
+   "reading": [
+    "ה תה אלכועהיים עואי",
+    "הום כ לא ",
+    "שדיה רוההווק",
+    "האולושם",
+    " אמה י ה",
+    "ציה ואאאיהמ",
+    "הה יהיל",
+    "י אהן  ו כו",
+    "ר לם אללםהבא",
+    "יכלולה ההי ",
+    "יה םהה הב",
+    "ליה ה",
+    "ם ילכהמ  קמ",
+    "םכא אלך ",
+    "ין י ןה כלבתמ",
+    "הה ע אפ",
+    "ל אן  א",
+    " ה י ",
+    "יןר פ",
+    "יים",
+    "ה  אעם",
+    "יט",
+    "ם כהן נתא",
+    "הקהןאי",
+    " אן ל",
+    " ש"
+   ]
+  },
+  {
+   "name": "B-495674",
+   "manuscript": "4Q512",
+   "material": "Papyrus",
+   "conf": 10,
+   "read": 25,
+   "lines": 3,
+   "dark_ink": 0.13252,
+   "reading": [
+    "תמיביוא",
+    "כי כול לשינה",
+    "ה כה סוך אנ"
+   ]
+  },
+  {
+   "name": "B-370945",
+   "manuscript": "4Q348",
+   "material": "Parchment",
+   "conf": 10,
+   "read": 85,
+   "lines": 30,
+   "dark_ink": 0.03705,
+   "reading": [
+    "אמלא",
+    "הל",
+    "ה",
+    "א א יך",
+    "רי א",
+    "מהא",
+    "הה ה",
+    "י אי",
+    "ה א",
+    "ת",
+    "ם שולתי ",
+    "מן מי",
+    "ר",
+    "איהא",
+    "מל",
+    "לשלמלהק",
+    "ר ל איקה",
+    "אוה ",
+    "שימל",
+    "או",
+    "ההר",
+    "מלל",
+    " א",
+    "לא",
+    "ת",
+    "אןע ו",
+    "ל ארל",
+    "ב",
+    "ו"
+   ]
+  },
+  {
+   "name": "B-370905",
+   "manuscript": "4Q365",
+   "material": "Parchment",
+   "conf": 9,
+   "read": 49,
+   "lines": 10,
+   "dark_ink": 0.01224,
+   "reading": [
+    "ה עול",
+    " יש",
+    " ו",
+    "תיר הב",
+    "שתושת",
+    "םשמכלא",
+    "ן  ושמ",
+    "ה לאר שה",
+    "ה לאהן ארא ששקר לא",
+    "הא"
+   ]
+  },
+  {
+   "name": "B-481491",
+   "manuscript": "4Q512",
+   "material": "Papyrus",
+   "conf": 8,
+   "read": 19,
+   "lines": 4,
+   "dark_ink": 0.18017,
+   "reading": [
+    "ואחם",
+    "מדך",
+    "ויכה נפר",
+    "ישיה ת"
+   ]
+  },
+  {
+   "name": "B-481523",
+   "manuscript": "4Q512",
+   "material": "Papyrus",
+   "conf": 8,
+   "read": 17,
+   "lines": 3,
+   "dark_ink": 0.16929,
+   "reading": [
+    "כם כול",
+    "ומי הסגד",
+    "כל איה"
+   ]
+  }
+ ],
+ "linked_silent": [
+  {
+   "name": "B-370809",
+   "manuscript": "4Q399",
+   "material": "Parchment",
+   "conf": 0,
+   "read": 7,
+   "dark_ink": 0.00152
+  },
+  {
+   "name": "B-370927",
+   "manuscript": "4Q396",
+   "material": "Parchment",
+   "conf": 0,
+   "read": 16,
+   "dark_ink": 0.00534
+  },
+  {
+   "name": "B-480827",
+   "manuscript": "4Q414",
+   "material": "Parchment",
+   "conf": 0,
+   "read": 1,
+   "dark_ink": 0.00844
+  },
+  {
+   "name": "B-370947",
+   "manuscript": "11Q7",
+   "material": "Parchment",
+   "conf": 0,
+   "read": 3,
+   "dark_ink": 0.00874
+  },
+  {
+   "name": "B-371482",
+   "manuscript": "4Q414",
+   "material": "Parchment",
+   "conf": 0,
+   "read": 0,
+   "dark_ink": 0.00942
+  },
+  {
+   "name": "B-476935",
+   "manuscript": "4Q512",
+   "material": "Papyrus",
+   "conf": 0,
+   "read": 1,
+   "dark_ink": 0.01178
+  },
+  {
+   "name": "B-370965",
+   "manuscript": "4Q13",
+   "material": "Parchment",
+   "conf": 0,
+   "read": 0,
+   "dark_ink": 0.01192
+  },
+  {
+   "name": "B-371055",
+   "manuscript": "4Q84",
+   "material": "Parchment",
+   "conf": 0,
+   "read": 6,
+   "dark_ink": 0.01274
+  },
+  {
+   "name": "B-370801",
+   "manuscript": "4Q176",
+   "material": "Parchment",
+   "conf": 0,
+   "read": 6,
+   "dark_ink": 0.01276
+  },
+  {
+   "name": "B-476955",
+   "manuscript": "4Q512",
+   "material": "Papyrus",
+   "conf": 0,
+   "read": 3,
+   "dark_ink": 0.01513
+  }
+ ],
+ "queue_matches": {
+  "B-496042": "4Q415 f2i+1ii (136.0): text of the opisthograph partner, photo has no text link",
+  "B-499678": "4Q512 f1_6 (202.6): own manuscript, photo has no text link",
+  "B-495670": "4Q512 f33+35 (85.7): own manuscript, photo has no text link",
+  "B-481487": "4Q512 f51_55ii (53.0)",
+  "B-481479": "4Q512 f40_41 (42.1)",
+  "B-371065": "no specific fit (low-confidence reading over 40 bands: texture or show-through)",
+  "B-371009": "no specific fit"
+ },
+ "note": "SQE text links on verso photos follow the piece, not the side (parchment AUC of the ink signals ~0.5), so they are not a usable ground truth. The confident-letter queue finds known opisthographs (4Q414/4Q415, 4Q512) whose verso photos lack a text link; no hidden text on a catalogued-blank verso was found."
+}
