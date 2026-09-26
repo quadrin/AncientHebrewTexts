@@ -1,0 +1,187 @@
+{
+ "gold_letters": 2485,
+ "gold_images": 277,
+ "segmentation": {
+  "gold_lines": 423,
+  "in_one_band": 417,
+  "share_in_one_band": 0.986,
+  "bands_with_gold": 437,
+  "bands_with_two_or_more_lines": 85,
+  "share_merged": 0.195,
+  "merged_bands_by_gap_threshold": {
+   "0.5": "85/437",
+   "0.7": "45/437",
+   "0.9": "23/437"
+  }
+ },
+ "aligners": {
+  "width": {
+   "train": {
+    "bands": 51,
+    "right_line": 50,
+    "other_line_better": 1,
+    "share_right_line": 0.98,
+    "median_gold_edit_rate_in_label": 0.0
+   },
+   "val": {
+    "bands": 2,
+    "right_line": 2,
+    "share_right_line": 1.0,
+    "median_gold_edit_rate_in_label": 0.0
+   },
+   "test": {
+    "bands": 27,
+    "right_line": 18,
+    "other_line_better": 9,
+    "share_right_line": 0.667,
+    "median_gold_edit_rate_in_label": 0.077
+   },
+   "all": {
+    "bands": 80,
+    "right_line": 70,
+    "other_line_better": 10,
+    "share_right_line": 0.875,
+    "median_gold_edit_rate_in_label": 0.0
+   }
+  },
+  "self": {
+   "train": {
+    "bands": 40,
+    "right_line": 39,
+    "other_line_better": 1,
+    "share_right_line": 0.975,
+    "median_gold_edit_rate_in_label": 0.05
+   },
+   "all": {
+    "bands": 40,
+    "right_line": 39,
+    "other_line_better": 1,
+    "share_right_line": 0.975,
+    "median_gold_edit_rate_in_label": 0.05
+   }
+  }
+ },
+ "misses": [
+  {
+   "kind": "width",
+   "name": "B-365182",
+   "manuscript": "4Q299",
+   "band": 1,
+   "tier": "B",
+   "label_line": "3",
+   "best_line": "4",
+   "rate_label": 0.52,
+   "rate_best": 0.48
+  },
+  {
+   "kind": "width",
+   "name": "B-368240",
+   "manuscript": "4Q54",
+   "band": 2,
+   "tier": "B",
+   "label_line": "4",
+   "best_line": "3",
+   "rate_label": 0.57,
+   "rate_best": 0.0
+  },
+  {
+   "kind": "width",
+   "name": "B-368240",
+   "manuscript": "4Q54",
+   "band": 3,
+   "tier": "B",
+   "label_line": "5",
+   "best_line": "4",
+   "rate_label": 0.64,
+   "rate_best": 0.0
+  },
+  {
+   "kind": "width",
+   "name": "B-368240",
+   "manuscript": "4Q54",
+   "band": 4,
+   "tier": "B",
+   "label_line": "6",
+   "best_line": "5",
+   "rate_label": 0.75,
+   "rate_best": 0.0
+  },
+  {
+   "kind": "width",
+   "name": "B-368240",
+   "manuscript": "4Q54",
+   "band": 5,
+   "tier": "B",
+   "label_line": "7",
+   "best_line": "6",
+   "rate_label": 0.67,
+   "rate_best": 0.0
+  },
+  {
+   "kind": "width",
+   "name": "B-368240",
+   "manuscript": "4Q54",
+   "band": 6,
+   "tier": "B",
+   "label_line": "8",
+   "best_line": "7",
+   "rate_label": 0.75,
+   "rate_best": 0.0
+  },
+  {
+   "kind": "width",
+   "name": "B-368240",
+   "manuscript": "4Q54",
+   "band": 7,
+   "tier": "B",
+   "label_line": "9",
+   "best_line": "8",
+   "rate_label": 0.71,
+   "rate_best": 0.0
+  },
+  {
+   "kind": "width",
+   "name": "B-368240",
+   "manuscript": "4Q54",
+   "band": 8,
+   "tier": "B",
+   "label_line": "10",
+   "best_line": "9",
+   "rate_label": 0.81,
+   "rate_best": 0.0
+  },
+  {
+   "kind": "width",
+   "name": "B-368240",
+   "manuscript": "4Q54",
+   "band": 9,
+   "tier": "B",
+   "label_line": "11",
+   "best_line": "10",
+   "rate_label": 0.67,
+   "rate_best": 0.0
+  },
+  {
+   "kind": "width",
+   "name": "B-368240",
+   "manuscript": "4Q54",
+   "band": 12,
+   "tier": "B",
+   "label_line": "14",
+   "best_line": "13",
+   "rate_label": 0.8,
+   "rate_best": 0.0
+  },
+  {
+   "kind": "self",
+   "name": "B-364714",
+   "manuscript": "4Q300",
+   "band": 2,
+   "tier": "S",
+   "label_line": "4",
+   "best_line": "1",
+   "rate_label": 0.67,
+   "rate_best": 0.33
+  }
+ ]
+}

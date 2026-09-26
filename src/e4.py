@@ -10,7 +10,11 @@ Pieces searched (full Hebrew reference, local line scores, run-4 readings):
           scroll copies of it): 'lost text with near-neighbours'
   ownx    other identified biblical training pieces, only their own manuscript
           masked: the true source is present (positives for rescoring)
-  target  the M7 target images (unidentified sets), nothing masked
+  target  the M7 target images (unidentified sets). A set that has an ETCBC
+          transcription of its own (e.g. 4Q562, 4Q584) is searched twice:
+          unmasked, to record a hit in its own transcription (own_set_hit: a
+          photo that lacks its catalogue link), and with that transcription
+          masked, for the queue. env REDO=target drops earlier target results.
 The corpus also holds the entrapment documents (entrap_ref.py: Mishnah and
 Tosefta, shared stretches blanked). They are scored, but kept apart from the
 reference statistic: S and T use reference positions only, T_en is the best
@@ -217,6 +221,8 @@ def main():
           file=sys.stderr, flush=True)
     path = f'{DE}/searches2_fwd.json' if FORWARD else f'{DE}/searches2.json'
     res = json.load(open(path)) if os.path.exists(path) else {}
+    for kind in filter(None, os.environ.get('REDO', '').split(',')):
+        res = {k: v for k, v in res.items() if not k.startswith(kind + '|')}
 
     def own_mask(ms, scrolls=()):
         keys = {nms(ms), nms(ms.split('-')[0])} | {nms(s) for s in scrolls}
@@ -264,13 +270,22 @@ def main():
             continue
         ms = pairs[n]['manuscript']
         scrolls = {x['etcbc'][0] for x in pairs[n]['links']}
-        m = own_mask(ms, scrolls) if kind != 'target' else np.zeros(len(c.docs), bool)
+        own_hit = None
+        if kind == 'target':
+            m = own_mask(ms)
+            if m.any():
+                r0 = search(c, G, rd, np.zeros(len(c.docs), bool), en)
+                if r0 and r0['doc'].startswith('DSS ') and nms(r0['doc'][4:]) in {nms(ms), nms(ms.split('-')[0])}:
+                    own_hit = dict(T=r0['T'], doc=r0['doc'], ref=r0['ref'], gap=r0['gap'])
+        else:
+            m = own_mask(ms, scrolls)
         if kind == 'srcx':
             books = {'B:' + b for b in BOOKMAP[comp[ms]]}
             m |= G.mask(lambda nm, g: bool(g & books))
         r = search(c, G, rd, m, en)
         if r is None:
             continue
+        r['own_set_hit'] = own_hit
         r.update(kind=kind, name=n, manuscript=ms, read=nread, I=info(rd, c.q))
         res[key] = r
         if k % 200 == 199:

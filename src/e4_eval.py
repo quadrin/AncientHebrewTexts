@@ -202,6 +202,38 @@ def main():
                                 note='empirical p on fold-C nulls (floor ~1/n per length window); '
                                      'compare the two rows, not with the tail p')
 
+    # ---- step 5b: rescored score with a fitted tail (p below 0.01)
+    #   the nulls outside fold A are split again by manuscript: T (train the
+    #   model), K (fit the tail of the rescored value), H (held-out check)
+    if pos:
+        rest = dB + dC + sB + sC
+        fT, fK, fH = folds(rest, 3, seed=7)
+        X = [feats(r, pv[id(r)]) for r in pos + fT]
+        f2 = logistic(X, [1] * len(pos) + [0] * len(fT))
+        R = lambda r: f2(feats(r, pv[id(r)]))
+        kR = np.array([R(r) for r in fK])
+        kread = np.array([r['read'] for r in fK], float)
+
+        def p_resc(r):
+            sel = np.abs(np.log(kread / r['read'])) <= np.log(1.5)
+            v = kR[sel] if sel.sum() >= 20 else kR[np.argsort(np.abs(np.log(kread / r['read'])))[:20]]
+            x = R(r)
+            u = np.percentile(v, 80)
+            if x <= u:
+                return float((1 + (v >= x).sum()) / (len(v) + 1))
+            ex = v[v > u] - u
+            lam = 1.0 / max(ex.mean(), 1e-3)
+            return float((v > u).mean() * np.exp(-lam * (x - u)))
+        pH = np.array([p_resc(r) for r in fH])
+        out['rescoring_tail'] = dict(
+            train_nulls=len(fT), tail_nulls=len(fK), heldout_nulls=len(fH),
+            heldout_fp={str(a): round(float((pH <= a).mean()), 4) for a in LEVELS},
+            m5_pooled_10plus_own={str(a): sum(1 for r in b10 if correct(r) and p_resc(r) <= a) for a in LEVELS},
+            m5_pooled_10plus_all={str(a): sum(1 for r in b10 if p_resc(r) <= a) for a in LEVELS},
+            baseline_T_tail_own={str(a): sum(1 for r in b10 if correct(r) and pv[id(r)] <= a) for a in LEVELS},
+            baseline_heldout_fp={str(a): round(float(np.mean([pv[id(r)] <= a for r in fH])), 4) for a in LEVELS},
+            note='tail fitted past the 80th percentile of the rescored value of length-matched nulls (fold K)')
+
     # ---- step 7: lowest-level assignment
     def lca(r, p):
         pb = posterior_book(r, p)
@@ -275,7 +307,7 @@ def main():
                            entrap_wins=bool(r['T_en'] > r['T']), T_en=round(r['T_en'], 2), en_doc=r['en_doc'],
                            p_combined=nullall.p(dict(r, T=tc)),
                            reading=[l['text'] for l in rd.get(r['name'], []) if l['text']]))
-    json.dump(rows_q, open('data/e4/queue.json', 'w'), ensure_ascii=False)
+    json.dump(rows_q, open(f'data/e4/queue{suf}.json', 'w'), ensure_ascii=False)
     lead = next((i + 1 for i, x in enumerate(rows_q) if x['name'] == 'B-359582'), None)
     out['queue'] = dict(targets=m, q_le_0_05=sum(1 for x in rows_q if x['q'] <= 0.05),
                         q_le_0_2=sum(1 for x in rows_q if x['q'] <= 0.2),
@@ -295,7 +327,27 @@ def main():
         L.append(f"| {i} | {x['name']} | {x['manuscript']} | {x['read']} | {x['lines']} | {x['hit']} | {x['T']} | "
                  f"{x['p']:.2g} | {x['q']:.2g} | {x['gap']} | {lvl} | {'yes' if x['entrap_wins'] else ''} | "
                  f"{' / '.join(x['reading'][:3])} |")
-    open('reports/E4_queue.md', 'w').write('\n'.join(L) + '\n')
+    # photos whose best unmasked hit is their own set's transcription: catalogue fixes
+    own = []
+    for r in tgt:
+        h = r.get('own_set_hit')
+        if h:
+            po = nullall.p(dict(r, T=h['T']))
+            own.append(dict(name=r['name'], manuscript=r['manuscript'], read=r['read'], T=round(h['T'], 2), p=po,
+                            hit=f"{h['doc']} {h['ref']}", reading=[l['text'] for l in rd.get(r['name'], []) if l['text']]))
+    own.sort(key=lambda x: x['p'])
+    out['queue']['own_set_hits'] = len(own)
+    out['queue']['own_set_hits_p_le_0_01'] = sum(1 for x in own if x['p'] <= 0.01)
+    L += ['', '## Photos whose best hit is their own set\'s transcription (catalogue fixes)', '',
+          'Searched without masking; these rows are not in the table above, which masks each set\'s own transcription. '
+          'A low p means the photo shows text of its own set that has no catalogue link. p is not corrected for the '
+          f'{len(own)} photos listed.', '',
+          '| Image | Set | Letters | Hit | T | p | Reading |', '|---|---|---|---|---|---|---|']
+    for x in own[:30]:
+        L.append(f"| {x['name']} | {x['manuscript']} | {x['read']} | {x['hit']} | {x['T']} | {x['p']:.2g} | "
+                 f"{' / '.join(x['reading'][:3])} |")
+    json.dump(own, open(f'data/e4/own_set_hits{suf}.json', 'w'), ensure_ascii=False)
+    open(f'reports/E4_queue{suf}.md', 'w').write('\n'.join(L) + '\n')
     print(json.dumps({k: v for k, v in out.items() if k != 'queue'}, indent=1))
     print(json.dumps({k: v for k, v in out['queue'].items() if k != 'lead'}, indent=1), out['queue']['lead'])
 
