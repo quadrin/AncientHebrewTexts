@@ -1,0 +1,202 @@
+{
+ "pieces": {
+  "test": 184,
+  "decoy": 1089,
+  "srcx": 384,
+  "ownx": 371,
+  "target": 1209
+ },
+ "heldout_fp": {
+  "0.05": 0.0147,
+  "0.01": 0.0059,
+  "0.001": 0.0029
+ },
+ "heldout_fp_decoys_only": {
+  "0.05": 0.0048,
+  "0.01": 0.0,
+  "0.001": 0.0
+ },
+ "m5_rows": [
+  {
+   "read": "3-5",
+   "biblical": 36,
+   "top1_own_book": 0,
+   "p<=0.05_own": 0,
+   "p<=0.05_all": 0,
+   "p<=0.01_own": 0,
+   "p<=0.01_all": 0,
+   "p<=0.001_own": 0,
+   "p<=0.001_all": 0
+  },
+  {
+   "read": "6-9",
+   "biblical": 17,
+   "top1_own_book": 2,
+   "p<=0.05_own": 0,
+   "p<=0.05_all": 0,
+   "p<=0.01_own": 0,
+   "p<=0.01_all": 0,
+   "p<=0.001_own": 0,
+   "p<=0.001_all": 0
+  },
+  {
+   "read": "10-19",
+   "biblical": 20,
+   "top1_own_book": 14,
+   "p<=0.05_own": 2,
+   "p<=0.05_all": 3,
+   "p<=0.01_own": 2,
+   "p<=0.01_all": 3,
+   "p<=0.001_own": 1,
+   "p<=0.001_all": 1
+  },
+  {
+   "read": "20-39",
+   "biblical": 15,
+   "top1_own_book": 12,
+   "p<=0.05_own": 6,
+   "p<=0.05_all": 6,
+   "p<=0.01_own": 3,
+   "p<=0.01_all": 3,
+   "p<=0.001_own": 2,
+   "p<=0.001_all": 2
+  },
+  {
+   "read": "40-+",
+   "biblical": 20,
+   "top1_own_book": 20,
+   "p<=0.05_own": 13,
+   "p<=0.05_all": 13,
+   "p<=0.01_own": 11,
+   "p<=0.01_all": 11,
+   "p<=0.001_own": 7,
+   "p<=0.001_all": 7
+  }
+ ],
+ "m5_pooled_10plus": {
+  "n": 55,
+  "0.05": 21,
+  "0.01": 16,
+  "0.001": 10
+ },
+ "rescoring": {
+  "positives": 157,
+  "negatives": 523,
+  "fold_C_nulls": 340,
+  "m5_pooled_10plus_empirical": {
+   "T_only": {
+    "0.05": 21,
+    "0.01": 0
+   },
+   "rescored": {
+    "0.05": 30,
+    "0.01": 0
+   }
+  },
+  "note": "empirical p on fold-C nulls (floor ~1/n per length window); compare the two rows, not with the tail p"
+ },
+ "lca": {
+  "pi": 0.5,
+  "tau": 0.95,
+  "ownx": {
+   "none": 299,
+   "chapter_right": 69,
+   "book_wrong": 1,
+   "book_right": 2
+  },
+  "nulls_C": {
+   "none": 337,
+   "book_wrong": 3
+  },
+  "test": {
+   "chapter_right": 17,
+   "none": 163,
+   "book_right": 4
+  },
+  "test_10_19_book_or_better": 2,
+  "test_10_19_n": 20
+ },
+ "entrapment": {
+  "r": 1.03,
+  "test": {
+   "0.05": {
+    "N_T": 22,
+    "N_E": 0,
+    "FDP_upper": 0.0
+   },
+   "0.01": {
+    "N_T": 17,
+    "N_E": 0,
+    "FDP_upper": 0.0
+   },
+   "0.001": {
+    "N_T": 10,
+    "N_E": 0,
+    "FDP_upper": 0.0
+   }
+  },
+  "nulls_C": {
+   "0.05": {
+    "N_T": 5,
+    "N_E": 0,
+    "FDP_upper": 0.0
+   },
+   "0.01": {
+    "N_T": 2,
+    "N_E": 0,
+    "FDP_upper": 0.0
+   },
+   "0.001": {
+    "N_T": 1,
+    "N_E": 0,
+    "FDP_upper": 0.0
+   }
+  },
+  "ownx": {
+   "0.05": {
+    "N_T": 79,
+    "N_E": 0,
+    "FDP_upper": 0.0
+   },
+   "0.01": {
+    "N_T": 55,
+    "N_E": 0,
+    "FDP_upper": 0.0
+   },
+   "0.001": {
+    "N_T": 33,
+    "N_E": 0,
+    "FDP_upper": 0.0
+   }
+  }
+ },
+ "queue": {
+  "targets": 1209,
+  "q_le_0_05": 1,
+  "q_le_0_2": 1,
+  "p_le_0_001": 1,
+  "lead_B359582_rank": 2,
+  "lead": {
+   "name": "B-359582",
+   "manuscript": "4Q9999",
+   "read": 15,
+   "lines": 2,
+   "T": 12.21,
+   "p": 0.004536880055416637,
+   "q": 0.9999999999999063,
+   "gap": 6.03,
+   "hit": "MT Gen Gen.50.15",
+   "level": "chapter",
+   "P_book": 0.993,
+   "chapter": "Gen.50",
+   "entrap_wins": false,
+   "T_en": 4.79,
+   "en_doc": "E:Tosefta Terumot",
+   "p_combined": 0.006927498444291635,
+   "reading": [
+    "ויאמרו לו",
+    "חר גמלנו "
+   ]
+  }
+ }
+}

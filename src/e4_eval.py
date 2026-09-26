@@ -76,7 +76,7 @@ def logistic(X, y, l2=1e-2, it=500):
         w -= step
         if np.abs(step).max() < 1e-8:
             break
-    return lambda x: float(np.c_[(np.atleast_2d(x) - mu) / sd, np.ones(1)] @ w)
+    return lambda x: float((np.c_[(np.atleast_2d(np.asarray(x, float)) - mu) / sd, np.ones((1, 1))] @ w)[0])
 
 
 def emp_p(value, read, null_vals, null_read, manuscript=None, null_ms=None):
@@ -102,11 +102,53 @@ def posterior_chapter(r, p):
     return 1.0 / (1.0 + rest + odds0), ch[0][0]
 
 
+def scroll_books(min_words=5, min_share=0.2):
+    """ETCBC scroll -> biblical books it copies (the word feature `book`; pieces
+    that ETCBC could not place carry the scroll name as book and are ignored)."""
+    path = 'data/e4/scroll_books.json'
+    if os.path.exists(path):
+        return {k: set(v) for k, v in json.load(open(path)).items()}
+    from tf.fabric import Fabric
+    api = Fabric(locations='data/dss/tf/2.0.1', silent='deep').load('otype scroll book', silent='deep')
+    F, L = api.F, api.L
+    out = {}
+    for sc in F.otype.s('scroll'):
+        name = F.scroll.v(sc)
+        c = collections.Counter(F.book.v(w) for w in L.d(sc, 'word') if F.book.v(w) and F.book.v(w) != name)
+        tot = sum(c.values())
+        bks = {({'Is': 'Isa', 'Ex': 'Exod'}).get(b, b) for b, n in c.items() if n >= min_words and n / tot >= min_share}
+        if bks:
+            out[name] = bks
+    json.dump({k: sorted(v) for k, v in out.items()}, open(path, 'w'))
+    return out
+
+
+def canonicalise(recs, sb):
+    """Search-time groups filed a scroll copy under 'C:<scroll>' when its Leon
+    Levy composition did not join (e.g. 4Q12a); map those to their books and
+    recompute the gap from the stored per-group scores."""
+    def canon(g):
+        if g.startswith('C:') and g[2:] in sb:
+            return {'B:' + b for b in sb[g[2:]]}
+        return {g}
+    for r in recs:
+        r['groups'] = sorted(set().union(*[canon(g) for g in r['groups']]))
+        best = collections.defaultdict(lambda: -1e9)
+        for g, t in r.get('top_groups') or []:
+            for c in canon(g):
+                best[c] = max(best[c], t)
+        r['top_groups'] = sorted(best.items(), key=lambda x: -x[1])
+        other = [t for g, t in r['top_groups'] if g not in r['groups']]
+        if other:
+            r['gap'] = r['T'] - max(other)
+
+
 def main():
     ll, comp, etcbc = load_meta()
     res = json.load(open(os.environ.get('SEARCHES', 'data/e4/searches2.json')))
     suf = os.environ.get('SUFFIX', '')
     recs = list(res.values())
+    canonicalise(recs, scroll_books())
     by = collections.defaultdict(list)
     for r in recs:
         by[r['kind']].append(r)
