@@ -301,7 +301,11 @@ def main():
     for (p, r), qq in zip(q, qs):
         lvl, pb, ch = lca(r, p)
         tc = max(r['T'], r['T_en']) - np.log(1 + r_ratio)
-        rows_q.append(dict(name=r['name'], manuscript=batch.get(r['name'], {}).get('manuscript', r['manuscript']),
+        p_r = None
+        if pos:
+            pv[id(r)] = null.p(r)                   # the rescoring feature uses the fold-A null
+            p_r = p_resc(r)
+        rows_q.append(dict(p_rescored=p_r, name=r['name'], manuscript=batch.get(r['name'], {}).get('manuscript', r['manuscript']),
                            read=r['read'], lines=r['L'], T=round(r['T'], 2), p=p, q=qq, gap=round(r['gap'], 2),
                            hit=f"{r['doc']} {r['ref']}", level=lvl, P_book=round(pb, 3), chapter=ch,
                            entrap_wins=bool(r['T_en'] > r['T']), T_en=round(r['T_en'], 2), en_doc=r['en_doc'],
@@ -314,18 +318,17 @@ def main():
                         p_le_0_001=sum(1 for x in rows_q if x['p'] <= 0.001),
                         lead_B359582_rank=lead,
                         lead=next((x for x in rows_q if x['name'] == 'B-359582'), None))
-    json.dump(out, open(f'reports/E4_eval{suf}.json', 'w'), ensure_ascii=False, indent=1)
     L = ['# E4 review queue (M7 targets, run-4 readings, E4 calibration)', '',
          f'{m} target images searched. Null: decoys (v4) + source-excluded nulls, length window x1.5, fitted tail. '
          'q = Benjamini-Hochberg over all targets. Level: lowest node with posterior >= 0.95 (book or chapter). '
          '"Entrapment wins" = the Mishnah/Tosefta decoy corpus scored higher than the reference: treat as chance.', '',
          'Every row is a lead for a specialist, not an identification. Crops stay local (IAA rights).', '',
-         '| # | Image | Set | Letters | Lines | Best hit | T | p | q | Gap | Level | Entrapment wins | Reading |',
-         '|---|---|---|---|---|---|---|---|---|---|---|---|---|']
+         '| # | Image | Set | Letters | Lines | Best hit | T | p | q | p rescored | Gap | Level | Entrapment wins | Reading |',
+         '|---|---|---|---|---|---|---|---|---|---|---|---|---|---|']
     for i, x in enumerate(rows_q[:40], 1):
         lvl = x['level'] + (f" ({x['chapter']})" if x['chapter'] else '')
         L.append(f"| {i} | {x['name']} | {x['manuscript']} | {x['read']} | {x['lines']} | {x['hit']} | {x['T']} | "
-                 f"{x['p']:.2g} | {x['q']:.2g} | {x['gap']} | {lvl} | {'yes' if x['entrap_wins'] else ''} | "
+                 f"{x['p']:.2g} | {x['q']:.2g} | {'' if x['p_rescored'] is None else format(x['p_rescored'], '.2g')} | {x['gap']} | {lvl} | {'yes' if x['entrap_wins'] else ''} | "
                  f"{' / '.join(x['reading'][:3])} |")
     # photos whose best unmasked hit is their own set's transcription: catalogue fixes
     own = []
@@ -348,6 +351,7 @@ def main():
                  f"{' / '.join(x['reading'][:3])} |")
     json.dump(own, open(f'data/e4/own_set_hits{suf}.json', 'w'), ensure_ascii=False)
     open(f'reports/E4_queue{suf}.md', 'w').write('\n'.join(L) + '\n')
+    json.dump(out, open(f'reports/E4_eval{suf}.json', 'w'), ensure_ascii=False, indent=1)
     print(json.dumps({k: v for k, v in out.items() if k != 'queue'}, indent=1))
     print(json.dumps({k: v for k, v in out['queue'].items() if k != 'lead'}, indent=1), out['queue']['lead'])
 

@@ -3,8 +3,8 @@
   "test": 184,
   "decoy": 1089,
   "srcx": 384,
-  "ownx": 0,
-  "target": 0
+  "ownx": 371,
+  "target": 1209
  },
  "heldout_fp": {
   "0.05": 0.0088,
@@ -79,10 +79,62 @@
   "0.01": 17,
   "0.001": 12
  },
+ "rescoring": {
+  "positives": 160,
+  "negatives": 523,
+  "fold_C_nulls": 340,
+  "m5_pooled_10plus_empirical": {
+   "T_only": {
+    "0.05": 19,
+    "0.01": 0
+   },
+   "rescored": {
+    "0.05": 28,
+    "0.01": 0
+   }
+  },
+  "note": "empirical p on fold-C nulls (floor ~1/n per length window); compare the two rows, not with the tail p"
+ },
+ "rescoring_tail": {
+  "train_nulls": 349,
+  "tail_nulls": 239,
+  "heldout_nulls": 275,
+  "heldout_fp": {
+   "0.05": 0.0327,
+   "0.01": 0.0218,
+   "0.001": 0.0036
+  },
+  "m5_pooled_10plus_own": {
+   "0.05": 30,
+   "0.01": 21,
+   "0.001": 12
+  },
+  "m5_pooled_10plus_all": {
+   "0.05": 33,
+   "0.01": 22,
+   "0.001": 13
+  },
+  "baseline_T_tail_own": {
+   "0.05": 21,
+   "0.01": 17,
+   "0.001": 12
+  },
+  "baseline_heldout_fp": {
+   "0.05": 0.0255,
+   "0.01": 0.0182,
+   "0.001": 0.0109
+  },
+  "note": "tail fitted past the 80th percentile of the rescored value of length-matched nulls (fold K)"
+ },
  "lca": {
   "pi": 0.5,
   "tau": 0.95,
-  "ownx": {},
+  "ownx": {
+   "none": 300,
+   "chapter_right": 67,
+   "book_wrong": 1,
+   "book_right": 3
+  },
   "nulls_C": {
    "none": 338,
    "book_wrong": 2
@@ -134,20 +186,51 @@
   },
   "ownx": {
    "0.05": {
-    "N_T": 0,
+    "N_T": 75,
     "N_E": 0,
     "FDP_upper": 0.0
    },
    "0.01": {
-    "N_T": 0,
+    "N_T": 59,
     "N_E": 0,
     "FDP_upper": 0.0
    },
    "0.001": {
-    "N_T": 0,
+    "N_T": 35,
     "N_E": 0,
     "FDP_upper": 0.0
    }
   }
+ },
+ "queue": {
+  "targets": 1209,
+  "q_le_0_05": 0,
+  "q_le_0_2": 0,
+  "p_le_0_001": 0,
+  "lead_B359582_rank": 1,
+  "lead": {
+   "name": "B-359582",
+   "manuscript": "4Q9999",
+   "read": 15,
+   "lines": 2,
+   "T": 12.21,
+   "p": 0.009261468993443711,
+   "q": 0.9999999999999063,
+   "gap": 5.82,
+   "hit": "MT Gen Gen.50.15",
+   "level": "chapter",
+   "P_book": 0.988,
+   "chapter": "Gen.50",
+   "entrap_wins": false,
+   "T_en": 5.47,
+   "en_doc": "E:Tosefta Terumot",
+   "p_combined": 0.014522700659386878,
+   "reading": [
+    "ויאמרו לו",
+    "חר גמלנו "
+   ]
+  },
+  "own_set_hits": 4,
+  "own_set_hits_p_le_0_01": 1
  }
 }

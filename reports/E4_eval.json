@@ -95,6 +95,37 @@
   },
   "note": "empirical p on fold-C nulls (floor ~1/n per length window); compare the two rows, not with the tail p"
  },
+ "rescoring_tail": {
+  "train_nulls": 349,
+  "tail_nulls": 239,
+  "heldout_nulls": 275,
+  "heldout_fp": {
+   "0.05": 0.0327,
+   "0.01": 0.0182,
+   "0.001": 0.0036
+  },
+  "m5_pooled_10plus_own": {
+   "0.05": 31,
+   "0.01": 26,
+   "0.001": 12
+  },
+  "m5_pooled_10plus_all": {
+   "0.05": 34,
+   "0.01": 27,
+   "0.001": 13
+  },
+  "baseline_T_tail_own": {
+   "0.05": 21,
+   "0.01": 16,
+   "0.001": 10
+  },
+  "baseline_heldout_fp": {
+   "0.05": 0.0255,
+   "0.01": 0.0218,
+   "0.001": 0.0073
+  },
+  "note": "tail fitted past the 80th percentile of the rescored value of length-matched nulls (fold K)"
+ },
  "lca": {
   "pi": 0.5,
   "tau": 0.95,
@@ -172,11 +203,12 @@
  },
  "queue": {
   "targets": 1209,
-  "q_le_0_05": 1,
-  "q_le_0_2": 1,
-  "p_le_0_001": 1,
-  "lead_B359582_rank": 2,
+  "q_le_0_05": 0,
+  "q_le_0_2": 0,
+  "p_le_0_001": 0,
+  "lead_B359582_rank": 1,
   "lead": {
+   "p_rescored": 1.9256509571554366e-07,
    "name": "B-359582",
    "manuscript": "4Q9999",
    "read": 15,
@@ -197,6 +229,8 @@
     "ויאמרו לו",
     "חר גמלנו "
    ]
-  }
+  },
+  "own_set_hits": 3,
+  "own_set_hits_p_le_0_01": 1
  }
 }
