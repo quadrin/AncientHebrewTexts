@@ -51,6 +51,17 @@ Checked 2026-09-27 against branch `main` (commit 637a7a9, "Add files via upload"
 
 For Phase 3 the most relevant gap is the **Qumran–Buqeia–Hyrcania–Dead Sea shore area**, which none of the crops covers. That area holds many candidate sites (Secacah, Achor-in-the-Buqeia, Kidron outlet).
 
+## Uploaded dossier: "Extracted site data — Jerusalem, Jericho & the Dead Sea" (added 2026-09-27)
+
+A 5-page PDF you uploaded in session 1: `TIR_Copper_Scroll_Research_Summary.pdf`. It is not in the repo. It is a **secondary, web-derived** compilation, and its own heading says it paraphrases scholarly and institutional web pages dated 27 Sept 2026. Its sources are Encyclopaedia Judaica entries hosted on Encyclopedia.com, the Hebrew University's *Virtual Qumran*, the Heidelberg/Trier biblical place-name database, the Barrington Atlas Map 70 directory, the LacusCurtius Strabo, and Bible Gateway.
+
+- Contents: site notes on Jericho (with Old Palestine Grid coordinates), Jerusalem/Aelia, Doq, Kypros, Wadi Qilt, Hyrcania and the Wadi Secaca tunnels, the Kidron, Mar Saba, Khirbet Qumran, Cave 3, Ein Feshkha and the Buqeia, Ein Gedi, and Achor.
+- It also gives TIR page citations recovered secondhand: Kidron 102; Kypros/Threx? 106, 249; Doq 112–113; Ein Gedi 121; Jericho 143–144; Jerusalem 145–146; Hyrcania 149.
+- **Use:** Phases 3 and 5 (site candidates, archaeology). It contains no readings or translations of 3Q15 and adds nothing to the Phase 1 table.
+- Cross-check done in Phase 1: its Jericho entry cites 3Q15 "V 13 and XI 9". Both lines have ירחו in Puech's preserved text (V 13 מירחו, entry 24; XI 9 ירחו, entry 54). A third mention, VII 4 "[של ירחו(?)]", is only a restoration by Puech.
+- Caveat: it states that no readable TIR map of Jerusalem–Jericho–Dead Sea was obtained. The repo crop `north_samaria_jerusalem.jpeg` does cover Jerusalem–Jericho legibly. What is missing is the Qumran/Dead Sea shore part.
+- Its claims are secondhand and have not been checked against the underlying publications. Treat them as leads until checked.
+
 ## Copyright note
 
 The repository `quadrin/AncientHebrewTexts` is **public** on GitHub, and `main` contains the complete Puech (Brill 2006) and Lefkovits (Brill 2000) books, plus map crops without an established reuse licence (see the README on `main`). Files in this `copper_scroll/` folder quote the editions only as research data: line-by-line readings with page citations, short glosses, and English translations written for this project. They do not copy the editors' translations.
