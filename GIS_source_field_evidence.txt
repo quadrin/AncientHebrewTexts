@@ -1,0 +1,17 @@
+Public source: https://ruj.uj.edu.pl/handle/item/307393
+File: Roman_Imperial_Roads.zip
+Download: https://ruj.uj.edu.pl/server/api/core/bitstreams/a4ebdf92-30a6-4c7e-864d-bfb98a381e1c/content
+Inspected: Roman_Imperial_Roads/Roman_Imperial_Roads.dbf, source field
+The ZIP contains shapefile components, not the source TIFFs.
+
+Source filename : road-feature count
+DPV_HQ_81_Madeba.jpg : 1
+PEF_Survey_of_Eastern_Palestine.tif : 3
+Palestine1878.tif : 38
+Schumacher_Ostjordanlandes_A4.jpg : 1
+Schumacher_Ostjordanlandes_B3.jpg : 1
+Schumacher_Ostjordanlandes_B4.jpg : 1
+Schumacher_Ostjordanlandes_B5.jpg : 7
+Schumacher_Ostjordanlandes_C4.jpg : 4
+Tsafrir_map3.tiff : 53
+Tsafrir_map4.tiff : 16
