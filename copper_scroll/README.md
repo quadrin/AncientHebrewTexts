@@ -51,6 +51,7 @@ The files marked **no** reproduce or quote copyrighted edition text. This GitHub
   - Numerals appear as `‹value›`.
 - `variants_lefkovits`: hand-checked differences between Lefkovits's text and Puech's. "subst." marks a difference in place, direction, distance/depth or quantity.
 - `variants_milik1962_firsthand`: hand-checked differences between Milik's own text in DJD III (1962, pp. 284–299) and Puech's. Each difference is marked "subst." (a different word, sense or figure), "orth." (spelling only) or "restor." (only in a lacuna or restoration).
+- `readings_wolters1994_firsthand`: the few readings Wolters gives in his 1994 article, from his own examination of the metal, with page (F2.10).
 - `variants_milik_secondhand`, `variants_wolters_secondhand`: readings that differ from Puech, as reported by Lefkovits `[Lef. p.]` (Hebrew script) or Puech `[Puech p. n.]` (transliteration). The two reporters sometimes disagree about what Milik or Wolters read.
 - `translation_en`: an English rendering written for this project. It follows Puech's reading and his French interpretation, and is not Puech's English translation, which contains errors (see the findings log).
 - `landmark_terms`, `direction_distance_depth`, `treasure`: structured from Puech's text. In the treasure column, "ככ" is kept as written. Puech and Lefkovits read it as k(esef) k(arsh), 1 karsh = 10 shekels; Milik and Allegro read "talents".

@@ -12,6 +12,9 @@ Checked 2026-09-27 against branch `main` (commit 637a7a9, "Add files via upload"
 | Milik 1960, ADAJ 4–5 (uploaded in session 1) | Not in the repo (upload only) | Yes, an image scan with no text layer; read visually | **Firsthand** Milik: his complete English translation with his 1–64 numbering, and his commentary on the place names |
 | Wolters (you listed his readings as a variant column) | **No.** Wolters 1996, *The Copper Scroll: Overview, Text and Translation*, is not in the repo. | — | Taken **secondhand** from Lefkovits (who cites "Wolters 1996" throughout) and Puech. |
 | TIR Iudaea-Palaestina, North sheet | **Only crops**, not the sheet | Yes (see below) | Not used in Phase 1 |
+| Wolters 1994, "History and the Copper Scroll" (uploaded in session 2) | Not in the repo (upload only) | Yes. A scan with an OCR layer; the OCR has noise, and transliterations were checked on the page images | **Firsthand** Wolters: five of his own readings, a history of interpretation, and the 1988 juglet argument |
+| Brooke and Davies (eds.), *Copper Scroll Studies* (uploaded in session 2) | Not in the repo (upload only) | Yes, but **a 37-page preview only** | Contents list, Introduction (pp. 1–9) and part of chapter 1. **None of the key chapters** |
+| DJD VII, Baillet, *Qumrân grotte 4. III (4Q482–4Q520)* (uploaded in session 2) | Not in the repo (upload only) | Yes. The complete volume (444 pages) with plates | **Almost nothing on 3Q15**: one spelling parallel (p. 222) |
 
 ## Puech 2006 (primary reading)
 
@@ -62,6 +65,41 @@ Checked 2026-09-27 against branch `main` (commit 637a7a9, "Add files via upload"
 - **Missing from the scan:** the plates (DJD III pl. XLIII–LXXI, BK: plate range from memory, check). Milik's drawings can therefore not be checked here.
 - Milik marks a doubtful letter with a dot above (probable) or a small circle above (possible). The transcripts use U+05C4 and U+05AF for these.
 - The item numbering is the same as in Milik 1960 (1–64), item for item. The wording of some translations changed between 1960 and 1962 (see the findings log, F2.x).
+
+## Uploaded in session 2 (after Phase 2)
+
+### Wolters 1994
+
+- A. Wolters, "History and the Copper Scroll", in *Methods of Investigation of the Dead Sea Scrolls and the Khirbet Qumran Site* (Annals of the New York Academy of Sciences 722; 1994), pp. 285–298. It includes the discussion after the paper, pp. 295–298.
+- It gives some of Wolters's **own readings**, made from the copper segments in Amman in June 1991 (p. 292):
+  - III 9 *lbwšy*
+  - VIII 3 *wspry wʾlt ks[p]*
+  - XI 9 *thwrty*
+  - XII 1–2 *kwzyn* (p. 294)
+
+  These are now in the master table as `readings_wolters1994_firsthand`. His full edition, with "more than seventy places" where he differs from Milik, is not in the repo (Q2).
+- It has nothing on the Greek letters.
+
+### *Copper Scroll Studies* (preview)
+
+- G. J. Brooke and P. R. Davies (eds.), *Copper Scroll Studies* (JSPSup 40; Sheffield 2002; T&T Clark paperback 2004). The file is a publisher's preview of 37 PDF pages: pp. i–xvi, the Introduction (pp. 1–9), and pp. 12–20 of chapter 1 (the conservation report).
+- **Not in the preview:**
+
+  | Ch. | Author and title | Pages | Needed for |
+  |---|---|---|---|
+  | 5 | Puech, "Some Results of a New Examination" | 58–91 | Readings |
+  | 6 | Eshel, "Aqueducts in the Copper Scroll" (maps of the Cypros and Doq aqueducts) | 92–107 | Phase 3 |
+  | 7 | Elwolde, linguistic affiliation | 108–121 | Phase 2 |
+  | 12 | Schiffman, architectural vocabulary | 180–197 | Phase 2 |
+  | 14 | Fidler, "Inclusio and Symbolic Geography" (cited by Puech p. 179 n. 76) | 210–225 | Phase 3 |
+  | 20 | Lika Tov, palaeography | 288–290 | Phase 4 |
+  | 22 | Wolters, "Palaeography and Literary Structure as Guides to Reading the Copper Scroll" | 311–333 | **Probably the main source for Phase 4** (BK: Wolters links the Greek letters to the structure of the list; check) |
+
+### DJD VII (Baillet 1982)
+
+- An Internet Archive scan with an OCR text layer (444 pages, plates included).
+- A search of the whole OCR layer finds **one** reference to 3Q15: in the commentary on 4Q511 (*Cantiques du Sage*, p. 222), Baillet cites 3Q15 V 1 for the spelling רוש for ראש.
+- The volume has no treatment of the Copper Scroll, its sites or its Greek letters. (Question to you: was a different volume meant? For example, DJD II (Murabbaʿat), whose Mur 42–43 Milik uses for Kaphar Baricha and ha-Baruk (DJD III p. 269), or a copy of DJD III that includes the plates?)
 
 ## Phase 2 reference corpora (downloaded in session 2; local only, not committed)
 

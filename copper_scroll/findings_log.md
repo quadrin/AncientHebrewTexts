@@ -94,6 +94,45 @@ knowledge that does not come from the files in this repo.
   - (Inference, high confidence) The vocabulary for installations and tombs is post-biblical.
 - F2.9 (method) **Wording.** Ten lexicon sentences read like guidance for a physical search, for example "look for …". They were reworded so that they describe only what the text says. The lexicon interprets words; it does not point to places to dig.
 
+### New uploads after Phase 2 (Wolters 1994; *Copper Scroll Studies* preview; DJD VII)
+
+- F2.10 (evidence, firsthand: Wolters 1994, pp. 292–295) **Wolters's own readings from the metal (Amman, June 1991):**
+
+  | Line | Wolters 1994 | Wolters's translation | Puech and Milik |
+  |---|---|---|---|
+  | III 9 | *kly dmʿ lbwšy* | "vessels of tribute, my garments" | Puech <ו>לבושין "and garments"; Milik לכושי "resin of Aleppo pine" |
+  | VIII 3 | *kly dmʿ wspry wʾlt ks[p]* | "… and my scrolls, and a bar of silv[er]" | Puech וספרין אל תב/רקע[מ(?)]; Milik וספרין אל תב֯ס֯ |
+  | XI 9 | *thwrty bw kly dmʿ ʿz dmʿ swḥ* | "my pure things are in it …" | Puech בני העמ … ירחו; Milik בני העב֯ט הירחי |
+  | XII 2 (cited by Wolters as XII,1) | *kwzyn* "juglets" | — | Puech כוזין (the same word); Milik בידן |
+
+  - Wolters says the *kwzyn* reading is supported by "the original in Amman and two of the published facsimiles" (p. 294).
+  - (Inference, Wolters's own, stated as probable) The three "my" suffixes show that the author was "a high-ranking religious official, perhaps the High Priest" (p. 293).
+  - Patrich, in the discussion (p. 296), objects that a writer would not mark his own list items as "mine".
+- F2.11 (evidence: Wolters 1994, pp. 285–291; Brooke 2002, p. 8) **The history of the debate on whether the treasure is real.**
+  - Wolters groups the views of 1953–65 into six "paradigms" (pp. 290–291):
+    - The treasure is real, and it belonged to:
+      - A1: the Qumran sectarians;
+      - A2: the Temple, c. 68 CE;
+      - A3: the Bar Kokhba rebels, c. 135 CE;
+      - A4: Temple contributions after 70 CE.
+    - The treasure is not real, and the list was written:
+      - B1: by the Qumran sectarians;
+      - B2: by unknown people, c. 100 CE (Milik after 1959).
+  - Wolters judges only A1 and A2 viable, and himself prefers A2 (pp. 291–292). He rejects Milik's later date, citing Pixner's archaeological argument. In the discussion, Patrich says that "there is nothing against the possibility that the Copper Scroll was deposited later than the parchment scrolls" (p. 296).
+  - Brooke (*Copper Scroll Studies*, p. 8) reports the 1996 Manchester symposium:
+    - the text is a list and "very unlikely" fiction;
+    - most participants thought the treasure real;
+    - the majority connected it with the Temple, while "a strong minority" connected it with Qumran;
+    - nearly all dated it to the mid-first century CE.
+  - Brooke also reports that most participants thought it "very unlikely that anything would be found today", because the locations are "too general and vague" and any treasure was probably "recovered in antiquity".
+  - (Inference, medium confidence) These positions are scholars' judgements, not evidence about the sites. For Phase 3 they matter in only one way: a Temple origin (A2) favours Jerusalem-area readings, and a Qumran origin (A1) favours Qumran-area readings. Phase 3 must not let either assumption choose among the readings.
+- F2.12 (evidence: Wolters 1994, pp. 293–295, with the discussion) **The 1988 juglet of oil.** Patrich and Arubas (*IEJ* 39, 1989) published a Herodian juglet of oil found in a cave less than 200 m from Cave 3. Wolters argues that it is "likely" part of the scroll's treasure. The discussion disagrees:
+  - Donceel-Voûte: the oil was not identified as balsam, and this type of juglet is common.
+  - Patrich: he "cannot" confirm the link.
+
+  Logged for Phase 5 (archaeology, published reports only). It is a past excavation that is already published, not a lead.
+- F2.13 (evidence) **DJD VII is almost irrelevant to 3Q15.** Its only reference is a spelling parallel (p. 222, on 4Q511): רוש for ראש, as in 3Q15 V 1.
+
 ---
 
 ## Session 1 — 2026-09-27 (Phase 1: master table)
