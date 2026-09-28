@@ -1,0 +1,178 @@
+{
+  "review_date": "2026-09-28",
+  "map_registration_status": "No change; published control candidates remain unvalidated.",
+  "control_candidate": {
+    "id": "cargill_locus8_red_x",
+    "description": "Red X on southwest corner of Locus 8 stairwell, second storey of northwest tower of Main Building",
+    "source": "Robert R. Cargill, Qumran through (Real) Time (2009), p. 101 n. 262; repeated p. 153 n. 454",
+    "source_text_url": "https://dokumen.pub/qumran-through-real-time-a-virtual-reconstruction-of-qumran-and-the-dead-sea-scrolls-9781463216795.html",
+    "latitude_printed": "31°44′28.84″N",
+    "longitude_printed": "35°27′32.44″E",
+    "latitude_decimal_derived": 31.741344444444444,
+    "longitude_decimal_derived": 35.45901111111112,
+    "approximate_elevation_m": -322.5,
+    "horizontal_datum": "not stated in inspected passages",
+    "vertical_datum": "below sea level; realization not specified",
+    "positional_accuracy": "not established",
+    "measurement_method": "not established",
+    "validation": "Text repeats consistently; scanned page and physical mark not independently verified.",
+    "use": "Provisional settlement reference; no verified connection to Reeder survey stations; insufficient alone for aqueduct registration."
+  },
+  "new_access": {
+    "citation": "Reeder, Jol, Freund and Savage (2004), Geoarchaeology of the Qumran Archaeological Site, Israel, Focus on Geography 48(1):12–19",
+    "url": "https://people.uwec.edu/jolhm/research_pub/pdfs%20of%20articles/Geoarchaeology%20of%20the%20Qumran%20Archaeological%20Site,%20Israel.pdf",
+    "verified": "Downloaded and inspected; Fig. 2 on PDF page 2 combines aqueduct, settlement and cemeteries; Fig. 12 on PDF page 7 details aqueduct.",
+    "limitation": "Same research programme as 2006 report; not independent confirmation. No numerical benchmark table recovered."
+  },
+  "duplicate_sources": [
+    {
+      "source": "Cohen and Porat (2020), Kh. Qumran",
+      "existing_use": "phase5_archaeology_index.csv entry 22"
+    },
+    {
+      "source": "Atiqot 41 (2002), including Baruch et al.",
+      "existing_use": "phase5_archaeology_index.csv multiple entries, including entry 20"
+    },
+    {
+      "source": "Stacey (2009), Three Notes on Qumran",
+      "existing_use": "feature_investigation.md and qumran_reference_review.md"
+    }
+  ],
+  "archive_checks": [
+    {
+      "scope": "Wayback unique successful URL records for virtualqumran.com/*",
+      "records": 179,
+      "result": "No downloadable model or survey dataset identified among returned URLs."
+    },
+    {
+      "scope": "Wayback unique successful URL records for www.nelc.ucla.edu/qumran/*",
+      "records": 158,
+      "result": "Pages, still images and movies; no model or survey data identified among returned URLs."
+    },
+    {
+      "url": "https://web.archive.org/web/20141226071231id_/http://www.virtualqumran.com/realtime.html",
+      "result": "Retrieved; page says downloadable navigation is still undergoing technical modifications. Does not establish that a model was never released elsewhere."
+    },
+    {
+      "scope": "Initial USF wildcard archive query",
+      "result": "Overbroad and capped at 2000 unrelated URLs; unusable as evidence that Reeder files are absent."
+    },
+    {
+      "scope": "Additional public web searches for Reeder/Qumran survey coordinates, benchmark data, CAVEPLOT, XLS files, USF repository and publisher copies of 2018 report",
+      "result": "No original 2002 station table or raw survey file recovered. Search results repeatedly returned already-inspected 2004, 2006 and 2011 publications; not an exhaustive repository inventory."
+    }
+  ],
+  "remaining_gap": "Original 2002 aqueduct station observations, adjusted benchmark coordinates, datum and transformation remain unfound.",
+  "additional_control_candidates": [
+    {
+      "id": "bauman2002_em38_cemetery",
+      "source": "Bauman, Freund, Arav, Shroder, Reeder and Jol (December 2002), Intrigue, Mystery and Geophysics… Dead Sea Archaeology, 2001, CSEG RECORDER 27(10), Fig. 5",
+      "url": "https://csegrecorder.com/articles/view/intrigue-mystery-and-geophysics-dead-sea-archaeology-2001",
+      "image_url": "https://csegrecorder.com/assets/images/articles/archive/2002-12-dead-sea-archaeology-fig05.jpg",
+      "image_sha256": "3c3099008daf60fb3f7a5c3abc1c607d9df7ed187317dd9b467c8b6293e063b8",
+      "latitude_printed": "31°44′27.6″N",
+      "longitude_printed": "35°27′36.6″E",
+      "latitude_decimal_derived": 31.741,
+      "longitude_decimal_derived": 35.46016666666667,
+      "figure": "EM38 burial mapping map; local northing/easting axes each run 0–5 m.",
+      "point_definition": "Unresolved: caption does not specify grid origin, grid centre, anomaly centre or other point.",
+      "datum": "not stated",
+      "accuracy": "not established",
+      "comparison": "Approx. 95 m from Passow Tomb 1000 point a, calculated from printed geographic coordinates; source datums unknown.",
+      "provenance": "Overlapping authors/project with Reeder and Jol; independence of measurement not established.",
+      "use": "Provisional cemetery-area coordinate; cannot be assigned to a specific survey monument or used for aqueduct registration."
+    }
+  ],
+  "additional_surveys": [
+    {
+      "citation": "Kenneth Lönnqvist and Minna Lönnqvist, with Reino Anttila (2004), Spatial Approach to the Ruins of Khirbet Qumran at the Dead Sea, ISPRS XXXV, Commission V, pp. 558–563",
+      "url": "https://www.isprs.org/proceedings/XXXV/congress/comm5/papers/616.pdf",
+      "duplicate_check": "No occurrence of authors, title, ISPRS or URL found in existing research notes before this review.",
+      "methods": "PDF p. 3 section 3.4 reports total-station coordinates and elevations for relevant features including Caves 1 and 4. Wall directions reportedly measured within 0.5 degrees. Coordinates checked against 1:50,000 mapping and unspecified other information.",
+      "available": "Six-page primary methods paper read online. No numerical station-coordinate table or raw download supplied in this paper.",
+      "followup": "Archaeology of the Hidden Qumran: The New Paradigm (2002), cited by authors. Bibliographic records found; full book and original survey files not recovered.",
+      "limitation": "Separate 1990s research programme; published measurements do not establish a connection to Reeder aqueduct stations. Interpretive astronomical and palaeoflood claims not adopted."
+    }
+  ],
+  "other_figures_checked": [
+    {
+      "source": "Bauman et al. 2002 Fig. 4",
+      "finding": "ERT profile west of ruins over dump, local 0–80 m line position with walls/fence; no global endpoints or numeric datum shown. Possible cave is an interpretation, not verified cavity."
+    }
+  ],
+  "report_and_photo_followup": [
+    {
+      "id": "magen_peleg2018",
+      "citation": "Yitzhak Magen and Yuval Peleg, Back to Qumran: Final Report (1993–2004), JSP 18 (2018)",
+      "url": "https://www.jstor.org/content/oa_book_edited/j.ctv1t8cdq",
+      "chapter_url": "https://www.jstor.org/content/oa_chapter_edited/j.ctv1t8cdq.6",
+      "verified": "Full chapter available locally; short and long tunnel descriptions and fissure offsets extracted with source quotations. Figure 82 repeats the underlying 2007 Fig. 35 aerial; not independent map control.",
+      "access_status": "Resolved by user upload: 91-page PDF containing JSTOR cover and printed pp. 11–100. Water-system text and relevant figures inspected. See magen2018_extracted.md.",
+      "duplicate_check": "Distinct from the 2007 preliminary report already used; no occurrence of the 2018 title/date was found in existing local research notes.",
+      "foldout_lead": "A one-page reproduction of the NLI catalogue record describes a detailed site plan in a pocket, an 88 x 57 cm folded sheet. The sheet itself has not been recovered, and inclusion in the JSTOR digital edition is unverified.",
+      "foldout_catalogue_reproduction": "https://www.scribd.com/document/521561560/Back-to-Qumran-final-report-1993-2004-Yitzhak-Magen-and-Yuval-Peleg",
+      "false_positive": "That Scribd upload contains one page of catalogue metadata, not the book.",
+      "use": "Additional detailed feature descriptions beyond 2007 preliminary report; independence of measurements not established. No new coordinates or increased Copper Scroll identification confidence.",
+      "attachment_sha256": "16311aa83e9914b91c1cc086ab13d42002f3fc3c89bc2fe155237af683e4e128"
+    },
+    {
+      "id": "pennarts1953_aqueduct",
+      "url": "https://npaph.com/sites/khirbet-qumran/",
+      "image_url": "https://npaph.com/wp-content/uploads/2014/08/cPennartspQumran8.jpg",
+      "archive_id": "cPennartspQumran8",
+      "creator": "Peter Pennarts",
+      "date_as_catalogued": "1953-12-31",
+      "verified": "Downloaded and visually inspected 609 x 600 image. Stone-lined channel in foreground, two people, distant ruins and broad pale background.",
+      "caption": "Archive identifies Jan Glissenaar and a shepherd at the aqueduct between hills and ruins; labels the view westward.",
+      "orientation_caution": "The apparent water/Dead Sea background and ruins suggest an eastward view instead. This is a visual inference, not a verified correction; do not assign a camera bearing from the caption alone.",
+      "image_sha256": "f68e7c2723303b7bcad88729cfe63778e41b66d7dcda154ee2fc45bd0a63c45c",
+      "use": "Historical feature-comparison lead only. No camera coordinates, bearing, or correspondence with a specific Ilan–Amit feature established. Image not copied into published atlas."
+    },
+    {
+      "id": "humbert2016_author_upload",
+      "citation": "Jean-Baptiste Humbert, Alain Chambon, Jolanta Mlynarczyk, Khirbet Qumran et Ain Feshkha IIIA (2016)",
+      "author_profile_url": "https://uw.academia.edu/JolantaMlynarczyk/Books",
+      "item_url": "https://www.academia.edu/28026427/",
+      "verified": "Coauthor profile publicly lists the volume with a Download free PDF link, attachment 48332469.",
+      "access_status": "User supplied the linked-title PDF. All 3 pages visually checked: cover, title page, and contents for oil-lamp section only. Does not contain aqueduct text or plans.",
+      "alternative_digital_listing": "https://www.perlego.com/fr/book/3829993/khirbet-qumrn-et-an-feshkha-iii-a-fouilles-du-p-roland-de-vaux-larchologie-de-qumrn-reconsidration-de-linterprtation-corpus-of-the-lamps-pdf",
+      "use": "Access lead to a separate excavation synthesis; not recovered survey data.",
+      "attachment_sha256": "3aeb3868152af57013b2bc243795d18d7e9a52330cd749bec8b7c9e9debf0724",
+      "english_edition_access": {
+        "ebook_isbn": "9783647570907",
+        "url": "https://www.perlego.com/book/4288718/khirbet-qumran-and-ainfeshkha-iii-a-in-english-translation-roland-de-vaux-excavations-19511956-the-archaeology-of-qumran-reassessment-of-the-interpretation-peripheral-constructions-of-the-site-pdf",
+        "status": "Resolved by user upload: main English volume, 543 PDF pages; northwest water-inlet text, Plate XI and Fig. 174 inspected. See humbert_english_extracted.md.",
+        "listing_year": 2023,
+        "uploaded_copy_copyright_year": 2024,
+        "uploaded_copy_layout_year": 2023,
+        "uploaded_copy_printed_isbn": "978-3-666-57090-2",
+        "attachment_sha256": "391fbc0faf9dab1121614497fcb199c3195998ac144c562a44ce7de298485ba8",
+        "finding": "Phase reconstruction of settlement inlet; disputes Locus 132 as a decantation pool; missing feed 700 is reconstructed. Does not supply 2002 survey observations or independent tunnel measurements.",
+        "plates": "Architectural plates I–XII present at PDF pp. 141–152. Plate XI grid cells are illustration locators, not geographic control.",
+        "confidence_effect": "No coordinates or identification-confidence changes; retain author attribution for phase and function disputes."
+      }
+    }
+  ],
+  "direct_primary_recovery": {
+    "citation": "E. W. G. Masterman (1903), Notes on Some Ruins and a Rock-Cut Aqueduct in the Wady Kumran, PEFQS 35(3):264–267",
+    "url": "https://www.gospelstudies.org.uk/biblicalstudies/pdf/pefqs/1903_03_264.pdf",
+    "status": "Downloaded five-page PDF, including distributor cover; all article pages read. Feature photograph and measurement page visually checked.",
+    "duplicate_check": "Masterman already appeared in feature_investigation.md as an upstream reference. Newly recovered direct text and photo, not a new citation.",
+    "sha256": "63f9bde16c3cc473199e282d1e5ec558a7f2c210295aab375ff59125f3fdc566",
+    "extract": "masterman1903_extracted.md",
+    "finding": "Early description of a traversable tunnel, floor break and south-facing window provides a feature-comparison lead. Later accounts may depend on it; dimensions differ. No coordinate registration or Copper Scroll match established."
+  },
+  "bibliographic_corrections": [
+    {
+      "url": "https://whitelevy.fas.harvard.edu/sites/g/files/omnuum3196/files/whitelevy/files/humbert_toc.pdf",
+      "finding": "The TOC with aqueduct p. 65 belongs to the earlier English field-notes synthesis, not the 2016 IIIA volume. Do not transfer its pagination to IIIA."
+    }
+  ],
+  "original_plan_followup": {
+    "citation": "Roland de Vaux, Fouilles de Khirbet Qumrân: Rapport préliminaire sur les 3e, 4e et 5e campagnes, Revue Biblique 63(4), 1956, pp. 533–577",
+    "url": "https://www.jstor.org/stable/44091705",
+    "lead": "Humbert–Chambon English volume, printed p. 123, describes two folded inserts at p. 576, including a north-oriented 20 x 20 m grid.",
+    "access": "Issue index verified; article PDF fetch failed. Folded inserts not recovered.",
+    "limitation": "Separate from both the 2018 Magen–Peleg folded plan and missing 2002 observations; no global datum established."
+  }
+}
