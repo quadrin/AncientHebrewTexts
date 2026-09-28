@@ -18,6 +18,8 @@ Review the text before using archaeology to select a reading. A repeated identif
 
 The machine-readable counterpart is [`atlas/app/atlas-evidence.json`](https://github.com/quadrin/AncientHebrewTexts/blob/main/copper_scroll/atlas/app/atlas-evidence.json). It supplies the atlas’s feature comparisons and source-access notes. The companion CSV records constraints and rejection tests; it supplies no excavation targets.
 
+Follow-up: [Qumran aqueduct reference and the Sekakah cluster](qumran_reference_review.md) locates the exact Ilan–Amit chapter and Hebrew figure index, records the remaining access barrier, and tests entries 20–24 separately. The original plan still awaits access; the Solomon/Shallum alternative prevents treating entries 22–23 as a secure linked pair.
+
 ## Entry 21: Sekakah and Qumran
 
 ### Textual constraints

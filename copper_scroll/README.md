@@ -18,6 +18,8 @@ The [2026-09-28 site identification review](site_identification_review.md) updat
 
 The [feature investigation](feature_investigation.md) adds five feature comparisons, a source-dependency audit, separate reading/site/feature judgments, and prepared specialist and non-invasive field-observation packets. The [constraint register](tables/feature_constraints.csv) records the tests that could distinguish or weaken each proposal. No exact feature or deposit has been identified.
 
+The [Qumran reference review](qumran_reference_review.md) locates Ilan–Amit’s aqueduct chapter and Hebrew figure index, records the registered-access barrier, and compares entries 20–24. The atlas now includes nine evidence reviews. The original plan and independently dated feature matches remain pending.
+
 ## Files
 
 | File | In git? | Contents |
