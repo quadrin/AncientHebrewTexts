@@ -16,6 +16,19 @@ Open the local address printed by the development server. Run `corepack pnpm bui
 
 This directory contains the source deployed as the [Copper Scroll Atlas](https://copper-scroll-atlas.alexkesin.chatgpt.site), including the marker-positioning fix. The hosted Site retains its existing access settings. `.openai/hosting.json` identifies that Site and contains no credentials; local execution does not require a Sites connection. The initial GitHub import comes from Site source commit `ce7728e84d85422322ea8e3af661ea7d5f904ae2`.
 
+## GitHub Pages build
+
+A static build of the same atlas is published with GitHub Pages at <https://quadrin.github.io/AncientHebrewTexts/copper_scroll/atlas-site/>. It renders the same `Atlas` component, data, maps and ground views, without the Next.js/vinext server shell or ChatGPT sign-in. The built files are committed in `../atlas-site/`.
+
+To rebuild it after a change, from this directory:
+
+```sh
+corepack pnpm install --frozen-lockfile
+corepack pnpm exec vite build --config vite.pages.config.ts
+```
+
+`pages/index.html` and `pages/main.tsx` are the static entry. `vite.pages.config.ts` sets the Pages base path and writes to `../atlas-site/`. The MapLibre worker URL follows the build's base path, so it works both on the hosted Site and under the Pages sub-path.
+
 ## Research
 
 The data comes from `quadrin/AncientHebrewTexts`, research snapshot `5220e8bd008cba1ade10ddce42c6c577170206ba` (28 September 2026). The committed CSV files in `research/` preserve the input tables. Run `python research/build_atlas.py` to regenerate `app/atlas-data.json`.

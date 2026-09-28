@@ -36,7 +36,7 @@ export default function AtlasMap(props:Props) {
       try {
         const lib=await import("maplibre-gl");
         if(gone||!container.current)return;
-        lib.setWorkerUrl("/maplibre/maplibre-gl-worker.mjs");
+        lib.setWorkerUrl(`${(import.meta as ImportMeta & {env?:{BASE_URL?:string}}).env?.BASE_URL??"/"}maplibre/maplibre-gl-worker.mjs`);
         lib.setWorkerCount(2);
         let style:StyleSpecification;
         try {

@@ -4,7 +4,7 @@
 
 The interactive [Copper Scroll Atlas source](copper_scroll/atlas/README.md) pairs 61 scroll entries with 37 candidate places. It includes 2D maps, 3D terrain, approximate candidate shading, confidence and name sorting, and four annotated ground photographs. See the atlas README for local setup and research provenance.
 
-[Hosted atlas](https://copper-scroll-atlas.alexkesin.chatgpt.site) · Access follows the Site’s existing sharing settings.
+[Atlas on GitHub Pages](https://quadrin.github.io/AncientHebrewTexts/copper_scroll/atlas-site/) (public, static build) · [Hosted atlas](https://copper-scroll-atlas.alexkesin.chatgpt.site) · Access to the hosted Site follows its existing sharing settings.
 
 ## Copper Scroll research page
 
