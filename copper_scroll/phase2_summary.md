@@ -160,6 +160,19 @@ For each entry, the lexicon's `implication_for_locating` field states what the t
 
 A candidate site will be scored only against these textual requirements and against the published archaeology. Where the requirement depends on one edition's reading, the score will say so.
 
-## 4. Open questions added
+## 4. Addendum: later studies (added after the new uploads)
+
+- The lexicon now has a column `later_studies_2002_2020`, filled from:
+  - *Copper Scroll Studies* (2002): Puech ch. 5, Eshel ch. 6, Elwolde ch. 7, Lange ch. 8, Lefkovits ch. 9, Lubbe ch. 10, Pfann ch. 11, Schiffman ch. 12;
+  - Høgenhaven 2020, ch. 3–4.
+- There are 314 records, each with author and page, in `lexicon_addendum_records.csv` (local).
+- They add three things:
+  - comparisons with the Temple Scroll's building terms (Schiffman);
+  - aqueduct identifications (Eshel);
+  - the arguments on ככ (F2.20).
+- They also give 16 position and landmark words that have no lexicon row yet. See F2.19.
+- Puech 2015 confirms the Hebrew text used here (F2.14). Its corrigenda resolve the old translation errors (Q10).
+
+## 5. Open questions added
 
 See `open_questions.md`, Q14–Q19.

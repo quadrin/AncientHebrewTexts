@@ -153,6 +153,39 @@ knowledge that does not come from the files in this repo.
   - **X 6 and X 13 (Q15).** Both lines show the same sequence: a waw/resh-like letter, then a gimel-shaped sign, then מות. Milik reads that as ר֯גמות "feet"; Puech and others take the gimel-shaped sign as a miswritten alef, אמות "cubits". The drawing reproduces the problem; it does not solve it.
   - (Inference, medium confidence) For IX 7 the drawing somewhat favours ים. Puech says he used photographs and EDF images that the DJD team did not have. A check against Puech's own plates in the repo (vol. II) is still needed before this can count (Q11, Q14).
 
+### Phase 2 addendum: *Copper Scroll Studies* ch. 5–12 and Høgenhaven 2020 ch. 3–4
+
+- F2.19 (evidence; 314 records, each with author and page) **What the later studies add to the lexicon.** Each term now has a column `later_studies_2002_2020`.
+  - **Schiffman (CSS ch. 12, pp. 180–197)** compares about 45 of the scroll's building words with the Temple Scroll (11QT). Examples: מקצוע is an inner corner and פנה an outer corner; רובד means stepped, protruding courses of stone.
+  - **Elwolde (ch. 7)** places the vocabulary between Late Biblical and Mishnaic Hebrew, closest to the Temple Scroll and the Bar Kokhba texts.
+  - **Høgenhaven (2020, p. 155)** calls the language "not affiliated with the Qumran scribal school".
+  - **Eshel (ch. 6, pp. 92–107)** reads several entries as aqueduct points:
+    - V 1: the Wadi Qumran aqueduct;
+    - IV 3: the northern aqueduct of Hyrcania;
+    - VII 3–7: Cypros, or "Qi[dron]";
+    - יגר: "dam", at IV 13 and VIII 8;
+    - Achor: el-Buqeʿa.
+
+    Høgenhaven calls these suggestions "plausible". A check of DJD III p. 263 shows that Milik reads יגר as "tumulus" (no. 8) and does not propose "dam". Eshel's n. 18 names Milik only for the aqueduct.
+  - **Puech's 2002 English paper (ch. 5)** is an earlier stage of his reading, and differs from Puech 2006 in several places:
+    - I 7 "sediment"; III 8 and III 11 "salt" rather than Millo;
+    - II 5, a personal name (Matthiyah);
+    - IX 4, the correction בחבלה;
+    - XII 10 שבנה;
+    - Doq north-east of Jericho.
+
+    Puech 2006 and 2015 are his later view. The 2002 readings are kept as history, not as variants of equal weight.
+  - **A new phrase** (repeated at V 7; XI 1, 4, 11, 15): Lange reads it as a distance, "at a given distance beside them"; Pfann reads it as "their accounts with them". It has no lexicon row yet.
+  - **Sixteen further words** are discussed as landmarks or positions but have no row: גל, חליא/חוליא, קרקע, ירך, שולי, אמצע, אצל, דרום, and others. They are listed in the addendum records as `NEW:`.
+- F2.20 (evidence) **ככ (Q7): the arguments on both sides.**
+  - **For "silver karsh"** (10 shekels, about 71 g):
+    - Lefkovits (CSS ch. 9, pp. 139–154): later hands corrected seven ככ to ככרין, while other ככ with room to spare were left; the Elephantine papyri abbreviate the karsh as כ; totals fall from about 200 tons to under 60.
+    - Puech's own note (CSS ch. 5, p. 80 n. 56): "I now differentiate between kkr = 'talent' and the abbreviation kk (= ksp krš …)". Puech 2006 and 2015 translate "k(arsh)".
+  - **For "talents":**
+    - Milik, Allegro, Eshel (ch. 6), and most scholars according to Høgenhaven.
+    - Høgenhaven (2020, pp. 157–158): ככ and ככרין look interchangeable (II 6 against IV 12); an added כסף would be redundant if ככ already meant "silver karsh"; XII 1 has זהב ככ, "gold, k.". He concedes that Lefkovits "does have a point", and notes (n. 66) that the reinterpretation is driven by the size of the totals.
+  - (Inference, medium confidence) The question stays open. Both sides use the same scribal evidence. It matters for Phase 3 only indirectly: the size of the deposits bears on what kind of hiding place is plausible.
+
 ---
 
 ## Session 1 — 2026-09-27 (Phase 1: master table)
