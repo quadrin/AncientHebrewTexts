@@ -6,6 +6,10 @@ The interactive [Copper Scroll Atlas source](copper_scroll/atlas/README.md) pair
 
 [Hosted atlas](https://copper-scroll-atlas.alexkesin.chatgpt.site) · Access follows the Site’s existing sharing settings.
 
+## Copper Scroll research page
+
+The [Copper Scroll research page](https://quadrin.github.io/AncientHebrewTexts/copper_scroll/web/) summarises the desk research in `copper_scroll/`: every proposed identification of the scroll's named places, scored against the text and the published archaeology, with site-level maps and tests of the Greek letters. Source: [`copper_scroll/web/index.html`](copper_scroll/web/index.html); notes and tables: [`copper_scroll/README.md`](copper_scroll/README.md).
+
 Checked 27 September 2026. No complete publicly readable book, institutional ebook, or complete full-resolution map sheet was verified. Five publicly downloadable map details were verified in Peter Pilhofer's lecture PDFs: three from the North sheet and two credited to the TIR overview map. This package preserves those source PDFs and their embedded images, plus a Roman-roads figure credited to the 1994 volume in an Edinburgh thesis.
 
 ## Fourth search: further North-sheet reproduction
