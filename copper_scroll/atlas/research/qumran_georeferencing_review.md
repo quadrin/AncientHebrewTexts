@@ -41,3 +41,6 @@ Use those records to locate the later wall and rock, then correlate the older in
 The reviewed source pages and aerial imagery have not been copied into the public repository. This report records the research state before the subsequent search for original survey data.
 
 Follow-up: the [original survey-data search](qumran_survey_data_search.md) recovered published GPS values around Tomb 1000. Their datum and connection to the aqueduct traverse remain unverified; the rejected aerial fit remains rejected.
+
+
+Later [photographic and printed-plan comparison](qumran_photo_correspondence.md) establishes a direct tunnel-mouth image match and tests local source-plan correspondence. That exploratory two-anchor similarity is not a geographic registration and does not rehabilitate the rejected aerial fit.

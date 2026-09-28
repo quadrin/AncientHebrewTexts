@@ -75,3 +75,8 @@ No affine transformation, GPS point, geographic footprint or inter-plan distance
 The next useful digital work is a **photo-to-plan correspondence for the two tunnel mouths and their openings**: Ilan Figs. 2–4, Magen–Peleg Figs. 86–87, and Masterman's Fig. 2 as upstream context. Once the tunnel pair is matched, trace back through the split to the intake and rock. This offers a discriminating route to reconciling the upstream features without requiring the missing survey files. Then check the construction sequence using the surviving channel-floor and repair evidence. The missing 2002 station data would improve geographic registration, but is not a prerequisite for this comparison.
 
 Source access: Hebrew Ilan–Amit 1989 and Magen–Peleg 2018 supplied by the user; Reeder–Jol 2006 recovered from the publisher's legacy reader; Masterman 1903 public digitization. The 2002 English Ilan–Amit chapter remains unread. The 2003 Qumran upload is volume II, not volume I B; see the [volume identification and extraction](registration/qumranII2003_extracted.md). Full copyrighted scans are not reproduced in this comparison.
+
+
+## Photographic follow-up
+
+The [tunnel-photo and upstream-connection review](qumran_photo_correspondence.md) matches Reeder Figure 2 to Magen Figure 87, retains their differing entrance/exit labels, and tests a two-anchor plan alignment. The result supports a shared upstream collection sector; it does not equate point 3 with the boulder. The two internal openings remain individually unmatched in the inspected photographs.

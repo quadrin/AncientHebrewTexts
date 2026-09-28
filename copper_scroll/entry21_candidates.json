@@ -32,7 +32,7 @@
       "confidence": "Low",
       "support": "Best functional match for the head of the whole aqueduct. Located at a small ravine on the northern bank.",
       "limit": "No particular great stone identified. A northern bank does not resolve the wording’s grammatical ambiguity.",
-      "test": "Match the ravine, channel levels and upstream collection works between the two surveys.",
+      "test": "Find a view showing the boulder, pothole and wall together and trace their channel to the small ravine. A two-tunnel plan alignment supports the same upstream sector but cannot fix the intake at the rock.",
       "positions": [
         {
           "plan": "ilan1989",
@@ -51,7 +51,7 @@
       "confidence": "Low",
       "support": "Reeder describes an approximately 3 m-high boulder incorporated into the works beside the upstream channel.",
       "limit": "The landmark noun is restored. Its required northern relationship, ancient phase and correspondence with point 3 remain unproved.",
-      "test": "Trace from rock to pothole, stone wall and ravine; compare with Ilan’s intake before joining the two positions.",
+      "test": "Match the boulder–pothole–wall sequence to the small-ravine outlet beside Ilan point 3; retain the main-wadi proposed dam as a separate feature.",
       "positions": [
         {
           "plan": "reeder2006",
@@ -79,8 +79,8 @@
         },
         {
           "plan": "ilan1989",
-          "x": 360,
-          "y": 1241
+          "x": 355,
+          "y": 1238
         },
         {
           "plan": "reeder2006",
@@ -99,9 +99,9 @@
       "rank": 4,
       "name": "Long eastern tunnel · western mouth",
       "confidence": "Low",
-      "support": "Probable cross-survey landmark: Ilan point 11, Reeder Tunnel 1, Magen’s long tunnel and Masterman’s accessible tunnel.",
-      "limit": "Downstream of the intake. A tunnel mouth is not independently established as the conduit’s head.",
-      "test": "Match photographs of the mouths and two openings; explain any subsection-head interpretation separately.",
+      "support": "Reeder Fig. 2 and Magen Fig. 87 visually match the same long-tunnel mouth. Magen’s text supports its western/upstream attribution; Ilan point 11 and Reeder Tunnel 1 remain probable plan correspondences.",
+      "limit": "Downstream of the intake. Reeder calls the photo an exit and Magen an entrance; the visual match itself establishes neither hydraulic direction nor a scroll identity.",
+      "test": "Find a photographic sequence from this western mouth through both internal openings. The inspected interior image does not locate each fissure individually.",
       "positions": [
         {
           "plan": "ilan1989",
@@ -121,5 +121,6 @@
         "Masterman 1903, p. 267"
       ]
     }
-  ]
+  ],
+  "followup": "qumran_photo_correspondence.md"
 }

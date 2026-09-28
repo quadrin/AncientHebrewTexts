@@ -127,3 +127,8 @@ Pending: the original Qumran intake plan, a dated Wadi Qelt feature correlation,
 ## Entry 21 feature comparison — 28 September 2026
 
 The [ranked comparison](entry21_feature_comparison.md) now distinguishes Ilan–Amit point 3, Reeder’s upstream large rock, the short-tunnel branch and the long-tunnel mouth. The [candidate register](entry21_candidates.json) records source-relative positions and uncertainty. Probable tunnel correspondences are entered in the survey crosswalk. The comparison also tests the long tunnel’s two openings as entry 22 candidates east of basin 2, conditional on the unestablished reservoir name. The atlas evidence panel now reflects direct access to the Hebrew chapter and the 2018 report.
+
+
+## Tunnel photographs and upstream connection — 28 September 2026
+
+The [photograph audit](qumran_photo_correspondence.md) directly matches Reeder’s tunnel image to Magen–Peleg Figure 87. The captions differ on entrance/exit terminology. A reproducible two-anchor similarity supports a shared intake sector but remains too sensitive to equate Ilan point 3 with Reeder’s boulder. Candidate priorities and geographic confidence are unchanged. The next discriminating imagery must connect the boulder, pothole and wall, or show both internal tunnel openings in sequence.
