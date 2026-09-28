@@ -28,6 +28,7 @@ See `phase5_summary.md` and `tables/phase5_archaeology_index.csv`. Site level on
   - 13 entries are confirmed only in part or without a date.
   - 5 are not confirmed: 1, 28, 38, 46 (earlier only) and 57 (later only).
 - F5.2 (evidence: Szanton, *ʿAtiqot* 113 (2024); *HA-ESI* 132, 134, 135; Wilson 1871 p. 22) **Siloam (49) is raised to high.**
+  - **[Superseded by F5.10–F5.11.]** The "monumental stepped pool" below is Reich and Shukron's pool at Birkat el-Ḥamra. The *HA-ESI* street reports call it the Siloam Pool. Szanton identifies it as Solomon's Pool and the smaller Silwan Pool at the tunnel outlet as Siloam (Szanton 2023 pp. 35, 38–42). The article is dated 2023.
   - A monumental stepped pool, other pools and channels, and a 1st-century street to the Temple Mount are reported.
   - With its full name-test pass, this is now the best-supported identification in the scroll.
   - What remains is textual: the engraved ר for ו, and a restored של.
