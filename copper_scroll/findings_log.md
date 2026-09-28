@@ -158,7 +158,7 @@ knowledge that does not come from the files in this repo.
 - F2.19 (evidence; 314 records, each with author and page) **What the later studies add to the lexicon.** Each term now has a column `later_studies_2002_2020`.
   - **Schiffman (CSS ch. 12, pp. 180–197)** compares about 45 of the scroll's building words with the Temple Scroll (11QT). Examples: מקצוע is an inner corner and פנה an outer corner; רובד means stepped, protruding courses of stone.
   - **Elwolde (ch. 7)** places the vocabulary between Late Biblical and Mishnaic Hebrew, closest to the Temple Scroll and the Bar Kokhba texts.
-  - **Høgenhaven (2020, p. 155)** calls the language "not affiliated with the Qumran scribal school".
+  - **Høgenhaven (2020, p. 155)** says that the scroll's treatment of pronouns and suffixes shows it "is not affiliated with the 'Qumran scribal school'".
   - **Eshel (ch. 6, pp. 92–107)** reads several entries as aqueduct points:
     - V 1: the Wadi Qumran aqueduct;
     - IV 3: the northern aqueduct of Hyrcania;
@@ -183,7 +183,7 @@ knowledge that does not come from the files in this repo.
     - Puech's own note (CSS ch. 5, p. 80 n. 56): "I now differentiate between kkr = 'talent' and the abbreviation kk (= ksp krš …)". Puech 2006 and 2015 translate "k(arsh)".
   - **For "talents":**
     - Milik, Allegro, Eshel (ch. 6), and most scholars according to Høgenhaven.
-    - Høgenhaven (2020, pp. 157–158): ככ and ככרין look interchangeable (II 6 against IV 12); an added כסף would be redundant if ככ already meant "silver karsh"; XII 1 has זהב ככ, "gold, k.". He concedes that Lefkovits "does have a point", and notes (n. 66) that the reinterpretation is driven by the size of the totals.
+    - Høgenhaven (2020, pp. 157–158): ככ and ככרין look interchangeable (II 6 against IV 12); an added כסף would be redundant if ככ already meant "silver karsh"; XII 1 has זהב ככ, "gold, k.". He notes that Puech accepted Lefkovits's suggestion. He concedes that Lefkovits "does have a point", because only some ככ were corrected. In n. 66 he notes that the reinterpretation is driven by the size of the totals.
   - (Inference, medium confidence) The question stays open. Both sides use the same scribal evidence. It matters for Phase 3 only indirectly: the size of the deposits bears on what kind of hiding place is plausible.
 
 ---
