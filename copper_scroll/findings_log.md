@@ -75,6 +75,25 @@ knowledge that does not come from the files in this repo.
 
   He also reports alternatives Milik mentions, and readings of Milik's drawings. In the Phase 1 table these appeared simply as "Milik", and looked like conflicts with DJD. They are now labelled. After this correction, I read through the secondhand Milik column for all 61 rows and found no remaining conflict with the DJD text.
 
+### Phase 2: landmark lexicon
+
+- F2.6 (evidence, corpus check) **The English Josephus index contains Whiston's footnotes and his own spellings.**
+  - Hits at AJ 5.33 (Achor), AJ 8.81 (the east gate) and BJ 2.325 (Bethesda) are in the footnotes, not in Josephus.
+  - At AJ 6.78 Niese's Greek reads Βαλᾶ where Whiston has "Bezek".
+  - Josephus references in the lexicon are therefore checked against the Greek (Niese numbering).
+- F2.7 (evidence, firsthand: DJD III Addenda pp. 299–301) **Milik revised some of his own identifications in the Addenda:**
+  - X 8: גי איך is for an original איב, "the Vale of Job" = Bîr Ayyûb.
+  - X 17: he now restores [בברכת]ה, "its pool" = the pool of Siloam (Birket el-Ḥamrâ).
+  - XI 1: he returns to מקצועותיהם.
+  - XII 8: הברך = Hebron and בית הברך = Ramet el-Ḫalîl (Mamre), where p. 269 had Banî Naʿîm and Hebron.
+
+  Puech cites the Addenda (p. 205 n. 494, checked in the PDF). One lexicon agent had flagged Puech as misreporting Milik here; that flag was wrong and has been corrected.
+- F2.8 (result) **The lexicon of 121 terms is complete.** The meanings are rated high (47), medium (44) and low (30). For many low-rated terms, the editions' readings disagree so much that the kind of landmark changes (see `phase2_summary.md` §2.2).
+  - 18 of the 85 non-place terms are attested in neither the Bible nor the Mishnah in the scroll's sense.
+  - 15 are attested only in the Mishnah.
+  - (Inference, high confidence) The vocabulary for installations and tombs is post-biblical.
+- F2.9 (method) **Wording.** Ten lexicon sentences read like guidance for a physical search, for example "look for …". They were reworded so that they describe only what the text says. The lexicon interprets words; it does not point to places to dig.
+
 ---
 
 ## Session 1 — 2026-09-27 (Phase 1: master table)

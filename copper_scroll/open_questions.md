@@ -28,3 +28,13 @@ Updated each session. Newest additions at the bottom of each group. "Needs" says
 
 (Listed in the findings log; kept here only when the error changes a reading.)
 - Q10. Puech's English translation disagrees with his own Hebrew and French at entries 15, 18, 27, 32 and 37, and on p. 211 the entry numbers are shifted. The table follows the Hebrew and French. Is there a corrigendum?
+
+## Added in Phase 2 (session 2)
+
+- Q14. **IX 7: ים "the Sea"/west (Milik, Lefkovits) or דרום "south" (Puech)?** The choice decides between Upper Beth-Horon (Milik, DJD D32 p. 268) and other "Horite" tombs (Puech p. 196). *Needs:* a check of the Puech plates for IX 7 (Q11).
+- Q15. **X 6 and X 13: "feet" (Milik רגמות) or "cubits" (אמות, the others)?** Milik's unit is otherwise unattested (Puech p. 198 n. 380). *Needs:* a plate check.
+- Q16. **Beth Sham (XII 6) = Beth-shean?** The scroll spells it with a final mem, while the Bible, Mishnah, Josephus and Eusebius all have nun. *Needs:* a list of mem/nun interchanges elsewhere in 3Q15 (Puech's section on the language).
+- Q17. **Koḥlit.** There are eleven proposals, from Jericho (Puech) to Mount Carmel (Milik), and no ancient text outside the scroll places it. Is there any test that separates them other than the sequence of the entries? *Needs:* Phase 3 sequence analysis.
+- Q18. **Absalom's monument: SW (Milik, DJD D68) or SE (Puech p. 199) of Jerusalem?** Both rely on Josephus's "two stadia" and on the order of the entries. *Needs:* the Josephus passage in Greek (AJ 7.243) and the Phase 3 sequence analysis.
+- Q19. **Depth or distance for a bare number of cubits** (for example after בבואך at X 5–6)? Milik and Lefkovits apply different rules (DJD C158/C160; Lef. p. 161). This affects how entries are compared with site plans.
+

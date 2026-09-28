@@ -18,16 +18,20 @@ This folder is separate from the DSS letter-recogniser project described in the 
 |---|---|---|
 | `sources.md` | yes | What is in the repo, what is missing, page offsets, encodings |
 | `phase1_summary.md` | yes | Entry count, clearest and most damaged entries, recurring terms, sequences |
+| `phase2_summary.md` | yes | Phase 2: the landmark lexicon, its main results and what it means for Phase 3 |
 | `findings_log.md` | yes | Running log, evidence vs inference, with pages |
 | `open_questions.md` | yes | Running list of open questions |
 | `tables/entry_concordance.csv` | yes | Puech entry ↔ Lefkovits item ↔ Milik item (from Milik 1960) ↔ line range, with boundary notes and other editors' divisions |
+| `tables/landmark_lexicon_index.csv` | yes | Phase 2 index: 121 terms with category, entries, lines, confidence in the meaning, and the attestations checked for sense (counts and references for the Bible, Mishnah, Josephus and Onomasticon) |
 | `tools/puech_heb.py` | yes | Decoder for Puech 2006's legacy Hebrew font (text layer → Unicode, logical order) |
 | `copper_scroll_master_table.csv` | **no** | The master table (61 rows). It contains Puech's full edited text and Lefkovits's text and translation. |
 | `variants_long.csv` | **no** | 2,072 reported readings, one per row (scholar, reading, gloss, reporting edition, page, verdict) |
 | `puech_lines.csv` | **no** | Puech's text line by line (181 lines), with numeral values and sign notes |
+| `copper_scroll_landmark_lexicon.csv` | **no** | The full Phase 2 lexicon (121 rows): each edition's meaning with page and short quotes, reading and meaning disagreements, attestations with comments, landmark type, what the term implies for locating, confidence, background knowledge (labelled), open questions |
+| `milik1962_words_sites.csv` | **no** | Milik's DJD III word list (section C, 212 entries) and site list (section D, 75 entries): Hebrew, occurrences, meaning (French), English summary, parallels, identification, his hedging verbatim |
 | `milik1960_commentary.csv` | **no** | Milik 1960's commentary, one row per heading (49): readings, identifications, evidence cited, his hedging verbatim. Phase 3 material |
 
-The three files marked **no** reproduce copyrighted edition text. This GitHub repository is public, so they are delivered to you directly rather than committed.
+The files marked **no** reproduce or quote copyrighted edition text. This GitHub repository is public, so they are delivered to you directly rather than committed.
 
 ## Master table columns
 
