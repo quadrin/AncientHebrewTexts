@@ -52,3 +52,34 @@ knowledge that does not come from the files in this repo.
   - **Entries 16–60** follow roughly Koḥlit → Achor (17) → wadi ʿAṣla (18) → Sokokah (= Kh. Qumran) and surroundings (20–27) → Jericho ford (28) → Jericho (29–30) → Doq (31) → Kozeba (32) → Kidron (35) → Shaveh (36–37) → Neṭofah (38) → Tekoa–Bethlehem (39–45) → Beth ha-Kerem (46) → south of Jerusalem (47–49) → around the city walls (50–56) → Gerizim (57) → Beth Sham (58) → Bezek (59) → Koḥlit (60).
   - He identifies Koḥlit with Tell es-Sultan tentatively ("à titre d'hypothèse", p. 175 n. 49) and admits that the name "reste assez difficilement identifiable" (remains rather hard to identify).
   - (Inference, low confidence, to be tested in Phase 3) The more a route is reconstructed from identifications that are themselves uncertain, the more circular it becomes. Puech's order is a hypothesis to test, not evidence.
+
+### Results of the full comparison (added at the end of session 1)
+
+- F1.13 (evidence, checked by script) **Puech and Lefkovits divide the text identically.** All 60 boundaries have the same line ranges. Puech's 12 + 12a = Lef. #12. The 60/64 difference with Milik is therefore a difference with *both* modern editions.
+- F1.14 (evidence) **Where Milik divides more finely:**
+  - #9: two items (Lef. p. 126)
+  - #56: three items (Lef. p. 399)
+  - a new entry beginning with ובתכן at V 7 (Puech p. 189 n. 226)
+  - #12: two items, but Lef. p. 142 says only "the scholars", without naming Milik
+
+  Milik's last item is #64 in DJD III and was #62 in 1956–57 (Lef. p. 426 n. 2). The documented splits give 65, not 64, so one of them does not apply to Milik, or Milik merges two entries elsewhere. Unresolved without DJD III (Q4).
+- F1.15 (evidence, checked by script plus review of every flagged line) **Lefkovits vs Puech:**
+  - The consonantal text agrees on 108 of 181 lines.
+  - 70 lines differ in reading or restoration.
+  - In **22 entries** the difference changes a place, direction, distance/depth, quantity or kind of treasure: 1, 9, 10, 12, 14, 16, 28, 30, 31, 32, 37, 38, 40, 41, 44, 47, 49, 50, 52, 54, 56, 60. See the summary table, §3b.
+- F1.16 (evidence) **Numerals** differ between the two editions at III 13, IV 2, VII 2, VII 16 (80/60), VIII 13 (66/67) and XI 7 (none/10). Lefkovits reports that the three facsimile drawings (Baker, Milik, Allegro) themselves disagree at VII 16, VIII 9 (2/4/7), VIII 13 and X 11 (10/20).
+- F1.17 (evidence) **Name frequencies in Puech's text:**
+  - Koḥlit ×5 (4, 11, 15, 19, 60); the mention in 15 is partly restored.
+  - Sekakah ×4 (20, 21, 22, 24).
+
+  Both counts match Puech's own statement (p. 175 n. 49). **Jericho is preserved only in 24 and 54.** In 29 it is Puech's restoration "[של ירחו(?)]", and Lef. leaves that space unrestored.
+- F1.18 (evidence) **Lefkovits's notation is inconsistent.**
+  - He prints *corrected* forms in some places: אמות where the drawings have גמות (X 6, X 13); ככרין where the scroll has כררין (X 7); הדרומית for הדוומית (XI 2); agent notes on Lef. pp. 331–363.
+  - He prints *uncorrected* engraved forms in others: עכון, חפון (IV 6–7).
+
+  Anyone comparing his text letter by letter has to allow for this.
+- F1.19 (evidence) **More errors inside the books** (full lists in the extraction notes):
+  - Puech's commentary contradicts his printed text at: II 5, where the commentary prefers מתיה but the text keeps m(b)ty; VII 11 (hmšṭḥ with no waw vs printed hmšṭ<w>ḥ); XI 17 (m[ʿrʾ] vs m[ʿrh); XII 6 (the forgotten yod placed at l. 7).
+  - Puech's cross-references mis-number his own entries (VII 8 = (30), not (31); IX 17 = (44), not (45)).
+  - Lefkovits: his item 5 translation lines are swapped (p. 90); at 12:10 he places צפון "in line 12:11"; at 12:4 he prints גריזין although the scroll has גויזין; and he reports Wolters's reading two ways at I 1 and at I 2–3.
+- F1.20 (inference, medium) The editions disagree more on **meaning** than on letters. For example, שדת (I 3) is a "chest" for Puech and a "carrying chair" for Lef.; בדין/כדין (II 11, VII 10, IX 3) are "bars" (Puech) or "pitchers" (Lef.); ככ is karsh for both. Phase 2 (the lexicon) should treat these as a separate layer of uncertainty from the readings.

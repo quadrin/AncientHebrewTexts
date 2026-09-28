@@ -25,6 +25,8 @@ Updated each session. Newest additions at the bottom of each group. "Needs" says
 - Q7. **ככ: "karsh" (Puech, Lefkovits) or "talents" (Milik, Allegro)?** It scales 30 sums by about 300×.
 - Q8. **The ½-sign in IX 6:** is it ½ (Puech, Milik), or 1 or 2 (options Lefkovits leaves open)? Allegro reads 24.
 - Q9. **XI 7, end of entry 52:** Puech reads cancelled letters {ב(ק)} and no quantity; Lefkovits reads ככ + a numeral, 10, 11 or "1 karsh".
+- Q11. **Which of the 70 line-level disagreements between Puech and Lefkovits can be settled from images?** Puech used the EDF radiographs and the galvanoplastic copy; Lefkovits used the Baker/Milik/Allegro drawings and Zuckerman photographs. The plates in Puech vol. II (pl. CCCXXXIII–CCCLXXXII, in the repo) are the place to check the 22 entries with substantive differences first. *Needs:* a visual check of those plates, entry by entry (possible in a later session).
+- Q12. **Lefkovits's "Janoah" at XII 10 (entry 60)** and Puech's rejection of it (Puech p. 175 n. 49). If Lefkovits is right, the Koḥlit group gains a second place name. *Needs:* plate check of XII 10.
 
 ## Internal errors found in the editions
 
