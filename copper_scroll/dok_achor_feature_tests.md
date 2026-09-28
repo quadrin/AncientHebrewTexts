@@ -36,6 +36,8 @@ The discriminating extraction from the original publication is: the neighbouring
 
 ## Immediate source targets
 
+Follow-up completed: [V/49 alias, catalogue anchors and midpoint precision check](entry17_cave_pair_review.md). A complete archaeological gazetteer supplies the Cave 42 alias and a nearby Cave 38 record, but the neighbouring dwelling cave and original entrance plans remain unresolved.
+
 1. Eisenberg’s V/49 plan and discussion, especially p. 120; Aronshtam’s Region V location plan and inventory, especially the records discussed on pp. 98 and 101. Identify the neighbour before proposing a midpoint.
 2. Amit 1989, pp. 223–228, Fig. 1 and phase discussion. Determine which summit structures are actually documented before selecting an eastern corner.
 3. Independent VII 11 letter review and IV 6 noun review. Keep edition-specific readings attached to every feature test.

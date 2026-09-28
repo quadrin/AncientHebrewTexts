@@ -83,6 +83,8 @@ The first decisive deliverable is an independent letter-by-letter review of VII 
 
 Follow-up: [Dok and Achor feature tests](dok_achor_feature_tests.md) distinguishes all three eastern-corner readings, corrects Dok chapter access, and defines the conditional V/49 cave-pair test.
 
+The [entry 17 spatial follow-up](entry17_cave_pair_review.md) records V/49's Cave 42 alias and Old Israel Grid anchor. Nearby catalogue points cannot yet identify the second cave or fix a midpoint.
+
 ## Entry 55: Bethesda
 
 The recovered assessment explicitly says Vincent–Abel and Jeremias were not directly read in Phase 5. Their excavation evidence remains an access gap in this review. Only Milik’s emendation supplies the Bethesda name; the reservoir-complex wording needs fewer assumptions but is less geographically specific.
