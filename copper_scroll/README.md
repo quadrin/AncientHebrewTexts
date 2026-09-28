@@ -16,6 +16,8 @@ This folder is separate from the DSS letter-recogniser project described in the 
 
 The [2026-09-28 site identification review](site_identification_review.md) updates Phase 5. It returns Siloam to medium overall confidence, records the full Szanton 2023 source, and distinguishes site compatibility from identification of a particular feature. The revised Phase 5 summary and index contain the current verdicts; the Phase 3 files retain their original assessment.
 
+The [feature investigation](feature_investigation.md) adds five feature comparisons, a source-dependency audit, separate reading/site/feature judgments, and prepared specialist and non-invasive field-observation packets. The [constraint register](tables/feature_constraints.csv) records the tests that could distinguish or weaken each proposal. No exact feature or deposit has been identified.
+
 ## Files
 
 | File | In git? | Contents |

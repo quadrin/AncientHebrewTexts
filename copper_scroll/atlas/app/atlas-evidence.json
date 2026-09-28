@@ -1,0 +1,90 @@
+{
+  "reviewed": "2026-09-28",
+  "snapshot": "cecb12d753c3a0ee19addf00afe6f9bd10eed300",
+  "method": "Qualitative editorial assessments, not probabilities. Reading describes the wording needed for a placement; site describes the proposed locality; feature describes identification of the particular installation. Unresolved means that no specific feature has been established. Source counts are not independent confirmations.",
+  "entries": [
+    {
+      "entryId": "21", "placeId": "kh_qumran", "title": "Qumran: where does the conduit begin?",
+      "reading": "Mixed", "readingNote": "Conduit, head and Sekakah survive; the relation to Sekakah and the noun stone depend on restorations.",
+      "site": "Medium", "siteNote": "The water system fits the proposal, conditional on Sekakah referring to Qumran or its wadi.",
+      "feature": "Unresolved", "featureNote": "No surveyed intake, particular stone or deposit is identified by the checked evidence.",
+      "finding": "The intake basin deserves the first comparison. The dam is reconstructed, and the displayed ground photograph shows a downstream outlet.",
+      "dependency": "The six Phase 5 records are summaries and edition commentaries. Milik 1960 and 1962 repeat one identification; Eshel cites earlier surveys. They cannot be counted as six independent matches.",
+      "features": [
+        {"id":"q-intake","name":"Intake basin and proposed dam position","support":"Closest functional candidate for the head of a conduit.","limit":"Stacey 2009 reports no surviving dam; its position is inferred. The reading does not independently identify this basin.","test":"Recover Ilan–Amit 2002, Fig. 1, tie the intake and channel junctions to surveyed control, and compare each restoration separately."},
+        {"id":"q-runoff","name":"Upper channel and run-off junction","support":"An alternative beginning may be defined by the junction of different water-collection systems.","limit":"This is a research alternative, not a published Copper Scroll identification established here.","test":"Check construction phases and flow direction. A junction without the required relation to Sekakah would weaken this option."},
+        {"id":"q-tunnel","name":"Rock-cut tunnel mouth","support":"A conspicuous element of the conduit system worth distinguishing from the intake.","limit":"A tunnel opening is not automatically the head of the conduit.","test":"Use the surveyed sequence of basin, channel and tunnel to test whether the opening could be the stated beginning."},
+        {"id":"q-photo","name":"Cistern outlet shown in Ground view","support":"Illustrates a surviving Qumran waterwork.","limit":"The photograph does not show the upstream intake or the restored great stone.","test":"Retain as context; do not use its highlight to select an entry 21 feature."}
+      ],
+      "next": "Obtain the original aqueduct plan and an independent reading of V 1–3 before drawing a smaller map boundary.",
+      "sources": ["puech2006","lefkovits2000","milik1960","phase5","stacey2009","ilan2002"]
+    },
+    {
+      "entryId": "32", "placeId": "choziba", "title": "Choziba: which outlet and which wall?",
+      "reading": "Disputed", "readingNote": "Koziba competes with Lefkovits’s Buz reading. The second landmark may mean retaining wall, parapet, mountain or rock.",
+      "site": "Medium", "siteNote": "Wadi Qelt remains the preferred locality under the Koziba interpretation.",
+      "feature": "Unresolved", "featureNote": "The monastery anchor does not locate the ancient water outlet or date a particular wall.",
+      "finding": "Separate the spring head, the Jisr ed-Deir distribution point and the cliffside wall. They perform different functions.",
+      "dependency": "Six Phase 5 records include editorial identifications and survey summaries. The nineteenth-century survey is an observation source; its masonry dating is provisional.",
+      "features": [
+        {"id":"c-spring","name":"ʿAin Qelt spring and channel head","support":"Fits an outlet understood as a spring or the start of an aqueduct.","limit":"The name and second landmark still need independent support.","test":"Identify which period channel left the spring, and whether the required second landmark belongs to that same phase."},
+        {"id":"c-bridge","name":"Jisr ed-Deir channel division","support":"The Survey of Western Palestine records a distribution point here.","limit":"A division is not necessarily the outlet intended by the text.","test":"Compare the junction’s function and dated construction against the spring-head interpretation."},
+        {"id":"c-wall","name":"Wall opposite Deir el-Kelt","support":"The survey records upper and lower channels against the cliff.","limit":"Visible fabric alone does not establish a Second Temple retaining wall.","test":"Check the wall’s construction sequence and its relationship to an independently located outlet."}
+      ],
+      "next": "Match original plans to the three feature classes, then distinguish ancient construction from later repairs.",
+      "sources": ["puech2006","lefkovits2000","milik1960","phase5","swp1883"]
+    },
+    {
+      "entryId": "49", "placeId": "jer_siloam", "title": "Siloam: separate the name, pool and trough",
+      "reading": "Disputed", "readingNote": "Puech’s Siloam reading requires a disputed letter and restoration; competing editions read personal names or another installation.",
+      "site": "Medium", "siteNote": "Conditional on the Siloam reading. The earlier high rating remains withdrawn.",
+      "feature": "Unresolved", "featureNote": "A period trough corresponding to the entry has not been established.",
+      "finding": "Szanton’s plans distinguish the tunnel-outlet pool from Birkat el-Ḥamra. Their names and the dating evidence must be evaluated separately.",
+      "dependency": "Several reports concern the same pool and street excavations. Repeated use of the label Siloam is not an independent reading of the scroll.",
+      "features": [
+        {"id":"s-outlet","name":"Silwan pool and tunnel outlet","support":"Szanton proposes this as the Early Roman Siloam pool.","limit":"The publication does not identify the scroll’s trough.","test":"Compare the stratigraphy, plan and sections with the required installation after the wording is reviewed."},
+        {"id":"s-large","name":"Birkat el-Ḥamra, the large stepped pool","support":"Other excavation reports call this Siloam; Szanton proposes Solomon’s Pool.","limit":"Its stepped form does not locate a particular trough.","test":"Keep both naming hypotheses visible; identify which physical requirement could distinguish them."}
+      ],
+      "next": "Have X 15–16 read independently of the pool names; then test the surviving trough/gutter requirement against original plans.",
+      "sources": ["phase5","szanton2023"]
+    },
+    {
+      "entryId": "31", "placeId": "doq", "title": "Doq: fortress or drying place?",
+      "reading": "Disputed", "readingNote": "Puech reads a drying place; Milik and other editions read a guardhouse or fortress.",
+      "site": "Medium", "siteNote": "The summit remains the preferred Doq proposal; the spring name alone cannot select it.",
+      "feature": "Unresolved", "featureNote": "Neither the specified eastern corner nor a period drying installation has been established.",
+      "finding": "Fortress archaeology cannot decide the disputed landmark word.",
+      "dependency": "The ten records include regional cave occupation. Occupation of the mountain does not independently attest the required building corner.",
+      "features": [
+        {"id":"d-fort","name":"Summit fortress corner","support":"Compatible with the guardhouse or fortress reading.","limit":"Later construction complicates the surviving plan.","test":"Identify a securely dated eastern corner before claiming a feature match."},
+        {"id":"d-dry","name":"Drying installation at Doq","support":"Required by Puech’s alternative reading.","limit":"No corresponding installation is established in the checked records.","test":"Seek documented surfaces and their function; an empty search is inconclusive where preservation is poor."}
+      ],
+      "next": "Request a blind comparison of the disputed letters in VII 11 before preferring a building type.",
+      "sources": ["puech2006","phase5"]
+    },
+    {
+      "entryId": "55", "placeId": "jer_bethesda", "title": "Bethesda: a name or a reservoir complex?",
+      "reading": "Disputed", "readingNote": "Only Milik’s emendation supplies Bethesda. The reservoir wording does not uniquely name St Anne’s.",
+      "site": "Medium", "siteNote": "Bethesda remains a candidate; the twin-pool description also permits comparisons elsewhere.",
+      "feature": "Unresolved", "featureNote": "No particular small, accessible basin has been identified as the scroll’s feature.",
+      "finding": "The Bethesda excavation reports cited by the editions still need direct checking.",
+      "dependency": "The recovered assessment explicitly says Vincent–Abel and Jeremias were cited through other authors. Their findings have not been independently audited here.",
+      "features": [
+        {"id":"b-anne","name":"St Anne’s reservoir complex","support":"A proposed match for a complex containing more than one reservoir.","limit":"The place-name identification depends on an emendation.","test":"Read the original excavation plans and determine which basin and access arrangement satisfy the wording."},
+        {"id":"b-sion","name":"Sisters of Sion double-pool comparison","support":"A second double-pool setting recorded by Warren.","limit":"This is a control comparison, not a newly endorsed placement.","test":"Compare chronology, basin hierarchy and access under the same textual requirements."}
+      ],
+      "next": "Review XI 12–13 and the original excavation publications before increasing site confidence.",
+      "sources": ["phase5"]
+    }
+  ],
+  "sources": {
+    "puech2006":{"label":"Puech 2006, pp. 188, 192","url":"https://github.com/quadrin/AncientHebrewTexts/blob/cecb12d753c3a0ee19addf00afe6f9bd10eed300/copper_scroll/sources.md","access":"Edited text and commentary checked against local page images; this is not a new reading of the metal."},
+    "lefkovits2000":{"label":"Lefkovits 2000, pp. 185, 236","url":"https://github.com/quadrin/AncientHebrewTexts/blob/cecb12d753c3a0ee19addf00afe6f9bd10eed300/copper_scroll/sources.md","access":"Entry 21 and 32 text and commentary checked against local page images."},
+    "milik1960":{"label":"Milik 1960, pp. 147, 149","url":"https://github.com/quadrin/AncientHebrewTexts/blob/cecb12d753c3a0ee19addf00afe6f9bd10eed300/copper_scroll/sources.md","access":"Local edition; same author’s later repetition is not independent evidence."},
+    "phase5":{"label":"Recovered Phase 5 evidence and assessments","url":"https://github.com/quadrin/AncientHebrewTexts/blob/cecb12d753c3a0ee19addf00afe6f9bd10eed300/copper_scroll/tables/phase5_reports.csv","access":"254 report records and 37 assessments recovered. Earlier access claims belong to that research phase."},
+    "stacey2009":{"label":"David Stacey, Three Notes on Qumran (2009), The Dam","url":"https://bibleinterp.arizona.edu/articles/stacey","access":"Author’s discussion checked directly; construction chronology is his proposal."},
+    "ilan2002":{"label":"Ilan and Amit 2002, pp. 380–386, Fig. 1","url":"https://books.google.com/books?id=GWhoAAAAMAAJ","access":"Priority source to obtain. Plan referenced by Stacey; original plan not accessed in this review."},
+    "swp1883":{"label":"Survey of Western Palestine III, pp. 227–228","url":"https://archive.org/stream/surveyofwesternp03conduoft/surveyofwesternp03conduoft_djvu.txt","access":"Survey text checked directly in digitized transcription; plate geometry not georeferenced."},
+    "szanton2023":{"label":"Szanton, ʿAtiqot 113 (2023), pp. 34–42, Figs. 1, 4, 6","url":"https://publications.iaa.org.il/atiqot/vol113/iss1/3/","access":"Full article read via its accessible PDF copy; plans and photographs visually checked. Portal metadata says 2024; the printed issue says 2023."}
+  }
+}

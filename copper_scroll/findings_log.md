@@ -450,3 +450,15 @@ See `phase3_summary.md`. Maps and tables are at site level only. The scroll's cu
     - Wadi Nuweiʿimeh NE of Jericho (Milik 1960; Puech p. 179);
     - TIR's "Achor Vallis" label NW of Jericho (repo crop).
   - (Inference, **BK**, low confidence, to check in Phase 3) Wadi Nuweiʿimeh is thought to rise NW of Jericho near Naʿaran/ʿAin Duk and run east past Kh. el-Mafjar. If so, TIR's "NW" and Milik's "NE" may label different stretches of one wadi rather than rival sites.
+
+
+## Feature investigation — 2026-09-28
+
+- F6.1 (evidence): the latest repository contains 37 Phase 5 assessments and 254 report records. Recovered and audited for entries 21, 32, 49, 31 and 55. Report counts include repeated editorial arguments and secondary summaries; they are not counts of independent confirmations.
+- F6.2 (evidence): Puech 2006 pp. 188, 192 and Lefkovits 2000 pp. 185, 236 were checked against page images; Milik 1960 pp. 147, 149 checked directly. The spatial and landmark disagreements remain. No new reading of the metal is claimed.
+- F6.3 (evidence, attributed): Stacey 2009, “The Dam,” reports that the Qumran dam had not survived. The inferred intake needs an original-plan check; its footprint is not a surveyed visible feature in this atlas.
+- F6.4 (evidence): SWP III pp. 227–228 distinguishes channel features at Wadi Qelt. A dated outlet–wall pairing is still needed. Its provisional masonry dating does not establish a particular Second Temple wall.
+- F6.5 (evidence): Szanton 2023 Figs. 1, 4, 6 visually checked. The photographed outlet stones are described as railing stones; they do not establish the scroll’s trough.
+- F6.6 (inference): keep all five site candidates medium and conditional. Their exact features remain unresolved. The atlas now separates reading, site and feature judgments, without increasing confidence or drawing unsupported feature boundaries.
+
+Sources, constraints, access gaps and pending specialist/field packets: [feature investigation](feature_investigation.md), [constraint register](tables/feature_constraints.csv).
