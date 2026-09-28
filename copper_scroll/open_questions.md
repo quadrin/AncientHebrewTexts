@@ -101,3 +101,9 @@ Updated each session. Newest additions at the bottom of each group. "Needs" says
 - Q40. **Evidence independence.** Trace each priority source to its original observation or excavation, avoiding repeated counts of the same identification. Initial audit complete; original-plan access and specialist reading remain pending.
 
 [Prepared packets and rejection tests](feature_investigation.md) extend Q24, Q26 and Q35–Q36. No independent specialist review or fieldwork has yet taken place.
+
+## Qumran source and cluster follow-up — 2026-09-28
+
+- Q38 update: Ilan–Amit’s exact 2002 chapter citation and the 1989 Hebrew chapter/Fig. 1 index are located. The plan pages require registered access; no original-plan georeferencing has been performed. See the [reference and access record](qumran_reference_review.md).
+- Q41. **Solomon or Shallum in entry 23 (V 8–9)?** Puech 2006 p. 189 explicitly permits Shallum. Review the letter division independently before treating entries 22 and 23 as a connected reservoir/channel pair. Distinguish the boulder interpretation from mound or sepulchral interpretations.
+- Q42. **Which spatial relations survive across the Sekakah models?** Test entry 21’s northern flow versus northern side separately, entry 22’s eastern fissure, and entry 24’s approach from Jericho. Do not impose a continuous route through entries 20–24. Original plan, dated features and independent readings remain pending.

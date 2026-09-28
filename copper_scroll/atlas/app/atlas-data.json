@@ -1,5 +1,5 @@
 {
-  "snapshot": "5220e8bd008cba1ade10ddce42c6c577170206ba",
+  "snapshot": "e3b51ce6523e947fe217a630d64fa16486fc3c7c",
   "reviewDate": "28 September 2026",
   "entries": [
     {
@@ -523,18 +523,18 @@
           "confidence": "low"
         }
       ],
-      "evidence": "Partly (graves; a dam at the aqueduct head).",
-      "caution": "The placement remains at site or district level. The scroll’s individual feature has not been identified.",
+      "evidence": "A cairn and a dam imply different features. Puech prefers a cairn; the dam proposal must be checked independently.",
+      "caution": "The proposed Qumran dam is reconstructed. Neither it nor a particular cairn has been established as this entry’s landmark.",
       "landmark": "a cairn (Milik, Puech) or a dam (Eshel)",
       "period": "in use 1st c. BCE–70 CE",
-      "sources": "Eshel CSS pp. 94–95; SWP III p. 210; ʿAtiqot 41 (Baruch et al.) pp. 197–198",
+      "sources": "Eshel CSS pp. 94–95; SWP III p. 210; ʿAtiqot 41 (Baruch et al.) pp. 197–198; Puech 2006 pp. 187–189; Qumran reference review (28 September 2026)",
       "featured": false
     },
     {
       "id": "21",
       "title": "Sekakah",
       "hebrew": "סככא",
-      "description": "The head of the water conduit at Sekakah, with a stone landmark.",
+      "description": "The head of a water conduit associated with Sekakah; the link and stone landmark are partly restored.",
       "lines": "V 1-4",
       "status": "best-supported",
       "confidence": "medium",
@@ -546,18 +546,18 @@
           "confidence": "medium"
         }
       ],
-      "evidence": "A period aqueduct and dam supplied Qumran. The head of that system matches the kind of water installation the entry requires.",
-      "caution": "Sekakah = Qumran remains an identification. The pin marks the settlement, not a verified conduit head or deposit.",
+      "evidence": "Qumran’s water system supplies a plausible conduit-head setting. Stacey reconstructs a lost intake dam; the original Ilan–Amit plan has been located bibliographically but remains inaccessible.",
+      "caution": "The link to Sekakah and the stone noun are partly restored. Northern approach and northern side must be tested separately. The pin marks the settlement.",
       "landmark": "the head of a water conduit",
       "period": "in use 1st c. BCE–70 CE",
-      "sources": "Eshel CSS pp. 94–95; ʿAtiqot 41 preface p. viii; Milik DJD D9",
+      "sources": "Eshel CSS pp. 94–95; ʿAtiqot 41 preface p. viii; Milik DJD D9; Puech 2006 pp. 187–189; Qumran reference review (28 September 2026); Lefkovits 2000 pp. 185–189; Stacey 2009, The Dam",
       "featured": true
     },
     {
       "id": "22",
       "title": "Solomon's reservoir",
       "hebrew": "שלומו",
-      "description": "A fissure in Sekakah beside a reservoir associated with Solomon.",
+      "description": "A fissure in Sekakah east of a reservoir associated with Solomon.",
       "lines": "V 5-7",
       "status": "best-supported",
       "confidence": "medium",
@@ -569,18 +569,18 @@
           "confidence": "medium"
         }
       ],
-      "evidence": "Qumran has period reservoirs and nearby natural fissures. These support the physical setting.",
-      "caution": "No checked source establishes the ancient name of a Qumran reservoir as Solomon’s. Jerusalem’s similarly named pool does not relocate this entry; Q37 concerns a dating argument.",
+      "evidence": "Qumran’s reservoirs provide a setting to test against the fissure east of the named reservoir.",
+      "caution": "Neither the ancient reservoir name nor the specific eastern fissure has been established. Jerusalem’s similarly named pool does not relocate this entry.",
       "landmark": "a fissure; a reservoir (\"of Solomon\")",
       "period": "in use 1st c. BCE–70 CE",
-      "sources": "Cohen & Porat, HA-ESI 132 (2020); Milik 1960 p. 147; SWP III p. 210",
+      "sources": "Cohen & Porat, HA-ESI 132 (2020); Milik 1960 p. 147; SWP III p. 210; Puech 2006 pp. 187–189; Qumran reference review (28 September 2026)",
       "featured": false
     },
     {
       "id": "23",
-      "title": "Solomon's channel",
+      "title": "Solomon or Shallum’s channel",
       "hebrew": "שלומו",
-      "description": "A ditch or canal associated with Solomon, with an adjoining mound or clod.",
+      "description": "A trench or channel associated with Solomon or Shallum, directed toward a large landmark read as a boulder or mound.",
       "lines": "V 8-11",
       "status": "possible only",
       "confidence": "low",
@@ -592,18 +592,18 @@
           "confidence": "low"
         }
       ],
-      "evidence": "The public site index retains these candidates for comparison. It supplies no uniquely identified landmark for this entry.",
-      "caution": "The placement remains at site or district level. The scroll’s individual feature has not been identified.",
+      "evidence": "Puech allows Shallum as an alternative to Solomon and a large boulder as the landmark. The channel’s connection to entry 22’s reservoir is conditional.",
+      "caution": "No origin or endpoint is identified for the stated distance. Entry order alone does not establish a continuous route.",
       "landmark": "",
       "period": "Not established in the public archaeology index",
-      "sources": "Phase 3 site index; Phase 2 landmark lexicon",
+      "sources": "Phase 3 site index; Phase 2 landmark lexicon; Puech 2006 pp. 187–189; Qumran reference review (28 September 2026)",
       "featured": false
     },
     {
       "id": "24",
       "title": "The Kippa ravine",
       "hebrew": "נחל הכפא",
-      "description": "A tomb in a ravine, described in relation to Sekakah and Jericho.",
+      "description": "A tomb in the Kippa ravine, on the approach from Jericho toward Sekakah.",
       "lines": "V 12-14",
       "status": "best-supported",
       "confidence": "low",
@@ -615,11 +615,11 @@
           "confidence": "low"
         }
       ],
-      "evidence": "Partly (one undated rock-cut chamber).",
-      "caution": "The placement remains at site or district level. The scroll’s individual feature has not been identified.",
+      "evidence": "The wording permits a regional approach test from Jericho toward Sekakah. Wadi Kuteif remains a published proposal.",
+      "caution": "The recorded rock-cut chamber is undated and does not identify the required tomb. A route from entry 23 to entry 24 is not specified.",
       "landmark": "a tomb",
       "period": "not stated",
-      "sources": "SWP III p. 220; Milik DJD D12",
+      "sources": "SWP III p. 220; Milik DJD D12; Puech 2006 pp. 187–189; Qumran reference review (28 September 2026)",
       "featured": false
     },
     {

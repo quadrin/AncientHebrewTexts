@@ -462,3 +462,11 @@ See `phase3_summary.md`. Maps and tables are at site level only. The scroll's cu
 - F6.6 (inference): keep all five site candidates medium and conditional. Their exact features remain unresolved. The atlas now separates reading, site and feature judgments, without increasing confidence or drawing unsupported feature boundaries.
 
 Sources, constraints, access gaps and pending specialist/field packets: [feature investigation](feature_investigation.md), [constraint register](tables/feature_constraints.csv).
+
+## Qumran reference and cluster follow-up — 2026-09-28
+
+- F6.7 (bibliographic evidence): ROMAQ confirms Ilan and Amit, “The Aqueduct of Qumran,” *The Aqueducts of Israel*, JRA Supplement 46 (2002), pp. 380–386. Kotar indexes the Hebrew chapter (1989), pp. 283–288, and Fig. 1; its public excerpt cites an earlier publication in *Teva va-Aretz* 24 (1982), pp. 118–122. The original plan remains inaccessible: Kotar’s reader requires registered access and ROMAQ supplies no PDF download.
+- F6.8 (edition evidence): Puech 2006 p. 189, visually checked, allows Shallum rather than Solomon in entry 23. The reservoir/channel link across entries 22–23 is conditional. Entry 22’s east relation and entry 24’s Jericho-to-Sekakah approach are retained explicitly in the atlas.
+- F6.9 (inference): the five Sekakah entries yield separate constraints but no new independently identified feature. Existing candidate confidence and map geometry are unchanged. Nine atlas evidence reviews and 21 constraints now include entries 20–24; original-plan georeferencing and independent specialist review remain pending.
+
+Full [reference trail, access record and constraint comparison](qumran_reference_review.md).

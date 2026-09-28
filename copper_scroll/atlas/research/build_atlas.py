@@ -27,10 +27,10 @@ records='''1|Valley of Achor|עמק עכור|A ruin and a flight of steps in the
 18|Asla|העצלא|An earth pit in the area called Asla.
 19|The Kohlit pit|כחלת|A pit associated with Kohlit.
 20|Valley of Sekakah|סככא|A cairn or dam in the valley of Sekakah.
-21|Sekakah|סככא|The head of the water conduit at Sekakah, with a stone landmark.
-22|Solomon's reservoir|שלומו|A fissure in Sekakah beside a reservoir associated with Solomon.
-23|Solomon's channel|שלומו|A ditch or canal associated with Solomon, with an adjoining mound or clod.
-24|The Kippa ravine|נחל הכפא|A tomb in a ravine, described in relation to Sekakah and Jericho.
+21|Sekakah|סככא|The head of a water conduit associated with Sekakah; the link and stone landmark are partly restored.
+22|Solomon's reservoir|שלומו|A fissure in Sekakah east of a reservoir associated with Solomon.
+23|Solomon or Shallum’s channel|שלומו|A trench or channel associated with Solomon or Shallum, directed toward a large landmark read as a boulder or mound.
+24|The Kippa ravine|נחל הכפא|A tomb in the Kippa ravine, on the approach from Jericho toward Sekakah.
 25|Cave of the Column|מערה|A cave entrance distinguished by a column.
 26|The facing cave|מערה|A cave, its entrance and an adjacent mound or clod.
 27|The queen's residence|המלכא|A dwelling or enclosure associated with a queen.
@@ -78,8 +78,11 @@ places['mar_saba']['note']='Mar Saba is one proposed stretch of the Kidron gorge
 specific={
 '1':('Late-antique geographical tradition points north of Jericho. Wadi Nuweimeh accommodates both the northwestern springs and northeastern lower valley.','The Iron Age Achor tradition points toward the Buqeia. No reported ruin-and-steps combination decides between them.'),
 '4':('Tell es-Sultan supplies a mound and a nearby cemetery. The repository retains it as one possible Kohlit candidate.','Kohlit remains unidentified. The public index maps only a subset of the proposals discussed in the full research.'),
-'21':('A period aqueduct and dam supplied Qumran. The head of that system matches the kind of water installation the entry requires.','Sekakah = Qumran remains an identification. The pin marks the settlement, not a verified conduit head or deposit.'),
-'22':('Qumran has period reservoirs and nearby natural fissures. These support the physical setting.','No checked source establishes the ancient name of a Qumran reservoir as Solomon’s. Jerusalem’s similarly named pool does not relocate this entry; Q37 concerns a dating argument.'),
+'20':('A cairn and a dam imply different features. Puech prefers a cairn; the dam proposal must be checked independently.','The proposed Qumran dam is reconstructed. Neither it nor a particular cairn has been established as this entry’s landmark.'),
+'21':('Qumran’s water system supplies a plausible conduit-head setting. Stacey reconstructs a lost intake dam; the original Ilan–Amit plan has been located bibliographically but remains inaccessible.','The link to Sekakah and the stone noun are partly restored. Northern approach and northern side must be tested separately. The pin marks the settlement.'),
+'22':('Qumran’s reservoirs provide a setting to test against the fissure east of the named reservoir.','Neither the ancient reservoir name nor the specific eastern fissure has been established. Jerusalem’s similarly named pool does not relocate this entry.'),
+'23':('Puech allows Shallum as an alternative to Solomon and a large boulder as the landmark. The channel’s connection to entry 22’s reservoir is conditional.','No origin or endpoint is identified for the stated distance. Entry order alone does not establish a continuous route.'),
+'24':('The wording permits a regional approach test from Jericho toward Sekakah. Wadi Kuteif remains a published proposal.','The recorded rock-cut chamber is undated and does not identify the required tomb. A route from entry 23 to entry 24 is not specified.'),
 '31':('A Hasmonean fortress occupied the summit. The name Doq survives nearby at Ain Duk.','Editors disagree over “fortress” and “drying floor.” The surviving name does not distinguish the summit from the spring; Q24 remains open.'),
 '32':('Choziba preserves a related name, and the Wadi Qelt waterworks fit the outlet-and-wall description in the relevant period.','The individual outlet and retaining wall remain unidentified. The pin represents a stretch of the valley.'),
 '35':('The Kidron gorge supplies the named landscape; Mar Saba and Hyrcania feature in published proposals.','“Mouth of the gorge” could also describe the escarpment exit. No cairn fixes the location; Hyrcania’s link depends on restorations.'),
@@ -111,7 +114,12 @@ for r in rows('phase3_site_index.csv'):
     if eid in specific: evidence,caution=specific[eid]
     if eid=='41': evidence='The public index leaves this entry unmapped.';caution='The reading and geographical setting remain unresolved.'
     entries.append({'id':eid,'title':title,'hebrew':hebrew,'description':description,'lines':r['col_line'],'status':r['status'],'confidence':confidence,'region':places[ids[0]]['region'] if ids else 'unplaced','candidates':candidates,'evidence':evidence,'caution':caution,'landmark':primary['landmark_types_required'] if primary else '', 'period':primary['period'] if primary else 'Not established in the public archaeology index','sources':primary['main_sources'] if primary else 'Phase 3 site index; Phase 2 landmark lexicon','featured':eid in ['21','31','32','49']})
-out={'snapshot':'5220e8bd008cba1ade10ddce42c6c577170206ba','reviewDate':'28 September 2026','entries':entries,'places':list(places.values())}
+for entry in entries:
+    if entry['id'] in ['20','21','22','23','24']:
+        entry['sources'] += '; Puech 2006 pp. 187–189; Qumran reference review (28 September 2026)'
+    if entry['id']=='21':
+        entry['sources'] += '; Lefkovits 2000 pp. 185–189; Stacey 2009, The Dam'
+out={'snapshot':'e3b51ce6523e947fe217a630d64fa16486fc3c7c','reviewDate':'28 September 2026','entries':entries,'places':list(places.values())}
 assert len(entries)==61 and len(places)==37
 assert all(c['placeId'] in places for e in entries for c in e['candidates'])
 (root.parent/'app/atlas-data.json').write_text(json.dumps(out,ensure_ascii=False,indent=2))
