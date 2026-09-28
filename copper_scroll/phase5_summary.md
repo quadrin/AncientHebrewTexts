@@ -8,8 +8,8 @@ Session 2, 2026-09-28. Desk research on published reports and editions only.
 
 > Do published reports describe the kind of landmark that the entry requires (cistern, aqueduct, pool, tomb, spring, gate) at that site, in use in the late Second Temple period?
 
-- The scroll's cubits, depths and directions are treated only as features of the text.
-- Nothing here proposes or supports excavation.
+- Extend the type-and-period comparison to individual installations and candidate locations.
+- Model the scroll's cubits, depths and directions under explicit readings, unit ranges and reference landmarks. Compare alternatives and report which observations discriminate among them.
 
 "BK" marks background knowledge. Page numbers are printed pages.
 

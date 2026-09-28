@@ -31,11 +31,13 @@ corepack pnpm exec vite build --config vite.pages.config.ts
 
 ## Research
 
+Follow [`../AGENTS.md`](../AGENTS.md) to investigate and map specific sites and individual features. Add candidate coordinates, feature outlines and spatial hypotheses with their sources, assumptions and uncertainty. Update their precision as evidence improves.
+
 The data comes from `quadrin/AncientHebrewTexts`, research snapshot `5220e8bd008cba1ade10ddce42c6c577170206ba` (28 September 2026). The committed CSV files in `research/` preserve the input tables. Run `python research/build_atlas.py` to regenerate `app/atlas-data.json`.
 
 Descriptions are short factual editorial paraphrases, not quoted translations. Hebrew labels reproduce names or selected editorial readings from the public lexicon. Current confidence follows the revised Phase 5 assessment: Siloam is medium and conditional; Ramat Rahel is low; Tell el-Qos is a weak alternative. Three places have no coordinates and remain unpinned.
 
-Pins represent site-level anchors. Filled areas with dashed outlines visualize the gazetteer's approximate precision; they are not surveyed boundaries or deposit locations. The selected candidate is shaded copper, other candidates sage, in both map dimensions. Selection fits the shaded area, including small archaeological anchors. The Siloam coordinate remains an inherited complex-level anchor, not a selected trough or pool. The public index contains a subset of the candidates discussed in the unpublished full assessment.
+Current pins use the gazetteer's site anchors. Filled areas with dashed outlines show their approximate positional precision. Each geometry should state whether it represents a site anchor, an observed feature footprint or a modeled candidate area. The selected candidate is shaded copper, other candidates sage, in both map dimensions. Selection fits the shaded area, including small archaeological anchors. The current Siloam coordinate anchors the pool complex; individual pool, outlet and trough candidates require their own feature records. The public index contains a subset of the candidates discussed in the unpublished full assessment.
 
 ## Map
 
@@ -52,7 +54,7 @@ MapLibre owns each marker's outer `site-marker` element, including its absolute 
 - Filter by region or switch between the four-entry shortlist and all 61 entries.
 - Sort the register by confidence, ancient name, primary candidate name, region or scroll order. Confidence uses the highest candidate confidence and breaks ties in scroll order. Candidate cards sort independently by confidence, alphabetical name or preferred status; sorting never changes the selection.
 - Switch 2D/3D, adjust relief, zoom, orient north, fit the entry or return to the regional view.
-- Ground view provides four real photographs with anchored highlight polygons, pan/zoom, keyboard navigation, feature notes and image credits. Source URLs and licenses are recorded in `app/atlas-scenes.json`; images load directly from Wikimedia Commons. Qumran shows an actual aqueduct outlet. Doq and Choziba show terrain context; Siloam shows the larger southern pool, distinguished from the smaller Silwan outlet candidate. No photo is presented as a verified 360-degree panorama or exact deposit identification.
+- Ground view provides four real photographs with anchored highlight polygons, pan/zoom, keyboard navigation, feature notes and image credits. Source URLs and licenses are recorded in `app/atlas-scenes.json`; images load directly from Wikimedia Commons. Qumran shows an actual aqueduct outlet. Doq and Choziba show terrain context; Siloam shows the larger southern pool, distinguished from the smaller Silwan outlet candidate. The current scenes are photographs with annotated visible features; record camera geometry and the evidence for each candidate highlight when adding scenes.
 - A separate Google Street View link searches near each mapped anchor. Coverage varies and atlas overlays are not injected into external Google imagery. Other candidates show an explicit photographic coverage gap and shortcuts to the four available scenes.
 - Mobile layouts separate register, map and folio into three accessible views.
 - Entry hash URLs restore the selected entry.
@@ -69,4 +71,4 @@ The Site uses the package manager, build scripts and hosting manifest supplied b
 
 Entries 21, 32, 49, 31 and 55 now have a “Compare features & evidence” dialog. It separates reading, site and exact-feature judgments, exposes source dependencies/access gaps, and states discriminating checks. Other candidates are explicitly marked as not yet assessed on separate axes. Site confidence and existing sorting remain unchanged.
 
-Edit `app/atlas-evidence.json` for the shared Site/Pages content. The narrative dossier is in `research/feature_investigation.md`; its repository-wide copy is `../feature_investigation.md`. Keep both copies aligned. The constraint register is `research/feature_constraints.csv`, mirrored in `../tables/feature_constraints.csv`. Feature polygons remain approximate locality envelopes until surveyed source geometry is obtained.
+Edit `app/atlas-evidence.json` for the shared Site/Pages content. The narrative dossier is in `research/feature_investigation.md`; its repository-wide copy is `../feature_investigation.md`. Keep both copies aligned. The constraint register is `research/feature_constraints.csv`, mirrored in `../tables/feature_constraints.csv`. Refine locality envelopes into feature outlines or modeled candidate areas as sources permit, recording the geometry method and positional uncertainty.

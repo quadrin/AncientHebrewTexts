@@ -23,7 +23,7 @@ See [site identification review](site_identification_review.md). This review che
 
 See `phase5_summary.md` and `tables/phase5_archaeology_index.csv`.
 
-**Method note, 2026-09-28:** the Phase 5 rule that no specific cave, cistern or tomb may be tied to an entry is withdrawn at the user's request. Records may now compare a named installation with an entry, with the source. Two rules stay in force: the scroll's cubits, depths and directions are not converted into positions, and nothing proposes or supports excavation.
+**Method note, 2026-09-28:** compare individual caves, cisterns, tombs, channels and other installations with the entries. Model directions, distances and depths as spatial constraints, documenting the reading, unit range, reference landmark, terrain assumptions and positional uncertainty. Record each candidate's supporting and conflicting evidence with source pages. See [research workflow](AGENTS.md).
 
 - F5.1 (test) **Only 5 of the 23 best-supported entries have their required landmark reported at the site and in use in the late Second Temple period:** 21 (Qumran aqueduct), 32 (Wadi el-Qelt), 49 (Siloam), 55 (Bethesda) and 58 (Beth Shean).
   - All five are water installations.
@@ -93,7 +93,7 @@ See `phase4_summary.md` and `tables/phase4_hypotheses.csv`.
 
 ## Session 2, continued — 2026-09-28 (Phase 3: candidate sites, scored and mapped)
 
-See `phase3_summary.md`. Maps and tables are at site level only. The scroll's cubits, depths and directions were not converted into positions.
+See `phase3_summary.md`. The original Phase 3 maps and tables record site anchors. Follow-up spatial models use the scroll's distances and directions with explicit assumptions and uncertainty.
 
 - F3.1 (method) **Phase 3 scoring.**
   - All 292 candidates that any source proposes for the 61 entries were scored against written rules:

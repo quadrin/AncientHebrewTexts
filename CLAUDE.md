@@ -1,3 +1,7 @@
+# Repository workstreams
+
+For Copper Scroll place and feature identification, follow [`copper_scroll/AGENTS.md`](copper_scroll/AGENTS.md) and [`copper_scroll/README.md`](copper_scroll/README.md). That work includes testing specific locations, coordinates and spatial relationships against the sources. The letter-recognition workflow below applies to manuscript transcription and matching.
+
 # DSS letter recogniser: project brief
 
 ## Goal

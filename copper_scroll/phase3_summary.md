@@ -2,7 +2,7 @@
 
 Session 2, 2026-09-28. Desk research on texts, editions and maps only.
 
-**What the maps and tables show.** They show where scholars place the *named places and landmarks* of the scroll, at the level of the site (for example "Kh. Qumran" or "Wadi el-Qelt at Choziba"). They do not show where any deposit would be. The scroll's cubits, depths and directions were **not** converted into positions and are not plotted. Nothing here proposes or supports excavation.
+**What the maps and tables show.** The original Phase 3 maps locate scholars' proposed *named places and landmarks*, including Kh. Qumran and Wadi el-Qelt at Choziba. Subsequent work tests individual features and models candidate positions from the scroll's spatial descriptions under the [research workflow](AGENTS.md). Record the reading, reference landmark, unit range, orientation and construction phase for each model.
 
 "BK" marks background knowledge that does not come from the files. Page numbers are printed pages.
 
@@ -58,7 +58,7 @@ There are three maps (UTM zone 36N):
 | 3 | Jerusalem | Relief and the modern Old City walls (OSM) |
 
 - **Symbols.** Each place carries the entries placed there, with the verdict and confidence.
-- **Statement.** Every map carries the statement "at site level only … not deposit locations".
+- **Precision.** Label each mapped object by its spatial meaning: site anchor, observed feature footprint or modeled candidate area. Record source scale and positional uncertainty.
 - **Checks.** I viewed each map and fixed the label overlaps before delivery.
 
 ## 2. Results in numbers

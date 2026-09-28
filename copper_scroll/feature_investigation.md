@@ -16,7 +16,7 @@ The atlas now separates three questions:
 
 Review the text before using archaeology to select a reading. A repeated identification, an archaeological type match and a dated, uniquely matching installation are different kinds of evidence. Missing evidence is inconclusive where the relevant publication is inaccessible or the remains were destroyed.
 
-The machine-readable counterpart is [`atlas/app/atlas-evidence.json`](https://github.com/quadrin/AncientHebrewTexts/blob/main/copper_scroll/atlas/app/atlas-evidence.json). It supplies the atlas’s feature comparisons and source-access notes. The companion CSV records constraints and rejection tests; it supplies no excavation targets.
+The machine-readable counterpart is [`atlas/app/atlas-evidence.json`](https://github.com/quadrin/AncientHebrewTexts/blob/main/copper_scroll/atlas/app/atlas-evidence.json). It supplies the atlas’s feature comparisons and source-access notes. The companion CSV records spatial constraints and rejection tests for candidate sites and individual features.
 
 Follow-up: [Qumran aqueduct reference and the Sekakah cluster](qumran_reference_review.md) locates the exact Ilan–Amit chapter and Hebrew figure index, records the remaining access barrier, and tests entries 20–24 separately. The original plan still awaits access; the Solomon/Shallum alternative prevents treating entries 22–23 as a secure linked pair.
 
@@ -115,7 +115,7 @@ An archaeologist-led, non-invasive visit can document exposed features from perm
 - What has been rebuilt, obscured or lost? Record negative observations with their visibility limits.
 - Can a geolocated photograph or panorama show the feature and its relationship to a second landmark? Record camera position, heading and field of view; highlights should identify visible fabric, with ancient reconstructions labelled separately.
 
-Do not convert the scroll’s burial instructions into digging directions. The immediate output sought is a reproducible description of visible architecture and uncertainty.
+Translate the scroll’s spatial descriptions into testable candidate locations. State the reading, reference feature, direction, distance or depth interpretation, construction phase and uncertainty; compare the resulting positions with mapped and photographed evidence.
 
 ## Completed and pending
 

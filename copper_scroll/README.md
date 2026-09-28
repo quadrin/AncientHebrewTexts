@@ -1,8 +1,10 @@
 # Copper Scroll (3Q15): hiding places and Greek letters
 
-Desk research from editions, texts and maps only. **Nothing here proposes or supports excavation.**
+Identify the places and specific locations described in the Copper Scroll using editions, archaeological reports, maps, surveys and photographs. Compare named sites and individual features, then test the scroll's directions, distances and depths against candidate locations. Record the source, assumptions, confidence and positional uncertainty for each proposal.
 
-This folder is separate from the DSS letter-recogniser project described in the repo's `CLAUDE.md`.
+Research workflow: [`AGENTS.md`](AGENTS.md).
+
+This folder contains the geographical research workstream. The repository's `CLAUDE.md` also describes the DSS letter-recogniser workstream.
 
 ## Phases
 
@@ -18,7 +20,7 @@ The [2026-09-28 site identification review](site_identification_review.md) updat
 
 The [feature investigation](feature_investigation.md) adds five feature comparisons, a source-dependency audit, separate reading/site/feature judgments, and prepared specialist and non-invasive field-observation packets. The [constraint register](tables/feature_constraints.csv) records the tests that could distinguish or weaken each proposal. No exact feature or deposit has been identified.
 
-The [Qumran reference review](qumran_reference_review.md) locates Ilan–Amit’s aqueduct chapter and Hebrew figure index, records the registered-access barrier, and compares entries 20–24. The atlas now includes nine evidence reviews. The original plan and independently dated feature matches remain pending.
+The [Qumran reference review](qumran_reference_review.md) locates Ilan–Amit’s aqueduct chapter and Hebrew figure index, records the registered-access barrier, and compares entries 20–24. The atlas now includes nine evidence reviews. The [Ilan–Amit plan review](ilan_amit_1989_plan_review.md) now examines the recovered Hebrew plan. The [research log](registration/qumran_online_followup.json) tracks subsequent source access; the [Humbert–Chambon review](registration/humbert_english_extracted.md) separates inlet phases and reconstructed channels. Specific feature matches and geographic registration remain open research questions.
 
 ## Files
 
@@ -51,7 +53,7 @@ The [Qumran reference review](qumran_reference_review.md) locates Ilan–Amit’
 | `tables/phase5_archaeology_index.csv` | yes | Phase 5 index (31 rows): landmark types required, whether reported at the site, period, Phase 3 and Phase 5 verdicts, main sources |
 | `tables/phase5_assessments.csv`, `tables/phase5_reports.csv` | yes | The 37 Phase 5 assessments with reasons, and the 254 report records with pages, URLs and short quotes (20 words or fewer) |
 | `phase3_candidates.csv` | **no** | All 292 Phase 3 candidates with the full scoring, reasons with pages, and short quotes |
-| `phase3_entries.csv` | **no** | Per entry: the text's requirements, reading notes, best-supported place, why not the others, and the text's own relative description in each edition (quoted, not converted into positions) |
+| `phase3_entries.csv` | **no** | Per entry: the text's requirements, reading notes, best-supported place, why not the others, and the text's own relative description in each edition (edition quotations; spatial models record their assumptions separately) |
 | `phase3_map1_overview.png`, `phase3_map2_jericho_qumran.png`, `phase3_map3_jerusalem.png` | **no** | The three Phase 3 maps, at site level. Map 2 is built on PEF Sheet XVIII (CC BY-NC-SA 3.0) |
 
 The files marked **no** reproduce or quote copyrighted edition text, or are built on a base map with a non-commercial share-alike licence. This GitHub repository is public, so they are delivered to you directly rather than committed.
