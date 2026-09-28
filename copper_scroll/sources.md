@@ -182,9 +182,9 @@ Checked 2026-09-27 against branch `main` (commit 637a7a9, "Add files via upload"
 
   Remarks (p. 13): an inexact location can be accepted if the name is rare; a badly preserved name can be accepted if the sources fix the place. Pottery supports but does not prove. Inscriptions are the best proof. Names can "wander" a short distance.
 - **Direct remarks on Copper Scroll places:**
-  - Dok (1 Macc 16:15, Δωκ) is "known to the Arabs as dūk or dyūk ('chickens')", a popular etymology, and "the two forms have remained in living use" (note in entry 25; index "Dok … 139, 288, 351, 358").
+  - Dok (1 Macc 16:15, Δωκ) is "known to the Arabs as dūk or dyūk ('chickens')", a popular etymology, and "the two forms have remained in living use" (p. 139, a note in entry 28, Hadid; index "Dok … 139, 288, 351, 358").
   - "Kohlith" is cited among names with the suffix -it, a type that became frequent in the Second Temple period (pp. 230, 334). This is a remark on the name's form, not on its location.
-  - Beth ha-Kerem is identified following Aharoni, with Genesis Apocryphon 22:14 and "the Copper Scroll 10,5" added to the sources (note in entry 18a).
+  - Beth ha-Kerem is identified following Aharoni, with Genesis Apocryphon 22:14 and "the Copper Scroll 10,5" added to the sources (a note on p. 184 or 185, in entry 46, Bethlehem).
   - The steep cliffs of the Quruntul range "as they descend to Wadi Nweiʿmeh" (in the discussion of Benjamin's border).
 - Entry 17, Ragaba / רגב, is the village of Rageb in Transjordan. It has nothing to do with the scroll's word הרגב.
 

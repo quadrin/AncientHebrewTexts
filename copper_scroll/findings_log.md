@@ -194,7 +194,7 @@ knowledge that does not come from the files in this repo.
     - (ii) the Arabic name matches the ancient one in all or almost all letters, at or near that area.
   - Name resemblance alone counts for nothing. Pottery supports but does not prove.
   - (Inference, high confidence) Many Copper Scroll identifications rest on name resemblance alone (for example Kohlit, ʿAṣla, Qobʿeh). In Phase 3 each will be scored on (i) and (ii) separately.
-- F2.22 (evidence: Elitzur 2004, note in entry 25) **Dok.** Elitzur records that the Arabic *dūk / dyūk* for Dok near Jericho (1 Macc 16:15) is a popular etymology ("chickens"), and that both forms are still in living use. This supports the continuity of the name at ʿAin Duq. It does not by itself fix whether the scroll's Doq is the fortress on Jebel Qaranṭal (Milik) or the spring area (Puech).
+- F2.22 (evidence: Elitzur 2004 p. 139, a note in entry 28) **Dok.** Elitzur records that the Arabic *dūk / dyūk* for Dok near Jericho (1 Macc 16:15) is a popular etymology ("chickens"), and that both forms are still in living use. This supports the continuity of the name at ʿAin Duq. It does not by itself fix whether the scroll's Doq is the fortress on Jebel Qaranṭal (Milik) or the spring area (Puech).
 - F2.23 (evidence) **The *ʿAtiqot* 41 cave survey (Hebrew) does not discuss the Copper Scroll.** One cave, IV/11, is called "Cave of the Pillar" for its pillar. The name is a modern description, and the report makes no claim about the scroll.
 
 ---
