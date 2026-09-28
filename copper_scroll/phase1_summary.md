@@ -10,7 +10,7 @@ There is no neutral count. The scroll has no separators, so each editor decides 
 
 | Editor | Entries | Source for the number |
 |---|---|---|
-| Milik (DJD III, 1962) | 64 (62 in his 1956–57 articles) | Lef. p. 17 n. 69; p. 426 n. 2; Puech p. 173 n. 26 |
+| Milik (DJD III, 1962) | 64 (62 in his 1956–57 articles) | Lef. p. 17 n. 69; p. 426 n. 2; Puech p. 173 n. 26; **firsthand: Milik 1960, ADAJ 4–5, pp. 139–142 (items 1–64)** |
 | Allegro | 61 | Lef. p. 17 n. 69 |
 | Luria | 60 | same |
 | Wise | 65 | same |
@@ -18,13 +18,13 @@ There is no neutral count. The scroll has no separators, so each editor decides 
 | **Puech** | **60, or 61 with 12 / 12a** | Puech pp. 173 n. 26, 179, 207 |
 
 - **Puech and Lefkovits draw the same 60 boundaries.** This was checked line by line: every Puech entry has the same line range as the Lefkovits item with the same number. Puech's 12 + 12a together equal Lef. #12.
-- **Milik's 64 cannot yet be reconstructed.** The documented places where he divides more finely are:
+- **Milik's 64, now resolved from Milik 1960 (ADAJ 4–5, pp. 139–142, uploaded at the end of the session):** 64 = Puech's 60 + 1 (9 split at II 9) + 1 (12/12a) + 2 (56 split into three). Milik also makes each ובתכן/בתכן אצלם phrase (V 7, XI 1, XI 4, XI 11, XI 15) *open* the next item. That moves boundaries without adding items. The full mapping is in `tables/entry_concordance.csv`. The earlier, superseded reasoning follows. Before that upload, the documented places where he divides more finely were:
   - #9 into two (Lef. p. 126)
   - #56 into three (Lef. p. 399)
   - a new entry at V 7 ובתכן (Puech p. 189 n. 226)
   - probably #12 into two (Lef. p. 142 says "the scholars", without naming Milik)
 
-  Together these give 65, not 64. So the table gives no Milik item numbers (open question Q4).
+  Together these seemed to give 65. The upload showed that the V 7 case moves a boundary and does not add an item.
 
 ## 2. Clearest entries
 

@@ -20,7 +20,7 @@ This folder is separate from the DSS letter-recogniser project described in the 
 | `phase1_summary.md` | yes | Entry count, clearest and most damaged entries, recurring terms, sequences |
 | `findings_log.md` | yes | Running log, evidence vs inference, with pages |
 | `open_questions.md` | yes | Running list of open questions |
-| `tables/entry_concordance.csv` | yes | Puech entry ↔ Lefkovits item ↔ line range, plus documented division notes (Milik, Allegro, Luria, Beyer, Wise) |
+| `tables/entry_concordance.csv` | yes | Puech entry ↔ Lefkovits item ↔ Milik item (from Milik 1960) ↔ line range, with boundary notes and other editors' divisions |
 | `tools/puech_heb.py` | yes | Decoder for Puech 2006's legacy Hebrew font (text layer → Unicode, logical order) |
 | `copper_scroll_master_table.csv` | **no** | The master table (61 rows). It contains Puech's full edited text and Lefkovits's text and translation. |
 | `variants_long.csv` | **no** | 2,072 reported readings, one per row (scholar, reading, gloss, reporting edition, page, verdict) |
@@ -31,7 +31,8 @@ The three files marked **no** reproduce copyrighted edition text. This GitHub re
 ## Master table columns
 
 - `entry_puech`: Puech's entry number (1–60, plus 12a). Puech and Lefkovits use the same boundaries, so the numbers coincide.
-- `item_lefkovits`: Lefkovits's item number. Milik's numbers are unknown; see open question Q4 and `division_notes`.
+- `item_lefkovits`: Lefkovits's item number.
+- `item_milik`: Milik's item number(s), from Milik 1960 (ADAJ 4–5, pp. 139–142). "(only the closing ובתכן/בתכן phrase)" marks where Milik's item begins with the last words of the Puech entry.
 - `col_line`: scroll column:line range.
 - `hebrew_puech`: Puech's text (pp. 208–216) with his sigla:
   - `[ ]` lacuna/restoration
@@ -52,6 +53,7 @@ The three files marked **no** reproduce copyrighted edition text. This GitHub re
 - `damage_uncertainty_notes`: lines with lacunae, "(?)", engraver's corrections, and insertions or editorial additions, plus notes on letters above or below the line.
 - `division_notes`: how other editors divide or number the entry, with source pages.
 - `hebrew_lefkovits`, `translation_lefkovits`: Lefkovits's text and translation, read from the scanned images.
+- `translation_milik1960`: Milik's own English translation (ADAJ 1960, pp. 139–142), with his italics (*…*) marking uncertain renderings. His Hebrew readings are not given there.
 - `pages_puech`, `pages_lefkovits`: printed pages of the text and commentary.
 - `n_*`: counts used for the clarity ranking.
 

@@ -8,7 +8,8 @@ Checked 2026-09-27 against branch `main` (commit 637a7a9, "Add files via upload"
 |---|---|---|---|
 | Puech 2006, *Le Rouleau de cuivre de la grotte 3 de Qumrân (3Q15)* | Yes, 11 PDF parts, 706 pages | Yes. Born-digital text layer. The Hebrew is in a legacy font and needs decoding (see below). | Primary reading |
 | Lefkovits 2000, *The Copper Scroll – 3Q15: A Reevaluation* | Yes, 11 PDF parts, 624 pages | Partly. Scanned library copy with OCR. The English OCR is usable; **the Hebrew OCR is useless**, so every Hebrew word was read from the page images. | Variant readings; secondhand Milik, Allegro, Luria and Wolters readings |
-| Milik, DJD III (1962) | **No.** No file matches Milik, DJD or *Les 'petites grottes'*. | — | Milik's readings are taken **secondhand** from Puech's commentary and Lefkovits's commentary, and are labelled so in every row. |
+| Milik, DJD III (1962) | **No.** No file matches Milik, DJD or *Les 'petites grottes'*. | — | Milik's Hebrew readings are taken **secondhand** from Puech's commentary and Lefkovits's commentary, and are labelled so in every row. |
+| Milik 1960, ADAJ 4–5 (uploaded in session 1) | Not in the repo (upload only) | Yes, an image scan with no text layer; read visually | **Firsthand** Milik: his complete English translation with his 1–64 numbering, and his commentary on the place names |
 | Wolters (you listed his readings as a variant column) | **No.** Wolters 1996, *The Copper Scroll: Overview, Text and Translation*, is not in the repo. | — | Taken **secondhand** from Lefkovits (who cites "Wolters 1996" throughout) and Puech. |
 | TIR Iudaea-Palaestina, North sheet | **Only crops**, not the sheet | Yes (see below) | Not used in Phase 1 |
 
@@ -33,6 +34,16 @@ Checked 2026-09-27 against branch `main` (commit 637a7a9, "Add files via upload"
 - Items 1–60: pp. 29–442. Discussion: p. 443ff. Appendix A (ככ vs ככרין): p. 471. Appendix B (numerals): p. 489. Appendix C (Greek letters): pp. 498–504. Appendix D: p. 505.
 - Lefkovits p. 17 n. 69: "Milik divides the text into 64 items, Allegro into 61, Lurie into 60, and Wise into 65 … This author divides the Copper Scroll into 60 items, three of which (#9, #12, #56) can be further subdivided into two or three sub-items."
 - His commentary quotes the Hebrew readings and translations of Allegro, Milik, Lurie (Luria), Pixner, Wolters (1996), García Martínez, Vermes, Wise, Beyer and Wacholder, phrase by phrase. It is the richest source in the repo for the Milik and Wolters variants.
+
+## Milik 1960 (uploaded in session 1)
+
+- J. T. Milik, "The Copper Document from Cave III of Qumran: Translation and Commentary", *Annual of the Department of Antiquities of Jordan* 4–5 (1960), pp. 137–155. File: `ADAJ_1960_4_5-137-155.pdf` (19 pages, a scan from the DoA Publication Archive, no text layer). **PDF page n = printed page 136 + n.**
+- Contents:
+  - Introduction, pp. 137–138. Milik says the DJD III edition "is now ready and it will be in press when this article appears". He gives the translation "of the entire document" by permission of the Clarendon Press.
+  - Translation, items 1–64, pp. 139–142. Italics mark uncertain translation; `< >` marks an omission; `°°` marks letters not deciphered.
+  - Commentary on the place names, by column and line, pp. 143–155.
+- What it provides: **Milik's own item numbering, and his translation of every item**, which settles open question Q4. It does *not* give his Hebrew transcription. His readings appear in the commentary only in Latin transliteration, without diacritics (p. 138 N.B.).
+- Caveat: this is Milik in 1960. Where DJD III (1962) differs, it is unknown until DJD III is available. The numbering agrees with the "64" that Lefkovits reports for DJD III (Lef. p. 426 n. 2).
 
 ## TIR (Tabula Imperii Romani, Iudaea–Palaestina, 1994)
 

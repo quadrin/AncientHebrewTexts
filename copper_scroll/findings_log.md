@@ -56,7 +56,7 @@ knowledge that does not come from the files in this repo.
 ### Results of the full comparison (added at the end of session 1)
 
 - F1.13 (evidence, checked by script) **Puech and Lefkovits divide the text identically.** All 60 boundaries have the same line ranges. Puech's 12 + 12a = Lef. #12. The 60/64 difference with Milik is therefore a difference with *both* modern editions.
-- F1.14 (evidence) **Where Milik divides more finely:**
+- F1.14 (evidence; **superseded by F1.21**) **Where Milik divides more finely:**
   - #9: two items (Lef. p. 126)
   - #56: three items (Lef. p. 399)
   - a new entry beginning with ובתכן at V 7 (Puech p. 189 n. 226)
@@ -83,3 +83,39 @@ knowledge that does not come from the files in this repo.
   - Puech's cross-references mis-number his own entries (VII 8 = (30), not (31); IX 17 = (44), not (45)).
   - Lefkovits: his item 5 translation lines are swapped (p. 90); at 12:10 he places צפון "in line 12:11"; at 12:4 he prints גריזין although the scroll has גויזין; and he reports Wolters's reading two ways at I 1 and at I 2–3.
 - F1.20 (inference, medium) The editions disagree more on **meaning** than on letters. For example, שדת (I 3) is a "chest" for Puech and a "carrying chair" for Lef.; בדין/כדין (II 11, VII 10, IX 3) are "bars" (Puech) or "pitchers" (Lef.); ככ is karsh for both. Phase 2 (the lexicon) should treat these as a separate layer of uncertainty from the readings.
+
+### Milik 1960 (ADAJ 4–5), uploaded at the end of session 1
+
+- F1.21 (evidence, firsthand: Milik 1960, pp. 139–142) **Milik's 64 items are fully mapped.**
+  - Milik 1–8 = Puech 1–8.
+  - Milik 9 + 10 = Puech 9 (II 7–8 / II 9).
+  - Milik 11–12 = Puech 10–11.
+  - Milik 13 + 14 = Puech 12 + 12a.
+  - Milik 15–24 = Puech 13–22.
+  - Milik 25 = the ובתכן אצלם phrase at the end of V 7 + Puech 23.
+  - Milik 26–51 = Puech 24–49.
+  - Milik 52–57 = Puech 50–55, except that each בתכן phrase opens the next item.
+  - Milik 58 + 59 + 60 = Puech 56 (XI 16–XII 1a / XII 1b–2a / XII 2b–3). Milik 58 also takes the בתכן phrase of XI 15.
+  - Milik 61–64 = Puech 57–60.
+
+  So 64 = 60 + 1 + 1 + 2. **The ובתכן phrases move boundaries but add no items.** This clears up the "65 not 64" puzzle in F1.14: Puech's n. 226 describes a boundary shift, not an extra entry.
+- F1.22 (evidence, firsthand) **Milik 1960 translates ככ as "talents" everywhere** (e.g. items 16, 17, 22), which confirms F1.6 at first hand. He also calls entry 58 "five talents of gold" (XII 1), where Puech reads "gold 5 k(arsh)".
+- F1.23 (evidence, firsthand) **Milik 1960's figures that differ from Puech:**
+  - III 13: 13 talents (Puech 14).
+  - IV 4: "fort[y on]e cubits" (Puech 14; Lef. 40). This gives three readings of one distance.
+  - VII 16: 60 (Puech 80; Lef. 60). This matches Lef.'s report that Milik's drawing shows 60.
+  - VIII 9: 4 (Puech 7; Lef. 7). This matches Lef.'s report of Milik's drawing.
+  - X 6: "twelve *feet*" (Puech "ten cubits").
+  - X 13: "twelve *feet*" (Puech "twelve cubits"). Milik italicises "feet" as uncertain.
+  - IX 2: "dig two (cubits)" (Puech: "two holes").
+
+  He agrees with Puech on 23½ at IX 6, 66 at VIII 13 and 42 at XII 3.
+- F1.24 (evidence, firsthand) **Milik 1960's readings of disputed places**, in translation:
+  - item 40, IX 7: "facing the Sea", agreeing with Lef. against Puech's "south";
+  - item 46, IX 17: "aque[duct] of ha-Masad";
+  - item 49, X 8: "pool of the vale of …, on the west side", partly agreeing with Lef.'s "western side";
+  - item 51, X 15: "pool of the Baths of Siloah";
+  - item 56, XI 9: "the Sons of … of Yerah";
+  - item 64, XII 10: "the tunnel in the Smooth Rock to the north of Kohlit, which opens towards the north".
+
+  Their place identifications are in the commentary, pp. 143–155. It has been extracted for Phase 3 but not yet analysed.
