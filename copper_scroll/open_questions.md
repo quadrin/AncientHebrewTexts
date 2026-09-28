@@ -10,7 +10,7 @@ Updated each session. Newest additions at the bottom of each group. "Needs" says
 
 ## Entry division and numbering
 
-- Q4. ~~Milik's 64 cannot be reconstructed.~~ **Resolved (session 1, from Milik 1960, ADAJ pp. 139–142):** Milik's 64 = Puech's 60 + 1 (Puech 9 split at II 9) + 1 (12/12a) + 2 (56 split into three: XI 16–XII 1a / XII 1b–2a / XII 2b–3). Milik also makes every ובתכן אצלם / בתכן אצלן phrase (V 7, XI 1, XI 4, XI 11, XI 15) the *opening* of the next item. That moves boundaries but adds none. Mapping in `tables/entry_concordance.csv`. It is still to be confirmed against DJD III itself.
+- Q4. ~~Milik's 64 cannot be reconstructed.~~ **Resolved (session 1, from Milik 1960, ADAJ pp. 139–142):** Milik's 64 = Puech's 60 + 1 (Puech 9 split at II 9) + 1 (12/12a) + 2 (56 split into three: XI 16–XII 1a / XII 1b–2a / XII 2b–3). Milik also makes every ובתכן אצלם / בתכן אצלן phrase (V 7, XI 1, XI 4, XI 11, XI 15) the *opening* of the next item. That moves boundaries but adds none. Mapping in `tables/entry_concordance.csv`. **Confirmed against DJD III (session 2):** the item numbers in DJD III pp. 284–299 are the same as in 1960, item for item.
 - Q5. (Milik's practice is now confirmed firsthand; see Q4.) Does ובתכן אצלם / בתכן אצלן (V 7, XI 1, XI 4, XI 11, XI 15) close the preceding entry (Puech, Lefkovits) or begin a new one (Milik and followers)? This affects the count and what "the reckoning beside them" refers to.
 - Q6. Are 12/12a, 9 and 56 one deposit or several? This matters in Phase 3, because separate deposits could be at separate sites.
 

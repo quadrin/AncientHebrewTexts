@@ -147,6 +147,12 @@ This section is inference from the text alone. Confidence: **high** = the entrie
 - **Lefkovits's Hebrew** was read from page images by eight parallel extraction passes, because his Hebrew OCR is unusable. His consonantal text agrees with Puech's on **108 of 181 lines**, after allowing for notation such as engraved-vs-corrected forms and numeral signs. The other **73** lines were reviewed by hand. Three were notation artefacts (I 6, X 13, XI 12); **70 lines differ in reading or restoration**. A separate numeral comparison found six lines where the figures differ.
 - **Internal errors found in both books** are listed in the findings log. Neither book is error-free, and the table follows each author's Hebrew over his translation.
 - **Not done in Phase 1:** place identification, lexicon, and analysis of the Greek letters (Phases 2–5).
+- **Session 2 update: Milik's DJD III text read firsthand.** DJD III was uploaded after Phase 1. Milik's own Hebrew text and French translation are now columns in the master table (`hebrew_milik1962`, `translation_milik1962_fr`, `variants_milik1962_firsthand`).
+  - Against Puech there are 84 hand-checked differences in 49 entries; 52 of them, in 39 entries, are substantive.
+  - Milik's figures differ from Puech's at III 13, VII 16 and VIII 9, the same three figures as in Milik 1960.
+  - The secondhand Milik column now labels Milik's pre-DJD (1956–57) readings, his drawings and the alternatives he mentions.
+
+  See findings F2.3–F2.5.
 
 ## Where the table lives
 

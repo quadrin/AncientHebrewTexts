@@ -39,6 +39,42 @@ knowledge that does not come from the files in this repo.
   - (Inference, medium confidence) The "east" in Milik's wording probably comes from the link with Galgala, which lies east of Jericho. The Onomasticon itself fits both Milik's Wadi Nuweiʿimeh and TIR's label NW of Jericho. It does **not** fit the Buqeia, which is SW of Jericho. See Q13.
   - (Inference, medium confidence) For the Copper Scroll this is late evidence (4th century CE). It shows where the *tradition* put Achor, not where the scroll's author put it.
 
+### DJD III (Milik 1962), read firsthand
+
+- F2.3 (evidence, firsthand: DJD III pp. 284–299) **Milik's own Hebrew text is now in the master table.**
+  - All 181 lines were transcribed from the page images. The line counts per column agree with Puech's: 15, 15, 13, 14, 14, 14, 16, 16, 17, 17, 17, 13.
+  - An automatic comparison flagged 69 lines that differ from Puech. By hand I list **84 differences in 49 entries**. Of these, **52 in 39 entries are substantive** (a different word, sense or figure). The others are spelling only (mostly waw/yod and final letters) or differ only in lacunae.
+  - **Figures.** Milik's numeral readings in DJD agree fully with Puech in 29 of 33 groups. Three differ, and they are the ones Milik already gave in 1960 (F1.23): III 13 = 13 (Puech 14), VII 16 = 60 (Puech 80), VIII 9 = 4 (Puech 7). At VII 2 Milik reads only the final 22; the rest is lost. Distances written in words also differ: IV 4 is 41 for Milik (restored ארבע[ין ואח]ת) and 14 for Puech (restored ארבע[ ע]סרה). At X 6 and X 13 Milik reads רגמות, "feet", where Puech reads אמות, "cubits".
+  - **Place names that depend on the edition** (important for Phase 3):
+    - Milik reads a place name where Puech reads common nouns:
+      - Tekelet ha-Šani (IX 4; Puech "the second terrace")
+      - Qobʿeh (IX 10; Puech "the hole")
+      - Kephar Nebo (IX 11; Puech "the bend of the conduit")
+      - Bet Eshdatain (XI 12; Puech "the House of the (two) reservoirs")
+      - Bet Ḥaṣor (VIII 1–2; Puech "the House of the Treasury")
+    - Puech restores a place name where Milik reads none: Koḥlit at IV 1 (Milik "[…]QH").
+    - The same position gives a different name in each edition:
+      - II 3: Bet ha-MDH (Puech) or Bet ha-MRH (Milik)
+      - VIII 2: Aḥiyah (Puech) or Ḥazor (Milik)
+      - IX 7: "Ḥorites" (Puech) or (Bet) Ḥoron (Milik)
+      - XII 8: ha-Bezek (Puech) or ha-Baruk (Milik)
+  - **Direction words that differ:** IX 7 ים "the Sea" (Milik; also Lefkovits) against דרום "south" (Puech). IX 12 מזרח "east" (Milik) against מרחב "distance" (Puech). X 8 המערבי "the western" (Milik; also Lefkovits) against מעינו "its spring" (Puech).
+- F2.4 (evidence, firsthand: Milik 1960 pp. 139–142 against DJD III pp. 285–298) **Milik's translation changed little between 1960 and 1962.** The item numbers and all treasure figures are the same; one distance changed (item 48). The changes are:
+  - item 5: "mine" became "fonderie";
+  - item 7: "Bet ha-*Mareh*" became the unvocalised "Bet ha-MRH";
+  - item 16: "under the *body*" became "sous la pierre (de l'ossuaire)". DJD reads המ‖דׄף (III 12–13); Lefkovits p. 152 reports Milik's earlier המת "the body";
+  - item 35: "*Ahsor* … *Ahzor*" became "Ḥaṣor … Ḥazor";
+  - item 45: "au nord de" was added before "l'entrée de la gorge";
+  - item 46: "second storey" became "deuxième montée";
+  - item 48: "twelve *feet*" became "dix pieds";
+  - item 62: "Bet-Shan" became "Bet Šam".
+- F2.5 (evidence; a correction to how the Phase 1 table labelled its sources) **Some "secondhand Milik" readings are Milik's early readings, not his DJD ones.** Lefkovits reports several readings from Milik's preliminary publications (*BA* 19, 1956; *SVT* 4, 1957), labelled "Milik (org.)":
+  - II 11: בשוח סלע and "six hundred";
+  - X 8: גיחן "Gihon";
+  - XII 10: בחלה.
+
+  He also reports alternatives Milik mentions, and readings of Milik's drawings. In the Phase 1 table these appeared simply as "Milik", and looked like conflicts with DJD. They are now labelled. After this correction, I read through the secondhand Milik column for all 61 rows and found no remaining conflict with the DJD text.
+
 ---
 
 ## Session 1 — 2026-09-27 (Phase 1: master table)

@@ -46,6 +46,7 @@ The three files marked **no** reproduce copyrighted edition text. This GitHub re
   - ‖ line break
   - Numerals appear as `‹value›`.
 - `variants_lefkovits`: hand-checked differences between Lefkovits's text and Puech's. "subst." marks a difference in place, direction, distance/depth or quantity.
+- `variants_milik1962_firsthand`: hand-checked differences between Milik's own text in DJD III (1962, pp. 284–299) and Puech's. Each difference is marked "subst." (a different word, sense or figure), "orth." (spelling only) or "restor." (only in a lacuna or restoration).
 - `variants_milik_secondhand`, `variants_wolters_secondhand`: readings that differ from Puech, as reported by Lefkovits `[Lef. p.]` (Hebrew script) or Puech `[Puech p. n.]` (transliteration). The two reporters sometimes disagree about what Milik or Wolters read.
 - `translation_en`: an English rendering written for this project. It follows Puech's reading and his French interpretation, and is not Puech's English translation, which contains errors (see the findings log).
 - `landmark_terms`, `direction_distance_depth`, `treasure`: structured from Puech's text. In the treasure column, "ככ" is kept as written. Puech and Lefkovits read it as k(esef) k(arsh), 1 karsh = 10 shekels; Milik and Allegro read "talents".
@@ -54,10 +55,12 @@ The three files marked **no** reproduce copyrighted edition text. This GitHub re
 - `damage_uncertainty_notes`: lines with lacunae, "(?)", engraver's corrections, and insertions or editorial additions, plus notes on letters above or below the line.
 - `division_notes`: how other editors divide or number the entry, with source pages.
 - `hebrew_lefkovits`, `translation_lefkovits`: Lefkovits's text and translation, read from the scanned images.
+- `hebrew_milik1962`: Milik's Hebrew text from DJD III, line by line, as printed. It keeps his item numbers `(n)` and his brackets. ׄ (a dot above) marks a probable letter and ֯ (a circle above) a possible letter; `^…^` marks letters written above the line and `_…_` letters written below it. A line shared by two entries is given in full in both.
+- `translation_milik1962_fr`: Milik's French translation from DJD III (pp. 285–298), by his item number, with page.
 - `readings_milik1960_firsthand`: Milik's readings (Latin transliteration, no diacritics) as he states them in his 1960 commentary, pp. 143–155, with page.
 - `translation_milik1960`: Milik's own English translation (ADAJ 1960, pp. 139–142), with his italics (*…*) marking uncertain renderings. His Hebrew readings are not given there.
 - `pages_puech`, `pages_lefkovits`: printed pages of the text and commentary.
-- `n_*`: counts used for the clarity ranking.
+- `n_*`: counts used for the clarity ranking. `n_milik1962_differences` and `n_milik1962_substantive` count the DJD III differences.
 
 ## Method in brief
 
