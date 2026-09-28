@@ -1,5 +1,7 @@
 # Qumran aqueduct reference and the Sekakah cluster
 
+**Later update, 28 September 2026:** the user supplied the complete Hebrew chapter, pp. 283–288. All six pages and Figure 1 have now been read. See the [direct plan review](ilan_amit_1989_plan_review.md) for the numbered-feature comparison and source-dependence audit. The [subsequent registration review](qumran_georeferencing_review.md) adds the recovered Reeder–Jol survey and a rejected aerial-fit audit. The access statements below document the earlier search, before that upload. Geographic registration and exact Copper Scroll feature identification remain unresolved.
+
 28 September 2026. Follow-up to the [feature investigation](feature_investigation.md). Repository baseline: `e3b51ce6523e947fe217a630d64fa16486fc3c7c`.
 
 **Result:** the exact Ilan–Amit reference and an earlier Hebrew chapter/figure index have been located. The original plan itself remains inaccessible in this review. The comparison of entries 20–24 supplies tests, but does not establish an individual feature or justify tighter map geometry. Site confidence is unchanged.
