@@ -49,3 +49,7 @@ The named reservoir and the two internal fissures in entry 22 remain unestablish
 The next discriminating digital evidence is a photograph or sequence showing **the boulder, pothole and wall together**, plus the small ravine's connection to the main channel. For the tunnel correspondence, seek a sequence starting at the now-matched western mouth and showing both internal openings. Additional generic tunnel-mouth photographs would add less information than those missing transitions.
 
 Sources inspected: Ilan–Amit 1989 pp. 283–286, supplied scans; Magen–Peleg 2018 pp. 76–79, supplied chapter; Reeder–Jol 2006 pp. 226, 229–231, publisher's recovered text and embedded images; Reeder et al. 2004 p. 18 and Fig. 12, existing local PDF/text; Masterman 1903 pp. 266–267, public digitization. The cited images have not been republished in this report.
+
+## Archival and video follow-up
+
+The [1970s photograph and drone-video review](qumran_archival_photo_video_review.md) adds Davey CJD979 to the matched western-mouth photographs and records a probable Cave 28 correspondence in public drone footage. The upstream boulder–pothole–wall connection and individual internal openings remain unresolved. It also tests entries 20–23 jointly without changing candidate ranks or geographic geometry.

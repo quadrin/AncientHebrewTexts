@@ -99,7 +99,7 @@
       "rank": 4,
       "name": "Long eastern tunnel · western mouth",
       "confidence": "Low",
-      "support": "Reeder Fig. 2 and Magen Fig. 87 visually match the same long-tunnel mouth. Magen’s text supports its western/upstream attribution; Ilan point 11 and Reeder Tunnel 1 remain probable plan correspondences.",
+      "support": "Reeder Fig. 2 and Magen Fig. 87 visually match the same long-tunnel mouth. Magen’s text supports its western/upstream attribution; Ilan point 11 and Reeder Tunnel 1 remain probable plan correspondences. Davey CJD979 supplies a matching 1974 view of this mouth.",
       "limit": "Downstream of the intake. Reeder calls the photo an exit and Magen an entrance; the visual match itself establishes neither hydraulic direction nor a scroll identity.",
       "test": "Find a photographic sequence from this western mouth through both internal openings. The inspected interior image does not locate each fissure individually.",
       "positions": [
@@ -118,9 +118,11 @@
         "Ilan–Amit 1989, p. 285, point 11",
         "Reeder–Jol 2006, Fig. 4",
         "Magen–Peleg 2018, p. 79",
-        "Masterman 1903, p. 267"
+        "Masterman 1903, p. 267",
+        "Christopher Davey 1974, CJD979, DQCAAS photographic archive"
       ]
     }
   ],
-  "followup": "qumran_photo_correspondence.md"
+  "followup": "qumran_photo_correspondence.md",
+  "media_followup": "qumran_archival_photo_video_review.md"
 }

@@ -80,3 +80,7 @@ Source access: Hebrew Ilan–Amit 1989 and Magen–Peleg 2018 supplied by the us
 ## Photographic follow-up
 
 The [tunnel-photo and upstream-connection review](qumran_photo_correspondence.md) matches Reeder Figure 2 to Magen Figure 87, retains their differing entrance/exit labels, and tests a two-anchor plan alignment. The result supports a shared upstream collection sector; it does not equate point 3 with the boulder. The two internal openings remain individually unmatched in the inspected photographs.
+
+## Archival and video follow-up
+
+The [1970s photograph and drone-video review](qumran_archival_photo_video_review.md) adds Davey CJD979 to the matched western-mouth photographs and records a probable Cave 28 correspondence in public drone footage. The upstream boulder–pothole–wall connection and individual internal openings remain unresolved. It also tests entries 20–23 jointly without changing candidate ranks or geographic geometry.
