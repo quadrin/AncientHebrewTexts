@@ -122,3 +122,8 @@ Translate the scroll’s spatial descriptions into testable candidate locations.
 Completed: recovery of both Phase 5 tables; dependency audit; direct edition-page checks for 21/31/32; SWP channel-description check; Siloam plan/image checks; five feature comparisons; reading/site/feature separation in the atlas; constraint CSV and review packets.
 
 Pending: the original Qumran intake plan, a dated Wadi Qelt feature correlation, independent readings, original Bethesda excavation checks, surveyed feature geometry and any field observations. These are limitations of the present result, not findings of absence. Confidence has not been increased merely because this dossier is longer.
+
+
+## Entry 21 feature comparison — 28 September 2026
+
+The [ranked comparison](entry21_feature_comparison.md) now distinguishes Ilan–Amit point 3, Reeder’s upstream large rock, the short-tunnel branch and the long-tunnel mouth. The [candidate register](entry21_candidates.json) records source-relative positions and uncertainty. Probable tunnel correspondences are entered in the survey crosswalk. The comparison also tests the long tunnel’s two openings as entry 22 candidates east of basin 2, conditional on the unestablished reservoir name. The atlas evidence panel now reflects direct access to the Hebrew chapter and the 2018 report.

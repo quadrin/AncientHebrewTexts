@@ -1,0 +1,125 @@
+{
+  "reviewed": "2026-09-28",
+  "entry": 21,
+  "assumption": "Sekakah = Qumran or its wadi; conditional",
+  "rank_meaning": "Investigative priority within the Qumran hypothesis, not numerical probability",
+  "geometry": {
+    "type": "source_image_pixels",
+    "georeferenced": false,
+    "method": "Manually sampled positions and simplified linework from inspected source images; each plan retains its own frame.",
+    "uncertainty": "Pixel sampling is approximate; original survey positional accuracy and geographic tie are unknown. Highlight radii have no spatial-confidence meaning.",
+    "plans": {
+      "ilan1989": {
+        "source": "Ilan–Amit 1989 p. 283 Fig. 1",
+        "image_width": 1190,
+        "pixels_per_50m_approx": 180,
+        "excludes": "Length break near point 18; tunnel inset; regional inset"
+      },
+      "reeder2006": {
+        "source": "Reeder–Jol 2006 p. 229 Fig. 4",
+        "image_width": 1380,
+        "image_height": 1044,
+        "pixels_per_50m_approx": 173,
+        "excludes": "Separately scaled settlement inset"
+      }
+    }
+  },
+  "candidates": [
+    {
+      "id": "A",
+      "rank": 1,
+      "name": "Visible channel start · Ilan point 3",
+      "confidence": "Low",
+      "support": "Best functional match for the head of the whole aqueduct. Located at a small ravine on the northern bank.",
+      "limit": "No particular great stone identified. A northern bank does not resolve the wording’s grammatical ambiguity.",
+      "test": "Match the ravine, channel levels and upstream collection works between the two surveys.",
+      "positions": [
+        {
+          "plan": "ilan1989",
+          "x": 253,
+          "y": 1200
+        }
+      ],
+      "sources": [
+        "Ilan–Amit 1989, pp. 283–284, Fig. 1 point 3"
+      ]
+    },
+    {
+      "id": "B",
+      "rank": 2,
+      "name": "Large rock beside upstream collection works",
+      "confidence": "Low",
+      "support": "Reeder describes an approximately 3 m-high boulder incorporated into the works beside the upstream channel.",
+      "limit": "The landmark noun is restored. Its required northern relationship, ancient phase and correspondence with point 3 remain unproved.",
+      "test": "Trace from rock to pothole, stone wall and ravine; compare with Ilan’s intake before joining the two positions.",
+      "positions": [
+        {
+          "plan": "reeder2006",
+          "x": 74,
+          "y": 650
+        }
+      ],
+      "sources": [
+        "Reeder–Jol 2006, p. 231 and Fig. 4 p. 229"
+      ]
+    },
+    {
+      "id": "C",
+      "rank": 3,
+      "name": "Branch junction and short western tunnel",
+      "confidence": "Low",
+      "support": "Possible beginning of a collecting branch or subsection. Short tunnel probably corresponds to Reeder Tunnel 2.",
+      "limit": "Needs a subsection-head reading. Branch function and flow direction differ among published interpretations.",
+      "test": "Compare channel-floor elevations and branch connections.",
+      "positions": [
+        {
+          "plan": "ilan1989",
+          "x": 305,
+          "y": 1220
+        },
+        {
+          "plan": "ilan1989",
+          "x": 360,
+          "y": 1241
+        },
+        {
+          "plan": "reeder2006",
+          "x": 186,
+          "y": 675
+        }
+      ],
+      "sources": [
+        "Ilan–Amit 1989, p. 284, points 7–10",
+        "Reeder–Jol 2006, Fig. 4",
+        "Magen–Peleg 2018, p. 78"
+      ]
+    },
+    {
+      "id": "D",
+      "rank": 4,
+      "name": "Long eastern tunnel · western mouth",
+      "confidence": "Low",
+      "support": "Probable cross-survey landmark: Ilan point 11, Reeder Tunnel 1, Magen’s long tunnel and Masterman’s accessible tunnel.",
+      "limit": "Downstream of the intake. A tunnel mouth is not independently established as the conduit’s head.",
+      "test": "Match photographs of the mouths and two openings; explain any subsection-head interpretation separately.",
+      "positions": [
+        {
+          "plan": "ilan1989",
+          "x": 401,
+          "y": 1268
+        },
+        {
+          "plan": "reeder2006",
+          "x": 218,
+          "y": 700
+        }
+      ],
+      "sources": [
+        "Ilan–Amit 1989, p. 285, point 11",
+        "Reeder–Jol 2006, Fig. 4",
+        "Magen–Peleg 2018, p. 79",
+        "Masterman 1903, p. 267"
+      ]
+    }
+  ]
+}

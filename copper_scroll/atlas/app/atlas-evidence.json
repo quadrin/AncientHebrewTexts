@@ -9,7 +9,8 @@
       "sources": [
         "puech2006",
         "phase5",
-        "qumranReview"
+        "qumranReview",
+        "ilan1989"
       ],
       "entryId": "20",
       "placeId": "wadi_qumran",
@@ -32,7 +33,7 @@
           "id": "q20-dam",
           "name": "Proposed intake dam",
           "support": "Fits the competing dam interpretation reported through Eshel/Luria.",
-          "limit": "The dam is reconstructed; the original plan remains inaccessible.",
+          "limit": "Ilan–Amit point 4 is a reconstructed dam; the complete Hebrew chapter has now been read and explicitly reports no surviving remains.",
           "test": "Review the word and plan independently before equating this entry with entry 21’s intake."
         }
       ],
@@ -47,40 +48,40 @@
       "site": "Medium",
       "siteNote": "The water system fits the proposal, conditional on Sekakah referring to Qumran or its wadi.",
       "feature": "Unresolved",
-      "featureNote": "No surveyed intake, particular stone or deposit is identified by the checked evidence.",
-      "finding": "The intake basin remains the first functional comparison. The Ilan–Amit chapter and figure index are located, but the plan pages require registered access; no feature geometry is verified.",
-      "dependency": "The six Phase 5 records are summaries and edition commentaries. Milik 1960 and 1962 repeat one identification; Eshel cites earlier surveys. They cannot be counted as six independent matches.",
+      "featureNote": "Four specific candidates are ranked. Exact scroll-feature confidence remains low; their positions are marked on separate source plans, with no validated geographic registration.",
+      "finding": "Ilan–Amit point 3 is the leading conduit-head candidate. Reeder’s upstream large rock is a separate, specific landmark candidate. The Hebrew plan has now been read; probable tunnel correspondences help compare the surveys.",
+      "dependency": "The ranking is conditional on Qumran = Sekakah. Ilan’s scroll identification and Puech’s geographic restoration are not independent confirmations. Masterman predates discovery of the scroll, but later authors may repeat his observations. Probable tunnel matches do not establish a scroll landmark.",
       "features": [
         {
-          "id": "q-intake",
-          "name": "Intake basin and proposed dam position",
-          "support": "Closest functional candidate for the head of a conduit.",
-          "limit": "Stacey 2009 reports no surviving dam; its position is inferred. The reading does not independently identify this basin.",
-          "test": "Read the original plan, distinguish surveyed remains from the reconstructed dam, and establish control points before narrowing the map."
+          "id": "q21-A",
+          "name": "Visible channel start · Ilan point 3",
+          "support": "Best functional match for the head of the whole aqueduct. Located at a small ravine on the northern bank.",
+          "limit": "No particular great stone identified. A northern bank does not resolve the wording’s grammatical ambiguity.",
+          "test": "Match the ravine, channel levels and upstream collection works between the two surveys."
         },
         {
-          "id": "q-runoff",
-          "name": "Upper channel and run-off junction",
-          "support": "An alternative beginning may be defined by the junction of different water-collection systems.",
-          "limit": "This is a research alternative, not a published Copper Scroll identification established here.",
-          "test": "Check construction phases and flow direction. A junction without the required relation to Sekakah would weaken this option."
+          "id": "q21-B",
+          "name": "Large rock beside upstream collection works",
+          "support": "Reeder describes an approximately 3 m-high boulder incorporated into the works beside the upstream channel.",
+          "limit": "The landmark noun is restored. Its required northern relationship, ancient phase and correspondence with point 3 remain unproved.",
+          "test": "Trace from rock to pothole, stone wall and ravine; compare with Ilan’s intake before joining the two positions."
         },
         {
-          "id": "q-tunnel",
-          "name": "Rock-cut tunnel mouth",
-          "support": "A conspicuous element of the conduit system worth distinguishing from the intake.",
-          "limit": "A tunnel opening is not automatically the head of the conduit.",
-          "test": "Use the surveyed sequence of basin, channel and tunnel to test whether the opening could be the stated beginning."
+          "id": "q21-C",
+          "name": "Branch junction and short western tunnel",
+          "support": "Possible beginning of a collecting branch or subsection. Short tunnel probably corresponds to Reeder Tunnel 2.",
+          "limit": "Needs a subsection-head reading. Branch function and flow direction differ among published interpretations.",
+          "test": "Compare channel-floor elevations and branch connections."
         },
         {
-          "id": "q-photo",
-          "name": "Cistern outlet shown in Ground view",
-          "support": "Illustrates a surviving Qumran waterwork.",
-          "limit": "The photograph does not show the upstream intake or the restored great stone.",
-          "test": "Retain as context; do not use its highlight to select an entry 21 feature."
+          "id": "q21-D",
+          "name": "Long eastern tunnel · western mouth",
+          "support": "Probable cross-survey landmark: Ilan point 11, Reeder Tunnel 1, Magen’s long tunnel and Masterman’s accessible tunnel.",
+          "limit": "Downstream of the intake. A tunnel mouth is not independently established as the conduit’s head.",
+          "test": "Match photographs of the mouths and two openings; explain any subsection-head interpretation separately."
         }
       ],
-      "next": "Obtain the complete Ilan–Amit chapter and uncropped Fig. 1, then test its intake, junctions and tunnels against each permitted reading. Independent reading remains pending.",
+      "next": "Match photographs of both tunnel mouths and their openings, then trace back through the branch junction to test whether Ilan point 3 and Reeder’s collection works describe the same intake. Compare channel-floor levels to resolve competing branch-flow interpretations.",
       "sources": [
         "puech2006",
         "lefkovits2000",
@@ -89,7 +90,12 @@
         "stacey2009",
         "ilan2002",
         "ilan1989",
-        "qumranReview"
+        "qumranReview",
+        "reeder2006",
+        "masterman1903",
+        "magen2018",
+        "entry21Comparison",
+        "entry21Plan"
       ]
     },
     {
@@ -98,7 +104,10 @@
       "sources": [
         "puech2006",
         "phase5",
-        "qumranReview"
+        "qumranReview",
+        "ilan1989",
+        "magen2018",
+        "entry21Comparison"
       ],
       "entryId": "22",
       "placeId": "kh_qumran",
@@ -116,6 +125,13 @@
           "support": "Qumran contains water-storage installations to compare.",
           "limit": "No checked evidence independently establishes the Solomon name for a particular pool.",
           "test": "Select a dated reservoir independently, then test the eastern relation; retain alternatives if the name cannot be resolved."
+        },
+        {
+          "id": "q22-long-tunnel",
+          "name": "Long tunnel openings east of basin 2",
+          "support": "Ilan point 11 lies east of basin 2. Magen reports two southern openings in that tunnel, the first 3.10 m from its western entrance and the second 4 m farther.",
+          "limit": "Depends on identifying basin 2 as the named reservoir; no source establishes that name. Basin impoundment is reconstructed, and repaired aqueduct openings need not be the scroll’s fissure.",
+          "test": "Compare the two opening photographs and basin’s ancient water level; test this separately from settlement-reservoir candidates."
         }
       ],
       "next": "Correlate reservoir phases and fissures on a source plan. Do not use Jerusalem’s similarly named pool to relocate Sekakah."
@@ -336,7 +352,7 @@
       "access": "Edited text and commentary checked against local page images; this is not a new reading of the metal."
     },
     "lefkovits2000": {
-      "label": "Lefkovits 2000, pp. 185, 236",
+      "label": "Lefkovits 2000, pp. 185–189, 236",
       "url": "https://github.com/quadrin/AncientHebrewTexts/blob/cecb12d753c3a0ee19addf00afe6f9bd10eed300/copper_scroll/sources.md",
       "access": "Entry 21 and 32 text and commentary checked against local page images."
     },
@@ -371,14 +387,39 @@
       "access": "Full article read via its accessible PDF copy; plans and photographs visually checked. Portal metadata says 2024; the printed issue says 2023."
     },
     "ilan1989": {
-      "label": "Ilan and Amit, Hebrew aqueduct chapter (1989), pp. 283–288, Fig. 1 index",
+      "label": "Ilan and Amit, אמת המים של קומראן (1989), pp. 283–288, Fig. 1",
       "url": "https://kotar.cet.ac.il/KotarApp/Index/Chapter.aspx?nBookID=6765980&nTocEntryID=7085702",
-      "access": "Chapter excerpt and figure index located. The reader displayed a registered-user access prompt at the chapter; the original plan image remains inaccessible. The excerpt cites first publication in 1982."
+      "access": "Complete Qumran chapter read from user-supplied scans; plan, captions and tunnel inset checked. Point 4 is a proposed lost dam. This closes the Hebrew source-access gap; the 2002 English chapter remains unread."
     },
     "qumranReview": {
       "label": "Qumran reference and entries 20–24 review",
       "url": "https://github.com/quadrin/AncientHebrewTexts/blob/main/copper_scroll/qumran_reference_review.md",
       "access": "Source-access record, edition comparison and separate spatial tests. No georeferencing or external specialist review has been completed."
+    },
+    "reeder2006": {
+      "label": "Reeder and Jol 2006, Fig. 4 and pp. 229–231",
+      "url": "https://applied.geog.kent.edu/AGCPapers/2006/AGC2006.htm",
+      "access": "Text and survey figure recovered from publisher’s legacy reader. Survey conducted in 2002. Numerical survey-station coordinates not recovered."
+    },
+    "masterman1903": {
+      "label": "Masterman 1903, pp. 264–267",
+      "url": "https://www.gospelstudies.org.uk/biblicalstudies/pdf/pefqs/1903_03_264.pdf",
+      "access": "Article read directly. Accessible tunnel and two openings are a probable long-tunnel match; the separate blocked tunnel remains discrepant."
+    },
+    "magen2018": {
+      "label": "Magen and Peleg 2018, pp. 76–79, Figs. 86–87",
+      "url": "https://www.jstor.org/stable/j.ctv1t8cdq.6",
+      "access": "User-supplied chapter read directly, including tunnel dimensions, two fissures and photographs. Separate pocket plan remains unavailable."
+    },
+    "entry21Comparison": {
+      "label": "Entry 21 ranked comparison and entry 22 extension",
+      "url": "https://github.com/quadrin/AncientHebrewTexts/blob/main/copper_scroll/entry21_feature_comparison.md",
+      "access": "New synthesis: four low-confidence feature candidates; probable survey concordance; conditional basin–fissure test."
+    },
+    "entry21Plan": {
+      "label": "Interactive source-plan comparison",
+      "url": "/research/entry21-comparison.html",
+      "access": "Select A–D to highlight source-relative positions. Separate plan frames; no geographic registration. Highlight sizes are selection aids, not uncertainty radii."
     }
   }
 }

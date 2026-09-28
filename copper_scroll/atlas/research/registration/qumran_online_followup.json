@@ -174,5 +174,27 @@
     "lead": "Humbert–Chambon English volume, printed p. 123, describes two folded inserts at p. 576, including a north-oriented 20 x 20 m grid.",
     "access": "Issue index verified; article PDF fetch failed. Folded inserts not recovered.",
     "limitation": "Separate from both the 2018 Magen–Peleg folded plan and missing 2002 observations; no global datum established."
+  },
+  "qumran_volume_II_2003_access": {
+    "uploaded_filename_claim": "Volume IB, ISBN 9783525501948",
+    "verified_title": "Khirbet Qumran et Ain Feshkha II: Studies of Anthropology, Physics and Chemistry",
+    "editors": [
+      "Jean-Baptiste Humbert",
+      "Jan Gunneweg"
+    ],
+    "year": 2003,
+    "printed_isbns": [
+      "3-7278-1452-7",
+      "3-525-53973-8"
+    ],
+    "pdf_pages": 520,
+    "attachment_sha256": "1a1fa647f48a5ff444370324c922962caca2afa8fb7ae2c2d359377f509fbb34",
+    "attachment_id": "file_000000007e0881fda33ae6b58cef6f20",
+    "extraction": "qumranII2003_extracted.md",
+    "inspected": "Title/copyright, relevant Galor pool/inlet passages and plans, Shimron plaster methods and interpretation; Fig. 3 p. 294 and Figs. 1–2 p. 323 visually checked.",
+    "contribution": "Renewed 2000 pool measurements and bath 138 plan/section; proposed chemical association of repair phases; exact 1994 dam-reference pages 192 and 342.",
+    "independence": "Galor and Humbert share observations and research history with the later IIIA reassessment. Chemistry adds material observations but supplies a tentative relative chronology.",
+    "field_notes_IB_status": "Still unresolved; this upload contains volume II.",
+    "candidate_effect": "Entry 21: whole-system intake remains first functional candidate; settlement inlet is a defined alternative for the head of a local subsystem. No new geographic registration."
   }
 }
