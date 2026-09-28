@@ -4,7 +4,7 @@ Updated each session. Newest additions at the bottom of each group. "Needs" says
 
 ## Sources and access
 
-- Q1. **Milik, DJD III (1962) is missing.** *Partly mitigated:* Milik 1960 (ADAJ) gives his translation and numbering firsthand, but not his Hebrew transcription. All Milik readings in the table are secondhand, via Puech and Lefkovits, and the two sometimes report him differently. *Needs:* a copy of DJD III, pp. 199–302 and pl. XLIII–LXXI (BK: page range from memory, check).
+- Q1. ~~Milik, DJD III (1962) is missing.~~ **Largely resolved (session 2):** you uploaded an Internet Archive scan of DJD III. Its Hebrew text, translation, word list and site list are being read firsthand (see `sources.md`). **Still open:** the scan has no plates, so Milik's drawings of the letters and numerals cannot be checked. *Needs:* DJD III pl. XLIII–LXXI (BK: plate range from memory, check), for Q8, Q9, Q11 and Q12.
 - Q2. **Wolters 1996 is missing.** Lefkovits reports Wolters inconsistently at I 1 (pp. 30, 31 n. 5) and I 2–3 (p. 36 vs p. 41 n. 58). *Needs:* Wolters, *The Copper Scroll: Overview, Text and Translation* (Sheffield 1996).
 - Q3. **No TIR crop covers Qumran, the Buqeia, Hyrcania or the Dead Sea shore.** Most of Puech's "Sokokah" entries (20–27) and the Achor-in-the-Buqeia hypothesis fall in that gap. *Needs:* the TIR North sheet, or another georeferenced base map, for Phase 3.
 
@@ -14,7 +14,7 @@ Updated each session. Newest additions at the bottom of each group. "Needs" says
 - Q5. (Milik's practice is now confirmed firsthand; see Q4.) Does ובתכן אצלם / בתכן אצלן (V 7, XI 1, XI 4, XI 11, XI 15) close the preceding entry (Puech, Lefkovits) or begin a new one (Milik and followers)? This affects the count and what "the reckoning beside them" refers to.
 - Q6. Are 12/12a, 9 and 56 one deposit or several? This matters in Phase 3, because separate deposits could be at separate sites.
 
-- Q13. **Achor: Buqeia, Wadi Nuweiʿimeh (NE of Jericho), or TIR's label NW of Jericho?** See F1.25. Milik 1960 separates the Iron Age Achor (Buqeia) from the scroll's Achor (later tradition, NE of Jericho). *Needs:* the TIR gazetteer entry, the course of Wadi Nuweiʿimeh on a map, and the Onomasticon passages he cites (Phase 3).
+- Q13. **Achor: Buqeia, Wadi Nuweiʿimeh (NE of Jericho), or TIR's label NW of Jericho?** See F1.25 and F2.2. Milik 1960 separates the Iron Age Achor (Buqeia) from the scroll's Achor (later tradition, NE of Jericho). *Session 2:* the Onomasticon text (Klostermann 18.17–20; 84.18–20) says "north of Jericho" and "beside Galgala". This rules out the Buqeia **for the 4th-century tradition only**, and it does not choose between NE and NW. *Needs:* the TIR gazetteer entry and the course of Wadi Nuweiʿimeh on a map (Phase 3).
 
 ## Readings that decide meaning (to be carried into Phase 2)
 

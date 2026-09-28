@@ -8,7 +8,7 @@ Checked 2026-09-27 against branch `main` (commit 637a7a9, "Add files via upload"
 |---|---|---|---|
 | Puech 2006, *Le Rouleau de cuivre de la grotte 3 de Qumrân (3Q15)* | Yes, 11 PDF parts, 706 pages | Yes. Born-digital text layer. The Hebrew is in a legacy font and needs decoding (see below). | Primary reading |
 | Lefkovits 2000, *The Copper Scroll – 3Q15: A Reevaluation* | Yes, 11 PDF parts, 624 pages | Partly. Scanned library copy with OCR. The English OCR is usable; **the Hebrew OCR is useless**, so every Hebrew word was read from the page images. | Variant readings; secondhand Milik, Allegro, Luria and Wolters readings |
-| Milik, DJD III (1962) | **No.** No file matches Milik, DJD or *Les 'petites grottes'*. | — | Milik's Hebrew readings are taken **secondhand** from Puech's commentary and Lefkovits's commentary, and are labelled so in every row. |
+| Milik, DJD III (1962) | Not in the repo. **Uploaded in session 2** as a zip (Internet Archive scan). | Yes, as images. The French OCR can be used; the Hebrew OCR cannot, so Hebrew is read from the page images. The plates are **not** in the scan. | **Firsthand** Milik 1962: Hebrew text, French translation, reading notes, word list (section C) and site list (section D). The secondhand Milik columns stay in the table as a cross-check. |
 | Milik 1960, ADAJ 4–5 (uploaded in session 1) | Not in the repo (upload only) | Yes, an image scan with no text layer; read visually | **Firsthand** Milik: his complete English translation with his 1–64 numbering, and his commentary on the place names |
 | Wolters (you listed his readings as a variant column) | **No.** Wolters 1996, *The Copper Scroll: Overview, Text and Translation*, is not in the repo. | — | Taken **secondhand** from Lefkovits (who cites "Wolters 1996" throughout) and Puech. |
 | TIR Iudaea-Palaestina, North sheet | **Only crops**, not the sheet | Yes (see below) | Not used in Phase 1 |
@@ -43,7 +43,35 @@ Checked 2026-09-27 against branch `main` (commit 637a7a9, "Add files via upload"
   - Translation, items 1–64, pp. 139–142. Italics mark uncertain translation; `< >` marks an omission; `°°` marks letters not deciphered.
   - Commentary on the place names, by column and line, pp. 143–155.
 - What it provides: **Milik's own item numbering, and his translation of every item**, which settles open question Q4. It does *not* give his Hebrew transcription. His readings appear in the commentary only in Latin transliteration, without diacritics (p. 138 N.B.).
-- Caveat: this is Milik in 1960. Where DJD III (1962) differs, it is unknown until DJD III is available. The numbering agrees with the "64" that Lefkovits reports for DJD III (Lef. p. 426 n. 2).
+- Caveat: this is Milik in 1960. DJD III (1962) is now available (next section). Its numbering is the same, item for item, but some wording differs; the differences are listed in the findings log.
+
+## Milik, DJD III (1962) (uploaded in session 2)
+
+- M. Baillet, J. T. Milik, R. de Vaux, *Les 'Petites Grottes' de Qumrân* (DJD III; Oxford 1962). Milik's chapter: "Le rouleau de cuivre provenant de la grotte 3Q (3Q15)", pp. 199–302. The file is an Internet Archive scan (344 PDF pages) with an OCR layer. **PDF page = printed page + 20.**
+- Sections used:
+
+  | Section | Printed pages | Use |
+  |---|---|---|
+  | Note liminaire, with the full French translation of items 1–64 | 211–215 | Milik's 1962 translation and numbering |
+  | A. Script and numerals | 215 ff. | Numeral signs (Phase 4 context) |
+  | C. *Mots et objets* (word list, 122 numbered entries) | 236–259 | Phase 2 meanings |
+  | D. *Sites et monuments* (site list) | 259–274 | Phase 2 and Phase 3 identifications |
+  | F. *Transcription et traduction annotées* | 284–299 | Firsthand Hebrew text, line by line |
+  | Addenda | 299–302 | Later corrections |
+
+- **Missing from the scan:** the plates (DJD III pl. XLIII–LXXI, BK: plate range from memory, check). Milik's drawings can therefore not be checked here.
+- Milik marks a doubtful letter with a dot above (probable) or a small circle above (possible). The transcripts use U+05C4 and U+05AF for these.
+- The item numbering is the same as in Milik 1960 (1–64), item for item. The wording of some translations changed between 1960 and 1962 (see the findings log, F2.x).
+
+## Phase 2 reference corpora (downloaded in session 2; local only, not committed)
+
+| Corpus | Source | Licence / note | Use |
+|---|---|---|---|
+| Hebrew Bible (WLC) with Strong's lemmas | `openscriptures/morphhb` (OSIS XML) | CC BY 4.0 (morphology); WLC text public domain | Biblical attestations |
+| Mishnah (Hebrew) | Sefaria export (`storage.googleapis.com/sefaria-export`), "merged" version | Per-text licence on Sefaria; mostly public domain or CC | Mishnaic attestations |
+| Josephus, AJ, BJ, Vita, CAp (Greek and English) | PerseusDL `canonical-greekLit` (tlg0526) | CC BY-SA | Place names in Josephus. **The English is Whiston's numbering and the Greek is Niese's**, so section numbers can differ |
+| Eusebius, *Onomasticon* | Wolf 1971 English translation (tertullian.org); Klostermann, GCS 11.1 (1904), Greek and Jerome's Latin (Internet Archive, OCR text) | Wolf: free online; Klostermann: public domain | Place names; Klostermann page.line references |
+| BDB (Augmented Strong) and Jastrow | Sefaria words API | Sefaria terms | Dictionary meanings |
 
 ## TIR (Tabula Imperii Romani, Iudaea–Palaestina, 1994)
 

@@ -6,6 +6,41 @@ knowledge that does not come from the files in this repo.
 
 ---
 
+## Session 2 — 2026-09-28 (DJD III; Phase 2: landmark lexicon)
+
+### Method notes
+
+- F2.1 (evidence, corpus check) **A lemma search alone gives false attestations for many scroll terms.** The first concordance run matched the scroll words to Strong's lemmas and stems in the WLC, and to stems in the Mishnah. A check of the matched forms against the WLC lemmas showed that these are homographs, not the scroll's sense:
+
+  | Term (scroll sense) | What the Bible hits really are |
+  |---|---|
+  | אשיח/אשוח 'basin' | the verb שיח 'muse' (Strong 7878) |
+  | שית 'pit' | שיח 'bush' / 'complaint' |
+  | רובד 'pavement, terrace' | רביד 'necklace' |
+  | משח 'measure' | משח 'anoint' |
+  | יגר 'cairn' | the verbs 'fear' / 'sojourn' (only Gen 31:47 is relevant) |
+  | צוק 'cliff' | צוק 'distress' (the relevant verse is 1 Sam 14:5, מצוק) |
+  | חריץ 'trench' | 'threshing sledge', 'cheese slice' |
+  | שובך 'dovecote' | 'thick branches'; a personal name |
+  | כחלת (place name) | Ezek 23:40 'you painted (your eyes)' |
+  | נפש 'funerary monument' | 683 verses of 'soul, life' |
+  | יד 'monument' | 1,446 verses of 'hand' |
+
+  I corrected the search (`terms_fix` in the scratchpad) to use exact forms, phrases or chosen verses for these terms. Every change has a note that says why. **Consequence:** raw hit counts are not evidence of usage. The lexicon reports only hits checked for sense.
+
+### Eusebius on Achor (firsthand, Klostermann's Greek and Jerome's Latin)
+
+- F2.2 (evidence, firsthand: Klostermann, GCS 11.1, 1904) **Eusebius places Achor "north of Jericho" and "near Galgala".**
+  - Onom. 18.17–20 (Achor): κεῖται δὲ ἐν βορείοις Ἱεριχοῦς, "it lies to the north of Jericho", and the locals still call it so.
+  - Onom. 84.18–20 (Emekachor): πλησίον Ἱεριχοῦς … παρὰ τὴν Γάλγαλα, "near Jericho … beside Galgala".
+  - Jerome's Latin agrees: *ad septentrionem Iericus* (19.18–22) and *iuxta Iericho haud procul a Galgalis* (85.18–21).
+  - Eusebius puts Galgala "to the east of old Jericho, going toward the Jordan" (Wolf's translation, Wolf n. 311).
+  - This checks Milik 1960's citation (F1.25) against the text itself. **Eusebius says "north", not "north-east" or "north-west".** Milik writes that Jewish and Christian traditions placed the valley "au nord-est de Jéricho" (DJD III, section D no. 3, p. 262).
+  - (Inference, medium confidence) The "east" in Milik's wording probably comes from the link with Galgala, which lies east of Jericho. The Onomasticon itself fits both Milik's Wadi Nuweiʿimeh and TIR's label NW of Jericho. It does **not** fit the Buqeia, which is SW of Jericho. See Q13.
+  - (Inference, medium confidence) For the Copper Scroll this is late evidence (4th century CE). It shows where the *tradition* put Achor, not where the scroll's author put it.
+
+---
+
 ## Session 1 — 2026-09-27 (Phase 1: master table)
 
 ### Sources
