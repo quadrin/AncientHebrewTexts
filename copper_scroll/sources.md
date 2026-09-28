@@ -13,7 +13,10 @@ Checked 2026-09-27 against branch `main` (commit 637a7a9, "Add files via upload"
 | Wolters (you listed his readings as a variant column) | **No.** Wolters 1996, *The Copper Scroll: Overview, Text and Translation*, is not in the repo. | — | Taken **secondhand** from Lefkovits (who cites "Wolters 1996" throughout) and Puech. |
 | TIR Iudaea-Palaestina, North sheet | **Only crops**, not the sheet | Yes (see below) | Not used in Phase 1 |
 | Wolters 1994, "History and the Copper Scroll" (uploaded in session 2) | Not in the repo (upload only) | Yes. A scan with an OCR layer; the OCR has noise, and transliterations were checked on the page images | **Firsthand** Wolters: five of his own readings, a history of interpretation, and the 1988 juglet argument |
-| Brooke and Davies (eds.), *Copper Scroll Studies* (uploaded in session 2) | Not in the repo (upload only) | Yes, but **a 37-page preview only** | Contents list, Introduction (pp. 1–9) and part of chapter 1. **None of the key chapters** |
+| Brooke and Davies (eds.), *Copper Scroll Studies* (preview, then the **full volume**, both uploaded in session 2) | Not in the repo (upload only) | Yes. The full volume (361 PDF pages) has an OCR text layer; the Hebrew in the OCR is often garbled. **Printed page = PDF page − 17** | All 22 chapters (see below) |
+| Puech 2015, *The Copper Scroll Revisited* (STDJ 112; English translation by D. E. Orton) (uploaded in session 2) | Not in the repo (upload only) | Yes. Born digital, **Unicode Hebrew**. **Printed page = PDF page − 11** | An independent check of the decoded Puech 2006 text; Puech's own English translation; his **corrigenda to the 2006 edition** (pp. 151–152) |
+| Høgenhaven 2020, *The Cave 3 Copper Scroll: A Symbolic Journey* (STDJ 132) (uploaded in session 2) | Not in the repo (upload only) | Yes. Born digital, Unicode Hebrew. **Printed page = PDF page − 11** | Structure, symbolic reading, Greek letters (pp. 149–153), language, numerals; a translation (pp. 239–244) |
+| DJD III, **plates volume** (uploaded in session 2) | Not in the repo (upload only) | Yes, but heavily compressed (88 PDF pages) | 3Q15 pl. XLIII–LXXI: the two rolls, the sawing, and **a drawing and a photograph of every column** |
 | DJD VII, Baillet, *Qumrân grotte 4. III (4Q482–4Q520)* (uploaded in session 2) | Not in the repo (upload only) | Yes. The complete volume (444 pages) with plates | **Almost nothing on 3Q15**: one spelling parallel (p. 222) |
 
 ## Puech 2006 (primary reading)
@@ -80,7 +83,9 @@ Checked 2026-09-27 against branch `main` (commit 637a7a9, "Add files via upload"
   These are now in the master table as `readings_wolters1994_firsthand`. His full edition, with "more than seventy places" where he differs from Milik, is not in the repo (Q2).
 - It has nothing on the Greek letters.
 
-### *Copper Scroll Studies* (preview)
+### *Copper Scroll Studies* (first upload: a preview)
+
+- **Superseded:** the full volume was uploaded later (see *Copper Scroll Studies* (full volume) below). The table below records only what the preview lacked.
 
 - G. J. Brooke and P. R. Davies (eds.), *Copper Scroll Studies* (JSPSup 40; Sheffield 2002; T&T Clark paperback 2004). The file is a publisher's preview of 37 PDF pages: pp. i–xvi, the Introduction (pp. 1–9), and pp. 12–20 of chapter 1 (the conservation report).
 - **Not in the preview:**
@@ -95,11 +100,51 @@ Checked 2026-09-27 against branch `main` (commit 637a7a9, "Add files via upload"
   | 20 | Lika Tov, palaeography | 288–290 | Phase 4 |
   | 22 | Wolters, "Palaeography and Literary Structure as Guides to Reading the Copper Scroll" | 311–333 | **Probably the main source for Phase 4** (BK: Wolters links the Greek letters to the structure of the list; check) |
 
+### Puech 2015, *The Copper Scroll Revisited*
+
+- É. Puech, *The Copper Scroll Revisited* (STDJ 112; Leiden: Brill 2015), English translation by D. E. Orton. Foreword dated 22 March 2015. It is "the English translation of my updated edition" (the 2006 French edition), with typographical errors corrected and recent studies added (p. vii).
+- Its Hebrew text is **Unicode**. I compared it with the Puech 2006 text decoded from the legacy font. **172 of 181 lines agree letter for letter.** Of the other 9 lines, 7 differ only because of PDF layout (right-to-left order, numeral signs). Two are real changes:
+  - I 12: Puech 2015 restores ה in the lacuna.
+  - VIII 3: Puech 2015 drops the alternative ר (it reads תבקע).
+- This is an independent check of the decoding tool.
+- **Corrigenda to the French edition 2006** (pp. 151–152):
+  - One correction changes the Hebrew: VII 6 [ואר]בע, where the 2006 print omits the opening bracket. It is now applied in the table.
+  - Others correct the 2006 English translation at entries 15, 18, 27, 32 and 37, and the entry numbers on 2006 p. 211. These are the errors listed in Q10.
+- Puech's 2015 English translation is now a column of the master table (`translation_puech2015_en`).
+
+### *Copper Scroll Studies* (full volume)
+
+- The chapter list is given above; all chapters are present. The chapters most useful for later phases:
+  - Wolters ch. 22 (pp. 311–333): palaeography, literary structure and **the Greek letters** (Phase 4).
+  - Lika Tov ch. 20 (pp. 288–290): palaeography (Phase 4).
+  - Eshel ch. 6 (pp. 92–107): aqueducts, with maps (Phase 3).
+  - Fidler ch. 14 (pp. 210–225): Achor and Gerizim as an inclusio (Phase 3).
+  - Bar-Ilan ch. 13 (pp. 198–209): order of hiding (Phase 3).
+- The language chapters (7–12) and Puech ch. 5 are being read for a Phase 2 addendum.
+
+### Høgenhaven 2020, *The Cave 3 Copper Scroll: A Symbolic Journey*
+
+- J. Høgenhaven, *The Cave 3 Copper Scroll: A Symbolic Journey* (STDJ 132; Leiden: Brill 2020).
+- Chapter 2 reads the list as a route through four "main sections" (Achor–Koḥlit; Secacah; the Kidron and Jerusalem; Gerizim–Beth-Shan–Bezek, then back to Koḥlit).
+- Chapter 4 covers the object: palaeography, **the Greek letters (§4, pp. 149–153)**, language, numerals, abbreviations, and the arguments for and against the treasure being real.
+- Chapter 5 covers the traditional contexts (Massekhet Kelim, the Lindian Chronicle, and others).
+- Main use: Phases 3 and 4. Its ch. 3–4 sections on landscape, installations and language are being read for the Phase 2 addendum.
+
+### DJD III, plates volume
+
+- The Internet Archive scan "Texte. Planches" (88 PDF pages): pl. I–XLII show the small caves and their manuscripts; **pl. XLIII–LXXI are 3Q15**:
+  - XLIII: the two rolls before opening;
+  - XLIV: the sawing;
+  - XLV–XLVII: montages of the segments;
+  - then, for each column, a drawing (facsimile) and a photograph of the segments.
+- The images are strongly compressed. The drawings can be read at about 150 dpi; the photographs are poor.
+- The drawings are an editor's copy, not the metal. They can show what Milik's team saw, which is the evidence Lefkovits calls "Milik's drawing". They cannot settle a reading by themselves.
+
 ### DJD VII (Baillet 1982)
 
 - An Internet Archive scan with an OCR text layer (444 pages, plates included).
 - A search of the whole OCR layer finds **one** reference to 3Q15: in the commentary on 4Q511 (*Cantiques du Sage*, p. 222), Baillet cites 3Q15 V 1 for the spelling רוש for ראש.
-- The volume has no treatment of the Copper Scroll, its sites or its Greek letters. (Question to you: was a different volume meant? For example, DJD II (Murabbaʿat), whose Mur 42–43 Milik uses for Kaphar Baricha and ha-Baruk (DJD III p. 269), or a copy of DJD III that includes the plates?)
+- The volume has no treatment of the Copper Scroll, its sites or its Greek letters. (Question to you: was a different volume meant? For example, DJD II (Murabbaʿat), whose Mur 42–43 Milik uses for Kaphar Baricha and ha-Baruk (DJD III p. 269), or a copy of DJD III that includes the plates?) *Later in session 2 you uploaded the DJD III plates volume (below).*
 
 ## Phase 2 reference corpora (downloaded in session 2; local only, not committed)
 

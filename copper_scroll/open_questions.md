@@ -4,7 +4,7 @@ Updated each session. Newest additions at the bottom of each group. "Needs" says
 
 ## Sources and access
 
-- Q1. ~~Milik, DJD III (1962) is missing.~~ **Largely resolved (session 2):** you uploaded an Internet Archive scan of DJD III. Its Hebrew text, translation, word list and site list are being read firsthand (see `sources.md`). **Still open:** the scan has no plates, so Milik's drawings of the letters and numerals cannot be checked. *Needs:* DJD III pl. XLIII–LXXI (BK: plate range from memory, check), for Q8, Q9, Q11 and Q12.
+- Q1. ~~Milik, DJD III (1962) is missing.~~ **Largely resolved (session 2):** you uploaded an Internet Archive scan of DJD III. Its Hebrew text, translation, word list and site list are being read firsthand (see `sources.md`). ~~The scan has no plates.~~ **Resolved later in session 2:** the plates volume was uploaded (F2.16). *Needs:* DJD III pl. XLIII–LXXI (BK: plate range from memory, check), for Q8, Q9, Q11 and Q12.
 - Q2. **Wolters 1996 is missing.** Lefkovits reports Wolters inconsistently at I 1 (pp. 30, 31 n. 5) and I 2–3 (p. 36 vs p. 41 n. 58). *Partly mitigated (session 2):* Wolters 1994 gives five of his readings firsthand (F2.10). *Needs:* Wolters, *The Copper Scroll: Overview, Text and Translation* (Sheffield 1996).
 - Q3. **No TIR crop covers Qumran, the Buqeia, Hyrcania or the Dead Sea shore.** Most of Puech's "Sokokah" entries (20–27) and the Achor-in-the-Buqeia hypothesis fall in that gap. *Needs:* the TIR North sheet, or another georeferenced base map, for Phase 3.
 
@@ -27,7 +27,7 @@ Updated each session. Newest additions at the bottom of each group. "Needs" says
 ## Internal errors found in the editions
 
 (Listed in the findings log; kept here only when the error changes a reading.)
-- Q10. Puech's English translation disagrees with his own Hebrew and French at entries 15, 18, 27, 32 and 37, and on p. 211 the entry numbers are shifted. The table follows the Hebrew and French. Is there a corrigendum?
+- Q10. ~~Puech's English translation disagrees with his own Hebrew and French at entries 15, 18, 27, 32 and 37, and on p. 211 the entry numbers are shifted. Is there a corrigendum?~~ **Resolved (session 2):** Puech 2015 pp. 151–152 corrects exactly these places (F2.15).
 
 ## Added in Phase 2 (session 2)
 
@@ -37,6 +37,6 @@ Updated each session. Newest additions at the bottom of each group. "Needs" says
 - Q17. **Koḥlit.** There are eleven proposals, from Jericho (Puech) to Mount Carmel (Milik), and no ancient text outside the scroll places it. Is there any test that separates them other than the sequence of the entries? *Needs:* Phase 3 sequence analysis.
 - Q18. **Absalom's monument: SW (Milik, DJD D68) or SE (Puech p. 199) of Jerusalem?** Both rely on Josephus's "two stadia" and on the order of the entries. *Needs:* the Josephus passage in Greek (AJ 7.243) and the Phase 3 sequence analysis.
 - Q19. **Depth or distance for a bare number of cubits** (for example after בבואך at X 5–6)? Milik and Lefkovits apply different rules (DJD C158/C160; Lef. p. 161). This affects how entries are compared with site plans.
-- Q20. **The key chapters of *Copper Scroll Studies* are missing.** The upload is a 37-page preview. For Phase 4, Wolters's chapter 22 ("Palaeography and Literary Structure", pp. 311–333) and Lika Tov's chapter 20 (pp. 288–290) are needed. For Phase 3: Eshel's chapter 6 (aqueducts, with maps of the Cypros and Doq aqueducts, pp. 92–107) and Fidler's chapter 14 (inclusio, pp. 210–225). For readings: Puech's chapter 5 (pp. 58–91). *Needs:* the full volume, or those chapters.
-- Q21. **Why DJD VII?** It has almost nothing on 3Q15 (F2.13). Was DJD II (Murabbaʿat) or a copy of DJD III with plates meant?
+- Q20. ~~The key chapters of *Copper Scroll Studies* are missing.~~ **Resolved (session 2):** the full volume was uploaded (F2.17).
+- Q21. ~~Why DJD VII?~~ **Overtaken (session 2):** the DJD III plates volume was uploaded instead; DJD VII is not needed.
 

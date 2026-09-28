@@ -133,6 +133,21 @@ knowledge that does not come from the files in this repo.
   Logged for Phase 5 (archaeology, published reports only). It is a past excavation that is already published, not a lead.
 - F2.13 (evidence) **DJD VII is almost irrelevant to 3Q15.** Its only reference is a spelling parallel (p. 222, on 4Q511): רוש for ראש, as in 3Q15 V 1.
 
+### Second batch of uploads (Puech 2015; DJD III plates; *Copper Scroll Studies* complete; Høgenhaven 2020)
+
+- F2.14 (evidence, check by script) **Puech 2015 confirms the decoded Puech 2006 text.** Puech 2015's Hebrew is Unicode, so it gives an independent check of the tool that decoded the 2006 legacy font.
+  - 172 of 181 lines agree letter for letter. Seven more differ only by PDF layout.
+  - Two lines changed between the editions: I 12 (ה restored in the lacuna) and VIII 3 (the alternative ר dropped).
+  - (Inference, high confidence) The decoding is sound, and Puech 2006 remains a valid primary text. The 2015 changes are noted where they apply.
+- F2.15 (evidence: Puech 2015 pp. 151–152) **Puech's own corrigenda to 2006.**
+  - Hebrew: VII 6 should read [ואר]בע; the opening bracket is missing in the 2006 print. This is now applied in `puech_lines` and the master table.
+  - English translation: corrections at entries (15), (18), (27), (32) and (37), and the entry numbers on 2006 p. 211 (30)–(32).
+  - These are exactly the translation errors of Q10, so **Q10 is resolved by the author**.
+- F2.16 (evidence) **DJD III plates: a drawing and a photograph of each column** (pl. XLIII–LXXI).
+  - The scan is strongly compressed. The drawings are legible at about 150 dpi; the photographs are poor.
+  - The disputed words (Q11, Q14, Q15) can now be compared with Milik's drawing. The drawing is an editor's copy, so it cannot settle a reading alone.
+- F2.17 (evidence) **Two major secondary works are now available in full.** *Copper Scroll Studies* (2002/2004) and Høgenhaven 2020. The chapters on the Greek letters (Wolters ch. 22; Lika Tov ch. 20; Høgenhaven pp. 149–153) are the core material for Phase 4. The language chapters are being read for a Phase 2 addendum.
+
 ---
 
 ## Session 1 — 2026-09-27 (Phase 1: master table)
