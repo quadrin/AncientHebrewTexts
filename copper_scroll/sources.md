@@ -237,7 +237,7 @@ The hand-curated result is `tables/phase3_places.csv`. Each of its 37 rows names
   - The editions' archaeological notes: Milik DJD D; Puech 2015; Lefkovits; Høgenhaven.
 - **Online, open access (URLs in the local `phase5_reports.csv`).**
   - *Hadashot Arkheologiyot* (hadashot.iaa.org.il), volumes 132–137.
-  - *ʿAtiqot* 113 (Szanton 2024, abstract) and *ʿAtiqot* 119 (Aharonovich et al. 2025, abstract).
+  - *ʿAtiqot* 113 (Szanton **2023**, full text accessed in the 2026-09-28 review) and *ʿAtiqot* 119 (Aharonovich et al. 2025, abstract).
   - The IAA publications portal for *ʿAtiqot* 41.
   - The Tel Aviv University Ramat Raḥel reports (2006–07; the INJ 17 hoard paper).
   - Avni & Greenhut 1996 (abstract).
@@ -245,6 +245,13 @@ The hand-curated result is `tables/phase3_places.csv`. Each of its 37 rows names
   - Zias 2023 (*ANE Today*).
   - Warren and Wilson, *The Recovery of Jerusalem* (1871; Internet Archive).
 - **Blocked or unavailable:** see Q32.
+
+## Sources checked for the 2026-09-28 site review
+
+- Nahshon Szanton, “Ritual Purification and Bathing: The Location and Function of Siloam Pool and Solomon’s Pool in Second Temple Period Jerusalem,” *ʿAtiqot* **113 (2023), 29–44**. [Full article](https://jamestabor.com/wp-content/uploads/2024/01/Szanton-Antiquot-2023-Siloam-and-Solomons-Pools.pdf). The hosting path's 2024 date is not the publication year. See pp. 35–42 for the two-pool discussion. Primary research article, read in full; earlier Phase 5 records had only the abstract.
+- Tel Aviv–Heidelberg Ramat Raḥel expedition, [2006–2007 preliminary results](https://www.tau.ac.il/~rmtrachl/joint_project_results.html), Area C1 (corresponding to the Phase 5 report citation, pp. 15–18). Primary excavation report; the relevant pool, reuse and burial sequence was checked directly.
+- Judah K. Lefkovits, *The Copper Scroll: 3Q15: A Reevaluation: A New Reading, Translation, and Commentary* (2000), entry 49, pp. 352–354. Read directly in the repository scan for the translation and competing readings.
+- The review used the public summaries and indices at commit `05a233b178d27112dcceebe97d5e5e25657ddd49`. It did not have the uncommitted `phase5_assessments.csv` or `phase5_reports.csv`; their 254 source records were not independently re-audited.
 
 ## TIR (Tabula Imperii Romani, Iudaea–Palaestina, 1994)
 

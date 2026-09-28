@@ -73,8 +73,14 @@ Updated each session. Newest additions at the bottom of each group. "Needs" says
   - Zertal's Manasseh survey (Kh. Ibziq, 59);
   - Hirschfeld's Herodium survey (39–45);
   - Patrich on Mar Saba and Hyrcania (35; 16, 29);
-  - the full Szanton 2024 (49) and the Akeldama volume;
+  - the Akeldama volume;
+  - **Resolved in the 2026-09-28 review:** the full Szanton article (49) was accessed; its publication year is 2023. See `sources.md` and F5.11.
   - Kenyon 1981 on the Tell es-Sultan cemetery;
   - Vincent & Abel 1926 and Jeremias on Bethesda.
-- Q33. **Beth ha-Kerem after Phase 5.** If Ramat Raḥel had no large reservoir in use in the 1st century, is Aharoni's identification still the best one? It rests partly on the scroll's own sequence. *Needs:* the other published candidates for Beth ha-Kerem and their archaeology.
+- Q33. **Beth ha-Kerem after Phase 5.** The checked reports do not establish a large reservoir in use in the 1st century at Ramat Raḥel. Is Aharoni's identification still the best one? It rests partly on the scroll's own sequence. *Needs:* the other published candidates for Beth ha-Kerem and their archaeology.
 - Q34. **The mouth of the Kidron gorge (35):** the Mar Saba stretch, or the point where the Kidron leaves the escarpment (Dahari)? *Needs:* Milik's and Puech's arguments for Mar Saba, read against the Region XIV report.
+
+## Added in the 2026-09-28 site review
+
+- Q35. **Does entry 49 actually name Siloam?** Puech's interpretation depends on reading the engraved ר as ו and supplying של; Lefkovits reads no Siloam name (pp. 352–354). *Needs:* a documented comparison of X 15–16 in the published photographs/radiographs and the competing editions, independent of the archaeological fit.
+- Q36. **Which installation could entry 49 describe if Q35 favors Siloam?** *Needs:* compare the competing pool identifications and published outlet/channel plans. A period trough corresponding to the entry has not been established. Keep the candidate at complex level until both the reading and feature evidence permit more precision.

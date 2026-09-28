@@ -6,7 +6,20 @@ knowledge that does not come from the files in this repo.
 
 ---
 
+## Review — 2026-09-28 (site identifications after Phase 5)
+
+See [site identification review](site_identification_review.md). This review checked the public Phase 3/5 records, Lefkovits's entry 49, and the full Siloam article and Ramat Raḥel preliminary report. The unpublished assessment and report tables were unavailable.
+
+- F5.10 (inference, medium confidence) **Entry 49 remains conditional on reading Siloam.** The site's name continuity cannot resolve the disputed reading in the scroll. The overall rating returns to medium, superseding F5.2. The pool/outlet setting fits; the particular trough remains unverified. The revised type-and-period counts are 4 full, 14 partial/undated, and 5 unreported/other-period matches.
+- F5.11 (evidence: Szanton 2023 pp. 35–42) **The full Siloam article is available.** Its two-pool distinction matters for the location; the review records the competing identifications. The bibliography's year is 2023.
+- F5.12 (evidence: Ramat Raḥel 2006–07 report, Area C1) **The burial fill contains pottery as late as the second century BCE.** This corrects F5.3's early-Hellenistic wording. The low verdict remains; the evidence concerns the known enclosure.
+- F5.13 (inference, medium confidence) **Regional and feature identifications need separate limits.** The current shortlist prioritizes Qumran's aqueduct, Doq, Choziba and the conditional Siloam setting. Hyrcania remains possible/low; the exact Kidron gorge stretch and Koḥlit remain unresolved. Missing Gerizim reports prevent a comprehensive negative claim about its installations.
+
+---
+
 ## Session 2, continued — 2026-09-28 (Phase 5: the published archaeology)
+
+**Historical assessment:** F5.1–F5.3 are qualified or superseded by F5.10–F5.12 above. The current counts and verdicts are in `phase5_summary.md` and its index.
 
 See `phase5_summary.md` and `tables/phase5_archaeology_index.csv`. Site level only. No feature is tied to an entry.
 

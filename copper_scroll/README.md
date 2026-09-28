@@ -12,6 +12,10 @@ This folder is separate from the DSS letter-recogniser project described in the 
 4. **Greek letters:** occurrences and tests of the hypotheses (done, session 2; see `phase4_summary.md`)
 5. **Archaeology check** of the Phase 3 places, published reports only (done, session 2; see `phase5_summary.md`)
 
+## Current site assessment
+
+The [2026-09-28 site identification review](site_identification_review.md) updates Phase 5. It returns Siloam to medium overall confidence, records the full Szanton 2023 source, and distinguishes site compatibility from identification of a particular feature. The revised Phase 5 summary and index contain the current verdicts; the Phase 3 files retain their original assessment.
+
 ## Files
 
 | File | In git? | Contents |
@@ -22,6 +26,7 @@ This folder is separate from the DSS letter-recogniser project described in the 
 | `phase3_summary.md` | yes | Phase 3: method, the 23 best-supported places, contested cases, gazetteer errors, files |
 | `phase4_summary.md` | yes | Phase 4: the Greek letters: readings, layout, 14 families of hypotheses, 9 tests, conclusions |
 | `phase5_summary.md` | yes | Phase 5: what published reports say about each place's required landmark and its period; changed verdicts; limits |
+| `site_identification_review.md` | yes | Current shortlist and the 2026-09-28 corrections to Phase 5 |
 | `findings_log.md` | yes | Running log, evidence vs inference, with pages |
 | `open_questions.md` | yes | Running list of open questions |
 | `tables/entry_concordance.csv` | yes | Puech entry ↔ Lefkovits item ↔ Milik item (from Milik 1960) ↔ line range, with boundary notes and other editors' divisions |
