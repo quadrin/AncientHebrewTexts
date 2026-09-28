@@ -92,3 +92,12 @@ Updated each session. Newest additions at the bottom of each group. "Needs" says
 
   *Needs:* Josephus BJ 5.145 in context, and Milik's full argument read against Szanton pp. 35–42.
 
+
+
+## Feature investigation — 2026-09-28
+
+- Q38. **Qumran intake versus junction or tunnel (21).** Obtain Ilan–Amit 2002 Fig. 1 and the de Vaux aqueduct plan, then test the independently read relation to Sekakah. Distinguish the inferred lost dam from surviving fabric. The current ground photograph is a cistern outlet.
+- Q39. **Wadi Qelt outlet–wall pairing (32).** Distinguish the spring head, Jisr ed-Deir junction and wall opposite Deir el-Kelt; establish their construction phases before assigning a scroll feature.
+- Q40. **Evidence independence.** Trace each priority source to its original observation or excavation, avoiding repeated counts of the same identification. Initial audit complete; original-plan access and specialist reading remain pending.
+
+[Prepared packets and rejection tests](feature_investigation.md) extend Q24, Q26 and Q35–Q36. No independent specialist review or fieldwork has yet taken place.

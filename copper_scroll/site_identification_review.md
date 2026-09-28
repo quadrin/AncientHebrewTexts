@@ -35,3 +35,8 @@ This changes the 23-entry audit to **4 full type-and-period matches, 14 partial/
 - **Gerizim: incomplete source coverage.** Later installations in the checked sources cannot establish the absence of earlier ones while the Magen reports remain unavailable.
 
 Full references and access details are in [sources.md](sources.md#sources-checked-for-the-2026-09-28-site-review). Findings F5.10–F5.13 and questions Q35–Q36 record the changes and remaining work.
+
+
+## Feature investigation supplement — 28 September 2026
+
+The [feature dossier](feature_investigation.md) audits the now-recovered full Phase 5 tables and separates reading, site and exact-feature confidence. It distinguishes Qumran’s inferred intake from the downstream photo outlet, compares three Wadi Qelt feature classes, checks Siloam’s published plans, and prepares independent-reading questions for Doq and Bethesda. All five site judgments remain medium and conditional; exact features remain unresolved. This supplement does not narrow the gazetteer coordinates.

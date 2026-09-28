@@ -63,3 +63,10 @@ MapLibre owns each marker's outer `site-marker` element, including its absolute 
 The data generator verifies entry and place counts and candidate references. TypeScript and production build checks validate the implementation. The supervised preview service was unavailable in the creation session, so browser interaction, visual rendering and WebMCP runtime validation could not be completed there.
 
 The Site uses the package manager, build scripts and hosting manifest supplied by the Sites starter.
+
+
+## Feature evidence review
+
+Entries 21, 32, 49, 31 and 55 now have a “Compare features & evidence” dialog. It separates reading, site and exact-feature judgments, exposes source dependencies/access gaps, and states discriminating checks. Other candidates are explicitly marked as not yet assessed on separate axes. Site confidence and existing sorting remain unchanged.
+
+Edit `app/atlas-evidence.json` for the shared Site/Pages content. The narrative dossier is in `research/feature_investigation.md`; its repository-wide copy is `../feature_investigation.md`. Keep both copies aligned. The constraint register is `research/feature_constraints.csv`, mirrored in `../tables/feature_constraints.csv`. Feature polygons remain approximate locality envelopes until surveyed source geometry is obtained.
