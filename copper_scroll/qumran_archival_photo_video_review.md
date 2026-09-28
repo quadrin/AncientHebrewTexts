@@ -35,6 +35,14 @@ The Puech p. 188 and p. 189 page images were rechecked against the existing cons
 
 No combined model presently satisfies all four entries with independently identified features. This comparison preserves the A–B–C–D investigative order and all low exact-feature confidence labels. No geographic geometry changes.
 
+## Annotated comparison completed
+
+The [portable comparison](../public/research/qumran-video-comparison.html) places two watermarked drone stills (01:20 and 01:38) beside Davey’s Cave 28 and tunnel-mouth photographs and the two existing plan redrawings. Toggle annotations to inspect the unchanged photographs. The [annotation register](registration/qumran_video_annotations.json) records source hashes, image-pixel outlines and the status of each match. This follow-up adds full-size checks at 98 and 102 seconds.
+
+Visible drop faces and an exposed basin-floor patch can be outlined. The complete basin edge, Ilan point 3 and Reeder’s wall–pothole–boulder sequence cannot be identified securely in these views. Coverage of the surrounding gorge does not demonstrate coverage of every component. The basin is therefore not assigned Ilan number 2, and no ground-registered channel trace or north/boulder test is produced. The two source plans remain separate coordinate frames.
+
+The original review did not republish footage. The follow-up comparison includes only two attributed, watermarked stills for analysis. Candidate order and geographic geometry remain unchanged. [Dok and Achor feature tests](dok_achor_feature_tests.md) record the next concrete comparisons and their source-access limits.
+
 ## Access limits and next discriminating task
 
 The creator-linked Mattiolli aqueduct video (`muN-EJR631Y`) and the Sergio/Rhoda lead (`vLn1ltBqeSI`) returned YouTube throttling responses. Their frames remain unreviewed; titles and descriptions are not visual evidence. Generic settlement/cistern images and Hyrcania tunnel footage do not resolve the upstream Qumran question.

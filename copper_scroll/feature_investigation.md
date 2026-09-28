@@ -81,6 +81,8 @@ Puech 2006, p. 192, was visually checked: his reading requires a drying place. T
 
 The first decisive deliverable is an independent letter-by-letter review of VII 11. If it supports a guardhouse, obtain a dated summit plan and identify the eastern corner. If it supports a drying place, search published installation inventories for evidence of that function. Failure to find such an installation is weaker evidence where later construction erased earlier structures.
 
+Follow-up: [Dok and Achor feature tests](dok_achor_feature_tests.md) distinguishes all three eastern-corner readings, corrects Dok chapter access, and defines the conditional V/49 cave-pair test.
+
 ## Entry 55: Bethesda
 
 The recovered assessment explicitly says Vincent–Abel and Jeremias were not directly read in Phase 5. Their excavation evidence remains an access gap in this review. Only Milik’s emendation supplies the Bethesda name; the reservoir-complex wording needs fewer assumptions but is less geographically specific.
@@ -94,7 +96,7 @@ Send a specialist the entry identifier and legally obtained plate references, wi
 - **21, V 1–3:** distinguish surviving strokes from supplied letters; assess the lost conduit–Sekakah link; attach the northern phrase grammatically; assess the supplied noun after “great.” Edition references: Puech 2006 p. 188; Lefkovits pp. 185–189. Puech points to Pls. CCCXLI–CCCXLII and CCCLXVII–CCCLXVIII for column V.
 - **32, VII 14–16:** record the evidence for Koziba versus Buz and the second landmark; distinguish letter choice from lexical interpretation. Puech p. 192; Lefkovits pp. 236–243. Column VII plate references in Puech: CCCXLV–CCCXLVI and CCCLXXI–CCCLXXII.
 - **49, X 15–16:** distinguish the disputed waw/resh from the supplied name letters; state the installation and trough/gutter requirements under each reading. Puech 2015 pp. 91–93; Lefkovits pp. 352–354, as indexed in the recovered research. Include the pre-cutting photograph cited there, DJD III Pl. XLIII.3.
-- **31, VII 11:** record letter evidence for drying place versus guardhouse before seeing a summit plan. Puech 2006 p. 192; Puech 2015 p. 67; Lefkovits p. 232.
+- **31, VII 11:** record letter evidence for drying place versus guardhouse before seeing a summit plan. Puech 2006 p. 192; Puech 2015 p. 67; Lefkovits pp. 232–235, especially pp. 234–235.
 - **55, XI 12–13:** distinguish engraved letters, emendation and reservoir-number interpretation. Puech 2015 p. 103; Lefkovits pp. 392–398; Milik DJD III pp. 271–272.
 
 Requested return format: source image ID and page/plate; transcription with damaged and restored letters marked; competing readings; reasons for preference; grammatical relations; residual uncertainty. Record whether the proposed site was visible before the reading. A second reader should receive the same unlabelled packet independently. Reconcile differences after both return their observations.
