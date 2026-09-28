@@ -39,3 +39,5 @@ Obtain the original 2002 survey observations or CAVEPLOT data, benchmark coordin
 Use those records to locate the later wall and rock, then correlate the older intake and tunnels through distributed stable points. Keep independent points out of the fit to test it. If geographic control remains unavailable, retain a plan-relative comparison and the broad site marker. A coordinate-free source plan is still useful evidence; it is not a precise map overlay.
 
 The reviewed source pages and aerial imagery have not been copied into the public repository. This report records the research state before the subsequent search for original survey data.
+
+Follow-up: the [original survey-data search](qumran_survey_data_search.md) recovered published GPS values around Tomb 1000. Their datum and connection to the aqueduct traverse remain unverified; the rejected aerial fit remains rejected.
