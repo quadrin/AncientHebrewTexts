@@ -8,7 +8,6 @@ Session 2, 2026-09-28. Desk research on published reports and editions only.
 
 > Do published reports describe the kind of landmark that the entry requires (cistern, aqueduct, pool, tomb, spring, gate) at that site, in use in the late Second Temple period?
 
-- Everything is at site level. No specific cave, cistern or tomb is tied to an entry.
 - The scroll's cubits, depths and directions are treated only as features of the text.
 - Nothing here proposes or supports excavation.
 
@@ -126,5 +125,5 @@ Session 2, 2026-09-28. Desk research on published reports and editions only.
 | `phase5_summary.md` | yes | This summary, incorporating the 2026-09-28 review |
 | `site_identification_review.md` | yes | Revised shortlist, reading conditions, source corrections and limits of precision |
 | `tables/phase5_archaeology_index.csv` | yes | 31 rows: the landmark types each entry requires, whether reports describe them at the site, the period, the Phase 3 and Phase 5 verdicts, the main sources (references only) |
-| `phase5_assessments.csv` | **no** | The 37 full assessments, with the reviewers' reasons and the disputed landmark words |
-| `phase5_reports.csv` | **no** | All 254 report records with page or URL, type, period and short quotes |
+| `tables/phase5_assessments.csv` | yes | The 37 full assessments, with the reviewers' reasons and the disputed landmark words. Entry 49 carries a correction note from the 2026-09-28 review |
+| `tables/phase5_reports.csv` | yes | All 254 report records with page or URL, type, period and short quotes (20 words or fewer) |

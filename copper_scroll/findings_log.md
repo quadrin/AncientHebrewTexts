@@ -21,7 +21,9 @@ See [site identification review](site_identification_review.md). This review che
 
 **Historical assessment:** F5.1–F5.3 are qualified or superseded by F5.10–F5.12 above. The current counts and verdicts are in `phase5_summary.md` and its index.
 
-See `phase5_summary.md` and `tables/phase5_archaeology_index.csv`. Site level only. No feature is tied to an entry.
+See `phase5_summary.md` and `tables/phase5_archaeology_index.csv`.
+
+**Method note, 2026-09-28:** the Phase 5 rule that no specific cave, cistern or tomb may be tied to an entry is withdrawn at the user's request. Records may now compare a named installation with an entry, with the source. Two rules stay in force: the scroll's cubits, depths and directions are not converted into positions, and nothing proposes or supports excavation.
 
 - F5.1 (test) **Only 5 of the 23 best-supported entries have their required landmark reported at the site and in use in the late Second Temple period:** 21 (Qumran aqueduct), 32 (Wadi el-Qelt), 49 (Siloam), 55 (Bethesda) and 58 (Beth Shean).
   - All five are water installations.

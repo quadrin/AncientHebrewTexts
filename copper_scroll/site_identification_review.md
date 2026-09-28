@@ -1,6 +1,6 @@
 # Site identification review — 2026-09-28
 
-This review updates the public research at commit [05a233b](https://github.com/quadrin/AncientHebrewTexts/commit/05a233b178d27112dcceebe97d5e5e25657ddd49). It uses the Phase 3 and Phase 5 summaries and indices, with direct checks of Lefkovits's entry 49, Szanton's full Siloam article and the Ramat Raḥel preliminary report. The full uncommitted assessment and report tables were unavailable.
+This review updates the public research at commit [05a233b](https://github.com/quadrin/AncientHebrewTexts/commit/05a233b178d27112dcceebe97d5e5e25657ddd49). It uses the Phase 3 and Phase 5 summaries and indices, with direct checks of Lefkovits's entry 49, Szanton's full Siloam article and the Ramat Raḥel preliminary report. The full uncommitted assessment and report tables were unavailable. (They were committed later, as `tables/phase5_assessments.csv` and `tables/phase5_reports.csv`.)
 
 The revised verdicts appear in `phase5_summary.md` and `tables/phase5_archaeology_index.csv`. Earlier Phase 3 files remain a historical assessment.
 

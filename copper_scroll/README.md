@@ -27,6 +27,7 @@ The [2026-09-28 site identification review](site_identification_review.md) updat
 | `phase4_summary.md` | yes | Phase 4: the Greek letters: readings, layout, 14 families of hypotheses, 9 tests, conclusions |
 | `phase5_summary.md` | yes | Phase 5: what published reports say about each place's required landmark and its period; changed verdicts; limits |
 | `site_identification_review.md` | yes | Current shortlist and the 2026-09-28 corrections to Phase 5 |
+| `web/index.html` (with `web/map1-overview.webp`, `web/map3-jerusalem.webp`) | yes | The public web page: scored place identifications, the archaeology check, the Greek letters, maps 1 and 3. For GitHub Pages at `https://quadrin.github.io/AncientHebrewTexts/copper_scroll/web/` once the folder is on `main` |
 | `findings_log.md` | yes | Running log, evidence vs inference, with pages |
 | `open_questions.md` | yes | Running list of open questions |
 | `tables/entry_concordance.csv` | yes | Puech entry ↔ Lefkovits item ↔ Milik item (from Milik 1960) ↔ line range, with boundary notes and other editors' divisions |
@@ -44,7 +45,7 @@ The [2026-09-28 site identification review](site_identification_review.md) updat
 | `tables/phase4_hypotheses.csv` | yes | Phase 4 hypotheses (H1–H14): proposers with pages, prediction, test, result, verdict |
 | `phase4_records.csv` | **no** | All 212 Phase 4 records (readings, hypotheses, observations) with pages and short quotes |
 | `tables/phase5_archaeology_index.csv` | yes | Phase 5 index (31 rows): landmark types required, whether reported at the site, period, Phase 3 and Phase 5 verdicts, main sources |
-| `phase5_assessments.csv`, `phase5_reports.csv` | **no** | The 37 Phase 5 assessments with reasons, and the 254 report records with pages, URLs and short quotes |
+| `tables/phase5_assessments.csv`, `tables/phase5_reports.csv` | yes | The 37 Phase 5 assessments with reasons, and the 254 report records with pages, URLs and short quotes (20 words or fewer) |
 | `phase3_candidates.csv` | **no** | All 292 Phase 3 candidates with the full scoring, reasons with pages, and short quotes |
 | `phase3_entries.csv` | **no** | Per entry: the text's requirements, reading notes, best-supported place, why not the others, and the text's own relative description in each edition (quoted, not converted into positions) |
 | `phase3_map1_overview.png`, `phase3_map2_jericho_qumran.png`, `phase3_map3_jerusalem.png` | **no** | The three Phase 3 maps, at site level. Map 2 is built on PEF Sheet XVIII (CC BY-NC-SA 3.0) |
