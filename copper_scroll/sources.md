@@ -18,6 +18,8 @@ Checked 2026-09-27 against branch `main` (commit 637a7a9, "Add files via upload"
 | Høgenhaven 2020, *The Cave 3 Copper Scroll: A Symbolic Journey* (STDJ 132) (uploaded in session 2) | Not in the repo (upload only) | Yes. Born digital, Unicode Hebrew. **Printed page = PDF page − 11** | Structure, symbolic reading, Greek letters (pp. 149–153), language, numerals; a translation (pp. 239–244) |
 | DJD III, **plates volume** (uploaded in session 2) | Not in the repo (upload only) | Yes, but heavily compressed (88 PDF pages) | 3Q15 pl. XLIII–LXXI: the two rolls, the sawing, and **a drawing and a photograph of every column** |
 | "Copper_Scroll_Geographical_Resources" archive, 12 parts (uploaded in session 2) | Not in the repo (upload only) | **Complete.** All 12 parts rejoined; the SHA-256 of the whole archive matches the README, and all 15 files match `manifest.json` | See the next section |
+| Elitzur 2004, *Ancient Place Names in the Holy Land: Preservation and History* (uploaded in session 2) | Not in the repo (upload only) | A photocopy scan (237 two-page spreads) with **no text layer**. I made a local OCR text with Tesseract (English only; the Hebrew and Arabic in it are garbled) | Method for judging whether a modern name preserves an ancient one; a few direct remarks (Dok, Kohlith, Beth ha-Kerem) |
+| *ʿAtiqot* 41 (2002), Hebrew issue: *Surveys and Excavations of Caves in the Northern Judean Desert (CNJD) — 1993*, 6 parts (uploaded in session 2) | Not in the repo (upload only) | **Complete.** The six parts rejoined; SHA-256 matches; 25 PDF files, 295 pages, born digital, Hebrew in Unicode | The IAA cave survey from Wadi el-Makkuk to Naḥal Kidron, with maps. Main use: Phase 5 |
 | DJD VII, Baillet, *Qumrân grotte 4. III (4Q482–4Q520)* (uploaded in session 2) | Not in the repo (upload only) | Yes. The complete volume (444 pages) with plates | **Almost nothing on 3Q15**: one spelling parallel (p. 222) |
 
 ## Puech 2006 (primary reading)
@@ -170,6 +172,27 @@ Checked 2026-09-27 against branch `main` (commit 637a7a9, "Add files via upload"
 
   These are still missing. Eshel's chapter, which the README also lists as missing, is in the full *Copper Scroll Studies* uploaded earlier.
 - Main use: Phase 3. Sheet XVIII covers the Jericho plain, Wadi Qelt, the Buqeia, Hyrcania (Kh. Mird) and the NW Dead Sea shore to Râs Feshkhah. This is the area missing from the TIR crops (Q3). It is a 19th-century survey, not TIR: names are the Arabic names of 1870s, and ancient identifications must come from other sources.
+
+### Elitzur 2004 (uploaded in session 2)
+
+- Y. Elitzur, *Ancient Place Names in the Holy Land: Preservation and History* (Jerusalem: Magnes; Winona Lake: Eisenbrauns 2004). The scan is a photocopy without a text layer. **I made a local OCR text** (Tesseract, English); page numbers in it come from the running heads.
+- **Method** (pp. 8–14). He warns that "scholars are sometimes able to justify almost any historical theory on the basis of place names" (p. 9). An identification is **"almost positive"** only if (p. 12–13):
+  - (i) the terrain and distances in the historical sources point to a well-defined location; and
+  - (ii) an Arabic name matches the historical name in all or almost all letters, at or reasonably near that location.
+
+  Remarks (p. 13): an inexact location can be accepted if the name is rare; a badly preserved name can be accepted if the sources fix the place. Pottery supports but does not prove. Inscriptions are the best proof. Names can "wander" a short distance.
+- **Direct remarks on Copper Scroll places:**
+  - Dok (1 Macc 16:15, Δωκ) is "known to the Arabs as dūk or dyūk ('chickens')", a popular etymology, and "the two forms have remained in living use" (note in entry 25; index "Dok … 139, 288, 351, 358").
+  - "Kohlith" is cited among names with the suffix -it, a type that became frequent in the Second Temple period (pp. 230, 334). This is a remark on the name's form, not on its location.
+  - Beth ha-Kerem is identified following Aharoni, with Genesis Apocryphon 22:14 and "the Copper Scroll 10,5" added to the sources (note in entry 18a).
+  - The steep cliffs of the Quruntul range "as they descend to Wadi Nweiʿmeh" (in the discussion of Benjamin's border).
+- Entry 17, Ragaba / רגב, is the village of Rageb in Transjordan. It has nothing to do with the scroll's word הרגב.
+
+### *ʿAtiqot* 41 (2002), Hebrew issue (uploaded in session 2)
+
+- *ʿAtiqot* 41, part 1 (Hebrew): the reports of the 1993 IAA cave survey (CNJD), Regions I–XV, from Wadi el-Makkuk and Jebel Abu Saraj, along Jebel Quruntul, to the fault escarpment above Ḥorbat Qumran, south of Qumran, and from Naḥal Kidron to Naḥal Deragot. It includes an index and a map of the 1993 survey. The English issue (part 2) was not uploaded.
+- A search of all 25 files finds **no discussion of the Copper Scroll**. The only hit is a bibliography entry, Luria 1964, in the Preface.
+- One cave has a name that echoes the scroll: **Cave IV/11, "Cave of the Pillar"** (N. Feig), in the Jebel Abu Saraj cliff. It is named for a 2.5 m pillar (natural below, rock-cut above) at the SW end of its hall. The report does not link it to the scroll's "Cave of the Column" (VI 1). (Inference, low weight: the shared name is a modern descriptive label and is not evidence of identity. Logged only for the Phase 5 check.)
 
 ## Phase 2 reference corpora (downloaded in session 2; local only, not committed)
 

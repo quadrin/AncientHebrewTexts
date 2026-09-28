@@ -186,6 +186,17 @@ knowledge that does not come from the files in this repo.
     - Høgenhaven (2020, pp. 157–158): ככ and ככרין look interchangeable (II 6 against IV 12); an added כסף would be redundant if ככ already meant "silver karsh"; XII 1 has זהב ככ, "gold, k.". He notes that Puech accepted Lefkovits's suggestion. He concedes that Lefkovits "does have a point", because only some ככ were corrected. In n. 66 he notes that the reinterpretation is driven by the size of the totals.
   - (Inference, medium confidence) The question stays open. Both sides use the same scribal evidence. It matters for Phase 3 only indirectly: the size of the deposits bears on what kind of hiding place is plausible.
 
+### Elitzur 2004 and *ʿAtiqot* 41 (uploaded at the end of session 2)
+
+- F2.21 (evidence: Elitzur 2004 pp. 9, 12–13) **A test for "almost positive" identifications, adopted as the standard for Phase 3.**
+  - A modern Arabic name counts as evidence only if **both** conditions hold:
+    - (i) the ancient sources fix the area; and
+    - (ii) the Arabic name matches the ancient one in all or almost all letters, at or near that area.
+  - Name resemblance alone counts for nothing. Pottery supports but does not prove.
+  - (Inference, high confidence) Many Copper Scroll identifications rest on name resemblance alone (for example Kohlit, ʿAṣla, Qobʿeh). In Phase 3 each will be scored on (i) and (ii) separately.
+- F2.22 (evidence: Elitzur 2004, note in entry 25) **Dok.** Elitzur records that the Arabic *dūk / dyūk* for Dok near Jericho (1 Macc 16:15) is a popular etymology ("chickens"), and that both forms are still in living use. This supports the continuity of the name at ʿAin Duq. It does not by itself fix whether the scroll's Doq is the fortress on Jebel Qaranṭal (Milik) or the spring area (Puech).
+- F2.23 (evidence) **The *ʿAtiqot* 41 cave survey (Hebrew) does not discuss the Copper Scroll.** One cave, IV/11, is called "Cave of the Pillar" for its pillar. The name is a modern description, and the report makes no claim about the scroll.
+
 ---
 
 ## Session 1 — 2026-09-27 (Phase 1: master table)
