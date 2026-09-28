@@ -1,5 +1,11 @@
 # TIR Iudaea–Palaestina: digital-copy search
 
+## Copper Scroll Atlas
+
+The interactive [Copper Scroll Atlas source](copper_scroll/atlas/README.md) pairs 61 scroll entries with 37 candidate places. It includes 2D maps, 3D terrain, approximate candidate shading, confidence and name sorting, and four annotated ground photographs. See the atlas README for local setup and research provenance.
+
+[Hosted atlas](https://copper-scroll-atlas.alexkesin.chatgpt.site) · Access follows the Site’s existing sharing settings.
+
 Checked 27 September 2026. No complete publicly readable book, institutional ebook, or complete full-resolution map sheet was verified. Five publicly downloadable map details were verified in Peter Pilhofer's lecture PDFs: three from the North sheet and two credited to the TIR overview map. This package preserves those source PDFs and their embedded images, plus a Roman-roads figure credited to the 1994 volume in an Edinburgh thesis.
 
 ## Fourth search: further North-sheet reproduction
