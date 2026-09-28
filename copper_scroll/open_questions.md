@@ -6,7 +6,7 @@ Updated each session. Newest additions at the bottom of each group. "Needs" says
 
 - Q1. ~~Milik, DJD III (1962) is missing.~~ **Largely resolved (session 2):** you uploaded an Internet Archive scan of DJD III. Its Hebrew text, translation, word list and site list are being read firsthand (see `sources.md`). ~~The scan has no plates.~~ **Resolved later in session 2:** the plates volume was uploaded (F2.16). *Needs:* DJD III pl. XLIII–LXXI (BK: plate range from memory, check), for Q8, Q9, Q11 and Q12.
 - Q2. **Wolters 1996 is missing.** Lefkovits reports Wolters inconsistently at I 1 (pp. 30, 31 n. 5) and I 2–3 (p. 36 vs p. 41 n. 58). *Partly mitigated (session 2):* Wolters 1994 gives five of his readings firsthand (F2.10). *Needs:* Wolters, *The Copper Scroll: Overview, Text and Translation* (Sheffield 1996).
-- Q3. **No TIR crop covers Qumran, the Buqeia, Hyrcania or the Dead Sea shore.** Most of Puech's "Sokokah" entries (20–27) and the Achor-in-the-Buqeia hypothesis fall in that gap. *Needs:* the TIR North sheet, or another georeferenced base map, for Phase 3.
+- Q3. **No TIR crop covers Qumran, the Buqeia, Hyrcania or the Dead Sea shore.** Most of Puech's "Sokokah" entries (20–27) and the Achor-in-the-Buqeia hypothesis fall in that gap. *Needs:* the TIR North sheet, or another georeferenced base map, for Phase 3. *Largely resolved (session 2):* PEF Sheet XVIII (1878/1881) covers this area at full resolution (see `sources.md`). It is not TIR, so the TIR gazetteer entries are still wanted for Phase 3.
 
 ## Entry division and numbering
 

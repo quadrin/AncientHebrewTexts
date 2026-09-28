@@ -17,7 +17,7 @@ Checked 2026-09-27 against branch `main` (commit 637a7a9, "Add files via upload"
 | Puech 2015, *The Copper Scroll Revisited* (STDJ 112; English translation by D. E. Orton) (uploaded in session 2) | Not in the repo (upload only) | Yes. Born digital, **Unicode Hebrew**. **Printed page = PDF page − 11** | An independent check of the decoded Puech 2006 text; Puech's own English translation; his **corrigenda to the 2006 edition** (pp. 151–152) |
 | Høgenhaven 2020, *The Cave 3 Copper Scroll: A Symbolic Journey* (STDJ 132) (uploaded in session 2) | Not in the repo (upload only) | Yes. Born digital, Unicode Hebrew. **Printed page = PDF page − 11** | Structure, symbolic reading, Greek letters (pp. 149–153), language, numerals; a translation (pp. 239–244) |
 | DJD III, **plates volume** (uploaded in session 2) | Not in the repo (upload only) | Yes, but heavily compressed (88 PDF pages) | 3Q15 pl. XLIII–LXXI: the two rolls, the sawing, and **a drawing and a photograph of every column** |
-| "Copper_Scroll_Geographical_Resources" archive, parts 01–05 of 12 (uploaded in session 2) | Not in the repo (upload only) | **Incomplete.** Parts 06–12 are missing, so the archive's file list (in its last part) is not available | Recovered from parts 01–05: the *Copper Scroll Studies* preview (a duplicate), **Jastrow, *Dictionary*, vol. 1** (complete, 714 pages; checksum verified), and 45% of Jastrow vol. 2 (unusable). The geographical files themselves have not arrived |
+| "Copper_Scroll_Geographical_Resources" archive, 12 parts (uploaded in session 2) | Not in the repo (upload only) | **Complete.** All 12 parts rejoined; the SHA-256 of the whole archive matches the README, and all 15 files match `manifest.json` | See the next section |
 | DJD VII, Baillet, *Qumrân grotte 4. III (4Q482–4Q520)* (uploaded in session 2) | Not in the repo (upload only) | Yes. The complete volume (444 pages) with plates | **Almost nothing on 3Q15**: one spelling parallel (p. 222) |
 
 ## Puech 2006 (primary reading)
@@ -146,6 +146,30 @@ Checked 2026-09-27 against branch `main` (commit 637a7a9, "Add files via upload"
 - An Internet Archive scan with an OCR text layer (444 pages, plates included).
 - A search of the whole OCR layer finds **one** reference to 3Q15: in the commentary on 4Q511 (*Cantiques du Sage*, p. 222), Baillet cites 3Q15 V 1 for the spelling רוש for ראש.
 - The volume has no treatment of the Copper Scroll, its sites or its Greek letters. (Question to you: was a different volume meant? For example, DJD II (Murabbaʿat), whose Mur 42–43 Milik uses for Kaphar Baricha and ha-Baruk (DJD III p. 269), or a copy of DJD III that includes the plates?) *Later in session 2 you uploaded the DJD III plates volume (below).*
+
+### "Copper_Scroll_Geographical_Resources" archive (12 parts)
+
+- Rejoined from your 12 uploads. The checksums of the whole archive and of each file match.
+- Contents, as checked:
+
+  | File | What it is | Checked | Licence (as stated in the archive's README) |
+  |---|---|---|---|
+  | `PEF_Sheet_XVIII_full_resolution.jpg` / `.jp2` | Survey of Western Palestine, Sheet XVIII (surveyed under Conder and Kitchener; the sheet is dated May 1878), 11,108 × 9,050 px, from the David Rumsey Map Collection | **Small labels are legible.** Examples: Wady Nueiameh, Kh. el Mefjir, Jebel Kuruntul and Tahunet el Hawa, Tell es Sultan, Tell el Kôs, Eriha, Wady el Kelt with its aqueducts, el Bukeia, Kh. Mird, Kh. Kumrân, Wady Kumran, ʿAin Feshkha, Râs Feshkhah | CC BY-NC-SA 3.0 (David Rumsey). **Not committed** |
+  | `PEF_Judaea_Memoirs_Vol_III.pdf` + OCR | *SWP Memoirs* III, Judaea (1883), 510 PDF pages, sheets XVII–XXVI | Text layer on most pages | Public domain (1883) |
+  | `PEF_Palmer_Name_Lists_1881.pdf` + OCR | E. H. Palmer, *Arabic and English Name Lists* (1881), 452 PDF pages, keyed to the PEF sheets | Text layer on most pages | Public domain (1881) |
+  | `Jastrow_Dictionary_Vol_1.pdf`, `_Vol_2.pdf` | Jastrow, *Dictionary* (714 + 1,066 PDF pages) | Text layer on almost all pages | Public domain |
+  | `eusebius_onomasticon_01/02/03*.htm` | Wolf's Onomasticon translation, introduction and notes | Byte-identical to the copies already used in Phase 2 | tertullian.org |
+  | `Copper_Scroll_Studies_PUBLISHER_PREVIEW.pdf` | The same 37-page preview uploaded earlier | Duplicate | — |
+  | `README.md`, `START_HERE.html`, `manifest.json` | The archive's own notes and access routes | Read | — |
+
+- The archive's README lists sources that it could **not** download:
+  - Elitzur, *Ancient Place Names in the Holy Land*;
+  - the IAA *ʿAtiqot* 41 cave-survey reports (HTTP 403);
+  - the Hebrew University database of churches and monasteries;
+  - the Comprehensive Aramaic Lexicon.
+
+  These are still missing. Eshel's chapter, which the README also lists as missing, is in the full *Copper Scroll Studies* uploaded earlier.
+- Main use: Phase 3. Sheet XVIII covers the Jericho plain, Wadi Qelt, the Buqeia, Hyrcania (Kh. Mird) and the NW Dead Sea shore to Râs Feshkhah. This is the area missing from the TIR crops (Q3). It is a 19th-century survey, not TIR: names are the Arabic names of 1870s, and ancient identifications must come from other sources.
 
 ## Phase 2 reference corpora (downloaded in session 2; local only, not committed)
 
