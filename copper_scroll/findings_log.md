@@ -6,6 +6,51 @@ knowledge that does not come from the files in this repo.
 
 ---
 
+## Session 2, continued — 2026-09-28 (Phase 3: candidate sites, scored and mapped)
+
+See `phase3_summary.md`. Maps and tables are at site level only. The scroll's cubits, depths and directions were not converted into positions.
+
+- F3.1 (method) **Phase 3 scoring.**
+  - All 292 candidates that any source proposes for the 61 entries were scored against written rules:
+    - Elitzur's name test (F2.21);
+    - feature fit;
+    - sequence fit;
+    - reading dependence.
+  - Result: 23 best-supported, 88 possible, 141 weak, 40 ruled out.
+  - 23 entries have a best-supported place (16 medium, 7 low, none high). 37 have possible places only. Entry 41 has nothing to map.
+- F3.2 (evidence: PEF Sheet XVIII, read from the image; inference, medium–high confidence) **Wadi Nuweiʿimeh runs from NW to NE of Jericho.**
+  - Evidence: the sheet labels the springs ʿAin ed-Duk and ʿAin en-Nueiameh together NW of Jericho, and "Wady Nueiameh" east of Kh. el-Mefjer, NE of Jericho.
+  - Inference: TIR's "Achor Vallis" label (NW) and Milik's "Wadi Nuweiʿimeh, NE of Jericho" name two stretches of one wadi. They are not rival sites. This confirms the BK inference in F1.25.
+  - What stays open: the choice between the late-antique Achor (the Nuweiʿimeh) and the Iron Age Achor (the Buqeia). See Q13.
+- F3.3 (evidence) **Only two best-supported places pass both of Elitzur's conditions: Doq (31) and Siloam (49).**
+  - Kh. Ibziq for Bezek (59) also passes, but the name exists only in Puech's reading, so it stays "possible".
+  - Every other placement rests on the editors' agreement and the order of the entries, not on a surviving name.
+- F3.4 (evidence) **Puech's direction for Doq changed.**
+  - *Copper Scroll Studies* (2002) p. 83, which numbers the item 32: "at Doq to the north-east of Jericho".
+  - 2006 p. 192 and 2015 p. 15: north-west.
+  - Milik (ADAJ p. 148; DJD D19 p. 265) also says north-west.
+  - Inference (high confidence): the 2002 "north-east" is a slip. Jebel Qarantal and ʿAin Duk lie NW of Tell es-Sultan on PEF Sheet XVIII.
+- F3.5 (evidence) **ʿAṣla (18): two descriptions of the wadi.**
+  - Milik (DJD D6 p. 263) takes it as the middle part of one torrent, "successively Mukellik, ʿAṣla, Daber", with the spring ʿEin Nebi Musa.
+  - Clermont-Ganneau (SWP Memoirs III p. 200) went from Jericho towards Hajr el-Asbaʿ and Kh. Kumran. On the way he crossed "in succession the Wady el Kelt, the Wady Daber, and the little Wady el 'Asala", which reads as a separate small wadi near the coast.
+  - PEF Sheet XVIII labels only the hill "Jofet el Asla" (about 31.772 N, 35.451 E, georeferenced here), not the wadi.
+  - Inference (medium confidence): the placement can be given only at area level. See Q23.
+- F3.6 (evidence) **Errors found in the gazetteers.** See `phase3_summary.md` §6 for the full list.
+  - Pleiades 688571 (the Qumran aqueduct) has a rough placeholder location in Jerusalem.
+  - Pleiades Douka and Hyrkania lie 1.5 km and 1.7 km from the positions on PEF Sheet XVIII.
+  - Wikidata's Pool of Siloam item lies 1.6 km off.
+  - Wikidata "St George's Monastery" Q7588153 is a different monastery.
+  - Wikidata Q31248544 "Ibziq" is the modern village, 4.0 km from Kh. Ibziq.
+  - One reviewer cited Pleiades 687949 for Tell el-Aqabeh; 687949 is Kypros.
+  - Consequence: every coordinate was curated by hand, and automatic geocoding was not used.
+- F3.7 (method) **The georeference of PEF Sheet XVIII.** It is an affine fit to four control points (Qumran, Tell es-Sultan, Kh. el-Mafjar, Kh. Mird). The residuals are 15–106 m, which is adequate for site-level maps.
+- F3.8 (inference, medium confidence) **Where the feature fit is "unknown".** Seven best-supported placements (1, 17, 28, 36, 37, 46, 51) fix an area by name or by sequence, but no source describes the entry's landmark at the site. They are placements of an area, not of a landmark. These are the first questions for Phase 5.
+- F3.9 (evidence) **Two verdicts that depend on readings, reviewed.**
+  - Entry 55: the name "Bethesda" is Milik's emendation. The double pool fits Puech's reading "house of the two reservoirs" too (Puech 2015 p. 103: "not completely certain"). Best-supported stays at medium.
+  - Entry 37: only the landmark words depend on readings, and the place name is secure. Best-supported stays at low.
+
+---
+
 ## Session 2 — 2026-09-28 (DJD III; Phase 2: landmark lexicon)
 
 ### Method notes

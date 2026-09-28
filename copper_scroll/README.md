@@ -7,8 +7,8 @@ This folder is separate from the DSS letter-recogniser project described in the 
 ## Phases
 
 1. **Master table of all entries** (done, session 1; see `phase1_summary.md`)
-2. Landmark lexicon: Bible, Mishnah, Josephus, Eusebius
-3. Site candidates: Pleiades / TIR, scored against written criteria, mapped
+2. **Landmark lexicon:** Bible, Mishnah, Josephus, Eusebius (done, session 2; see `phase2_summary.md`)
+3. **Site candidates:** scored against written criteria and mapped at site level (done, session 2; see `phase3_summary.md`)
 4. Greek letters: occurrences and tests of the hypotheses
 5. Archaeology check of the top candidates
 
@@ -19,6 +19,7 @@ This folder is separate from the DSS letter-recogniser project described in the 
 | `sources.md` | yes | What is in the repo, what is missing, page offsets, encodings |
 | `phase1_summary.md` | yes | Entry count, clearest and most damaged entries, recurring terms, sequences |
 | `phase2_summary.md` | yes | Phase 2: the landmark lexicon, its main results and what it means for Phase 3 |
+| `phase3_summary.md` | yes | Phase 3: method, the 23 best-supported places, contested cases, gazetteer errors, files |
 | `findings_log.md` | yes | Running log, evidence vs inference, with pages |
 | `open_questions.md` | yes | Running list of open questions |
 | `tables/entry_concordance.csv` | yes | Puech entry ↔ Lefkovits item ↔ Milik item (from Milik 1960) ↔ line range, with boundary notes and other editors' divisions |
@@ -30,8 +31,13 @@ This folder is separate from the DSS letter-recogniser project described in the 
 | `copper_scroll_landmark_lexicon.csv` | **no** | The full Phase 2 lexicon (121 rows): each edition's meaning with page and short quotes, reading and meaning disagreements, attestations with comments, landmark type, what the term implies for locating, confidence, background knowledge (labelled), open questions |
 | `milik1962_words_sites.csv` | **no** | Milik's DJD III word list (section C, 212 entries) and site list (section D, 75 entries): Hebrew, occurrences, meaning (French), English summary, parallels, identification, his hedging verbatim |
 | `milik1960_commentary.csv` | **no** | Milik 1960's commentary, one row per heading (49): readings, identifications, evidence cited, his hedging verbatim. Phase 3 material |
+| `tables/phase3_site_index.csv` | yes | Phase 3 index, one row per entry: status (best-supported / possible only / unknown), best-supported place and confidence, possible places, candidate counts by verdict. No edition text |
+| `tables/phase3_places.csv` | yes | The 37 hand-curated places: coordinates, coordinate source, precision, kind (point or area), and the entries placed there by verdict and confidence |
+| `phase3_candidates.csv` | **no** | All 292 Phase 3 candidates with the full scoring, reasons with pages, and short quotes |
+| `phase3_entries.csv` | **no** | Per entry: the text's requirements, reading notes, best-supported place, why not the others, and the text's own relative description in each edition (quoted, not converted into positions) |
+| `phase3_map1_overview.png`, `phase3_map2_jericho_qumran.png`, `phase3_map3_jerusalem.png` | **no** | The three Phase 3 maps, at site level. Map 2 is built on PEF Sheet XVIII (CC BY-NC-SA 3.0) |
 
-The files marked **no** reproduce or quote copyrighted edition text. This GitHub repository is public, so they are delivered to you directly rather than committed.
+The files marked **no** reproduce or quote copyrighted edition text, or are built on a base map with a non-commercial share-alike licence. This GitHub repository is public, so they are delivered to you directly rather than committed.
 
 ## Master table columns
 

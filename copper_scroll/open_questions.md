@@ -14,7 +14,7 @@ Updated each session. Newest additions at the bottom of each group. "Needs" says
 - Q5. (Milik's practice is now confirmed firsthand; see Q4.) Does ובתכן אצלם / בתכן אצלן (V 7, XI 1, XI 4, XI 11, XI 15) close the preceding entry (Puech, Lefkovits) or begin a new one (Milik and followers)? This affects the count and what "the reckoning beside them" refers to.
 - Q6. Are 12/12a, 9 and 56 one deposit or several? This matters in Phase 3, because separate deposits could be at separate sites.
 
-- Q13. **Achor: Buqeia, Wadi Nuweiʿimeh (NE of Jericho), or TIR's label NW of Jericho?** See F1.25 and F2.2. Milik 1960 separates the Iron Age Achor (Buqeia) from the scroll's Achor (later tradition, NE of Jericho). *Session 2:* the Onomasticon text (Klostermann 18.17–20; 84.18–20) says "north of Jericho" and "beside Galgala". This rules out the Buqeia **for the 4th-century tradition only**, and it does not choose between NE and NW. *Needs:* the TIR gazetteer entry and the course of Wadi Nuweiʿimeh on a map (Phase 3).
+- Q13. **Achor: Buqeia, Wadi Nuweiʿimeh (NE of Jericho), or TIR's label NW of Jericho?** See F1.25 and F2.2. Milik 1960 separates the Iron Age Achor (Buqeia) from the scroll's Achor (later tradition, NE of Jericho). *Session 2:* the Onomasticon text (Klostermann 18.17–20; 84.18–20) says "north of Jericho" and "beside Galgala". This rules out the Buqeia **for the 4th-century tradition only**, and it does not choose between NE and NW. *Needs:* the TIR gazetteer entry and the course of Wadi Nuweiʿimeh on a map (Phase 3). **Partly resolved (Phase 3, F3.2):** on PEF Sheet XVIII the wadi rises at ʿAin ed-Duk / ʿAin en-Nueiameh NW of Jericho and runs east past Kh. el-Mafjar, so the NW and NE labels are one wadi. The choice between the late-antique Achor (Wadi Nuweiʿimeh: best-supported in Phase 3, low for entry 1, medium for entry 17) and the Iron Age Achor (Buqeia: possible) remains open.
 
 ## Readings that decide meaning (to be carried into Phase 2)
 
@@ -40,3 +40,15 @@ Updated each session. Newest additions at the bottom of each group. "Needs" says
 - Q20. ~~The key chapters of *Copper Scroll Studies* are missing.~~ **Resolved (session 2):** the full volume was uploaded (F2.17).
 - Q21. ~~Why DJD VII?~~ **Overtaken (session 2):** the DJD III plates volume was uploaded instead; DJD VII is not needed.
 
+## Added in Phase 3 (session 2)
+
+- Q22. **The King's Valley: one valley for entries 36–37 and 48?** 2 Sam 18:18 puts Absalom's monument in the King's Valley.
+  - One Phase 3 reviewer places the Valley of Shaveh = King's Valley (36–37) south of the city, towards Ramat Raḥel.
+  - The other places Absalom's monument (48) in the Kidron.
+  - Høgenhaven (p. 77) uses the 1QapGen equation "King's Valley = valley of Beth-ha-Kerem" for the Kidron. Milik uses it for the south-west.
+
+  *Needs:* Josephus AJ 7.243 in Greek; 1QapGen XXII 13–14; Høgenhaven pp. 75–79. Then one decision, applied to all three entries.
+- Q23. **ʿAṣla (18): which stretch?** Milik takes it as the middle part of the Mukellik–ʿAṣla–Daber torrent. Clermont-Ganneau (SWP III p. 200) describes a separate "little Wady el 'Asala" crossed after the Wady Daber (F3.5). *Needs:* the Palmer name list entry for Sheet XVIII, and Milik's "Survey" reference in D6.
+- Q24. **Doq (31): the summit fortress, the spring, or Kh. Abu Lahm?** The name survives at the spring (ʿAin Duk). Milik and Eshel put the fortress on the summit. SWP (pp. 173, 209) put the fort at Kh. Abu Lahm. *Needs:* the published excavation reports for the summit (Phase 5).
+- Q25. **Seven best-supported placements with "unknown" feature fit** (1, 17, 28, 36, 37, 46, 51; F3.8). Does any published report describe the landmark that the entry requires at these sites in the 1st century CE? *Needs:* Phase 5, with published reports only.
+- Q26. **Bethesda (55).** Is the name there, or only the "two reservoirs"? Only Milik's emendation gives "Bethesda". Puech says it needs "too many corrections" (CSS p. 76) but keeps a double pool. *Needs:* a plate check of XI 12 (DJD III plates).

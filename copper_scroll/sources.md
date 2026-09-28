@@ -204,6 +204,19 @@ Checked 2026-09-27 against branch `main` (commit 637a7a9, "Add files via upload"
 | Eusebius, *Onomasticon* | Wolf 1971 English translation (tertullian.org); Klostermann, GCS 11.1 (1904), Greek and Jerome's Latin (Internet Archive, OCR text) | Wolf: free online; Klostermann: public domain | Place names; Klostermann page.line references |
 | BDB (Augmented Strong) and Jastrow | Sefaria words API | Sefaria terms | Dictionary meanings |
 
+## Phase 3 place data and map layers (session 2; local only, not committed except the curated table)
+
+| Source | Use | Licence and notes |
+|---|---|---|
+| Pleiades CSV dumps (places, names, locations) | Ancient-place coordinates; a 573-place regional extract | CC BY. Errors found: see F3.6 |
+| Wikidata, regional extract by SPARQL box query (18,417 items) | Coordinates of modern-named sites and monuments | CC0. Some items are wrong or merged: see F3.6 |
+| OpenStreetMap via Nominatim | The outline of the Old City walls (relation 5862586), for orientation on map 3; a check of some Jerusalem points | © OpenStreetMap contributors, ODbL. The Nominatim "Haram" polygon (relation 3875817) is only the inner Dome of the Rock platform and was not used. Overpass was not reachable |
+| AWS Terrain Tiles (terrarium; Mapzen; SRTM and other sources) | Relief shading; the Dead Sea shoreline (SRTM, c. 2000, about −415 m) | Open data, with attribution |
+| Natural Earth 10 m | The Jordan river line | Public domain |
+| PEF Survey Sheet XVIII | The base of map 2; label positions for places not in the gazetteers (ʿAin Duk, Wady Nueiameh, Tell el-Kos, Wady Ekteif, Jofet el Asla, Kh. es-Sumrah) | CC BY-NC-SA 3.0 (David Rumsey Map Collection). Affine georeference with 4 control points, residuals 15–106 m (F3.7) |
+
+The hand-curated result is `tables/phase3_places.csv`. Each of its 37 rows names its coordinate source.
+
 ## TIR (Tabula Imperii Romani, Iudaea–Palaestina, 1994)
 
 `README.md` on `main` documents the search: no full North sheet was found in public digital form. What is in the repo:
