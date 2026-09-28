@@ -119,3 +119,11 @@ knowledge that does not come from the files in this repo.
   - item 64, XII 10: "the tunnel in the Smooth Rock to the north of Kohlit, which opens towards the north".
 
   Their place identifications are in the commentary, pp. 143–155. It has been extracted for Phase 3 but not yet analysed.
+- F1.25 (evidence, firsthand: Milik 1960 commentary pp. 143–147; flagged for Phase 3, not analysed) **Achor and Sekakah in Milik 1960.**
+  - *Achor.* Milik accepts that the Iron Age "Valley of Trouble" is **el-Buqeiʿah**, SW of Jericho (citing Noth 1955; Cross and Milik 1956). He argues that the Copper Scroll's Valley of Achor is the later traditional one: "the broad **Wadi Nuweiʿimeh, northeast of Jericho**". His evidence is Josephus (AJ V 33, 42–4), Eusebius and Jerome (Onomasticon 18, 84: "north of Jericho", "near Galgala"), and Eusebius's remark that the natives still used the name. He places Ḥorebbeh = the Byzantine monastery of Chorembe (John Moschus) "with more probability" near Kh. el-Mafjar.
+  - *Sekakah.* Biblical Sekakah = **Kh. es-Samra**, the central ruin of the Buqeia. For the scroll's author, however, "Sekaka" named the whole torrent of **Wadi Qumran**, and "the vale of ha-Sekaka" is the wadi between the cliff and the Dead Sea (p. 146). The aqueduct of V 1–2 is the Qumran aqueduct, and "Solomon's Pool" (V 5–7) is "undoubtedly" the cistern SE of Kh. Qumran (p. 147).
+  - Consequence for rule 5: at least three placements of the scroll's Achor must be tested in Phase 3:
+    - Buqeia (Allegro, per Lef. p. 29; and a view the uploaded dossier records);
+    - Wadi Nuweiʿimeh NE of Jericho (Milik 1960; Puech p. 179);
+    - TIR's "Achor Vallis" label NW of Jericho (repo crop).
+  - (Inference, **BK**, low confidence, to check in Phase 3) Wadi Nuweiʿimeh is thought to rise NW of Jericho near Naʿaran/ʿAin Duk and run east past Kh. el-Mafjar. If so, TIR's "NW" and Milik's "NE" may label different stretches of one wadi rather than rival sites.

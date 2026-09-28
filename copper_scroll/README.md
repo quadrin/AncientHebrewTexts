@@ -25,6 +25,7 @@ This folder is separate from the DSS letter-recogniser project described in the 
 | `copper_scroll_master_table.csv` | **no** | The master table (61 rows). It contains Puech's full edited text and Lefkovits's text and translation. |
 | `variants_long.csv` | **no** | 2,072 reported readings, one per row (scholar, reading, gloss, reporting edition, page, verdict) |
 | `puech_lines.csv` | **no** | Puech's text line by line (181 lines), with numeral values and sign notes |
+| `milik1960_commentary.csv` | **no** | Milik 1960's commentary, one row per heading (49): readings, identifications, evidence cited, his hedging verbatim. Phase 3 material |
 
 The three files marked **no** reproduce copyrighted edition text. This GitHub repository is public, so they are delivered to you directly rather than committed.
 
@@ -53,6 +54,7 @@ The three files marked **no** reproduce copyrighted edition text. This GitHub re
 - `damage_uncertainty_notes`: lines with lacunae, "(?)", engraver's corrections, and insertions or editorial additions, plus notes on letters above or below the line.
 - `division_notes`: how other editors divide or number the entry, with source pages.
 - `hebrew_lefkovits`, `translation_lefkovits`: Lefkovits's text and translation, read from the scanned images.
+- `readings_milik1960_firsthand`: Milik's readings (Latin transliteration, no diacritics) as he states them in his 1960 commentary, pp. 143–155, with page.
 - `translation_milik1960`: Milik's own English translation (ADAJ 1960, pp. 139–142), with his italics (*…*) marking uncertain renderings. His Hebrew readings are not given there.
 - `pages_puech`, `pages_lefkovits`: printed pages of the text and commentary.
 - `n_*`: counts used for the clarity ranking.

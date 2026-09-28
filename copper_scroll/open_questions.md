@@ -14,6 +14,8 @@ Updated each session. Newest additions at the bottom of each group. "Needs" says
 - Q5. (Milik's practice is now confirmed firsthand; see Q4.) Does ובתכן אצלם / בתכן אצלן (V 7, XI 1, XI 4, XI 11, XI 15) close the preceding entry (Puech, Lefkovits) or begin a new one (Milik and followers)? This affects the count and what "the reckoning beside them" refers to.
 - Q6. Are 12/12a, 9 and 56 one deposit or several? This matters in Phase 3, because separate deposits could be at separate sites.
 
+- Q13. **Achor: Buqeia, Wadi Nuweiʿimeh (NE of Jericho), or TIR's label NW of Jericho?** See F1.25. Milik 1960 separates the Iron Age Achor (Buqeia) from the scroll's Achor (later tradition, NE of Jericho). *Needs:* the TIR gazetteer entry, the course of Wadi Nuweiʿimeh on a map, and the Onomasticon passages he cites (Phase 3).
+
 ## Readings that decide meaning (to be carried into Phase 2)
 
 - Q7. **ככ: "karsh" (Puech, Lefkovits) or "talents" (Milik, Allegro)?** It scales 30 sums by about 300×.
