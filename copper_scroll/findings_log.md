@@ -6,6 +6,48 @@ knowledge that does not come from the files in this repo.
 
 ---
 
+## Session 2, continued — 2026-09-28 (Phase 4: the Greek letters)
+
+See `phase4_summary.md` and `tables/phase4_hypotheses.csv`.
+
+- F4.1 (evidence) **Seven groups, all at the end of an entry, all in columns I–IV.**
+  - The groups: ΚΕΝ I 4, ΧΑΓ I 12, ΗΝ II 2, ΘΕ II 4, ΔΙ II 9, ΤΡ III 7, (Ι)ΣΚ IV 2.
+  - Milik (DJD p. 221): "toujours à la fin des lignes et toujours à la fin de la description d'une cachette".
+  - The last group is at IV 2. Entries 16–20 follow on the same sheet without letters.
+  - Chance that all seven fall in columns I–IV if marked at random: 0.0003. Chance that all seven sit at line ends that end an entry: 0.0003.
+- F4.2 (evidence: DJD III pl. L; Puech 2015 facsimile; inference, high confidence) **II 4 reads ΘΕ, not ΞΕ.**
+  - Both facsimiles show an oval with a bar across it (Θ).
+  - ΞΕ would equal 65, the amount in that line. That is a numerical coincidence, and it must not choose the reading.
+- F4.3 (evidence and test) **The groups are not numerals for the amounts.**
+  - On standard values, 0 of the 5 comparable groups equals its amount.
+  - Only ΣΚ is a well-formed numeral (1.7 would be expected from random letters).
+  - Ullendorff's fit (via Lefkovits p. 499) needs at least four different rules for five groups.
+  - Milik (DJD p. 300): "cette hypothèse me paraît fausse".
+- F4.4 (evidence) **Lefkovits's table of values (p. 502) counts Σ as 6,** so it gives ΣΚ = 26. The standard value is 200 (BK), which gives 220. His conclusion does not change.
+- F4.5 (test; inference, medium–high confidence) **Name-matching gives almost no evidence.**
+  - 6 of the 7 groups open at least one proper noun in the Greek Josephus.
+  - But a random name-like two-letter group does so 87% of the time, and a three-letter group 22% of the time. About 4.8 of 7 matches are expected by chance.
+  - Only ΚΕΝ (Κενεδαῖος, BJ 2.520) adds weight.
+- F4.6 (evidence: Josephus BJ 5.474, Perseus/Niese text) **"Chageiras" is a restored name.**
+  - The text reads "καὶ ἀγίρας, ὅπερ σημαίνει χωλός" ("and agiras, which means 'lame'").
+  - Høgenhaven (p. 151 n. 40) reports a manuscript variant Κεαγιρας.
+  - Stegemann's ΧΑΓ = Chageiras (Adiabene) therefore rests on a restoration of the Josephus text, not on a printed name.
+- F4.7 (test) **No link to area or treasure.**
+  - In entries 1–15, marked and unmarked entries are spread alike over the Phase 3 areas (Fisher p = 0.60) and over the treasure features (all p ≥ 0.25).
+  - This supports Richey (via Høgenhaven pp. 150–153), and it does not support Pixner's "all near Jerusalem".
+- F4.8 (test; inference, low–medium confidence) **The opening columns differ in other formulae,** but not at the same point.
+  - The full word ככרין is in 7 of the first 16 entries and in 4 of the 45 later ones.
+  - ככ starts at III 7, חפור at II 14, and בבואך at IV 3.
+  - Weak support for a separate sub-list (Bar-Ilan; Puech 2006 p. 175, as a question).
+- F4.9 (test) **Anagram guard.** The 16 letters can spell 41 different Josephus proper-noun forms of 6 or more letters. Any hidden-name reading needs its target named in advance.
+- F4.10 (evidence) **The palaeographic claims conflict, and none dates the Greek forms.**
+  - Milik: the Greek is a book script (p. 221), the Hebrew is notarial (p. 216).
+  - Lefkovits: one hand engraved both (p. 503).
+  - Lika Tov: in I 4, ΚΕΝ is 2 mm lower (CSS p. 289).
+  - Puech: the Ι at IV 2 is engraved more deeply.
+
+---
+
 ## Session 2, continued — 2026-09-28 (Phase 3: candidate sites, scored and mapped)
 
 See `phase3_summary.md`. Maps and tables are at site level only. The scroll's cubits, depths and directions were not converted into positions.

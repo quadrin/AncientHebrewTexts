@@ -217,6 +217,17 @@ Checked 2026-09-27 against branch `main` (commit 637a7a9, "Add files via upload"
 
 The hand-curated result is `tables/phase3_places.csv`. Each of its 37 rows names its coordinate source.
 
+## Phase 4 sources (session 2)
+
+- **Editions.**
+  - Puech 2006 (pp. 174–175, 180–187, 219) and Puech 2015 (pp. 12–13, 28–50; facsimiles pp. 120–126).
+  - Lefkovits 2000 (Appendix C, pp. 498–504; item commentaries). The Greek was read from the page images, because the text layer garbles it.
+  - Milik 1960 (pp. 139–144) and DJD III (pp. 216, 221, 284–288, 300; plates XLVIII–LIV from the plates volume).
+  - Wolters 1994 has nothing on the Greek letters.
+- **Studies.** *Copper Scroll Studies*, all chapters; the relevant ones are Puech, Lefkovits, Bar-Ilan, Fidler, Goranson, Muchowski, Thiering, Lika Tov, Wise and Wolters. Also Høgenhaven 2020, pp. 28, 38, 50–62, 147–165, 185, 235.
+- **Josephus, Greek (Perseus, Niese; local, from Phase 2).** Used for the name base-rate test and for BJ 2.520, 5.474 and 6.387.
+- **Reported only at second hand** (see Q31): Ullendorff 1961; Pixner 1983; Stegemann 1993/1998; Weitzman; Richey 2012; Beyer 1994; Lehmann 1964; Lurie 1964; Zissu 2001; Bedman 2000; McCarter. Feather is mentioned only in passing (Fidler CSS p. 210 n. 1).
+
 ## TIR (Tabula Imperii Romani, Iudaea–Palaestina, 1994)
 
 `README.md` on `main` documents the search: no full North sheet was found in public digital form. What is in the repo:

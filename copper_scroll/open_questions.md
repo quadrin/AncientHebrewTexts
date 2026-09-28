@@ -52,3 +52,16 @@ Updated each session. Newest additions at the bottom of each group. "Needs" says
 - Q24. **Doq (31): the summit fortress, the spring, or Kh. Abu Lahm?** The name survives at the spring (ʿAin Duk). Milik and Eshel put the fortress on the summit. SWP (pp. 173, 209) put the fort at Kh. Abu Lahm. *Needs:* the published excavation reports for the summit (Phase 5).
 - Q25. **Seven best-supported placements with "unknown" feature fit** (1, 17, 28, 36, 37, 46, 51; F3.8). Does any published report describe the landmark that the entry requires at these sites in the 1st century CE? *Needs:* Phase 5, with published reports only.
 - Q26. **Bethesda (55).** Is the name there, or only the "two reservoirs"? Only Milik's emendation gives "Bethesda". Puech says it needs "too many corrections" (CSS p. 76) but keeps a double pool. *Needs:* a plate check of XI 12 (DJD III plates).
+
+## Added in Phase 4 (session 2)
+
+- Q27. **II 4, III 7 and IV 2: what do photographs (not drawings) show?**
+  - II 4: Θ or Ξ?
+  - III 7: is there a third letter (ΤΡΙ)?
+  - IV 2: what is the first letter, and is the Ι cancelled?
+
+  *Needs:* published photographs or the IAA images of those lines (reading only).
+- Q28. **Were the Greek letters engraved later, or by another hand?** This would decide H5 (Goranson) and H6 (Lika Tov), and test Lika Tov's 2 mm at I 4. *Needs:* published 3D surface data or high-resolution raking-light images.
+- Q29. **Why do the letters stop at IV 2?** No tested hypothesis explains it. The opening columns also differ in other formulae (F4.8). *Needs:* a full comparison of formulae and letter forms, entries 1–15 against 16–60.
+- Q30. **A stricter name test.** Josephus's proper nouns include places and peoples. *Needs:* a lexicon of personal names of the period, fixed before testing (BK: Ilan 2002).
+- Q31. **Second-hand reports to check against the originals:** Ullendorff 1961, Pixner 1983, Stegemann 1993/1998, Weitzman, Richey 2012, Beyer 1994, Lehmann 1964, Lurie 1964.
