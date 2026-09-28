@@ -49,8 +49,8 @@ Updated each session. Newest additions at the bottom of each group. "Needs" says
 
   *Needs:* Josephus AJ 7.243 in Greek; 1QapGen XXII 13–14; Høgenhaven pp. 75–79. Then one decision, applied to all three entries.
 - Q23. **ʿAṣla (18): which stretch?** Milik takes it as the middle part of the Mukellik–ʿAṣla–Daber torrent. Clermont-Ganneau (SWP III p. 200) describes a separate "little Wady el 'Asala" crossed after the Wady Daber (F3.5). *Needs:* the Palmer name list entry for Sheet XVIII, and Milik's "Survey" reference in D6.
-- Q24. **Doq (31): the summit fortress, the spring, or Kh. Abu Lahm?** The name survives at the spring (ʿAin Duk). Milik and Eshel put the fortress on the summit. SWP (pp. 173, 209) put the fort at Kh. Abu Lahm. *Needs:* the published excavation reports for the summit (Phase 5).
-- Q25. **Seven best-supported placements with "unknown" feature fit** (1, 17, 28, 36, 37, 46, 51; F3.8). Does any published report describe the landmark that the entry requires at these sites in the 1st century CE? *Needs:* Phase 5, with published reports only.
+- Q24. **Doq (31): the summit fortress, the spring, or Kh. Abu Lahm?** The name survives at the spring (ʿAin Duk). Milik and Eshel put the fortress on the summit. SWP (pp. 173, 209) put the fort at Kh. Abu Lahm. *Needs:* the published excavation reports for the summit (Phase 5). *Phase 5 (F5.5):* the published archaeology reports a Hasmonean fortress on the summit, and nothing like a drying floor. This favours Milik's landmark but cannot choose the reading (rule 7). Still open.
+- Q25. **Seven best-supported placements with "unknown" feature fit** (1, 17, 28, 36, 37, 46, 51; F3.8). Does any published report describe the landmark that the entry requires at these sites in the 1st century CE? *Needs:* Phase 5, with published reports only. **Answered (Phase 5, see `phase5_summary.md` §5):** in none of the seven does a published report describe the entry's own landmark at the site in the period. Ramat Raḥel (46) is lowered.
 - Q26. **Bethesda (55).** Is the name there, or only the "two reservoirs"? Only Milik's emendation gives "Bethesda". Puech says it needs "too many corrections" (CSS p. 76) but keeps a double pool. *Needs:* a plate check of XI 12 (DJD III plates).
 
 ## Added in Phase 4 (session 2)
@@ -65,3 +65,16 @@ Updated each session. Newest additions at the bottom of each group. "Needs" says
 - Q29. **Why do the letters stop at IV 2?** No tested hypothesis explains it. The opening columns also differ in other formulae (F4.8). *Needs:* a full comparison of formulae and letter forms, entries 1–15 against 16–60.
 - Q30. **A stricter name test.** Josephus's proper nouns include places and peoples. *Needs:* a lexicon of personal names of the period, fixed before testing (BK: Ilan 2002).
 - Q31. **Second-hand reports to check against the originals:** Ullendorff 1961, Pixner 1983, Stegemann 1993/1998, Weitzman, Richey 2012, Beyer 1994, Lehmann 1964, Lurie 1964.
+
+## Added in Phase 5 (session 2)
+
+- Q32. **Reports that were not accessible and would change the Phase 5 checks:**
+  - Magen et al. on Mount Gerizim (57);
+  - Zertal's Manasseh survey (Kh. Ibziq, 59);
+  - Hirschfeld's Herodium survey (39–45);
+  - Patrich on Mar Saba and Hyrcania (35; 16, 29);
+  - the full Szanton 2024 (49) and the Akeldama volume;
+  - Kenyon 1981 on the Tell es-Sultan cemetery;
+  - Vincent & Abel 1926 and Jeremias on Bethesda.
+- Q33. **Beth ha-Kerem after Phase 5.** If Ramat Raḥel had no large reservoir in use in the 1st century, is Aharoni's identification still the best one? It rests partly on the scroll's own sequence. *Needs:* the other published candidates for Beth ha-Kerem and their archaeology.
+- Q34. **The mouth of the Kidron gorge (35):** the Mar Saba stretch, or the point where the Kidron leaves the escarpment (Dahari)? *Needs:* Milik's and Puech's arguments for Mar Saba, read against the Region XIV report.

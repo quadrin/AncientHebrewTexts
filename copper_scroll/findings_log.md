@@ -6,6 +6,33 @@ knowledge that does not come from the files in this repo.
 
 ---
 
+## Session 2, continued — 2026-09-28 (Phase 5: the published archaeology)
+
+See `phase5_summary.md` and `tables/phase5_archaeology_index.csv`. Site level only. No feature is tied to an entry.
+
+- F5.1 (test) **Only 5 of the 23 best-supported entries have their required landmark reported at the site and in use in the late Second Temple period:** 21 (Qumran aqueduct), 32 (Wadi el-Qelt), 49 (Siloam), 55 (Bethesda) and 58 (Beth Shean).
+  - All five are water installations.
+  - 13 entries are confirmed only in part or without a date.
+  - 5 are not confirmed: 1, 28, 38, 46 (earlier only) and 57 (later only).
+- F5.2 (evidence: Szanton, *ʿAtiqot* 113 (2024); *HA-ESI* 132, 134, 135; Wilson 1871 p. 22) **Siloam (49) is raised to high.**
+  - A monumental stepped pool, other pools and channels, and a 1st-century street to the Temple Mount are reported.
+  - With its full name-test pass, this is now the best-supported identification in the scroll.
+  - What remains is textual: the engraved ר for ו, and a restored של.
+- F5.3 (evidence: Lipschits et al., Ramat Raḥel 2006–07 report pp. 15–18; INJ 17 pp. 59–60) **Ramat Raḥel (46) is lowered to low.**
+  - Its large pools were buried by the early Hellenistic period.
+  - In the 1st century it was a small village.
+  - The identification of Beth ha-Kerem also rests partly on the scroll's own sequence (Lefkovits p. 333 n. 11).
+- F5.4 (evidence: SWP III p. 222) **Tell el-Qos (30) is lowered to weak.** It is a heap of stones, and no ancient remains are reported there.
+- F5.5 (evidence: Eshel CSS pp. 100–101; *ʿAtiqot* 41, Eisenberg p. 120; inference) **Doq (31).**
+  - The archaeology has a Hasmonean fortress on the summit, the landmark in Milik's reading, and nothing like Puech's drying floor.
+  - Rule 7 forbids letting this choose the reading, so the verdict and Q24 stay as they are.
+- F5.6 (evidence: Zias 2023) **The standing Kidron monument is 1st century CE by style, but its earliest labels name Zacharias, not Absalom.** The Absalom placement (48) still rests on the sequence.
+- F5.7 (evidence: Warren 1871 pp. 196–197) **A second twin pool stood in the same quarter as Bethesda.** So a "house of two reservoirs" does not single out St Anne's (55).
+- F5.8 (evidence: *ʿAtiqot* 41, Dahari pp. 233, 239; inference, medium confidence) **The Kidron is a canyon where it leaves the escarpment too.** So "the mouth of the gorge" (35) does not by itself fix the Mar Saba end.
+- F5.9 (inference, medium confidence) **Water installations dominate the confirmations.** They are also the kind of feature that survives and is dated most often. The result may show what archaeology can see as much as what the scroll describes.
+
+---
+
 ## Session 2, continued — 2026-09-28 (Phase 4: the Greek letters)
 
 See `phase4_summary.md` and `tables/phase4_hypotheses.csv`.

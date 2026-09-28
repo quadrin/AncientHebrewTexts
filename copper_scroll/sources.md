@@ -228,6 +228,24 @@ The hand-curated result is `tables/phase3_places.csv`. Each of its 37 rows names
 - **Josephus, Greek (Perseus, Niese; local, from Phase 2).** Used for the name base-rate test and for BJ 2.520, 5.474 and 6.387.
 - **Reported only at second hand** (see Q31): Ullendorff 1961; Pixner 1983; Stegemann 1993/1998; Weitzman; Richey 2012; Beyer 1994; Lehmann 1964; Lurie 1964; Zissu 2001; Bedman 2000; McCarter. Feather is mentioned only in passing (Fidler CSS p. 210 n. 1).
 
+## Phase 5 sources (session 2)
+
+- **Local.**
+  - *ʿAtiqot* 41 (1993 IAA cave survey, Hebrew): regions V, VII, IX (Jebel Quruntul), X–XIII (by Qumran), XIV (Kidron), and the preface.
+  - Eshel, CSS ch. 6.
+  - SWP *Memoirs* II and III.
+  - The editions' archaeological notes: Milik DJD D; Puech 2015; Lefkovits; Høgenhaven.
+- **Online, open access (URLs in the local `phase5_reports.csv`).**
+  - *Hadashot Arkheologiyot* (hadashot.iaa.org.il), volumes 132–137.
+  - *ʿAtiqot* 113 (Szanton 2024, abstract) and *ʿAtiqot* 119 (Aharonovich et al. 2025, abstract).
+  - The IAA publications portal for *ʿAtiqot* 41.
+  - The Tel Aviv University Ramat Raḥel reports (2006–07; the INJ 17 hoard paper).
+  - Avni & Greenhut 1996 (abstract).
+  - Sala 2014 (author's copy).
+  - Zias 2023 (*ANE Today*).
+  - Warren and Wilson, *The Recovery of Jerusalem* (1871; Internet Archive).
+- **Blocked or unavailable:** see Q32.
+
 ## TIR (Tabula Imperii Romani, Iudaea–Palaestina, 1994)
 
 `README.md` on `main` documents the search: no full North sheet was found in public digital form. What is in the repo:
