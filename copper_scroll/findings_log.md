@@ -148,6 +148,11 @@ knowledge that does not come from the files in this repo.
   - The disputed words (Q11, Q14, Q15) can now be compared with Milik's drawing. The drawing is an editor's copy, so it cannot settle a reading alone.
 - F2.17 (evidence) **Two major secondary works are now available in full.** *Copper Scroll Studies* (2002/2004) and Høgenhaven 2020. The chapters on the Greek letters (Wolters ch. 22; Lika Tov ch. 20; Høgenhaven pp. 149–153) are the core material for Phase 4. The language chapters are being read for a Phase 2 addendum.
 
+- F2.18 (my own observation of the DJD III drawings, pl. LXIV and LXVI at about 150–300 dpi; low weight, because the drawings are an editor's copy and the scan is compressed) **What Milik's drawings show at the disputed words.**
+  - **IX 7 (Q14).** After הצופא the drawing has only two signs: a small yod/waw and a sign like bet/kaf/mem. This fits a two-letter word (ים, Milik and Lefkovits) better than the four letters of דרום (Puech). The drawing also shows ברוח (not בצריח) and החורין with yod. Milik's printed text inserts ṣade, ב<צ>ריח, and reads החורוׄן with a dotted waw. So Milik's drawing agrees with Puech's letters on those two words and differs from Milik's own transcription.
+  - **X 6 and X 13 (Q15).** Both lines show the same sequence: a waw/resh-like letter, then a gimel-shaped sign, then מות. Milik reads that as ר֯גמות "feet"; Puech and others take the gimel-shaped sign as a miswritten alef, אמות "cubits". The drawing reproduces the problem; it does not solve it.
+  - (Inference, medium confidence) For IX 7 the drawing somewhat favours ים. Puech says he used photographs and EDF images that the DJD team did not have. A check against Puech's own plates in the repo (vol. II) is still needed before this can count (Q11, Q14).
+
 ---
 
 ## Session 1 — 2026-09-27 (Phase 1: master table)
