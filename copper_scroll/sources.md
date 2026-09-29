@@ -284,6 +284,21 @@ A 5-page PDF you uploaded in session 1: `TIR_Copper_Scroll_Research_Summary.pdf`
 - Caveat: it states that no readable TIR map of Jerusalem–Jericho–Dead Sea was obtained. The repo crop `north_samaria_jerusalem.jpeg` does cover Jerusalem–Jericho legibly. What is missing is the Qumran/Dead Sea shore part.
 - Its claims are secondhand and have not been checked against the underlying publications. Treat them as leads until checked.
 
+## Source leads and uploads, 2026-09-29
+
+See [source_leads_2026-09-29.md](source_leads_2026-09-29.md) for the full notes.
+
+- **Uploaded (not in the repository):**
+  - Stacey, "Some Archaeological Observations on the Aqueducts of Qumran," *DSD* 14.2 (2007), pp. 222–243. Read in full.
+  - Zertal, *Manasseh Hill Country Survey* Vol. 2 (Brill 2008), 9 parts. Ibziq sites 42–44 (pp. 191–198), site 23 (pp. 151–153) and the name history (pp. 104–107) read, with page images checked.
+  - Zertal & Mirkam, Vol. 3, 7 parts, and Zertal & Bar, Vol. 4 (2019), 8 parts. Searched; Ibziq is in neither.
+- **Located, not yet read:**
+  - Patrich, "The Aqueducts of Hyrcania": Yad Ben-Zvi 1989, pp. 243–260 (Hebrew; the Ilan–Amit volume) and JRA Suppl. 46 (2002), pp. 336–352.
+  - Feldman 1974 (Hebrew); Garbrecht & Peleg, *BA* 57 (1994) 161–170.
+  - Magen, "Gerizim, Mount," NEAEHL Supplement (2008), pp. 1742–1748, free on the BAS Library. Its staircases and cistern are summarised in the notes.
+  - *HA* 40 (1971) p. 22 on the Ibziq excavation (IAA portal; 403 from the cloud sandbox).
+- **Print only or for sale:** Hirschfeld 1985 and Patrich 1994 survey maps; JRA Suppl. 46 (by email from J. & L. Humphrey).
+
 ## Text provenance and reuse
 
 Use the available editions as research sources. Keep ancient wording, an editor's restoration, a modern translation and the project's own interpretation distinguishable, with page and line citations. Existing files and historical delivery notes do not establish a blanket permission or prohibition for new publication. Follow [Text and publication](AGENTS.md#text-and-publication); a replacement-transcription search is not a prerequisite for the research.
@@ -301,32 +316,3 @@ Puech 2006, vol. II, in the local PDF parts 9–11:
 - **A second copy photograph:** pls. CCXCVI–CCCVII (part 9 pp. 50–61). It proved to be the same image.
 
 The plate captions were checked by `tools/plate_extract.py` before extraction. See [plate_check.md](plate_check.md).
-
-## Phase 5 source follow-up (29 September 2026)
-
-Details, pages and the effect on the entries are in [phase5_source_followup.md](phase5_source_followup.md).
-
-**Read (user uploads, local only, not committed):**
-
-| Source | Status | Use |
-|---|---|---|
-| D. Stacey, "Some Archaeological Observations on the Aqueducts of Qumran", *DSD* 14.2 (2007), pp. 222–243 | Read in full | Entry 21: the date and construction stages of the Qumran aqueduct |
-| A. Zertal, *The Manasseh Hill Country Survey* vol. 2, *The Eastern Valleys and the Fringes of the Desert* (Brill 2008), 9 parts | Ibziq entries read (sites 42–44, pp. 191–198), with site 23 (Kh. Salhab, pp. 151–153) and Ch. 3 on the name (pp. 104–107); page images checked | Entry 59 |
-| A. Zertal and N. Mirkam, *The Manasseh Hill Country Survey* vol. 3, *From Nahal ʿIron to Nahal Shechem*, 7 parts | Searched (201 site grids parsed) | Wrong volume for Ibziq; no Copper Scroll site |
-| A. Zertal and S. Bar, *The Manasseh Hill Country Survey* vol. 4, *From Nahal Bezeq to the Sartaba* (2019), 8 parts | Searched | Wrong volume for Ibziq; road B7 = the Neapolis–Scythopolis road |
-
-**Leads found by web search (not read unless noted):**
-
-| Source | Access |
-|---|---|
-| Magen, "Gerizim, Mount", *NEAEHL* Supplement (2008), pp. 1742–1748 | Free on the [BAS Library](https://library.biblicalarchaeology.org/book/the-new-encyclopedia-of-archaeological-excavations-in-the-holy-land/gerizim-mount/). Not read in full |
-| Magen, *JSP* 8 (*A Temple City*); *JSP* 19 (*Gerizim III*, coins) | *JSP* 8 not open access; [*JSP* 19](https://www.jstor.org/stable/10.2307/j.ctv2bwvt5v) open access |
-| Patrich, "The Aqueducts of Hyrcania", Hebrew 1989, pp. 243–260 | In the same volume as the Ilan–Amit chapter already obtained (Kotar book 6765980). Not read |
-| Patrich, the same, English, JRA Suppl. 46 (2002), pp. 336–352 | In the same JRA volume as Ilan–Amit 2002 (last row); cited in Gutfeld's NEAEHL entry on Hyrcania |
-| Feldman 1974, "The Water System of Hyrcania" (Hebrew), pp. 326–335 | Not read |
-| Garbrecht and Peleg, *BA* 57 (1994), pp. 161–170 | JSTOR |
-| Greenberg–Keinan sourcebook (2009), Hyrcania | Its Hyrcania record gives "ca. 20 cisterns and reservoirs; aqueduct"; licence L-133/1976 was a trial excavation of the water system |
-| *Hadashot Arkheologiyot* 40 (1971), p. 22 (Ibziq, licence L-52/1971) | [IAA portal](https://publications.iaa.org.il/ha_hebrew_series/1016); HTTP 403 from the cloud sandbox |
-| Hirschfeld 1985 (Herodium map); Patrich 1994 (*Map of Deir Mar Saba* 109/7) | Print only |
-| *JSP* 14 and 16 (*Christians and Christianity* II, IV) | Open access on JSTOR; contents not checked |
-| Ilan and Amit 2002, JRA Suppl. 46, pp. 380–386 | Sold only by email order (J. & L. Humphrey, journalofromanarchaeology.com/supplements) |

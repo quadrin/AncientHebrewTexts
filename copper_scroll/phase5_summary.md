@@ -4,7 +4,7 @@ Session 2, 2026-09-28. Desk research on published reports and editions only.
 
 **Review update, 2026-09-28:** the full Szanton 2023 article is now available. Entry 49 returns to medium overall confidence, conditional on the Siloam reading; its pool/outlet setting is supported, but its trough is unverified. The counts below incorporate this review. See [site identification review](site_identification_review.md) and F5.10–F5.13 for the evidence and the distinction between a site, a landmark type, and an individual feature.
 
-**Follow-up, 2026-09-29:** Zertal's survey of Kh. Ibziq (*Manasseh Hill Country Survey* vol. 2) and Stacey 2007 on the Qumran aqueducts have been read. Entry 59 (Kh. Ibziq) is lowered from possible, medium to possible, low. No other verdict changes. See [phase5_source_followup.md](phase5_source_followup.md) and F9.1–F9.11.
+**Follow-up, 2026-09-29:** Zertal's survey of Kh. Ibziq (*Manasseh Hill Country Survey* vol. 2) and Stacey 2007 on the Qumran aqueducts have been read. Entry 59 (Kh. Ibziq) is lowered from possible, medium to possible, low. No other verdict changes. See [source_leads_2026-09-29.md](source_leads_2026-09-29.md) and F9.1–F9.7.
 
 **Scope.** This phase asks one question of each Phase 3 place:
 
@@ -77,7 +77,7 @@ Session 2, 2026-09-28. Desk research on published reports and editions only.
 - **59, Kh. Ibziq: lowered to possible, low (follow-up, 2026-09-29).**
   - Zertal's survey (2008, vol. 2 pp. 191–198) reports cisterns, burial caves and a Roman road at the two Ibziq sites, but no conduit.
   - Upper Ibziq's pottery is mainly Late Roman to Mamluk, with only two illustrated Early Roman vessels. Lower Ibziq starts in the Byzantine period.
-  - Zertal attests the name at Ibziq only from the Byzantine period and puts biblical Bezek at Kh. Salhab (pp. 104–107, 151–153). Salhab is recorded as an alternative site for the name. See [phase5_source_followup.md](phase5_source_followup.md).
+  - Zertal attests the name at Ibziq only from the Byzantine period and puts biblical Bezek at Kh. Salhab (pp. 104–107, 151–153). Salhab is recorded as an alternative site for the name. See [source_leads_2026-09-29.md](source_leads_2026-09-29.md).
 
 ## 4. Other results worth recording
 
@@ -131,7 +131,7 @@ Session 2, 2026-09-28. Desk research on published reports and editions only.
 | File | In git? | Contents |
 |---|---|---|
 | `phase5_summary.md` | yes | This summary, incorporating the 2026-09-28 review and the 2026-09-29 follow-up |
-| `phase5_source_followup.md` | yes | 2026-09-29: access leads for the missing reports; Stacey 2007 and the Manasseh survey read; entry 59 lowered |
+| `source_leads_2026-09-29.md` | yes | 2026-09-29: access leads for the missing reports; Stacey 2007 and the Manasseh survey read; entry 59 lowered |
 | `site_identification_review.md` | yes | Revised shortlist, reading conditions, source corrections and limits of precision |
 | `tables/phase5_archaeology_index.csv` | yes | 31 rows: the landmark types each entry requires, whether reports describe them at the site, the period, the Phase 3 and Phase 5 verdicts, the main sources (references only) |
 | `tables/phase5_assessments.csv` | yes | The 37 full assessments, with the reviewers' reasons and the disputed landmark words. Entry 49 carries a correction note from the 2026-09-28 review |

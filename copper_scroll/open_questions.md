@@ -70,7 +70,7 @@ Updated each session. Newest additions at the bottom of each group. "Needs" says
 
 - Q32. **Reports that were not accessible and would change the Phase 5 checks:**
   - Magen et al. on Mount Gerizim (57);
-  - Zertal's Manasseh survey (Kh. Ibziq, 59). **Resolved 2026-09-29:** the Ibziq entries are in vol. 2, and were read; see the follow-up section below;
+  - Zertal's Manasseh survey (Kh. Ibziq, 59). **Resolved 2026-09-29:** the Ibziq entries are in vol. 2, and were read; see the source leads section below;
   - Hirschfeld's Herodium survey (39–45);
   - Patrich on Mar Saba and Hyrcania (35; 16, 29);
   - the Akeldama volume;
@@ -142,19 +142,16 @@ Updated each session. Newest additions at the bottom of each group. "Needs" says
 - Q16 update: Elitzur counts Beth-shean = Bēsān among his positive identifications (no. 63). The question is only the scroll's final mem.
 - Q38/Q40 outreach: the survey-data request went to Reeder and Jol on 29 September 2026, and the four-line reading request to Høgenhaven. Record replies here.
 
-## Phase 5 source follow-up — 2026-09-29
+## Source leads — 2026-09-29
 
-See [phase5_source_followup.md](phase5_source_followup.md).
+See [source_leads_2026-09-29.md](source_leads_2026-09-29.md).
 
-- Q32 update. Status of the reports that were not accessible:
-  - Magen on Gerizim (57): his NEAEHL Supplement entry (2008, pp. 1742–1748) is free on the BAS Library, **not yet read in full**. *JSP* 8 is not open access; *JSP* 19 (coins) is.
-  - Zertal on Kh. Ibziq (59): **resolved.** The Ibziq entries are in vol. 2 (pp. 191–198), not vol. 4, and were read (F9.8–F9.10).
-  - Hirschfeld on Herodium (39–45): print only. *JSP* 14 and 16 are open access and may cover the desert monasteries (not checked).
-  - Patrich on Hyrcania (16, 29): the 1989 Hebrew chapter (pp. 243–260) is in the same volume as the Ilan–Amit chapter already obtained; the English version is JRA Suppl. 46 pp. 336–352. Not read. Patrich's *Map of Deir Mar Saba* (35) is print only; Hyrcania is its site 70.
-  - The Akeldama volume, Kenyon 1981, and Vincent & Abel / Jeremias on Bethesda: no change.
-- Q38 update: Stacey 2007 (p. 228) separates an earlier channel that began near Ilan–Amit point 16 from the later dam and cliff aqueduct. This gives two testable "heads" for entry 21 (F9.4). *Needs:* Ilan–Amit 2002 Fig. 1 (JRA Suppl. 46, email order from J. & L. Humphrey), to check that its point 16 is the 1989 point 16, and its p. 385, for the Herod Archelaus date.
-- Q46 (new). **Which site had the name Bezek in the scroll's period (59)?** Zertal puts the name at Kh. Salhab before Ibziq, and attests it at Ibziq only from the Byzantine period. *Needs:*
-  - *HA* 40 (1971) p. 22, for the L-52/1971 excavation at Ibziq and its "minor Hellenistic" material;
-  - the grid reference and site description of Kh. Salhab (Zertal vol. 2 pp. 151–153), and Zertal vol. 2 p. 28 on the roads;
-  - any report of a large conduit or drain at Ibziq or Salhab.
-- Q47 (new). **Were Gerizim's Hellenistic staircases in use after about 111 BCE (57)?** Magen reports Hellenistic staircases and a courtyard cistern. *Needs:* the NEAEHL entry read in full, and the stratigraphy of the staircases in *JSP* 8.
+- Q32 update:
+  - **Zertal on Ibziq (59): read.** The write-up is in Vol. 2 (pp. 191–198), not Vol. 4. No conduit is reported at either Ibziq site. See F9.2–F9.3.
+  - **Magen on Gerizim (57): located.** The NEAEHL Supplement entry (2008, pp. 1742–1748) is free online; its Hellenistic staircases need a check for use after John Hyrcanus.
+  - **Patrich on Hyrcania (16, 29): located.** Yad Ben-Zvi 1989, pp. 243–260 (same volume as Ilan–Amit) and JRA Suppl. 46 (2002), pp. 336–352.
+  - **Hirschfeld (Herodium) and Patrich (Mar Saba) survey maps:** print only.
+- Q38 update: Stacey 2007 names point 16 as the head of an earlier run-off channel. Test "head of a subsection" at point 16 beside the dam intake (points 3/4). Check the 2002 figure numbering against the 1989 plan.
+- Q46 (new). **Entry 59: Ibziq or Kh. Salhab?** Zertal places Biblical Bezeq at Kh. Salhab (site 23, with Early Roman pottery) and dates the name at Ibziq from the Byzantine period. Ibziq is now "possible, low" (F9.3). *Needs:* *HA* 40 (1971) p. 22 on the Ibziq excavation; Zertal's grid for Kh. Salhab (pp. 151–153) before it can be mapped; a report of any conduit at Salhab.
+- Q47 (new). **Were Gerizim's Hellenistic staircases in use after about 111 BCE (57)?** Magen's NEAEHL entry reports Hellenistic staircases and a courtyard cistern; the Hellenistic city ends with John Hyrcanus (BK). *Needs:* the NEAEHL entry read in full, and the stratigraphy of the staircases in *JSP* 8.
+

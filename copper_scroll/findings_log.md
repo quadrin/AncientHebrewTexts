@@ -509,29 +509,15 @@ Full [reference trail, access record and constraint comparison](qumran_reference
 
   No replies yet.
 
-## Phase 5 source follow-up — 2026-09-29
+## Source leads, Stacey 2007 and Zertal — 2026-09-29
 
-See [phase5_source_followup.md](phase5_source_followup.md). It records access leads for the Q32 gaps and three user uploads: Stacey 2007 and *Manasseh Hill Country Survey* vols. 2–4.
+See [source_leads_2026-09-29.md](source_leads_2026-09-29.md).
 
-- F9.1 (record) **Access leads for the Phase 5 gaps were found by web search.** They are not read in full unless noted:
-  - Patrich on the Hyrcania aqueducts: Hebrew 1989 (pp. 243–260, in the same volume as the Ilan–Amit chapter already obtained) and English 2002 (JRA Suppl. 46 pp. 336–352);
-  - Magen's NEAEHL Supplement entry on Gerizim (2008, pp. 1742–1748), free on the BAS Library;
-  - *HA* 40 (1971) p. 22 for the Ibziq excavation (L-52/1971);
-  - Hirschfeld 1985 and Patrich 1994 survey maps: print only.
-- F9.2 (evidence: Stacey 2007 pp. 222–226, 239) **Stacey dates the main Qumran aqueduct no earlier than Herod, after the 31 BCE earthquake.** Its channel is sunk into earthquake debris. This is against de Vaux's date before 31 BCE.
-- F9.3 (evidence: Stacey 2007 p. 228 nn. 28–30) **Two upstream stages.**
-  - Earlier: a wide run-off channel from below the cliffs, at Ilan–Amit 2002 Fig. 1 "no. 16 eastward", with a low wall to catch run-off (quoting Ilan–Amit 2002 p. 385).
-  - Later: the dam at the foot of the waterfall and the tunnelled cliff aqueduct, "from the dam to the beginning of the earlier aqueduct".
-- F9.4 (inference, medium) **Entry 21: no change in confidence.** If the scroll postdates the dam stage, the head of the whole system is still the dam intake (1989 points 3/4). Under Stacey's phasing, 1989 point 16 (the bend where the channel leaves the cliff) is a documented former head, so "head of a subsection" is a concrete alternative. Both depend on Stacey's phasing, and the 2002 and 1989 figure numbers are assumed, not checked, to be the same.
-- F9.5 (evidence, secondhand: Stacey 2007 n. 3; pp. 236–237) **Other Qumran points.** The unread 2002 chapter (p. 385) assigns the aqueduct to Herod Archelaus, a different date from the 1989 discussion (p. 286). Qumran had no rock-hewn underground cisterns, unlike the Hasmonean desert fortresses. The tower watched the path up to Hyrcania.
-- F9.6 (evidence: Zertal and Mirkam vol. 3; Zertal and Bar vol. 4, 2019) **Ibziq is in neither vol. 3 nor vol. 4.** The earlier "vol. 4" lead is corrected to vol. 2.
-  - Vol. 3 has no Copper Scroll site. Its "Janua" (Onomasticon no. 544, near Legio) is not related to Lefkovits's Janoah at XII 10.
-  - Vol. 4's "Bezeq Canal" (site 23(1)) is a Chalcolithic site named after a modern channel. It is not a candidate for the "great conduit".
-- F9.7 (inference, low; evidence: Zertal and Bar vol. 4, Ch. 1) **Road B7 = the Neapolis–Scythopolis Roman road through the Bezeq Pass.** Gerizim/Shechem, Bezek and Beth Shean lie on one route. The scroll's order (57 Gerizim → 58 Beth Sham → 59 Bezek) does not follow it, because Bezek lies between the other two.
-- F9.8 (evidence: Zertal 2008 vol. 2 pp. 191–198) **The two Ibziq sites.**
-  - Upper Kh. Ibziq (site 44, grid 1878/1971, the atlas candidate): 45 cisterns, reused caves, a Roman road east of the site. No conduit, drain or channel. Pottery (102 sherds) is mainly Late Roman to Mamluk; there is no Hellenistic or Early Roman in the percentages, but Fig. 122 shows two Early Roman vessels.
-  - Lower Kh. Ibziq (site 42, 1 km NE): about 70 burial caves, 45 cisterns, a Roman road, a winepress with Greek names. Pottery Byzantine 80%, Early Muslim 20%.
-  - Zertal: the identification of Upper Ibziq with biblical Bezeq "is unfounded according to the results of the survey" (p. 197).
-- F9.9 (evidence: Zertal 2008 vol. 2 pp. 104–107, 151–153, 193–194) **The name Bezek moved.** Eusebius's two Bezek villages are the two Ibziq sites "with high probability". Zertal puts Canaanite Bezeq at Kh. esh-Sheikh Safiriyan and biblical Bezeq at Kh. Salhab (site 23; Early Roman 15%, 30 cisterns, no conduit). The name is attested at Ibziq only from the Byzantine period. El-Quleh (site 43) is a small fortress with Hellenistic–Herodian drafted masonry on the Roman road.
-- F9.10 (inference, medium) **Entry 59: Kh. Ibziq lowered from possible, medium to possible, low.** The conduit is still unreported, the period fit is weak, and the 4th-century name evidence does not show which site had the name in the scroll's period. The burial caves at Lower Ibziq match Puech's "burial chamber" only as a type, in a probably Byzantine setting. Kh. Salhab is recorded as an alternative site for the name. Applied in the Phase 5 index and assessments and in the atlas; the Phase 3 tables keep their original assessment.
-- F9.11 (lead, not read in full: Magen, NEAEHL 2008 pp. 1742–1748) **Gerizim has Hellenistic staircases** (15 steps east of the precinct; staircases 9 m and 23 m wide) and a mansion with a courtyard cistern, on a site "with no water sources". The Hellenistic city ends about 111 BCE (BK), so these may be earlier than the scroll's period. The entry 57 verdict is unchanged.
+- F9.1 (evidence: Stacey 2007 pp. 222–228, 239) **Stacey dates the main Qumran aqueduct after the 31 BCE earthquake** and puts a wide run-off channel from "no. 16 eastward" before the dam and cliff tunnel. Point 16 (the right-angle bend in the 1989 numbering) becomes a concrete alternative "head" for entry 21. The dam intake (points 3/4) stays the lead. Both rest on Stacey's phasing, and the 2002–1989 point-number match is assumed, not checked.
+- F9.2 (evidence: Zertal 2008, Vol. 2, pp. 191–198, 104–107) **Neither Ibziq site reports a conduit.** Upper Ibziq (site 44) has no Hellenistic pottery and only two illustrated Early Roman sherds; Lower Ibziq (site 42) starts in the Byzantine period. Zertal calls the Biblical Bezeq identification "unfounded" (p. 197) and places Biblical Bezeq at Kh. Salhab (site 23), which has 15% Early Roman pottery.
+- F9.3 (inference, medium) **Entry 59: Ibziq stays "possible", lowered from medium to low.** Kh. Salhab is recorded as an alternative bearer of the name. Applied in the atlas (`atlas/research/build_atlas.py`, dated revision) and the entry 59 reading notes; Salhab is not mapped. The Phase 3 tables keep their original assessment. *Updated on merge, 2026-09-29:* the Phase 5 index, the entry 59 assessment row and the Phase 5 summary now carry the change, as they did for entry 49 (F5.10).
+- F9.4 (inference, low) **Gerizim, Bezek and Beth Shean lie on one Roman road** (Neapolis–Scythopolis, road B7; Zertal & Bar 2019, Ch. 1). The scroll's order (Gerizim → Beth Sham → Bezek) does not follow it.
+- F9.5 (record) **Access leads for the other Phase 5 gaps** (Patrich on Hyrcania, Magen on Gerizim, *HA* 40 on Ibziq, the Herodium and Mar Saba maps, Ilan–Amit 2002) are listed with their access status.
+- F9.6 (lead, not read in full: Magen, NEAEHL Supplement 2008 pp. 1742–1748) **Gerizim has Hellenistic staircases** and a mansion with a courtyard cistern. The Hellenistic city ends about 111 BCE (BK), so these may be earlier than the scroll's period. The entry 57 verdict is unchanged; see Q47.
+- F9.7 (record) **Where the Stacey result is recorded.** Entry 21 keeps medium confidence. Its two possible "heads" (the dam intake at points 3/4; point 16 under Stacey's phasing) are a row in `tables/feature_constraints.csv`, a note in [ilan_amit_1989_plan_review.md](ilan_amit_1989_plan_review.md), an item in `registration/qumran_online_followup.json`, and the atlas text for entry 21.
+
