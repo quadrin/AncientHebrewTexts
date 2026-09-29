@@ -546,11 +546,11 @@
           "confidence": "medium"
         }
       ],
-      "evidence": "Qumran’s water system supplies a plausible conduit-head setting. Stacey reconstructs a lost intake dam; the original Ilan–Amit plan has been located bibliographically but remains inaccessible.",
-      "caution": "The link to Sekakah and the stone noun are partly restored. Northern approach and northern side must be tested separately. The pin marks the settlement.",
+      "evidence": "Qumran’s water system supplies a plausible conduit-head setting. Ilan–Amit’s 1989 plan puts the visible intake beside a reconstructed dam. Stacey (2007) dates the main aqueduct after the 31 BCE earthquake and makes the dam and the cliff tunnel a later stage.",
+      "caution": "The link to Sekakah and the stone noun are partly restored. Northern approach and northern side must be tested separately. Under Stacey’s phasing, the earlier channel began where the aqueduct leaves the cliff, so the head of a construction stage is an alternative to the dam intake; the phasing is a hypothesis. The pin marks the settlement.",
       "landmark": "the head of a water conduit",
       "period": "in use 1st c. BCE–70 CE",
-      "sources": "Eshel CSS pp. 94–95; ʿAtiqot 41 preface p. viii; Milik DJD D9; Puech 2006 pp. 187–189; Qumran reference review (28 September 2026); Lefkovits 2000 pp. 185–189; Stacey 2009, The Dam",
+      "sources": "Eshel CSS pp. 94–95; ʿAtiqot 41 preface p. viii; Milik DJD D9; Puech 2006 pp. 187–189; Qumran reference review (28 September 2026); Lefkovits 2000 pp. 185–189; Stacey 2009, The Dam; Stacey 2007, DSD 14 pp. 222–243",
       "featured": true
     },
     {
@@ -1505,20 +1505,20 @@
       "description": "A great conduit; the Bezek reading competes with other readings.",
       "lines": "XII 8-9",
       "status": "possible only",
-      "confidence": "medium",
+      "confidence": "low",
       "region": "region",
       "candidates": [
         {
           "placeId": "ibziq",
           "status": "possible",
-          "confidence": "medium"
+          "confidence": "low"
         }
       ],
-      "evidence": "Khirbet Ibziq offers a geographical and name-based candidate for Bezek.",
-      "caution": "The place name depends on a disputed reading, and the great conduit remains unreported.",
+      "evidence": "Khirbet Ibziq keeps the name Bezek, and Zertal takes the two Ibziq sites as Eusebius’s two Bezek villages.",
+      "caution": "The place name depends on a disputed reading. Zertal’s survey reports no conduit at either site, and little first-century pottery. The name is attested there only from the Byzantine period; Zertal puts biblical Bezek at Khirbet Salhab, which may have had the name in the scroll’s period.",
       "landmark": "a great conduit",
-      "period": "not stated",
-      "sources": "SWP II p. 237",
+      "period": "later mainly (Upper Ibziq LR–Mamluk, two ER vessels illustrated; Lower Ibziq from Byzantine)",
+      "sources": "Zertal 2008 (MHCS 2) pp. 104–107, 151–153, 191–198; SWP II p. 237; see phase5_source_followup.md",
       "featured": false
     },
     {
@@ -1986,7 +1986,7 @@
       "precision": "~300 m",
       "kind": "point",
       "region": "region",
-      "note": "",
+      "note": "Upper Kh. Ibziq, Zertal site 44 (Old Israel Grid 1878/1971). Lower Kh. Ibziq, site 42, lies 1 km north-east. Zertal reports cisterns, burial caves and a Roman road, but no conduit. Not a feature location.",
       "source": "Wikidata Q49354325 (Khirbet Ibziq); Q31248544 is the modern village 4.0 km SW",
       "shortName": "Khirbet Ibziq"
     },

@@ -33,6 +33,8 @@ No site confidence changes. The recovered *ʿAtiqot* 41 names V/48 as V/49's nei
 
 The [entry 40 review](entry40_bethhoron_review.md) adds Upper Beth-Horon as a possible, low-confidence place. It also records that Milik himself preferred the Horite tombs near Beit Guvrin in 1960, and re-checks the Phase 3 name tests against Elitzur's corpus.
 
+The [Phase 5 source follow-up](phase5_source_followup.md) (29 September 2026) lists access leads for the reports Phase 5 could not obtain, and reads Stacey 2007 and Zertal's *Manasseh Hill Country Survey*. Kh. Ibziq (59) is lowered to possible, low: Zertal reports no conduit there, and Kh. Salhab may have had the name Bezek in the scroll's period. Stacey's phasing gives entry 21 a second testable "head" of the Qumran aqueduct; its confidence does not change.
+
 ## Files
 
 | File | In git? | Contents |
@@ -44,6 +46,7 @@ The [entry 40 review](entry40_bethhoron_review.md) adds Upper Beth-Horon as a po
 | `phase4_summary.md` | yes | Phase 4: the Greek letters: readings, layout, 14 families of hypotheses, 9 tests, conclusions |
 | `phase5_summary.md` | yes | Phase 5: what published reports say about each place's required landmark and its period; changed verdicts; limits |
 | `site_identification_review.md` | yes | Current shortlist and the 2026-09-28 corrections to Phase 5 |
+| `phase5_source_followup.md` | yes | 2026-09-29: access leads for the missing Phase 5 reports; Stacey 2007 and the Manasseh survey (Ibziq) read; entry 59 lowered to low |
 | `web/index.html` (with `web/map1-overview.webp`, `web/map3-jerusalem.webp`) | yes | The public web page: the text of the scroll with a translation and clickable readings, scored place identifications, the archaeology check, the Greek letters, maps 1 and 3. For GitHub Pages at `https://quadrin.github.io/AncientHebrewTexts/copper_scroll/web/` once the folder is on `main` |
 | `web/scroll-reader.js` | yes | The scroll reader on the web page: the column strip, the facing Hebrew and English lines, and the readings panel |
 | `web/scroll-text.js` | yes | The Hebrew text of 3Q15: Abegg's transcription and morphology from the ETCBC `dss` dataset 2.0.1, **CC BY-NC 4.0**. Built by `tools/build_scroll_text.py`, which lists the changes made for display |

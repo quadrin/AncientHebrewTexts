@@ -51,3 +51,12 @@ The [plate check](plate_check.md) compared 30 disputed lines with Puech's copy p
 - **Bethesda (55):** the word's fifth letter looks like ח rather than ת, so Milik's name needs an emendation. The twin-pool description stands.
 
 No site confidence changes on the plates alone.
+
+
+## Phase 5 source follow-up — 29 September 2026
+
+The [source follow-up](phase5_source_followup.md) reads Stacey 2007 and Zertal's *Manasseh Hill Country Survey* vols. 2–4, and lists access leads for the other missing reports.
+
+- **Entry 21 (Qumran):** medium, unchanged. Stacey's phasing gives two testable "heads": the dam intake (points 3/4) and the start of an earlier channel near point 16. The phasing is a hypothesis, and the 2002 figure numbers are not checked.
+- **Entry 59 (Kh. Ibziq):** lowered from possible, medium to possible, low. Zertal reports no conduit at either Ibziq site, little first-century pottery, and the name only from the Byzantine period. Kh. Salhab is an alternative site for the name.
+- **Gerizim (57):** unchanged. Magen's NEAEHL entry reports Hellenistic staircases, but it has not been read in full, and the Hellenistic city ended about 111 BCE.
