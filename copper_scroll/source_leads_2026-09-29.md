@@ -104,4 +104,5 @@ This file addresses the Phase 5 gaps listed in [Q32](open_questions.md) and [pha
   - The period fit is weak. Lower Ibziq starts in the Byzantine period, and Upper Ibziq's 1st-century presence rests on two illustrated sherds.
   - The name evidence (Eusebius) is 4th century and fits the Byzantine villages. It does not show which site carried the name in the scroll's period; Zertal's own model allows Salhab.
   - The burial caves at Lower Ibziq match Puech's alternative "burial chamber" reading only as a type, and in an undated (probably Byzantine) setting.
-  - Suggestion: keep "possible", lower the confidence from medium to low, and record Salhab as an alternative bearer of the name. **Not yet applied** to the site tables or the atlas.
+  - Suggestion: keep "possible", lower the confidence from medium to low, and record Salhab as an alternative bearer of the name.
+  - **Applied 29 September 2026:** Kh. Ibziq is "possible, low" in the atlas (a dated revision in `atlas/research/build_atlas.py`) and in the entry 59 reading notes. Kh. Salhab is named there as an alternative; it is not mapped, because no coordinate has been taken from Zertal's grid. The Phase 3 and Phase 5 tables keep their original assessment.

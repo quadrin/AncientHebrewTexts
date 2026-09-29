@@ -1505,20 +1505,20 @@
       "description": "A great conduit; the Bezek reading competes with other readings.",
       "lines": "XII 8-9",
       "status": "possible only",
-      "confidence": "medium",
+      "confidence": "low",
       "region": "region",
       "candidates": [
         {
           "placeId": "ibziq",
           "status": "possible",
-          "confidence": "medium"
+          "confidence": "low"
         }
       ],
-      "evidence": "Khirbet Ibziq offers a geographical and name-based candidate for Bezek.",
-      "caution": "The place name depends on a disputed reading, and the great conduit remains unreported.",
+      "evidence": "Zertal identifies Eusebius’s two villages called Bezek, 17 miles from Neapolis, with the two Ibziq sites. Upper Ibziq has 45 cisterns and a Roman road; Lower Ibziq has about 70 burial caves.",
+      "caution": "Zertal’s survey reports no conduit at either site. Upper Ibziq has only two Early Roman sherds, and Lower Ibziq starts in the Byzantine period. Zertal places Biblical Bezek at Kh. Salhab, which has Early Roman pottery; it is not mapped here. The name also depends on the disputed reading.",
       "landmark": "a great conduit",
       "period": "not stated",
-      "sources": "SWP II p. 237",
+      "sources": "SWP II p. 237; Zertal 2008, Manasseh Hill Country Survey Vol. 2, pp. 104–107, 151–153, 191–198",
       "featured": false
     },
     {

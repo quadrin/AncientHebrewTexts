@@ -33,7 +33,7 @@ No site confidence changes. The recovered *ʿAtiqot* 41 names V/48 as V/49's nei
 
 The [entry 40 review](entry40_bethhoron_review.md) adds Upper Beth-Horon as a possible, low-confidence place. It also records that Milik himself preferred the Horite tombs near Beit Guvrin in 1960, and re-checks the Phase 3 name tests against Elitzur's corpus.
 
-The [source leads of 29 September 2026](source_leads_2026-09-29.md) locate the reports missing in Phase 5 (Q32). They also record three uploads: Stacey 2007 on the Qumran aqueducts (read in full) and Zertal's *Manasseh Hill Country Survey* Vols. 2–4 (Ibziq read in Vol. 2). For entry 59 they suggest lowering Kh. Ibziq from medium to low; that change is not yet applied.
+The [source leads of 29 September 2026](source_leads_2026-09-29.md) locate the reports missing in Phase 5 (Q32). They also record three uploads: Stacey 2007 on the Qumran aqueducts (read in full) and Zertal's *Manasseh Hill Country Survey* Vols. 2–4 (Ibziq read in Vol. 2). For entry 59, Kh. Ibziq is lowered from medium to low (applied in the atlas and the reading notes), and Kh. Salhab is recorded as an alternative bearer of the name.
 
 ## Files
 
