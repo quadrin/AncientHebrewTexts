@@ -46,7 +46,7 @@ records='''1|Valley of Achor|עמק עכור|A ruin and a flight of steps in the
 37|Shaveh's irrigated land|השוא|Irrigated land and a chamber or stone marker in Shaveh.
 38|Netophah|הנטף|A spring associated with a dovecote or cave opening.
 39|The terrace|חבלה|A terrace facing a chamber or tower.
-40|The Horite chambers|החורין|Chambers and a watercourse; the name and direction have competing readings.
+40|Horon or the Horites|החורין|Burial chambers facing the Sea (west) or south, and a channel; the name and the direction have competing readings.
 41|The damaged entry|קומעה|A very short, uncertain expression. No candidate has a defensible map location.
 42|The sounding conduit|ביב|A conduit and the sound of water; one reading supplies the name Kephar Nebo.
 43|Beth Tamar|בית תמר|A pit, exposed rock and a place read as Beth Tamar.
@@ -73,6 +73,10 @@ for r in rows('phase3_places.csv'):
     places[r['place_id']]={'id':r['place_id'],'name':r['name'],'lat':float(r['lat']) if r['lat'] else None,'lon':float(r['lon']) if r['lon'] else None,'precision':r['precision'],'kind':r['kind'],'region':r['map_group'],'note':r['note'],'source':r['coord_source']}
 short_names={'kh_qumran':'Khirbet Qumran','wadi_qumran':'Wadi Qumran','doq':'Jebel Qarantal / Doq','choziba':'Choziba · Wadi Qelt','jer_siloam':'Silwan pool & tunnel outlet','jer_bethesda':'Bethesda · St Anne’s','ramat_rahel':'Ramat Rahel','gerizim':'Mount Gerizim','beth_shean':'Beth Shean / Scythopolis','nuweimeh':'Wadi Nuweimeh','ain_duk':'Ain Duk springs','tell_es_sultan':'Tell es-Sultan','jericho_area':'Jericho oasis','jericho_palaces':'Jericho royal palaces','hyrcania':'Hyrcania / Khirbet el-Mird','mar_saba':'Kidron gorge · Mar Saba','natuf':'Ain en-Natuf · Khareitun','ibziq':'Khirbet Ibziq','buqeia':'Buqeia plateau','jer_east_gate':'Eastern gate & wall','jer_kidron_mon':'Kidron monuments','jer_kidron_east':'Silwan necropolis','jer_temple':'Temple enclosure','jer_se_corner':'Southeastern Temple slope','jer_south_wall':'Southern Temple wall','jer_baqa':'Baqa plain','jer_shaveh':'Shaveh / King’s Valley','jer_bir_ayyub':'Bir Ayyub / En-Rogel','jer_tyropoeon':'Tyropoeon valley','jer_tombs_kings':'Tombs of the Kings','jer_gethsemane':'Gethsemane','tell_el_ful':'Tell el-Ful','asla':'Asla area','kuteif':'Wadi Kuteif','jordan_ford':'Lower Jordan crossing','tekoa_herodium':'Tekoa–Herodium sector','tell_el_qos':'Tell el-Qos'}
 for k,p in places.items(): p['shortName']=short_names[k]
+# Revisions after Phase 3 (the Phase 3 tables keep their original assessment).
+# 29 September 2026: entry40_bethhoron_review.md adds Beth-Horon as a possible place for entry 40.
+places['beth_horon']={'id':'beth_horon','name':'Upper Beth-Horon (Beit ʿUr el-Foqa)','lat':31.88530,'lon':35.11341,'precision':'~300 m','kind':'point','region':'region','note':'Village anchor from the IAA Benjamin survey (sites 28/143). Lower Beth-Horon (Beit ʿUr et-Taḥta) is equally compatible and has the only tomb with pottery of the period. Not a feature location.','source':'IAA survey, Ramallah–Benjamin map 83/1, sites 28 and 143','shortName':'Upper Beth-Horon · Beit Ur'}
+revised_candidates={'40':[{'placeId':'beth_horon','status':'possible','confidence':'low'}]}
 places['jer_siloam']['note']='The inherited coordinate anchors the wider Siloam complex (~300 m). It does not select a particular pool or trough.'
 places['mar_saba']['note']='Mar Saba is one proposed stretch of the Kidron gorge. The escarpment exit remains another possibility.'
 specific={
@@ -83,14 +87,15 @@ specific={
 '22':('Qumran’s reservoirs provide a setting to test against the fissure east of the named reservoir.','Neither the ancient reservoir name nor the specific eastern fissure has been established. Jerusalem’s similarly named pool does not relocate this entry.'),
 '23':('Puech allows Shallum as an alternative to Solomon and a large boulder as the landmark. The channel’s connection to entry 22’s reservoir is conditional.','No origin or endpoint is identified for the stated distance. Entry order alone does not establish a continuous route.'),
 '24':('The wording permits a regional approach test from Jericho toward Sekakah. Wadi Kuteif remains a published proposal.','The recorded rock-cut chamber is undated and does not identify the required tomb. A route from entry 23 to entry 24 is not specified.'),
-'31':('A Hasmonean fortress occupied the summit. The name Doq survives nearby at Ain Duk.','Editors disagree over “fortress” and “drying floor.” The surviving name does not distinguish the summit from the spring; Q24 remains open.'),
+'31':('A Hasmonean fortress occupied the summit. The name Doq survives nearby at Ain Duk.','Editors disagree over “guard post” and “drying place.” The 2026 plate check leans to the drying place, so the fortress is not the landmark by default. The surviving name does not distinguish the summit from the spring; Q24 remains open.'),
+'40':('Under the reading “facing the Sea” (west), which the 2026 plate check favours, Beth-Horon keeps Milik’s textual basis; its name survives at Beit ʿUr, and rock-cut tombs are reported at both villages. Naṭuf rests on the order of the entries.','Milik himself later judged the Horite tombs near Beit Guvrin slightly more likely. Puech reads “south”. No chamber facing west, channel or 16-cubit depth is reported anywhere.'),
 '32':('Choziba preserves a related name, and the Wadi Qelt waterworks fit the outlet-and-wall description in the relevant period.','The individual outlet and retaining wall remain unidentified. The pin represents a stretch of the valley.'),
 '35':('The Kidron gorge supplies the named landscape; Mar Saba and Hyrcania feature in published proposals.','“Mouth of the gorge” could also describe the escarpment exit. No cairn fixes the location; Hyrcania’s link depends on restorations.'),
 '38':('The spring name and the Khareitun setting support a candidate in this district.','The required dovecote or cave feature has not been demonstrated at this spring.'),
 '46':('Ramat Rahel has an earlier pool-and-channel enclosure and later settlement.','The known enclosure lay under fill containing pottery as late as the second century BCE. The current verdict is low; the required period reservoir remains unverified.'),
 '48':('The standing Kidron monument has first-century architectural features.','Its earliest surviving labels name Zacharias. A first-century association with Absalom remains unestablished.'),
-'49':('The tunnel outlet and surrounding pools supply a compatible water-installation setting. Szanton distinguishes the smaller Silwan pool from Birkat el-Hamra.','Siloam depends on a disputed letter and supplied text. Lefkovits reads no Siloam name. The trough remains unverified; overall confidence stays medium and conditional.'),
-'55':('The Bethesda complex supplies double pools and a smaller basin in the relevant period.','The text may describe two pools without naming Bethesda. The nearby Strouthion twin pool prevents a unique match on that feature alone.'),
+'49':('The tunnel outlet and surrounding pools supply a compatible water-installation setting. Szanton distinguishes the smaller Silwan pool from Birkat el-Hamra.','Siloam depends on a supplied word; the 2026 plate check shows the disputed letter as a waw-shaped stroke, which leans to Puech without deciding it. Lefkovits reads no Siloam name. The trough remains unverified; overall confidence stays medium and conditional.'),
+'55':('The Bethesda complex supplies double pools and a smaller basin in the relevant period.','The text may describe two pools without naming Bethesda; the 2026 plate check shows what looks like a ḥet where Milik’s Bethesda needs a taw. The nearby Strouthion twin pool prevents a unique match on that feature alone.'),
 '57':('The mountain name provides the geographical anchor.','The checked steps and cisterns date later. Missing excavation reports prevent a comprehensive judgment about earlier features.'),
 '58':('Perennial springs and period water installations fit the regional setting at Beth Shean.','The scroll’s final mem differs from the usual nun in Beth Shean. No evidence selects the particular spring.'),
 '59':('Khirbet Ibziq offers a geographical and name-based candidate for Bezek.','The place name depends on a disputed reading, and the great conduit remains unreported.'),
@@ -113,14 +118,15 @@ for r in rows('phase3_site_index.csv'):
     caution='The placement remains at site or district level. The scroll’s individual feature has not been identified.'
     if eid in specific: evidence,caution=specific[eid]
     if eid=='41': evidence='The public index leaves this entry unmapped.';caution='The reading and geographical setting remain unresolved.'
+    candidates+=revised_candidates.get(eid,[])
     entries.append({'id':eid,'title':title,'hebrew':hebrew,'description':description,'lines':r['col_line'],'status':r['status'],'confidence':confidence,'region':places[ids[0]]['region'] if ids else 'unplaced','candidates':candidates,'evidence':evidence,'caution':caution,'landmark':primary['landmark_types_required'] if primary else '', 'period':primary['period'] if primary else 'Not established in the public archaeology index','sources':primary['main_sources'] if primary else 'Phase 3 site index; Phase 2 landmark lexicon','featured':eid in ['21','31','32','49']})
 for entry in entries:
     if entry['id'] in ['20','21','22','23','24']:
         entry['sources'] += '; Puech 2006 pp. 187–189; Qumran reference review (28 September 2026)'
     if entry['id']=='21':
         entry['sources'] += '; Lefkovits 2000 pp. 185–189; Stacey 2009, The Dam'
-out={'snapshot':'e3b51ce6523e947fe217a630d64fa16486fc3c7c','reviewDate':'28 September 2026','entries':entries,'places':list(places.values())}
-assert len(entries)==61 and len(places)==37
+out={'snapshot':'e3b51ce6523e947fe217a630d64fa16486fc3c7c','reviewDate':'29 September 2026','entries':entries,'places':list(places.values())}
+assert len(entries)==61 and len(places)==38
 assert all(c['placeId'] in places for e in entries for c in e['candidates'])
 (root.parent/'app/atlas-data.json').write_text(json.dumps(out,ensure_ascii=False,indent=2))
 print(f'Built {len(entries)} entries and {len(places)} places; {sum(p["lat"] is not None for p in places.values())} mapped anchors.')

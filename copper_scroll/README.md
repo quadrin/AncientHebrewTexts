@@ -22,6 +22,17 @@ The [feature investigation](feature_investigation.md) adds five feature comparis
 
 The [Qumran reference review](qumran_reference_review.md) locates Ilan–Amit’s aqueduct chapter and Hebrew figure index, records the registered-access barrier, and compares entries 20–24. The atlas now includes nine evidence reviews. The [Ilan–Amit plan review](ilan_amit_1989_plan_review.md) now examines the recovered Hebrew plan. The [research log](registration/qumran_online_followup.json) tracks subsequent source access; the [Humbert–Chambon review](registration/humbert_english_extracted.md) separates inlet phases and reconstructed channels. Specific feature matches and geographic registration remain open research questions.
 
+The [plate check](plate_check.md) (29 September 2026) tests 30 disputed lines against Puech's plates:
+
+- Siloam (49) leans to Puech's cursive waw.
+- Doq (31) leans to *hmšṭḥ*.
+- IX 7 leans to ים.
+- Milik's Bethesda reading needs an emendation.
+
+No site confidence changes. The recovered *ʿAtiqot* 41 names V/48 as V/49's neighbour for entry 17 ([review](entry17_cave_pair_review.md)).
+
+The [entry 40 review](entry40_bethhoron_review.md) adds Upper Beth-Horon as a possible, low-confidence place. It also records that Milik himself preferred the Horite tombs near Beit Guvrin in 1960, and re-checks the Phase 3 name tests against Elitzur's corpus.
+
 ## Files
 
 | File | In git? | Contents |
@@ -41,6 +52,10 @@ The [Qumran reference review](qumran_reference_review.md) locates Ilan–Amit’
 | `text/glossary_en.json` | yes | A short English meaning for each of the 247 lemmas in the Abegg text |
 | `text/readings.json` | yes | Notes on words the editions read or explain differently: each edition's reading and meaning, with pages, from the research files in this folder |
 | `tools/build_scroll_text.py`, `tools/build_scroll_notes.py` | yes | Build the two data files above. The first needs a local copy of ETCBC `dss` (instructions in the file) |
+| `plate_check.md`, `tables/plate_check.csv` | yes | Disputed readings checked against Puech 2006 vol. II copy photographs and radiographs, with a blind two-reader protocol (`registration/plate_check/`) |
+| `tools/plate_extract.py`, `tools/plate_check_items.py` | yes | Extract the column plates and cut the blind line crops (output stays outside git) |
+| `tools/photo_trace.py`, `registration/photo_tracing_strip13.json` | yes | The atlas photograph of strip 13: the Grooves and Relief images, and the VII 7–11 word tracings matched to Puech's radiograph pl. CCCXLVI (plate images stay outside git). See [the photographic reader note](atlas/research/photographic_reader.md) |
+| `entry40_bethhoron_review.md`, `registration/entry40_elitzur_extracted.md` | yes | Entry 40 (IX 7–9): Beth-Horon, the Horites and Naṭuf; Elitzur's name test re-checked |
 | `findings_log.md` | yes | Running log, evidence vs inference, with pages |
 | `open_questions.md` | yes | Running list of open questions |
 | `tables/entry_concordance.csv` | yes | Puech entry ↔ Lefkovits item ↔ Milik item (from Milik 1960) ↔ line range, with boundary notes and other editors' divisions |

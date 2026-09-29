@@ -44,3 +44,33 @@ Once the original pair is identified, compare entrance-centre, chamber-centre an
 The immediate target is now **Aronshtam English p. 87 (Cave 38 context) plus Eisenberg Hebrew p. 120 and the V/49 plan/section**. Compare those with the 1993 survey map to identify the neighbour and distinguish survey numbering from the IAA Cave 42 alias. No figure number is invented for the unread plan.
 
 Machine-readable source anchors, hashes, calculation and access outcomes are in [the register](registration/entry17_cave_leads.json). WGS84 positions, entrance footprints, atlas rankings and confidence labels remain unchanged. The original plans and terrain test are still outstanding.
+
+## ʿAtiqot 41 recovered — 29 September 2026
+
+The complete Hebrew issue has now been read: Eisenberg's V/49 report, Aronshtam's Region V survey, the index and the 1993 map. Page-level notes, quotations and computations are in [the extraction](registration/atiqot41_region_v_extracted.md).
+
+**Result: the neighbouring dwelling cave is V/48, not Cave 38.** Eisenberg names it on p. 120: "This dwelling cave (No. V/48), adjacent to Cave V/49, was hewn beside a path that connected the two caves." He dates its cutting to the Second Temple period without giving evidence.
+
+**V/48, as Aronshtam describes it (p. 94)**
+
+- grid 19040/14365, in the middle of the cliff;
+- a hewn row of three rooms parallel to the cliff, with a plastered cistern and a collapsed façade;
+- only two non-indicative sherds;
+- no plan.
+
+**The catalogue's "Cave 38" is a different cave, V/38.** Its record carries no individual grid point. The Greenberg–Keinan point is the centre of the V/30–47 group box (19025–40/14355–70). The 79 m figure above therefore measures nothing and is withdrawn. The catalogue's "Quruntul Cave 42" is V/49's 1993 field number (Index p. 260).
+
+**V/49 (pp. 105–106)**
+
+- Its two mouths face north (Plan 1, p. 106, the only plan and section).
+- It lies in the upper cliff within a small, hidden gully (Aronshtam p. 94).
+
+**Spacing.** By the printed 50 m grid, V/48 lies about 71 m south-east of V/49. The rounding allows 0 to about 141 m. The labelled cliff photographs (Aronshtam Figs. 1–2, pp. 91, 93) put V/38 and V/28–29 between them, so "adjacent" is loose. No midpoint is drawn:
+
+- neither V/48 nor V/38 has a published plan or measured entrance;
+- the path's route is not described;
+- p. 105 speaks of a path "prepared by the occupants of Cave V/50". This is either the same cliff path or a slip for V/48.
+
+**Candidate effect.** The entry 17 feature-pair lead becomes **V/49 + V/48**. The pair's identity is well supported; its spacing, path and contemporaneous use are not. V/28 (Early Roman sherds) and V/29 are the nearest labelled openings and remain alternatives if "two cavities" is not restricted to Eisenberg's pair. The test stays conditional on Achor = Wadi Nuweiʿimeh and on Puech's cavity reading of IV 6. The plate check could not settle IV 6: see [plate_check.md](plate_check.md). Atlas geometry and confidence labels are unchanged.
+
+**Next.** A field or drone view of the V/48–V/49 path and both entrances, or the unpublished V/38/V/48 plans, would allow the midpoint models to be tested.

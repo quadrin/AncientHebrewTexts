@@ -82,7 +82,7 @@ Updated each session. Newest additions at the bottom of each group. "Needs" says
 
 ## Added in the 2026-09-28 site review
 
-- Q35. **Does entry 49 actually name Siloam?** Puech's interpretation depends on reading the engraved ר as ו and supplying של; Lefkovits reads no Siloam name (pp. 352–354). *Needs:* a documented comparison of X 15–16 in the published photographs/radiographs and the competing editions, independent of the archaeological fit.
+- Q35. **Does entry 49 actually name Siloam?** Puech's interpretation depends on supplying של (he reads the disputed letter as a cursive waw, 2006 p. 200; the earlier wording here, "reading the engraved ר as ו", misstated this); Lefkovits reads no Siloam name (pp. 352–354). *Needs:* a documented comparison of X 15–16 in the published photographs/radiographs and the competing editions, independent of the archaeological fit.
 - Q36. **Which installation could entry 49 describe if Q35 favors Siloam?** *Needs:* compare the competing pool identifications and published outlet/channel plans. A period trough corresponding to the entry has not been established. Keep the candidate at complex level until both the reading and feature evidence permit more precision.
 - Q37. **Solomon's Pool (entry 22, V 6) and Milik's dating argument.**
   - The scroll puts a "reservoir of Solomon" in Sokokah.
@@ -107,3 +107,37 @@ Updated each session. Newest additions at the bottom of each group. "Needs" says
 - Q38 update: Ilan–Amit’s exact 2002 chapter citation and the 1989 Hebrew chapter/Fig. 1 index are located. The plan pages require registered access; no original-plan georeferencing has been performed. See the [reference and access record](qumran_reference_review.md).
 - Q41. **Solomon or Shallum in entry 23 (V 8–9)?** Puech 2006 p. 189 explicitly permits Shallum. Review the letter division independently before treating entries 22 and 23 as a connected reservoir/channel pair. Distinguish the boulder interpretation from mound or sepulchral interpretations.
 - Q42. **Which spatial relations survive across the Sekakah models?** Test entry 21’s northern flow versus northern side separately, entry 22’s eastern fissure, and entry 24’s approach from Jericho. Do not impose a continuous route through entries 20–24. Original plan, dated features and independent readings remain pending.
+
+
+## Plate check — 2026-09-29
+
+[plate_check.md](plate_check.md) and [tables/plate_check.csv](tables/plate_check.csv). Two blind readers and a non-blind review of Puech 2006 pls. CCCXXXIII–CCCLVI (radiographs) and CCCLIX–CCCLXXXI (copy photographs). Not a specialist reading.
+
+- **Q8 (IX 6 ½-sign).** The plates show a distinct final sign, not a unit stroke. This supports the ½ sign against 24 or an added 1–2. *Largely resolved*; the value ½ rests on the editors' sign table. New sub-question: the first numeral sign is a double '3' (20) in Puech's facsimile but a single hook (10) for both blind readers.
+- **Q9 (XI 7).** The plates show two letters at the line end and no ככ or numeral strokes. This leans to Puech's {בק}. *Narrowed.*
+- **Q11.** First pass done for 30 lines. VIII 9, VIII 13, X 11 and VII 14 need re-cropping on the facsimile line positions.
+- **Q12 (Janoah).** The plates show no yod and no צ. This leans to Puech's "situated"; ב/כ is open. *Narrowed.*
+- **Q14 (IX 7).** The plates show a short vertical and a closed final mem, with no clear stroke before them (the zone is cracked and washed out; Puech's facsimile draws dashed ד and ר there). This leans to ים. *Narrowed;* specialist check beside the saw cut.
+- **Q15 (feet/cubits).** The gimel-shaped letter is confirmed on the copy; Milik's extra ר is not seen at X 13. The unit remains a palaeographic question (cursive alef or gimel).
+- **Q24 (Doq word).** The plates lean to *hmšṭḥ*: two letters after ש, the second a ח. *Narrowed;* a letter hidden in the crack remains possible.
+- **Q26 (Bethesda).** The word's fifth letter looks like ח (possible), not ת; the ending is unclear. Milik's Bethesda needs ח→ת. *Narrowed against the name.*
+- **Q27 (Greek).** II 4 begins with Θ, not Ξ (resolved on the plates). III 7 has a third stroke after Ρ, longer than a letter; whether it is an Ι is not established. IV 2 cannot be decided on these reproductions.
+- **Q35 (Siloam).** A waw-shaped stroke without a head bar. Puech reads a cursive waw (2006 p. 200) and supplies של; he does not emend an engraved ר. *Narrowed;* the supplied particle and the Jehu division remain.
+- **Q41 (Solomon/Shallum).** V 9 begins with a ו close against עד. Irregular spacing prevents a decision.
+- ~~Q43 (new). X 16 sum.~~ **Withdrawn.** The copy shows three clear unit strokes after the tens sign, but radiograph pl. CCCLI shows at least five, possibly six; the sum 17 is compatible.
+
+## ʿAtiqot 41 — 2026-09-29
+
+- **Entry 17 neighbour: resolved.** Eisenberg names the adjacent dwelling cave as V/48 (p. 120). The catalogue's Cave 38 is a different cave, V/38, and the earlier 79 m spacing is withdrawn. See [entry17_cave_pair_review.md](entry17_cave_pair_review.md).
+- **Q44 (new). The V/48–V/49 path and entrances.** Eisenberg gives no distance or route. The printed grid allows 0–141 m, and V/38 and V/28–29 lie between on Aronshtam's photographs. *Needs:* a field or drone view, or the unpublished V/38 and V/48 plans.
+
+## Entry 40 and outreach — 2026-09-29
+
+- Q14 update: Milik's own *RB* 1960 note rated the Horite tombs near Beit Guvrin slightly above Beth-Horon, **even with ים**. So the direction word no longer decides between those two. It still decides against Puech's southern reading. See [entry40_bethhoron_review.md](entry40_bethhoron_review.md).
+- Q45 (new). **Entry 40: Beth-Horon, Beit Guvrin or Naṭuf?** All three are possible, low. *Needs:*
+  - DJD III D32 p. 268 and the Addenda (does Milik cite Jeremias?);
+  - the printed Benjamin survey (site 143 tomb plans and orientation);
+  - Jeremias, *Heiligengräber* pp. 82–86 (date of the Beit Guvrin necropolis);
+  - a specialist reading of IX 7.
+- Q16 update: Elitzur counts Beth-shean = Bēsān among his positive identifications (no. 63). The question is only the scroll's final mem.
+- Q38/Q40 outreach: the survey-data request went to Reeder and Jol on 29 September 2026, and the four-line reading request to Høgenhaven. Record replies here.

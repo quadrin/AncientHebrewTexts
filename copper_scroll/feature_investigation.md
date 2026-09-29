@@ -93,7 +93,7 @@ Use St Anne’s and the Sisters of Sion double-pool setting as a controlled comp
 
 ## Independent reading packet — ready, not yet reviewed
 
-Send a specialist the entry identifier and legally obtained plate references, without the proposed site on the first pass. No specialist has been contacted for this review.
+Send a specialist the entry identifier and legally obtained plate references, without the proposed site on the first pass. *Update 2026-09-29:* a request covering X 15, VII 11, IX 7 and XII 10, with plate references only, was sent to J. Høgenhaven (F8.6).
 
 - **21, V 1–3:** distinguish surviving strokes from supplied letters; assess the lost conduit–Sekakah link; attach the northern phrase grammatically; assess the supplied noun after “great.” Edition references: Puech 2006 p. 188; Lefkovits pp. 185–189. Puech points to Pls. CCCXLI–CCCXLII and CCCLXVII–CCCLXVIII for column V.
 - **32, VII 14–16:** record the evidence for Koziba versus Buz and the second landmark; distinguish letter choice from lexical interpretation. Puech p. 192; Lefkovits pp. 236–243. Column VII plate references in Puech: CCCXLV–CCCXLVI and CCCLXXI–CCCLXXII.

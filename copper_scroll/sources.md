@@ -171,6 +171,8 @@ Checked 2026-09-27 against branch `main` (commit 637a7a9, "Add files via upload"
   - the Comprehensive Aramaic Lexicon.
 
   These are still missing. Eshel's chapter, which the README also lists as missing, is in the full *Copper Scroll Studies* uploaded earlier.
+
+  **Correction 2026-09-29:** both were in fact uploaded at the end of session 2 and are described below (Elitzur: F2.21–F2.22; *ʿAtiqot* 41: F2.23); this list reflects the archive's own README. The 2026-09-28 reviews that reported *ʿAtiqot* 41 as inaccessible (HTTP 403) overlooked that upload. The user re-supplied both on 2026-09-29. *ʿAtiqot* 41 has now been read in detail for entry 17 ([extraction](registration/atiqot41_region_v_extracted.md)).
 - Main use: Phase 3. Sheet XVIII covers the Jericho plain, Wadi Qelt, the Buqeia, Hyrcania (Kh. Mird) and the NW Dead Sea shore to Râs Feshkhah. This is the area missing from the TIR crops (Q3). It is a 19th-century survey, not TIR: names are the Arabic names of 1870s, and ancient identifications must come from other sources.
 
 ### Elitzur 2004 (uploaded in session 2)
@@ -182,11 +184,12 @@ Checked 2026-09-27 against branch `main` (commit 637a7a9, "Add files via upload"
 
   Remarks (p. 13): an inexact location can be accepted if the name is rare; a badly preserved name can be accepted if the sources fix the place. Pottery supports but does not prove. Inscriptions are the best proof. Names can "wander" a short distance.
 - **Direct remarks on Copper Scroll places:**
-  - Dok (1 Macc 16:15, Δωκ) is "known to the Arabs as dūk or dyūk ('chickens')", a popular etymology, and "the two forms have remained in living use" (p. 139, a note in entry 28, Hadid; index "Dok … 139, 288, 351, 358").
+  - Dok (1 Macc 16:15, Δωκ) is "known to the Arabs as dūk or dyūk ('chickens')", a popular etymology, and "the two forms have remained in living use" (p. 139 n. 2, the note to entry 27, ʿId el-Miyye = Adullam; *corrected 2026-09-29* from "entry 28, Hadid"; index "Dok … 139, 288, 351, 358").
   - "Kohlith" is cited among names with the suffix -it, a type that became frequent in the Second Temple period (pp. 230, 334). This is a remark on the name's form, not on its location.
-  - Beth ha-Kerem is identified following Aharoni, with Genesis Apocryphon 22:14 and "the Copper Scroll 10,5" added to the sources (a note on p. 184 or 185, in entry 46, Bethlehem).
+  - Beth ha-Kerem is identified following Aharoni, with Genesis Apocryphon 22:14 and "the Copper Scroll 10,5" added to the sources (p. 185 n. 2, in entry 46, Bethlehem; checked 2026-09-29).
   - The steep cliffs of the Quruntul range "as they descend to Wadi Nweiʿmeh" (in the discussion of Benjamin's border).
 - Entry 17, Ragaba / רגב, is the village of Rageb in Transjordan. It has nothing to do with the scroll's word הרגב.
+- **Corpus list (pp. 15–18), checked 2026-09-29.** His 177 "positive or almost positive" identifications include Beth-Horon = [bēt ʿūr] (no. 51), Bezek = [bzīq] (no. 62) and Beth-shean = [bēsān] (no. 63), all on p. 16. The book's index does not cover this list. Siloam, Dok, Achor, Secacah and Kozeba are not in the corpus. See [entry40_bethhoron_review.md](entry40_bethhoron_review.md#elitzur-2004-the-name-test-re-checked).
 
 ### *ʿAtiqot* 41 (2002), Hebrew issue (uploaded in session 2)
 
@@ -286,3 +289,15 @@ A 5-page PDF you uploaded in session 1: `TIR_Copper_Scroll_Research_Summary.pdf`
 Use the available editions as research sources. Keep ancient wording, an editor's restoration, a modern translation and the project's own interpretation distinguishable, with page and line citations. Existing files and historical delivery notes do not establish a blanket permission or prohibition for new publication. Follow [Text and publication](AGENTS.md#text-and-publication); a replacement-transcription search is not a prerequisite for the research.
 
 For the distinction between preexisting material and new contributions in an edition, see [17 U.S.C. § 103(b)](https://www.copyright.gov/title17/92chap1.html#103). For the PEF map, see the [CC BY-NC-SA 3.0 terms](https://creativecommons.org/licenses/by-nc-sa/3.0/).
+
+
+## Plates used for the 2026-09-29 plate check
+
+Puech 2006, vol. II, in the local PDF parts 9–11:
+
+- **Radiographs of the original segments:** pls. CCCXXXIII–CCCLVI (part 10, PDF pages 23–46), two per column.
+- **Colour photograph of the galvanoplastic copy:** pls. CCCLIX–CCCLXXXI, odd numbers (part 10 pp. 51–69; part 11 pp. 1–3).
+- **Puech's facsimile drawings:** the even numbers CCCLX–CCCLXXXII.
+- **A second copy photograph:** pls. CCXCVI–CCCVII (part 9 pp. 50–61). It proved to be the same image.
+
+The plate captions were checked by `tools/plate_extract.py` before extraction. See [plate_check.md](plate_check.md).

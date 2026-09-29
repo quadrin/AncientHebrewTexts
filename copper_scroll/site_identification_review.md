@@ -17,7 +17,7 @@ Secondary candidates retain their limits: Bethesda/St Anne's (55, medium) compet
 
 ## Entry 49: reading and pool identity
 
-**Textual evidence.** Lefkovits pp. 352–354 reads no Siloam place name and discusses competing readings. Puech's Siloam interpretation depends on reading the engraved ר as ו and supplying של (2015 p. 92, as recorded in Phase 5). Name continuity at the modern site cannot establish that this name occurs in the scroll.
+**Textual evidence.** Lefkovits pp. 352–354 reads no Siloam place name and discusses competing readings. Puech's Siloam interpretation depends on supplying של (2015 p. 92, as recorded in Phase 5). *Corrected 2026-09-29:* he reads the disputed letter as a cursive waw rather than correcting an engraved ר (2006 p. 200); see the plate check below. Name continuity at the modern site cannot establish that this name occurs in the scroll.
 
 **Archaeological evidence.** Szanton's article is in *ʿAtiqot* 113 (**2023**), pp. 29–44. He proposes the smaller Silwan pool at the tunnel outlet as Siloam, and Birkat el-Ḥamra as Solomon's Pool. He also describes the competing identification of the large stepped Birkat el-Ḥamra as Siloam (pp. 35–42). The article does not identify a Copper Scroll feature.
 
@@ -40,3 +40,14 @@ Full references and access details are in [sources.md](sources.md#sources-checke
 ## Feature investigation supplement — 28 September 2026
 
 The [feature dossier](feature_investigation.md) audits the now-recovered full Phase 5 tables and separates reading, site and exact-feature confidence. It distinguishes Qumran’s inferred intake from the downstream photo outlet, compares three Wadi Qelt feature classes, checks Siloam’s published plans, and prepares independent-reading questions for Doq and Bethesda. All five site judgments remain medium and conditional; exact features remain unresolved. This supplement does not narrow the gazetteer coordinates.
+
+
+## Plate check supplement — 29 September 2026
+
+The [plate check](plate_check.md) compared 30 disputed lines with Puech's copy photographs and radiographs, using two blind readers and a non-blind review. For the shortlist:
+
+- **Siloam (49):** the plates lean to Puech's cursive waw; the supplied של and the trough remain open.
+- **Doq (31):** the landmark word leans to Puech's *hmšṭḥ* (drying place) over המשמרה (guard post). This weakens the textual support for the fortress as the landmark, not the site-level Doq association.
+- **Bethesda (55):** the word's fifth letter looks like ח rather than ת, so Milik's name needs an emendation. The twin-pool description stands.
+
+No site confidence changes on the plates alone.
