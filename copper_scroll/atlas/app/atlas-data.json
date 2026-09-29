@@ -1505,20 +1505,25 @@
       "description": "A great conduit; the Bezek reading competes with other readings.",
       "lines": "XII 8-9",
       "status": "possible only",
-      "confidence": "low",
+      "confidence": "medium",
       "region": "region",
       "candidates": [
         {
           "placeId": "ibziq",
           "status": "possible",
+          "confidence": "medium"
+        },
+        {
+          "placeId": "kh_salhab",
+          "status": "possible",
           "confidence": "low"
         }
       ],
-      "evidence": "Zertal identifies Eusebius’s two villages called Bezek, 17 miles from Neapolis, with the two Ibziq sites. Upper Ibziq has 45 cisterns and a Roman road; Lower Ibziq has about 70 burial caves.",
-      "caution": "Zertal’s survey reports no conduit at either site. Upper Ibziq has only two Early Roman sherds, and Lower Ibziq starts in the Byzantine period. Zertal places Biblical Bezek at Kh. Salhab, which has Early Roman pottery; it is not mapped here. The name also depends on the disputed reading.",
+      "evidence": "Zertal identifies Eusebius’s two villages called Bezek, 17 miles from Neapolis, with the two Ibziq sites. A kokhim tomb excavated at Kh. Ibziq in 1971 held pottery of the 1st–2nd centuries CE, which fits Puech’s alternative “burial chamber” reading in type. Zertal places the older Bezeq at nearby Kh. Salhab.",
+      "caution": "Zertal’s survey reports cisterns and burial caves but no conduit at either Ibziq site, and few Early Roman sherds on the surface. The place name depends on a disputed reading.",
       "landmark": "a great conduit",
-      "period": "later mainly (Upper Ibziq LR–Mamluk, two ER vessels illustrated; Lower Ibziq from Byzantine)",
-      "sources": "Zertal 2008 (MHCS 2) pp. 104–107, 151–153, 191–198; SWP II p. 237; see source_leads_2026-09-29.md",
+      "period": "partly: Roman kokhim tomb of the 1st–2nd c. CE (HA 40 p. 22); few Early Roman surface sherds (Upper Ibziq: two ER vessels illustrated; Lower Ibziq from Byzantine)",
+      "sources": "HA 40 (1971) p. 22; Zertal 2008 (MHCS 2) pp. 104–107, 151–153, 191–198; SWP II p. 237; see entry59_bezek_review.md and source_leads_2026-09-29.md",
       "featured": false
     },
     {
@@ -1986,7 +1991,7 @@
       "precision": "~300 m",
       "kind": "point",
       "region": "region",
-      "note": "Upper Kh. Ibziq, Zertal site 44 (Old Israel Grid 1878/1971). Lower Kh. Ibziq, site 42, lies 1 km north-east. Zertal reports cisterns, burial caves and a Roman road, but no conduit. Not a feature location.",
+      "note": "Upper Kh. Ibziq, Zertal site 44 (Old Israel Grid 1878/1971). Lower Kh. Ibziq, site 42, lies 1 km north-east. Zertal reports cisterns, burial caves and a Roman road, but no conduit. A kokhim tomb of the 1st–2nd centuries CE was excavated at Kh. Ibziq in 1971 (HA 40 p. 22). Not a feature location.",
       "source": "Wikidata Q49354325 (Khirbet Ibziq); Q31248544 is the modern village 4.0 km SW",
       "shortName": "Khirbet Ibziq"
     },
@@ -2001,6 +2006,18 @@
       "note": "Village anchor from the IAA Benjamin survey (sites 28/143). Lower Beth-Horon (Beit ʿUr et-Taḥta) is equally compatible and has the only tomb with pottery of the period. Not a feature location.",
       "source": "IAA survey, Ramallah–Benjamin map 83/1, sites 28 and 143",
       "shortName": "Upper Beth-Horon · Beit Ur"
+    },
+    {
+      "id": "kh_salhab",
+      "name": "Kh. Salhab (Kh. es-Selhab)",
+      "lat": 32.35504,
+      "lon": 35.37277,
+      "precision": "~300 m",
+      "kind": "point",
+      "region": "region",
+      "note": "Tell 3 km WSW of Upper Kh. Ibziq on the Neapolis–Scythopolis road. Zertal identifies it as biblical Bezeq (1 Sam 11:8) and holds that the name later moved to Ibziq. Early Roman pottery 15%; no conduit reported. Not a feature location.",
+      "source": "Zertal 2008, Manasseh Hill Country Survey 2, site 23 (Israel grid 1853/1957), converted to WGS84 from EPSG:28193 with pyproj; the same conversion puts Upper Ibziq about 230 m from its atlas anchor",
+      "shortName": "Kh. Salhab"
     }
   ]
 }

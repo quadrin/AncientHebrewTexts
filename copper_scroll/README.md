@@ -33,7 +33,9 @@ No site confidence changes. The recovered *ʿAtiqot* 41 names V/48 as V/49's nei
 
 The [entry 40 review](entry40_bethhoron_review.md) adds Upper Beth-Horon as a possible, low-confidence place. It also records that Milik himself preferred the Horite tombs near Beit Guvrin in 1960, and re-checks the Phase 3 name tests against Elitzur's corpus.
 
-The [source leads of 29 September 2026](source_leads_2026-09-29.md) locate the reports missing in Phase 5 (Q32). They also record three uploads: Stacey 2007 on the Qumran aqueducts (read in full) and Zertal's *Manasseh Hill Country Survey* Vols. 2–4 (Ibziq read in Vol. 2). For entry 59, Kh. Ibziq is lowered from medium to low (applied in the atlas and the reading notes), and Kh. Salhab is recorded as an alternative bearer of the name. The Phase 5 index and summary carry the change. Stacey's phasing is recorded as a constraint for entry 21; its confidence does not change.
+The [source leads of 29 September 2026](source_leads_2026-09-29.md) locate the reports missing in Phase 5 (Q32). They also record three uploads: Stacey 2007 on the Qumran aqueducts (read in full) and Zertal's *Manasseh Hill Country Survey* Vols. 2–4 (Ibziq read in Vol. 2). Stacey's phasing is recorded as a constraint for entry 21; its confidence does not change. The [Stacey 2007 review](qumran_stacey2007_review.md) gives his construction sequence in detail, with a check of his citations of the 2002 book.
+
+The [entry 59 review](entry59_bezek_review.md) reads Zertal's survey and *HA* 40. Neither Kh. Ibziq site has a reported conduit. On Zertal's survey alone, Kh. Ibziq was first lowered from medium to low. A 1971 excavation (*HA* 40 p. 22) then showed a kokhim tomb of the 1st–2nd centuries CE there, so Kh. Ibziq stays medium. Kh. Salhab (Zertal's biblical Bezeq) is added to the atlas as a low alternative. The Phase 5 index and summary carry the result. [sources.md](sources.md#sources-checked-2026-09-29-second-batch) records where the remaining reports can be found.
 
 ## Files
 
@@ -59,6 +61,8 @@ The [source leads of 29 September 2026](source_leads_2026-09-29.md) locate the r
 | `tools/photo_trace.py`, `registration/photo_tracing_strip13.json` | yes | The atlas photograph of strip 13: the Grooves and Relief images, and the letter-by-letter tracing of VII 7–11, with letters identified on Puech's radiograph pl. CCCXLVI (plate images stay outside git). See [the photographic reader note](atlas/research/photographic_reader.md) |
 | `entry40_bethhoron_review.md`, `registration/entry40_elitzur_extracted.md` | yes | Entry 40 (IX 7–9): Beth-Horon, the Horites and Naṭuf; Elitzur's name test re-checked |
 | `source_leads_2026-09-29.md` | yes | Access leads for the Phase 5 gaps (Hyrcania, Gerizim, Ibziq, Herodium, Mar Saba, Ilan–Amit 2002); notes on Stacey 2007 and Zertal's Manasseh survey Vols. 2–4 |
+| `entry59_bezek_review.md` | yes | Entry 59 (XII 8–9): Kh. Ibziq and Kh. Salhab in Zertal's Manasseh survey, Vols. 2–4 |
+| `qumran_stacey2007_review.md` | yes | Stacey 2007 on the phases of the Qumran aqueduct; effect on entries 20–22 |
 | `findings_log.md` | yes | Running log, evidence vs inference, with pages |
 | `open_questions.md` | yes | Running list of open questions |
 | `tables/entry_concordance.csv` | yes | Puech entry ↔ Lefkovits item ↔ Milik item (from Milik 1960) ↔ line range, with boundary notes and other editors' divisions |

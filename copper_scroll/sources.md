@@ -296,8 +296,25 @@ See [source_leads_2026-09-29.md](source_leads_2026-09-29.md) for the full notes.
   - Patrich, "The Aqueducts of Hyrcania": Yad Ben-Zvi 1989, pp. 243–260 (Hebrew; the Ilan–Amit volume) and JRA Suppl. 46 (2002), pp. 336–352.
   - Feldman 1974 (Hebrew); Garbrecht & Peleg, *BA* 57 (1994) 161–170.
   - Magen, "Gerizim, Mount," NEAEHL Supplement (2008), pp. 1742–1748, free on the BAS Library. Its staircases and cistern are summarised in the notes.
-  - *HA* 40 (1971) p. 22 on the Ibziq excavation (IAA portal; 403 from the cloud sandbox).
+  - *HA* 40 (1971) p. 22 on the Ibziq excavation (IAA portal; 403 from the cloud sandbox). *Read later the same day*; see the next section.
 - **Print only or for sale:** Hirschfeld 1985 and Patrich 1994 survey maps; JRA Suppl. 46 (by email from J. & L. Humphrey).
+
+## Sources checked 2026-09-29 (second batch)
+
+These add to the [source leads and uploads](#source-leads-and-uploads-2026-09-29) above.
+
+- **Zertal, Vol. 2 (2008).** Besides the Ibziq pages, Kh. Salhab (pp. 151–153) and the name history (pp. 104–107), the roads (pp. 25–28) were read. The pagination matches the Wikipedia citation "Zertal 2007, vol. 2, pp. 191–197". Review: [entry59_bezek_review.md](entry59_bezek_review.md).
+- **Stacey 2007.** Review: [qumran_stacey2007_review.md](qumran_stacey2007_review.md).
+- ***HA* 40 (1971), p. 22 (Kh. Ibziq excavation, L-52/1971).** **Read.** The item page returns 403, but the PDF opens at <https://publications.iaa.org.il/cgi/viewcontent.cgi?article=1016&context=ha_hebrew_series> (45 pp.). It reports a kokhim tomb of the 1st–2nd centuries CE (F9.9). See [entry59_bezek_review.md](entry59_bezek_review.md).
+- **Magen, "Gerizim, Mount," NEAEHL Supplement (2008), pp. 1742–1748.**
+  - An automated summary of the BAS Library page reports the Hellenistic staircases and the courtyard cistern listed in the source leads.
+  - A direct browser check shows only the History section without a login. That section dates the destruction of the temple and city to about 110 BCE by the coins (F9.11). The rest is paywalled, and the dates of use have not been checked (see Q47).
+- **Browser checks, 29 September 2026.**
+  - *Christians and Christianity* IV (JSP 16) covers sites in the Hebron hills and southern Judea. It has no chapter on Mar Saba, Castellion, Choziba or Chariton. Vol. II (JSP 14) is a site corpus, pp. 165–364, not yet searched.
+  - Boaz Zissu, "Kings, Hermits and Refugees in the Judean Desert in the Late Second Temple Period and During the Bar Kokhba Revolt," in *New Studies in the Archaeology of the Judean Desert* (IAA 2023), pp. 185–216, is open access on JSTOR. It is not yet read.
+  - Garbrecht and Peleg 1994 is on JSTOR, "read online" with a free account.
+  - *The Aqueducts of Israel* on Google Books (ID GWhoAAAAMAAJ) is snippet-only; see F9.10.
+  - WorldCat holdings could not be checked (a human-verification page).
 
 ## Text provenance and reuse
 

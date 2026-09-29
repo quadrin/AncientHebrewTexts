@@ -30,7 +30,7 @@ This file addresses the Phase 5 gaps listed in [Q32](open_questions.md) and [pha
 ### Ibziq (entry 59)
 
 - Correction: Zertal's write-up of Ibziq is in *Manasseh Hill Country Survey* Vol. 2 (pp. 191–197 per Wikipedia), not Vol. 4. The Internet Archive copy is print-disabled only.
-- Excavation: licence L-52/1971, *HA* 40 (1971) p. 22 (periods Rom2, Byz, Med; minor Hel). *HA* 40 is online at <https://publications.iaa.org.il/ha_hebrew_series/1016>. It returned 403 from the cloud sandbox; try it in a browser.
+- Excavation: licence L-52/1971, *HA* 40 (1971) p. 22 (periods Rom2, Byz, Med; minor Hel). *HA* 40 is online at <https://publications.iaa.org.il/ha_hebrew_series/1016>. It returned 403 from the cloud sandbox; try it in a browser. *Read later the same day* through the PDF link: a kokhim tomb of the 1st–2nd centuries CE ([entry59_bezek_review.md](entry59_bezek_review.md), F9.9).
 
 ### Herodium (entries 39–45) and Mar Saba (entry 35)
 
@@ -106,6 +106,7 @@ This file addresses the Phase 5 gaps listed in [Q32](open_questions.md) and [pha
   - The name evidence (Eusebius) is 4th century and fits the Byzantine villages. It does not show which site carried the name in the scroll's period; Zertal's own model allows Salhab.
   - The burial caves at Lower Ibziq match Puech's alternative "burial chamber" reading only as a type, and in an undated (probably Byzantine) setting.
   - Suggestion: keep "possible", lower the confidence from medium to low, and record Salhab as an alternative bearer of the name.
+  - *Revised later the same day:* *HA* 40 (1971) p. 22 reports a kokhim tomb of the 1st–2nd centuries CE at Kh. Ibziq. That restores the period evidence, so Kh. Ibziq is "possible, medium" again, and Kh. Salhab is mapped at "possible, low" from Zertal's grid. See [entry59_bezek_review.md](entry59_bezek_review.md) and F9.8–F9.9. The "Applied" note below records the intermediate state.
   - **Applied 29 September 2026:** Kh. Ibziq is "possible, low" in the atlas (a dated revision in `atlas/research/build_atlas.py`) and in the entry 59 reading notes. Kh. Salhab is named there as an alternative; it is not mapped, because no coordinate has been taken from Zertal's grid. The Phase 3 tables keep their original assessment. *Updated on merge:* the Phase 5 index (`tables/phase5_archaeology_index.csv`), the entry 59 row of `tables/phase5_assessments.csv`, the Phase 5 summary and the public web page also carry the change.
 
 ## Part 3. Other records updated

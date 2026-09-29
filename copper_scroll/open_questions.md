@@ -147,11 +147,16 @@ Updated each session. Newest additions at the bottom of each group. "Needs" says
 See [source_leads_2026-09-29.md](source_leads_2026-09-29.md).
 
 - Q32 update:
-  - **Zertal on Ibziq (59): read.** The write-up is in Vol. 2 (pp. 191–198), not Vol. 4. No conduit is reported at either Ibziq site. See F9.2–F9.3.
+  - **Zertal on Ibziq (59): read.** The write-up is in Vol. 2 (pp. 191–198), not Vol. 4. No conduit is reported at either Ibziq site. See F9.2–F9.3 and F9.8.
+  - ***HA* 40 on Ibziq (59): read.** A kokhim tomb of the 1st–2nd centuries CE (F9.9).
   - **Magen on Gerizim (57): located.** The NEAEHL Supplement entry (2008, pp. 1742–1748) is free online; its Hellenistic staircases need a check for use after John Hyrcanus.
   - **Patrich on Hyrcania (16, 29): located.** Yad Ben-Zvi 1989, pp. 243–260 (same volume as Ilan–Amit) and JRA Suppl. 46 (2002), pp. 336–352.
   - **Hirschfeld (Herodium) and Patrich (Mar Saba) survey maps:** print only.
-- Q38 update: Stacey 2007 names point 16 as the head of an earlier run-off channel. Test "head of a subsection" at point 16 beside the dam intake (points 3/4). Check the 2002 figure numbering against the 1989 plan.
-- Q46 (new). **Entry 59: Ibziq or Kh. Salhab?** Zertal places Biblical Bezeq at Kh. Salhab (site 23, with Early Roman pottery) and dates the name at Ibziq from the Byzantine period. Ibziq is now "possible, low" (F9.3). *Needs:* *HA* 40 (1971) p. 22 on the Ibziq excavation; Zertal's grid for Kh. Salhab (pp. 151–153) before it can be mapped; a report of any conduit at Salhab.
-- Q47 (new). **Were Gerizim's Hellenistic staircases in use after about 111 BCE (57)?** Magen's NEAEHL entry reports Hellenistic staircases and a courtyard cistern; the Hellenistic city ends with John Hyrcanus (BK). *Needs:* the NEAEHL entry read in full, and the stratigraphy of the staircases in *JSP* 8.
+- Q38 update: Stacey 2007 names point 16 as the head of an earlier run-off channel. Test "head of a subsection" at point 16 beside the dam intake (points 3/4). Check the 2002 figure numbering against the 1989 plan. Google Books full-text search of the 2002 book did not find the two phrases Stacey cites from p. 385 (F9.10). See [qumran_stacey2007_review.md](qumran_stacey2007_review.md).
+- Q46 (new). **Entry 59: Ibziq or Kh. Salhab?** Zertal places Biblical Bezeq at Kh. Salhab (site 23, with Early Roman pottery) and dates the name at Ibziq from the Byzantine period. Ibziq was lowered to "possible, low" (F9.3), then restored to "possible, medium" after *HA* 40 (F9.8). *Needs:*
+  - ~~*HA* 40 (1971) p. 22 on the Ibziq excavation~~ read: a kokhim tomb of the 1st–2nd centuries CE; no channel (F9.9). The licence file L-52/1971 may give the tomb's location;
+  - ~~Zertal's grid for Kh. Salhab (pp. 151–153) before it can be mapped~~ taken (1853/1957); Salhab is mapped at possible, low;
+  - a report of any conduit at Ibziq or Salhab: Gophna and Porath 1972 nos. 51–53 and 65; Zori 1977 nos. 50–51;
+  - an independent reading of XII 8–9 (הבזך vs הבור).
+- Q47 (new). **Were Gerizim's Hellenistic staircases in use after about 111 BCE (57)?** Magen's NEAEHL entry reports Hellenistic staircases and a courtyard cistern; the Hellenistic city ends with John Hyrcanus (BK; Magen, by the coins: about 110 BCE, F9.11). *Needs:* the NEAEHL entry read in full, and the stratigraphy of the staircases in *JSP* 8.
 
