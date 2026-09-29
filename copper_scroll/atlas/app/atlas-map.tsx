@@ -1,19 +1,21 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { Camera, Compass, LocateFixed, Map, Minus, Mountain, Plus, RotateCcw } from "lucide-react";
+import { Camera, Compass, LocateFixed, Map, Minus, Mountain, Plus, RotateCcw, ScrollText } from "lucide-react";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Slider } from "@/components/ui/slider";
 import type { Map as LibreMap, Marker, StyleSpecification, GeoJSONSource } from "maplibre-gl";
 import type { Entry, Place } from "./atlas-types";
 import { candidateAreas, candidateBounds } from "./atlas-geography";
 import GroundView from "./atlas-ground";
+import ScrollView from "./atlas-scroll";
 
-type Props = { entry: Entry; places: Place[]; entries: Entry[]; focusId: string | null; focusNonce: number; visibleIds: string[]; mode: string; onMode: (mode: string) => void; onPlace: (id: string) => void; mobileView: string };
+type Props = { entry: Entry; places: Place[]; entries: Entry[]; focusId: string | null; focusNonce: number; visibleIds: string[]; mode: string; onMode: (mode: string) => void; onPlace: (id: string) => void; onEntry: (id: string) => void; mobileView: string };
 const INITIAL = { center: [35.367, 31.82] as [number,number], zoom: 10.3 };
 const emptyCollection = { type: "FeatureCollection" as const, features: [] };
 export default function AtlasMap(props:Props) {
-  const {entry,places,entries,focusId,focusNonce,visibleIds,mode,onMode,onPlace,mobileView}=props;
+  const {entry,places,entries,focusId,focusNonce,visibleIds,mode,onMode,onPlace,onEntry,mobileView}=props;
+  const offMap=mode==="ground"||mode==="scroll";
   const container=useRef<HTMLDivElement>(null);
   const mapRef=useRef<LibreMap|null>(null);
   const markers=useRef<{marker:Marker;button:HTMLButtonElement;place:Place}[]>([]);
@@ -138,7 +140,7 @@ export default function AtlasMap(props:Props) {
   },[ready,entry,focusId,visibleIds,places,entries]);
 
   useEffect(()=>{
-    const map=mapRef.current;if(!ready||!map||mode==="ground")return;
+    const map=mapRef.current;if(!ready||!map||offMap)return;
     requestAnimationFrame(()=>map.resize());
     if(mode==="3d"){
       map.setTerrain({source:"terrain",exaggeration});
@@ -146,16 +148,16 @@ export default function AtlasMap(props:Props) {
     }else{
       map.setTerrain(null);map.easeTo({pitch:0,bearing:0,duration:reduced.current?0:700});
     }
-  },[mode,ready]);
+  },[mode,ready,offMap]);
   useEffect(()=>{if(ready&&mode==="3d")mapRef.current?.setTerrain({source:"terrain",exaggeration})},[exaggeration,ready,mode]);
   useEffect(()=>{
-    const map=mapRef.current;if(!ready||!map||focusNonce===0||mode==="ground")return;
+    const map=mapRef.current;if(!ready||!map||focusNonce===0||offMap)return;
     const p=places.find(p=>p.id===focusId);
     const bounds=p?candidateBounds(p):null;
     if(bounds){
       map.fitBounds(bounds,{padding:{top:125,bottom:150,left:50,right:60},maxZoom:16.7,pitch:mode==="3d"?60:0,bearing:mode==="3d"?-18:0,duration:reduced.current?0:1100,essential:false});
     }
-  },[focusNonce,ready,mode,focusId,places]);
+  },[focusNonce,ready,mode,offMap,focusId,places]);
   useEffect(()=>{if(mobileView==="map")requestAnimationFrame(()=>mapRef.current?.resize())},[mobileView]);
 
   function overview(){mapRef.current?.flyTo({...INITIAL,pitch:mode==="3d"?55:0,bearing:mode==="3d"?-18:0,duration:reduced.current?0:900})}
@@ -165,12 +167,12 @@ export default function AtlasMap(props:Props) {
     mapRef.current?.fitBounds([[Math.min(...bounds.map(b=>b[0][0])),Math.min(...bounds.map(b=>b[0][1]))],[Math.max(...bounds.map(b=>b[1][0])),Math.max(...bounds.map(b=>b[1][1]))]],{padding:{top:110,bottom:150,left:50,right:60},maxZoom:16.7,pitch:mode==="3d"?55:0,duration:reduced.current?0:800});
   }
   const selectedPlace=places.find(p=>p.id===focusId)??null;
-  return <section className={`map-surface ${mode==="ground"?"ground-mode":""}`} aria-label="Interactive candidate map">
+  return <section className={`map-surface ${offMap?"ground-mode":""} ${mode==="scroll"?"scroll-mode":""}`} aria-label={mode==="scroll"?"The text of the scroll":"Interactive candidate map"}>
     <div ref={container} className="map-canvas" aria-label="Geographic map of the Copper Scroll candidate sites" />
     <div className="map-paper-overlay" />
     <div className="map-toolbar">
-      <Tabs value={mode} onValueChange={onMode} className="map-mode"><TabsList aria-label="Landscape view"><TabsTrigger value="2d"><Map size={14}/>2D</TabsTrigger><TabsTrigger value="3d"><Mountain size={15}/>3D</TabsTrigger><TabsTrigger value="ground"><Camera size={15}/>Ground</TabsTrigger></TabsList></Tabs>
-      {mode!=="ground"&&<button className="tool-button" aria-label="Fit this entry’s candidates" title="Fit this entry’s candidates" onClick={fitEntry}><LocateFixed size={17}/></button>}
+      <Tabs value={mode} onValueChange={onMode} className="map-mode"><TabsList aria-label="Landscape view"><TabsTrigger value="2d"><Map size={14}/>2D</TabsTrigger><TabsTrigger value="3d"><Mountain size={15}/>3D</TabsTrigger><TabsTrigger value="ground"><Camera size={15}/>Ground</TabsTrigger><TabsTrigger value="scroll"><ScrollText size={15}/>Scroll</TabsTrigger></TabsList></Tabs>
+      {!offMap&&<button className="tool-button" aria-label="Fit this entry’s candidates" title="Fit this entry’s candidates" onClick={fitEntry}><LocateFixed size={17}/></button>}
     </div>
     <div className="map-caption">The Judean hills & the Jordan valley</div>
     <button className="compass-control" aria-label="Reset map north" onClick={()=>mapRef.current?.easeTo({bearing:0,duration:500})}><span>N</span><Compass strokeWidth={1.1} style={{transform:`rotate(${-bearing}deg)`}}/></button>
@@ -182,5 +184,6 @@ export default function AtlasMap(props:Props) {
     {!ready&&!error&&<div className="map-status" role="status">Unfolding the map…</div>}
     {error&&<div className="map-status" role="status">{error}<button onClick={()=>setRetry(v=>v+1)}>Retry map</button></div>}
     {mode==="ground"&&<GroundView key={`${focusId}-${entry.id}`} place={selectedPlace} entry={entry} places={places} onPlace={onPlace}/>}
+    {mode==="scroll"&&<ScrollView entry={entry} entries={entries} places={Object.fromEntries(places.map(p=>[p.id,p]))} onEntry={onEntry}/>}
   </section>;
 }
