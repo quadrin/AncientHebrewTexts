@@ -34,34 +34,35 @@ Other open images checked on Wikimedia Commons (29 September 2026):
 
 Eight words cover VII 7–11: ככרין, במערא, בית, הקץ, כדין, של, בדוק and תחת. They are **provisional tracings**, not a diplomatic transcription. The curved metal compresses the sides of the text, and corrosion interrupts strokes.
 
-Each traced stroke meets two conditions:
+Every letter of each word is traced, and each stroke names its letter:
 
-1. Puech's radiograph of strip 13 (2006, vol. II, p. 385, pl. CCCXLVI, second exposure) shows a letter stroke there.
-2. The photograph shows the groove along it.
+- **Solid** strokes follow a groove that this photograph shows.
+- **Dashed** strokes are shown by Puech's radiograph of strip 13 (2006, vol. II, p. 385, pl. CCCXLVI) but not by this photograph.
 
-Strokes that only the radiograph shows are left out. The gaps are deliberate. Each word's note in the reader says what is traced and what is missing. The weakest words are בית (a corrosion hole covers the left of ת), של (only two strokes of ש show; a crack crosses the word on the radiograph) and תחת (faint on this photograph).
+Letters were identified on that radiograph and on Puech's facsimile (p. 413, pl. CCCLXXII). Each word's note in the reader says which strokes are dashed. The weakest word on this photograph is תחת: its left-hand tav lies in shadow where the strip curves away. The Hebrew, glosses, translation and reading notes come from the existing atlas text data, with its existing source attribution.
 
-Line and word identification was checked against Puech's facsimile (p. 413, pl. CCCLXXII). The Hebrew, glosses, translation and reading notes come from the existing atlas text data, with its existing source attribution.
+### Earlier versions
 
-The earlier version (28 September 2026) had hand-drawn strokes on the 1600-px photograph. Its box for ככרין ran into the next word, ארבע, and several strokes did not follow the grooves. The present tracings replace it.
+- 28 September 2026: strokes drawn by hand on the 1600-px photograph. The box for ככרין ran into the next word, ארבע, and several strokes did not follow the grooves.
+- 29 September 2026 (first revision): strokes carried over from the radiograph by an automatic fit, keeping only pieces that the photograph confirmed. Too few strokes survived, and the words did not read as letters.
+
+The present tracing replaces both.
 
 ## Method
 
-[`../../tools/photo_trace.py`](../../tools/photo_trace.py) (`trace`) records the whole procedure, including which candidate strokes were kept and the few strokes drawn by hand. In summary:
+The tracing is stored in [`../../registration/photo_tracing_strip13.json`](../../registration/photo_tracing_strip13.json): for each word, its strokes with letter, status (`seen` or `inferred`) and points in reader units. [`../../tools/photo_trace.py`](../../tools/photo_trace.py) turns it into the reader's data:
 
-1. A groove map of the photograph and a stroke map of the radiograph. Cracks in the radiograph (thin, very dark, long) are found and removed.
-2. One affine transform carries the radiograph onto the photograph: three hand-picked points, refined by ECC on the two maps.
-3. The radiograph strokes are skeletonised into segments. Each word gets one shift (±20 units), each segment a further shift (±6 units), to the position where the photograph shows the strongest groove along it.
-4. Each segment was inspected on the full-size groove map. A segment was kept only where the photograph shows its groove. In four places the photograph shows a groove clearly that the transfer missed; those strokes were drawn by hand along the groove (listed in the tool).
+1. Each letter was read on the radiograph and the facsimile, and its strokes were placed by hand on the full-size photograph and its groove map.
+2. `trace` snaps each seen stroke onto the groove map: a shift of up to 4 units, then each point moves up to 2.5 units. It prints the groove response of every stroke. A seen stroke with a weak response (below 0.25) is re-examined and, if the photograph does not show it, set to `inferred`.
+3. `trace --update` writes the solid paths, dashed paths and hit boxes into `app/atlas-photo-data.json`.
+4. `review` writes local check sheets: the photograph, the photograph with the tracing, and the radiograph carried into the same frame (affine fit and per-word shift, stored in the JSON). The plate images stay local, as in the [plate check](../../plate_check.md).
 
-The output is [`../../registration/photo_tracing_strip13.json`](../../registration/photo_tracing_strip13.json); `--update` writes the paths and hit boxes into `app/atlas-photo-data.json`. The plate images stay local, as in the [plate check](../../plate_check.md).
-
-To extend coverage to more words: add the radiograph word box to `WORDS`, run `trace`, inspect the printed candidates on the groove map, and record the kept indices in `CURATION`. Do not place a modern Hebrew font over the photograph and label it a tracing.
+To extend coverage: add the word to the JSON with its strokes, run `trace` and `review`, and check each stroke against the photograph and the radiograph. Do not place a modern Hebrew font over the photograph and label it a tracing.
 
 ## Files and coordinate system
 
 - `app/atlas-photo.tsx`: reader and controls.
-- `app/atlas-photo-data.json`: source metadata, image versions, line/word references, boxes, SVG paths and notes.
+- `app/atlas-photo-data.json`: source metadata, image versions, line/word references, boxes, solid and dashed SVG paths, and notes.
 - `public/scroll/strip13.webp`, `strip13-grooves.webp`, `strip13-relief.webp`: the three image versions.
 
 The SVG uses a 1000 × 1628 coordinate system for the image, hit regions and tracings together (1 unit = 2.467 px of the original). Zoom and pan change only the SVG viewBox. Mouse, touch and keyboard controls select words; dragging suppresses selection. Reduced-motion preferences disable stroke animation.

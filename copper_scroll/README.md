@@ -54,7 +54,7 @@ The [entry 40 review](entry40_bethhoron_review.md) adds Upper Beth-Horon as a po
 | `tools/build_scroll_text.py`, `tools/build_scroll_notes.py` | yes | Build the two data files above. The first needs a local copy of ETCBC `dss` (instructions in the file) |
 | `plate_check.md`, `tables/plate_check.csv` | yes | Disputed readings checked against Puech 2006 vol. II copy photographs and radiographs, with a blind two-reader protocol (`registration/plate_check/`) |
 | `tools/plate_extract.py`, `tools/plate_check_items.py` | yes | Extract the column plates and cut the blind line crops (output stays outside git) |
-| `tools/photo_trace.py`, `registration/photo_tracing_strip13.json` | yes | The atlas photograph of strip 13: the Grooves and Relief images, and the VII 7–11 word tracings matched to Puech's radiograph pl. CCCXLVI (plate images stay outside git). See [the photographic reader note](atlas/research/photographic_reader.md) |
+| `tools/photo_trace.py`, `registration/photo_tracing_strip13.json` | yes | The atlas photograph of strip 13: the Grooves and Relief images, and the letter-by-letter tracing of VII 7–11, with letters identified on Puech's radiograph pl. CCCXLVI (plate images stay outside git). See [the photographic reader note](atlas/research/photographic_reader.md) |
 | `entry40_bethhoron_review.md`, `registration/entry40_elitzur_extracted.md` | yes | Entry 40 (IX 7–9): Beth-Horon, the Horites and Naṭuf; Elitzur's name test re-checked |
 | `findings_log.md` | yes | Running log, evidence vs inference, with pages |
 | `open_questions.md` | yes | Running list of open questions |
