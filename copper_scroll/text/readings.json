@@ -4311,19 +4311,32 @@
     "ref": "D32 p. 268"
    },
    {
+    "who": "Milik 1960 (RB 67)",
+    "reading": "",
+    "meaning": "'Tombs of the Horites' near Beit Guvrin (after Jeremias), judged about as plausible as Beth-Horon and slightly more likely",
+    "ref": "RB 67 (1960) pp. 222–223"
+   },
+   {
     "who": "Høgenhaven 2020",
     "reading": "",
     "meaning": "underground chambers, probably burial chambers",
     "ref": "p. 76"
+   },
+   {
+    "who": "Jeremias 1960",
+    "reading": "",
+    "meaning": "Tombs of the Horites: the shaft-tomb necropolis north of Beit Guvrin (Eleutheropolis)",
+    "ref": "RB 67 (1960) pp. 220–222"
    }
   ],
-  "note": "The החורון shown here follows Milik's printed text, but his own drawing shows החורין with yod, as Puech reads. Beth-Horon depends on Milik's letters and on 'facing the Sea'; the lexicon rates the name low and the place is open.",
+  "note": "The החורון shown here follows Milik's printed text, but his own drawing shows החורין with yod, as Puech reads. Beth-Horon depends on Milik's letters and on 'facing the Sea'; the lexicon rates the name low and the place is open. Milik's own 1960 note, written before DJD III appeared, rated the Horite tombs near Beit Guvrin slightly above Beth-Horon, and the Tosefta spells the town בית חורין, so the yod does not exclude Beth-Horon. The research keeps Beth-Horon, Beit Guvrin and ʿAin en-Naṭuf as possible, low-confidence candidates.",
   "sources": [
    "findings_log.md",
    "phase2_summary.md",
    "open_questions.md",
    "tables/landmark_lexicon_index.csv",
-   "tables/phase5_assessments.csv"
+   "tables/phase5_assessments.csv",
+   "entry40_bethhoron_review.md"
   ]
  },
  {

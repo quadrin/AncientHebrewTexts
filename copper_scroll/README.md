@@ -31,6 +31,8 @@ The [plate check](plate_check.md) (29 September 2026) tests 30 disputed lines ag
 
 No site confidence changes. The recovered *ʿAtiqot* 41 names V/48 as V/49's neighbour for entry 17 ([review](entry17_cave_pair_review.md)).
 
+The [entry 40 review](entry40_bethhoron_review.md) adds Upper Beth-Horon as a possible, low-confidence place. It also records that Milik himself preferred the Horite tombs near Beit Guvrin in 1960, and re-checks the Phase 3 name tests against Elitzur's corpus.
+
 ## Files
 
 | File | In git? | Contents |
@@ -52,6 +54,7 @@ No site confidence changes. The recovered *ʿAtiqot* 41 names V/48 as V/49's nei
 | `tools/build_scroll_text.py`, `tools/build_scroll_notes.py` | yes | Build the two data files above. The first needs a local copy of ETCBC `dss` (instructions in the file) |
 | `plate_check.md`, `tables/plate_check.csv` | yes | Disputed readings checked against Puech 2006 vol. II copy photographs and radiographs, with a blind two-reader protocol (`registration/plate_check/`) |
 | `tools/plate_extract.py`, `tools/plate_check_items.py` | yes | Extract the column plates and cut the blind line crops (output stays outside git) |
+| `entry40_bethhoron_review.md`, `registration/entry40_elitzur_extracted.md` | yes | Entry 40 (IX 7–9): Beth-Horon, the Horites and Naṭuf; Elitzur's name test re-checked |
 | `findings_log.md` | yes | Running log, evidence vs inference, with pages |
 | `open_questions.md` | yes | Running list of open questions |
 | `tables/entry_concordance.csv` | yes | Puech entry ↔ Lefkovits item ↔ Milik item (from Milik 1960) ↔ line range, with boundary notes and other editors' divisions |

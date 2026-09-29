@@ -324,7 +324,7 @@ See `phase3_summary.md`. The original Phase 3 maps and tables record site anchor
     - (ii) the Arabic name matches the ancient one in all or almost all letters, at or near that area.
   - Name resemblance alone counts for nothing. Pottery supports but does not prove.
   - (Inference, high confidence) Many Copper Scroll identifications rest on name resemblance alone (for example Kohlit, ʿAṣla, Qobʿeh). In Phase 3 each will be scored on (i) and (ii) separately.
-- F2.22 (evidence: Elitzur 2004 p. 139, a note in entry 28) **Dok.** Elitzur records that the Arabic *dūk / dyūk* for Dok near Jericho (1 Macc 16:15) is a popular etymology ("chickens"), and that both forms are still in living use. This supports the continuity of the name at ʿAin Duq. It does not by itself fix whether the scroll's Doq is the fortress on Jebel Qaranṭal (Milik) or the spring area (Puech).
+- F2.22 (evidence: Elitzur 2004 p. 139 n. 2, the note to entry 27; *corrected 2026-09-29* from "entry 28") **Dok.** Elitzur records that the Arabic *dūk / dyūk* for Dok near Jericho (1 Macc 16:15) is a popular etymology ("chickens"), and that both forms are still in living use. This supports the continuity of the name at ʿAin Duq. It does not by itself fix whether the scroll's Doq is the fortress on Jebel Qaranṭal (Milik) or the spring area (Puech).
 - F2.23 (evidence) **The *ʿAtiqot* 41 cave survey (Hebrew) does not discuss the Copper Scroll.** One cave, IV/11, is called "Cave of the Pillar" for its pillar. The name is a modern description, and the report makes no claim about the scroll.
 
 ---
@@ -488,3 +488,23 @@ Full [reference trail, access record and constraint comparison](qumran_reference
 - F7.6 (method) **Blind readers work for targeted shape questions, not whole-line transcription.** Both recognised the object; their independence from remembered readings cannot be verified. One answer was discarded because the reader examined the wrong ל.
 - F7.7 (evidence: Eisenberg 2002 p. 120; Aronshtam 2002 pp. 93–94; Index p. 260) **The entry 17 neighbour is V/48.** The gazetteer's Cave 38 is V/38 and is anchored only at its group's box centre. The printed points put V/48 about 71 m south-east of V/49 (0–141 m with rounding). V/49's mouths face north. [Extraction](registration/atiqot41_region_v_extracted.md).
 - F7.8 (evidence) **ʿAtiqot 41 does not describe the Doq fortress** (Region VII) **or the Qumran aqueduct** (Region XI). Region XIV's Kidron (South) cave site, 1st century CE to the Revolt, is a period site at the Kidron canyon relevant to Q34 (Dahari pp. 231–239). Amit 1989 Fig. 1 is still needed for entry 31.
+
+## Entry 40, Elitzur and outreach — 2026-09-29
+
+- F8.1 (evidence: Milik, *RB* 67 (1960) pp. 222–223) **Milik preferred the Horite tombs before DJD III appeared.** After reading Jeremias he judged "Tombs of the Horites" near Beit Guvrin and "Tombs of (Beth) Horon" "plausible to about the same degree", the first slightly more likely. DJD III still prints Beth-Horon (Puech 2006 p. 196). [Review](entry40_bethhoron_review.md).
+- F8.2 (evidence: t. Niddah 8; b. Niddah 61a) **The Tosefta spells Beth-Horon בית חורין.** The yod reading does not exclude Beth-Horon; the direction word and the article-for-"Beth" rule carry the weight.
+- F8.3 (evidence: IAA Benjamin survey site 143; Peleg, *HA-ESI* 116, 2004) **Rock-cut tombs exist at both Beth-Horon villages.**
+  - Upper: four undated bench tombs.
+  - Kh. ez-Zeit, 0.6 km SW: kokhim tombs; site pottery 70% Roman.
+  - Lower: a robbed kokhim tomb whose fill held pottery of the end of the Second Temple period.
+
+  No report gives a chamber facing west, a channel or a 16-cubit depth. The fit is at the level of type only.
+- F8.4 (inference, medium) **Entry 40 stays "possible only".** Beth-Horon, Beit Guvrin and ʿAin en-Naṭuf are all possible, low. Beth-Horon is added to the atlas as a village anchor (a post-Phase 3 revision in `atlas/research/build_atlas.py`).
+- F8.5 (evidence: Elitzur 2004 p. 16) **Elitzur's corpus includes Beth-Horon (no. 51), Bezek (no. 62) and Beth-shean (no. 63), but not Siloam or Dok.**
+  - The Phase 3 passes for Doq and Siloam are the project's application of his criteria, not his verdicts.
+  - Beth-shean's "partial" on condition (ii) reflects the scroll's spelling, not the Arabic name.
+- F8.6 (record) **Requests sent 29 September 2026 from the user's account:**
+  - to P. Reeder and H. Jol, for the 2002 Qumran aqueduct survey records;
+  - to J. Høgenhaven, for an independent reading of X 15, VII 11, IX 7 and XII 10.
+
+  No replies yet.

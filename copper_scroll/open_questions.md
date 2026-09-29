@@ -130,3 +130,14 @@ Updated each session. Newest additions at the bottom of each group. "Needs" says
 
 - **Entry 17 neighbour: resolved.** Eisenberg names the adjacent dwelling cave as V/48 (p. 120). The catalogue's Cave 38 is a different cave, V/38, and the earlier 79 m spacing is withdrawn. See [entry17_cave_pair_review.md](entry17_cave_pair_review.md).
 - **Q44 (new). The V/48–V/49 path and entrances.** Eisenberg gives no distance or route. The printed grid allows 0–141 m, and V/38 and V/28–29 lie between on Aronshtam's photographs. *Needs:* a field or drone view, or the unpublished V/38 and V/48 plans.
+
+## Entry 40 and outreach — 2026-09-29
+
+- Q14 update: Milik's own *RB* 1960 note rated the Horite tombs near Beit Guvrin slightly above Beth-Horon, **even with ים**. So the direction word no longer decides between those two. It still decides against Puech's southern reading. See [entry40_bethhoron_review.md](entry40_bethhoron_review.md).
+- Q45 (new). **Entry 40: Beth-Horon, Beit Guvrin or Naṭuf?** All three are possible, low. *Needs:*
+  - DJD III D32 p. 268 and the Addenda (does Milik cite Jeremias?);
+  - the printed Benjamin survey (site 143 tomb plans and orientation);
+  - Jeremias, *Heiligengräber* pp. 82–86 (date of the Beit Guvrin necropolis);
+  - a specialist reading of IX 7.
+- Q16 update: Elitzur counts Beth-shean = Bēsān among his positive identifications (no. 63). The question is only the scroll's final mem.
+- Q38/Q40 outreach: the survey-data request went to Reeder and Jol on 29 September 2026, and the four-line reading request to Høgenhaven. Record replies here.
