@@ -1,0 +1,176 @@
+{
+ "P01": [
+  {
+   "q": "P01",
+   "answer": "Three candidate signs, of which two are clearly Greek-like. Reading them left to right: (1) Τ: a horizontal bar with a central vertical stem (probable). (2) A small closed loop at the top with at most a faint stem: Ρ possible, Ο also possible. (3) A long single vertical stroke to the right of the loop: Ι possible, but it could also be a numeral unit stroke or a Hebrew ו/ן. So: two probable Greek letters (Τ, Ρ/Ο) plus a possible third (Ι).",
+   "grade": "possible",
+   "evidence": "A (x470-760): Τ at x505-567 with bar y~118 and stem to y~185, repeated clearly in B strip2 (x913-966). Small loop at x612-640, y120-160; it is only about half letter-height and its stem is not clearly visible. Vertical at x695-715, y120-205: thick and long, no head or foot. Nothing Greek-like to the left of the Τ (x150-500 smooth). The two '3'-shaped signs further right (x962-1042) look like hook-shaped numeral signs, not Greek."
+  }
+ ],
+ "P02": [
+  {
+   "q": "P02(a)",
+   "answer": "A and C do not agree. In A the rightmost signs (right strip, row y120-190) are: at x1350-1400 a hooked stroke curving down to a foot on the right (a box letter is possible but it is not clear); next, at x1300-1335, a Π-shaped letter (ח/ה/ת); then a damaged stretch (x1190-1270) and only after it a box letter (x1130-1180) followed by a Λ/X-shaped letter (x1075-1130). C strip3, at its right end, shows a box letter (x1464-1510) and then an X-shaped letter (x1407-1464), i.e. ב? followed by א?. So 'ב followed by א' is visible in C and further in (after the damage) in A, but not at the very right edge of A.",
+   "grade": "possible",
+   "evidence": "A crops at x1270-1420 and x1060-1200 (4.5x); C strip3 crop at x1250-1560, y80-170. The strips cannot be registered with confidence, so I cannot tell whether C's box+X is the same word as A's box+Λ at x1075-1180."
+  },
+  {
+   "q": "P02(b)",
+   "answer": "Last word at the left end (from the right, as far as seen): ד (roof projecting slightly past the right vertical, x335-385); then a rounded letter (x275-335); then a tall vertical with a small hook at the top (x255-265, ו/ז); then a rounded form at the strip edge (x200-248). Second letter: I lean to ט over ס. Its right side curves up and over and turns down into the interior at x~305-315 (an inward hook), and the left upright stands free, which is not a closed ring. Last letter: cannot tell. In A it has a rounded right shoulder like ר, but B strip1 shows a closed oval there, which points more to a bowl letter (פ/ף or ס/ם) than to ר.",
+   "grade": "possible",
+   "evidence": "A (x150-400, 3.5-4.5x) and B strip1 (x130-330, 4.5x; clear lines). B shows the rounded letter with its long base and the inward descent at the top right, and a long vertical left of it. The strip edge/crack at x~200 in A cuts the last letter. Stage 1 read the second letter as ס (possible); I now prefer ט after looking at the top of the letter in B."
+  }
+ ],
+ "P03": [
+  {
+   "q": "P03",
+   "answer": "The only candidate for an א-מ word is Stage-1 pos13-14: an X-shaped א (x550-600) followed by a box open to the left (x460-512). In this blocky script that box could be מ as well as ב/כ; I had it as ב. A small Λ-shaped mark sits above its roof. After it, A shows nothing: the strip ends in a sharp vertical edge at x~455, and x40-455 is smooth and featureless, with no numeral strokes and no letter traces. That smooth stretch is about 400px, roughly 8 letter-spaces at this line's letter pitch (~50px), but I cannot tell from A whether it was uninscribed or lost. B strip1 also ends right after the box letter. C strip1 does show letter-like forms at the target height (a long diagonal at x~275-330, box letters at x~380-440 and x~460-520, verticals at x~540-600). These might belong to this stretch, but I cannot register them against A.",
+   "grade": "cannot tell",
+   "evidence": "A crop x380-640 (3x): the box with the Λ above is clear, and the edge at x455 is sharp. B strip1 crop x370-660 shows the same box and a diagonal. C strip1 crop x180-700. No numeral-like forms (short vertical strokes or hook signs) are seen in A after the word."
+  }
+ ],
+ "P04": [
+  {
+   "q": "P04",
+   "answer": "If ארבע is present, the best candidate is Stage-1 pos5-8 (x993-1125): a Y-shape, then a lens-shaped stroke, then a box letter (ב), then a V-shape (ע). The identification is uncertain because the first two signs are poor. After it I see: (1) a short slanted stroke in the lower half of the line (x970-984, y~135-175), י-like; (2) a letter with a top bar, an up-tick at its left end and a heavy right vertical that stops at the baseline (x906-962), ר/ד-like; (3) a box letter with its left upright rising above the roof and its base projecting right (x850-905), ב-like. Then a smooth lost stretch (x575-845, about 270px, roughly 5 letter-spaces) with no traces in A. Against the three options: י-ן is partly compatible, since the short stroke could be י, but the next vertical does not descend below the line as ן should. ע-ס-ר-ה and ו-א-ח-ת are not supported by what is visible.",
+   "grade": "possible",
+   "evidence": "A crops x840-1100 (5x), x940-1010 (5x) and x540-1000 (2x). C strip1 (x380-780) has forms at the target height (X/Λ, +, N/H-like, Y-like) that might be letters from the lost stretch, but they cannot be registered against A. B is too dark and broken to help."
+  }
+ ],
+ "P05": [
+  {
+   "q": "P05",
+   "answer": "First (left) sign: Θ, a closed octagonal/rounded ring with an inner horizontal bar. It is not Ξ: the outer ring is continuous and there are no three free bars. Second sign (to its right, x~350-390): crossing strokes (Χ-like) at x350-365 joined to a small dark box-like form at x365-390. It may be Χ followed by a damaged third sign, or a single box-like letter (Π/Β-like). I cannot identify it securely.",
+   "grade": "probable",
+   "evidence": "A only (X-rays cracked here). 7x colour and smoothed-grey crops of x295-405, y120-190. The Θ ring is about 25px across with its bar at mid-height. The second sign is smaller and filled/dark. Stage 1 recorded the same observation (Θ probable, Χ/Κ possible, third unclear). The grade 'probable' applies to Θ; the second sign is only 'possible'."
+  }
+ ],
+ "P06": [
+  {
+   "q": "P06(a)",
+   "answer": "After the first word (Stage-1 pos1-4, x1050-1235) comes a Γ/T-shaped letter (x1000-1050). Its bar sits at y~100 and one vertical descends from left of centre to y~150, with no detached left leg and no right leg, so it is not a clear ה. Then comes a clear X-shaped א (x950-1000). So א is present (probable). A ה before it is not supported unless its right leg is lost; I would grade ה 'possible' at most.",
+   "grade": "possible",
+   "evidence": "A 5-6x crops x930-1070. C strip2 shows the same Γ-shape followed by X (x650-760 in C). The thin line crossing the letters at y~95-100 is a crack, not a stroke."
+  },
+  {
+   "q": "P06(b)",
+   "answer": "The letter after the ש-like form: at x842-869, a head at the top (y~95-105) running leftwards about 20-25px from a right vertical that descends to y~150. The head is longer than a ו-head but shorter than a normal roof, and I do not see a clear projection to the right of the vertical (the ד feature). Cannot tell between ו and ד/ר. In Stage 1 I had this as illegible. The ש-like form itself (x880-945; Stage 1 'ע') has three strokes joining at the bottom and is compatible with ש.",
+   "grade": "cannot tell",
+   "evidence": "A 4.5x crop x780-950. C strip2 is not clear at this point."
+  },
+  {
+   "q": "P06(c)",
+   "answer": "ח rather than ת: roof at y~100 (x800-830), right leg down to y~160, left leg x~795-800 down to y~155, with no foot turning left at the bottom of the left leg.",
+   "grade": "possible",
+   "evidence": "A 5x crop x735-860. The bottom of the left leg is clean, and there is no leftward foot like the one on the ת of the first word (x1050-1105)."
+  },
+  {
+   "q": "P06(d)",
+   "answer": "After the ח: a short vertical (x773-782, y~95-125) that stops well above the baseline, so י-sized (Stage 1 had ו). Then a long slanted stroke (x745-773) from above the line (y~75) to well below the baseline (y~200+): a final-nun-like descender (ן possible), or a stray stroke/crack running into the next line. After a small gap comes a box letter (x680-740, ב), which probably starts the next word, though the gap is not clearly a word space. So the word may end ...ח י ן?, with the last sign uncertain.",
+   "grade": "possible",
+   "evidence": "A 5x crop x735-860 and 4.5x crop x640-800. C strip1 is not usable here. Stage 1 recorded pos10 as ו and pos11 as an illegible oblique stroke; the revision to י comes from the stroke length seen at 5x."
+  }
+ ],
+ "P07": [
+  {
+   "q": "P07(a)",
+   "answer": "In the left strip, upper row (P07 coords x200-430, y~5-95), I now see an ה at x323-368: a roof with its right leg descending, and a separate left leg hanging below the roof with a gap. To its left, at x262-315, a U-shaped letter: right vertical (x~312, from y~25), a base at y~80 that stops at the right vertical without projecting beyond it, a left upright at x~262, and no continuous roof (only a short stroke at the top near x~290-295). Because the base does not project to the right and there is no roof with a tick, I lean to כ, but the missing roof also allows ט or a worn ב. Cannot decide securely.",
+   "grade": "possible",
+   "evidence": "A 3.6x and 6x crops x195-430, y5-100. B strip1 (x150-420) shows L-shaped verticals with bases at this height but is vertically offset. Stage 1 (pos20-22) recorded these strokes as ו, ו, ט; the ה reading comes from seeing the roof and the detached left leg together at 6x."
+  },
+  {
+   "q": "P07(b)",
+   "answer": "ו rather than י: the next stroke (x~260-267) is a full-height vertical from y~10 to y~75, reaching the base line of the preceding letter. It could, however, be the left upright of the U-shaped letter itself rather than a separate letter.",
+   "grade": "possible",
+   "evidence": "A 6x crop x245-380. Stroke length is about 65px, the same as full letter height."
+  },
+  {
+   "q": "P07(c)",
+   "answer": "The last visible sign (x~205-235) is a stroke with a head curling to the right at the top (y0-30) and a stem descending to y~100 (ו/ר/ל-like; illegible). The word runs right up to the strip edge/crack at x~200; beyond it (x30-200) the surface is damaged and nothing is legible, so the word may continue.",
+   "grade": "possible",
+   "evidence": "A 5x crop x150-270. The seam at x~200 is a dark vertical line through the whole height. This whole identification depends on the upper row of the left strip being the P07 target line (see Stage 1 note on vertical offset between strips)."
+  }
+ ],
+ "P08": [
+  {
+   "q": "P08",
+   "answer": "After the first word (ב ב י ...? at x1105-1235), the letters R->L are: א (X-shape, x1055-1100); ת (x1000-1045); a Γ-shape with a long stem below the line (x945-985, ך/ר); a thick diagonal (x895-935, ?); a vertical (x868-890, ו); a vertical (x840-868, ו/י); a closed pentagonal box with peaked roof (x800-845, ם/ס, or מ if non-final); a vertical with a hooked head reaching the baseline (x765-795); a letter with a right vertical rising above the line, a base to the left and a diagonal rising from the left (x700-760); a vertical curving right at the top (x668-690, י/ו/ר); a bar with a right vertical (x628-660), with a faint left upright at x~600-615, so ת is possible (Stage 1 read this as ד). If ימ... is the vertical at x840-868 plus the box at x800-845, and ...ית is the stroke at x668-690 plus the letter at x600-660, then the letters between are, first, a vertical with a hooked head: ו probable (the head is small), ר possible, י unlikely because it reaches the baseline. Second, a letter with a vertical and a base to the left plus a diagonal: נ possible, מ possible (the diagonal could be mem's left stroke), ב/ל/צ alternatives. No cancellation marks seen: the thin line crossing letters at y~95-100 is a crack running across the whole surface, and there are no dots above letters.",
+   "grade": "possible",
+   "evidence": "A 4.5-6x crops x560-880 and 2.4x crop x540-900. C strip2 (x470-1010) shows box letters and verticals but cannot settle individual letters here. The identification of the ימ and ית groups is uncertain."
+  }
+ ],
+ "P09": [
+  {
+   "q": "P09",
+   "answer": "A חפור-like group is possible at x945-1100: a box/curved letter with an inner tooth (x1045-1085), which could be פ (Stage 1 read it as ח/ה). Right of it at x1085-1100 is only a vertical, not a clear ח. Then V/diagonal strokes (x1000-1035) and short strokes (x965-985). Then a vertical (x940-955) which could be ר; this is the 'additional letter' position. The following word starts at x~895-935 with a cross-shaped sign: a short upper vertical, a horizontal bar at y~120 and a lower vertical descending from the bar's right part. It has neither the two diagonals of א nor a clear gimel foot, so I cannot decide between א and ג; ג is marginally closer. Next: a box letter with roof, right vertical, base and a small inner stroke (x860-900; ב/פ); a rounded closed oval (x830-855; ס/ם/ט); two thick uprights joined at the top (x790-830; ח/ה). Before the cross-shaped sign there is indeed an extra vertical (x940-955), ר/ו-like, which may belong to either word.",
+   "grade": "cannot tell",
+   "evidence": "A 4.5-6x crops x780-1100. B strip2 (x1150-1420) shows a box letter and curved letters but I cannot register it to this exact spot. Stage 1 recorded x1045-1082 as ח/ה (possible) and x915-935 as 'vertical with cross'; the pe-like inner tooth was noticed only on the 4.5x crop."
+  }
+ ],
+ "P10": [
+  {
+   "q": "P10",
+   "answer": "Full line R->L (A): [right strip] a rounded ↄ-stroke and box (x1370-1445, ס/ט?); a small V tick (x1235-1260); a rounded box with an inner vertical (x1180-1240, ס/ם/ט); a Λ with a longer left leg (x1120-1170); a rounded box (x1050-1100, ס/ם/ט); a Λ/Y fork with a vertical left leg (x985-1045); a Π-shaped letter (x920-975, ח); a box letter (x840-905, ב). Then a DAMAGED STRETCH (x510-830, about 320px), then ו/ן (x480-500), a V (x375-410, ע), an N-like stroke (x320-365), a long vertical (x270-290, ן/ו) and a faint L (x120-170). The damaged stretch is completely smooth in A: no partial letters inside it and no broken letter-ends at its edges (only a vertical immediately left of it and the ב immediately right). Estimated loss: about 6 letter-spaces (range 5-7) at ~50px pitch. C strip1 shows letter forms at this height (a box, a box with a cross, an X, a curved ε-like stroke, a Λ). They could be the lost letters, but the X-ray strips cannot be registered against A.",
+   "grade": "possible",
+   "evidence": "A crop x470-870 (2.2x) shows the patch as a smooth, raised area bounded by a dark edge. C crops x340-740 and x760-1230. B is too dark."
+  }
+ ],
+ "P11": [
+  {
+   "q": "P11(a)",
+   "answer": "Word divisions are not visible to me at the right end. The first signs R->L are: right strip ? (edge) ר ו ו ו; then, in the main strip, ו ? ן ק ח נ ? ח ב. I cannot group these into three words with any confidence.",
+   "grade": "cannot tell",
+   "evidence": "A crops x1280-1470 and x870-1250. The right strip and the main strip are vertically offset, and there is a crack at x880-990."
+  },
+  {
+   "q": "P11(b)",
+   "answer": "The ש-like letter is at x555-640 (a roof with three legs hanging from it) and the ל at x490-550 (tall mast from y~25, bending right at the base and curling down). The letter immediately after the ל (x465-480) is a single stroke about 38px long (y~97-135) against a letter height of ~50px. It has a rounded top with no roof or distinct head, and it stops just short of the baseline. That makes it ו probable, י possible because of the short length, and ר unlikely (no roof).",
+   "grade": "possible",
+   "evidence": "A 3.3x crop x420-660 (y0-160) and 4x crop x300-500. Stage 1 recorded x440-485 as ח/ה, grouping this stroke with the next letter; at higher zoom I see it as a separate stroke."
+  },
+  {
+   "q": "P11(c)",
+   "answer": "No clear word space: the gap between the lower curl of the ל (left end ~x490) and the stroke is ~10-15px, the same as the spacing between letters inside a word.",
+   "grade": "possible",
+   "evidence": "A 3.3x crop."
+  },
+  {
+   "q": "P11(d)",
+   "answer": "Following letters R->L: at x432-455 a vertical reaching the baseline with a short roof/head to the right at the top (ר/ד possible); at x370-420 a roof over two (possibly three) legs (ח probable, ת possible); at x355-370 a vertical (ו); at x320-345 a long vertical with a top bar to the right (ד/ר). I cannot see where the word ends and the next begins.",
+   "grade": "possible",
+   "evidence": "A 4x crop x300-500. B strip2 (x1000-1270) shows the roof-with-legs group consistently."
+  }
+ ],
+ "P12": [
+  {
+   "q": "P12",
+   "answer": "After the two box letters (Stage-1 pos6-7, x575-700; ב/כ), R->L: (1) one hook-shaped sign (x500-540): a single rounded ⊃-curve open to the left, from a top at y~80 down the right side to y~135 and curling back at the bottom. It is simpler than the double-bowl '3' I described in Stage 1. (2) Three vertical strokes (x478-485, x462-470, x440-450). The first two are about 45px long (y~83-130); the third is longer (to y~150) and slightly slanted. (3) A final sign (x390-425) that is a distinct hooked sign, not a plain stroke: a short head at y~85-100, whose left end hooks down, and whose right end joins a long descender slanting down-left from x~420 to x~405, reaching y~175, well below the baseline. It resembles final pe/final kaf (ף/ך). Totals: 1 hook sign, 3 vertical strokes, 1 final hooked descender sign.",
+   "grade": "probable",
+   "evidence": "A 4.5x crop x380-560, y60-185 (clear relief). B strip2 shows the same group (hook, three strokes, descender sign). Stage 1 grades for the strokes were 'possible' as numerals; the shapes themselves are clear."
+  }
+ ],
+ "P13": [
+  {
+   "q": "P13",
+   "answer": "At the left end of the target row (x410-530), and slightly above the normal letter band (y~55-115), are two thinly incised forms, much finer than the heavy punched letters. (1) x415-470: an upright at x~440 (y55-90), a short cross-stroke at y~65, a right vertical at x~460 and a long base at y~110 running left to x~415. It is box-like (ב possible). (2) x480-530: a diagonal rising from lower left to a vertical at x~525 (y65-115) with something at its top (ק/Λ-like; possible). This fits 'a pair of letters such as ב and ק' better than 'ככ followed by numeral signs': I see no short unit strokes or hook signs there. Above the line, at x375-400, y~65, there is a short dark horizontal dash, possibly a cancellation stroke or a dot, and I cannot tell which. I see no other dots or strokes through letters. x100-370 is blank or damaged, and the far-left strip (x30-95) has only a fragment (a base with an upright).",
+   "grade": "possible",
+   "evidence": "A 3x crop x280-560, y0-180 and 2.6x crop x20-280. X-rays (C strip1) show a ל/ו/V group near x100-360 but nothing I can register to these thin forms. Stage 1 recorded x410-470 as ב (possible) and x380-400 as a blob; the thin second form was not separated in Stage 1."
+  }
+ ],
+ "P14": [
+  {
+   "q": "P14",
+   "answer": "If the first word is Stage-1 pos1-4 (x985-1160), the second word begins at x925-965. R->L: a rounded letter with an inner curl (x925-965; ש/ט/צ-like); then a letter with a small roof and a tick at the top-left, a right vertical and a base (x895-925); then a vertical with a head and a base to the left (x855-885; נ possible, ב); then worn diagonal hatching at a strip seam (x810-835; ?); then a box letter with a roof tick, right vertical and base (x755-800; ב); then a Y-shape with a stem and a foot to the left (x725-755; ע/צ); then a rounded-roof letter (x680-720; כ). (a) Second letter: ב possible, because it has a small roof with a top-left tick like the other ב's in this text; whether its base projects to the right is not clear, so כ cannot be excluded. (b) Among the candidate letters: נ possible at x855-885; צ possible (or ע) at x725-755; no clear ח inside this stretch (the next ח is at x515-555); no clear י. Order R->L: (ב) נ ... (צ/ע). (c) Cancellation: none certain. The hatched diagonal strokes at x810-835 could be a cancelled letter or just seam damage; cannot tell. (d) The next word cannot be delimited because word spaces are not visible. The following letters are ? (x630-670), ב (x560-600), ח (x515-555), ל (x480-510).",
+   "grade": "possible",
+   "evidence": "A 5x crops x700-990. C strip2 (x640-900) shows box, Y and curved forms consistent with x680-800. B shows boxes at x680-800."
+  }
+ ],
+ "P15": [
+  {
+   "q": "P15",
+   "answer": "I cannot locate word spaces on this line, so I cannot securely identify the third word. The best I can do is describe letter shapes at the candidate positions. The letters R->L: closed box (x1180-1240), tall vertical (x1145-1152), V with long diagonal (x1090-1140), vertical with base to the left (x1040-1090), teardrop at the top (x1020-1048), top bar with right vertical (x960-1010), short lens (x955-975), a vertical with base both sides and a curl at the top (x875-945), verticals (x830-880). (a) Second letter כ/ב/ת: cannot tell without word boundaries. The box-type letters here have no roof tick visible, and I see no ת-like two-legged letter in the first half of the line. (b) Fourth letter נ/פ/י: the only נ-like form is at x1040-1090 (vertical with base to the left); a teardrop-topped short stroke at x1020-1048 could be י. (c) An ending in ין: possible only if the tall vertical at x830-850 (y100-195) is final nun preceded by a short stroke. It does not clearly descend below the baseline.",
+   "grade": "cannot tell",
+   "evidence": "A 2x crops x280-1260. The X-rays (C strips) show box letters but cannot be registered. This line is badly worn, with many shallow strokes."
+  }
+ ]
+}

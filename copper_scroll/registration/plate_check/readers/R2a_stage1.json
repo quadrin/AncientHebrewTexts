@@ -1,0 +1,2301 @@
+{
+ "P01": {
+  "transcription": "ב? {3}{3} ן יד",
+  "letters": [
+   {
+    "pos": 1,
+    "read": "ב",
+    "grade": "possible",
+    "alternatives": [
+     "כ",
+     "נ"
+    ],
+    "evidence": "A (x~1135-1180): heavy top stroke, right vertical and a broad base sweeping left - bet-like, but relief shadows make top/base shape uncertain; B: nothing clear at this position; C strip 3 shows only a faint boxy outline at about this height."
+   },
+   {
+    "pos": 2,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "ם",
+     "ס",
+     "ה",
+     "ח"
+    ],
+    "evidence": "A (x~1085-1130): boxy letter - top bar, right vertical, left vertical, possible base; cannot tell closed box (ם/ס) from open-legged (ה/ח). C strip 3: faint rectangular outline only. B: not visible."
+   },
+   {
+    "pos": 3,
+    "read": "{3}",
+    "grade": "certain",
+    "alternatives": [],
+    "evidence": "A (x~1000-1045): sign shaped like Arabic numeral 3 (two bowls open to the left, one above the other). Not a Hebrew letter form. Not visible in B or C."
+   },
+   {
+    "pos": 4,
+    "read": "{3}",
+    "grade": "certain",
+    "alternatives": [],
+    "evidence": "A (x~955-1000): second identical 3-shaped sign immediately left of pos 3. Not visible in B or C."
+   },
+   {
+    "pos": 5,
+    "read": "ן",
+    "grade": "possible",
+    "alternatives": [
+     "ו",
+     "numeral stroke |"
+    ],
+    "evidence": "A (x~698-712): single long vertical, starts at letter-top height and descends ~25px below the base of neighbouring letters; no head visible. Preceded by a wide blank (x~720-950). Not seen in B/C."
+   },
+   {
+    "pos": 6,
+    "read": "י",
+    "grade": "probable",
+    "alternatives": [
+     "ו"
+    ],
+    "evidence": "A (x~612-635): small loop-headed stroke hanging from the top line, short; lies just right of a vertical crease in the copy. Not seen in B/C."
+   },
+   {
+    "pos": 7,
+    "read": "ד",
+    "grade": "possible",
+    "alternatives": [
+     "ר",
+     "Greek T (tau)"
+    ],
+    "evidence": "A (x~510-568): T-shape - flat top bar with the vertical dropping from the left third of the bar (bar projects further to the right than to the left), which is not the usual dalet proportion. B strip 2 (right edge, x~915-965) shows a very clear T-shape with near-central vertical at target height - likely the same sign. C: not seen."
+   }
+  ],
+  "greek_or_numerals": "Two identical signs shaped like Arabic '3' (pos 3-4), standing alone between a two-letter group and a long blank; they look like numeral signs, not letters. The T-shaped sign at pos 7 has its vertical near the middle of the top bar and could be a Greek capital T rather than a Hebrew letter.",
+  "image_quality": "A (copy photograph) was the only image with readable detail on this line. B shows one clear T-shaped sign (strip 2). C: the target line is essentially invisible; letters seen in C strips 1-2 lie ~half a line higher and probably belong to the line above.",
+  "notes": "Target line in A at y~110-215 (triangle at y~150); column spans x~140-1240 in A; left part of the line (x~140-500) is blank; large blank between pos 4 and pos 5. Long vertical crease in the copy near x~605. The letters at the far left edge of A (x<70) belong to the neighbouring column. I recognise this object as the Copper Scroll (3Q15), but I am reporting only what the images show and did not use any remembered reading."
+ },
+ "P02": {
+  "transcription": "באחשךאםח? [...]",
+  "letters": [
+   {
+    "pos": 1,
+    "read": "ב",
+    "grade": "possible",
+    "alternatives": [
+     "כ",
+     "נ"
+    ],
+    "evidence": "A (x~1127-1177, y~130-190): small hooked top, right vertical, base running left; C strip 3: top bar with a long right vertical, base not distinct (C suggests a longer vertical than A - minor disagreement); B: not identified."
+   },
+   {
+    "pos": 2,
+    "read": "א",
+    "grade": "probable",
+    "alternatives": [
+     "צ"
+    ],
+    "evidence": "A: lambda-shape - diagonal from top to lower right, left leg from the apex down to lower left, short upper-right arm tick; C strip 3 (and strip 2): same lambda-shape with extra tick."
+   },
+   {
+    "pos": 3,
+    "read": "ח",
+    "grade": "possible",
+    "alternatives": [
+     "ה",
+     "ת"
+    ],
+    "evidence": "A: top bar with two legs, right leg longer; C strip 3: two legs under one top bar, the bar projecting to the right beyond the right leg; whether left leg touches the bar not certain."
+   },
+   {
+    "pos": 4,
+    "read": "ש",
+    "grade": "probable",
+    "alternatives": [
+     "ט",
+     "מ"
+    ],
+    "evidence": "A (x~956-1030): three uprights on a flat base - left arm with curved top turning left, middle arm curved, right arm straight; C strip 3: U-shaped box with an inner curved stroke (middle arm, shows light) and a light curve left of the box (top of left arm)."
+   },
+   {
+    "pos": 5,
+    "read": "ך",
+    "grade": "possible",
+    "alternatives": [
+     "ד",
+     "ר"
+    ],
+    "evidence": "A (x~894-936): top bar extending left from a right vertical that descends below the baseline; B strip 2: top bar with a long right vertical at target height (clearest B letter); C strip 1: top bar region only."
+   },
+   {
+    "pos": 6,
+    "read": "א",
+    "grade": "possible",
+    "alternatives": [
+     "צ",
+     "ע"
+    ],
+    "evidence": "A (x~845-895): crossing diagonal strokes; B strip 2: lambda/X-shaped diagonals immediately left of pos 5; C strip 1: X-shaped strokes."
+   },
+   {
+    "pos": 7,
+    "read": "ם",
+    "grade": "possible",
+    "alternatives": [
+     "ס"
+    ],
+    "evidence": "A (x~765-820): closed box with flat base and a small peaked point on top; C strip 1: same box/diamond with peak. The peak may be a stroke from the line above."
+   },
+   {
+    "pos": 8,
+    "read": "ח",
+    "grade": "possible",
+    "alternatives": [
+     "ה",
+     "ת"
+    ],
+    "evidence": "A (x~707-747): top bar over two legs, bar projecting left beyond left leg; C strip 1 (x~70-125): identical form."
+   },
+   {
+    "pos": 9,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [],
+    "evidence": "A: a vertical stroke at the seam of the copy (x~677-690), rest lost in the join; not in C."
+   }
+  ],
+  "greek_or_numerals": "None seen on the target line.",
+  "image_quality": "C strip 3 and the right half of A were most useful and agree well; B strip 2 confirmed pos 5-6. B strip 1 shows a line at the triangle height (round letter, verticals, T-topped letters) that I could not align with the A/C line.",
+  "notes": "Target line hard to locate. In A the line matching C's target line lies at y~130-190, about half a line BELOW the triangles (y~107); the A row nearest the triangles (y~25-110 on the right half) matches C's line above. A has a vertical seam at x~675; left of it the continuation of the line is uncertain (A rows left of the seam at y~60-115 and ~150-213; the lower one is heavily cracked). I transcribed only from the column's right edge (x~1180) to the seam. Text in A right of x~1270 belongs to the next column. C strips overlap: strip 2 repeats strip 3; strip 1 continues the line leftwards to about A x~700."
+ },
+ "P03": {
+  "transcription": "?{+}וראווי?רךא?Δם",
+  "letters": [
+   {
+    "pos": 1,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "ח",
+     "ה",
+     "two numeral strokes ||"
+    ],
+    "evidence": "A (x~1055-1091): two short verticals in the lower part of the line joined by a faint horizontal; lies just left of a fold in the copy. Not reached by the B or C strips."
+   },
+   {
+    "pos": 2,
+    "read": "{+}",
+    "grade": "probable",
+    "alternatives": [
+     "ל",
+     "ת"
+    ],
+    "evidence": "A (x~958-1013): cross-shaped sign - horizontal bar with a vertical crossing it right of centre and rising well above the line; C strip 2 shows exactly the same cross (clearest C feature). Shape is clear; it does not match a normal square-script letter, so identity is uncertain."
+   },
+   {
+    "pos": 3,
+    "read": "ו",
+    "grade": "possible",
+    "alternatives": [
+     "ן",
+     "י",
+     "ז"
+    ],
+    "evidence": "A (x~935-947): long plain vertical; C strip 2: vertical immediately left of the cross."
+   },
+   {
+    "pos": 4,
+    "read": "ר",
+    "grade": "possible",
+    "alternatives": [
+     "ד",
+     "ו",
+     "י"
+    ],
+    "evidence": "A (x~893-923): heavy wedge-like head at top with a descender; C strip 2: top bar with vertical at its right end."
+   },
+   {
+    "pos": 5,
+    "read": "א",
+    "grade": "probable",
+    "alternatives": [],
+    "evidence": "A (x~818-876): main diagonal top-left to bottom-right, left leg and upper-right arm; C strip 1/2: diagonal strokes at the matching place."
+   },
+   {
+    "pos": 6,
+    "read": "ו",
+    "grade": "possible",
+    "alternatives": [
+     "ן",
+     "י"
+    ],
+    "evidence": "A (x~802-813): long vertical, descends below baseline; C strip 1 vertical."
+   },
+   {
+    "pos": 7,
+    "read": "ו",
+    "grade": "possible",
+    "alternatives": [
+     "ן"
+    ],
+    "evidence": "A (x~770-781): long vertical from top line to below baseline; C strip 1 vertical."
+   },
+   {
+    "pos": 8,
+    "read": "י",
+    "grade": "possible",
+    "alternatives": [
+     "ו"
+    ],
+    "evidence": "A (x~747-757): shorter vertical; C strip 1: part of a curved group."
+   },
+   {
+    "pos": 9,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "ז",
+     "ו",
+     "ר",
+     "ס (left side)"
+    ],
+    "evidence": "A (x~726-742): curved stroke with a head at the top; C strip 1: curved 'C'-like stroke. B strip 2 shows only thin verticals in this stretch."
+   },
+   {
+    "pos": 10,
+    "read": "ר",
+    "grade": "possible",
+    "alternatives": [
+     "ד",
+     "ו"
+    ],
+    "evidence": "A (x~681-700): hooked head turning right then long vertical; C strip 1: top bar plus vertical."
+   },
+   {
+    "pos": 11,
+    "read": "ך",
+    "grade": "possible",
+    "alternatives": [
+     "ד",
+     "ר"
+    ],
+    "evidence": "A (x~609-657): top bar with vertical at its right end running below the baseline; B strip 2: top bar with right vertical; C strip 1: top bar with vertical."
+   },
+   {
+    "pos": 12,
+    "read": "א",
+    "grade": "possible",
+    "alternatives": [
+     "Greek Λ"
+    ],
+    "evidence": "A (x~557-605): lambda/X-shaped diagonals; B strips 1 and 2: very clear lambda-shape (two diagonals meeting at top, no clear extra arms). A suggests an extra stroke (aleph), B does not - disagreement."
+   },
+   {
+    "pos": 13,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "ל",
+     "ו",
+     "damage"
+    ],
+    "evidence": "A (x~528-546): tall dark vertical starting in the line above; not visible in B or C - may be a crack or a stroke from the line above."
+   },
+   {
+    "pos": 14,
+    "read": "Δ",
+    "grade": "probable",
+    "alternatives": [],
+    "evidence": "A (x~472-494): small triangle in the upper half of the line sitting on the top of the box letter; B strips 1 and 2: same small triangle on top of the box; C strip 1: triangle at the strip edge."
+   },
+   {
+    "pos": 15,
+    "read": "ם",
+    "grade": "possible",
+    "alternatives": [
+     "ס",
+     "ט",
+     "ב"
+    ],
+    "evidence": "A (x~465-517): box - top, right side, base, left side, occupying the lower two-thirds of the line under the triangle; B strips 1 and 2: box under the triangle, left side at strip edge."
+   }
+  ],
+  "greek_or_numerals": "Small triangle (Greek capital Δ) at the left end of the line, stacked on top of a box-shaped letter; the lambda-shaped letter at pos 12 might also be a Greek Λ. Cross-shaped sign at pos 2. Pos 1 could be two numeral strokes.",
+  "image_quality": "A most useful (all positions visible); C strip 2 confirms the cross sign and neighbours; B strips 1 and 2 (overlapping) give clear Δ + box and the lambda-shape; C strip 1 overlaps the middle of the line.",
+  "notes": "Target line at A y~118-200; column occupies A x~455-1125 (dark fold at x~1110-1150; right of it blank margin). Many uniform vertical letters (ו/י/ן/ר) in the middle that I cannot distinguish reliably. Order of pos 14/15 (stacked) is a convention."
+ },
+ "P04": {
+  "transcription": "??ב??באל? [...] חב?ו",
+  "letters": [
+   {
+    "pos": 1,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "ו",
+     "ן",
+     "ק"
+    ],
+    "evidence": "A (x~1223-1270): heavy vertical with an oval raised loop at its top right; a crack runs down from it below the line; could be letter plus damage. Not covered by C strip 1 or B."
+   },
+   {
+    "pos": 2,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "א",
+     "ז"
+    ],
+    "evidence": "A (x~1189-1223): diagonal stroke from upper right to lower left, overlaid by a crack in the copy. Not in B/C."
+   },
+   {
+    "pos": 3,
+    "read": "ב",
+    "grade": "probable",
+    "alternatives": [
+     "כ"
+    ],
+    "evidence": "A (x~1136-1180): top bar, right vertical, flat base extending left; C strip 1 (right edge): only the right vertical visible."
+   },
+   {
+    "pos": 4,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "ע",
+     "צ"
+    ],
+    "evidence": "A (x~1106-1125): Y-shape - two short arms at top converging into a vertical; C strip 1: psi/4-like shape in this area."
+   },
+   {
+    "pos": 5,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "ס",
+     "ט",
+     "ו"
+    ],
+    "evidence": "A (x~1078-1100): small closed oval in the lower half of the line with a faint stroke above; C: indistinct verticals."
+   },
+   {
+    "pos": 6,
+    "read": "ב",
+    "grade": "possible",
+    "alternatives": [
+     "נ",
+     "כ",
+     "ג"
+    ],
+    "evidence": "A (x~1022-1063): thin top stroke, right vertical, base running left; C strip 1: G/zeta-like curve."
+   },
+   {
+    "pos": 7,
+    "read": "א",
+    "grade": "probable",
+    "alternatives": [],
+    "evidence": "A (x~969-1019): main diagonal with left leg and upper-right arm; C strip 1: clear lambda/X shape; B strip 3 (right piece): V-shaped strokes."
+   },
+   {
+    "pos": 8,
+    "read": "ל",
+    "grade": "possible",
+    "alternatives": [
+     "ד",
+     "ך",
+     "ר"
+    ],
+    "evidence": "A (x~906-962): hooked start at upper left, horizontal bar, heavy right vertical descending to/below baseline; B strip 3: a looped head at upper left rising above the bar (supports lamed); C strip 1: hook at top left rising slightly above the line, then vertical."
+   },
+   {
+    "pos": 9,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "ב",
+     "ד",
+     "Greek T"
+    ],
+    "evidence": "A (x~850-903, at the lacuna edge): top bar, vertical at left-centre, heavy base running right. C strip 1: T-shape with near-central vertical; B strip 3: bar with vertical at its right end - the three images disagree."
+   },
+   {
+    "pos": 10,
+    "read": "ח",
+    "grade": "possible",
+    "alternatives": [
+     "ה",
+     "ת"
+    ],
+    "evidence": "A (x~536-578, left of the lacuna): top bar with two legs; lower part of the legs faint. B strip 3 left piece: faint only. C: not identified."
+   },
+   {
+    "pos": 11,
+    "read": "ב",
+    "grade": "possible",
+    "alternatives": [
+     "כ",
+     "נ"
+    ],
+    "evidence": "A (x~451-509): right vertical and flat base, top faint; left of a vertical crease in the copy (x~530)."
+   },
+   {
+    "pos": 12,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "ע",
+     "צ",
+     "ש"
+    ],
+    "evidence": "A (x~403-457): heavy dark V/U-shaped stroke in the upper half of the line; lower half blank."
+   },
+   {
+    "pos": 13,
+    "read": "ו",
+    "grade": "possible",
+    "alternatives": [
+     "ז",
+     "ן",
+     "ר"
+    ],
+    "evidence": "A (x~360-388): heavy slightly curved vertical from top line to baseline."
+   }
+  ],
+  "greek_or_numerals": "None certain. Pos 9 is T-shaped in C (could be a Greek T) but not in A or B.",
+  "image_quality": "A (colour, enlarged 2-3x) was the only image where individual letters could be read. C strip 1 covers the stretch just right of the lacuna and gives the shapes of pos 7-9; B strip 3 (the strip with the black lacuna) shows pos 8-9 faintly. B strips 1-2 and C strip 2 showed nothing usable on this line.",
+  "notes": "A large lacuna (missing metal) interrupts the target line between A x~590 and x~850; I estimate roughly 5-6 letter spaces lost. Right edge of the column at A x~1275 (letters right of x~1340 belong to the next column). A vertical crease at A x~530. The lacuna shape is the same in B strip 3, which confirms B is not mirrored."
+ },
+ "P05": {
+  "transcription": "ח??ע??יס??? ?ווחבצ ΕΘ",
+  "letters": [
+   {
+    "pos": 1,
+    "read": "ח",
+    "grade": "possible",
+    "alternatives": [
+     "ה",
+     "ת"
+    ],
+    "evidence": "A (x~1143-1186): top bar with two legs; left leg appears to meet the bar, right leg rises slightly above it. B/C: not identified at this position."
+   },
+   {
+    "pos": 2,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "מ",
+     "צ"
+    ],
+    "evidence": "A (x~1093-1137): vertical with hook at top right and a diagonal stroke; entangled with a long descender coming down from the line above."
+   },
+   {
+    "pos": 3,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "ש",
+     "ע"
+    ],
+    "evidence": "A (x~1033-1070): strokes inside a dark area bounded by long verticals descending from the line above; cannot isolate the letter."
+   },
+   {
+    "pos": 4,
+    "read": "ע",
+    "grade": "possible",
+    "alternatives": [
+     "צ",
+     "ש"
+    ],
+    "evidence": "A (x~987-1027): Y/V-shape - two arms converging to a short stem."
+   },
+   {
+    "pos": 5,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "ש",
+     "ז",
+     "צ"
+    ],
+    "evidence": "A (x~947-983): top stroke, diagonal down to the left and a base (Z-like)."
+   },
+   {
+    "pos": 6,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "ר",
+     "ך",
+     "ד"
+    ],
+    "evidence": "A (x~897-942): top bar with an angled start at the left end; right side unclear."
+   },
+   {
+    "pos": 7,
+    "read": "י",
+    "grade": "possible",
+    "alternatives": [
+     "ו"
+    ],
+    "evidence": "A (x~873-887): short vertical with head, upper half of line."
+   },
+   {
+    "pos": 8,
+    "read": "ס",
+    "grade": "possible",
+    "alternatives": [
+     "ם",
+     "מ"
+    ],
+    "evidence": "A (x~837-870): rounded box, apparently closed."
+   },
+   {
+    "pos": 9,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "ה",
+     "ח",
+     "ר"
+    ],
+    "evidence": "A (x~797-827): top bar with verticals; details unclear."
+   },
+   {
+    "pos": 10,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "ש",
+     "מ"
+    ],
+    "evidence": "A (x~743-793): U-shaped box with an inner upright."
+   },
+   {
+    "pos": 11,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "ב",
+     "כ"
+    ],
+    "evidence": "A (x~705-740): box-like letter at the edge of a vertical crease (x~667-685) in the copy."
+   },
+   {
+    "pos": 12,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "ק",
+     "ש",
+     "ח",
+     "א"
+    ],
+    "evidence": "A (x~598-652): two verticals, the left one clearly descending below the baseline, joined by a V-shaped/diagonal stroke; B strip 2: top bar with a long vertical descending below the line (qof-like). A and B do not agree on the connecting stroke."
+   },
+   {
+    "pos": 13,
+    "read": "ו",
+    "grade": "possible",
+    "alternatives": [
+     "י",
+     "ז"
+    ],
+    "evidence": "A (x~581-595): plain vertical."
+   },
+   {
+    "pos": 14,
+    "read": "ו",
+    "grade": "possible",
+    "alternatives": [
+     "י",
+     "ז"
+    ],
+    "evidence": "A (x~557-571): plain vertical."
+   },
+   {
+    "pos": 15,
+    "read": "ח",
+    "grade": "probable",
+    "alternatives": [
+     "ה"
+    ],
+    "evidence": "A (x~500-538): top bar with both legs attached; B strip 2: H-like letter with two verticals at the matching place."
+   },
+   {
+    "pos": 16,
+    "read": "ב",
+    "grade": "probable",
+    "alternatives": [
+     "כ"
+    ],
+    "evidence": "A (x~448-495): top stroke, right vertical, flat base extending left; a stroke from the line above touches its top. B strip 2: box open at the left at the matching place."
+   },
+   {
+    "pos": 17,
+    "read": "צ",
+    "grade": "possible",
+    "alternatives": [
+     "ץ",
+     "ע"
+    ],
+    "evidence": "A (x~402-447): tall stem reaching slightly below the base with an arm rising from its lower part to the upper right. B strip 2: light curved strokes here."
+   },
+   {
+    "pos": 18,
+    "read": "Ε",
+    "grade": "possible",
+    "alternatives": [
+     "Κ",
+     "Σ"
+    ],
+    "evidence": "A (x~350-387): a tiny x/dot-like mark followed by a small sign with horizontal strokes (E-like). Not visible in B/C."
+   },
+   {
+    "pos": 19,
+    "read": "Θ",
+    "grade": "probable",
+    "alternatives": [
+     "ט"
+    ],
+    "evidence": "A (x~320-347): small oval with a central horizontal bar - Greek theta, smaller than the Hebrew letters and set apart after a gap."
+   }
+  ],
+  "greek_or_numerals": "At the left end of the line, after a gap: small Greek-looking letters - a clear Θ (oval with central bar), then a tiny dot/x mark, then an E-like sign (possibly Ε, Κ or Σ). No numeral strokes seen.",
+  "image_quality": "A was the only image usable letter by letter; its resolution limits the right half, where long descenders from the line above run into the target line. B strip 2 matched the middle-left group (qof-like letter, ח, ב). C shows only vertical strokes crossed by a crack along the line and was not useful.",
+  "notes": "Target line at A y~130-200. A vertical crease in the copy at x~667-685 (possible word space around it; I placed a space there with low confidence). Column right edge at x~1190. Letters at A x<250 belong to the neighbouring column. Greek signs are listed in right-to-left position order (pos 18 = E-like sign x~350-387, pos 19 = Θ x~320-347); read left to right they appear as 'Θ · Ε'."
+ },
+ "P06": {
+  "transcription": "לביתזא?החיובא?ות",
+  "letters": [
+   {
+    "pos": 1,
+    "read": "ל",
+    "grade": "probable",
+    "alternatives": [
+     "ב"
+    ],
+    "evidence": "A (x~1182-1235): short ascender tick rising from the top, top bar, right vertical, long base running left; C strips 2 and 3: same form with the ascender clearly rising above the line."
+   },
+   {
+    "pos": 2,
+    "read": "ב",
+    "grade": "probable",
+    "alternatives": [
+     "כ",
+     "ל"
+    ],
+    "evidence": "A (x~1116-1163): top bar, right vertical, base extending left; a small tick at top-left rises slightly above the bar (similar to pos 1, so ל cannot be fully excluded); C strips 2 and 3: bet-shape without clear ascender."
+   },
+   {
+    "pos": 3,
+    "read": "י",
+    "grade": "possible",
+    "alternatives": [
+     "ו"
+    ],
+    "evidence": "C strips 2 and 3: short vertical in the upper part of the line (yod length); A (x~1094-1113): vertical about three-quarters of letter height (between yod and vav) - A and C disagree on length."
+   },
+   {
+    "pos": 4,
+    "read": "ת",
+    "grade": "probable",
+    "alternatives": [
+     "ח"
+    ],
+    "evidence": "A (x~1047-1079): top bar, right leg, left leg with a foot turning left at the bottom; C strips 2 and 3: same, foot visible in C strip 3."
+   },
+   {
+    "pos": 5,
+    "read": "ז",
+    "grade": "possible",
+    "alternatives": [
+     "ר",
+     "Greek Γ"
+    ],
+    "evidence": "A (x~1007-1038): stem at the LEFT end of a top bar that projects to the right (Gamma-shape); C strip 2: same Gamma-shape. Unusual for ר/ד (stem would be on the right)."
+   },
+   {
+    "pos": 6,
+    "read": "א",
+    "grade": "probable",
+    "alternatives": [],
+    "evidence": "A (x~950-1000): main diagonal, left leg, small upper arm; C strip 2: crossing diagonals (X-shape)."
+   },
+   {
+    "pos": 7,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "ש",
+     "ע followed by ו"
+    ],
+    "evidence": "A (x~894-948): V-shaped pair of arms plus a long stroke on the right descending below the baseline; C strip 2: V with a vertical, crossed by a crack; C strip 1: Y/V-shape. Cannot decide whether one or two letters."
+   },
+   {
+    "pos": 8,
+    "read": "ה",
+    "grade": "possible",
+    "alternatives": [
+     "ח"
+    ],
+    "evidence": "A (x~845-882): top bar, long right vertical, shorter left leg that seems not to reach the bar; C strip 1: box with legs."
+   },
+   {
+    "pos": 9,
+    "read": "ח",
+    "grade": "possible",
+    "alternatives": [
+     "ה"
+    ],
+    "evidence": "A (x~807-839): top bar with both legs apparently attached; C strip 1: similar."
+   },
+   {
+    "pos": 10,
+    "read": "י",
+    "grade": "possible",
+    "alternatives": [
+     "ו"
+    ],
+    "evidence": "A (x~773-786): short vertical; C strip 1: vertical."
+   },
+   {
+    "pos": 11,
+    "read": "ו",
+    "grade": "possible",
+    "alternatives": [
+     "crease only (no letter)"
+    ],
+    "evidence": "A (x~748-767): a long slanted dark stroke that runs across the lines - looks like a crease in the copy; C strip 1 shows an upright stroke at this position, so a letter (vav-like) is probably present under the crease."
+   },
+   {
+    "pos": 12,
+    "read": "ב",
+    "grade": "possible",
+    "alternatives": [
+     "כ"
+    ],
+    "evidence": "A (x~680-742): top bar with small tick, right vertical, base running left; C strip 1: bet/kaf-like with hooked top."
+   },
+   {
+    "pos": 13,
+    "read": "א",
+    "grade": "probable",
+    "alternatives": [],
+    "evidence": "A (x~633-690): main diagonal, left leg, upper-right arm; C strip 1: lambda/aleph shape at the left end of the strip."
+   },
+   {
+    "pos": 14,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "כ",
+     "ס",
+     "ו"
+    ],
+    "evidence": "A (x~574-617): rounded C-like dark shape in the lower part of the line, lies where the line starts to dip; not covered by C."
+   },
+   {
+    "pos": 15,
+    "read": "ו",
+    "grade": "possible",
+    "alternatives": [
+     "י",
+     "ן"
+    ],
+    "evidence": "A (x~552-567): plain vertical."
+   },
+   {
+    "pos": 16,
+    "read": "ת",
+    "grade": "probable",
+    "alternatives": [
+     "ח"
+    ],
+    "evidence": "A (x~496-545): top bar, two legs, left leg with a foot."
+   }
+  ],
+  "greek_or_numerals": "None certain. Pos 5 has a Gamma-like form (stem at left, bar projecting right) that could be taken for Greek Γ, but it is full letter size.",
+  "image_quality": "A best (clear relief); C strips 2 and 3 are unusually clear for this line (pos 1-6) and C strip 1 covers pos 6-13. B shows only a few light vertical ridges at the strip edges and was not usable.",
+  "notes": "Target line at A y~85-190; the line dips ~30px towards its left end (x<620). A slanted crease crosses the line at A x~748-767. Column ends at left around x~490. No visible word spaces I can rely on."
+ },
+ "P07": {
+  "transcription": "לטוק?אורח? [...]",
+  "letters": [
+   {
+    "pos": 1,
+    "read": "ל",
+    "grade": "probable",
+    "alternatives": [],
+    "evidence": "C strip 3 (x~1455-1510): clear L-shape - ascender rising above the line, horizontal turning right at line-top level, then a long diagonal tail sweeping down to the lower left; C strip 2 same at its right edge. A (x~1105-1200): faint vertical ascender (y~18-91) and the long diagonal tail; an extra short slanted stroke at A x~1173-1195 not seen in C."
+   },
+   {
+    "pos": 2,
+    "read": "ט",
+    "grade": "possible",
+    "alternatives": [
+     "ם",
+     "ו + ם (two letters)"
+    ],
+    "evidence": "C strips 1, 2, 3: wide box with flat base; left side topped by a small hook; the top bar covers only the right part and an inner stroke drops from its left end into the box (tet-like). A (x~1023-1095): a loop-headed stroke (x~1023-1045) standing apart from a narrower closed box (x~1060-1095) - in A it looks like two elements (ו + ם). A and C disagree on whether the left stroke is part of the letter."
+   },
+   {
+    "pos": 3,
+    "read": "ו",
+    "grade": "possible",
+    "alternatives": [
+     "י",
+     "ן",
+     "ז"
+    ],
+    "evidence": "A (x~960-1000): narrow closed oval outline (relief of a single heavy stroke) from line top to base; C strip 1: plain dark vertical; C strip 2: vertical with a small hook at top left."
+   },
+   {
+    "pos": 4,
+    "read": "ק",
+    "grade": "possible",
+    "alternatives": [
+     "right half of מ",
+     "ף"
+    ],
+    "evidence": "A (x~917-954): stem descending below the base with a closed bowl to its right at the top; C strips 1 and 2: same P-shape (stem on the left, bowl on the upper right). A horizontal base connects the foot of this stem to pos 5, so pos 4-5 might be one letter."
+   },
+   {
+    "pos": 5,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "ס",
+     "ו",
+     "left half of מ",
+     "פ"
+    ],
+    "evidence": "A (x~873-904): oval loop in the upper part with a horizontal base running right from its foot towards pos 4; C strip 1: bowl on the upper left, vertical, and the same base; C strip 2: bright curved stroke plus vertical and base. A diagonal crack runs through this area in C."
+   },
+   {
+    "pos": 6,
+    "read": "א",
+    "grade": "possible",
+    "alternatives": [
+     "Greek Λ"
+    ],
+    "evidence": "A (x~812-878): two long diagonals meeting at the top (Λ-shape); no clear third arm. C strip 1: diagonal pair at the matching place (crack nearby); B strip 1: diagonal pair right of the ח-group."
+   },
+   {
+    "pos": 7,
+    "read": "ו",
+    "grade": "possible",
+    "alternatives": [
+     "י"
+    ],
+    "evidence": "A (x~795-812): single vertical in the lower part of the line; B strip 1: a vertical with slanted foot; C strip 1: a short oblique stroke."
+   },
+   {
+    "pos": 8,
+    "read": "ר",
+    "grade": "possible",
+    "alternatives": [
+     "ד",
+     "ך",
+     "ו"
+    ],
+    "evidence": "A (x~742-778): vertical with a hook/bar at its top left and a small triangle/diagonal at its foot; B strip 1: a curved stroke with vertical. Not clear in C."
+   },
+   {
+    "pos": 9,
+    "read": "ח",
+    "grade": "possible",
+    "alternatives": [
+     "ה",
+     "ת"
+    ],
+    "evidence": "A (x~690-742): heavy top bar with two separate legs below it (legs not clearly joined to the bar); B strip 1 (x~280-334): top bar with two legs; C strip 1 (left end): bar with two verticals."
+   },
+   {
+    "pos": 10,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "ם",
+     "ב",
+     "ט"
+    ],
+    "evidence": "B strip 1 (x~222-280): box-shaped letter with base and a stroke dropping from the top, immediately left of pos 9; in A this falls on the vertical seam of the copy (x~672-687) and is not readable; not covered by C."
+   }
+  ],
+  "greek_or_numerals": "None certain; pos 6 could be a Greek Λ (no aleph arm visible).",
+  "image_quality": "C strips (1-3) were most useful for pos 1-5 (clean box/qof/lamed outlines); A needed for the stretch towards the seam; B strip 1 only for pos 9-10. The strips overlap: C strips 1, 2 and 3 all repeat pos 2.",
+  "notes": "Target line hard to follow. At the right the target line lies at the triangles (A y~55-115, C y~60-120) but it slopes down towards the left (A y~75-150 near x~700). A vertical seam in the copy at A x~672-687; left of it the continuation cannot be traced securely (two rows at A y~20-92 and ~115-187 are candidates), so the rest of the line is given as [...]. Column right edge at A x~1200; letters right of x~1280 are the next column. Cross-correlation of the images shows P07 overlaps P02: P07's target is the line directly above the line I transcribed for P02."
+ },
+ "P08": {
+  "transcription": "בביאתך?סרנוח",
+  "letters": [
+   {
+    "pos": 1,
+    "read": "ב",
+    "grade": "possible",
+    "alternatives": [
+     "נ",
+     "כ"
+    ],
+    "evidence": "A (x~1192-1236): small head/tick at top left, right vertical reaching slightly below the base, base running left; C strip 3: same (tick at top left, vertical, base). No full top bar visible, so נ is also possible."
+   },
+   {
+    "pos": 2,
+    "read": "ב",
+    "grade": "possible",
+    "alternatives": [
+     "נ",
+     "כ"
+    ],
+    "evidence": "A (x~1140-1185): short curved head at top left joining the right vertical, long base running far left (to x~1116); C strip 3: same shape with long base. A vertical stroke below the base (A x~1165, lower margin) probably belongs to the line below."
+   },
+   {
+    "pos": 3,
+    "read": "י",
+    "grade": "possible",
+    "alternatives": [
+     "ו",
+     "part of pos 2"
+    ],
+    "evidence": "A (x~1128-1136): short vertical in the upper half of the line, standing over the left end of pos 2's base; C strip 3: same short vertical."
+   },
+   {
+    "pos": 4,
+    "read": "א",
+    "grade": "probable",
+    "alternatives": [],
+    "evidence": "A (x~1076-1124): main diagonal, left leg, small upper-right arm; C strip 2: aleph/lambda shape with arm."
+   },
+   {
+    "pos": 5,
+    "read": "ת",
+    "grade": "probable",
+    "alternatives": [
+     "ח"
+    ],
+    "evidence": "A (x~988-1044): top bar, right leg, left leg with a foot turning left; the left leg's top projects slightly above the bar; C strip 2: bar with two legs and foot."
+   },
+   {
+    "pos": 6,
+    "read": "ך",
+    "grade": "possible",
+    "alternatives": [
+     "ר",
+     "ד"
+    ],
+    "evidence": "A (x~944-980): top bar with vertical at its right end descending well below the baseline; C strip 2: top bar with right vertical (length unclear because of a crack)."
+   },
+   {
+    "pos": 7,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "ק",
+     "ה",
+     "ו"
+    ],
+    "evidence": "A (x~850-900): long vertical on the left descending to the base, with a curved stroke at the upper right; crossing diagonals just to its right (x~900-940, upper half) are the descender of a letter of the line above (they match that line's letter at the same x). C: indistinct."
+   },
+   {
+    "pos": 8,
+    "read": "ס",
+    "grade": "possible",
+    "alternatives": [
+     "ם",
+     "ט"
+    ],
+    "evidence": "A (x~800-850): closed shape with a pointed/triangular top and flat base; C strip 1: same closed shape with pointed top."
+   },
+   {
+    "pos": 9,
+    "read": "ר",
+    "grade": "possible",
+    "alternatives": [
+     "ד",
+     "ו"
+    ],
+    "evidence": "A (x~765-795): top bar with vertical at its right end, ending at the base; C strip 1: vertical with head."
+   },
+   {
+    "pos": 10,
+    "read": "נ",
+    "grade": "possible",
+    "alternatives": [
+     "ב",
+     "כ"
+    ],
+    "evidence": "A (x~725-760): right vertical plus base running left; the vertical coincides with a long crease in the copy that crosses several lines, so its true top is uncertain; C strip 1: vertical with base (no ascender)."
+   },
+   {
+    "pos": 11,
+    "read": "ו",
+    "grade": "possible",
+    "alternatives": [
+     "ז",
+     "י"
+    ],
+    "evidence": "A (x~665-695): vertical with a hooked head; C strip 1: vertical with head."
+   },
+   {
+    "pos": 12,
+    "read": "ח",
+    "grade": "possible",
+    "alternatives": [
+     "ה",
+     "ת"
+    ],
+    "evidence": "A (x~610-660): top bar with two legs; C strip 1: bar with two legs at the strip's left part."
+   }
+  ],
+  "greek_or_numerals": "None seen.",
+  "image_quality": "A best; C strips 3 (pos 1-3), 2 (pos 4-6) and 1 (pos 8-12) each confirmed a stretch. B shows only light ridges at strip edges (a few box shapes at the right edge of B strips 2-3 at the lower level) and was not usable for letter identification.",
+  "notes": "Target line at A y~95-175 (line below the one given in P06; images overlap by cross-correlation). Line ends at about A x~610; blank to the left. A long crease crosses the line at A x~732-754. Word divisions not visible."
+ },
+ "P09": {
+  "transcription": "?בוד?רוחב ם?ובותעח?ווו?טי?",
+  "letters": [
+   {
+    "pos": 1,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "ו",
+     "ן"
+    ],
+    "evidence": "A (x~1225-1240): faint vertical next to a long diagonal crease (x~1205-1217). Not covered by B strip 2 or C strip 1; A surface very worn here."
+   },
+   {
+    "pos": 2,
+    "read": "ב",
+    "grade": "possible",
+    "alternatives": [
+     "כ",
+     "נ"
+    ],
+    "evidence": "A (x~1158-1192): top stroke with right vertical and a base; worn."
+   },
+   {
+    "pos": 3,
+    "read": "ו",
+    "grade": "possible",
+    "alternatives": [
+     "י"
+    ],
+    "evidence": "A (x~1112-1133): short vertical strokes; worn."
+   },
+   {
+    "pos": 4,
+    "read": "ד",
+    "grade": "possible",
+    "alternatives": [
+     "ר",
+     "ב",
+     "כ"
+    ],
+    "evidence": "A (x~1054-1092): top bar with vertical at the right end; no base clearly visible."
+   },
+   {
+    "pos": 5,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "ל",
+     "ע"
+    ],
+    "evidence": "A (x~1000-1040): diagonal strokes (one running from lower left to upper right, possibly an ascender or a crease)."
+   },
+   {
+    "pos": 6,
+    "read": "ר",
+    "grade": "possible",
+    "alternatives": [
+     "ו",
+     "ד"
+    ],
+    "evidence": "A (x~968-987): vertical with hooked head turning right."
+   },
+   {
+    "pos": 7,
+    "read": "ו",
+    "grade": "possible",
+    "alternatives": [
+     "י"
+    ],
+    "evidence": "A (x~942-955): short hooked vertical."
+   },
+   {
+    "pos": 8,
+    "read": "ח",
+    "grade": "possible",
+    "alternatives": [
+     "ה",
+     "ת"
+    ],
+    "evidence": "A (x~912-935): top bar with two legs, small."
+   },
+   {
+    "pos": 9,
+    "read": "ב",
+    "grade": "probable",
+    "alternatives": [
+     "כ"
+    ],
+    "evidence": "A (x~870-906): hook at top left, right vertical, base running left, open at left; B strip 2 at its right edge: faint verticals only."
+   },
+   {
+    "pos": 10,
+    "read": "ם",
+    "grade": "possible",
+    "alternatives": [
+     "ס",
+     "ש",
+     "ט"
+    ],
+    "evidence": "A (x~785-860): large deeply sunk letter - an oval outline on the right, a heavy central vertical and a D-shaped outline on the left (could be one broad letter or two); B strip 2 (aligned): a closed square box here. A and B disagree on the form."
+   },
+   {
+    "pos": 11,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "ו",
+     "ן",
+     "two letters וו"
+    ],
+    "evidence": "A (x~745-785): one heavy oval vertical; B strip 2: a hooked vertical followed by a longer vertical (two strokes)."
+   },
+   {
+    "pos": 12,
+    "read": "ו",
+    "grade": "possible",
+    "alternatives": [
+     "ר",
+     "ך",
+     "a stroke of the line above"
+    ],
+    "evidence": "A (x~700-745): curved stroke rising from the foot of pos 13 up to the right; B strip 2: a top bar with a vertical at its right."
+   },
+   {
+    "pos": 13,
+    "read": "ב",
+    "grade": "probable",
+    "alternatives": [
+     "כ"
+    ],
+    "evidence": "A (x~655-700): hooked top at left, right vertical, flat base; B strip 2: box with top bar, right side and base, open at left."
+   },
+   {
+    "pos": 14,
+    "read": "ו",
+    "grade": "probable",
+    "alternatives": [
+     "י"
+    ],
+    "evidence": "A (x~625-650): loop-headed vertical ('9'-shape); B strip 2: same '9'-shaped stroke."
+   },
+   {
+    "pos": 15,
+    "read": "ת",
+    "grade": "possible",
+    "alternatives": [
+     "ח",
+     "ה"
+    ],
+    "evidence": "A (x~585-620): top bar, right leg, left leg descending with a foot; B strip 2: similar shape with the left leg extending above the bar."
+   },
+   {
+    "pos": 16,
+    "read": "ע",
+    "grade": "possible",
+    "alternatives": [
+     "צ",
+     "א"
+    ],
+    "evidence": "A (x~545-580): Y/K-shape - a vertical with an arm branching up to the right; B strip 1/2: y-shaped letter."
+   },
+   {
+    "pos": 17,
+    "read": "ח",
+    "grade": "possible",
+    "alternatives": [
+     "ת",
+     "ה"
+    ],
+    "evidence": "A (x~505-540): top bar with two legs; B strip 1: H-like form."
+   },
+   {
+    "pos": 18,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "ה",
+     "ח"
+    ],
+    "evidence": "A (x~478-502): small loop with a leg."
+   },
+   {
+    "pos": 19,
+    "read": "ו",
+    "grade": "possible",
+    "alternatives": [
+     "י",
+     "ז"
+    ],
+    "evidence": "A (x~452-470): heavy vertical."
+   },
+   {
+    "pos": 20,
+    "read": "ו",
+    "grade": "possible",
+    "alternatives": [
+     "ן"
+    ],
+    "evidence": "A (x~432-448): vertical descending slightly below the baseline."
+   },
+   {
+    "pos": 21,
+    "read": "ו",
+    "grade": "possible",
+    "alternatives": [
+     "י"
+    ],
+    "evidence": "A (x~405-425): slanting short stroke with head."
+   },
+   {
+    "pos": 22,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "נ",
+     "ג",
+     "ע"
+    ],
+    "evidence": "A (x~355-395): vertical descending to a base that curves left."
+   },
+   {
+    "pos": 23,
+    "read": "ט",
+    "grade": "possible",
+    "alternatives": [
+     "ם",
+     "ס"
+    ],
+    "evidence": "A (x~300-350): rounded box whose right side curls inward at the top, with flat base; B strip 1: square/rounded box at the matching place."
+   },
+   {
+    "pos": 24,
+    "read": "י",
+    "grade": "possible",
+    "alternatives": [
+     "ו",
+     "numeral stroke"
+    ],
+    "evidence": "A (x~270-290): short stroke in the upper half."
+   },
+   {
+    "pos": 25,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "י",
+     "mark"
+    ],
+    "evidence": "A (x~255-265): tiny curved mark at the top of the line; left of it a crease and the edge of the column."
+   }
+  ],
+  "greek_or_numerals": "None identified on the target line. (The line below contains a row of hook/loop-shaped signs, probably numeral signs - not part of the target line.)",
+  "image_quality": "A was needed for everything; B strip 2 (scaled ~1.29x relative to A) aligns well with A x~450-950 and helped confirm pos 9-16; B strip 1 overlaps the left part. C strip 1 shows the line faintly. The right third of the line (A x>950) is very worn in A and not covered by B/C.",
+  "notes": "Target line at A y~95-175. Line runs from about A x~1245 to x~255. Word spacing uncertain; a small gap after pos 9. Many uniform verticals (ו/י/ן) in the left half that cannot be distinguished reliably; letter count in pos 18-22 uncertain by +/-1."
+ },
+ "P10": {
+  "transcription": "באוטאחב? [...] וע?ו?",
+  "letters": [
+   {
+    "pos": 1,
+    "read": "ב",
+    "grade": "possible",
+    "alternatives": [
+     "ס",
+     "כ",
+     "ם"
+    ],
+    "evidence": "A (x~1180-1230): small rounded bowl in the lower half with a stroke descending to the lower right; heavily damaged, and a dark blob above belongs to the line above. C strip 2 (x~1145-1200): curved top stroke and right side, base faint."
+   },
+   {
+    "pos": 2,
+    "read": "א",
+    "grade": "probable",
+    "alternatives": [
+     "Greek Λ"
+    ],
+    "evidence": "A (x~1120-1170): Λ-shape, main diagonal from top down to the lower right, left leg; C strip 2 and C strip 1 (x~640-690): Λ with an inner stroke (aleph arm)."
+   },
+   {
+    "pos": 3,
+    "read": "ו",
+    "grade": "possible",
+    "alternatives": [
+     "י",
+     "ז"
+    ],
+    "evidence": "C strips 1 and 2: dark tapering wedge-shaped vertical; A (x~1100-1118): faint stroke only."
+   },
+   {
+    "pos": 4,
+    "read": "ט",
+    "grade": "possible",
+    "alternatives": [
+     "ס",
+     "ם"
+    ],
+    "evidence": "A (x~1055-1100): rounded closed loop with a small tick on top at the right; C strips 1 and 2: round loop whose right side rises and curls inward at the top (tet-like)."
+   },
+   {
+    "pos": 5,
+    "read": "א",
+    "grade": "probable",
+    "alternatives": [],
+    "evidence": "A (x~1005-1045): X-shaped crossing diagonals; C strips 1 and 2: clear X/aleph shape."
+   },
+   {
+    "pos": 6,
+    "read": "ח",
+    "grade": "possible",
+    "alternatives": [
+     "ה",
+     "ת",
+     "two letters (ל/ו + ח)"
+    ],
+    "evidence": "A (x~945-1000): heavy top bar with two legs; a heavy stroke rises above the right end of the bar into the interline; C strip 1: same (bar, two legs, stroke rising at right); B strip 3 (x~1400-1470): top bar with vertical rising above it at the right."
+   },
+   {
+    "pos": 7,
+    "read": "ב",
+    "grade": "probable",
+    "alternatives": [
+     "כ"
+    ],
+    "evidence": "A (x~880-938): top bar, right vertical, long flat base extending left beyond the top; C strip 1 (x~350-420): same; B strip 3 (x~1330-1395): clear box open at the left (top, right side, base)."
+   },
+   {
+    "pos": 8,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [],
+    "evidence": "A (x~850-880): thin curved stroke at the edge of the lacuna."
+   },
+   {
+    "pos": 9,
+    "read": "ו",
+    "grade": "possible",
+    "alternatives": [
+     "ן",
+     "right side of ב"
+    ],
+    "evidence": "A (x~445-460), left of the lacuna: long vertical from line top to base; a faint horizontal at the base runs left from it."
+   },
+   {
+    "pos": 10,
+    "read": "ע",
+    "grade": "possible",
+    "alternatives": [
+     "צ",
+     "ש"
+    ],
+    "evidence": "A (x~370-405): deep V-shape, two strokes converging downward."
+   },
+   {
+    "pos": 11,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "א",
+     "ג"
+    ],
+    "evidence": "A (x~300-355): heavy short stroke at upper right curving down, crossed by a thin diagonal descending to the right."
+   },
+   {
+    "pos": 12,
+    "read": "ו",
+    "grade": "possible",
+    "alternatives": [
+     "ן",
+     "crease"
+    ],
+    "evidence": "A (x~262-280): long dark vertical from above the line to below the base; may be a crease in the copy."
+   },
+   {
+    "pos": 13,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [],
+    "evidence": "A (x~225-255): faint strokes near the left edge of the fragment."
+   }
+  ],
+  "greek_or_numerals": "None certain (pos 2 is Λ-shaped but C shows an inner aleph arm).",
+  "image_quality": "A and C strips 1-2 (which overlap and repeat pos 1-7) were most useful; B strip 3 confirmed pos 6-7 at the edge of the dark lacuna area. The fragment left of the lacuna is covered only by A (and indistinctly by B strips 1-2).",
+  "notes": "Cross-correlation of the images shows this is the line directly ABOVE the P04 target line (same images shifted ~1 line). Target line at A y~110-200 (right part). A large lacuna (smooth area in A, black in B, no metal in C) interrupts the line between A x~510 and x~850, roughly 6-8 letter spaces lost ([...]). Right edge of column at A x~1240. The left fragment (A x~220-510) is worn and I am not sure the letters there are on exactly the same line (the line may be offset by a few pixels)."
+ },
+ "P11": {
+  "transcription": "?רוור [...] ן?וח?חם?ב?לוחלוחחח",
+  "letters": [
+   {
+    "pos": 1,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "ו"
+    ],
+    "evidence": "A (x~1445-1460): vertical at the right edge of the column; may be a crease."
+   },
+   {
+    "pos": 2,
+    "read": "ר",
+    "grade": "possible",
+    "alternatives": [
+     "ד",
+     "ו"
+    ],
+    "evidence": "A (x~1400-1430): head curving right into a vertical."
+   },
+   {
+    "pos": 3,
+    "read": "ו",
+    "grade": "possible",
+    "alternatives": [
+     "ן",
+     "ז"
+    ],
+    "evidence": "A (x~1365-1390): long heavy slightly slanted vertical."
+   },
+   {
+    "pos": 4,
+    "read": "ו",
+    "grade": "possible",
+    "alternatives": [
+     "י"
+    ],
+    "evidence": "A (x~1345-1360): shorter vertical."
+   },
+   {
+    "pos": 5,
+    "read": "ר",
+    "grade": "possible",
+    "alternatives": [
+     "ד",
+     "ח"
+    ],
+    "evidence": "A (x~1300-1330): head extending left from a vertical."
+   },
+   {
+    "pos": 6,
+    "read": "ן",
+    "grade": "possible",
+    "alternatives": [
+     "ך",
+     "ר",
+     "ד"
+    ],
+    "evidence": "A (x~1115-1150): top stroke and a vertical descending to or below the base. Follows a blank/worn stretch A x~1160-1300."
+   },
+   {
+    "pos": 7,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "ו",
+     "crease"
+    ],
+    "evidence": "A (x~1085-1100): heavy dark vertical, may be a fold in the copy."
+   },
+   {
+    "pos": 8,
+    "read": "ו",
+    "grade": "possible",
+    "alternatives": [
+     "ק",
+     "ר"
+    ],
+    "evidence": "A (x~1040-1075): vertical with a round loop head; small dot to its left at the top."
+   },
+   {
+    "pos": 9,
+    "read": "ח",
+    "grade": "possible",
+    "alternatives": [
+     "ה"
+    ],
+    "evidence": "A (x~995-1040): top bar with two legs, both apparently attached."
+   },
+   {
+    "pos": 10,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "ח",
+     "ו"
+    ],
+    "evidence": "A (x~960-990): verticals crossed by a diagonal crease."
+   },
+   {
+    "pos": 11,
+    "read": "ח",
+    "grade": "possible",
+    "alternatives": [
+     "ה"
+    ],
+    "evidence": "A (x~930-960): top bar with two legs."
+   },
+   {
+    "pos": 12,
+    "read": "ם",
+    "grade": "possible",
+    "alternatives": [
+     "ס"
+    ],
+    "evidence": "A (x~878-922): closed rounded box."
+   },
+   {
+    "pos": 13,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "ו",
+     "ב"
+    ],
+    "evidence": "A (x~830-875): heavy slanted vertical with strokes to its left."
+   },
+   {
+    "pos": 14,
+    "read": "ב",
+    "grade": "possible",
+    "alternatives": [
+     "כ"
+    ],
+    "evidence": "A (x~765-825): top stroke, right vertical, short base; B strip 2: slanted box letter open at the left. (A long horizontal with raised right end just above it, A y~55-80, seems to belong to the line above.)"
+   },
+   {
+    "pos": 15,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "ב",
+     "ט",
+     "כ",
+     "נ"
+    ],
+    "evidence": "A (x~700-750): one heavy slanted stroke with a turn at the lower left; B strip 2 (x~1220-1250): slanted closed parallelogram. A and B disagree."
+   },
+   {
+    "pos": 16,
+    "read": "ל",
+    "grade": "possible",
+    "alternatives": [
+     "ן",
+     "ס"
+    ],
+    "evidence": "A (x~660-700): long vertical rising well above the line, then a base curling up to the right; B strip 2 (x~1170-1210): lamed-like with a tall ascender. The tall stroke could also be the tail of a hooked sign in the line above."
+   },
+   {
+    "pos": 17,
+    "read": "ו",
+    "grade": "possible",
+    "alternatives": [
+     "ז",
+     "י"
+    ],
+    "evidence": "A (x~640-660): curved vertical; B strips 1 and 2: vertical."
+   },
+   {
+    "pos": 18,
+    "read": "ח",
+    "grade": "possible",
+    "alternatives": [
+     "ת",
+     "ה",
+     "two letters (ח + ו)"
+    ],
+    "evidence": "A (x~560-625): broad top bar with two legs (right leg descends below the base) and a third short vertical inside between them; B strips 1 and 2: H-shape with an inner stroke."
+   },
+   {
+    "pos": 19,
+    "read": "ל",
+    "grade": "probable",
+    "alternatives": [],
+    "evidence": "A (x~490-535): ascender rising above the line, horizontal to the right, then a tail curving down; B strip 1 (x~460-530) and strip 2 (x~1170-1210): same lamed form."
+   },
+   {
+    "pos": 20,
+    "read": "ו",
+    "grade": "possible",
+    "alternatives": [
+     "י",
+     "ס"
+    ],
+    "evidence": "A (x~460-480): narrow closed oval (heavy single stroke); B strip 1 (x~430-450): vertical."
+   },
+   {
+    "pos": 21,
+    "read": "ח",
+    "grade": "possible",
+    "alternatives": [
+     "ה"
+    ],
+    "evidence": "A (x~425-460): top bar with two legs; B strip 1 (x~380-420): H-shape."
+   },
+   {
+    "pos": 22,
+    "read": "ח",
+    "grade": "possible",
+    "alternatives": [
+     "ה"
+    ],
+    "evidence": "A (x~375-420): top bar, both legs attached; B strip 1 (x~330-370): H-shape."
+   },
+   {
+    "pos": 23,
+    "read": "ח",
+    "grade": "possible",
+    "alternatives": [
+     "ת"
+    ],
+    "evidence": "A (x~325-370): top bar with a left leg that extends above the bar and below the base; B strip 1 (x~280-330): H-shape."
+   }
+  ],
+  "greek_or_numerals": "None on the target line. The line above contains a row of large hook-shaped signs (like '9' / reversed '2'), probably numeral signs; they intrude into the top of the target line around A x~490-700.",
+  "image_quality": "A was most useful; B strips 1 and 2 (which overlap each other) clearly confirm the left part (three ח-like letters, ו, ל, ח with inner stroke, ל). C shows the line faintly and at a different slope (C strip 1 has letters on two levels) - not used letter by letter.",
+  "notes": "Target line hard to locate. At the right margin the line at the triangle height (A y~80-140) has only 5 letters (x~1300-1460); A x~1160-1300 is blank/worn with a vertical fold (I cannot tell whether letters are lost there; given as [...]). Between A x~880 and ~1150 the letters sit higher (A y~40-100) and the line then drops back to y~80-140 at x<830; I have treated these as one wavy line, but it is possible that the middle stretch (pos 6-13) belongs to the line above. B strip 2 also shows the right part of the line higher than the left part. Cross-correlation shows this item's target line lies about two lines below the P09 target line."
+ },
+ "P12": {
+  "transcription": "? לבחצא בב רווך",
+  "letters": [
+   {
+    "pos": 1,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "ו",
+     "crease",
+     "no letter"
+    ],
+    "evidence": "A (x~1215-1240): an oblique dark stroke at line height in an otherwise blank stretch (A x~1030-1300); may be surface damage. B and C strips show nothing here (C strip 2 blank right of x~1150)."
+   },
+   {
+    "pos": 2,
+    "read": "ל",
+    "grade": "possible",
+    "alternatives": [
+     "ט",
+     "ע"
+    ],
+    "evidence": "A (x~970-1025): stem rising above the line on the left, descending and turning into a curved bowl/base to the right; C strip 2 (x~1110-1150): ascender with a top stroke running right; C strip 1 (x~555-575, at the crack): tall stroke."
+   },
+   {
+    "pos": 3,
+    "read": "ב",
+    "grade": "probable",
+    "alternatives": [
+     "כ"
+    ],
+    "evidence": "A (x~905-960): curved head at top left, short right vertical, separate flat base below; C strips 1 (x~490-540) and 2 (x~1040-1095): box open at the left."
+   },
+   {
+    "pos": 4,
+    "read": "ח",
+    "grade": "possible",
+    "alternatives": [
+     "ת",
+     "ה"
+    ],
+    "evidence": "A (x~850-905): top bar with a left leg and a second stroke under the bar (middle/right); a tall stroke above belongs to the line above. C strip 1 (x~440-480): H-shape with top bar; C strip 2 (x~1000-1040): same."
+   },
+   {
+    "pos": 5,
+    "read": "צ",
+    "grade": "possible",
+    "alternatives": [
+     "ע"
+    ],
+    "evidence": "A (x~800-850): Y-shape - an upper-right arm and a diagonal body joining a short base that runs left; C strip 1 (x~390-430): V-shape on a base (tsade-like)."
+   },
+   {
+    "pos": 6,
+    "read": "א",
+    "grade": "probable",
+    "alternatives": [
+     "Greek Λ"
+    ],
+    "evidence": "A (x~750-800): Λ-shape with a short extra arm; C strip 1 (x~340-380): Λ with inner stroke; B strip 3 (x~1230-1290): clear aleph (diagonal with two side arms)."
+   },
+   {
+    "pos": 7,
+    "read": "ב",
+    "grade": "probable",
+    "alternatives": [
+     "כ"
+    ],
+    "evidence": "A (x~645-705): top bar with right vertical and flat base projecting left; C strip 1 (x~230-280): same; B strip 3 (x~1150-1200): same box open at left."
+   },
+   {
+    "pos": 8,
+    "read": "ב",
+    "grade": "probable",
+    "alternatives": [
+     "כ",
+     "נ"
+    ],
+    "evidence": "A (x~570-645): short slanted top stroke with a small bump, right vertical, long flat base; C strip 1 (x~160-210) and B strip 3 (x~1080-1140): top stroke + right vertical + long base."
+   },
+   {
+    "pos": 9,
+    "read": "ר",
+    "grade": "possible",
+    "alternatives": [
+     "ד",
+     "ו"
+    ],
+    "evidence": "A (x~500-545): broad hooked head arching from left to right and then a heavy descending right stroke; B strip 3 (x~985-1000): curved hooked stroke."
+   },
+   {
+    "pos": 10,
+    "read": "ו",
+    "grade": "possible",
+    "alternatives": [
+     "י"
+    ],
+    "evidence": "A (x~450-472): vertical (relief shows as a double outline); B strip 3: vertical."
+   },
+   {
+    "pos": 11,
+    "read": "ו",
+    "grade": "possible",
+    "alternatives": [
+     "י",
+     "ז"
+    ],
+    "evidence": "A (x~425-445): slightly slanted vertical; B strip 3: vertical."
+   },
+   {
+    "pos": 12,
+    "read": "ך",
+    "grade": "possible",
+    "alternatives": [
+     "ן",
+     "ק"
+    ],
+    "evidence": "A (x~385-420): head turning to the upper left with a long descender reaching well below the baseline. Not covered by C; B strip 3 edge."
+   }
+  ],
+  "greek_or_numerals": "None identified (pos 6 is aleph-like, not a plain Λ).",
+  "image_quality": "A clear for all positions; C strip 1 confirmed pos 3-8 very well; C strip 2 pos 2-4; B strip 3 confirmed pos 6-10. The three images agree on the letter shapes.",
+  "notes": "Target line at A y~95-175. Visible word spaces in A between pos 6 and 7 (x~705-750) and between pos 8 and 9 (x~545-570). The line starts at A x~1025 after a long blank stretch (x~1030-1300) - the right part of the line appears uninscribed (vacat) in all three images, apart from the doubtful mark at pos 1. A vertical crease runs down A x~1055-1090. Line ends at A x~385; to the left (x<380) is the column margin and the edge of the neighbouring column."
+ },
+ "P13": {
+  "transcription": "דו·לאשב?ו לוםחח? [...]",
+  "letters": [
+   {
+    "pos": 1,
+    "read": "ד",
+    "grade": "possible",
+    "alternatives": [
+     "ר",
+     "ך"
+    ],
+    "evidence": "A (x~1190-1245): top stroke rising slightly to the right and a right vertical descending to the base; C strip 3 (x~1420-1470): same form - slanting top stroke meeting a vertical on the right."
+   },
+   {
+    "pos": 2,
+    "read": "ו",
+    "grade": "possible",
+    "alternatives": [
+     "ז",
+     "ע"
+    ],
+    "evidence": "A (x~1130-1170): vertical with a hooked head turning left; C strip 3 (x~1350-1400): long vertical with a diagonal/loop at its upper left ('4'-like) - C suggests a more complex letter than A."
+   },
+   {
+    "pos": 3,
+    "read": "·",
+    "grade": "possible",
+    "alternatives": [
+     "י",
+     "damage"
+    ],
+    "evidence": "A (x~1100-1115, y~95): a small round dot at the top of the line with a small curved stroke below it; not clear in C."
+   },
+   {
+    "pos": 4,
+    "read": "ל",
+    "grade": "probable",
+    "alternatives": [],
+    "evidence": "A (x~1060-1100): tall ascender (A y~50-125) then a short horizontal to the right and a tail sweeping down-left; C strip 3 (x~1290-1340): tall vertical plus a 'z'-shaped tail; C strip 2 (x~800-830): hooked stroke."
+   },
+   {
+    "pos": 5,
+    "read": "א",
+    "grade": "probable",
+    "alternatives": [
+     "Greek Λ"
+    ],
+    "evidence": "A (x~990-1055): Λ-shape (apex at top) with a short extra arm; C strip 2 (x~730-790): Λ with arm."
+   },
+   {
+    "pos": 6,
+    "read": "ש",
+    "grade": "possible",
+    "alternatives": [
+     "ע",
+     "צ"
+    ],
+    "evidence": "A (x~937-990): V-shape with an extra arm (three-pronged); C strip 2 (x~680-720): V-shaped strokes."
+   },
+   {
+    "pos": 7,
+    "read": "ב",
+    "grade": "probable",
+    "alternatives": [
+     "כ"
+    ],
+    "evidence": "A (x~880-925): short top stroke, right vertical, long flat base; C strip 2 (x~600-660): top stroke with right vertical and base."
+   },
+   {
+    "pos": 8,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "צ",
+     "ע",
+     "נ"
+    ],
+    "evidence": "A (x~823-880): short vertical with a base running left and a diagonal arm rising to the upper right; not clearly visible in C."
+   },
+   {
+    "pos": 9,
+    "read": "ו",
+    "grade": "possible",
+    "alternatives": [
+     "ן",
+     "י"
+    ],
+    "evidence": "A (x~785-812): vertical from line top to base, with a curved top."
+   },
+   {
+    "pos": 10,
+    "read": "ל",
+    "grade": "possible",
+    "alternatives": [
+     "ג",
+     "ש"
+    ],
+    "evidence": "A (x~745-790): zigzag body in the upper half of the line with a tall stroke rising above it at x~750-760 (possible ascender). From here leftwards the line sits ~25-30px higher in A (the line slopes)."
+   },
+   {
+    "pos": 11,
+    "read": "ו",
+    "grade": "possible",
+    "alternatives": [
+     "ר",
+     "ן"
+    ],
+    "evidence": "A (x~727-740): long vertical with a small head."
+   },
+   {
+    "pos": 12,
+    "read": "ם",
+    "grade": "possible",
+    "alternatives": [
+     "ס"
+    ],
+    "evidence": "A (x~678-715): tall closed rounded rectangle."
+   },
+   {
+    "pos": 13,
+    "read": "ח",
+    "grade": "possible",
+    "alternatives": [
+     "ו",
+     "ה"
+    ],
+    "evidence": "A (x~640-668): top stroke with two close verticals below (may be a single broad vertical shown by relief as a double outline)."
+   },
+   {
+    "pos": 14,
+    "read": "ח",
+    "grade": "possible",
+    "alternatives": [
+     "ה",
+     "ת"
+    ],
+    "evidence": "A (x~605-640): top bar with two legs."
+   },
+   {
+    "pos": 15,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "ד",
+     "ר",
+     "ה"
+    ],
+    "evidence": "A (x~560-590): horizontal at the top joined to a vertical at x~580; a small eye-shaped mark just to the left at the top."
+   }
+  ],
+  "greek_or_numerals": "None identified. A small round dot (pos 3) at the top of the line between pos 2 and pos 4 - could be a point or a tiny sign, or damage.",
+  "image_quality": "A was most useful; C strip 2 (pos 4-7) and C strip 3 (pos 1-4) confirmed the right part. B strips show crisp loop and box shapes at the triangle height (B strip 3 x~1150-1460, B strip 1 x~190-410) that I could NOT match to the A/C target line - they look more like the line below (which in A/C has several box letters), i.e. B appears offset by about half a line.",
+  "notes": "Target line hard to locate: the right part lies at A y~95-165, but the line rises towards the left (A y~60-135 by x~600). The left part (A x~380-560: a hooked ר/ד-like letter at x~510-540, a diagonal stroke at ~490, a letter with a long base at x~417-471 and a dark mark at x~380-410) is too uncertain and is given as [...]. Crease/fold at A x~1150 (vertical) near pos 2. A word space appears after pos 9 (x~770-785) with low confidence. Cross-correlation of the B/C images suggests this item's target line lies about two lines above the P06 target line."
+ },
+ "P14": {
+  "transcription": "בש??בנ בצכאו בחד?וח??ע",
+  "letters": [
+   {
+    "pos": 1,
+    "read": "ב",
+    "grade": "possible",
+    "alternatives": [
+     "ג",
+     "נ",
+     "כ"
+    ],
+    "evidence": "A (x~1115-1150): curled top stroke at upper left, right vertical, base; C strip 1 (x~430-460): top bar with right vertical and base (bet-like)."
+   },
+   {
+    "pos": 2,
+    "read": "ש",
+    "grade": "possible",
+    "alternatives": [
+     "ט",
+     "ע"
+    ],
+    "evidence": "A (x~1055-1110): U-shape on a base with an inner diagonal arm; C strip 1 (x~350-410): Y-shaped strokes and a hook - C suggests a different, more open form."
+   },
+   {
+    "pos": 3,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "ס",
+     "ט",
+     "צ"
+    ],
+    "evidence": "A (x~985-1015): two small stacked loops next to a heavy vertical crease (x~1015-1045) that obscures this area; C strip 1 (x~310-350): V-shaped letter."
+   },
+   {
+    "pos": 4,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "ט",
+     "ש",
+     "ם"
+    ],
+    "evidence": "A (x~920-965): U-shape with an inner curved stroke on the left arm (tet- or shin-like); C strip 1 (x~230-270): a clean closed square box; B strip 2 (x~570-610): square box. A disagrees with B and C."
+   },
+   {
+    "pos": 5,
+    "read": "ב",
+    "grade": "possible",
+    "alternatives": [
+     "כ",
+     "ם"
+    ],
+    "evidence": "A (x~875-915): top bar with a small tick, right vertical, flat base; C strip 1 (x~190-220): only a curved upright visible."
+   },
+   {
+    "pos": 6,
+    "read": "נ",
+    "grade": "possible",
+    "alternatives": [
+     "ב",
+     "כ"
+    ],
+    "evidence": "A (x~840-875): short vertical with a base running left; a diagonal crease crosses at x~835-850."
+   },
+   {
+    "pos": 7,
+    "read": "ב",
+    "grade": "probable",
+    "alternatives": [
+     "כ"
+    ],
+    "evidence": "A (x~760-800): top stroke, right vertical, flat base open to the left; C strip 2 (x~850-890): same."
+   },
+   {
+    "pos": 8,
+    "read": "צ",
+    "grade": "possible",
+    "alternatives": [
+     "ע"
+    ],
+    "evidence": "A (x~725-760): curved body descending to a base, with an arm at upper right; C strip 2 (x~800-840): Y-shape."
+   },
+   {
+    "pos": 9,
+    "read": "כ",
+    "grade": "possible",
+    "alternatives": [
+     "ב"
+    ],
+    "evidence": "A (x~680-720): rounded stroke - top curving to a right side and back to a base (open to the left); C strip 2 (x~760-800): rounded C-shape (mirror) box."
+   },
+   {
+    "pos": 10,
+    "read": "א",
+    "grade": "possible",
+    "alternatives": [
+     "צ"
+    ],
+    "evidence": "A (x~650-680): vertical crossed by a diagonal; C strip 2 (x~720-760): V/X-shaped strokes."
+   },
+   {
+    "pos": 11,
+    "read": "ו",
+    "grade": "possible",
+    "alternatives": [
+     "י",
+     "ן"
+    ],
+    "evidence": "A (x~628-645): heavy vertical with pointed top; C strip 2 (x~700-715): vertical."
+   },
+   {
+    "pos": 12,
+    "read": "ב",
+    "grade": "probable",
+    "alternatives": [
+     "כ"
+    ],
+    "evidence": "A (x~555-600): hooked top stroke, right vertical, flat base (clear); C strip 2 left edge (x~620-660): box letter with right vertical."
+   },
+   {
+    "pos": 13,
+    "read": "ח",
+    "grade": "probable",
+    "alternatives": [
+     "ה"
+    ],
+    "evidence": "A (x~515-550): top bar with both legs attached."
+   },
+   {
+    "pos": 14,
+    "read": "ד",
+    "grade": "possible",
+    "alternatives": [
+     "ל",
+     "ך",
+     "ר"
+    ],
+    "evidence": "A (x~455-510): horizontal extending left from a heavy right vertical that ends at the baseline; the vertical also rises above the line (ascender or a stroke of the line above)."
+   },
+   {
+    "pos": 15,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [],
+    "evidence": "A (x~430-460): faint curved strokes at the edge of a crease zone (A x~380-440)."
+   },
+   {
+    "pos": 16,
+    "read": "ו",
+    "grade": "possible",
+    "alternatives": [
+     "י"
+    ],
+    "evidence": "A (x~350-370): short vertical with head; from here the line sits ~30px lower in A (A y~135-190)."
+   },
+   {
+    "pos": 17,
+    "read": "ח",
+    "grade": "possible",
+    "alternatives": [
+     "ה",
+     "ת"
+    ],
+    "evidence": "A (x~300-345): top bar with two legs."
+   },
+   {
+    "pos": 18,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "ו",
+     "א"
+    ],
+    "evidence": "A (x~272-300): slanted stroke."
+   },
+   {
+    "pos": 19,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "ו",
+     "א"
+    ],
+    "evidence": "A (x~245-272): slanted stroke."
+   },
+   {
+    "pos": 20,
+    "read": "ע",
+    "grade": "possible",
+    "alternatives": [
+     "צ",
+     "ש"
+    ],
+    "evidence": "A (x~200-240): V-shaped pair of strokes; at the edge of the damaged left margin."
+   }
+  ],
+  "greek_or_numerals": "None seen.",
+  "image_quality": "A was the only image covering the whole line; C strip 2 matched pos 7-12 well and C strip 1 pos 1-5. B strip 2 shows a box + V-shaped letter pair (probably around pos 2-5) but could not be aligned securely; B strips 1 and 3 are cracked or washed out.",
+  "notes": "Target line at A y~95-160 on the right, sloping down to y~135-190 at the left end (x~200-370). Heavy creases in the copy at A x~1015-1045, x~835-850 and a crease zone x~380-440 where the surface is folded. Word spaces seen in A after pos 6 (x~800-840, but a crease is there) and after pos 11 (x~600-625). Letters in pos 15-20 are low confidence; count may be off by one."
+ },
+ "P15": {
+  "transcription": "םשבוהצעט??? ה?ץן",
+  "letters": [
+   {
+    "pos": 1,
+    "read": "ם",
+    "grade": "possible",
+    "alternatives": [
+     "ס",
+     "ט"
+    ],
+    "evidence": "A (x~1180-1240): closed box with rounded corners, top-left slightly open; C strip 2 (x~1140-1185): box with right side and base. B strip 3 shows box letters at about this height but could not be aligned with certainty."
+   },
+   {
+    "pos": 2,
+    "read": "ש",
+    "grade": "possible",
+    "alternatives": [
+     "ע",
+     "צ"
+    ],
+    "evidence": "A (x~1090-1130): diagonal from upper right to lower left with a short vertical on the left; C strip 2 (x~1040-1080): two parallel diagonals plus a vertical."
+   },
+   {
+    "pos": 3,
+    "read": "ב",
+    "grade": "possible",
+    "alternatives": [
+     "ט",
+     "נ"
+    ],
+    "evidence": "A (x~1030-1080): flat base, right vertical, and a small loop/triangle at the upper left not clearly joined to the vertical; C strip 2 (x~990-1030): box with right vertical and base."
+   },
+   {
+    "pos": 4,
+    "read": "ו",
+    "grade": "possible",
+    "alternatives": [
+     "י"
+    ],
+    "evidence": "A (x~1005-1030): triangular loop head tapering down to about 3/4 of the line height; C strip 2 (x~945-975): a diagonal stroke only."
+   },
+   {
+    "pos": 5,
+    "read": "ה",
+    "grade": "possible",
+    "alternatives": [
+     "ח",
+     "ד + ו"
+    ],
+    "evidence": "A (x~955-1010): top bar with a heavy right vertical descending to the base, and a separate short thick stroke (appearing as an oval outline) at the lower left, not touching the bar. Not clear in C."
+   },
+   {
+    "pos": 6,
+    "read": "צ",
+    "grade": "possible",
+    "alternatives": [
+     "ע",
+     "ש"
+    ],
+    "evidence": "A (x~895-950): Y-shaped top (two arms) on a stem that joins a heavy flat base (base runs x~870-945); C strip 1 (x~620-700): diagonal arms over a base."
+   },
+   {
+    "pos": 7,
+    "read": "ע",
+    "grade": "possible",
+    "alternatives": [
+     "ו",
+     "part of pos 6 (ש)"
+    ],
+    "evidence": "A (x~845-890): two short strokes converging downward (V) in the upper half, joining the left end of the base of pos 6; could be part of one broad three-armed letter with pos 6."
+   },
+   {
+    "pos": 8,
+    "read": "ט",
+    "grade": "possible",
+    "alternatives": [
+     "ב",
+     "ו + נ"
+    ],
+    "evidence": "A (x~795-850): loop-headed upright on the left, flat base, and a right upright rising to the top; C strip 1 (x~560-620): box with an inner diagonal (tet-like)."
+   },
+   {
+    "pos": 9,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "ל",
+     "א"
+    ],
+    "evidence": "A (x~700-745): diagonal stroke from upper right to lower left, right of it a long thin vertical crossing several lines at x~755-770 (crack or scratch; also a thin long line in C strip 1 x~520 and a sharp crack in B strip 2) - I have not counted the long vertical as a letter."
+   },
+   {
+    "pos": 10,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "ב",
+     "נ"
+    ],
+    "evidence": "A (x~650-700): flat base at the bottom of the line with a short upright; faint."
+   },
+   {
+    "pos": 11,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [],
+    "evidence": "A (x~600-650): faint diagonal traces only; C strip 1 (x~350-420, if my alignment is right): a box letter with right vertical and base."
+   },
+   {
+    "pos": 12,
+    "read": "ה",
+    "grade": "possible",
+    "alternatives": [
+     "ד",
+     "ח"
+    ],
+    "evidence": "A (x~530-600): top bar with a small peak, heavy right vertical to the base, and a short separate stroke at the lower left; C strip 1 (x~290-360): upright with a base - disagrees (bet-like)."
+   },
+   {
+    "pos": 13,
+    "read": "?",
+    "grade": "illegible",
+    "alternatives": [
+     "ז",
+     "ר",
+     "Greek Γ"
+    ],
+    "evidence": "A (x~460-510): vertical from line top to base with a hook running to the RIGHT at the top (Gamma-like). Not covered by B/C."
+   },
+   {
+    "pos": 14,
+    "read": "ץ",
+    "grade": "possible",
+    "alternatives": [
+     "צ",
+     "ע",
+     "א"
+    ],
+    "evidence": "A (x~300-455): V-shaped pair of strokes (x~305-350) whose point continues as a descender below the baseline, with a long diagonal arm running from their meeting point up to the upper right (x~455). Not covered by B/C."
+   },
+   {
+    "pos": 15,
+    "read": "ן",
+    "grade": "possible",
+    "alternatives": [
+     "ו"
+    ],
+    "evidence": "A (x~285-300): long vertical from line top to well below the baseline; left of it the column margin."
+   }
+  ],
+  "greek_or_numerals": "None certain. Pos 14 is Gamma-shaped (stem at the left with the head running right) and might be a Greek Γ or an unusual ז.",
+  "image_quality": "A most useful (though the middle stretch x~600-750 is worn); C strip 2 matched pos 1-4 and C strip 1 pos 6-8. B strips: B strip 2 shows mainly sharp cracks; B strip 3 shows box letters but could not be aligned securely.",
+  "notes": "Target line at A y~100-200 (triangle at y~145). Two long thin verticals cross several lines at A x~1135-1150 and x~755-770 - they look like cracks/scratches rather than letters and are not counted. A gap of about one letter width at A x~585-600 (between the illegible stretch and the ה-like letter) may be a word space. Cross-correlation shows this item's target line lies about two lines below the P04 target line."
+ }
+}

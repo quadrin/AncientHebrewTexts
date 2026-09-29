@@ -171,6 +171,8 @@ Checked 2026-09-27 against branch `main` (commit 637a7a9, "Add files via upload"
   - the Comprehensive Aramaic Lexicon.
 
   These are still missing. Eshel's chapter, which the README also lists as missing, is in the full *Copper Scroll Studies* uploaded earlier.
+
+  **Update 2026-09-29:** the user supplied both Elitzur (2004, 237-page PDF) and the complete Hebrew *ʿAtiqot* 41, Part 1 (25 PDFs, including Eisenberg on V/49, Aronshtam on Region V, the Index and the 1993 map). Both stay outside the repository. *ʿAtiqot* 41 has been read for entry 17 ([extraction](registration/atiqot41_region_v_extracted.md)). Elitzur has not yet been read against the Phase 3 uses of his criteria (F3.3).
 - Main use: Phase 3. Sheet XVIII covers the Jericho plain, Wadi Qelt, the Buqeia, Hyrcania (Kh. Mird) and the NW Dead Sea shore to Râs Feshkhah. This is the area missing from the TIR crops (Q3). It is a 19th-century survey, not TIR: names are the Arabic names of 1870s, and ancient identifications must come from other sources.
 
 ### Elitzur 2004 (uploaded in session 2)
@@ -286,3 +288,15 @@ A 5-page PDF you uploaded in session 1: `TIR_Copper_Scroll_Research_Summary.pdf`
 Use the available editions as research sources. Keep ancient wording, an editor's restoration, a modern translation and the project's own interpretation distinguishable, with page and line citations. Existing files and historical delivery notes do not establish a blanket permission or prohibition for new publication. Follow [Text and publication](AGENTS.md#text-and-publication); a replacement-transcription search is not a prerequisite for the research.
 
 For the distinction between preexisting material and new contributions in an edition, see [17 U.S.C. § 103(b)](https://www.copyright.gov/title17/92chap1.html#103). For the PEF map, see the [CC BY-NC-SA 3.0 terms](https://creativecommons.org/licenses/by-nc-sa/3.0/).
+
+
+## Plates used for the 2026-09-29 plate check
+
+Puech 2006, vol. II, in the local PDF parts 9–11:
+
+- **Radiographs of the original segments:** pls. CCCXXXIII–CCCLVI (part 10, PDF pages 23–46), two per column.
+- **Colour photograph of the galvanoplastic copy:** pls. CCCLIX–CCCLXXXI, odd numbers (part 10 pp. 51–69; part 11 pp. 1–3).
+- **Puech's facsimile drawings:** the even numbers CCCLX–CCCLXXXII.
+- **A second copy photograph:** pls. CCXCVI–CCCVII (part 9 pp. 50–61). It proved to be the same image.
+
+The plate captions were checked by `tools/plate_extract.py` before extraction. See [plate_check.md](plate_check.md).

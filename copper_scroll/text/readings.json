@@ -998,13 +998,14 @@
     "ref": "p. 345; via Puech CSS p. 81 n. 61"
    }
   ],
-  "note": "ΞΕ would equal 65, the number of gold ingots in the line, but both facsimiles show a Θ, and the research files do not let a numerical coincidence choose the reading. The Theboutis link rests on two letters that begin 43 names in Josephus, so it is weak.",
+  "note": "ΞΕ would equal 65, the number of gold ingots in the line, but both facsimiles show a Θ, and the research files do not let a numerical coincidence choose the reading. The Theboutis link rests on two letters that begin 43 names in Josephus, so it is weak. The plate check found a closed ring with a central bar, a Θ, not the three bars of a Ξ.",
   "sources": [
    "tables/phase4_greek_letters.csv",
    "tables/phase4_hypotheses.csv",
    "phase4_summary.md",
    "findings_log.md",
-   "open_questions.md"
+   "open_questions.md",
+   "plate_check.md"
   ]
  },
  {
@@ -1583,12 +1584,13 @@
     "ref": "via Lefkovits p. 499"
    }
   ],
-  "note": "Whether a third letter follows is disputed, and the files say only photographs could settle it (Q27). The group stands where the editors disagree about the division, and the ten-to-one numeral reading is one of the rules the files reject.",
+  "note": "Whether a third letter follows is disputed, and the files say only photographs could settle it (Q27). The group stands where the editors disagree about the division, and the ten-to-one numeral reading is one of the rules the files reject. The plate check found a third sign, a vertical stroke longer than a letter, directly after the Ρ and well apart from the numerals; Puech's own drawing shows it too. Whether it is an Ι, as Allegro and the Baker drawing have it, is not established (Q27).",
   "sources": [
    "tables/phase4_greek_letters.csv",
    "tables/phase4_hypotheses.csv",
    "phase4_summary.md",
-   "open_questions.md"
+   "open_questions.md",
+   "plate_check.md"
   ]
  },
  {
@@ -2074,7 +2076,7 @@
     "ref": "pp. 162–164"
    }
   ],
-  "note": "The landmark is read with kaf, bet or taw, and the הכיפין shown here matches none of the three forms reported. Caves of the period exist in the cliffs by Wadi Nuweiʿimeh, and the files test a cave pair (V/49 and a neighbour) only under Puech's reading; no source reports a pair of any kind.",
+  "note": "The landmark is read with kaf, bet or taw, and the הכיפין shown here matches none of the three forms reported. Caves of the period exist in the cliffs by Wadi Nuweiʿimeh, and the files test a cave pair (V/49 and a neighbour) only under Puech's reading; no source reports a pair of any kind. Eisenberg's report names the neighbouring dwelling cave as V/48 (2002 p. 120), reached from V/49 by a path; the catalogue's Cave 38 is a different cave.",
   "sources": [
    "tables/phase5_assessments.csv",
    "tables/phase5_archaeology_index.csv",
@@ -2083,7 +2085,8 @@
    "dok_achor_feature_tests.md",
    "entry17_cave_pair_review.md",
    "tables/feature_constraints.csv",
-   "tables/phase5_reports.csv"
+   "tables/phase5_reports.csv",
+   "plate_check.md"
   ]
  },
  {
@@ -3322,7 +3325,7 @@
     "ref": "Eshel p. 104"
    }
   ],
-  "note": "The text shown follows Milik and Lefkovits; a fortress fits the Hasmonean fort reported on the summit, while nothing like a drying floor is reported. The files do not let the archaeology choose the reading, so the question is open (Q24).",
+  "note": "The text shown follows Milik and Lefkovits; a fortress fits the Hasmonean fort reported on the summit, while nothing like a drying floor is reported. The files do not let the archaeology choose the reading, so the question is open (Q24). The plate check found two letters after המש, the last a ח with both legs joined to its roof, and no third letter; that leans to Puech's drying place, though a narrow ר could hide in a crack there (Q24).",
   "sources": [
    "tables/phase5_assessments.csv",
    "phase1_summary.md",
@@ -3331,7 +3334,8 @@
    "feature_investigation.md",
    "phase5_summary.md",
    "findings_log.md",
-   "tables/landmark_lexicon_index.csv"
+   "tables/landmark_lexicon_index.csv",
+   "plate_check.md"
   ]
  },
  {
@@ -3506,10 +3510,11 @@
     "ref": ""
    }
   ],
-  "note": "The 80 shown here follows Puech, while Milik and Lefkovits read 60. Lefkovits reports that the three drawings (Baker, Milik, Allegro) disagree here and that Milik's shows 60.",
+  "note": "The 80 shown here follows Puech, while Milik and Lefkovits read 60. Lefkovits reports that the three drawings (Baker, Milik, Allegro) disagree here and that Milik's shows 60. On Puech's radiographs the ככ is followed by four numeral signs, not three (the first larger than the others), which gives 80 if all four are 20-signs.",
   "sources": [
    "phase1_summary.md",
-   "findings_log.md"
+   "findings_log.md",
+   "plate_check.md"
   ]
  },
  {
@@ -4276,10 +4281,11 @@
     "ref": ""
    }
   ],
-  "note": "Puech and Milik read the last sign (shaped like ף) as ½, and the text shown keeps it. The files leave the question open (Q8).",
+  "note": "Puech and Milik read the last sign (shaped like ף) as ½, and the text shown keeps it. The files leave the question open (Q8). The plate check found a distinct final sign with a curled head and a long descender after three unit strokes, not a further stroke; that supports the ½ sign of Puech and Milik against 24 or an added 1 or 2 (Q8). Whether the first numeral sign is a 20, as the editors read, or a 10 is not clear on these images.",
   "sources": [
    "open_questions.md",
-   "findings_log.md"
+   "findings_log.md",
+   "plate_check.md"
   ]
  },
  {
@@ -4388,13 +4394,14 @@
     "ref": ""
    }
   ],
-  "note": "The direction decides between Upper Beth-Horon (Milik) and other places, and the text shown has ים. Milik's drawing shows only two signs, which somewhat favours ים, but the files keep the question open until Puech's plates are checked (Q14).",
+  "note": "The direction decides between Upper Beth-Horon (Milik) and other places, and the text shown has ים. Milik's drawing shows only two signs, which somewhat favours ים, but the files keep the question open until Puech's plates are checked (Q14). The plate check agrees: beyond the saw cut there are only a short vertical and a closed final mem, and neither image shows a clear stroke where Puech reports traces of ד and ר, though the metal there is cracked. The plates lean to ים (Q14).",
   "sources": [
    "findings_log.md",
    "phase2_summary.md",
    "open_questions.md",
    "phase1_summary.md",
-   "tables/landmark_lexicon_index.csv"
+   "tables/landmark_lexicon_index.csv",
+   "plate_check.md"
   ]
  },
  {
@@ -4991,13 +4998,14 @@
     "ref": ""
    }
   ],
-  "note": "Milik's 'feet' is otherwise unattested as a unit in Hebrew (Puech p. 198 n. 380), and his own drawing shows a gimel-shaped sign that others take as a miswritten alef; the research leaves the unit open (Q15). The figure is ten in Puech and in Milik 1962, twelve only in Milik 1960.",
+  "note": "Milik's 'feet' is otherwise unattested as a unit in Hebrew (Puech p. 198 n. 380), and his own drawing shows a gimel-shaped sign that others take as a miswritten alef; the research leaves the unit open (Q15). The figure is ten in Puech and in Milik 1962, twelve only in Milik 1960. The plate check confirms the gimel-like first letter on the metal copy; the images cannot say whether it is a gimel or the cursive alef Puech describes (2006 p. 199) (Q15).",
   "sources": [
    "findings_log.md",
    "phase2_summary.md",
    "open_questions.md",
    "tables/phase5_assessments.csv",
-   "tables/landmark_lexicon_index.csv"
+   "tables/landmark_lexicon_index.csv",
+   "plate_check.md"
   ]
  },
  {
@@ -5243,12 +5251,13 @@
     "ref": ""
    }
   ],
-  "note": "The same problem as at X 6: Milik reads 'feet' where the others read 'cubits', while the figure, twelve, is agreed. The research leaves the unit open (Q15).",
+  "note": "The same problem as at X 6: Milik reads 'feet' where the others read 'cubits', while the figure, twelve, is agreed. The research leaves the unit open (Q15). The plate check confirms the gimel-like first letter and finds no ר before it at X 13, so Milik's רגמות is not seen here (Q15).",
   "sources": [
    "findings_log.md",
    "phase2_summary.md",
    "open_questions.md",
-   "tables/landmark_lexicon_index.csv"
+   "tables/landmark_lexicon_index.csv",
+   "plate_check.md"
   ]
  },
  {
@@ -5313,10 +5322,10 @@
   "label": "של רחיל: Siloam, Rachel, or Jehu",
   "readings": [
    {
-    "who": "Puech 2015",
+    "who": "Puech 2006, 2015",
     "reading": "",
-    "meaning": "of Siloam (engraved ר read as ו, של restored)",
-    "ref": "p. 92"
+    "meaning": "of Siloam: the engraved letter is a cursive waw, and a genitive של is supplied as lost by haplography",
+    "ref": "2006 p. 200; 2015 p. 92"
    },
    {
     "who": "Milik",
@@ -5337,7 +5346,7 @@
     "ref": ""
    }
   ],
-  "note": "Siloam is the research's best-supported place for this entry, but only at medium confidence and on condition that the engraved ר is read as ו (Q35). The text shown prints ר here (של רחיל).",
+  "note": "Siloam is the research's best-supported place for this entry, but only at medium confidence. Puech reads the letter after של as a cursive waw, not an engraved ר that he corrects, and supplies a second של lost by haplography (2006 p. 200); he calls Lefkovits's 'of Jehu' materially possible. The text shown prints ר here (של רחיל). The plate check found the letter to be a single curved stroke without a head bar on both the copy photograph and the radiograph, the form Puech describes. Because this hand also writes a waw-like cursive ר, the plates lean to Siloam without deciding it (Q35).",
   "sources": [
    "phase1_summary.md",
    "phase3_summary.md",
@@ -5347,7 +5356,8 @@
    "site_identification_review.md",
    "tables/phase5_assessments.csv",
    "tables/feature_constraints.csv",
-   "tables/landmark_lexicon_index.csv"
+   "tables/landmark_lexicon_index.csv",
+   "plate_check.md"
   ]
  },
  {
@@ -5718,13 +5728,14 @@
     "ref": ""
    }
   ],
-  "note": "Whether this deposit has a stated sum depends on the reading (Q9). The text shown, like Puech, has the cancelled letters {בק} and no numeral.",
+  "note": "Whether this deposit has a stated sum depends on the reading (Q9). The text shown, like Puech, has the cancelled letters {בק} and no numeral. The plate check found two finely incised letters at the end of the line, lighter than the punched letters, and no ככ or numeral strokes, which leans to Puech's cancelled letters (Q9).",
   "sources": [
    "open_questions.md",
    "phase1_summary.md",
    "findings_log.md",
    "tables/phase5_assessments.csv",
-   "tables/landmark_lexicon_index.csv"
+   "tables/landmark_lexicon_index.csv",
+   "plate_check.md"
   ]
  },
  {
@@ -5898,7 +5909,7 @@
     "ref": "pp. 271-272"
    }
   ],
-  "note": "Only Milik's emendation gives the name Bethesda, but the other reading still describes a double pool; the research keeps the Bethesda pools as best-supported (medium) while noting a second twin pool nearby. The text shown has אאשוחין, not Milik's אשדתין.",
+  "note": "Only Milik's emendation gives the name Bethesda, but the other reading still describes a double pool; the research keeps the Bethesda pools as best-supported (medium) while noting a second twin pool nearby. The text shown has אאשוחין, not Milik's אשדתין. In the plate check the fifth letter of the word looks like a ח rather than a ת, so the engraved letters favour 'reservoirs' and Milik's Bethesda needs at least one correction (Q26).",
   "sources": [
    "findings_log.md",
    "phase3_summary.md",
@@ -5906,7 +5917,8 @@
    "open_questions.md",
    "tables/phase5_assessments.csv",
    "tables/feature_constraints.csv",
-   "tables/landmark_lexicon_index.csv"
+   "tables/landmark_lexicon_index.csv",
+   "plate_check.md"
   ]
  },
  {
@@ -6555,14 +6567,15 @@
     "ref": ""
    }
   ],
-  "note": "Only the Janoah reading would add a second place name beside Koḥlit; Puech rejects it and the research leaves it open (Q12). The text shown shows Milik's צח as cancelled letters, leaving שבצפון.",
+  "note": "Only the Janoah reading would add a second place name beside Koḥlit; Puech rejects it and the research leaves it open (Q12). The text shown shows Milik's צח as cancelled letters, leaving שבצפון. The plate check found a box letter and a nun-like letter after ש, then a letter at a fold and a clear בצפון, with no צ and no yod between the box letter and the nun; that fits Puech's 'situated' better than Janoah or Milik's Smooth Rock, without deciding between bet and kaf (Q12).",
   "sources": [
    "phase1_summary.md",
    "phase2_summary.md",
    "findings_log.md",
    "open_questions.md",
    "tables/phase5_assessments.csv",
-   "tables/landmark_lexicon_index.csv"
+   "tables/landmark_lexicon_index.csv",
+   "plate_check.md"
   ]
  },
  {

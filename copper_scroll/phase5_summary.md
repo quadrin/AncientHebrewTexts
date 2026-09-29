@@ -62,7 +62,8 @@ Session 2, 2026-09-28. Desk research on published reports and editions only.
 
 - **49, Siloam: medium overall, conditional on the reading.**
   - The initial Phase 5 upgrade to high is withdrawn. The name-test result applies only if the proposed Siloam reading is accepted.
-  - The engraved ר read as ו and Puech's restored של remain substantive dependencies (2015 p. 92). Lefkovits reads no Siloam place name (2000 pp. 352–354).
+  - Puech's restored של remains a substantive dependency (2006 p. 200; 2015 p. 92). Lefkovits reads no Siloam place name (2000 pp. 352–354).
+  - **Corrected 2026-09-29:** Puech does not correct an engraved ר; he reads the letter as a cursive waw (2006 p. 200). The plate check finds a waw-shaped stroke without a head bar, which leans to his reading without deciding it ([plate_check.md](plate_check.md)).
   - Szanton (*ʿAtiqot* 113, **2023**) distinguishes the Silwan pool at the tunnel outlet from Birkat el-Ḥamra; see the review for the competing identifications.
   - The pool/outlet setting fits. The material checked in this review does not establish a period trough of the required type. The index therefore records a partial match.
 - **46, Ramat Raḥel: lowered to low.**

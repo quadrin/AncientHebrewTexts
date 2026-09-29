@@ -1,0 +1,242 @@
+{
+ "P01": [
+  {
+   "q": "P01",
+   "answer": "Two Greek-like signs, not three. They are the pair of identical signs at A x~955-1045 (my Stage 1 pos 3-4). Each is shaped like the numeral '3': two bowls open to the left, with a short tongue where they meet; no upright stroke is visible on the left of either sign. As Greek letters they look most like a mirrored ε (Ɛ written as '3'). A Β that has lost its upright is less likely, because no trace of an upright is visible. No third sign of this kind stands next to them: the two letters to their right (x~1076-1180) are Hebrew-type letters (a closed box with a top bar, and a ב-shaped letter with a head at the upper left and a long base). The only other candidate is the T-shaped sign far to the left (x~510-568, Stage 1 pos 7). Its vertical drops from near the middle of the bar, so it could be a Greek Τ, but it could equally be a Hebrew letter (ד/ר). If it counts as a third Greek letter, I grade that possible only.",
+   "grade": "probable",
+   "evidence": "A only (colour and 6x grayscale zooms, work_R2a/S2_P01A_33.png and S2_P01A_box.png): both '3' signs have clear double-bowl outlines and no left upright. B strip 2 shows the T-sign clearly at its right edge. Neither B nor C shows the '3' signs. The count of two is probable; the letter identity of the '3' signs is possible (they may be numeral signs rather than letters)."
+  }
+ ],
+ "P02": [
+  {
+   "q": "P02(a)",
+   "answer": "At the right edge of the line (A x~1127-1180) is a ב-type letter: a small hooked top, a right vertical and a base running left. Next to it (x~1080-1128) is an א (Λ-shape with a short upper-right arm). So yes, the line begins ב followed by א. The letters continue with no clear space: ח (bar with two legs), then ש (three uprights on a flat base), then ך (bar with a right vertical going below the baseline). Because ך is a final form, the word may end there, giving באחשך, but I cannot see a word space. My Stage 1 gave ב as possible and א as probable.",
+   "grade": "possible",
+   "evidence": "A x~1130-1180 and x~1080-1128 (S2_P02A_R.png). C strip 3 shows the same bar-and-long-vertical and a Λ with a tick. In C the first letter's vertical looks longer than in A (it may descend), which leaves ב/כ/נ open."
+  },
+  {
+   "q": "P02(b)",
+   "answer": "In Stage 1 I could not follow the line past the seam of the copy (A x~675), so this is a new, low-confidence identification. The row left of the seam that best continues the line (A y~60-127; by image cross-correlation it is the row directly below the P07 target line) ends like this, reading right to left. First, at x~341-395, a letter with a heavy top bar, a vertical at x~374-382 and a leg at x~344-355 (ח/ה, or ד plus ו). Second, at x~279-341, a rounded bowl with a flat base whose right side rises and curls over to the left, ending in an inward hook. It is open at the upper left, and a tall stroke rises on its left side above the bowl. Third, at x~225-266, a slanted vertical with a small hook turning left at its top, with a shorter stroke to its left; it ends at the baseline with no descender. Then comes the column edge (x~198-212). Second letter: this is a ט-type (open, curled) bowl, not a closed ס. Last letter: ר-like. It is not ף because nothing descends below the baseline; פ is unlikely because there is no closed head or base.",
+   "grade": "possible",
+   "evidence": "A (S2_P02A_Lz.png, 3.7x grayscale). B strip 1 (S2_P02B_1z.png) shows a bowl whose right side curls up and inward at the top (tet-like), next to T-topped verticals, at the matching height. C: not covering this stretch. It remains uncertain whether this row, or the cracked row at A y~150-213, is the true continuation; the latter is too cracked to read."
+  }
+ ],
+ "P03": [
+  {
+   "q": "P03",
+   "answer": "I take 'the word beginning א-מ' to be the group at the left end of the line: א (x~545-605), then the stroke at x~525-545, then the box with the small triangle (x~465-520). Letter by letter: (1) א: crossing diagonals (Λ/X). In A it has an extra arm; B shows a plain Λ. (2) A tall dark vertical (x~525-545) that runs from the line above down through this line. I now think it is a fold/crease in the copy rather than a letter; B and C show nothing there. (3) A box letter: right vertical (x~510-520, y~120-185), flat base (y~180-185), and a top formed by the base of a small triangle (Δ) sitting on it (x~475-505, y~100-130). Its left side coincides with the edge of the surviving surface at x~455-465, so I cannot tell whether it is closed (ם/ס) or open (ב/כ/מ). After this box there is nothing. Left of x~455 the copy is a smooth, uninscribed surface (a break or edge), and B strip 1 is black left of the box. Numeral signs: none seen. There are no unit strokes or hooks after the box; the only non-Hebrew sign is the small triangle (Greek Δ?) above the box. Number word: cannot tell. Letter-spaces lost: none visible between the box and the break; how much is lost beyond the break cannot be judged from these images.",
+   "grade": "possible",
+   "evidence": "A (S2_P03A_L.png): triangle and box right against a sharp wavy edge at x~455-465, smooth surface beyond it. B strips 1 and 2 (S2_P03B_1.png): same triangle on a box at the black strip edge, and a Λ to its right. C strip 1: triangle at the strip edge. Change from Stage 1: I now regard the pos-13 vertical as a crease, not a letter."
+  }
+ ],
+ "P04": [
+  {
+   "q": "P04",
+   "answer": "I do not read the word ארבע as such. The group before the lacuna reads, right to left: א (pos 7); a lamed-like letter (pos 8, with a tall head at the upper left and a tail that seems to sweep down and left under the next letter to x~857); and pos 9 at x~850-880, an H-shaped letter (two verticals joined by a mid-height bar) standing right at the lacuna edge. If these letters are ארבע, then ר = my pos 8 and ב = my pos 9, and the ע would be lost in the lacuna. After pos 9 nothing is visible. The lacuna is a smooth surface in A, black in B and absent from C, from x~850 (at line height) to x~590. The first letter after the gap is a ח/ה/ת-type letter at x~515-580: a top bar with a right leg, and a faint left leg. I cannot tell whether it has a foot (ת) or a detached leg (ה). No traces of י-ן, ע-ס-ר-ה or ו-א-ח-ת are visible inside the lacuna. Space lost: about 260 px at line height, which is about 5-6 letter-spaces at this item's letter pitch of ~45-50 px.",
+   "grade": "possible",
+   "evidence": "A (S2_P04A_edge.png, S2_P04A_lac.png). The lacuna edge runs diagonally from (x~548, y~60) to (x~640, y~230) on the left and from (x~827, y~87) to (x~850, y~177) on the right. B strip 3 shows the same black lacuna. C strip 1 ends at the lacuna."
+  }
+ ],
+ "P05": [
+  {
+   "q": "P05",
+   "answer": "The leftmost sign (x~320-347) is a Θ: a closed dark oval ring with one horizontal bar across its middle. There are no separate three bars without an enclosing ring, so it is not a Ξ. The second sign (to its right, x~366-387) is made of three short horizontal strokes (top, middle and bottom), apparently joined on their RIGHT side by a short vertical and open on the left. It is therefore Ε-like but mirrored (Ǝ). If the right-hand vertical is only a relief shadow, it would be a Ξ. Between the two signs (x~350-360) is a tiny x/knot-shaped mark. It could be a small letter or damage. If 'first' is meant in right-to-left reading order, the first sign is the three-bar Ξ/Ǝ-like sign and the second is the Θ.",
+   "grade": "probable",
+   "evidence": "A only (S2_P05A_gr.png colour at 7x, S2_P05A_grg.png grayscale): the ring is dark all round with a central dark bar and light highlights above and below it. The three-bar sign shows dark top, middle and bottom bars with a dark right edge. B and C do not show these signs. Grades: Θ probable; second sign Ξ versus mirrored Ε: possible."
+  }
+ ],
+ "P06": [
+  {
+   "q": "P06 (second word, all letters)",
+   "answer": "Taking the first word to be my Stage 1 pos 1-4 (ל/ב, ב, י, ת), the next letters are: (1) a Γ-shaped letter (x~1007-1040): top bar with the stem at its LEFT end, reaching the baseline, and nothing under the right half of the bar; (2) א (x~950-1000); (3) a V-shaped letter (x~896-942): two arms meeting at the bottom, plus a long stroke from its upper right running down-left below the baseline. It could be ש, or ע plus a descender; (4) a letter with a top bar, a small hook at the bar's left end and a heavy right vertical (x~840-878): ד-like; (5) ח (x~796-836): two legs under a bar; (6) a short vertical (י); (7) a vertical under the crease (ו); then ב, א and the rest, with no visible word space.",
+   "grade": "possible",
+   "evidence": "A at 3-6x (S2_P06A.png, S2_P06A_z.png, S2_P06A_G.png). C strips 2 and 3 show the same Γ-shape (bar with stem at the left end) and the X-shaped א; C strip 1 shows V-strokes, a ח-like letter and verticals."
+  },
+  {
+   "q": "P06(a)",
+   "answer": "An א is present (second letter). Before it is a Γ-shaped letter, not a normal ה: there is no right vertical under the bar, and the stem at the left end touches the bar. If that Γ-shape is an irregular or damaged ה, then both ה and א are present (ה followed by א). I cannot confirm a ה.",
+   "grade": "cannot tell",
+   "evidence": "A 6x (S2_P06A_G.png): heavy stem x~1008-1017, bar x~1007-1040, blank under the bar's right half. C strip 3 (S2_P06C_G.png): same Γ. The curved stroke further right belongs to the foot of the ת."
+  },
+  {
+   "q": "P06(b)",
+   "answer": "The letter after the V-shaped (ש-like) letter is ד, not ו. It is a full-width letter (~38 px) with a horizontal top bar ending in a small hook at its left end, and a heavy right vertical down to the baseline; there is no separate left leg. This differs from Stage 1, where I read ה. At 5x zoom, the 'left leg' I saw in Stage 1 turned out to be only the short hook at the end of the bar, plus the right leg of the next letter.",
+   "grade": "possible",
+   "evidence": "A 5x grayscale (S2_P06A_z.png, x~840-882). C strip 1 is not decisive (box with legs)."
+  },
+  {
+   "q": "P06(c)",
+   "answer": "ח rather than ת: two legs, both apparently joined to the top bar; no foot turning left at the bottom of the left leg is visible.",
+   "grade": "possible",
+   "evidence": "A (x~796-836). C strip 1 shows a bar with two verticals and no visible foot. In other letters on this line (pos 4 and 16) the ת foot shows clearly, which makes its absence here meaningful."
+  },
+  {
+   "q": "P06(d)",
+   "answer": "Cannot tell where the word ends: I see no word space. After the ח come a short vertical (י), a longer vertical partly under a slanted crease (ו), then ב and א. So the word may end -חיו, or run on.",
+   "grade": "cannot tell",
+   "evidence": "A x~740-840. C strip 1 shows verticals between the ח and the א. A cleaner image of the crease area (x~748-767) would be needed."
+  }
+ ],
+ "P07": [
+  {
+   "q": "P07 (location)",
+   "answer": "In Stage 1 I could not follow the target line past the vertical seam in the copy at A x~672-687, and gave the rest as [...]. For these answers I examined the upper-left row (A y~15-100), which is the only row near the left end with a word beginning in a ה-like letter. Whether it is truly the continuation of the target line is uncertain: the rows on either side of the seam are offset by about half a line.",
+   "grade": "possible",
+   "evidence": "A full-height crops of the left half (S2_P07A_Lall.png). B strip 1 shows the same row (a ח/ה-like letter, a box letter, a vertical) at B y~70-135."
+  },
+  {
+   "q": "P07(a)",
+   "answer": "ב rather than כ. The base is a straight, flat stroke (x~267-313), meeting the right vertical at a sharp right-angled corner (not rounded) and running left to the foot of the next letter. The top is a short straight horizontal on the right part only (x~296-311), with a small upright tick at its left end (x~289-296). The corners are angular throughout.",
+   "grade": "probable",
+   "evidence": "A 5.5x colour (S2_P07A_Lzz.png). B strip 1 (S2_P07B_1z.png): flat dark base with a sharp lower-right corner, top only on the right half with a tick rising from its left end. (The identification of the row itself is only possible; see above.)"
+  },
+  {
+   "q": "P07(b)",
+   "answer": "ו rather than י. It is a full-height vertical (x~258-265, from the top line to the baseline, ~65 px, as tall as the neighbouring letters) with a loop-shaped head turning left; its foot touches the left end of the ב's base.",
+   "grade": "probable",
+   "evidence": "A 5.5x (S2_P07A_Lzz.png). B strip 1: a full-height vertical at the left edge of the box."
+  },
+  {
+   "q": "P07(c)",
+   "answer": "After the ו there is only a small curl or hook at the top of the line (x~205-235). It is attached to a long dark vertical at x~200-213 that runs through both rows and looks like the edge or fold of the copy. It may be the head of a final letter (ר/ן/ל-like) whose stem coincides with the fold, or merely part of the edge. So the last certain letter is the ו, and the writing runs right up to the column edge, with no blank space left.",
+   "grade": "cannot tell",
+   "evidence": "A (S2_P07A_Lzz.png, S2_P07A_Lall.png). B strip 1 is too dark at its left edge (strip border)."
+  }
+ ],
+ "P08": [
+  {
+   "q": "P08 (transcription after first word)",
+   "answer": "If the first word is my Stage 1 pos 1-3 (בבי), the rest reads: א ת ך ? ס/ם ז/ר נ? ו ח. That is the Stage 1 reading, with one refinement: the letter I read as ר (x~766-794) has its vertical under the left-centre of a broad top bar (T/ז-shaped), not at the bar's right end.",
+   "grade": "possible",
+   "evidence": "A 5x (S2_P08A_z2.png). C strip 1 and 2 as in Stage 1."
+  },
+  {
+   "q": "P08 (letters between ימ... and ...ית)",
+   "answer": "I do not see a clear ימ sequence. The closed box with a pointed, peaked top (x~802-852; Stage 1 pos 8, ס/ם) is the only mem/samekh-like letter; the letter before it (pos 7) is a long vertical with a curved stroke at its upper right, not a clear י. Between that box and the two final letters (pos 11 ו/י and pos 12 ח/ת) there are two letters. (1) x~766-794: a vertical under a broad top bar that projects on both sides (ז/ו-like with a wide head; not נ, not מ). (2) x~705-760: short horizontal strokes (mid-height and baseline) running left from a dark vertical that coincides with a long crease: נ/ב/כ-like, or possibly only crease plus strokes. Of the options offered, (1) is closest to ו (it looks like ז) and (2) closest to נ. The final pair: pos 11 (x~665-695) is a full-height vertical with a rounded head curling right (ו more than י); pos 12 (x~610-660) is a bar with two legs (ח/ת; no foot seen).",
+   "grade": "possible",
+   "evidence": "A colour and grayscale at 2.8-5x (S2_P08A.png, S2_P08A_z.png, S2_P08A_z2.png). C strip 1 (S2_P08C1.png): verticals with heads and a bar with legs, no finer detail."
+  },
+  {
+   "q": "P08 (cancellation marks)",
+   "answer": "None seen: no dots above letters, and no strokes through letters apart from the long crease at A x~736-756, which crosses several lines and is a fold in the copy.",
+   "grade": "probable",
+   "evidence": "A; the crease also runs through the lines above and below. C shows no dots."
+  }
+ ],
+ "P09": [
+  {
+   "q": "P09 (which word)",
+   "answer": "The only place where my reading has a ח followed by three letters of the right type is Stage 1 pos 17-20 (x~425-540): ח, a small loop with a leg (could be פ), and two verticals, the second descending slightly below the baseline (ו and ר/ן). I take this as the word read as חפור. This identification is my assumption.",
+   "grade": "possible",
+   "evidence": "A (S2_P09A_L.png, S2_P09A_Lg.png); B strip 1 shows an H-shape and verticals here."
+  },
+  {
+   "q": "P09 (following word, letters)",
+   "answer": "Left of pos 20, reading right to left: (1) a short stroke rising to the upper right (x~395-420), starting at the baseline next to the foot of the following letter; (2) a vertical from the top line to the base (x~380-390) with a foot running left along the baseline (x~345-395); (3) a rounded box whose right side curls in at the top, on a flat base (x~300-345): ט/ם/ס; (4) a short stroke in the upper half (x~275-290): י; (5) a tiny curved mark at the top (x~255-265), then the column edge.",
+   "grade": "possible",
+   "evidence": "A 2.8x colour and grayscale. B strip 1 shows a rounded box at (3). C is too faint."
+  },
+  {
+   "q": "P09 (first letter: א or ג?)",
+   "answer": "More like ג than א: a vertical with a foot turning left at the baseline, and no crossing diagonal of the aleph type. However, the short stroke rising from its foot to the upper right, if part of the same letter, would make a צ/ע-like form. Cannot decide between ג and צ/ע; א is the least likely.",
+   "grade": "cannot tell",
+   "evidence": "A x~345-420. B strip 1 at this place is too blurred; a sharper radiograph of this spot would be needed."
+  },
+  {
+   "q": "P09 (additional letter such as ר before it?)",
+   "answer": "There is an extra stroke before it: a short slanting stroke (x~395-420) that I counted in Stage 1 as a separate letter (pos 21, ו/י). It has no horizontal roof, so it does not look like ר; but it may belong to the next letter rather than being a letter of its own.",
+   "grade": "possible",
+   "evidence": "A (S2_P09A_Lg.png)."
+  }
+ ],
+ "P10": [
+  {
+   "q": "P10",
+   "answer": "Transcription as in Stage 1: באוטאחב? [...] וע?ו?. Right to left: ב/ס (damaged); א; ו (a wedge in C); ט (loop curling in at the top); א; ח (with a stroke rising above the bar's right end); ב (clear open box in A, B and C); a thin curved stroke at the lacuna edge (x~835-880, illegible). Then comes the lacuna, followed by: a vertical (ו) at x~445-460 with a faint base running left; a V (ע) at x~370-405; a hooked stroke crossed by a thin diagonal (x~300-355, illegible); a long vertical (ו, or a crease) at x~262-280; faint strokes at x~225-255. Lacuna: at line height it runs from A x~505 to x~830 (~325 px). With a letter pitch of ~45-50 px, that is about 6-7 letter-spaces lost. Inside it the surface is smooth in A, there is no metal in C, and it is black and dark in B, so no partial letters are visible within it. Only the partial strokes at the two edges survive (the thin curved stroke at the right edge, the vertical near the left edge).",
+   "grade": "possible",
+   "evidence": "A (S2_P10A_lac.png): smooth lacuna surface with sharp edges; right edge x~830-850, left edge curving from x~505 at line height. B (S2_P10B.png): no strokes inside the dark area. Stage 1 letter grades are unchanged."
+  }
+ ],
+ "P11": [
+  {
+   "q": "P11(a)",
+   "answer": "I cannot see word divisions in the first part of the line. From the right edge: ? ר ו ו ר (A x~1300-1460). Then comes a blank or worn stretch (x~1160-1300) that may be a word space or lost letters. Then ן ? ו ח ? ח ם (x~880-1150; this stretch sits higher, and could belong to the line above). I cannot give 'three words' reliably.",
+   "grade": "cannot tell",
+   "evidence": "A (P11A_R.png, P11A_Rfull.png). B strip 2 shows the right part of the line higher than the left part. C is not usable."
+  },
+  {
+   "q": "P11(b)",
+   "answer": "Two ל's are on the line. Neither is preceded by a clear ש, so I describe both. (i) Middle of the line, Stage 1 pos 16 (A x~660-700): a tall stroke rising above the line with a hook at its foot. The letter to its left (pos 17, x~640-660) is a single curved vertical from the top line to the baseline (~45-50 px, full letter height). It has no horizontal roof or head bar, just a slight curve at the top, and it reaches the baseline. The letter to the right of this ל (pos 15) is a heavy slanted stroke or parallelogram, not a ש. (ii) Further left, Stage 1 pos 19 (x~490-535): a clear ל (tall ascender, horizontal, tail curling down). The letter to its left (pos 20, x~455-480) is a narrow, heavy, single vertical stroke; in the relief of A it shows as a closed oval outline. It runs from the top line (y~95) to about the baseline (y~135), ~40 px, about the height of the neighbouring letters. Its top is rounded, with no roof extending left. In B strip 1 it is a plain vertical of full height. The letter to the right of this ל (pos 18, x~560-630) has a top bar with three downstrokes, the right one going below the baseline. In A and B it is a top-bar letter (ח/ת with an inner stroke), not a three-armed ש on a base. In both cases the letter after the ל is ו, not ר (no roof) and not י (too long).",
+   "grade": "possible",
+   "evidence": "A 3.5-4x grayscale (S2_P11A_sl.png, S2_P11A_l2.png). B strip 1 (S2_P11B_sl.png) confirms ל with a tall ascender at B x~455-520, a full-height plain vertical at B x~430-445, and a three-legged top-bar letter to the right."
+  },
+  {
+   "q": "P11(c)",
+   "answer": "No visible word space. In both cases the gap between the ל and the following vertical (~8-10 px) is ordinary letter spacing.",
+   "grade": "probable",
+   "evidence": "A and B strip 1."
+  },
+  {
+   "q": "P11(d)",
+   "answer": "For (ii): after the ו come three ח-type letters (x~325-460), each a top bar with two legs; the last one's left leg extends above the bar and below the base (ת possible). The line then ends at x~320. So the word and line end read ...לוחחח (or ...לו followed by a word חחח). I see no space that would divide them. For (i): after the ו comes the three-legged top-bar letter (pos 18), then the ל of (ii).",
+   "grade": "possible",
+   "evidence": "A (P11A_z3.png); B strip 1 shows three H-shaped letters at B x~280-420."
+  }
+ ],
+ "P12": [
+  {
+   "q": "P12",
+   "answer": "I take the 'ככ' group to be my Stage 1 pos 7-8, which I read as בב (ב/כ): two box letters open to the left, with long flat bases (A x~570-705). After them, right to left: (1) one hook-shaped sign (x~500-540). It starts at the upper left, arches over to the right and curves down and back to the left, ending at about two-thirds of the line height, like a reversed C or a single-bowled '3'. It has no base. (2) Three separate thin vertical strokes: a slanted one at x~437-447 and two close upright ones at x~460-470 and x~476-487, all of full letter height and ending at the baseline. (3) The final sign (x~390-422): a distinct hooked sign, not a plain vertical. It has a top stroke whose left end curls down into a small hook, and from its right end a long stroke descends slanting to the left, reaching well below the baseline (to y~172 against a baseline at ~y~140). It resembles a final pe (ף) or final kaf (ך) with a curled head. Totals: 1 hook sign + 3 verticals + 1 final hooked sign with descender. Change from Stage 1: there I read pos 9-12 as ר ו ו ך, with two verticals. At 4x the stroke I took for one vertical with a double outline resolves into two separate strokes, so I now count three verticals.",
+   "grade": "probable",
+   "evidence": "A 4x colour (S2_P12A_num.png): all five signs clear. B strip 3 left edge (S2_P12B_num.png): light curved strokes and a hook at B x~945-1000, consistent but not countable. C strip 1 ends before this group."
+  }
+ ],
+ "P13": [
+  {
+   "q": "P13",
+   "answer": "Above the main line, the only marks are the descenders of letters from the line above (e.g. a heavy stroke at A x~490-500, y~5-60) and a few thin vertical scratches (x~440-460). I see no separate interlinear letters. At the left end of the line (A x~375-590, where the line sits at y~60-125), reading right to left: (1) x~547-590: a ד/ר-like letter (top stroke joined to a right vertical at x~580), with a small eye-shaped dark mark at its upper left (x~550-570, y~65-80); (2) x~488-535: a vertical with a hooked head at x~525-535, and to its left a separate diagonal rising from the lower left (x~488, y~105) to the upper right (x~515, y~80); (3) x~415-470: a ב/כ-like letter with a short top, a right vertical at x~455-465 and a long flat base (y~115-120) extending left to x~416; (4) x~375-405: a second small eye-shaped mark in the upper part of the line. A group ככ followed by numeral signs: not seen. Only one כ/ב-like letter is present, and there are no unit strokes or hook signs after it. A pair ב + ק: possible. Letter (3) could be ב, and letter (2) could be a ק if the hooked vertical and the separate diagonal belong together, though there is no descender below the baseline. Cancellation marks: none certain. The two eye-shaped marks at the top of the line (and the dot at Stage 1 pos 3, x~1100-1115) could be dots placed above or beside letters, or surface damage. They are not strokes through letters.",
+   "grade": "possible",
+   "evidence": "A colour and grayscale 2.9x (S2_P13A_L.png, S2_P13A_Lg.png). B and C do not show this stretch in a way I could align (B appears offset by about half a line, see Stage 1)."
+  }
+ ],
+ "P14": [
+  {
+   "q": "P14 (second word)",
+   "answer": "If the first word is my Stage 1 pos 1-4 (ב ש ? ?), the second word begins at pos 5: ב (x~883-920: small looped top, right vertical, base); then pos 6 (x~848-877: short vertical with a small head and a base running left, no top bar); then, new in Stage 2, a possible extra letter at x~807-835 (a vertical with a heavy head at its top left, next to a diagonal crease). In Stage 1 I treated that area as a crease or word space. It is followed by ב (x~757-798), צ (x~725-760), כ (x~681-720, rounded, open to the left), א (x~650-680) and ו (x~628-645), up to a clear space at x~600-625. If the gap at the crease is a real word space, the second word is only ב נ (+ the doubtful letter).",
+   "grade": "possible",
+   "evidence": "A 2.8x and 6x (S2_P14A.png, S2_P14A_z.png, S2_P14A_z2.png). C strip 2 matches ב צ כ א ו. B strip 2 shows a box and a V-shaped letter (not aligned securely)."
+  },
+  {
+   "q": "P14(a)",
+   "answer": "The second letter (pos 6) is neither a clear ב nor a clear כ. It has a short vertical with a small head and a base running left, but no top bar across the letter: נ-like. Between ב and כ I cannot tell.",
+   "grade": "cannot tell",
+   "evidence": "A 6x (S2_P14A_z.png, x~848-877). A diagonal crease runs just left of it. C strip 1 shows only a curved upright."
+  },
+  {
+   "q": "P14(b)",
+   "answer": "Order within the stretch, right to left: ב, נ(-like), [possible ו/י], ב, צ, כ, א, ו. A צ is present (after the second ב), and a נ-like letter is second. A י is possible only as the doubtful extra letter at x~807-835. There is no ח in this stretch (the first ח comes after the space, in the next word).",
+   "grade": "possible",
+   "evidence": "A as above; C strip 2 shows the Y-shaped צ at C x~800-840 and the rounded כ at x~760-800."
+  },
+  {
+   "q": "P14(c)",
+   "answer": "No cancellation marks seen: no dots above the letters and no strokes through them, apart from the creases in the copy at x~835-850 and x~1015-1045, which cross several lines.",
+   "grade": "probable",
+   "evidence": "A; C strips 1-2."
+  },
+  {
+   "q": "P14(d)",
+   "answer": "After the space at x~600-625: ב (clear: hooked top, right vertical, flat base), ח (bar with both legs attached), then a ד/ל-like letter (x~455-510: horizontal extending left from a heavy right vertical that also rises above the line, so ל is possible). Then an illegible trace in a crease zone (x~380-440). Where the next word ends I cannot tell; the line continues lower down with ו ח ? ? ע.",
+   "grade": "possible",
+   "evidence": "A (P14A_ML.png, S2 zooms). C strip 2 left edge shows the ב."
+  }
+ ],
+ "P15": [
+  {
+   "q": "P15",
+   "answer": "I cannot identify the 'third word'. The only possible word space I can see is at A x~585-600, and the crack at x~1135-1150 may cover another. The candidates are: (i) the last group of the line (x~286-595). Right to left: a ה-like letter with a peaked top bar, heavy right vertical and short detached lower-left leg (x~537-595); a Γ-shaped letter (x~458-505: a vertical from the top line to the baseline with a head running to the right); a small stroke at the top of the line (x~407-419, י?); a stem descending well below the baseline (x~360-376) with a long diagonal arm rising from it to the upper right (x~376-443) and a flat base running left from its foot (ץ-like); a V-shaped pair of strokes (x~309-337); and a long final vertical descending below the baseline (x~286-301, ן). (ii) The worn middle stretch (x~600-750), with a base and short thin vertical at x~660-705 and a diagonal at x~705-745, which I cannot read. (a) Second letter כ/ב/ת: in candidate (i) the second letter is the Γ-shaped letter, which is none of כ/ב/ת; cannot tell for other candidates. (b) Fourth letter נ/פ/י: in candidate (i) the fourth sign is either the small top stroke (י-like, if it is a letter) or the ץ-like stem-and-arm. It is not a clear נ or פ. (c) Ending in ין: possible. The line ends with a long vertical below the baseline (ן-like); immediately before it is the V-shaped pair, whose left arm (x~309-325) is a short curved stroke with a small head, which could be a י. But the pair may equally be one letter (ע).",
+   "grade": "cannot tell",
+   "evidence": "A colour and grayscale 2.5-4x (S2_P15A_L.png, S2_P15A_Lg.png, S2_P15A_M.png). C strip 1 covers only roughly A x~530-950 (the ה-like letter and a box letter; a long thin crack at C x~520); B strip 2 shows mainly cracks. Neither B nor C covers the left end (A x<530). A better image of the middle stretch x~600-750 would be needed."
+  }
+ ]
+}

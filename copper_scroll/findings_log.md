@@ -470,3 +470,21 @@ Sources, constraints, access gaps and pending specialist/field packets: [feature
 - F6.9 (inference): the five Sekakah entries yield separate constraints but no new independently identified feature. Existing candidate confidence and map geometry are unchanged. Nine atlas evidence reviews and 21 constraints now include entries 20–24; original-plan georeferencing and independent specialist review remain pending.
 
 Full [reference trail, access record and constraint comparison](qumran_reference_review.md).
+
+
+## Plate check and ʿAtiqot 41 — 2026-09-29
+
+- F7.1 (evidence: Puech 2006 vol. II pls. CCCXXXIII–CCCLVI, CCCLIX–CCCLXXXI) **Puech's plates can be used for letter-level checks.** The copy photographs resolve letter shapes; the radiographs confirm stroke presence. The second copy series (pls. CCXCVI–CCCVII) is the same photograph, and is not independent evidence. [plate_check.md](plate_check.md).
+- F7.2 (evidence: Puech 2006 p. 200) **Puech reads X 15 with a cursive waw.** He does not correct an engraved ר. He supplies a genitive של lost by haplography. Earlier project summaries misstated this.
+- F7.3 (inference, medium) **The plates lean to Puech at X 15 (Siloam) and VII 11 (*hmšṭḥ*), and against him at IX 7 (ים, not דרום).** None of the three is decisive, because this hand draws reš/waw and ḥet/he alike.
+- F7.4 (inference, medium-high) **Firmer plate results:**
+  - IX 6 ends with a distinct ½-type sign (its first sign, 20 or 10, is unresolved);
+  - VII 16 has four numeral signs after ככ (80 if all are 20-signs);
+  - II 4 begins with Θ, not Ξ.
+
+  Leaning results: XI 7 has two letters and no sum; XI 12's fifth letter looks like ח, against Milik's Bethesda.
+- F7.5 (evidence) **The X 16 sum is compatible with 17.** The copy shows three clear unit strokes, but radiograph pl. CCCLI shows at least five, possibly six. The first-draft doubt (Q43) is withdrawn.
+- F7.5a (method) **A verification pass against the same plates corrected eight first-draft statements:** VII 11 plate number, IX 7 wording, IX 6 tens sign, VII 16 "identical", XI 12 grade, XII 10 yod, III 7 wording and X 16 count. [plate_check.md](plate_check.md) gives the corrected wording.
+- F7.6 (method) **Blind readers work for targeted shape questions, not whole-line transcription.** Both recognised the object; their independence from remembered readings cannot be verified. One answer was discarded because the reader examined the wrong ל.
+- F7.7 (evidence: Eisenberg 2002 p. 120; Aronshtam 2002 pp. 93–94; Index p. 260) **The entry 17 neighbour is V/48.** The gazetteer's Cave 38 is V/38 and is anchored only at its group's box centre. The printed points put V/48 about 71 m south-east of V/49 (0–141 m with rounding). V/49's mouths face north. [Extraction](registration/atiqot41_region_v_extracted.md).
+- F7.8 (evidence) **ʿAtiqot 41 does not describe the Doq fortress** (Region VII) **or the Qumran aqueduct** (Region XI). Region XIV's Kidron (South) cave site, 1st century CE to the Revolt, is a period site at the Kidron canyon relevant to Q34 (Dahari pp. 231–239). Amit 1989 Fig. 1 is still needed for entry 31.
