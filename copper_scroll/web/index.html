@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="Desk research on the Copper Scroll (3Q15): proposed identifications of its named places scored against the text and the published archaeology, site-level maps, and tests of the Greek letters.">
-<title>Copper Scroll Places</title>
+<meta name="description" content="The Copper Scroll (3Q15): the full Hebrew text with an English translation and the editors' readings of each word, and desk research on its places: proposed identifications of its named places scored against the text and the published archaeology, site-level maps, and tests of the Greek letters.">
+<title>Copper Scroll Text and Places</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya:wght@500;700&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&family=Frank+Ruhl+Libre:wght@500&display=swap">
@@ -113,20 +113,122 @@ ul.plain li{margin:0.3rem 0}
 footer{margin-top:3.5rem; padding-top:1rem; border-top:1px solid var(--rule); font-size:0.88rem; color:var(--muted)}
 @media (max-width:640px){ body{font-size:16px} .controls label{margin-left:0} }
 @media (prefers-reduced-motion:reduce){ *{scroll-behavior:auto} }
+
+/* ---- The text: scroll strip, facing lines, readings panel ---- */
+:root{ --copper:#A0612F; --copper-hi:#C98A55; --copper-lo:#7A4520; --copper-soft:#F5E9DE; --copper-ink:#6B3814; --engrave:rgba(58,26,6,.78); --hl:#FBE3A6; }
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --copper:#B87445; --copper-hi:#D8996A; --copper-lo:#8A5129; --copper-soft:#2A1F18; --copper-ink:#EDB78E; --engrave:rgba(40,16,2,.82); --hl:#4A3A12; } }
+:root[data-theme="dark"]{ --copper:#B87445; --copper-hi:#D8996A; --copper-lo:#8A5129; --copper-soft:#2A1F18; --copper-ink:#EDB78E; --engrave:rgba(40,16,2,.82); --hl:#4A3A12; }
+.textsec h2{margin-bottom:0.2rem}
+.howto{display:flex; flex-wrap:wrap; gap:0.35rem 1.2rem; margin:0.9rem 0 0; padding:0; list-style:none; font-size:0.9rem; color:var(--muted)}
+.howto .he{font-size:1.15em}
+.strip{display:flex; direction:rtl; gap:6px; overflow-x:auto; padding:14px 2px 10px; margin-top:1.2rem; scroll-snap-type:x proximity; -webkit-overflow-scrolling:touch}
+.strip .seam{flex:0 0 8px; align-self:stretch; border-inline:1px dashed var(--rule); margin:10px 2px}
+.sheet-col{flex:1 1 0; min-width:68px; max-width:96px; height:168px; direction:rtl; position:relative; border:0; border-radius:3px; padding:22px 7px 6px; cursor:pointer; scroll-snap-align:center; overflow:hidden; text-align:right;
+  background:linear-gradient(170deg,var(--copper-hi),var(--copper) 45%,var(--copper-lo)); box-shadow:inset 0 0 0 1px rgba(0,0,0,.18), 0 1px 2px rgba(0,0,0,.2); transition:transform .15s ease}
+.sheet-col:hover{transform:translateY(-2px)}
+.sheet-col[aria-current="true"]{outline:3px solid var(--accent); outline-offset:3px}
+.sheet-col .cn{position:absolute; top:4px; inset-inline:0; text-align:center; font-family:var(--mono); font-size:0.72rem; letter-spacing:0.06em; color:#FFF3E6; direction:ltr}
+.sheet-col .mini{font-family:var(--heb); font-size:6.2px; line-height:1.55; color:var(--engrave); white-space:nowrap; overflow:hidden}
+.sheet-col .mini div{overflow:hidden; text-overflow:clip}
+.strip-cap{font-size:0.86rem; color:var(--muted); margin:0.2rem 0 0}
+.reader{display:grid; grid-template-columns:minmax(0,1fr) minmax(0,20rem); gap:1.6rem; margin-top:1.4rem; align-items:start}
+.colbar{display:flex; flex-wrap:wrap; align-items:baseline; gap:0.4rem 0.9rem; padding-bottom:0.5rem; border-bottom:1px solid var(--rule)}
+.colbar h3{margin:0; font-size:1.35rem}
+.colbar .meta{font-size:0.9rem; color:var(--muted)}
+.colbar .nav{margin-left:auto; display:flex; gap:0.4rem}
+.colbar .nav button,.pn-close,.ent-btn,.pn-links button{font-family:var(--sans); font-size:0.88rem; border:1px solid var(--rule); background:var(--surface); color:var(--ink); padding:0.2rem 0.7rem; border-radius:999px; cursor:pointer}
+.colbar .nav button:disabled{opacity:.4; cursor:default}
+.rows{margin-top:0.3rem}
+.row{display:grid; grid-template-columns:minmax(0,1fr) 2rem minmax(0,1.25fr); gap:0 0.6rem; align-items:baseline; padding:0.28rem 0.3rem; border-radius:4px}
+.row + .row{border-top:1px solid color-mix(in srgb,var(--rule) 55%,transparent)}
+.row.sel{background:var(--accent-soft)}
+.row.inent{box-shadow:inset 3px 0 0 var(--copper)}
+.row .en{font-size:0.98rem; line-height:1.5}
+.row .no{font-family:var(--mono); font-size:0.75rem; color:var(--muted); text-align:center; font-variant-numeric:tabular-nums}
+.row .no a{color:inherit; text-decoration:none}
+.row .hb{direction:rtl; text-align:right; font-family:var(--heb); font-size:1.24rem; line-height:1.85; unicode-bidi:isolate}
+.w{font:inherit; color:inherit; background:none; border:0; padding:0 0.04em; margin:0 0.02em; border-radius:3px; cursor:pointer; line-height:inherit}
+.w:hover{background:var(--copper-soft)}
+.w.has-note{text-decoration:underline dotted var(--copper); text-decoration-thickness:1.5px; text-underline-offset:0.28em}
+.w.on,.nt.on{background:var(--hl); color:var(--ink)}
+.w.num{font-family:var(--mono); font-size:0.66em; font-weight:500; direction:ltr; unicode-bidi:isolate; vertical-align:0.12em; border:1px solid var(--copper); color:var(--copper-ink); padding:0 0.35em; border-radius:4px}
+.w .greek,.s-g{font-family:var(--serif); letter-spacing:0.06em; direction:ltr; unicode-bidi:isolate; font-size:0.82em; color:var(--copper-ink)}
+.s-r{color:var(--muted)}
+.s-u{-webkit-text-emphasis:open circle; text-emphasis:open circle; -webkit-text-emphasis-position:over right; text-emphasis-position:over right; -webkit-text-emphasis-color:var(--copper); text-emphasis-color:var(--copper)}
+.s-x,.s-d{color:var(--muted); text-decoration:line-through}
+.s-c{color:var(--accent)}
+.s-s{font-size:0.68em; vertical-align:0.7em}
+.midmark{font-family:var(--mono); font-size:0.62em; color:var(--copper-ink); border:1px solid var(--copper); border-radius:3px; padding:0 0.25em; margin:0 0.2em; vertical-align:0.2em; direction:ltr; unicode-bidi:isolate}
+.nt{font:inherit; color:inherit; background:none; border:0; padding:0 0.05em; margin:0; cursor:pointer; text-decoration:underline dotted var(--copper); text-decoration-thickness:1.5px; text-underline-offset:0.22em; border-radius:3px; text-align:inherit}
+.nt:hover{background:var(--copper-soft)}
+.ent{margin:0.9rem 0 0.25rem; padding-top:0.3rem}
+.ent-btn{display:flex; flex-wrap:wrap; align-items:baseline; gap:0.2rem 0.6rem; width:100%; text-align:left; border-radius:6px; background:var(--copper-soft); border-color:transparent; padding:0.35rem 0.7rem; font-size:0.9rem}
+.ent-btn .eno{font-family:var(--mono); font-size:0.74rem; letter-spacing:0.05em; text-transform:uppercase; color:var(--copper-ink)}
+.ent-btn .eti{font-family:var(--serif); font-weight:700; font-size:1.02rem}
+.ent-btn .epl{color:var(--muted)}
+.rd-panel{position:sticky; top:1rem; max-height:calc(100vh - 2rem); overflow:auto; background:var(--surface); border:1px solid var(--rule); border-radius:8px; padding:1rem 1.1rem 1.2rem; font-size:0.94rem}
+.pn-top{display:flex; align-items:center; gap:0.5rem; margin-bottom:0.4rem}
+.pn-ref{font-family:var(--mono); font-size:0.74rem; letter-spacing:0.05em; color:var(--muted); text-transform:uppercase}
+.pn-close{margin-left:auto; display:none}
+.pn-word{font-family:var(--heb); font-size:2rem; line-height:1.3; direction:rtl; text-align:right}
+.pn-word.num{font-family:var(--mono); direction:ltr; text-align:left; font-size:1.6rem; color:var(--copper-ink)}
+.rd-panel h4{font-family:var(--serif); font-size:1.05rem; margin:1.1rem 0 0.3rem}
+.rd-panel h4:first-child{margin-top:0}
+.rd-panel p{margin:0.45rem 0}
+.rd-panel table{font-size:0.88rem}
+.rd-panel th,.rd-panel td{padding:0.3rem 0.4rem}
+.rd-panel td.hbc{font-family:var(--heb); font-size:1.12rem; direction:rtl; text-align:left; white-space:nowrap}
+.rd-panel .pg{font-family:var(--mono); font-size:0.72rem; color:var(--muted); font-weight:400}
+.rdgs{border:1px solid var(--rule); border-radius:6px; overflow:hidden; margin:0.5rem 0}
+.rdg{display:grid; grid-template-columns:auto minmax(0,1fr); gap:0 0.7rem; align-items:baseline; padding:0.4rem 0.6rem}
+.rdg + .rdg{border-top:1px solid var(--rule)}
+.rdg.shown{background:var(--accent-soft)}
+.rdg-who{grid-column:1 / -1; font-weight:500; font-size:0.86rem}
+.rdg-he{font-family:var(--heb); font-size:1.15rem; line-height:1.4}
+.rdg-he:empty{display:none}
+.rdg-he:empty + .rdg-mean{grid-column:1 / -1}
+.rdg-mean{font-size:0.9rem}
+.pn-note{border-top:1px solid var(--rule); margin-top:0.9rem; padding-top:0.2rem}
+.pn-src{font-size:0.8rem; color:var(--muted)}
+.pn-links{display:flex; flex-wrap:wrap; gap:0.4rem; margin-top:0.6rem}
+.pn-help ul{padding-left:1.1rem; margin:0.4rem 0}
+.pn-help li{margin:0.25rem 0}
+.legend-he{font-family:var(--heb); font-size:1.15rem}
+.credit{font-size:0.84rem; color:var(--muted); margin-top:1rem; max-width:48rem}
+.flash{animation:flash 1.6s ease-out}
+@keyframes flash{from{background:var(--hl)} to{background:transparent}}
+@media (max-width:900px){
+  .reader{grid-template-columns:minmax(0,1fr)}
+  .rd-panel{position:fixed; inset:auto 0 0 0; top:auto; max-height:62vh; border-radius:14px 14px 0 0; box-shadow:0 -8px 30px rgba(0,0,0,.25); z-index:20; padding:0.8rem 16px calc(1rem + env(safe-area-inset-bottom)); transform:translateY(105%); transition:transform .2s ease; visibility:hidden}
+  .rd-panel.open{transform:none; visibility:visible}
+  .pn-close{display:inline-block}
+}
+@media (max-width:640px){
+  .row{grid-template-columns:1.9rem minmax(0,1fr); grid-template-areas:"no hb" ". en"; gap:0.1rem 0.4rem}
+  .row .no{grid-area:no; align-self:center}
+  .row .hb{grid-area:hb; font-size:1.25rem}
+  .row .en{grid-area:en; font-size:0.94rem; color:var(--muted)}
+  .row.sel .en{color:var(--ink)}
+  .colbar .nav{margin-left:0; width:100%}
+  .colbar .nav button{flex:1}
+}
+@media (prefers-reduced-motion:reduce){ .sheet-col,.rd-panel{transition:none} .flash{animation:none} }
 </style>
 
 </head>
 <body>
 <div class="wrap">
 <header>
-  <div class="eyebrow">3Q15 · desk research · places, archaeology, Greek letters</div>
-  <h1>Copper Scroll Places</h1>
-  <p class="lede">Which named places in the Copper Scroll can scholars identify on a map, and how well does each identification hold up against the text? This page scores every published proposal for the 61 entries and maps the ones that survive, at the level of the site. It also tests every published explanation of the scroll's seven groups of Greek letters.</p>
+  <div class="eyebrow">3Q15 · text and translation · places, archaeology, Greek letters</div>
+  <h1>The Copper Scroll</h1>
+  <p class="lede">The full text of the scroll with an English translation, in which each word opens its meaning and the editors' different readings. Then the question of which named places scholars can identify on a map, and how well each identification holds up against the text. This page scores every published proposal for the 61 entries and maps the ones that survive, at the level of the site. It also tests every published explanation of the scroll's seven groups of Greek letters.</p>
   <div class="notice" role="note">
     <strong>Site-level identifications only. These are not deposit locations.</strong>
     The maps show where scholars place the scroll's named places and landmarks, such as Kh. Qumran or the Kidron at Mar Saba. The scroll's cubits, depths and directions were not converted into positions, and nothing here proposes or supports excavation.
   </div>
   <div class="stats" aria-label="Key figures">
+    <span><b>12</b>columns</span>
+    <span><b>181</b>lines</span>
     <span><b>61</b>entries</span>
     <span><b>292</b>candidates scored</span>
     <span><b>23</b>entries with a best-supported place</span>
@@ -136,6 +238,33 @@ footer{margin-top:3.5rem; padding-top:1rem; border-top:1px solid var(--rule); fo
 </header>
 
 <main>
+<section class="textsec" id="text" aria-labelledby="text-h">
+  <h2 class="prose" id="text-h">The text, with a translation</h2>
+  <p class="prose">All twelve columns of the scroll, line by line, with the Hebrew on the right and an English translation on the left. Select a column on the strip, which is laid out right to left like the scroll. Select any Hebrew word for its meaning and for how the editions read it. A dotted underline marks a word or phrase that the editions read or explain in different ways.</p>
+  <ul class="howto" aria-label="Signs in the Hebrew text">
+    <li><span class="he" lang="he" dir="rtl"><span class="s-r">[כסף]</span></span> restored by the editor</li>
+    <li><span class="he" lang="he" dir="rtl">כ<span class="s-u">ח</span>לת</span> damaged letter (circle above)</li>
+    <li><span class="he" lang="he" dir="rtl"><span class="s-c">⟨ע⟩</span>סרה</span> supplied or corrected by the editor</li>
+    <li><span class="he" lang="he" dir="rtl"><span class="s-x">{בור}</span></span> struck out by the editor</li>
+    <li><span class="he" lang="he" dir="rtl">בי<span class="s-s">ם</span></span> written above the line</li>
+    <li><span class="w num" aria-hidden="true">41</span> numeral signs, with their value</li>
+  </ul>
+  <nav class="strip" id="strip" aria-label="Columns of the scroll, right to left"></nav>
+  <p class="strip-cap">Three copper sheets of four columns each. The text runs from column I, on the right, to column XII.</p>
+  <div class="reader" id="reader">
+    <div class="rd-main">
+      <div class="colbar">
+        <h3 id="col-title">Column I</h3>
+        <span class="meta" id="col-meta"></span>
+        <div class="nav"><button type="button" id="col-prev">← Previous</button><button type="button" id="col-next">Next →</button></div>
+      </div>
+      <div class="rows" id="rows"><p class="small">The text needs JavaScript to display.</p></div>
+    </div>
+    <aside class="rd-panel" id="panel" aria-label="Word and readings" tabindex="-1"></aside>
+  </div>
+  <p class="credit"><b>Hebrew text:</b> Martin G. Abegg Jr.'s transcription and morphology of 3Q15, from the ETCBC <a href="https://github.com/ETCBC/dss">Dead Sea Scrolls dataset</a> (Text-Fabric, version 2.0.1; transcriptions by Abegg, with James E. Bowley and Edward M. Cook; conversion by Jarod Jacobs, Martijn Naaijer and Dirk Roorda), licensed <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>. It draws mainly on Milik's edition (DJD III, 1962) and follows other readings in some places. Changes for display: words joined as written, the dataset's sentence-break signs left out, numeral signs shown as values. <b>Translation, glosses and notes:</b> written for this project from that text; they do not reproduce any published translation. The notes cite the editions of Milik, Lefkovits and Puech by page, from the research files. The complete texts of those editions are copyrighted and are not reproduced here.</p>
+</section>
+
 <section class="prose">
   <h2>How the candidates were scored</h2>
   <p>Every place that any edition or study proposes for an entry was listed, including proposals that fail. The sources are the editions of Milik (1960, 1962), Lefkovits (2000) and Puech (2006, 2015), the essays in <i>Copper Scroll Studies</i> (2002), Høgenhaven (2020), the Survey of Western Palestine (1881–83) and Elitzur (2004). Each candidate was then tested four ways:</p>
@@ -293,7 +422,7 @@ footer{margin-top:3.5rem; padding-top:1rem; border-top:1px solid var(--rule); fo
 </section>
 
 
-<section>
+<section id="greek">
   <h2 class="prose">The Greek letters</h2>
   <p class="prose">Seven short groups of Greek letters are engraved in the first four columns of the scroll. Every edition and study in the files was read for the readings and for the explanations proposed, and each explanation was tested against the text. Any claim that matches letters to names or words was compared with what chance alone would produce.</p>
   <div class="tablebox">
@@ -424,6 +553,9 @@ footer{margin-top:3.5rem; padding-top:1rem; border-top:1px solid var(--rule); fo
 </footer>
 </div>
 
+<script src="scroll-text.js"></script>
+<script src="scroll-notes.js"></script>
+<script src="scroll-reader.js"></script>
 <script>
 (function(){
   var rows = Array.prototype.slice.call(document.querySelectorAll('#best tbody tr'));

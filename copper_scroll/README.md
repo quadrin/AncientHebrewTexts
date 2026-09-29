@@ -33,7 +33,14 @@ The [Qumran reference review](qumran_reference_review.md) locates Ilan–Amit’
 | `phase4_summary.md` | yes | Phase 4: the Greek letters: readings, layout, 14 families of hypotheses, 9 tests, conclusions |
 | `phase5_summary.md` | yes | Phase 5: what published reports say about each place's required landmark and its period; changed verdicts; limits |
 | `site_identification_review.md` | yes | Current shortlist and the 2026-09-28 corrections to Phase 5 |
-| `web/index.html` (with `web/map1-overview.webp`, `web/map3-jerusalem.webp`) | yes | The public web page: scored place identifications, the archaeology check, the Greek letters, maps 1 and 3. For GitHub Pages at `https://quadrin.github.io/AncientHebrewTexts/copper_scroll/web/` once the folder is on `main` |
+| `web/index.html` (with `web/map1-overview.webp`, `web/map3-jerusalem.webp`) | yes | The public web page: the text of the scroll with a translation and clickable readings, scored place identifications, the archaeology check, the Greek letters, maps 1 and 3. For GitHub Pages at `https://quadrin.github.io/AncientHebrewTexts/copper_scroll/web/` once the folder is on `main` |
+| `web/scroll-reader.js` | yes | The scroll reader on the web page: the column strip, the facing Hebrew and English lines, and the readings panel |
+| `web/scroll-text.js` | yes | The Hebrew text of 3Q15: Abegg's transcription and morphology from the ETCBC `dss` dataset 2.0.1, **CC BY-NC 4.0**. Built by `tools/build_scroll_text.py`, which lists the changes made for display |
+| `web/scroll-notes.js` | yes | The translation, glosses, reading notes and entry data, built by `tools/build_scroll_notes.py` from `text/` and the tables |
+| `text/translation_en.json` | yes | An English translation, one line per scroll line, written for this project from the Abegg text. `{{phrase\|note-id}}` links a phrase to a note |
+| `text/glossary_en.json` | yes | A short English meaning for each of the 247 lemmas in the Abegg text |
+| `text/readings.json` | yes | Notes on words the editions read or explain differently: each edition's reading and meaning, with pages, from the research files in this folder. Short readings only; no edition's text is reproduced |
+| `tools/build_scroll_text.py`, `tools/build_scroll_notes.py` | yes | Build the two data files above. The first needs a local copy of ETCBC `dss` (instructions in the file) |
 | `findings_log.md` | yes | Running log, evidence vs inference, with pages |
 | `open_questions.md` | yes | Running list of open questions |
 | `tables/entry_concordance.csv` | yes | Puech entry ↔ Lefkovits item ↔ Milik item (from Milik 1960) ↔ line range, with boundary notes and other editors' divisions |
