@@ -47,7 +47,7 @@ Current pins use the gazetteer's site anchors. Filled areas with dashed outlines
 
 ## The photographic reader
 
-**Read the photograph** in Scroll opens a photograph of original strip 13 with eight provisional word tracings in VII 7–11. Select a word on the photograph or the word strip to see Hebrew lettering, glosses, the project translation and editorial notes. Pan, zoom, adjust trace opacity or hold the comparison control to inspect the photograph alone. **Full scroll text** returns to the existing column reader. The direct link is `#scroll/photo`; existing entry links retain their typeset view. Coverage and sources are recorded in [the photographic reader note](research/photographic_reader.md).
+**Read the photograph** in Scroll opens a photograph of original strip 13 with eight provisional word tracings in VII 7–11. **Grooves** (the default), **Relief** and **Photo** switch between a groove map, a contrast-enhanced grey image and the photograph itself. Each traced stroke follows a groove that the photograph shows and is matched to Puech's radiograph of the strip. Select a word on the photograph or the word strip to see Hebrew lettering, glosses, the project translation and editorial notes. Pan, zoom, adjust trace opacity or hold the comparison control to inspect the photograph alone. **Full scroll text** returns to the existing column reader. The direct link is `#scroll/photo`; existing entry links retain their typeset view. Coverage and sources are recorded in [the photographic reader note](research/photographic_reader.md).
 
 ## The text in each field note
 
