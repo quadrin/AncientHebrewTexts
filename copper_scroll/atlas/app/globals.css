@@ -1,7 +1,10 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "../vendor/shadcn-tailwind-4.13.0.css";
-@import "maplibre-gl/dist/maplibre-gl.css";
+/* MapLibre's defaults sit in a layer below atlas-legacy. Unlayered, its
+   .maplibregl-map{position:relative} overrode .map-canvas{position:absolute;inset:0}
+   and collapsed the map to zero height. */
+@import "maplibre-gl/dist/maplibre-gl.css" layer(maplibre);
 @import "./atlas-interface.css";
 @layer atlas-legacy {
 :root{--background:#f1e8d5;--foreground:#322c23;--card:#f8f1df;--card-foreground:#322c23;--popover:#f8f1df;--popover-foreground:#322c23;--primary:#344c43;--primary-foreground:#fff5db;--secondary:#e9ddc4;--secondary-foreground:#483f31;--muted:#e6dcc6;--muted-foreground:#776b57;--accent:#e4d3b3;--accent-foreground:#342e25;--destructive:#944d38;--border:#bca886;--input:#cdbd9b;--ring:#8d633b;--radius:.3rem;--serif:Georgia,'Times New Roman',serif;--sans:'Trebuchet MS',Arial,sans-serif}
