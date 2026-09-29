@@ -59,7 +59,7 @@ export default function Atlas(){
   const index=entries.indexOf(entry);
   function stepEntry(delta:number){const e=entries[(index+delta+entries.length)%entries.length];if(!e.featured)setRegisterMode("all");chooseEntry(e.id)}
   useEffect(()=>{
-    const hash=location.hash.match(/^#(?:entry-([\da]+))?(\/?scroll)?$/);
+    const hash=location.hash.match(/^#(?:entry-([\da]+))?(\/?scroll)?(\/photo)?$/);
     const id=hash?.[1];
     if(id&&entries.some(e=>e.id===id)){const e=entries.find(e=>e.id===id)!;setSelectedId(id);setFocusId(e.candidates[0]?.placeId??null);if(!e.featured)setRegisterMode("all");setFocusNonce(1);}
     if(hash?.[2])setMode("scroll");

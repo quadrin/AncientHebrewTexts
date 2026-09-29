@@ -2,6 +2,7 @@
 
 import { Fragment, useEffect, useMemo, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import PhotoReader from "./atlas-photo";
 import type { Entry, Place } from "./atlas-types";
 import { plain, ReadingCard, Segments, useScrollText, type Selection, type TrSeg, type Word } from "./atlas-text";
 
@@ -32,6 +33,11 @@ function entryHeads(rows: Row[], carried: string | undefined) {
 
 export default function ScrollView({ entry, entries, places, onEntry }: Props) {
   const { data, failed, lineWords, notesFor } = useScrollText();
+  const [photograph, setPhotograph] = useState(() => typeof window !== "undefined" && window.location.hash.endsWith("/photo"));
+  function showPhotograph(show: boolean) {
+    setPhotograph(show);
+    history.replaceState(null, "", `#entry-${entry.id}/scroll${show ? "/photo" : ""}`);
+  }
   // A column chosen on the strip holds until another entry is selected.
   const [chosen, setChosen] = useState<{ entry: string; col: number } | null>(null);
   const [sel, setSel] = useState<Selection>(null);
@@ -65,6 +71,8 @@ export default function ScrollView({ entry, entries, places, onEntry }: Props) {
     pane.scrollTo({ top, behavior: reduced ? "auto" : "smooth" });
   }, [entry.id, col, columns]);
 
+  if (photograph) return <PhotoReader onEntry={id => { onEntry(id); history.replaceState(null, "", `#entry-${id}/scroll/photo`); }} onText={() => { setChosen({ entry: entry.id, col: 6 }); showPhotograph(false); }}/>;
+
   if (failed) return <div className="scroll-view"><p className="scroll-status">The text of the scroll could not load. Reload the page to try again.</p></div>;
   if (!data || !columns) return <div className="scroll-view"><p className="scroll-status" role="status">Unrolling the scroll…</p></div>;
 
@@ -91,7 +99,7 @@ export default function ScrollView({ entry, entries, places, onEntry }: Props) {
   return <div className="scroll-view">
     <header className="scroll-heading">
       <span className="small-caps">The scroll · 3Q15 · read from right to left</span>
-      <h2>Column {ROMAN[col]}</h2>
+      <h2>Column {ROMAN[col]}</h2><button className="photo-text-button" onClick={() => showPhotograph(true)}>Read the photograph</button>
       <p>Lines 1–{rows.length} · entries {inColumn[0]}–{inColumn[inColumn.length - 1]}. Select a Hebrew word or an underlined phrase for the editions’ readings, and an entry to open its places.</p>
     </header>
     <nav className="scroll-strip" aria-label="Columns of the scroll, right to left">{columns.map((c, i) => <Fragment key={i}>

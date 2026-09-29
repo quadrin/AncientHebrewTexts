@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "width": 1000,
+  "height": 1628,
+  "imageWidth": 1600,
+  "imageHeight": 2605,
+  "image": "scroll/strip13.webp",
+  "title": "Strip 13 · column VII",
+  "range": "VII 7–11",
+  "source": "https://commons.wikimedia.org/wiki/File:Strip_13,_part_of_the_Copper_Dear_Sea_Scrolls,_from_Qumran_Cave_3,_Jordan_Museum.jpg",
+  "author": "Osama Shukir Muhammed Amin",
+  "date": "2020-01-20",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "alignmentReference": "Puech 2006, vol. II, p. 413, pl. CCCLXXII (column VII); p. 385, pl. CCCXLVI (strip 13). Used for line identification, not reproduced.",
+  "coverage": "Eight word regions in VII 7–11. The photograph includes additional text that has not yet been aligned. All tracings are provisional hand-drawn interpretations, not a diplomatic edition.",
+  "words": [
+    {
+      "id": "VII-7-0",
+      "line": "VII 7",
+      "word": 0,
+      "box": [
+        285,
+        415,
+        470,
+        145
+      ],
+      "paths": [
+        "M 697 443 Q 729 444 745 434 L 743 524 Q 690 550 618 554",
+        "M 560 456 L 630 465 L 623 517 Q 557 539 500 527",
+        "M 420 448 L 477 462 L 434 539",
+        "M 366 454 L 343 494",
+        "M 311 463 L 301 524 L 284 535"
+      ],
+      "note": "The left end bends away from the camera; the final letters are less clear.",
+      "status": "provisional"
+    },
+    {
+      "id": "VII-8-0",
+      "line": "VII 8",
+      "word": 0,
+      "box": [
+        275,
+        585,
+        490,
+        142
+      ],
+      "paths": [
+        "M 628 646 L 653 623 L 685 648 M 615 651 L 693 651 L 681 696 M 600 714 L 747 690",
+        "M 551 636 L 572 652 L 593 640 M 553 643 L 576 677 L 542 701 L 511 712",
+        "M 464 637 L 507 644 M 468 640 L 450 678 Q 434 692 409 696",
+        "M 401 611 L 365 663 M 390 635 L 421 661",
+        "M 321 612 L 287 665 M 302 630 L 341 660"
+      ],
+      "note": "Visible central strokes traced by hand; the overlay is an interpretive reading aid.",
+      "status": "provisional"
+    },
+    {
+      "id": "VII-9-0",
+      "line": "VII 9",
+      "word": 0,
+      "box": [
+        574,
+        758,
+        183,
+        153
+      ],
+      "paths": [
+        "M 683 797 L 725 789 L 723 841 M 671 858 L 757 825",
+        "M 640 797 L 622 837",
+        "M 598 802 L 654 809 L 650 877 M 593 848 L 578 884 M 574 898 L 679 897"
+      ],
+      "note": "Surface loss interrupts the middle of this word; the gaps are left open.",
+      "status": "provisional"
+    },
+    {
+      "id": "VII-9-1",
+      "line": "VII 9",
+      "word": 1,
+      "box": [
+        272,
+        748,
+        287,
+        153
+      ],
+      "paths": [
+        "M 439 792 L 493 801 L 490 870 M 445 825 L 422 872",
+        "M 371 782 L 415 796 L 392 839 L 355 850 M 365 810 L 347 892",
+        "M 318 770 L 301 822 L 290 874"
+      ],
+      "note": "The final letter is foreshortened at the left edge.",
+      "status": "provisional"
+    },
+    {
+      "id": "VII-10-0",
+      "line": "VII 10",
+      "word": 0,
+      "box": [
+        472,
+        908,
+        285,
+        143
+      ],
+      "paths": [
+        "M 698 943 L 733 945 L 733 997 Q 700 1018 656 1014",
+        "M 599 944 L 660 953 L 646 1010",
+        "M 569 945 L 548 978",
+        "M 521 941 L 505 1000 L 477 1016"
+      ],
+      "note": "Provisional word boundary; compare the full line below.",
+      "status": "provisional"
+    },
+    {
+      "id": "VII-10-1",
+      "line": "VII 10",
+      "word": 1,
+      "box": [
+        302,
+        905,
+        165,
+        115
+      ],
+      "paths": [
+        "M 451 936 L 416 982 L 391 960 M 418 937 L 391 971 M 384 929 L 364 958",
+        "M 346 908 L 335 932 L 369 935 L 327 982"
+      ],
+      "note": "Only the strokes visible on this strip are drawn.",
+      "status": "provisional"
+    },
+    {
+      "id": "VII-11-0",
+      "line": "VII 11",
+      "word": 0,
+      "box": [
+        451,
+        1068,
+        294,
+        138
+      ],
+      "paths": [
+        "M 665 1103 L 705 1114 L 700 1170 M 650 1181 L 742 1178",
+        "M 603 1109 L 650 1118 L 637 1168",
+        "M 568 1112 L 555 1154",
+        "M 488 1099 L 545 1111 L 519 1149 M 494 1127 L 474 1172"
+      ],
+      "note": "Incisions and corrosion overlap; this tracing needs palaeographic review.",
+      "status": "provisional"
+    },
+    {
+      "id": "VII-11-1",
+      "line": "VII 11",
+      "word": 1,
+      "box": [
+        263,
+        1070,
+        183,
+        136
+      ],
+      "paths": [
+        "M 361 1098 L 415 1117 L 412 1162 M 365 1126 L 350 1184",
+        "M 299 1100 L 333 1108 L 326 1162 M 293 1116 L 282 1172"
+      ],
+      "note": "The left edge cuts off part of the word; this is a partial tracing.",
+      "status": "provisional"
+    }
+  ],
+  "imageProcessing": "Resized from 2467 × 4016 to 1600 × 2605; WebP quality 86. No retouching, reconstruction or generative enhancement."
+}
