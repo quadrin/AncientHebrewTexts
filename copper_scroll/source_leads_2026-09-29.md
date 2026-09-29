@@ -4,6 +4,7 @@ This file addresses the Phase 5 gaps listed in [Q32](open_questions.md) and [pha
 
 - **Part 1** lists leads found by web search. They are not yet read in full unless noted.
 - **Part 2** records three uploaded sources that were read or searched. The uploads are not in the repository.
+- **Part 3** lists the other project records that were updated.
 
 ## Part 1. Source access leads
 
@@ -105,4 +106,9 @@ This file addresses the Phase 5 gaps listed in [Q32](open_questions.md) and [pha
   - The name evidence (Eusebius) is 4th century and fits the Byzantine villages. It does not show which site carried the name in the scroll's period; Zertal's own model allows Salhab.
   - The burial caves at Lower Ibziq match Puech's alternative "burial chamber" reading only as a type, and in an undated (probably Byzantine) setting.
   - Suggestion: keep "possible", lower the confidence from medium to low, and record Salhab as an alternative bearer of the name.
-  - **Applied 29 September 2026:** Kh. Ibziq is "possible, low" in the atlas (a dated revision in `atlas/research/build_atlas.py`) and in the entry 59 reading notes. Kh. Salhab is named there as an alternative; it is not mapped, because no coordinate has been taken from Zertal's grid. The Phase 3 and Phase 5 tables keep their original assessment.
+  - **Applied 29 September 2026:** Kh. Ibziq is "possible, low" in the atlas (a dated revision in `atlas/research/build_atlas.py`) and in the entry 59 reading notes. Kh. Salhab is named there as an alternative; it is not mapped, because no coordinate has been taken from Zertal's grid. The Phase 3 tables keep their original assessment. *Updated on merge:* the Phase 5 index (`tables/phase5_archaeology_index.csv`), the entry 59 row of `tables/phase5_assessments.csv`, the Phase 5 summary and the public web page also carry the change.
+
+## Part 3. Other records updated
+
+- **Entry 21:** confidence unchanged. The two possible heads are a row in `tables/feature_constraints.csv`, and the atlas text for entry 21 cites Stacey 2007. See also the note at the end of [ilan_amit_1989_plan_review.md](ilan_amit_1989_plan_review.md) and F9.7.
+- **Entry 57:** verdict unchanged. The Hellenistic staircases are recorded as a lead (F9.6, Q47).

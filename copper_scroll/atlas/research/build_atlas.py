@@ -82,14 +82,15 @@ revised_candidates={'40':[{'placeId':'beth_horon','status':'possible','confidenc
 # from the Byzantine period. Kh. Salhab (Zertal site 23) is recorded as an alternative bearer of the name; it is not mapped.
 revised_confidence={'59':'low'}
 revised_candidate_confidence={('59','ibziq'):'low'}
-revised_sources={'59':'; Zertal 2008, Manasseh Hill Country Survey Vol. 2, pp. 104–107, 151–153, 191–198'}
+# The Phase 5 index now carries the same change and lists Zertal among the main sources, so no source is added here.
+places['ibziq']['note']='Upper Kh. Ibziq, Zertal site 44 (Old Israel Grid 1878/1971). Lower Kh. Ibziq, site 42, lies 1 km north-east. Zertal reports cisterns, burial caves and a Roman road, but no conduit. Not a feature location.'
 places['jer_siloam']['note']='The inherited coordinate anchors the wider Siloam complex (~300 m). It does not select a particular pool or trough.'
 places['mar_saba']['note']='Mar Saba is one proposed stretch of the Kidron gorge. The escarpment exit remains another possibility.'
 specific={
 '1':('Late-antique geographical tradition points north of Jericho. Wadi Nuweimeh accommodates both the northwestern springs and northeastern lower valley.','The Iron Age Achor tradition points toward the Buqeia. No reported ruin-and-steps combination decides between them.'),
 '4':('Tell es-Sultan supplies a mound and a nearby cemetery. The repository retains it as one possible Kohlit candidate.','Kohlit remains unidentified. The public index maps only a subset of the proposals discussed in the full research.'),
 '20':('A cairn and a dam imply different features. Puech prefers a cairn; the dam proposal must be checked independently.','The proposed Qumran dam is reconstructed. Neither it nor a particular cairn has been established as this entry’s landmark.'),
-'21':('Qumran’s water system supplies a plausible conduit-head setting. Stacey reconstructs a lost intake dam; the original Ilan–Amit plan has been located bibliographically but remains inaccessible.','The link to Sekakah and the stone noun are partly restored. Northern approach and northern side must be tested separately. The pin marks the settlement.'),
+'21':('Qumran’s water system supplies a plausible conduit-head setting. Ilan–Amit’s 1989 plan puts the visible intake beside a reconstructed dam. Stacey (2007) dates the main aqueduct after the 31 BCE earthquake and makes the dam and the cliff tunnel a later stage.','The link to Sekakah and the stone noun are partly restored. Northern approach and northern side must be tested separately. Under Stacey’s phasing, the earlier channel began where the aqueduct leaves the cliff, so the head of a construction stage is an alternative to the dam intake; the phasing is a hypothesis. The pin marks the settlement.'),
 '22':('Qumran’s reservoirs provide a setting to test against the fissure east of the named reservoir.','Neither the ancient reservoir name nor the specific eastern fissure has been established. Jerusalem’s similarly named pool does not relocate this entry.'),
 '23':('Puech allows Shallum as an alternative to Solomon and a large boulder as the landmark. The channel’s connection to entry 22’s reservoir is conditional.','No origin or endpoint is identified for the stated distance. Entry order alone does not establish a continuous route.'),
 '24':('The wording permits a regional approach test from Jericho toward Sekakah. Wadi Kuteif remains a published proposal.','The recorded rock-cut chamber is undated and does not identify the required tomb. A route from entry 23 to entry 24 is not specified.'),
@@ -131,9 +132,8 @@ for r in rows('phase3_site_index.csv'):
 for entry in entries:
     if entry['id'] in ['20','21','22','23','24']:
         entry['sources'] += '; Puech 2006 pp. 187–189; Qumran reference review (28 September 2026)'
-    entry['sources'] += revised_sources.get(entry['id'],'')
     if entry['id']=='21':
-        entry['sources'] += '; Lefkovits 2000 pp. 185–189; Stacey 2009, The Dam'
+        entry['sources'] += '; Lefkovits 2000 pp. 185–189; Stacey 2009, The Dam; Stacey 2007, DSD 14 pp. 222–243'
 out={'snapshot':'e3b51ce6523e947fe217a630d64fa16486fc3c7c','reviewDate':'29 September 2026','entries':entries,'places':list(places.values())}
 assert len(entries)==61 and len(places)==38
 assert all(c['placeId'] in places for e in entries for c in e['candidates'])

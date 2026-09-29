@@ -4,6 +4,8 @@ Session 2, 2026-09-28. Desk research on published reports and editions only.
 
 **Review update, 2026-09-28:** the full Szanton 2023 article is now available. Entry 49 returns to medium overall confidence, conditional on the Siloam reading; its pool/outlet setting is supported, but its trough is unverified. The counts below incorporate this review. See [site identification review](site_identification_review.md) and F5.10–F5.13 for the evidence and the distinction between a site, a landmark type, and an individual feature.
 
+**Follow-up, 2026-09-29:** Zertal's survey of Kh. Ibziq (*Manasseh Hill Country Survey* vol. 2) and Stacey 2007 on the Qumran aqueducts have been read. Entry 59 (Kh. Ibziq) is lowered from possible, medium to possible, low. No other verdict changes. See [source_leads_2026-09-29.md](source_leads_2026-09-29.md) and F9.1–F9.7.
+
 **Scope.** This phase asks one question of each Phase 3 place:
 
 > Do published reports describe the kind of landmark that the entry requires (cistern, aqueduct, pool, tomb, spring, gate) at that site, in use in the late Second Temple period?
@@ -49,7 +51,7 @@ Session 2, 2026-09-28. Desk research on published reports and editions only.
 | … reported only in part, or without a date | 14, including 49 (pools/outlet supported; trough unverified) |
 | … not reported, or only for another period | 5: 1, 28, 38, 46 (earlier only), 57 (later only) |
 | Verdicts raised from Phase 3 after review | 0 (Siloam, 49: the initial high rating is withdrawn; medium, conditional on the reading) |
-| Verdicts lowered | 2 (Ramat Raḥel, 46: medium → low; Tell el-Qos for 30: possible → weak) |
+| Verdicts lowered | 2 (Ramat Raḥel, 46: medium → low; Tell el-Qos for 30: possible → weak); a third in the 2026-09-29 follow-up (Kh. Ibziq for 59: medium → low) |
 | Verdicts kept from Phase 3 | all others; entry 49 retains medium with an explicit reading condition |
 
 (Inference, medium confidence) **The clearest type-and-period matches are water installations.**
@@ -72,6 +74,10 @@ Session 2, 2026-09-28. Desk research on published reports and editions only.
   - The reports checked do not establish a large reservoir in use then. This weakens the match to the known pools; it does not establish that every reservoir at the site was absent.
   - Aharoni's identification of Beth ha-Kerem also rests partly on the scroll's own sequence (Lefkovits p. 333 n. 11).
 - **30, Tell el-Qos: lowered to weak.** SWP (p. 222) describes a heap of stones, "not a Tell in the strict meaning". No source reports ancient remains there. The Jericho-area placement for entry 30 is kept at "possible".
+- **59, Kh. Ibziq: lowered to possible, low (follow-up, 2026-09-29).**
+  - Zertal's survey (2008, vol. 2 pp. 191–198) reports cisterns, burial caves and a Roman road at the two Ibziq sites, but no conduit.
+  - Upper Ibziq's pottery is mainly Late Roman to Mamluk, with only two illustrated Early Roman vessels. Lower Ibziq starts in the Byzantine period.
+  - Zertal attests the name at Ibziq only from the Byzantine period and puts biblical Bezek at Kh. Salhab (pp. 104–107, 151–153). Salhab is recorded as an alternative site for the name. See [source_leads_2026-09-29.md](source_leads_2026-09-29.md).
 
 ## 4. Other results worth recording
 
@@ -92,6 +98,7 @@ Session 2, 2026-09-28. Desk research on published reports and editions only.
 - **Tell es-Sultan for Koḥlit.** The tombs are the one supported landmark: a cemetery north and west of the tell with tombs to the Roman period (Sala 2014 p. 117). The great cistern and the pits are not reported, and the dated pools and aqueducts belong to the palaces south of the tell. The hypothesis stays "possible, low".
 - **Beth Shean (58).** Perennial springs (SWP II) and a dam and pool of the period (*HA-ESI* 2016) move the feature fit from partial to good. The verdict stays medium, because springs are common in the valley and the final mem of the name remains a problem (Q16).
 - **Gerizim (57).** The dated steps and cisterns in the sources checked are later (Hadrian's stairway; Byzantine works). Magen's excavation reports were not available, so this is a limit of the evidence checked, not a claim about every installation on the summit.
+  - *Follow-up, 2026-09-29:* Magen's NEAEHL Supplement entry (2008, pp. 1742–1748) is free online but not yet read in full. It reports Hellenistic staircases and a courtyard cistern. The Hellenistic city ends about 111 BCE (BK), so their use in the scroll's period needs a check (Q47).
 
 ## 5. The seven "feature unknown" placements (Q25)
 
@@ -110,9 +117,9 @@ Session 2, 2026-09-28. Desk research on published reports and editions only.
 
 - **Not accessible:** several key reports.
   - Magen on Gerizim.
-  - Zertal's Manasseh survey (Ibziq).
-  - Hirschfeld's Herodium survey.
-  - Patrich on Mar Saba and Hyrcania.
+  - Zertal's Manasseh survey (Ibziq). *Read 2026-09-29* (vol. 2); see the follow-up.
+  - Hirschfeld's Herodium survey (print only).
+  - Patrich on Mar Saba and Hyrcania. *Located 2026-09-29, not read:* the Hyrcania aqueducts chapter is in the same 1989 Hebrew volume as the Ilan–Amit chapter already obtained; the Mar Saba map is print only.
   - The full Akeldama volume (abstract only). Szanton 2023 has since been read in full; see the review and `sources.md`.
   - Kenyon 1981 (second-hand).
 - **Second-hand only:** the Bethesda excavations (Vincent & Abel; Jeremias), cited through the editors.
@@ -123,7 +130,8 @@ Session 2, 2026-09-28. Desk research on published reports and editions only.
 
 | File | In git? | Contents |
 |---|---|---|
-| `phase5_summary.md` | yes | This summary, incorporating the 2026-09-28 review |
+| `phase5_summary.md` | yes | This summary, incorporating the 2026-09-28 review and the 2026-09-29 follow-up |
+| `source_leads_2026-09-29.md` | yes | 2026-09-29: access leads for the missing reports; Stacey 2007 and the Manasseh survey read; entry 59 lowered |
 | `site_identification_review.md` | yes | Revised shortlist, reading conditions, source corrections and limits of precision |
 | `tables/phase5_archaeology_index.csv` | yes | 31 rows: the landmark types each entry requires, whether reports describe them at the site, the period, the Phase 3 and Phase 5 verdicts, the main sources (references only) |
 | `tables/phase5_assessments.csv` | yes | The 37 full assessments, with the reviewers' reasons and the disputed landmark words. Entry 49 carries a correction note from the 2026-09-28 review |

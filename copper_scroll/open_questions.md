@@ -70,7 +70,7 @@ Updated each session. Newest additions at the bottom of each group. "Needs" says
 
 - Q32. **Reports that were not accessible and would change the Phase 5 checks:**
   - Magen et al. on Mount Gerizim (57);
-  - Zertal's Manasseh survey (Kh. Ibziq, 59);
+  - Zertal's Manasseh survey (Kh. Ibziq, 59). **Resolved 2026-09-29:** the Ibziq entries are in vol. 2, and were read; see the source leads section below;
   - Hirschfeld's Herodium survey (39–45);
   - Patrich on Mar Saba and Hyrcania (35; 16, 29);
   - the Akeldama volume;
@@ -153,4 +153,5 @@ See [source_leads_2026-09-29.md](source_leads_2026-09-29.md).
   - **Hirschfeld (Herodium) and Patrich (Mar Saba) survey maps:** print only.
 - Q38 update: Stacey 2007 names point 16 as the head of an earlier run-off channel. Test "head of a subsection" at point 16 beside the dam intake (points 3/4). Check the 2002 figure numbering against the 1989 plan.
 - Q46 (new). **Entry 59: Ibziq or Kh. Salhab?** Zertal places Biblical Bezeq at Kh. Salhab (site 23, with Early Roman pottery) and dates the name at Ibziq from the Byzantine period. Ibziq is now "possible, low" (F9.3). *Needs:* *HA* 40 (1971) p. 22 on the Ibziq excavation; Zertal's grid for Kh. Salhab (pp. 151–153) before it can be mapped; a report of any conduit at Salhab.
+- Q47 (new). **Were Gerizim's Hellenistic staircases in use after about 111 BCE (57)?** Magen's NEAEHL entry reports Hellenistic staircases and a courtyard cistern; the Hellenistic city ends with John Hyrcanus (BK). *Needs:* the NEAEHL entry read in full, and the stratigraphy of the staircases in *JSP* 8.
 
