@@ -39,7 +39,7 @@ The [Qumran reference review](qumran_reference_review.md) locates Ilan–Amit’
 | `web/scroll-notes.js` | yes | The translation, glosses, reading notes and entry data, built by `tools/build_scroll_notes.py` from `text/` and the tables |
 | `text/translation_en.json` | yes | An English translation, one line per scroll line, written for this project from the Abegg text. `{{phrase\|note-id}}` links a phrase to a note |
 | `text/glossary_en.json` | yes | A short English meaning for each of the 247 lemmas in the Abegg text |
-| `text/readings.json` | yes | Notes on words the editions read or explain differently: each edition's reading and meaning, with pages, from the research files in this folder. Short readings only; no edition's text is reproduced |
+| `text/readings.json` | yes | Notes on words the editions read or explain differently: each edition's reading and meaning, with pages, from the research files in this folder |
 | `tools/build_scroll_text.py`, `tools/build_scroll_notes.py` | yes | Build the two data files above. The first needs a local copy of ETCBC `dss` (instructions in the file) |
 | `findings_log.md` | yes | Running log, evidence vs inference, with pages |
 | `open_questions.md` | yes | Running list of open questions |
