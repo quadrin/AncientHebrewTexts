@@ -7,7 +7,7 @@ import { plain, ReadingCard, Segments, useScrollText } from "./atlas-text";
 
 type Box = { x: number; y: number; width: number; height: number };
 type Layer = (typeof photo.views)[number];
-const START: Box = { x: 230, y: 400, width: 580, height: 850 };
+const START: Box = { x: 170, y: 330, width: 700, height: 1000 };
 const clamp = (n: number, lo: number, hi: number) => Math.min(hi, Math.max(lo, n));
 // Image, hit regions and strokes share a single SVG coordinate system.
 // Panning and zooming only change its viewBox; nothing is positioned in CSS pixels.
@@ -138,7 +138,7 @@ export default function PhotoReader({ onEntry, onText }: { onEntry: (id: string)
           {original && layer.image !== photo.image && <image href={`${base}${photo.image}`} x={0} y={0} width={photo.width} height={photo.height}/>}
           {!original && imageState === "loaded" && photo.words.map((w, i) => <g key={w.id} className={`reader-word ${i === selected ? "selected" : ""}`} data-word-id={w.id}>
             <rect x={w.box[0]} y={w.box[1]} width={w.box[2]} height={w.box[3]} rx={9} className="reader-hit" vectorEffect="non-scaling-stroke"/>
-            {i === selected && tracing && <g className="reader-trace" opacity={opacity} pointerEvents="none">{w.paths.map((d, j) => <g key={`${w.id}-${j}`}><path d={d} className="trace-shadow"/><path d={d} className="trace-line" pathLength={1}/></g>)}</g>}
+            {i === selected && tracing && <g className="reader-trace" opacity={opacity} pointerEvents="none">{w.paths.map((d, j) => <g key={`${w.id}-${j}`}><path d={d} className="trace-shadow"/><path d={d} className="trace-line" pathLength={1}/></g>)}{w.inferred.map((d, j) => <g key={`${w.id}-i${j}`}><path d={d} className="trace-shadow trace-inferred"/><path d={d} className="trace-line trace-inferred"/></g>)}</g>}
           </g>)}
         </svg>
         {imageState === "loading" && <div className="reader-loading" role="status">Loading the {layer.id === "photo" ? "photograph" : `${layer.label.toLowerCase()} image`}…</div>}
@@ -153,7 +153,7 @@ export default function PhotoReader({ onEntry, onText }: { onEntry: (id: string)
           <p className="reader-label">The line in context</p><p className="reader-line-he" dir="rtl" lang="he">{line.w.map((w, i) => <span key={i} className={i === item.word ? "active" : ""}>{w.n ?? plain(w)} </span>)}</p>
           <p className="reader-translation">{line.tr.map(s => typeof s === "string" ? s : s[0]).join("")}</p>
           <div className="reader-options"><label><input type="checkbox" checked={tracing} onChange={e => setTracing(e.target.checked)}/>Trace strokes</label><label className="reader-opacity">Trace opacity<input type="range" min=".15" max="1" step=".05" value={opacity} onChange={e => setOpacity(+e.target.value)}/></label></div>
-          <p className="reader-provisional">Provisional tracing</p><p className="reader-note">{item.note}</p>
+          <p className="reader-provisional">Provisional tracing</p><p className="reader-legend"><span className="legend-solid"/>groove visible in this photograph <span className="legend-dashed"/>shown only by the radiograph</p><p className="reader-note">{item.note}</p>
           <details className="reader-editions"><summary>Lettering and interpretation</summary><ReadingCard data={data} line={line} sel={{ line: item.line, word: item.word }} notesFor={notesFor} lineWords={lineWords} onClose={() => {}}/></details>
           {owner && <button className="reader-entry-link" onClick={() => onEntry(owner)}>Show entry {owner} in the atlas</button>}
         </>}
@@ -163,6 +163,6 @@ export default function PhotoReader({ onEntry, onText }: { onEntry: (id: string)
       const text = lineWords[w.line]?.[w.word];
       return <button key={w.id} aria-pressed={i === selected} onClick={() => pick(i, true)}><span lang="he" dir="rtl">{text ? plain(text) : "…"}</span><small>{w.line}</small></button>;
     })}</nav>
-    <footer className="reader-credit"><p>8 words traced in VII 7–11, matched to Puech’s radiograph of strip 13. Each stroke follows a groove visible in this photograph; gaps remain unfilled. {layer.description}</p><p>Photograph: <a href={photo.source} target="_blank" rel="noreferrer">{photo.author}</a>, 2020 · <a href={photo.licenseUrl} target="_blank" rel="noreferrer">{photo.license}</a>. Full size, no retouching. The Grooves and Relief images and the tracings are derived from it and use the same licence.</p></footer>
+    <footer className="reader-credit"><p>8 words traced letter by letter in VII 7–11; letters identified on Puech’s radiograph of strip 13. Solid strokes follow grooves visible in this photograph; dashed strokes are shown only by the radiograph. {layer.description}</p><p>Photograph: <a href={photo.source} target="_blank" rel="noreferrer">{photo.author}</a>, 2020 · <a href={photo.licenseUrl} target="_blank" rel="noreferrer">{photo.license}</a>. Full size, no retouching. The Grooves and Relief images and the tracings are derived from it and use the same licence.</p></footer>
   </div>;
 }
