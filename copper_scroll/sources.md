@@ -33,7 +33,7 @@ Checked 2026-09-27 against branch `main` (commit 637a7a9, "Add files via upload"
   - Index: pp. 217–220 (Hebrew concordance p. 217ff; numerals and Greek letters p. 219)
   - Bibliography: p. 223
 - Plates (photographs, radiographs, facsimile, galvanoplasty): vol. II, pl. CCCXXXIII–CCCLXXXIII.
-- Encoding: the Hebrew is set in "SuperHebrew" (plus "HebraicaII" for some final forms), stored in visual left-to-right order. Numeral signs are partly font glyphs (unit stroke "|" in Symbol; the 20-sign as a "3" glyph) and partly **vector drawings** (the 10-sign, the 100-sign). They do not survive text extraction. `tools/puech_heb.py` decodes the text layer. **Every one of the 181 lines was then checked by eye** against page renders, and all numerals were set by hand from the images and from Puech's own totals (p. 173 nn. 27–34). The line table (`puech_lines.csv`) reproduces Puech's edited text, so it is kept out of this public repository (see "Where the table lives" in `phase1_summary.md`).
+- Encoding: the Hebrew is set in "SuperHebrew" (plus "HebraicaII" for some final forms), stored in visual left-to-right order. Numeral signs are partly font glyphs (unit stroke "|" in Symbol; the 20-sign as a "3" glyph) and partly **vector drawings** (the 10-sign, the 100-sign). They do not survive text extraction. `tools/puech_heb.py` decodes the text layer. **Every one of the 181 lines was then checked by eye** against page renders, and all numerals were set by hand from the images and from Puech's own totals (p. 173 nn. 27–34). The line table (`puech_lines.csv`) contains Puech's edited text and was delivered separately in the original session (see "Where the table lives" in `phase1_summary.md`). This records its delivery status; follow [Text and publication](AGENTS.md#text-and-publication) when preparing new outputs.
 - **Internal inconsistencies in Puech's own book:** his English translation (pp. 208–216) disagrees with his Hebrew and French in several places. See the findings log. The master table follows his Hebrew and French.
 
 ## Lefkovits 2000
@@ -281,6 +281,8 @@ A 5-page PDF you uploaded in session 1: `TIR_Copper_Scroll_Research_Summary.pdf`
 - Caveat: it states that no readable TIR map of Jerusalem–Jericho–Dead Sea was obtained. The repo crop `north_samaria_jerusalem.jpeg` does cover Jerusalem–Jericho legibly. What is missing is the Qumran/Dead Sea shore part.
 - Its claims are secondhand and have not been checked against the underlying publications. Treat them as leads until checked.
 
-## Copyright note
+## Text provenance and reuse
 
-The repository `quadrin/AncientHebrewTexts` is **public** on GitHub, and `main` contains the complete Puech (Brill 2006) and Lefkovits (Brill 2000) books, plus map crops without an established reuse licence (see the README on `main`). Files in this `copper_scroll/` folder quote the editions only as research data: line-by-line readings with page citations, short glosses, and English translations written for this project. They do not copy the editors' translations.
+Use the available editions as research sources. Keep ancient wording, an editor's restoration, a modern translation and the project's own interpretation distinguishable, with page and line citations. Existing files and historical delivery notes do not establish a blanket permission or prohibition for new publication. Follow [Text and publication](AGENTS.md#text-and-publication); a replacement-transcription search is not a prerequisite for the research.
+
+For the distinction between preexisting material and new contributions in an edition, see [17 U.S.C. § 103(b)](https://www.copyright.gov/title17/92chap1.html#103). For the PEF map, see the [CC BY-NC-SA 3.0 terms](https://creativecommons.org/licenses/by-nc-sa/3.0/).

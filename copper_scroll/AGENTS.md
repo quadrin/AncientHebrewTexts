@@ -11,6 +11,14 @@ Identify the ancient places and specific locations described in the Copper Scrol
 - Compare supporting and conflicting evidence for every candidate. Trace repeated claims to their original observations and identify independent corroboration.
 - When evidence is incomplete, give the most specific defensible candidate, explain the unresolved assumption and identify the next discriminating source or measurement. Use new evidence to revise rankings and geometry.
 
+## Text and publication
+
+Use the available Puech, Lefkovits and Milik editions for research, comparison and citation. Do not make finding an openly licensed replacement transcription a prerequisite for continuing the research or writing the atlas.
+
+Distinguish the ancient Hebrew text from modern editorial reconstructions, translations, apparatus, commentary and page images. The ancient text is public domain; that does not establish permission to reproduce every contribution or image in a modern edition. Prepare project wording from the ancient text, cite the readings used, and mark restorations and uncertainty. Describe an edition-based reading as such; do not call it a new manuscript transcription unless the manuscript was actually checked.
+
+Notes saying a file was “not pushed”, “not committed” or delivered locally record earlier delivery decisions. They do not make all readings in those files private or prohibit publishing original analysis, site identifications, factual comparisons or project-authored translations of the ancient text. When a proposed output reproduces modern protected material, resolve that specific use and continue the unaffected work. Do not infer that a public GitHub repository is inherently incompatible with a noncommercial licence; apply the actual attribution, noncommercial and share-alike terms to the asset concerned.
+
 ## Research continuity
 
 Check existing notes and source-access records before searching. Prioritize digital primary sources, original plans, surveys and historical photographs. Record exact pages, figure numbers and access status. Use the existing research files to distinguish a newly accessed source from independent new evidence.

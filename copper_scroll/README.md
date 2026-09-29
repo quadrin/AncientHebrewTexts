@@ -56,7 +56,9 @@ The [Qumran reference review](qumran_reference_review.md) locates Ilan–Amit’
 | `phase3_entries.csv` | **no** | Per entry: the text's requirements, reading notes, best-supported place, why not the others, and the text's own relative description in each edition (edition quotations; spatial models record their assumptions separately) |
 | `phase3_map1_overview.png`, `phase3_map2_jericho_qumran.png`, `phase3_map3_jerusalem.png` | **no** | The three Phase 3 maps, at site level. Map 2 is built on PEF Sheet XVIII (CC BY-NC-SA 3.0) |
 
-The files marked **no** reproduce or quote copyrighted edition text, or are built on a base map with a non-commercial share-alike licence. This GitHub repository is public, so they are delivered to you directly rather than committed.
+The **In git?** column records the delivery status reported by the original research sessions. It is not a blanket publication rule. Some omitted tables mix ancient Hebrew with modern edited readings, translations or commentary; assess the particular material being reproduced. Use the existing editions for research and cite them when preparing original project text. There is no prerequisite to find an openly licensed replacement transcription. See [Text and publication](AGENTS.md#text-and-publication).
+
+The PEF base map's CC BY-NC-SA licence permits public sharing subject to its attribution, noncommercial and share-alike terms; public hosting alone is not a reason to exclude it. See the [licence terms](https://creativecommons.org/licenses/by-nc-sa/3.0/).
 
 ## Master table columns
 
