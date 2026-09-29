@@ -141,3 +141,16 @@ Updated each session. Newest additions at the bottom of each group. "Needs" says
   - a specialist reading of IX 7.
 - Q16 update: Elitzur counts Beth-shean = Bēsān among his positive identifications (no. 63). The question is only the scroll's final mem.
 - Q38/Q40 outreach: the survey-data request went to Reeder and Jol on 29 September 2026, and the four-line reading request to Høgenhaven. Record replies here.
+
+## Source leads — 2026-09-29
+
+See [source_leads_2026-09-29.md](source_leads_2026-09-29.md).
+
+- Q32 update:
+  - **Zertal on Ibziq (59): read.** The write-up is in Vol. 2 (pp. 191–198), not Vol. 4. No conduit is reported at either Ibziq site. See F9.2–F9.3.
+  - **Magen on Gerizim (57): located.** The NEAEHL Supplement entry (2008, pp. 1742–1748) is free online; its Hellenistic staircases need a check for use after John Hyrcanus.
+  - **Patrich on Hyrcania (16, 29): located.** Yad Ben-Zvi 1989, pp. 243–260 (same volume as Ilan–Amit) and JRA Suppl. 46 (2002), pp. 336–352.
+  - **Hirschfeld (Herodium) and Patrich (Mar Saba) survey maps:** print only.
+- Q38 update: Stacey 2007 names point 16 as the head of an earlier run-off channel. Test "head of a subsection" at point 16 beside the dam intake (points 3/4). Check the 2002 figure numbering against the 1989 plan.
+- Q46 (new). **Entry 59: Ibziq or Kh. Salhab?** Zertal places Biblical Bezeq at Kh. Salhab (site 23, with Early Roman pottery) and dates the name at Ibziq from the Byzantine period. Ibziq is now "possible, low" (F9.3). *Needs:* *HA* 40 (1971) p. 22 on the Ibziq excavation; Zertal's grid for Kh. Salhab (pp. 151–153) before it can be mapped; a report of any conduit at Salhab.
+

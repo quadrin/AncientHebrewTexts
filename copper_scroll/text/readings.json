@@ -6431,10 +6431,11 @@
     "ref": "via Puech 2015 p. 111 n. 501"
    }
   ],
-  "note": "The word is agreed apart from a reading bkwkʾ that Puech rejects, and the research lexicon rates ביב 'conduit, drain' medium-high. No source consulted reports such a conduit at Kh. Ibziq.",
+  "note": "The word is agreed apart from a reading bkwkʾ that Puech rejects, and the research lexicon rates ביב 'conduit, drain' medium-high. Zertal's survey reports no conduit at either Ibziq site (2008, Vol. 2 pp. 191–198).",
   "sources": [
    "tables/phase5_assessments.csv",
-   "tables/landmark_lexicon_index.csv"
+   "tables/landmark_lexicon_index.csv",
+   "source_leads_2026-09-29.md"
   ]
  },
  {
@@ -6489,14 +6490,15 @@
     "ref": "via Puech 2015 p. 110 nn. 494-498"
    }
   ],
-  "note": "Only the Bezek reading gives a place the research can test, Kh. Ibziq, which it rates possible; Milik's reading points to Hebron. The text shown has הבור, the letters of Wilmot and Wise, not Puech's הבזך.",
+  "note": "Only the Bezek reading gives a place the research can test, Kh. Ibziq, which it rates possible, low (lowered from medium on 29 September 2026). Zertal finds the name at Ibziq only from the Byzantine period and places Biblical Bezek at Kh. Salhab (2008, Vol. 2 pp. 104–107, 151–153). Milik's reading points to Hebron. The text shown has הבור, the letters of Wilmot and Wise, not Puech's הבזך.",
   "sources": [
    "findings_log.md",
    "phase2_summary.md",
    "phase3_summary.md",
    "tables/phase5_assessments.csv",
    "tables/phase3_site_index.csv",
-   "tables/landmark_lexicon_index.csv"
+   "tables/landmark_lexicon_index.csv",
+   "source_leads_2026-09-29.md"
   ]
  },
  {
@@ -6522,10 +6524,11 @@
     "ref": "p. 301"
    }
   ],
-  "note": "The second instance may read bzk or kwk, so this is either a building named for Bezek or a burial chamber near the conduit. The text shown again has הבור.",
+  "note": "The second instance may read bzk or kwk, so this is either a building named for Bezek or a burial chamber near the conduit. Lower Ibziq has about 70 burial caves (Zertal 2008, Vol. 2 pp. 191–193), a match of type only, in a probably Byzantine setting. The text shown again has הבור.",
   "sources": [
    "tables/phase5_assessments.csv",
-   "findings_log.md"
+   "findings_log.md",
+   "source_leads_2026-09-29.md"
   ]
  },
  {

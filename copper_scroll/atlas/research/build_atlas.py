@@ -77,6 +77,12 @@ for k,p in places.items(): p['shortName']=short_names[k]
 # 29 September 2026: entry40_bethhoron_review.md adds Beth-Horon as a possible place for entry 40.
 places['beth_horon']={'id':'beth_horon','name':'Upper Beth-Horon (Beit ʿUr el-Foqa)','lat':31.88530,'lon':35.11341,'precision':'~300 m','kind':'point','region':'region','note':'Village anchor from the IAA Benjamin survey (sites 28/143). Lower Beth-Horon (Beit ʿUr et-Taḥta) is equally compatible and has the only tomb with pottery of the period. Not a feature location.','source':'IAA survey, Ramallah–Benjamin map 83/1, sites 28 and 143','shortName':'Upper Beth-Horon · Beit Ur'}
 revised_candidates={'40':[{'placeId':'beth_horon','status':'possible','confidence':'low'}]}
+# 29 September 2026: source_leads_2026-09-29.md (Zertal 2008, Manasseh Hill Country Survey Vol. 2) lowers
+# Kh. Ibziq for entry 59 from medium to low: no conduit, weak 1st-century presence, name attested there only
+# from the Byzantine period. Kh. Salhab (Zertal site 23) is recorded as an alternative bearer of the name; it is not mapped.
+revised_confidence={'59':'low'}
+revised_candidate_confidence={('59','ibziq'):'low'}
+revised_sources={'59':'; Zertal 2008, Manasseh Hill Country Survey Vol. 2, pp. 104–107, 151–153, 191–198'}
 places['jer_siloam']['note']='The inherited coordinate anchors the wider Siloam complex (~300 m). It does not select a particular pool or trough.'
 places['mar_saba']['note']='Mar Saba is one proposed stretch of the Kidron gorge. The escarpment exit remains another possibility.'
 specific={
@@ -98,7 +104,7 @@ specific={
 '55':('The Bethesda complex supplies double pools and a smaller basin in the relevant period.','The text may describe two pools without naming Bethesda; the 2026 plate check shows what looks like a ḥet where Milik’s Bethesda needs a taw. The nearby Strouthion twin pool prevents a unique match on that feature alone.'),
 '57':('The mountain name provides the geographical anchor.','The checked steps and cisterns date later. Missing excavation reports prevent a comprehensive judgment about earlier features.'),
 '58':('Perennial springs and period water installations fit the regional setting at Beth Shean.','The scroll’s final mem differs from the usual nun in Beth Shean. No evidence selects the particular spring.'),
-'59':('Khirbet Ibziq offers a geographical and name-based candidate for Bezek.','The place name depends on a disputed reading, and the great conduit remains unreported.'),
+'59':('Zertal identifies Eusebius’s two villages called Bezek, 17 miles from Neapolis, with the two Ibziq sites. Upper Ibziq has 45 cisterns and a Roman road; Lower Ibziq has about 70 burial caves.','Zertal’s survey reports no conduit at either site. Upper Ibziq has only two Early Roman sherds, and Lower Ibziq starts in the Byzantine period. Zertal places Biblical Bezek at Kh. Salhab, which has Early Roman pottery; it is not mapped here. The name also depends on the disputed reading.'),
 }
 audit=rows('phase5_archaeology_index.csv')
 entries=[]
@@ -108,10 +114,12 @@ for r in rows('phase3_site_index.csv'):
     ar=[a for a in audit if a['entry']==eid]
     primary=next((a for a in ar if a['phase3_verdict']=='best-supported'),ar[0] if ar else None)
     confidence=primary['phase5_confidence'] if primary else r['best_confidence'] or ('unknown' if not ids else 'low')
+    confidence=revised_confidence.get(eid,confidence)
     candidates=[]
     for pid in ids:
         preferred=pid==r['best_place_id']
         conf=confidence if preferred else 'medium' if (eid,pid) in [('17','buqeia'),('18','asla'),('30','jericho_area'),('59','ibziq')] else 'low'
+        conf=revised_candidate_confidence.get((eid,pid),conf)
         status='preferred' if preferred else 'weak' if pid=='tell_el_qos' else 'possible'
         candidates.append({'placeId':pid,'status':status,'confidence':conf})
     evidence=primary['landmark_reported_at_site'].capitalize()+'.' if primary else 'The public site index retains these candidates for comparison. It supplies no uniquely identified landmark for this entry.'
@@ -123,6 +131,7 @@ for r in rows('phase3_site_index.csv'):
 for entry in entries:
     if entry['id'] in ['20','21','22','23','24']:
         entry['sources'] += '; Puech 2006 pp. 187–189; Qumran reference review (28 September 2026)'
+    entry['sources'] += revised_sources.get(entry['id'],'')
     if entry['id']=='21':
         entry['sources'] += '; Lefkovits 2000 pp. 185–189; Stacey 2009, The Dam'
 out={'snapshot':'e3b51ce6523e947fe217a630d64fa16486fc3c7c','reviewDate':'29 September 2026','entries':entries,'places':list(places.values())}
