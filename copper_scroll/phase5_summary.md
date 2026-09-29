@@ -110,7 +110,7 @@ Session 2, 2026-09-28. Desk research on published reports and editions only.
 
 - **Not accessible:** several key reports.
   - Magen on Gerizim.
-  - Zertal's Manasseh survey (Ibziq).
+  - Zertal's Manasseh survey (Ibziq). *Read 2026-09-29:* no conduit is reported. With *HA* 40's Roman kokhim tomb, Ibziq stays medium; see [entry59_bezek_review.md](entry59_bezek_review.md).
   - Hirschfeld's Herodium survey.
   - Patrich on Mar Saba and Hyrcania.
   - The full Akeldama volume (abstract only). Szanton 2023 has since been read in full; see the review and `sources.md`.

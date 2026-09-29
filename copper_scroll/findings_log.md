@@ -508,3 +508,39 @@ Full [reference trail, access record and constraint comparison](qumran_reference
   - to J. Høgenhaven, for an independent reading of X 15, VII 11, IX 7 and XII 10.
 
   No replies yet.
+
+## Zertal's survey, Stacey 2007 and source access — 2026-09-29
+
+- F9.1 (evidence: Zertal 2008 pp. 191–198) **Zertal reports no conduit at either Kh. Ibziq site.**
+  - Upper Ibziq (site 44, = SWP Kh. Ibzik): 45 cisterns, walls and a Roman road. Pottery IrA II–Per 10%, then LR 20%, Byz 30%, EM 10%, MA 30%. Two Early Roman vessels are drawn in Fig. 122 but not counted.
+  - Lower Ibziq (site 42): about 70 burial caves and 45 cisterns; pottery Byz 80%, EM 20%.
+  - [Review](entry59_bezek_review.md).
+- F9.2 (evidence: Zertal 2008 pp. 104–107, 151–153) **Zertal places biblical Bezeq at Kh. Salhab and says the name moved to Ibziq at the end of the Iron Age.** He takes Eusebius's two Bezeq villages to be Ibziq's two sites. Salhab has Early Roman pottery (15%) and 30 cisterns; no conduit is reported.
+- F9.3 (inference, medium) **Entry 59: Kh. Ibziq stays possible, medium. Kh. Salhab is added at low.**
+  - The landmark is unreported.
+  - The period is attested by the 1971 tomb (F9.9).
+  - The name evidence is Byzantine; it does not by itself date the name at Ibziq in the 1st century.
+  - A first draft of this review lowered Ibziq to low from Zertal's surface counts alone. *HA* 40 reversed that.
+  - Salhab is a post-Phase 3 revision in `atlas/research/build_atlas.py`.
+- F9.4 (evidence: Zertal–Mirkam 2016; Zertal–Bar 2019) **Manasseh survey Vols. 3 and 4 contain no Copper Scroll site.**
+  - Vol. 4's "Bezeq Canal" is a Chalcolithic site named after a modern channel.
+  - Both volumes describe road B7 (Neapolis–Scythopolis) through the Bezeq Pass; Vol. 2 describes it on p. 28.
+- F9.5 (evidence, attributed: Stacey 2007 p. 228 nn. 28–30) **Stacey divides the upstream Qumran aqueduct into two stages.**
+  - First, a run-off channel from below the cliffs (Ilan–Amit 2002 Fig. 1 "no. 16 eastward").
+  - Later, the waterfall dam and a tunnelled channel feeding the start of the first.
+  - He dates the main aqueduct after the 31 BCE earthquake (pp. 222–239).
+  - [Review](qumran_stacey2007_review.md).
+- F9.6 (inference, medium) **Entry 21 gains a second candidate head: the start of the earlier run-off channel at the cliff-foot bend.**
+  - The dam intake (points 3/4 of the 1989 plan) remains the first comparison.
+  - This depends on Stacey's phasing and on the 2002 figure numbers matching the 1989 ones.
+- F9.7 (evidence, secondhand: Stacey 2007 p. 222 n. 3) **Ilan–Amit 2002 p. 385 reportedly dates the aqueduct to Herod Archelaus.** This differs from the 1989 Hebrew chronology (p. 286). The 2002 chapter is still unread.
+- F9.8 (record) **Patrich's "The Aqueducts of Hyrcania" is in the 1989 Hebrew aqueducts volume, pp. 243–260** (English 2002, pp. 336–352). The chapter is in the volume that already supplied the Ilan–Amit plan. See [sources.md](sources.md#sources-checked-2026-09-29-second-batch).
+- F9.9 (evidence: *HA* 40 (1971) p. 22) **A kokhim tomb of the 1st–2nd centuries CE was excavated at Kh. Ibziq in 1971.**
+  - A hewn façade with a barrel vault; a 5 × 4 m chamber with kokhim; square closing stones; lamps and other Roman-period pottery; robbed in antiquity.
+  - Excavator ʿAbd el-Raʾuf Majed (SOA, L-52/1971). The catalogue grid places it at Upper Ibziq.
+  - This matches Puech's alternative reading of the second word (כוך, "burial chamber") in type and period. It does not identify the chamber.
+- F9.10 (evidence: Google Books full-text search of *The Aqueducts of Israel*, 29 September 2026) **Stacey's two citations of Ilan–Amit 2002 p. 385 could not be confirmed.**
+  - "Archelaus" occurs only on pp. 37 and 53 (introduction); "low dam" occurs only on p. 332, in a note on Hyrcania.
+  - The index may not cover pp. 380–386 fully, so this is not a disproof.
+  - p. 20 gives the 20 cisterns at Hyrcania a capacity of about 20,000 m³.
+- F9.11 (evidence: Magen, NEAEHL Supplement, BAS Library preview) **Magen dates the destruction of the Gerizim temple and city to about 110 BCE by the coins.** Hellenistic staircases on the summit therefore need evidence of later use before they can serve entry 57. The rest of the entry is paywalled.

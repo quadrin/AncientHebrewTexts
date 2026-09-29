@@ -301,3 +301,46 @@ Puech 2006, vol. II, in the local PDF parts 9–11:
 - **A second copy photograph:** pls. CCXCVI–CCCVII (part 9 pp. 50–61). It proved to be the same image.
 
 The plate captions were checked by `tools/plate_extract.py` before extraction. See [plate_check.md](plate_check.md).
+
+
+## Sources checked 2026-09-29 (second batch)
+
+**Read (user uploads; scans kept local, not committed).**
+
+- **Zertal, *The Manasseh Hill Country Survey*, Vol. 2: *The Eastern Valleys and the Fringes of the Desert* (Brill, Leiden 2008). Nine PDF parts.**
+  - Read: the Kh. Ibziq pages, pp. 191–198 (site images checked); Ch. 3, pp. 104–107; Kh. Salhab, pp. 151–153; roads, pp. 25–28.
+  - The pagination matches the Wikipedia citation "Zertal 2007, vol. 2, pp. 191–197".
+  - Review: [entry59_bezek_review.md](entry59_bezek_review.md).
+- **Zertal and Mirkam, Vol. 3: *From Nahal ʿIron to Nahal Shechem* (Brill 2016). Seven parts, text layer searched.**
+  - North-western Samaria (site grids E 1519–1783). No Copper Scroll site.
+  - Its "Janua" (Onomasticon no. 544, near Legio) is unrelated to Lefkovits's Janoah at XII 10.
+- **Zertal and Bar, Vol. 4: *From Nahal Bezeq to the Sartaba* (Brill 2019). Eight parts, text layer searched.**
+  - The Jordan Valley strip south of Nahal Bezeq. Ibziq is not included.
+  - The "Bezeq Canal" (site 23(1)) is a Chalcolithic site named after a modern channel.
+  - Ch. 1 describes road B7, Shechem–Beit Sheʾan via the Bezeq Pass.
+- **Stacey, "Some Archaeological Observations on the Aqueducts of Qumran," *DSD* 14.2 (2007), pp. 222–243.** Read in full. Review: [qumran_stacey2007_review.md](qumran_stacey2007_review.md).
+
+**Located, not yet read.**
+
+- **Patrich, "The Aqueducts of Hyrcania."**
+  - Hebrew: in Amit, Hirschfeld and Patrich (eds.), *אמות המים הקדומות בארץ־ישראל* (Yad Ben-Zvi 1989), pp. 243–260. This is the same volume as the Ilan–Amit chapter already read (Kotar book 6765980).
+  - English: *The Aqueducts of Israel* (JRA Suppl. 46, 2002), pp. 336–352, as cited in the NEAEHL Hyrcania bibliography.
+  - Greenberg and Keinan 2009 (Hyrcania record) also list Feldman 1974, "The Water System of Hyrcania" (Hebrew), and Garbrecht and Peleg, *BA* 57 (1994), pp. 161–170.
+  - The same record gives "ca. 20 cisterns and reservoirs; aqueduct" and a 1976 trial excavation of the water system (L-133/1976).
+- **Patrich, *Map of Deir Mar Saba (109/7)* (IAA 1994).** Hyrcania is site 70. Print only; no online copy found.
+- **Hirschfeld, *Map of Herodium (108/2)* (1985).** Print only; no online copy found.
+- **Magen, "Gerizim, Mount," NEAEHL Supplement (2008), pp. 1742–1748.**
+  - Available on the BAS Library: <https://library.biblicalarchaeology.org/book/the-new-encyclopedia-of-archaeological-excavations-in-the-holy-land/gerizim-mount/>.
+  - An automated summary of the page reports Hellenistic staircases: 15 steps east of the precinct; a 9 m-wide staircase; a 23 m-wide approach of about 57 steps. It also reports a courtyard cistern.
+  - A direct browser check shows only the History section without a login. That section dates the destruction of the temple and city to about 110 BCE by the coins. The rest is paywalled, and the dates of use have not been checked (see Q46).
+- **Magen, *Mount Gerizim Excavations II: A Temple City* (JSP 8, 2008).** Not open access. JSP 12–19 are open access on JSTOR, including Gerizim III (coins, JSP 19) and *Christians and Christianity* II and IV (JSP 14, 16).
+- ***HA* 40 (1971), p. 22 (Kh. Ibziq excavation, L-52/1971).** **Read.** The item page returns 403, but the PDF opens at <https://publications.iaa.org.il/cgi/viewcontent.cgi?article=1016&context=ha_hebrew_series> (45 pp.). It reports a kokhim tomb of the 1st–2nd centuries CE. See [entry59_bezek_review.md](entry59_bezek_review.md).
+- ***The Aqueducts of Israel* (JRA Suppl. 46).** Sold only by J. and L. Humphrey, by email (journalofromanarchaeology.com/supplements). Not on Cambridge Core.
+
+**Browser checks, 29 September 2026.**
+
+- *Christians and Christianity* IV (JSP 16) covers sites in the Hebron hills and southern Judea. It has no chapter on Mar Saba, Castellion, Choziba or Chariton. Vol. II (JSP 14) is a site corpus, pp. 165–364, not yet searched.
+- Boaz Zissu, "Kings, Hermits and Refugees in the Judean Desert in the Late Second Temple Period and During the Bar Kokhba Revolt," in *New Studies in the Archaeology of the Judean Desert* (IAA 2023), pp. 185–216, is open access on JSTOR. It is not yet read.
+- Garbrecht and Peleg 1994 is on JSTOR, "read online" with a free account.
+- *The Aqueducts of Israel* on Google Books (ID GWhoAAAAMAAJ) is snippet-only; see F9.10.
+- WorldCat holdings could not be checked (a human-verification page).

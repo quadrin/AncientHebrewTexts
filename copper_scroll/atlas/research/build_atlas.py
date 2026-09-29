@@ -76,14 +76,16 @@ for k,p in places.items(): p['shortName']=short_names[k]
 # Revisions after Phase 3 (the Phase 3 tables keep their original assessment).
 # 29 September 2026: entry40_bethhoron_review.md adds Beth-Horon as a possible place for entry 40.
 places['beth_horon']={'id':'beth_horon','name':'Upper Beth-Horon (Beit ʿUr el-Foqa)','lat':31.88530,'lon':35.11341,'precision':'~300 m','kind':'point','region':'region','note':'Village anchor from the IAA Benjamin survey (sites 28/143). Lower Beth-Horon (Beit ʿUr et-Taḥta) is equally compatible and has the only tomb with pottery of the period. Not a feature location.','source':'IAA survey, Ramallah–Benjamin map 83/1, sites 28 and 143','shortName':'Upper Beth-Horon · Beit Ur'}
-revised_candidates={'40':[{'placeId':'beth_horon','status':'possible','confidence':'low'}]}
+# 29 September 2026: entry59_bezek_review.md keeps Kh. Ibziq at medium and adds Kh. Salhab, Zertal's biblical Bezeq, at low.
+places['kh_salhab']={'id':'kh_salhab','name':'Kh. Salhab (Kh. es-Selhab)','lat':32.35504,'lon':35.37277,'precision':'~300 m','kind':'point','region':'region','note':'Tell 3 km WSW of Upper Kh. Ibziq on the Neapolis–Scythopolis road. Zertal identifies it as biblical Bezeq (1 Sam 11:8) and holds that the name later moved to Ibziq. Early Roman pottery 15%; no conduit reported. Not a feature location.','source':'Zertal 2008, Manasseh Hill Country Survey 2, site 23 (Israel grid 1853/1957), converted to WGS84 from EPSG:28193 with pyproj; the same conversion puts Upper Ibziq about 230 m from its atlas anchor','shortName':'Kh. Salhab'}
+revised_candidates={'40':[{'placeId':'beth_horon','status':'possible','confidence':'low'}],'59':[{'placeId':'kh_salhab','status':'possible','confidence':'low'}]}
 places['jer_siloam']['note']='The inherited coordinate anchors the wider Siloam complex (~300 m). It does not select a particular pool or trough.'
 places['mar_saba']['note']='Mar Saba is one proposed stretch of the Kidron gorge. The escarpment exit remains another possibility.'
 specific={
 '1':('Late-antique geographical tradition points north of Jericho. Wadi Nuweimeh accommodates both the northwestern springs and northeastern lower valley.','The Iron Age Achor tradition points toward the Buqeia. No reported ruin-and-steps combination decides between them.'),
 '4':('Tell es-Sultan supplies a mound and a nearby cemetery. The repository retains it as one possible Kohlit candidate.','Kohlit remains unidentified. The public index maps only a subset of the proposals discussed in the full research.'),
 '20':('A cairn and a dam imply different features. Puech prefers a cairn; the dam proposal must be checked independently.','The proposed Qumran dam is reconstructed. Neither it nor a particular cairn has been established as this entry’s landmark.'),
-'21':('Qumran’s water system supplies a plausible conduit-head setting. Stacey reconstructs a lost intake dam; the original Ilan–Amit plan has been located bibliographically but remains inaccessible.','The link to Sekakah and the stone noun are partly restored. Northern approach and northern side must be tested separately. The pin marks the settlement.'),
+'21':('Qumran’s water system supplies a plausible conduit-head setting. The Ilan–Amit plan shows the intake beside a reconstructed dam. Stacey (2007) dates the aqueduct after 31 BCE and argues that an earlier run-off channel began at the cliff-foot bend, so that bend is a second candidate head.','The link to Sekakah and the stone noun are partly restored. Northern approach and northern side must be tested separately. The pin marks the settlement.'),
 '22':('Qumran’s reservoirs provide a setting to test against the fissure east of the named reservoir.','Neither the ancient reservoir name nor the specific eastern fissure has been established. Jerusalem’s similarly named pool does not relocate this entry.'),
 '23':('Puech allows Shallum as an alternative to Solomon and a large boulder as the landmark. The channel’s connection to entry 22’s reservoir is conditional.','No origin or endpoint is identified for the stated distance. Entry order alone does not establish a continuous route.'),
 '24':('The wording permits a regional approach test from Jericho toward Sekakah. Wadi Kuteif remains a published proposal.','The recorded rock-cut chamber is undated and does not identify the required tomb. A route from entry 23 to entry 24 is not specified.'),
@@ -98,7 +100,7 @@ specific={
 '55':('The Bethesda complex supplies double pools and a smaller basin in the relevant period.','The text may describe two pools without naming Bethesda; the 2026 plate check shows what looks like a ḥet where Milik’s Bethesda needs a taw. The nearby Strouthion twin pool prevents a unique match on that feature alone.'),
 '57':('The mountain name provides the geographical anchor.','The checked steps and cisterns date later. Missing excavation reports prevent a comprehensive judgment about earlier features.'),
 '58':('Perennial springs and period water installations fit the regional setting at Beth Shean.','The scroll’s final mem differs from the usual nun in Beth Shean. No evidence selects the particular spring.'),
-'59':('Khirbet Ibziq offers a geographical and name-based candidate for Bezek.','The place name depends on a disputed reading, and the great conduit remains unreported.'),
+'59':('Khirbet Ibziq keeps the name Bezek, which Eusebius attests there in the 4th century. A kokhim tomb excavated there in 1971 held pottery of the 1st–2nd centuries CE, which fits Puech’s alternative “burial chamber” reading in type. Zertal places the older Bezeq at nearby Kh. Salhab.','The place name depends on a disputed reading. Zertal’s survey reports cisterns and burial caves but no conduit at either Ibziq site.'),
 }
 audit=rows('phase5_archaeology_index.csv')
 entries=[]
@@ -124,9 +126,9 @@ for entry in entries:
     if entry['id'] in ['20','21','22','23','24']:
         entry['sources'] += '; Puech 2006 pp. 187–189; Qumran reference review (28 September 2026)'
     if entry['id']=='21':
-        entry['sources'] += '; Lefkovits 2000 pp. 185–189; Stacey 2009, The Dam'
+        entry['sources'] += '; Lefkovits 2000 pp. 185–189; Stacey 2007, DSD 14 pp. 222–243; Stacey 2009, The Dam'
 out={'snapshot':'e3b51ce6523e947fe217a630d64fa16486fc3c7c','reviewDate':'29 September 2026','entries':entries,'places':list(places.values())}
-assert len(entries)==61 and len(places)==38
+assert len(entries)==61 and len(places)==39
 assert all(c['placeId'] in places for e in entries for c in e['candidates'])
 (root.parent/'app/atlas-data.json').write_text(json.dumps(out,ensure_ascii=False,indent=2))
 print(f'Built {len(entries)} entries and {len(places)} places; {sum(p["lat"] is not None for p in places.values())} mapped anchors.')

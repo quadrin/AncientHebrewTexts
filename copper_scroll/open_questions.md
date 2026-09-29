@@ -141,3 +141,17 @@ Updated each session. Newest additions at the bottom of each group. "Needs" says
   - a specialist reading of IX 7.
 - Q16 update: Elitzur counts Beth-shean = Bēsān among his positive identifications (no. 63). The question is only the scroll's final mem.
 - Q38/Q40 outreach: the survey-data request went to Reeder and Jol on 29 September 2026, and the four-line reading request to Høgenhaven. Record replies here.
+
+## Zertal, Stacey and source access — 2026-09-29
+
+- Q25/limits update: Zertal's survey and *HA* 40 have been read for Kh. Ibziq. **Entry 59 stays medium** (conduit unreported; Roman kokhim tomb), and Kh. Salhab is added as an alternative. See [entry59_bezek_review.md](entry59_bezek_review.md).
+- Q46 (new). **Mount Gerizim steps (57).** Magen's NEAEHL Supplement entry (2008, pp. 1742–1748) reportedly describes three Hellenistic staircases on the summit. *Needs:*
+  - a direct reading of that entry;
+  - whether any staircase or cistern was in use after John Hyrcanus's destruction (Magen, by the coins: about 110 BCE), since Phase 5 found only later-dated steps;
+  - JSP 8 (*A Temple City*), if the entry is insufficient.
+- Q47 (new). **Entry 59: which site carried the name Bezek in the 1st century, and is there a dated drain?** *Needs:*
+  - ~~*HA* 40 (1971) p. 22~~ read: a kokhim tomb of the 1st–2nd centuries CE; no channel. The licence file L-52/1971 may give the tomb's location;
+  - Gophna and Porath 1972 nos. 51–53 and 65; Zori 1977 nos. 50–51;
+  - an independent reading of XII 8–9 (הבזך vs הבור).
+- Q38 update: Stacey 2007 gives a construction sequence for the upstream aqueduct: a run-off channel from the cliff-foot bend, then the dam and tunnels. The **cliff-foot bend (point 16)** becomes a second candidate head for entry 21. *Needs:* the 2002 English chapter (numbering, the Archelaus date, p. 385; Google Books full-text search did not find either phrase there) and Reeder–Jol's survey points. See [qumran_stacey2007_review.md](qumran_stacey2007_review.md).
+- Hyrcania (16, 29, 35): the next source is **Patrich 1989, pp. 243–260**, in the same Kotar volume as Ilan–Amit.

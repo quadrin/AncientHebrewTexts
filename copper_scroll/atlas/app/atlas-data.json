@@ -546,11 +546,11 @@
           "confidence": "medium"
         }
       ],
-      "evidence": "Qumran’s water system supplies a plausible conduit-head setting. Stacey reconstructs a lost intake dam; the original Ilan–Amit plan has been located bibliographically but remains inaccessible.",
+      "evidence": "Qumran’s water system supplies a plausible conduit-head setting. The Ilan–Amit plan shows the intake beside a reconstructed dam. Stacey (2007) dates the aqueduct after 31 BCE and argues that an earlier run-off channel began at the cliff-foot bend, so that bend is a second candidate head.",
       "caution": "The link to Sekakah and the stone noun are partly restored. Northern approach and northern side must be tested separately. The pin marks the settlement.",
       "landmark": "the head of a water conduit",
       "period": "in use 1st c. BCE–70 CE",
-      "sources": "Eshel CSS pp. 94–95; ʿAtiqot 41 preface p. viii; Milik DJD D9; Puech 2006 pp. 187–189; Qumran reference review (28 September 2026); Lefkovits 2000 pp. 185–189; Stacey 2009, The Dam",
+      "sources": "Eshel CSS pp. 94–95; ʿAtiqot 41 preface p. viii; Milik DJD D9; Puech 2006 pp. 187–189; Qumran reference review (28 September 2026); Lefkovits 2000 pp. 185–189; Stacey 2007, DSD 14 pp. 222–243; Stacey 2009, The Dam",
       "featured": true
     },
     {
@@ -1512,13 +1512,18 @@
           "placeId": "ibziq",
           "status": "possible",
           "confidence": "medium"
+        },
+        {
+          "placeId": "kh_salhab",
+          "status": "possible",
+          "confidence": "low"
         }
       ],
-      "evidence": "Khirbet Ibziq offers a geographical and name-based candidate for Bezek.",
-      "caution": "The place name depends on a disputed reading, and the great conduit remains unreported.",
+      "evidence": "Khirbet Ibziq keeps the name Bezek, which Eusebius attests there in the 4th century. A kokhim tomb excavated there in 1971 held pottery of the 1st–2nd centuries CE, which fits Puech’s alternative “burial chamber” reading in type. Zertal places the older Bezeq at nearby Kh. Salhab.",
+      "caution": "The place name depends on a disputed reading. Zertal’s survey reports cisterns and burial caves but no conduit at either Ibziq site.",
       "landmark": "a great conduit",
-      "period": "not stated",
-      "sources": "SWP II p. 237",
+      "period": "partly: Roman kokhim tomb of the 1st–2nd c. CE (HA 40 p. 22); few Early Roman surface sherds",
+      "sources": "HA 40 (1971) p. 22; Zertal 2008 pp. 104–107, 151–153, 191–198; SWP II p. 237",
       "featured": false
     },
     {
@@ -2001,6 +2006,18 @@
       "note": "Village anchor from the IAA Benjamin survey (sites 28/143). Lower Beth-Horon (Beit ʿUr et-Taḥta) is equally compatible and has the only tomb with pottery of the period. Not a feature location.",
       "source": "IAA survey, Ramallah–Benjamin map 83/1, sites 28 and 143",
       "shortName": "Upper Beth-Horon · Beit Ur"
+    },
+    {
+      "id": "kh_salhab",
+      "name": "Kh. Salhab (Kh. es-Selhab)",
+      "lat": 32.35504,
+      "lon": 35.37277,
+      "precision": "~300 m",
+      "kind": "point",
+      "region": "region",
+      "note": "Tell 3 km WSW of Upper Kh. Ibziq on the Neapolis–Scythopolis road. Zertal identifies it as biblical Bezeq (1 Sam 11:8) and holds that the name later moved to Ibziq. Early Roman pottery 15%; no conduit reported. Not a feature location.",
+      "source": "Zertal 2008, Manasseh Hill Country Survey 2, site 23 (Israel grid 1853/1957), converted to WGS84 from EPSG:28193 with pyproj; the same conversion puts Upper Ibziq about 230 m from its atlas anchor",
+      "shortName": "Kh. Salhab"
     }
   ]
 }

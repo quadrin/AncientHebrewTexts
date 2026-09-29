@@ -51,3 +51,14 @@ The [plate check](plate_check.md) compared 30 disputed lines with Puech's copy p
 - **Bethesda (55):** the word's fifth letter looks like ח rather than ת, so Milik's name needs an emendation. The twin-pool description stands.
 
 No site confidence changes on the plates alone.
+
+
+## Entry 59 supplement — 29 September 2026
+
+Zertal's Manasseh survey has now been read ([entry 59 review](entry59_bezek_review.md)).
+
+- Neither Kh. Ibziq site reports a conduit.
+- The 1971 excavation (*HA* 40 p. 22) found a robbed kokhim tomb with pottery of the 1st–2nd centuries CE.
+- Zertal identifies biblical Bezeq with Kh. Salhab.
+
+**Kh. Ibziq stays possible-medium, and Kh. Salhab is added at possible-low.** The shortlist above is unchanged.
