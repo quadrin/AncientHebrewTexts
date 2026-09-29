@@ -111,15 +111,15 @@ export default function PhotoReader({ onEntry, onText }: { onEntry: (id: string)
     return () => el.removeEventListener("wheel", wheel);
   }, []);
 
-  return <div className="photo-reader">
-    <header className="photo-head"><div><span className="small-caps">The original metal · Jordan Museum</span><h2>{photo.title}</h2></div><button className="photo-text-button" onClick={onText}>Full scroll text</button></header>
-    <div className="photo-workspace">
-      <section className="photo-stage" aria-label="Photograph with word tracings">
-        <div className="photo-controls" aria-label="Photograph controls">
+  return <div className="reader-reader">
+    <header className="reader-head"><div><span className="small-caps">The original metal · Jordan Museum</span><h2>{photo.title}</h2></div><button className="reader-text-button" onClick={onText}>Full scroll text</button></header>
+    <div className="reader-workspace">
+      <section className="reader-stage" aria-label="Photograph with word tracings">
+        <div className="reader-controls" aria-label="Photograph controls">
           <button onClick={() => zoom(1.3)} aria-label="Zoom out"><Minus size={17}/></button><button onClick={() => zoom(1 / 1.3)} aria-label="Zoom in"><Plus size={17}/></button><button onClick={() => setView(START)} aria-label="Reset photograph view"><RotateCcw size={16}/></button><button onClick={() => focus()} aria-label="Focus selected word"><Focus size={17}/></button>
           <span>{Math.round(START.width / view.width * 100)}%</span>
         </div>
-        <svg ref={svg} className="photo-canvas" viewBox={`${view.x} ${view.y} ${view.width} ${view.height}`} preserveAspectRatio="xMidYMid meet" aria-label="Original photograph of Copper Scroll strip 13. Select an outlined word; drag to pan or scroll to zoom." tabIndex={0}
+        <svg ref={svg} className="reader-canvas" viewBox={`${view.x} ${view.y} ${view.width} ${view.height}`} preserveAspectRatio="xMidYMid meet" aria-label="Original photograph of Copper Scroll strip 13. Select an outlined word; drag to pan or scroll to zoom." tabIndex={0}
           onPointerDown={start} onPointerMove={move} onPointerUp={end} onPointerCancel={end}
           onDoubleClick={() => zoom(.65)} onKeyDown={e => {
             if (["ArrowRight", "ArrowLeft", "+", "=", "-", "0", " "].includes(e.key)) e.preventDefault();
@@ -127,33 +127,33 @@ export default function PhotoReader({ onEntry, onText }: { onEntry: (id: string)
             if (e.key === "+" || e.key === "=") zoom(.8); if (e.key === "-") zoom(1.25); if (e.key === "0") setView(START); if (e.key === " ") setOriginal(true);
           }} onKeyUp={e => { if (e.key === " ") setOriginal(false); }} onBlur={() => setOriginal(false)}>
           <image key={retry} href={imageUrl} x={0} y={0} width={photo.width} height={photo.height} onLoad={() => setImageState("loaded")} onError={() => setImageState("failed")} style={{ filter: contrast && !original ? "contrast(1.45) grayscale(.65)" : undefined }}/>
-          {!original && imageState === "loaded" && photo.words.map((w, i) => <g key={w.id} className={`photo-word ${i === selected ? "selected" : ""}`} data-word-id={w.id}>
-            <rect x={w.box[0]} y={w.box[1]} width={w.box[2]} height={w.box[3]} rx={9} className="photo-hit" vectorEffect="non-scaling-stroke"/>
-            {i === selected && tracing && <g className="photo-trace" opacity={opacity} pointerEvents="none">{w.paths.map((d, j) => <g key={`${w.id}-${j}`}><path d={d} className="trace-shadow"/><path d={d} className="trace-line" pathLength={1}/></g>)}</g>}
+          {!original && imageState === "loaded" && photo.words.map((w, i) => <g key={w.id} className={`reader-word ${i === selected ? "selected" : ""}`} data-word-id={w.id}>
+            <rect x={w.box[0]} y={w.box[1]} width={w.box[2]} height={w.box[3]} rx={9} className="reader-hit" vectorEffect="non-scaling-stroke"/>
+            {i === selected && tracing && <g className="reader-trace" opacity={opacity} pointerEvents="none">{w.paths.map((d, j) => <g key={`${w.id}-${j}`}><path d={d} className="trace-shadow"/><path d={d} className="trace-line" pathLength={1}/></g>)}</g>}
           </g>)}
         </svg>
-        {imageState === "loading" && <div className="photo-loading" role="status">Loading the original photograph…</div>}
-        {imageState === "failed" && <div className="photo-loading" role="alert">The photograph could not load.<button onClick={() => { setImageState("loading"); setRetry(v => v + 1); }}>Retry</button></div>}
-        <div className="photo-stage-foot"><span>Drag to pan · scroll or pinch to zoom</span><button aria-pressed={original} onPointerDown={e => { e.currentTarget.setPointerCapture(e.pointerId); setOriginal(true); }} onPointerUp={() => setOriginal(false)} onPointerCancel={() => setOriginal(false)} onLostPointerCapture={() => setOriginal(false)} onKeyDown={e => { if (e.key === " " || e.key === "Enter") setOriginal(true); }} onKeyUp={() => setOriginal(false)} onBlur={() => setOriginal(false)}>Hold for original</button></div>
+        {imageState === "loading" && <div className="reader-loading" role="status">Loading the original photograph…</div>}
+        {imageState === "failed" && <div className="reader-loading" role="alert">The photograph could not load.<button onClick={() => { setImageState("loading"); setRetry(v => v + 1); }}>Retry</button></div>}
+        <div className="reader-stage-foot"><span>Drag to pan · scroll or pinch to zoom</span><button aria-pressed={original} onPointerDown={e => { e.currentTarget.setPointerCapture(e.pointerId); setOriginal(true); }} onPointerUp={() => setOriginal(false)} onPointerCancel={() => setOriginal(false)} onLostPointerCapture={() => setOriginal(false)} onKeyDown={e => { if (e.key === " " || e.key === "Enter") setOriginal(true); }} onKeyUp={() => setOriginal(false)} onBlur={() => setOriginal(false)}>Hold for original</button></div>
       </section>
-      <aside className="photo-reading" aria-label="Selected word interpretation">
-        <div className="photo-word-nav"><button onClick={() => next(-1)} aria-label="Previous mapped word"><ChevronLeft size={18}/></button><span>{item.line} · word {item.word + 1}</span><button onClick={() => next(1)} aria-label="Next mapped word"><ChevronRight size={18}/></button></div>
+      <aside className="reader-reading" aria-label="Selected word interpretation">
+        <div className="reader-word-nav"><button onClick={() => next(-1)} aria-label="Previous mapped word"><ChevronLeft size={18}/></button><span>{item.line} · word {item.word + 1}</span><button onClick={() => next(1)} aria-label="Next mapped word"><ChevronRight size={18}/></button></div>
         {failed ? <p>The text could not load. Reload to retry.</p> : !data || !word || !line ? <p role="status">Loading the reading…</p> : <>
-          <div className="photo-modern" lang="he" dir="rtl"><Segments w={word}/></div>
-          <p className="photo-gloss">{word.m?.map(m => data.gloss[m[1]]).filter(Boolean).join(" · ") || plain(word)}</p>
-          <p className="photo-label">The line in context</p><p className="photo-line-he" dir="rtl" lang="he">{line.w.map((w, i) => <span key={i} className={i === item.word ? "active" : ""}>{w.n ?? plain(w)} </span>)}</p>
-          <p className="photo-translation">{line.tr.map(s => typeof s === "string" ? s : s[0]).join("")}</p>
-          <div className="photo-options"><label><input type="checkbox" checked={tracing} onChange={e => setTracing(e.target.checked)}/>Trace strokes</label><label><input type="checkbox" checked={contrast} onChange={e => setContrast(e.target.checked)}/>Increase contrast</label><label className="photo-opacity">Trace opacity<input type="range" min=".15" max="1" step=".05" value={opacity} onChange={e => setOpacity(+e.target.value)}/></label></div>
-          <p className="photo-provisional">Provisional tracing</p><p className="photo-note">{item.note}</p>
-          <details className="photo-editions"><summary>Lettering and interpretation</summary><ReadingCard data={data} line={line} sel={{ line: item.line, word: item.word }} notesFor={notesFor} lineWords={lineWords} onClose={() => {}}/></details>
-          {owner && <button className="photo-entry-link" onClick={() => onEntry(owner)}>Show entry {owner} in the atlas</button>}
+          <div className="reader-modern" lang="he" dir="rtl"><Segments w={word}/></div>
+          <p className="reader-gloss">{word.m?.map(m => data.gloss[m[1]]).filter(Boolean).join(" · ") || plain(word)}</p>
+          <p className="reader-label">The line in context</p><p className="reader-line-he" dir="rtl" lang="he">{line.w.map((w, i) => <span key={i} className={i === item.word ? "active" : ""}>{w.n ?? plain(w)} </span>)}</p>
+          <p className="reader-translation">{line.tr.map(s => typeof s === "string" ? s : s[0]).join("")}</p>
+          <div className="reader-options"><label><input type="checkbox" checked={tracing} onChange={e => setTracing(e.target.checked)}/>Trace strokes</label><label><input type="checkbox" checked={contrast} onChange={e => setContrast(e.target.checked)}/>Increase contrast</label><label className="reader-opacity">Trace opacity<input type="range" min=".15" max="1" step=".05" value={opacity} onChange={e => setOpacity(+e.target.value)}/></label></div>
+          <p className="reader-provisional">Provisional tracing</p><p className="reader-note">{item.note}</p>
+          <details className="reader-editions"><summary>Lettering and interpretation</summary><ReadingCard data={data} line={line} sel={{ line: item.line, word: item.word }} notesFor={notesFor} lineWords={lineWords} onClose={() => {}}/></details>
+          {owner && <button className="reader-entry-link" onClick={() => onEntry(owner)}>Show entry {owner} in the atlas</button>}
         </>}
       </aside>
     </div>
-    <nav className="photo-word-strip" aria-label="Mapped words in reading order">{photo.words.map((w, i) => {
+    <nav className="reader-word-strip" aria-label="Mapped words in reading order">{photo.words.map((w, i) => {
       const text = lineWords[w.line]?.[w.word];
       return <button key={w.id} aria-pressed={i === selected} onClick={() => pick(i, true)}><span lang="he" dir="rtl">{text ? plain(text) : "…"}</span><small>{w.line}</small></button>;
     })}</nav>
-    <footer className="photo-credit"><p>8 words aligned in VII 7–11. Further words await alignment. Tracings show an interpretation of visible strokes; gaps remain unfilled.</p><p>Photograph: <a href={photo.source} target="_blank" rel="noreferrer">{photo.author}</a>, 2020 · <a href={photo.licenseUrl} target="_blank" rel="noreferrer">{photo.license}</a>. Resized photograph; no retouching. Separate project overlays use the same licence.</p></footer>
+    <footer className="reader-credit"><p>8 words aligned in VII 7–11. Further words await alignment. Tracings show an interpretation of visible strokes; gaps remain unfilled.</p><p>Photograph: <a href={photo.source} target="_blank" rel="noreferrer">{photo.author}</a>, 2020 · <a href={photo.licenseUrl} target="_blank" rel="noreferrer">{photo.license}</a>. Resized photograph; no retouching. Separate project overlays use the same licence.</p></footer>
   </div>;
 }

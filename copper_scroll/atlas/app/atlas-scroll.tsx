@@ -99,7 +99,7 @@ export default function ScrollView({ entry, entries, places, onEntry }: Props) {
   return <div className="scroll-view">
     <header className="scroll-heading">
       <span className="small-caps">The scroll · 3Q15 · read from right to left</span>
-      <h2>Column {ROMAN[col]}</h2><button className="photo-text-button" onClick={() => showPhotograph(true)}>Read the photograph</button>
+      <h2>Column {ROMAN[col]}</h2><button className="reader-text-button" onClick={() => showPhotograph(true)}>Read the photograph</button>
       <p>Lines 1–{rows.length} · entries {inColumn[0]}–{inColumn[inColumn.length - 1]}. Select a Hebrew word or an underlined phrase for the editions’ readings, and an entry to open its places.</p>
     </header>
     <nav className="scroll-strip" aria-label="Columns of the scroll, right to left">{columns.map((c, i) => <Fragment key={i}>
