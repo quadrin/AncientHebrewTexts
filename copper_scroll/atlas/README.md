@@ -1,6 +1,6 @@
 # The Copper Scroll Atlas
 
-An interactive atlas of the 61 Copper Scroll entries, paired with 37 candidate places from the research repository. The interface uses a parchment register, an inset map and an entry folio.
+An interactive atlas of the 61 Copper Scroll entries, paired with 37 candidate places from the research repository. The interface pairs a dark place register with an open map workspace and a white reading folio. The entry panel separates Places, Text and Evidence into keyboard-accessible tabs; candidate sites appear first. Compact headers, larger controls and a single-panel layout on screens up to 1100px keep the research usable on smaller displays.
 
 ## Run locally
 
@@ -51,7 +51,7 @@ Current pins use the gazetteer's site anchors. Filled areas with dashed outlines
 
 ## The text in each field note
 
-Each field note shows the entry's lines of the scroll: the Hebrew, from Martin G. Abegg Jr.'s transcription in the ETCBC Dead Sea Scrolls dataset (CC BY-NC 4.0), and an English translation written for this project. Selecting a Hebrew word shows its parts, their meanings and any notes; selecting an underlined phrase shows how the editions read it, with pages from the research files. The data is `app/atlas-text.json`, loaded as a separate chunk the first time a field note opens. `../tools/build_scroll_notes.py` writes it from `../text/`, together with the text and translation page (`../web/`); rebuild both after changing the translation or the notes. The full scroll, column by column, is at <https://quadrin.github.io/AncientHebrewTexts/copper_scroll/web/>.
+The Text tab in each field note shows the entry's lines of the scroll: the Hebrew, from Martin G. Abegg Jr.'s transcription in the ETCBC Dead Sea Scrolls dataset (CC BY-NC 4.0), and an English translation written for this project. Selecting a Hebrew word shows its parts, their meanings and any notes; selecting an underlined phrase shows how the editions read it, with pages from the research files. The data is `app/atlas-text.json`, loaded as a separate chunk the first time a field note opens. `../tools/build_scroll_notes.py` writes it from `../text/`, together with the text and translation page (`../web/`); rebuild both after changing the translation or the notes. The full scroll, column by column, is at <https://quadrin.github.io/AncientHebrewTexts/copper_scroll/web/>.
 
 ## Map
 
@@ -65,7 +65,7 @@ MapLibre owns each marker's outer `site-marker` element, including its absolute 
 
 - Select an entry, a map pin or a candidate card to link the register, evidence and map.
 - Search ancient names, Hebrew labels, entry descriptions or modern candidate names.
-- Filter by region or switch between the four-entry shortlist and all 61 entries.
+- Filter by region or switch between the four-entry Highlights view and all 61 entries.
 - Sort the register by confidence, ancient name, primary candidate name, region or scroll order. Confidence uses the highest candidate confidence and breaks ties in scroll order. Candidate cards sort independently by confidence, alphabetical name or preferred status; sorting never changes the selection.
 - Switch 2D/3D, adjust relief, zoom, orient north, fit the entry or return to the regional view.
 - Ground view provides four real photographs with anchored highlight polygons, pan/zoom, keyboard navigation, feature notes and image credits. Source URLs and licenses are recorded in `app/atlas-scenes.json`; images load directly from Wikimedia Commons. Qumran shows an actual aqueduct outlet. Doq and Choziba show terrain context; Siloam shows the larger southern pool, distinguished from the smaller Silwan outlet candidate. The current scenes are photographs with annotated visible features; record camera geometry and the evidence for each candidate highlight when adding scenes.

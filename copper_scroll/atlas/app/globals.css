@@ -2,6 +2,8 @@
 @import "tw-animate-css";
 @import "../vendor/shadcn-tailwind-4.13.0.css";
 @import "maplibre-gl/dist/maplibre-gl.css";
+@import "./atlas-interface.css";
+@layer atlas-legacy {
 :root{--background:#f1e8d5;--foreground:#322c23;--card:#f8f1df;--card-foreground:#322c23;--popover:#f8f1df;--popover-foreground:#322c23;--primary:#344c43;--primary-foreground:#fff5db;--secondary:#e9ddc4;--secondary-foreground:#483f31;--muted:#e6dcc6;--muted-foreground:#776b57;--accent:#e4d3b3;--accent-foreground:#342e25;--destructive:#944d38;--border:#bca886;--input:#cdbd9b;--ring:#8d633b;--radius:.3rem;--serif:Georgia,'Times New Roman',serif;--sans:'Trebuchet MS',Arial,sans-serif}
 @theme inline{--color-background:var(--background);--color-foreground:var(--foreground);--color-card:var(--card);--color-card-foreground:var(--card-foreground);--color-popover:var(--popover);--color-popover-foreground:var(--popover-foreground);--color-primary:var(--primary);--color-primary-foreground:var(--primary-foreground);--color-secondary:var(--secondary);--color-secondary-foreground:var(--secondary-foreground);--color-muted:var(--muted);--color-muted-foreground:var(--muted-foreground);--color-accent:var(--accent);--color-accent-foreground:var(--accent-foreground);--color-destructive:var(--destructive);--color-border:var(--border);--color-input:var(--input);--color-ring:var(--ring);--font-sans:var(--sans);--radius-lg:.4rem;--radius-md:.3rem;--radius-sm:.2rem}
 *{box-sizing:border-box}body{margin:0;background:#302b23;color:#342f27;font:16px var(--sans)}button,a,input{-webkit-tap-highlight-color:transparent}button{cursor:pointer}button:disabled{cursor:default}button:focus-visible,a:focus-visible{outline:3px solid #8d633b;outline-offset:3px}button,input{font:inherit}a{color:inherit}::selection{background:#d4b786}svg{flex-shrink:0}.atlas-shell{height:100dvh;min-height:680px;display:flex;flex-direction:column;background:var(--background);overflow:hidden}
@@ -59,3 +61,5 @@
 @container(max-width:700px){.reader-workspace{grid-template-columns:minmax(0,1fr) 220px}.reader-reading{padding:12px}.reader-head h2{font-size:22px}.reader-stage-foot span{display:none}}
 @container(max-width:500px){.reader-head{padding:10px 12px;gap:7px}.reader-head h2{font-size:20px}.reader-head .small-caps{font-size:9px}.reader-text-button{font-size:11px;padding:7px}.reader-workspace{display:flex;flex-direction:column;overflow-y:auto}.reader-stage{flex:0 0 340px;min-height:340px}.reader-reading{overflow:visible;padding:14px 18px}.reader-modern{font-size:42px}.reader-gloss{margin-bottom:12px}.reader-word-strip{padding:7px 10px}.reader-word-strip button{min-width:58px;padding:5px 9px}.reader-credit{padding:6px 10px;font-size:9px}.reader-reader{padding-top:59px}}
 @media(prefers-reduced-motion:reduce){.trace-line{animation:none}}
+
+}
