@@ -156,4 +156,4 @@ This section is inference from the text alone. Confidence: **high** = the entrie
 
 ## Where the table lives
 
-`copper_scroll_master_table.csv`, `variants_long.csv` (2,072 reported readings, one per row) and `puech_lines.csv` all reproduce Puech's complete edited text, and in part Lefkovits's. They were **not pushed**, because this GitHub repository is public. They were delivered directly and sit in the session scratchpad. Only `entry_concordance.csv`, which holds numbers and notes, is committed here.
+The original session reported that `copper_scroll_master_table.csv`, `variants_long.csv` (2,072 reported readings, one per row) and `puech_lines.csv` were delivered directly and **not pushed**. Those tables contain complete edited readings and, in the master table, modern translations alongside project writing. `entry_concordance.csv`, which holds numbers and notes, was committed. This is a historical delivery record, not a claim that the session files remain available or a blanket restriction arising from the repository being public. Follow [Text and publication](AGENTS.md#text-and-publication) for new outputs; continue using the existing editions for research.

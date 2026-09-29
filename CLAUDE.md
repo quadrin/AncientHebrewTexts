@@ -2,6 +2,8 @@
 
 For Copper Scroll place and feature identification, follow [`copper_scroll/AGENTS.md`](copper_scroll/AGENTS.md) and [`copper_scroll/README.md`](copper_scroll/README.md). That work includes testing specific locations, coordinates and spatial relationships against the sources. The letter-recognition workflow below applies to manuscript transcription and matching.
 
+For Copper Scroll text use and publication, follow the **Text and publication** section of `copper_scroll/AGENTS.md`. Use the existing editions for research; an openly licensed replacement transcription is not a prerequisite. Historical notes about files not being committed describe their delivery status, not a blanket restriction on the ancient text or on new project research.
+
 # DSS letter recogniser: project brief
 
 ## Goal
