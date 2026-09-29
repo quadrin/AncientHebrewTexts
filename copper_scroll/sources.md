@@ -284,6 +284,21 @@ A 5-page PDF you uploaded in session 1: `TIR_Copper_Scroll_Research_Summary.pdf`
 - Caveat: it states that no readable TIR map of Jerusalem–Jericho–Dead Sea was obtained. The repo crop `north_samaria_jerusalem.jpeg` does cover Jerusalem–Jericho legibly. What is missing is the Qumran/Dead Sea shore part.
 - Its claims are secondhand and have not been checked against the underlying publications. Treat them as leads until checked.
 
+## Source leads and uploads, 2026-09-29
+
+See [source_leads_2026-09-29.md](source_leads_2026-09-29.md) for the full notes.
+
+- **Uploaded (not in the repository):**
+  - Stacey, "Some Archaeological Observations on the Aqueducts of Qumran," *DSD* 14.2 (2007), pp. 222–243. Read in full.
+  - Zertal, *Manasseh Hill Country Survey* Vol. 2 (Brill 2008), 9 parts. Ibziq sites 42–44 (pp. 191–198), site 23 (pp. 151–153) and the name history (pp. 104–107) read, with page images checked.
+  - Zertal & Mirkam, Vol. 3, 7 parts, and Zertal & Bar, Vol. 4 (2019), 8 parts. Searched; Ibziq is in neither.
+- **Located, not yet read:**
+  - Patrich, "The Aqueducts of Hyrcania": Yad Ben-Zvi 1989, pp. 243–260 (Hebrew; the Ilan–Amit volume) and JRA Suppl. 46 (2002), pp. 336–352.
+  - Feldman 1974 (Hebrew); Garbrecht & Peleg, *BA* 57 (1994) 161–170.
+  - Magen, "Gerizim, Mount," NEAEHL Supplement (2008), pp. 1742–1748, free on the BAS Library. Its staircases and cistern are summarised in the notes.
+  - *HA* 40 (1971) p. 22 on the Ibziq excavation (IAA portal; 403 from the cloud sandbox).
+- **Print only or for sale:** Hirschfeld 1985 and Patrich 1994 survey maps; JRA Suppl. 46 (by email from J. & L. Humphrey).
+
 ## Text provenance and reuse
 
 Use the available editions as research sources. Keep ancient wording, an editor's restoration, a modern translation and the project's own interpretation distinguishable, with page and line citations. Existing files and historical delivery notes do not establish a blanket permission or prohibition for new publication. Follow [Text and publication](AGENTS.md#text-and-publication); a replacement-transcription search is not a prerequisite for the research.

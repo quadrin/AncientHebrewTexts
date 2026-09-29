@@ -33,6 +33,8 @@ No site confidence changes. The recovered *ʿAtiqot* 41 names V/48 as V/49's nei
 
 The [entry 40 review](entry40_bethhoron_review.md) adds Upper Beth-Horon as a possible, low-confidence place. It also records that Milik himself preferred the Horite tombs near Beit Guvrin in 1960, and re-checks the Phase 3 name tests against Elitzur's corpus.
 
+The [source leads of 29 September 2026](source_leads_2026-09-29.md) locate the reports missing in Phase 5 (Q32). They also record three uploads: Stacey 2007 on the Qumran aqueducts (read in full) and Zertal's *Manasseh Hill Country Survey* Vols. 2–4 (Ibziq read in Vol. 2). For entry 59 they suggest lowering Kh. Ibziq from medium to low; that change is not yet applied.
+
 ## Files
 
 | File | In git? | Contents |
@@ -56,6 +58,7 @@ The [entry 40 review](entry40_bethhoron_review.md) adds Upper Beth-Horon as a po
 | `tools/plate_extract.py`, `tools/plate_check_items.py` | yes | Extract the column plates and cut the blind line crops (output stays outside git) |
 | `tools/photo_trace.py`, `registration/photo_tracing_strip13.json` | yes | The atlas photograph of strip 13: the Grooves and Relief images, and the letter-by-letter tracing of VII 7–11, with letters identified on Puech's radiograph pl. CCCXLVI (plate images stay outside git). See [the photographic reader note](atlas/research/photographic_reader.md) |
 | `entry40_bethhoron_review.md`, `registration/entry40_elitzur_extracted.md` | yes | Entry 40 (IX 7–9): Beth-Horon, the Horites and Naṭuf; Elitzur's name test re-checked |
+| `source_leads_2026-09-29.md` | yes | Access leads for the Phase 5 gaps (Hyrcania, Gerizim, Ibziq, Herodium, Mar Saba, Ilan–Amit 2002); notes on Stacey 2007 and Zertal's Manasseh survey Vols. 2–4 |
 | `findings_log.md` | yes | Running log, evidence vs inference, with pages |
 | `open_questions.md` | yes | Running list of open questions |
 | `tables/entry_concordance.csv` | yes | Puech entry ↔ Lefkovits item ↔ Milik item (from Milik 1960) ↔ line range, with boundary notes and other editors' divisions |
