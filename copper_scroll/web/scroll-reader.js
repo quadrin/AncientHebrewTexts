@@ -296,7 +296,8 @@
       if (e.caution) html += '<p><b>Caution.</b> ' + esc(e.caution) + '</p>';
       if (e.n) html += '<p class="pn-src">' + esc(e.n) + ' proposals on record for this entry.</p>';
     }
-    html += '<div class="pn-links"><button type="button" data-goto-entry="' + esc(e.id) + '">Show in the text</button>' +
+    html += '<div class="pn-links"><a href="../atlas-site/#entry-' + esc(e.id) + '">Open in the atlas</a>' +
+      '<button type="button" data-goto-entry="' + esc(e.id) + '">Show in the text</button>' +
       '<button type="button" data-table-entry="' + esc(e.id) + '">Show in the table of entries</button></div>';
     return html;
   }

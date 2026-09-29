@@ -27,6 +27,8 @@ corepack pnpm install --frozen-lockfile
 corepack pnpm exec vite build --config vite.pages.config.ts
 ```
 
+After building, delete `../atlas-site/research/qumran-video-comparison.html` before committing. It embeds frames from a watermarked stock-video preview and archival photographs whose reuse terms have not been checked, so it is left out of the public build until that use is cleared. The page that links to it, `research/entry21-comparison.html`, is published.
+
 `pages/index.html` and `pages/main.tsx` are the static entry. `vite.pages.config.ts` sets the Pages base path and writes to `../atlas-site/`. The MapLibre worker URL follows the build's base path, so it works both on the hosted Site and under the Pages sub-path.
 
 ## Research
@@ -38,6 +40,10 @@ The data comes from `quadrin/AncientHebrewTexts`, research snapshot `5220e8bd008
 Descriptions are short factual editorial paraphrases, not quoted translations. Hebrew labels reproduce names or selected editorial readings from the public lexicon. Current confidence follows the revised Phase 5 assessment: Siloam is medium and conditional; Ramat Rahel is low; Tell el-Qos is a weak alternative. Three places have no coordinates and remain unpinned.
 
 Current pins use the gazetteer's site anchors. Filled areas with dashed outlines show their approximate positional precision. Each geometry should state whether it represents a site anchor, an observed feature footprint or a modeled candidate area. The selected candidate is shaded copper, other candidates sage, in both map dimensions. Selection fits the shaded area, including small archaeological anchors. The current Siloam coordinate anchors the pool complex; individual pool, outlet and trough candidates require their own feature records. The public index contains a subset of the candidates discussed in the unpublished full assessment.
+
+## The text in each field note
+
+Each field note shows the entry's lines of the scroll: the Hebrew, from Martin G. Abegg Jr.'s transcription in the ETCBC Dead Sea Scrolls dataset (CC BY-NC 4.0), and an English translation written for this project. Selecting a Hebrew word shows its parts, their meanings and any notes; selecting an underlined phrase shows how the editions read it, with pages from the research files. The data is `app/atlas-text.json`, loaded as a separate chunk the first time a field note opens. `../tools/build_scroll_notes.py` writes it from `../text/`, together with the text and translation page (`../web/`); rebuild both after changing the translation or the notes. The full scroll, column by column, is at <https://quadrin.github.io/AncientHebrewTexts/copper_scroll/web/>.
 
 ## Map
 

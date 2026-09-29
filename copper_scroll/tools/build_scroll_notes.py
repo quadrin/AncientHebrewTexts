@@ -147,6 +147,35 @@ def main():
         json.dump(data, f, ensure_ascii=False, separators=(',', ':'))
         f.write(';\n')
     print(f'{len(tr)} lines, {len(gloss)} glosses, {len(notes)} notes, {len(entries)} entries -> {out}')
+    write_atlas_text(lines, order, tr, gloss, notes, entries)
+
+
+def write_atlas_text(lines, order, tr, gloss, notes, entries):
+    """The same text, cut by entry, for the atlas folio (atlas/app/atlas-text.json).
+    Each entry lists its lines; `from` and `to` bound its words on a line it shares
+    with the next or previous entry."""
+    starts = sorted((order.index(e['start']) * 1000 + e.get('startWord', 0), e['id']) for e in entries)
+    by_entry = {}
+    for i, (pos, eid) in enumerate(starts):
+        end = starts[i + 1][0] if i + 1 < len(starts) else len(order) * 1000
+        out = []
+        for li, key in enumerate(order):
+            n = len(lines[key])
+            lo, hi = max(pos, li * 1000), min(end, li * 1000 + n)
+            if lo < hi:
+                out.append({'ref': key, 'w': lines[key], 'tr': tr[key], 'from': lo - li * 1000, 'to': hi - li * 1000})
+        by_entry[eid] = out
+    used = {m[1] for ls in by_entry.values() for l in ls for w in l['w'] for m in w.get('m', [])}
+    data = {
+        'source': 'Hebrew: Abegg, Bowley and Cook, ETCBC dss 2.0.1 (CC BY-NC 4.0). Translation, glosses and notes: this project.',
+        'gloss': {k: v for k, v in gloss.items() if k in used},
+        'notes': notes,
+        'entries': by_entry,
+    }
+    out = os.path.join(ROOT, 'atlas', 'app', 'atlas-text.json')
+    with open(out, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, separators=(',', ':'))
+    print(f'{len(by_entry)} entries -> {out}')
 
 
 if __name__ == '__main__':
