@@ -35,6 +35,8 @@ The [entry 40 review](entry40_bethhoron_review.md) adds Upper Beth-Horon as a po
 
 The [source leads of 29 September 2026](source_leads_2026-09-29.md) locate the reports missing in Phase 5 (Q32). They also record three uploads: Stacey 2007 on the Qumran aqueducts (read in full) and Zertal's *Manasseh Hill Country Survey* Vols. 2–4 (Ibziq read in Vol. 2). For entry 59, Kh. Ibziq is lowered from medium to low (applied in the atlas and the reading notes), and Kh. Salhab is recorded as an alternative bearer of the name. The Phase 5 index and summary carry the change. Stacey's phasing is recorded as a constraint for entry 21; its confidence does not change.
 
+The [source extractions of 29 September 2026](source_extractions_2026-09-29.md) (second run) read Magen's NEAEHL entry on Gerizim, Garbrecht & Peleg 1994 on the desert fortresses, Zissu 2023, *HA* 40 on Ibziq, and Jeremias and DJD III for entry 40. The Hyrcania chapter (Patrich 2002) and Ilan & Amit 2002 p. 385 were read only in snippets or as word searches. Gerizim's steps and cistern are Hellenistic and stood as ruins after about 110 BCE (Q47 answered). No site confidence changes; the extraction files are in `registration/`.
+
 ## Files
 
 | File | In git? | Contents |
@@ -59,6 +61,7 @@ The [source leads of 29 September 2026](source_leads_2026-09-29.md) locate the r
 | `tools/photo_trace.py`, `registration/photo_tracing_strip13.json` | yes | The atlas photograph of strip 13: the Grooves and Relief images, and the letter-by-letter tracing of VII 7–11, with letters identified on Puech's radiograph pl. CCCXLVI (plate images stay outside git). See [the photographic reader note](atlas/research/photographic_reader.md) |
 | `entry40_bethhoron_review.md`, `registration/entry40_elitzur_extracted.md` | yes | Entry 40 (IX 7–9): Beth-Horon, the Horites and Naṭuf; Elitzur's name test re-checked |
 | `source_leads_2026-09-29.md` | yes | Access leads for the Phase 5 gaps (Hyrcania, Gerizim, Ibziq, Herodium, Mar Saba, Ilan–Amit 2002); notes on Stacey 2007 and Zertal's Manasseh survey Vols. 2–4 |
+| `source_extractions_2026-09-29.md`, `registration/*_extracted.md` | yes | The second run of 29 September 2026: Gerizim (Magen), Hyrcania (Patrich 2002, snippets), Garbrecht & Peleg 1994, Zissu 2023, Salhab/Ibziq, Ilan & Amit p. 385, entry 40 (Jeremias, DJD III) and the outreach status |
 | `findings_log.md` | yes | Running log, evidence vs inference, with pages |
 | `open_questions.md` | yes | Running list of open questions |
 | `tables/entry_concordance.csv` | yes | Puech entry ↔ Lefkovits item ↔ Milik item (from Milik 1960) ↔ line range, with boundary notes and other editors' divisions |
@@ -76,7 +79,7 @@ The [source leads of 29 September 2026](source_leads_2026-09-29.md) locate the r
 | `tables/phase4_hypotheses.csv` | yes | Phase 4 hypotheses (H1–H14): proposers with pages, prediction, test, result, verdict |
 | `phase4_records.csv` | **no** | All 212 Phase 4 records (readings, hypotheses, observations) with pages and short quotes |
 | `tables/phase5_archaeology_index.csv` | yes | Phase 5 index (31 rows): landmark types required, whether reported at the site, period, Phase 3 and Phase 5 verdicts, main sources |
-| `tables/phase5_assessments.csv`, `tables/phase5_reports.csv` | yes | The 37 Phase 5 assessments with reasons, and the 254 report records with pages, URLs and short quotes (20 words or fewer) |
+| `tables/phase5_assessments.csv`, `tables/phase5_reports.csv` | yes | The 37 Phase 5 assessments with reasons, and the 261 report records with pages, URLs and short quotes (20 words or fewer) |
 | `phase3_candidates.csv` | **no** | All 292 Phase 3 candidates with the full scoring, reasons with pages, and short quotes |
 | `phase3_entries.csv` | **no** | Per entry: the text's requirements, reading notes, best-supported place, why not the others, and the text's own relative description in each edition (edition quotations; spatial models record their assumptions separately) |
 | `phase3_map1_overview.png`, `phase3_map2_jericho_qumran.png`, `phase3_map3_jerusalem.png` | **no** | The three Phase 3 maps, at site level. Map 2 is built on PEF Sheet XVIII (CC BY-NC-SA 3.0) |

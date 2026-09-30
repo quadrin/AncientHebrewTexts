@@ -299,6 +299,30 @@ See [source_leads_2026-09-29.md](source_leads_2026-09-29.md) for the full notes.
   - *HA* 40 (1971) p. 22 on the Ibziq excavation (IAA portal; 403 from the cloud sandbox).
 - **Print only or for sale:** Hirschfeld 1985 and Patrich 1994 survey maps; JRA Suppl. 46 (by email from J. & L. Humphrey).
 
+## Source extractions, 2026-09-29 (second run)
+
+See [source_extractions_2026-09-29.md](source_extractions_2026-09-29.md). Each extraction file in `registration/` gives its citation, access route and reading mode on its first line.
+
+- **Uploaded by the user (not in the repository):**
+  - Magen, "Gerizim, Mount," NEAEHL 5 (2008), pp. 1742–1748: an 11-page PDF extract (printed pp. 1742–1752). Text layer; the site plan (p. 1743) was checked on the page image. ISBN 978-965-221-068-5.
+  - Garbrecht & Peleg, *BA* 57.3 (1994), pp. 161–170: the JSTOR PDF (stable URL 3210411), 11 pages. Printed page = PDF page + 159. The table on p. 169 was transcribed from the page image.
+- **Open access, read in full:**
+  - Magen, Bijovsky & Tzionit, *Mount Gerizim Excavations* III: *The Coins* (JSP 19, IAA 2021), JSTOR `j.ctv2bwvt5v`, CC BY-NC 4.0. In Section One, printed page = PDF page − 1.
+  - Zissu, "Kings, Hermits and Refugees…," in *New Studies in the Archaeology of the Judean Desert* (IAA 2023), pp. 185–215, JSTOR `jj.10329820.11`, CC BY-NC 4.0. Printed page = PDF page + 181.
+  - SWP *Memoirs* II (1882), Internet Archive `surveyofwesternp02conduoft`: Bezek p. 231, Kh. Ibzik p. 237, Kh. es Selhab p. 240.
+  - Guérin, *Samarie* I (1874), Internet Archive `descriptionsam01gu`: Kharbet Salhab p. 355.
+  - *Hadashot Arkheologiyot* 40 (Oct. 1971), IAA publications portal: Kh. Ibziq p. 22 (PDF p. 23).
+  - Gaß, "Besek," *WiBiLex* (2011), Augsburg OPUS 94703.
+- **Search-only or snippets:**
+  - *The Aqueducts of Israel* (JRA Suppl. 46, 2002): HathiTrust `mdp.39015051834664`, page-level word hits (HathiTrust seq = printed page + 4); Google Books `GWhoAAAAMAAJ` snippet images. Used for Ilan & Amit pp. 380–386 and Patrich pp. 336–352.
+  - Jeremias, *Heiligengräber in Jesu Umwelt* (1958), Internet Archive `heiligengraberin0000joac` (lending copy): search-inside paragraphs. Leaf = printed page + 2.
+  - DJD III (1962), Internet Archive `lespetitesgrotte0000unse` (lending copy): search-inside paragraphs. Leaf = printed page + 20.
+- **Blocked:**
+  - Patrich 1989 (Hebrew) on Kotar: kotar.cet.ac.il returned a server error; en.kotar.co.il shows guests only a paywalled p. 243.
+  - The BAS Library needs a login; the NEAEHL entry was supplied instead as a PDF.
+  - The old *Hadashot* site search (hadashot.iaa.org.il) returns nothing even for a control query during its move to the IAA portal.
+- **Not found online:** *Mount Gerizim Excavations* II (JSP 8); JRA Suppl. 46 on Internet Archive.
+
 ## Text provenance and reuse
 
 Use the available editions as research sources. Keep ancient wording, an editor's restoration, a modern translation and the project's own interpretation distinguishable, with page and line citations. Existing files and historical delivery notes do not establish a blanket permission or prohibition for new publication. Follow [Text and publication](AGENTS.md#text-and-publication); a replacement-transcription search is not a prerequisite for the research.

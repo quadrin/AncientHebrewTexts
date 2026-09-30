@@ -60,3 +60,13 @@ The [source leads file](source_leads_2026-09-29.md) records Stacey 2007 and Zert
 - **Entry 21 (Qumran):** medium, unchanged. Stacey's phasing gives two testable "heads": the dam intake (points 3/4) and the start of an earlier channel near point 16. The phasing is a hypothesis, and the 2002 figure numbers are not checked.
 - **Entry 59 (Kh. Ibziq):** lowered from possible, medium to possible, low. Zertal reports no conduit at either Ibziq site, little first-century pottery, and the name only from the Byzantine period. Kh. Salhab is an alternative site for the name.
 - **Gerizim (57):** unchanged. Magen's NEAEHL entry reports Hellenistic staircases, but it has not been read in full, and the Hellenistic city ended about 111 BCE.
+
+## Source extractions — 29 September 2026 (second run)
+
+See [source_extractions_2026-09-29.md](source_extractions_2026-09-29.md). No site confidence changes.
+
+- **Gerizim (57): medium, unchanged.** The NEAEHL entry, now read in full, reports Hellenistic staircases and a courtyard cistern, and abandonment from about 110 BCE to the 4th century CE. The required step and pit types stood as ruins in the scroll's period, not in use. Three stray coins of Festus from the mansion area are an open lead (Q48).
+- **Hyrcania (16, 29, 35): possible, low, unchanged.** Garbrecht & Peleg and Patrich 2002 (snippets) describe two aqueducts, a two-phase saddle bridge, pools and about 16–20 cisterns. The "N pools" fit the type of entry 29's reservoir, but the link still rests on restorations (Q49).
+- **Ibziq (59): possible, low, unchanged.** No conduit is reported at Ibziq or Kh. Salhab; *HA* 40 adds a 1st–2nd-century CE burial cave at Ibziq.
+- **Entry 40: possible only, unchanged.** Jeremias dates the Beit Guvrin necropolis "seleukidisch"; DJD III D32 cites Jeremias as an attractive alternative.
+- **Entry 21: medium, unchanged.** Ilan & Amit 2002 p. 385 contains "Archelaus" and "low dam" (HathiTrust word hits); Stacey's wording is unverified.
