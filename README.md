@@ -1,16 +1,10 @@
 # TIR Iudaea–Palaestina: digital-copy search
 
-## Copper Scroll Atlas
+## Copper Scroll research
 
-The Copper Scroll project identifies ancient place names and tests specific locations against textual, archaeological and geographic evidence. Research includes individual caves, cisterns, channels, pools, tombs and other described features, with coordinates or bounded candidate areas and explicit uncertainty. See the [research instructions](copper_scroll/AGENTS.md).
+The Copper Scroll project has moved to [quadrin/CopperScroll](https://github.com/quadrin/CopperScroll). Read the [research guide](https://github.com/quadrin/CopperScroll/blob/main/research/README.md), [atlas](https://quadrin.github.io/CopperScroll/atlas-site/), or [scroll reader](https://quadrin.github.io/CopperScroll/web/). The former reader and atlas URLs redirect to their new locations. This repository keeps the separate TIR map search below and the original Copper Scroll snapshot in Git history.
 
-The interactive [Copper Scroll Atlas source](copper_scroll/atlas/README.md) pairs 61 scroll entries with 37 candidate places. It includes 2D maps, 3D terrain, approximate candidate shading, confidence and name sorting, four annotated ground photographs, and each entry's lines of the scroll with a translation and the editions' readings. See the atlas README for local setup and research provenance.
-
-[Atlas on GitHub Pages](https://quadrin.github.io/AncientHebrewTexts/copper_scroll/atlas-site/) (public, static build) · [Hosted atlas](https://copper-scroll-atlas.alexkesin.chatgpt.site) · Access to the hosted Site follows its existing sharing settings.
-
-## Copper Scroll research page
-
-The [Copper Scroll research page](https://quadrin.github.io/AncientHebrewTexts/copper_scroll/web/) opens with the full text of the scroll, column by column, with an English translation. Each Hebrew word opens its meaning and the editions' readings, and each entry opens its place identification. The Hebrew is Martin Abegg's transcription from the ETCBC Dead Sea Scrolls dataset (CC BY-NC 4.0); the translation and notes were written for this project. The page then summarises the desk research in `copper_scroll/`: every proposed identification of the scroll's named places, scored against the text and the published archaeology, with site-level maps and tests of the Greek letters. Source: [`copper_scroll/web/index.html`](copper_scroll/web/index.html); notes and tables: [`copper_scroll/README.md`](copper_scroll/README.md).
+## TIR map search
 
 Checked 27 September 2026. No complete publicly readable book, institutional ebook, or complete full-resolution map sheet was verified. Five publicly downloadable map details were verified in Peter Pilhofer's lecture PDFs: three from the North sheet and two credited to the TIR overview map. This package preserves those source PDFs and their embedded images, plus a Roman-roads figure credited to the 1994 volume in an Edinburgh thesis.
 
