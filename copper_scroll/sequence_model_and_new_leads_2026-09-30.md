@@ -1,5 +1,10 @@
 # The scroll's own order as evidence: a sequence model, and the leads it opens
 
+> **Superseded in part.** See [sequence_model_followup_2026-09-30.md](sequence_model_followup_2026-09-30.md) §0:
+> - Puech 2006 pp. 173–174 already describes the regional order (R1 measures it).
+> - The "salt" reading and the City of Salt comparison go back to Allegro, Lurie and Lefkovits (§4 is narrowed to the combined Qumran proposal).
+> - The walking-route idea in §6.4 was tested and is negative.
+
 30 September 2026. This is a new analysis of the existing project data. It uses no new sources, except background knowledge (BK), which is marked. Inputs:
 - `text/translation_en.json`;
 - `tables/entry_concordance.csv`;
@@ -166,4 +171,4 @@ This analysis measures the order using only **anchors**. An anchor is an entry w
 - **R2 depends on the East Gate.** In the lenient run, 9 and 10 are anchored in Jerusalem, and entries 6–12a then lean to Jerusalem (J up to 0.83 at 8 and 11). Entries 5 and 13 are even, and 4, 14 and 15 still lean to Jericho. So R2 holds only if the East Gate is left as a question, as §2 does. The model tests whether the rest of the order supports the Temple placements. It does not show that they are wrong.
 - **R2, the figure 0.001.** A binomial test with 6 or more changes in 19 steps at a switching rate of 1 − s = 0.065 gives 0.0010. At the lenient rate (0.115) it gives 0.017.
 - **Cross-references checked:** F2.2, F3.3, F4.8, F7.6; H8, H9 and T5 (`phase4_summary.md`); the *millo* row of `tables/landmark_lexicon_index.csv` ("the salt sense (מלח) was not searched"); "Only 'peristyle' in 3 is secure" (`tables/phase5_assessments.csv`, JER row); SWP III pp. 222–223 for Tell es-Sultan (`tables/phase5_reports.csv`).
-- **No confidence changes** follow from this analysis. The findings are F12.1–F12.6, and the open questions are Q50–Q53.
+- **No confidence changes** follow from this analysis. The findings are F12.1–F12.6, and the open questions are Q50–Q53. The follow-up adds F12.7–F12.10 and Q54.

@@ -3,3 +3,4 @@ data/
 *.png
 *.tif
 __pycache__/
+copper_scroll/tools/route_test/cache/
