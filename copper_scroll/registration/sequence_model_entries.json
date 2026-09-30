@@ -1,0 +1,612 @@
+[
+ {
+  "entry": "1",
+  "rng": "I:1–I:4",
+  "text": "In the ruin that is in the Valley of Achor, under the steps that go in toward the east, forty cubits: a chest of silver and its vessels, weighing seventeen talents. ΚΕΝ",
+  "status": "best-supported",
+  "best_place_id": "nuweimeh",
+  "best_place": "Wadi Nuweiʿimeh (valley), NE of Jericho",
+  "best_confidence": "low",
+  "possible_place_ids": "buqeia; ain_duk"
+ },
+ {
+  "entry": "2",
+  "rng": "I:5–I:6",
+  "text": "In the funerary monument, in the third course of stones: ingots of gold, 100. In the great cistern that is in the court",
+  "status": "possible only",
+  "best_place_id": "",
+  "best_place": "",
+  "best_confidence": "",
+  "possible_place_ids": "nuweimeh; jer_kidron_mon"
+ },
+ {
+  "entry": "3",
+  "rng": "I:6–I:8",
+  "text": "of gold, 100. In the great cistern that is in the court of the peristyle, in its floor, sealed with sand(?), opposite the upper opening: nine hundred talents.",
+  "status": "possible only",
+  "best_place_id": "",
+  "best_place": "",
+  "best_confidence": "",
+  "possible_place_ids": "jer_temple; nuweimeh"
+ },
+ {
+  "entry": "4",
+  "rng": "I:9–I:12",
+  "text": "In the mound of Koḥlit: vessels of offering, jugs and ephods. All of it is of the offering and of the seventh-year store, and second tithe rendered unfit(?). Its opening is at the edge of the conduit, on the north, six cubits as far as the rock cleft of the immersion. ΧΑΓ",
+  "status": "possible only",
+  "best_place_id": "",
+  "best_place": "",
+  "best_confidence": "",
+  "possible_place_ids": "tell_es_sultan"
+ },
+ {
+  "entry": "5",
+  "rng": "I:13–I:15",
+  "text": "In the pit of the foundry(?) of Manos, going down to the left, three cubits up from the floor: silver, 40 talents.",
+  "status": "possible only",
+  "best_place_id": "",
+  "best_place": "",
+  "best_confidence": "",
+  "possible_place_ids": "jer_temple"
+ },
+ {
+  "entry": "6",
+  "rng": "II:1–II:2",
+  "text": "In the cistern of ha-Melaḥ that is under the steps: 41 talents. ΗΝ",
+  "status": "possible only",
+  "best_place_id": "",
+  "best_place": "",
+  "best_confidence": "",
+  "possible_place_ids": "jer_tyropoeon"
+ },
+ {
+  "entry": "7",
+  "rng": "II:3–II:4",
+  "text": "In the cave of the old House of Washing(?), on the third ledge: sixty-five ingots of gold. ΘΕ",
+  "status": "possible only",
+  "best_place_id": "",
+  "best_place": "",
+  "best_confidence": "",
+  "possible_place_ids": "jer_temple"
+ },
+ {
+  "entry": "8",
+  "rng": "II:5–II:6",
+  "text": "In the underground chamber that is in the court of Mattiyah: wood, and their record; a cistern in it: vessels, and silver, seventy talents.",
+  "status": "possible only",
+  "best_place_id": "",
+  "best_place": "",
+  "best_confidence": "",
+  "possible_place_ids": "jer_temple"
+ },
+ {
+  "entry": "9",
+  "rng": "II:7–II:9",
+  "text": "In the cistern that is opposite the East Gate, nineteen cubits away: in it are vessels, and in its channel(?): ten talents. ΔΙ",
+  "status": "best-supported",
+  "best_place_id": "jer_east_gate",
+  "best_place": "East Gate (Golden Gate position) and eastern wall",
+  "best_confidence": "medium",
+  "possible_place_ids": "jer_east_gate"
+ },
+ {
+  "entry": "10",
+  "rng": "II:10–II:12",
+  "text": "In the cistern that is under the wall, on the east, in the spur of the rock: six jars of silver. Its entrance is under the great threshold.",
+  "status": "best-supported",
+  "best_place_id": "jer_east_gate",
+  "best_place": "East Gate (Golden Gate position) and eastern wall",
+  "best_confidence": "medium",
+  "possible_place_ids": ""
+ },
+ {
+  "entry": "11",
+  "rng": "II:13–II:15",
+  "text": "In the pool that is east of Koḥlit, in the northern corner, dig four cubits: 22 talents.",
+  "status": "possible only",
+  "best_place_id": "",
+  "best_place": "",
+  "best_confidence": "",
+  "possible_place_ids": "tell_es_sultan"
+ },
+ {
+  "entry": "12",
+  "rng": "III:1–III:4",
+  "text": "In the court of ◦◦◦, under the south corner, dig nine cubits: vessels of silver and gold of offering, sprinkling basins, cups, bowls, libation jugs; in all, six hundred and nine.",
+  "status": "possible only",
+  "best_place_id": "",
+  "best_place": "",
+  "best_confidence": "",
+  "possible_place_ids": "jer_temple"
+ },
+ {
+  "entry": "12a",
+  "rng": "III:5–III:7",
+  "text": "Under the other corner, the east- ern one, dig sixteen cubits: silver, 40 talents. ΤΡ",
+  "status": "possible only",
+  "best_place_id": "",
+  "best_place": "",
+  "best_confidence": "",
+  "possible_place_ids": "jer_se_corner; jer_temple"
+ },
+ {
+  "entry": "13",
+  "rng": "III:8–III:10",
+  "text": "In the pit that is in ha-Melaḥ, on its north side: vessels of offering, garments. Its entrance is under the western corner.",
+  "status": "possible only",
+  "best_place_id": "",
+  "best_place": "",
+  "best_confidence": "",
+  "possible_place_ids": "jer_temple"
+ },
+ {
+  "entry": "14",
+  "rng": "III:11–III:13",
+  "text": "In the tomb that is in ha-Melaḥ, on its east side, on its north side, cubits under the dead(?): dig three: 13 talents.",
+  "status": "possible only",
+  "best_place_id": "",
+  "best_place": "",
+  "best_confidence": "",
+  "possible_place_ids": "jer_temple"
+ },
+ {
+  "entry": "15",
+  "rng": "IV:1–IV:2",
+  "text": "In the great cistern that is in Koḥlit, in the pillar on its north side: 14 talents. ΣΚ",
+  "status": "possible only",
+  "best_place_id": "",
+  "best_place": "",
+  "best_confidence": "",
+  "possible_place_ids": "tell_es_sultan"
+ },
+ {
+  "entry": "16",
+  "rng": "IV:3–IV:5",
+  "text": "In the conduit that comes in ◦◦, as you go in, forty-one cubits: silver, 55 talents.",
+  "status": "possible only",
+  "best_place_id": "",
+  "best_place": "",
+  "best_confidence": "",
+  "possible_place_ids": "tell_es_sultan; hyrcania"
+ },
+ {
+  "entry": "17",
+  "rng": "IV:6–IV:8",
+  "text": "Between the two domes(?) that are in the Valley of Achor, midway between them, dig three cubits: there are two pots full of silver.",
+  "status": "best-supported",
+  "best_place_id": "nuweimeh",
+  "best_place": "Wadi Nuweiʿimeh (valley), NE of Jericho",
+  "best_confidence": "medium",
+  "possible_place_ids": "buqeia; ain_duk"
+ },
+ {
+  "entry": "18",
+  "rng": "IV:9–IV:10",
+  "text": "In the earth(?) pit that is at the edge of the ʿAṣ- la: silver, 200 talents.",
+  "status": "possible only",
+  "best_place_id": "",
+  "best_place": "",
+  "best_confidence": "",
+  "possible_place_ids": "asla"
+ },
+ {
+  "entry": "19",
+  "rng": "IV:11–IV:12",
+  "text": "In the eastern pit that is north of Koḥ- lit: silver, 70 talents.",
+  "status": "possible only",
+  "best_place_id": "",
+  "best_place": "",
+  "best_confidence": "",
+  "possible_place_ids": "tell_es_sultan"
+ },
+ {
+  "entry": "20",
+  "rng": "IV:13–IV:14",
+  "text": "In the cairn of the valley of Secacah, dig a cubit: silver, 12 talents.",
+  "status": "best-supported",
+  "best_place_id": "wadi_qumran",
+  "best_place": "Wadi Qumran below Kh. Qumran",
+  "best_confidence": "medium",
+  "possible_place_ids": "wadi_qumran; kh_qumran"
+ },
+ {
+  "entry": "21",
+  "rng": "V:1–V:4",
+  "text": "At the head of the water conduit [of the valley of] Secacah, on the north side, under [the stone], the great one, dig [three] cubits: silver, 7 talents.",
+  "status": "best-supported",
+  "best_place_id": "kh_qumran",
+  "best_place": "Kh. Qumran (site, aqueduct, cisterns, nearby cliff caves)",
+  "best_confidence": "medium",
+  "possible_place_ids": ""
+ },
+ {
+  "entry": "22",
+  "rng": "V:5–V:7",
+  "text": "In the fissure that is in Secacah, east of the Reservoir of Solomon: vessels of offering, and their record beside them.",
+  "status": "best-supported",
+  "best_place_id": "kh_qumran",
+  "best_place": "Kh. Qumran (site, aqueduct, cisterns, nearby cliff caves)",
+  "best_confidence": "medium",
+  "possible_place_ids": ""
+ },
+ {
+  "entry": "23",
+  "rng": "V:8–V:11",
+  "text": "From the Trench of Solomo- -n as far as the great heap of stones, sixty cubits; dig three cubits: silver, 23 talents.",
+  "status": "possible only",
+  "best_place_id": "",
+  "best_place": "",
+  "best_confidence": "",
+  "possible_place_ids": "kh_qumran"
+ },
+ {
+  "entry": "24",
+  "rng": "V:12–V:14",
+  "text": "In the tomb that is in the Wadi of the Vault, on the way from Jericho to Secacah, dig seven cubits: 32 talents.",
+  "status": "best-supported",
+  "best_place_id": "kuteif",
+  "best_place": "Wadi Kuteif",
+  "best_confidence": "low",
+  "possible_place_ids": ""
+ },
+ {
+  "entry": "25",
+  "rng": "VI:1–VI:6",
+  "text": "[In] the cave of the pillar with the two [en]trances, facing east, [at] the northern entrance, dig three [cu]bits: there is a jar, in it one scroll; under it 42 talents.",
+  "status": "possible only",
+  "best_place_id": "",
+  "best_place": "",
+  "best_confidence": "",
+  "possible_place_ids": "kh_qumran"
+ },
+ {
+  "entry": "26",
+  "rng": "VI:7–VI:10",
+  "text": "In the cave of the corner of the heap of stones facing east, dig at the entrance nine cubits: 21 talents.",
+  "status": "possible only",
+  "best_place_id": "",
+  "best_place": "",
+  "best_confidence": "",
+  "possible_place_ids": "kh_qumran"
+ },
+ {
+  "entry": "27",
+  "rng": "VI:11–VI:13",
+  "text": "In the resting place of the Queen, on the west side, dig twelve cubits: 27 talents.",
+  "status": "possible only",
+  "best_place_id": "",
+  "best_place": "",
+  "best_confidence": "",
+  "possible_place_ids": "jericho_area; jer_tombs_kings"
+ },
+ {
+  "entry": "28",
+  "rng": "VI:14–VII:2",
+  "text": "In the cairn that is at the ford of the High Priest, dig [… cubits] nine: […] 22 talents.",
+  "status": "best-supported",
+  "best_place_id": "jordan_ford",
+  "best_place": "Lower Jordan near Jericho (a ford; river level only)",
+  "best_confidence": "low",
+  "possible_place_ids": ""
+ },
+ {
+  "entry": "29",
+  "rng": "VII:3–VII:7",
+  "text": "In the conduit of Qi◦ […] the great northern reservoir, on its four sides […] measure twenty-four cubits: four hundred talents.",
+  "status": "possible only",
+  "best_place_id": "",
+  "best_place": "",
+  "best_confidence": "",
+  "possible_place_ids": "jericho_palaces; ain_duk; tell_es_sultan; hyrcania"
+ },
+ {
+  "entry": "30",
+  "rng": "VII:8–VII:10",
+  "text": "In the cave that is next to the cool room of the House of Haqqoṣ, dig six cubits: six jars of silver.",
+  "status": "possible only",
+  "best_place_id": "",
+  "best_place": "",
+  "best_confidence": "",
+  "possible_place_ids": "jericho_area; tell_el_qos"
+ },
+ {
+  "entry": "31",
+  "rng": "VII:11–VII:13",
+  "text": "At Doq, under the corner of the guard post, the eastern one, dig seven cubits: 22 talents.",
+  "status": "best-supported",
+  "best_place_id": "doq",
+  "best_place": "Doq: Jebel Qarantal (Mount of Temptation)",
+  "best_confidence": "medium",
+  "possible_place_ids": "ain_duk"
+ },
+ {
+  "entry": "32",
+  "rng": "VII:14–VII:16",
+  "text": "At the mouth of the water outlet of Koze- -ba, dig three cubits, as far as the row of stones: 80 talents; gold, two talents.",
+  "status": "best-supported",
+  "best_place_id": "choziba",
+  "best_place": "Wadi el-Qelt at Choziba (St George's monastery)",
+  "best_confidence": "medium",
+  "possible_place_ids": ""
+ },
+ {
+  "entry": "33",
+  "rng": "VIII:1–VIII:3",
+  "text": "[In the con]duit that is on the road east of the House of the Treasury, which is east of Aḥor: vessels of offering and scrolls, bound up(?): 10.",
+  "status": "possible only",
+  "best_place_id": "",
+  "best_place": "",
+  "best_confidence": "",
+  "possible_place_ids": "jericho_area"
+ },
+ {
+  "entry": "34",
+  "rng": "VIII:4–VIII:7",
+  "text": "In the outer valley, in the middle of the ◦ (an unclear word), on the stone, dig seven- teen cubits; under it: silver and gold, 17 talents.",
+  "status": "possible only",
+  "best_place_id": "",
+  "best_place": "",
+  "best_confidence": "",
+  "possible_place_ids": "jer_bir_ayyub; jericho_area; doq"
+ },
+ {
+  "entry": "35",
+  "rng": "VIII:8–VIII:9",
+  "text": "In the cairn at the mouth of the Kidron gorge, dig three cubits: 7 talents.",
+  "status": "best-supported",
+  "best_place_id": "mar_saba",
+  "best_place": "Kidron gorge (Wadi en-Nar) at Deir Mar Saba",
+  "best_confidence": "medium",
+  "possible_place_ids": "hyrcania"
+ },
+ {
+  "entry": "36",
+  "rng": "VIII:10–VIII:13",
+  "text": "In the fallow ground of the Shaveh, facing west, on the south, in the chamber facing north, dig twenty-four cubits: 65 talents.",
+  "status": "best-supported",
+  "best_place_id": "jer_shaveh",
+  "best_place": "Valley of Shaveh / King's Valley (which valley is unresolved)",
+  "best_confidence": "low",
+  "possible_place_ids": "jer_baqa; jer_kidron_mon"
+ },
+ {
+  "entry": "37",
+  "rng": "VIII:14–VIII:16",
+  "text": "In the enclosure of the Shaveh, in the chamber that is in it, dig eleven cubits: silver, 70 talents.",
+  "status": "best-supported",
+  "best_place_id": "jer_shaveh",
+  "best_place": "Valley of Shaveh / King's Valley (which valley is unresolved)",
+  "best_confidence": "low",
+  "possible_place_ids": "jer_baqa"
+ },
+ {
+  "entry": "38",
+  "rng": "IX:1–IX:3",
+  "text": "In the dovecote that is at the edge of the Naṭof, measuring from its edge thirteen cubits; dig seven cubits (the line is corrupt): talents(?): four staters.",
+  "status": "best-supported",
+  "best_place_id": "natuf",
+  "best_place": "ʿAin en-Naṭuf, Wadi Khareitun (cave of St Chariton)",
+  "best_confidence": "medium",
+  "possible_place_ids": ""
+ },
+ {
+  "entry": "39",
+  "rng": "IX:4–IX:6",
+  "text": "In the second terrace(?), in the chamber facing east, dig eight cubits and a half: 23½ talents.",
+  "status": "possible only",
+  "best_place_id": "",
+  "best_place": "",
+  "best_confidence": "",
+  "possible_place_ids": "tekoa_herodium"
+ },
+ {
+  "entry": "40",
+  "rng": "IX:7–IX:9",
+  "text": "In the chambers of Ḥoron, in the chamber facing the sea (west), in the channel(?), dig sixteen cubits: 22 talents.",
+  "status": "possible only",
+  "best_place_id": "",
+  "best_place": "",
+  "best_confidence": "",
+  "possible_place_ids": "natuf"
+ },
+ {
+  "entry": "41",
+  "rng": "IX:10",
+  "text": "In the hollow (Qomʿah?): silver, a mina, devoted.",
+  "status": "unknown",
+  "best_place_id": "",
+  "best_place": "",
+  "best_confidence": "",
+  "possible_place_ids": ""
+ },
+ {
+  "entry": "42",
+  "rng": "IX:11–IX:13",
+  "text": "In the waterfall(?) that is near the bend of the conduit, on the east, facing them, dig seven cubits: 9 talents.",
+  "status": "possible only",
+  "best_place_id": "",
+  "best_place": "",
+  "best_confidence": "",
+  "possible_place_ids": "tekoa_herodium"
+ },
+ {
+  "entry": "43",
+  "rng": "IX:14–IX:16",
+  "text": "In the pit that is north of the mouth of the gorge of Beth Tamar, at the outlet of the Valley of Peleʿ(?): all that is in it is devoted.",
+  "status": "possible only",
+  "best_place_id": "",
+  "best_place": "",
+  "best_confidence": "",
+  "possible_place_ids": "tell_el_ful; tekoa_herodium"
+ },
+ {
+  "entry": "44",
+  "rng": "IX:17–X:2",
+  "text": "In the dovecote that is in the fortress of Nab, in the district of the south, in the second upper storey, its way down from above: 9 talents.",
+  "status": "possible only",
+  "best_place_id": "",
+  "best_place": "",
+  "best_confidence": "",
+  "possible_place_ids": "tekoa_herodium"
+ },
+ {
+  "entry": "45",
+  "rng": "X:3–X:4",
+  "text": "In the plastered(?) cistern of the channels(?) that are watered from the great wadi, in its floor: 11 talents.",
+  "status": "possible only",
+  "best_place_id": "",
+  "best_place": "",
+  "best_confidence": "",
+  "possible_place_ids": "jer_bir_ayyub; tekoa_herodium"
+ },
+ {
+  "entry": "46",
+  "rng": "X:5–X:7",
+  "text": "In the reservoir that is in Beth ha-Kerem, as you go in, on its left, dig ten cubits: silver, sixty-two talents.",
+  "status": "best-supported",
+  "best_place_id": "ramat_rahel",
+  "best_place": "Ramat Raḥel (Kh. Ṣaliḥ), = Beth ha-Kerem (Aharoni)",
+  "best_confidence": "medium",
+  "possible_place_ids": ""
+ },
+ {
+  "entry": "47",
+  "rng": "X:8–X:11",
+  "text": "In the basin of the Valley of Zered(?), on its west side, a black stone, two cubits; that is the entrance: three hundred talents of gold, and twenty cups.",
+  "status": "possible only",
+  "best_place_id": "",
+  "best_place": "",
+  "best_confidence": "",
+  "possible_place_ids": "jer_bir_ayyub"
+ },
+ {
+  "entry": "48",
+  "rng": "X:12–X:14",
+  "text": "Under Absalom's monument, on the west side, dig twelve cubits: 80 talents.",
+  "status": "best-supported",
+  "best_place_id": "jer_kidron_mon",
+  "best_place": "Kidron valley at the Kidron monuments (Absalom, Bene Ḥezir, Zechariah)",
+  "best_confidence": "low",
+  "possible_place_ids": ""
+ },
+ {
+  "entry": "49",
+  "rng": "X:15–X:16",
+  "text": "In the basin(?) of the bathhouse(?) of Raḥil(?), under the trough: 17 talents.",
+  "status": "best-supported",
+  "best_place_id": "jer_siloam",
+  "best_place": "Siloam: Gihon spring to Siloam pool",
+  "best_confidence": "medium",
+  "possible_place_ids": ""
+ },
+ {
+  "entry": "50",
+  "rng": "X:17–XI:1",
+  "text": "[In the upper pool], at its four corners: gold, vessels of offering; their record beside them.",
+  "status": "possible only",
+  "best_place_id": "",
+  "best_place": "",
+  "best_confidence": "",
+  "possible_place_ids": "jer_se_corner"
+ },
+ {
+  "entry": "51",
+  "rng": "XI:2–XI:4",
+  "text": "Below the southern corner of the portico, in the tomb of Zadok, under the pillar of the exedra: vessels of offering, (…) of offering (…); and their record beside them.",
+  "status": "best-supported",
+  "best_place_id": "jer_se_corner",
+  "best_place": "SE corner of the Temple enclosure (Solomon's Stables)",
+  "best_confidence": "medium",
+  "possible_place_ids": "jer_kidron_mon; jer_south_wall"
+ },
+ {
+  "entry": "52",
+  "rng": "XI:5–XI:7",
+  "text": "In the seat(?) at the top of the rock facing west, opposite the garden of Zadok, under the great slab that is at its base: devoted gold.",
+  "status": "best-supported",
+  "best_place_id": "jer_kidron_east",
+  "best_place": "Kidron valley, east slope (Silwan necropolis)",
+  "best_confidence": "low",
+  "possible_place_ids": ""
+ },
+ {
+  "entry": "53",
+  "rng": "XI:8",
+  "text": "In the tomb that is under the rock “knife”(?): 41 talents.",
+  "status": "possible only",
+  "best_place_id": "",
+  "best_place": "",
+  "best_confidence": "",
+  "possible_place_ids": "jer_south_wall; jer_kidron_east"
+ },
+ {
+  "entry": "54",
+  "rng": "XI:9–XI:11",
+  "text": "In the tomb of the common people, which is ritually pure: in it, vessels of offering, fourteen. Their record beside them.",
+  "status": "possible only",
+  "best_place_id": "",
+  "best_place": "",
+  "best_confidence": "",
+  "possible_place_ids": "jer_kidron_east; jer_gethsemane"
+ },
+ {
+  "entry": "55",
+  "rng": "XI:12–XI:15",
+  "text": "In the House of the Two Reservoirs, in the reservoir, as you go in, on the right of it: vessels of offering, eleven(?). Their record beside them.",
+  "status": "best-supported",
+  "best_place_id": "jer_bethesda",
+  "best_place": "Pools of Bethesda (St Anne's)",
+  "best_confidence": "medium",
+  "possible_place_ids": ""
+ },
+ {
+  "entry": "56",
+  "rng": "XI:16–XII:3",
+  "text": "In the entrance of the [ledge] of the western resting chamber, a platform(?) on ◦ […]: nine hundred; of gold, 5 talents; sixty talents. Its entrance is from the west. Under the black stone: juglets. Under the threshold of the cistern: 42 talents.",
+  "status": "possible only",
+  "best_place_id": "",
+  "best_place": "",
+  "best_confidence": "",
+  "possible_place_ids": "jer_bethesda; jer_kidron_east"
+ },
+ {
+  "entry": "57",
+  "rng": "XII:4–XII:5",
+  "text": "On Mount Gerizim, under the steps of the upper pit: one chest and all its vessels, and silver: 61 talents.",
+  "status": "best-supported",
+  "best_place_id": "gerizim",
+  "best_place": "Mount Gerizim (Jebel et-Tur)",
+  "best_confidence": "medium",
+  "possible_place_ids": ""
+ },
+ {
+  "entry": "58",
+  "rng": "XII:6–XII:7",
+  "text": "At the mouth of the spring of Beth Sham: vessels of silver and vessels of gold of offering, and silver; in all, six hundred talents.",
+  "status": "best-supported",
+  "best_place_id": "beth_shean",
+  "best_place": "Beth Shean / Scythopolis (Beisan)",
+  "best_confidence": "medium",
+  "possible_place_ids": ""
+ },
+ {
+  "entry": "59",
+  "rng": "XII:8–XII:9",
+  "text": "In the great drain of the cistern, inside the cistern: the whole weight, 71 talents and twenty minas.",
+  "status": "possible only",
+  "best_place_id": "",
+  "best_place": "",
+  "best_confidence": "",
+  "possible_place_ids": "ibziq"
+ },
+ {
+  "entry": "60",
+  "rng": "XII:10–XII:13",
+  "text": "In the pit that is on the north side of Koḥlit, its opening to the north, with tombs at its mouth: a copy of this document, and its explanation, and their measurements, and the details of each and every one.",
+  "status": "possible only",
+  "best_place_id": "",
+  "best_place": "",
+  "best_confidence": "",
+  "possible_place_ids": "tell_es_sultan"
+ }
+]

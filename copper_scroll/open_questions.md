@@ -208,3 +208,13 @@ See [source_extractions_2026-09-29.md](source_extractions_2026-09-29.md#third-ru
   - A pointer to an IAA online version of part of the Benjamin survey (map 73), from Zertal & Bar vol. 9 p. 484, is not yet opened.
 - Q46 update: Zertal's Salhab entry, now seen on the page images, reports 30 cisterns and no channel (F11.5). Gophna and Porath 1972 (no. 65) is still unread. The "Site 43" snippet is el-Quleh, not Upper Ibziq.
 - Q40 update: no reply from Høgenhaven at 03:50 UTC on 30 September.
+
+## Sequence model — 2026-09-30
+
+See [sequence_model_and_new_leads_2026-09-30.md](sequence_model_and_new_leads_2026-09-30.md) and F12.1–F12.6.
+
+- Q50 (new). **Entries 2–19: the Temple enclosure or the Jericho estate?** The order puts them in the Jericho block (F12.2). *Needs:* a list of every peristyle court, pool, gate, stepped cistern and miqveh in Netzer's Jericho palace reports (Netzer 2001; Netzer & Laureys-Chachy 2004), with dates. Then score entries 2–19 against the Jericho estate and the Temple enclosure with the same checklist. Also: does any other stretch of the scroll alternate between regions like 2–19?
+- Q51 (new). **Is ha-Melaḥ (6, 13, 14) the City of Salt of Josh 15:62?** (F12.5). *Needs:* a search for bare *ha-Melaḥ* as a place name in the Qumran texts, the Mishnah and the Tosefta; Milik's and Puech's arguments for "Esplanade" (DJD C/D; Puech 2006 pp. 182–184); a literature search for earlier "salt" readings before the idea is called new.
+- Q52 (new). **Are the "dig N cubits" figures depths, or distances?** (F12.6). *Needs:* a check of how the formula is used where the reference is a void (36, 37, 39, 40, 46) and where it is a monument (48). The atlas geometry should model both readings.
+- Q53 (new). **Personal names in the Jericho block.** Manos (5), Mattiyah (8) and "the Queen" (27). *Needs:* Ilan's *Lexicon of Jewish Names*, and Josephus on Hasmonean royal tombs near Jericho.
+- Other moves listed in §6 of the write-up, not yet started: CORONA / KH-9 and 1940s RAF aerial photographs of the Qumran dam, the Wadi Qelt outlets, Jebel Quruntul and the Qumran plateau; the project's letter recogniser on Puech's radiographs (X 15, IX 7, VII 11); a Dawid–Skene model of the editors' readings; a least-cost route test on SRTM terrain.

@@ -39,6 +39,8 @@ The [entry 59 review](entry59_bezek_review.md) reads Zertal's survey and *HA* 40
 
 The [source extractions of 29 September 2026](source_extractions_2026-09-29.md) (second run) read Magen's NEAEHL entry on Gerizim, Garbrecht & Peleg 1994 on the desert fortresses, Zissu 2023, *HA* 40 on Ibziq, and Jeremias and DJD III for entry 40. The Hyrcania chapter (Patrich 2002) and Ilan & Amit 2002 p. 385 were read only in snippets or as word searches. Gerizim's steps and cistern are Hellenistic and stood as ruins after about 110 BCE (Q47 answered). No site confidence changes; the extraction files are in `registration/`. A third run of the same prompts is kept in `registration/extractions_run3/` and compared there: it adds a Hasmonean garrison on Gerizim into the 70s BCE and the dates of Hyrcania's two aqueducts, with no confidence changes.
 
+The [sequence model](sequence_model_and_new_leads_2026-09-30.md) measures the scroll's own order, using only entries whose place name is located outside the scroll. The list runs in regional blocks (Jericho–Qumran, the Kidron, Jerusalem, the north), with an exact p of about 10⁻⁶. By that order, entries 2–19 belong to the Jericho block, which conflicts with the Temple placements of Phase 3 (Q50). It also puts Koḥlit near Jericho, and it opens a lead that ha-Melaḥ is the City of Salt (Q51). No confidence changes.
+
 ## Files
 
 | File | In git? | Contents |
@@ -67,6 +69,7 @@ The [source extractions of 29 September 2026](source_extractions_2026-09-29.md) 
 | `qumran_stacey2007_review.md` | yes | Stacey 2007 on the phases of the Qumran aqueduct; effect on entries 20–22 |
 | `source_extractions_2026-09-29.md`, `registration/*_extracted.md` | yes | The second run of 29 September 2026: Gerizim (Magen), Hyrcania (Patrich 2002, snippets), Garbrecht & Peleg 1994, Zissu 2023, Salhab/Ibziq, Ilan & Amit p. 385, entry 40 (Jeremias, DJD III) and the outreach status |
 | `registration/extractions_run3/` | yes | The third run of the same eight prompts (29 September 2026), kept beside the second run's files; compared in `source_extractions_2026-09-29.md` (F11.1–F11.9). Email addresses removed from the outreach file |
+| `sequence_model_and_new_leads_2026-09-30.md`, `tools/sequence_model.py`, `registration/sequence_model_entries.json`, `registration/sequence_model_results.json` | yes | A hidden Markov model of the scroll's regional order from anchored place names only (F12.1–F12.6); leads on entries 2–19, ha-Melaḥ and the "dig" figures |
 | `findings_log.md` | yes | Running log, evidence vs inference, with pages |
 | `open_questions.md` | yes | Running list of open questions |
 | `tables/entry_concordance.csv` | yes | Puech entry ↔ Lefkovits item ↔ Milik item (from Milik 1960) ↔ line range, with boundary notes and other editors' divisions |
