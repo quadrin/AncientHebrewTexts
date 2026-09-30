@@ -76,14 +76,18 @@ for k,p in places.items(): p['shortName']=short_names[k]
 # Revisions after Phase 3 (the Phase 3 tables keep their original assessment).
 # 29 September 2026: entry40_bethhoron_review.md adds Beth-Horon as a possible place for entry 40.
 places['beth_horon']={'id':'beth_horon','name':'Upper Beth-Horon (Beit ʿUr el-Foqa)','lat':31.88530,'lon':35.11341,'precision':'~300 m','kind':'point','region':'region','note':'Village anchor from the IAA Benjamin survey (sites 28/143). Lower Beth-Horon (Beit ʿUr et-Taḥta) is equally compatible and has the only tomb with pottery of the period. Not a feature location.','source':'IAA survey, Ramallah–Benjamin map 83/1, sites 28 and 143','shortName':'Upper Beth-Horon · Beit Ur'}
-revised_candidates={'40':[{'placeId':'beth_horon','status':'possible','confidence':'low'}]}
-# 29 September 2026: source_leads_2026-09-29.md (Zertal 2008, Manasseh Hill Country Survey Vol. 2) lowers
-# Kh. Ibziq for entry 59 from medium to low: no conduit, weak 1st-century presence, name attested there only
-# from the Byzantine period. Kh. Salhab (Zertal site 23) is recorded as an alternative bearer of the name; it is not mapped.
-revised_confidence={'59':'low'}
-revised_candidate_confidence={('59','ibziq'):'low'}
-# The Phase 5 index now carries the same change and lists Zertal among the main sources, so no source is added here.
-places['ibziq']['note']='Upper Kh. Ibziq, Zertal site 44 (Old Israel Grid 1878/1971). Lower Kh. Ibziq, site 42, lies 1 km north-east. Zertal reports cisterns, burial caves and a Roman road, but no conduit. Not a feature location.'
+revised_candidates={'40':[{'placeId':'beth_horon','status':'possible','confidence':'low'}],'59':[{'placeId':'kh_salhab','status':'possible','confidence':'low'}]}
+# 29 September 2026: source_leads_2026-09-29.md (Zertal 2008, Manasseh Hill Country Survey Vol. 2) lowered
+# Kh. Ibziq for entry 59 from medium to low. Later the same day, entry59_bezek_review.md read HA 40 (1971) p. 22:
+# a kokhim tomb of the 1st-2nd centuries CE at Kh. Ibziq. That restores the period evidence, so Ibziq is medium again,
+# as in the Phase 5 index. Kh. Salhab (Zertal site 23), Zertal's biblical Bezeq, is added at low.
+revised_confidence={}
+revised_candidate_confidence={}
+# The Phase 5 index lists Zertal among the main sources, so no source is added here.
+# 29 September 2026, second run (source_extractions_2026-09-29.md): Magen's NEAEHL entry (57), Garbrecht & Peleg 1994 (31; 16, 29, 35),
+# HA 40 and the Salhab search (59), Jeremias and DJD III (40). Evidence texts updated; no confidence changes.
+places['ibziq']['note']='Upper Kh. Ibziq, Zertal site 44 (Old Israel Grid 1878/1971). Lower Kh. Ibziq, site 42, lies 1 km north-east. Zertal reports cisterns, burial caves and a Roman road, but no conduit. A kokhim tomb of the 1st–2nd centuries CE was excavated at Kh. Ibziq in 1971 (HA 40 p. 22). Not a feature location.'
+places['kh_salhab']={'id':'kh_salhab','name':'Kh. Salhab (Kh. es-Selhab)','lat':32.35504,'lon':35.37277,'precision':'~300 m','kind':'point','region':'region','note':'Tell 3 km WSW of Upper Kh. Ibziq on the Neapolis–Scythopolis road. Zertal identifies it as biblical Bezeq (1 Sam 11:8) and holds that the name later moved to Ibziq. Early Roman pottery 15%; no conduit reported. Not a feature location.','source':'Zertal 2008, Manasseh Hill Country Survey 2, site 23 (Israel grid 1853/1957), converted to WGS84 from EPSG:28193 with pyproj; the same conversion puts Upper Ibziq about 230 m from its atlas anchor','shortName':'Kh. Salhab'}
 places['jer_siloam']['note']='The inherited coordinate anchors the wider Siloam complex (~300 m). It does not select a particular pool or trough.'
 places['mar_saba']['note']='Mar Saba is one proposed stretch of the Kidron gorge. The escarpment exit remains another possibility.'
 specific={
@@ -94,8 +98,8 @@ specific={
 '22':('Qumran’s reservoirs provide a setting to test against the fissure east of the named reservoir.','Neither the ancient reservoir name nor the specific eastern fissure has been established. Jerusalem’s similarly named pool does not relocate this entry.'),
 '23':('Puech allows Shallum as an alternative to Solomon and a large boulder as the landmark. The channel’s connection to entry 22’s reservoir is conditional.','No origin or endpoint is identified for the stated distance. Entry order alone does not establish a continuous route.'),
 '24':('The wording permits a regional approach test from Jericho toward Sekakah. Wadi Kuteif remains a published proposal.','The recorded rock-cut chamber is undated and does not identify the required tomb. A route from entry 23 to entry 24 is not specified.'),
-'31':('A Hasmonean fortress occupied the summit. The name Doq survives nearby at Ain Duk.','Editors disagree over “guard post” and “drying place.” The 2026 plate check leans to the drying place, so the fortress is not the landmark by default. The surviving name does not distinguish the summit from the spring; Q24 remains open.'),
-'40':('Under the reading “facing the Sea” (west), which the 2026 plate check favours, Beth-Horon keeps Milik’s textual basis; its name survives at Beit ʿUr, and rock-cut tombs are reported at both villages. Naṭuf rests on the order of the entries.','Milik himself later judged the Horite tombs near Beit Guvrin slightly more likely. Puech reads “south”. No chamber facing west, channel or 16-cubit depth is reported anywhere.'),
+'31':('A Hasmonean fortress occupied the summit, supplied by a wadi diversion, a 500 m channel and nine cisterns. The name Doq survives nearby at Ain Duk.','Editors disagree over “guard post” and “drying place.” The 2026 plate check leans to the drying place, so the fortress is not the landmark by default. The surviving name does not distinguish the summit from the spring; Q24 remains open. Garbrecht and Peleg note that Doq was apparently not rebuilt by Herod, so first-century use of the summit is not shown.'),
+'40':('Under the reading “facing the Sea” (west), which the 2026 plate check favours, Beth-Horon keeps Milik’s textual basis; its name survives at Beit ʿUr, and rock-cut tombs are reported at both villages. Naṭuf rests on the order of the entries.','Milik himself later judged the Horite tombs near Beit Guvrin slightly more likely. Puech reads “south”. Jeremias dates his Beit Guvrin shaft-tomb necropolis only as Seleucid. No chamber facing west, channel or 16-cubit depth is reported anywhere.'),
 '32':('Choziba preserves a related name, and the Wadi Qelt waterworks fit the outlet-and-wall description in the relevant period.','The individual outlet and retaining wall remain unidentified. The pin represents a stretch of the valley.'),
 '35':('The Kidron gorge supplies the named landscape; Mar Saba and Hyrcania feature in published proposals.','“Mouth of the gorge” could also describe the escarpment exit. No cairn fixes the location; Hyrcania’s link depends on restorations.'),
 '38':('The spring name and the Khareitun setting support a candidate in this district.','The required dovecote or cave feature has not been demonstrated at this spring.'),
@@ -103,9 +107,9 @@ specific={
 '48':('The standing Kidron monument has first-century architectural features.','Its earliest surviving labels name Zacharias. A first-century association with Absalom remains unestablished.'),
 '49':('The tunnel outlet and surrounding pools supply a compatible water-installation setting. Szanton distinguishes the smaller Silwan pool from Birkat el-Hamra.','Siloam depends on a supplied word; the 2026 plate check shows the disputed letter as a waw-shaped stroke, which leans to Puech without deciding it. Lefkovits reads no Siloam name. The trough remains unverified; overall confidence stays medium and conditional.'),
 '55':('The Bethesda complex supplies double pools and a smaller basin in the relevant period.','The text may describe two pools without naming Bethesda; the 2026 plate check shows what looks like a ḥet where Milik’s Bethesda needs a taw. The nearby Strouthion twin pool prevents a unique match on that feature alone.'),
-'57':('The mountain name provides the geographical anchor.','The checked steps and cisterns date later. Missing excavation reports prevent a comprehensive judgment about earlier features.'),
+'57':('The mountain name provides the geographical anchor. Magen’s excavations found three Hellenistic staircases and a mansion with a courtyard cistern on the summit; they still stood as ruins in the first century.','The city was abandoned about 110 BCE, and no use of the steps or cistern is reported before the fourth century CE. Only stray coins of the period were found; three from the mansion area are an open lead. No specific step or pit is identified.'),
 '58':('Perennial springs and period water installations fit the regional setting at Beth Shean.','The scroll’s final mem differs from the usual nun in Beth Shean. No evidence selects the particular spring.'),
-'59':('Zertal identifies Eusebius’s two villages called Bezek, 17 miles from Neapolis, with the two Ibziq sites. Upper Ibziq has 45 cisterns and a Roman road; Lower Ibziq has about 70 burial caves.','Zertal’s survey reports no conduit at either site. Upper Ibziq has only two Early Roman sherds, and Lower Ibziq starts in the Byzantine period. Zertal places Biblical Bezek at Kh. Salhab, which has Early Roman pottery; it is not mapped here. The name also depends on the disputed reading.'),
+'59':('Zertal identifies Eusebius’s two villages called Bezek, 17 miles from Neapolis, with the two Ibziq sites. A kokhim tomb excavated at Kh. Ibziq in 1971 held pottery of the 1st–2nd centuries CE, which fits Puech’s alternative “burial chamber” reading in type. Zertal places the older Bezeq at nearby Kh. Salhab.','Zertal’s survey reports cisterns and burial caves but no conduit at either Ibziq site, and few Early Roman sherds on the surface. No conduit is reported at Kh. Salhab either. The place name depends on a disputed reading.'),
 }
 audit=rows('phase5_archaeology_index.csv')
 entries=[]
@@ -135,7 +139,7 @@ for entry in entries:
     if entry['id']=='21':
         entry['sources'] += '; Lefkovits 2000 pp. 185–189; Stacey 2009, The Dam; Stacey 2007, DSD 14 pp. 222–243'
 out={'snapshot':'e3b51ce6523e947fe217a630d64fa16486fc3c7c','reviewDate':'29 September 2026','entries':entries,'places':list(places.values())}
-assert len(entries)==61 and len(places)==38
+assert len(entries)==61 and len(places)==39
 assert all(c['placeId'] in places for e in entries for c in e['candidates'])
 (root.parent/'app/atlas-data.json').write_text(json.dumps(out,ensure_ascii=False,indent=2))
 print(f'Built {len(entries)} entries and {len(places)} places; {sum(p["lat"] is not None for p in places.values())} mapped anchors.')

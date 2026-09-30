@@ -65,7 +65,10 @@ Elitzur's method pages were read in session 2 (F2.21). This review checked his c
 
 ## Next
 
-1. **DJD III D32 p. 268 and the Addenda.** Check whether Milik mentions Jeremias there.
-2. **The printed Benjamin survey volume** (Finkelstein and Magen 1993), site 143: plans and orientation of the four tombs.
-3. **Jeremias, *Heiligengräber* (1958) pp. 82–86,** for the date of the Beit Guvrin necropolis.
+1. ~~**DJD III D32 p. 268 and the Addenda.** Check whether Milik mentions Jeremias there.~~ **Done (29 September 2026, second run):** D32 cites "J. Jeremias, Revue Biblique, lxvii, 1960, pp. 220–2" as "Une localisation alternative, assez attrayante" (p. 268). The Addenda (pp. 300–301) do not return to it. See [registration/entry40_sources_extracted.md](registration/entry40_sources_extracted.md).
+2. **The printed Benjamin survey volume** (Finkelstein and Magen 1993), site 143: plans and orientation of the four tombs. *The English online record (checked 29 September 2026) gives neither.*
+3. ~~**Jeremias, *Heiligengräber* (1958) pp. 82–86,** for the date of the Beit Guvrin necropolis.~~ **Done (second run, search-inside snippets):**
+   - He found "eine ausgedehnte Nekropole von seleukidischen Schachtgräbern", about 100 graves, 2 km north of Beit Guvrin, in October 1932 with Alt (p. 86).
+   - He identifies it with the "cemetery of the Anakim" of the *Vitae prophetarum*, beside Micah's tomb at Kh. el-Basal.
+   - The date is Seleucid only, so the tombs existed by the scroll's period. Nothing is said of orientation or a channel. The candidate stays possible, low.
 4. **A specialist reading of IX 7** by the saw cut (requested 29 September 2026; see [plate_check.md](plate_check.md)).

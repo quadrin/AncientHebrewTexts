@@ -296,8 +296,49 @@ See [source_leads_2026-09-29.md](source_leads_2026-09-29.md) for the full notes.
   - Patrich, "The Aqueducts of Hyrcania": Yad Ben-Zvi 1989, pp. 243–260 (Hebrew; the Ilan–Amit volume) and JRA Suppl. 46 (2002), pp. 336–352.
   - Feldman 1974 (Hebrew); Garbrecht & Peleg, *BA* 57 (1994) 161–170.
   - Magen, "Gerizim, Mount," NEAEHL Supplement (2008), pp. 1742–1748, free on the BAS Library. Its staircases and cistern are summarised in the notes.
-  - *HA* 40 (1971) p. 22 on the Ibziq excavation (IAA portal; 403 from the cloud sandbox).
+  - *HA* 40 (1971) p. 22 on the Ibziq excavation (IAA portal; 403 from the cloud sandbox). *Read later the same day*; see the next section.
 - **Print only or for sale:** Hirschfeld 1985 and Patrich 1994 survey maps; JRA Suppl. 46 (by email from J. & L. Humphrey).
+
+## Sources checked 2026-09-29 (second batch)
+
+These add to the [source leads and uploads](#source-leads-and-uploads-2026-09-29) above.
+
+- **Zertal, Vol. 2 (2008).** Besides the Ibziq pages, Kh. Salhab (pp. 151–153) and the name history (pp. 104–107), the roads (pp. 25–28) were read. The pagination matches the Wikipedia citation "Zertal 2007, vol. 2, pp. 191–197". Review: [entry59_bezek_review.md](entry59_bezek_review.md).
+- **Stacey 2007.** Review: [qumran_stacey2007_review.md](qumran_stacey2007_review.md).
+- ***HA* 40 (1971), p. 22 (Kh. Ibziq excavation, L-52/1971).** **Read.** The item page returns 403, but the PDF opens at <https://publications.iaa.org.il/cgi/viewcontent.cgi?article=1016&context=ha_hebrew_series> (45 pp.). It reports a kokhim tomb of the 1st–2nd centuries CE (F9.9). See [entry59_bezek_review.md](entry59_bezek_review.md).
+- **Magen, "Gerizim, Mount," NEAEHL Supplement (2008), pp. 1742–1748.**
+  - An automated summary of the BAS Library page reports the Hellenistic staircases and the courtyard cistern listed in the source leads.
+  - A direct browser check shows only the History section without a login. That section dates the destruction of the temple and city to about 110 BCE by the coins (F9.11). The rest is paywalled, and the dates of use have not been checked (see Q47). *Read in full later the same day from a PDF extract; see the second run below.*
+- **Browser checks, 29 September 2026.**
+  - *Christians and Christianity* IV (JSP 16) covers sites in the Hebron hills and southern Judea. It has no chapter on Mar Saba, Castellion, Choziba or Chariton. Vol. II (JSP 14) is a site corpus, pp. 165–364, not yet searched.
+  - Boaz Zissu, "Kings, Hermits and Refugees in the Judean Desert in the Late Second Temple Period and During the Bar Kokhba Revolt," in *New Studies in the Archaeology of the Judean Desert* (IAA 2023), pp. 185–216, is open access on JSTOR. Read in the second run (below).
+  - Garbrecht and Peleg 1994 is on JSTOR, "read online" with a free account. Read in the second run (below).
+  - *The Aqueducts of Israel* on Google Books (ID GWhoAAAAMAAJ) is snippet-only; see F9.10 and F10.8.
+  - WorldCat holdings could not be checked (a human-verification page).
+
+## Source extractions, 2026-09-29 (second run)
+
+See [source_extractions_2026-09-29.md](source_extractions_2026-09-29.md). Each extraction file in `registration/` gives its citation, access route and reading mode on its first line.
+
+- **Uploaded by the user (not in the repository):**
+  - Magen, "Gerizim, Mount," NEAEHL 5 (2008), pp. 1742–1748: an 11-page PDF extract (printed pp. 1742–1752). Text layer; the site plan (p. 1743) was checked on the page image. ISBN 978-965-221-068-5.
+  - Garbrecht & Peleg, *BA* 57.3 (1994), pp. 161–170: the JSTOR PDF (stable URL 3210411), 11 pages. Printed page = PDF page + 159. The table on p. 169 was transcribed from the page image.
+- **Open access, read in full:**
+  - Magen, Bijovsky & Tzionit, *Mount Gerizim Excavations* III: *The Coins* (JSP 19, IAA 2021), JSTOR `j.ctv2bwvt5v`, CC BY-NC 4.0. In Section One, printed page = PDF page − 1.
+  - Zissu, "Kings, Hermits and Refugees…," in *New Studies in the Archaeology of the Judean Desert* (IAA 2023), pp. 185–215, JSTOR `jj.10329820.11`, CC BY-NC 4.0. Printed page = PDF page + 181.
+  - SWP *Memoirs* II (1882), Internet Archive `surveyofwesternp02conduoft`: Bezek p. 231, Kh. Ibzik p. 237, Kh. es Selhab p. 240.
+  - Guérin, *Samarie* I (1874), Internet Archive `descriptionsam01gu`: Kharbet Salhab p. 355.
+  - *Hadashot Arkheologiyot* 40 (Oct. 1971), IAA publications portal: Kh. Ibziq p. 22 (PDF p. 23).
+  - Gaß, "Besek," *WiBiLex* (2011), Augsburg OPUS 94703.
+- **Search-only or snippets:**
+  - *The Aqueducts of Israel* (JRA Suppl. 46, 2002): HathiTrust `mdp.39015051834664`, page-level word hits (HathiTrust seq = printed page + 4); Google Books `GWhoAAAAMAAJ` snippet images. Used for Ilan & Amit pp. 380–386 and Patrich pp. 336–352.
+  - Jeremias, *Heiligengräber in Jesu Umwelt* (1958), Internet Archive `heiligengraberin0000joac` (lending copy): search-inside paragraphs. Leaf = printed page + 2.
+  - DJD III (1962), Internet Archive `lespetitesgrotte0000unse` (lending copy): search-inside paragraphs. Leaf = printed page + 20.
+- **Blocked:**
+  - Patrich 1989 (Hebrew) on Kotar: kotar.cet.ac.il returned a server error; en.kotar.co.il shows guests only a paywalled p. 243.
+  - The BAS Library needs a login; the NEAEHL entry was supplied instead as a PDF.
+  - The old *Hadashot* site search (hadashot.iaa.org.il) returns nothing even for a control query during its move to the IAA portal.
+- **Not found online:** *Mount Gerizim Excavations* II (JSP 8); JRA Suppl. 46 on Internet Archive.
 
 ## Text provenance and reuse
 

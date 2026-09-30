@@ -147,11 +147,48 @@ Updated each session. Newest additions at the bottom of each group. "Needs" says
 See [source_leads_2026-09-29.md](source_leads_2026-09-29.md).
 
 - Q32 update:
-  - **Zertal on Ibziq (59): read.** The write-up is in Vol. 2 (pp. 191–198), not Vol. 4. No conduit is reported at either Ibziq site. See F9.2–F9.3.
+  - **Zertal on Ibziq (59): read.** The write-up is in Vol. 2 (pp. 191–198), not Vol. 4. No conduit is reported at either Ibziq site. See F9.2–F9.3 and F9.8.
+  - ***HA* 40 on Ibziq (59): read.** A kokhim tomb of the 1st–2nd centuries CE (F9.9).
   - **Magen on Gerizim (57): located.** The NEAEHL Supplement entry (2008, pp. 1742–1748) is free online; its Hellenistic staircases need a check for use after John Hyrcanus.
   - **Patrich on Hyrcania (16, 29): located.** Yad Ben-Zvi 1989, pp. 243–260 (same volume as Ilan–Amit) and JRA Suppl. 46 (2002), pp. 336–352.
   - **Hirschfeld (Herodium) and Patrich (Mar Saba) survey maps:** print only.
-- Q38 update: Stacey 2007 names point 16 as the head of an earlier run-off channel. Test "head of a subsection" at point 16 beside the dam intake (points 3/4). Check the 2002 figure numbering against the 1989 plan.
-- Q46 (new). **Entry 59: Ibziq or Kh. Salhab?** Zertal places Biblical Bezeq at Kh. Salhab (site 23, with Early Roman pottery) and dates the name at Ibziq from the Byzantine period. Ibziq is now "possible, low" (F9.3). *Needs:* *HA* 40 (1971) p. 22 on the Ibziq excavation; Zertal's grid for Kh. Salhab (pp. 151–153) before it can be mapped; a report of any conduit at Salhab.
-- Q47 (new). **Were Gerizim's Hellenistic staircases in use after about 111 BCE (57)?** Magen's NEAEHL entry reports Hellenistic staircases and a courtyard cistern; the Hellenistic city ends with John Hyrcanus (BK). *Needs:* the NEAEHL entry read in full, and the stratigraphy of the staircases in *JSP* 8.
+- Q38 update: Stacey 2007 names point 16 as the head of an earlier run-off channel. Test "head of a subsection" at point 16 beside the dam intake (points 3/4). Check the 2002 figure numbering against the 1989 plan. Google Books full-text search of the 2002 book did not find the two phrases Stacey cites from p. 385 (F9.10); HathiTrust later found both words there (F10.8, below). See [qumran_stacey2007_review.md](qumran_stacey2007_review.md).
+- Q46 (new). **Entry 59: Ibziq or Kh. Salhab?** Zertal places Biblical Bezeq at Kh. Salhab (site 23, with Early Roman pottery) and dates the name at Ibziq from the Byzantine period. Ibziq was lowered to "possible, low" (F9.3), then restored to "possible, medium" after *HA* 40 (F9.8). *Needs:*
+  - ~~*HA* 40 (1971) p. 22 on the Ibziq excavation~~ read: a kokhim tomb of the 1st–2nd centuries CE; no channel (F9.9). The licence file L-52/1971 may give the tomb's location;
+  - ~~Zertal's grid for Kh. Salhab (pp. 151–153) before it can be mapped~~ taken (1853/1957); Salhab is mapped at possible, low;
+  - a report of any conduit at Ibziq or Salhab: Gophna and Porath 1972 nos. 51–53 and 65; Zori 1977 nos. 50–51;
+  - an independent reading of XII 8–9 (הבזך vs הבור).
+- Q47 (new). **Were Gerizim's Hellenistic staircases in use after about 111 BCE (57)?** Magen's NEAEHL entry reports Hellenistic staircases and a courtyard cistern; the Hellenistic city ends with John Hyrcanus (BK; Magen, by the coins: about 110 BCE, F9.11). *Needs:* the NEAEHL entry read in full, and the stratigraphy of the staircases in *JSP* 8. **Answered in the second run of 2026-09-29: no use after about 110 BCE is reported; see below.**
 
+
+## Source extractions — 2026-09-29 (second run)
+
+See [source_extractions_2026-09-29.md](source_extractions_2026-09-29.md).
+
+- **Q47: answered.** Magen's NEAEHL entry (pp. 1742–1748) and *Gerizim* III report no use or repair of the three Hellenistic staircases or the mansion cistern after about 110 BCE. The city "stood abandoned through the Hasmonean and Roman periods" (p. 1742). The steps and the cistern would have stood as ruins in the scroll's period (F10.1–F10.3). Stratigraphy of each staircase still needs *JSP* 8.
+- Q32 update:
+  - **Magen on Gerizim (57): read** (NEAEHL entry and *Gerizim* III).
+  - **Patrich on Hyrcania (16, 29): partly read.** The 2002 English chapter was seen in snippets only; the 1989 Hebrew text is still blocked on Kotar.
+  - **Garbrecht & Peleg 1994: read.**
+- Q46 update:
+  - *HA* 40 (1971) p. 22 read: a Roman (1st–2nd c. CE) burial cave at Kh. Ibziq; no water installation.
+  - No conduit at Salhab in SWP II p. 240, Guérin p. 355 or Gaß. Gaß gives Salhab at N 32°21′15″, E 35°22′25″ (Zertal 1853.1957).
+  - *Still needs:* Zertal vol. 2 pp. 151–153 re-read for any channel at Salhab, and whether the *HA* 40 cave is at Upper or Lower Ibziq. *On merge:* the entry 59 review read Zertal pp. 151–153 (no conduit at Salhab), and Greenberg and Keinan's grid for the licence is the Upper Ibziq point (F9.9); the report itself does not say.
+- Q45 update:
+  - **DJD III D32 (p. 268): Milik does cite Jeremias,** as "Une localisation alternative, assez attrayante" (*RB* 67, 1960, pp. 220–222). The Addenda do not return to it.
+  - Jeremias 1958 p. 86 dates the Beit Guvrin necropolis "seleukidisch" (about 100 shaft graves).
+  - The English IAA record for site 143 gives no orientation either. *Still needs:* the printed Benjamin survey, and a specialist reading of IX 7.
+- Q38 update:
+  - HathiTrust's OCR puts "Archelaus", "Herod Archelaus" and "low dam" on p. 385 of Ilan & Amit 2002 (chapter pp. 380–386). Stacey's citations are supported at word level; their wording needs a scan of p. 385.
+  - "Point 16" does not occur in the chapter.
+  - No reply yet from Reeder or Jol.
+- Q40 update: no reply yet from Høgenhaven (checked 29 September 2026). Re-check about 13 October.
+- Q24 update:
+  - Garbrecht & Peleg (p. 164) say Dok "is apparently the only fort that was not later rebuilt by Herod". This is a historical inference, not stratigraphy.
+  - Whether the summit was occupied in the 1st century CE needs Amit 1989 or another excavation report.
+- Q48 (new). **Where in the Gerizim mansion (Area P) was locus 5178, which gave three coins of Festus (58/59 CE)?** If it is building IV's courtyard cistern, entry 57 gains a period trace; if not, the coins stay strays. *Needs:* *JSP* 8 (*A Temple City*) locus list or plans.
+- Q49 (new). **Hyrcania's pools and entry 29's "northern reservoir".**
+  - Garbrecht & Peleg describe three rock-cut pools, about 18 × 15 × 5 m, on both sides of the path at the saddle.
+  - Patrich 2002 describes "N pools" forming a moat on the western approach.
+  - Feldman counts 2 built pools.
+  - Which pool is "northern", and which were in use in the 1st century CE? The link to entry 29 still depends on the restoration of קי[. *Needs:* Patrich 1989 (Kotar) and Feldman 1974.
