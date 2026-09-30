@@ -192,3 +192,19 @@ See [source_extractions_2026-09-29.md](source_extractions_2026-09-29.md).
   - Patrich 2002 describes "N pools" forming a moat on the western approach.
   - Feldman counts 2 built pools.
   - Which pool is "northern", and which were in use in the 1st century CE? The link to entry 29 still depends on the restoration of קי[. *Needs:* Patrich 1989 (Kotar) and Feldman 1974.
+
+## Source extractions — 2026-09-29 (third run)
+
+See [source_extractions_2026-09-29.md](source_extractions_2026-09-29.md#third-run-the-same-eight-prompts-run-again) and F11.1–F11.9.
+
+- Q48 update: the find-spots of the 528 Jannaeus coins (F11.1) matter as much as locus 5178. If any lie by a staircase or in the mansion, entry 57 gains a trace of use in the 70s BCE. *Needs:* the *Gerizim* III catalogue (pp. 130–204), searched for loci; JSP 8. The third run also found a late-3rd-century building "close to the stairs that ascend to Mt. Gerizim" on the northern side (JSP 19 p. 60). Which staircase that is remains open.
+- Q49 update:
+  - The N aqueduct is the Wadi Abu Shuʿla line (1.95 km, Hasmonean); the S aqueduct is the Nahal Qidron line (9 km, Herodian) (F11.2).
+  - Patrich says Hyrcania seems to have been abandoned after Herod's death (F11.3). Eshel has it garrisoned in the 1st c. CE. *Needs:* the dating evidence in Patrich 1989 or the full 2002 chapter, and any 1st-c. CE finds from Hyrcania.
+- Q38 update: Google Books finds no "Archelaus" on pp. 380–386; HathiTrust did (F10.8). A scan of p. 385 is still the only way to settle it (F11.4).
+- Q45 update:
+  - Jeremias p. 86 is read two ways: troughs 1.30 or 1.80 m long (F11.6). *Needs:* a page image.
+  - Jeremias's *RB* 1960 alternative was already read (F8.1): the Horite tombs near Beit Guvrin.
+  - A pointer to an IAA online version of part of the Benjamin survey (map 73), from Zertal & Bar vol. 9 p. 484, is not yet opened.
+- Q46 update: Zertal's Salhab entry, now seen on the page images, reports 30 cisterns and no channel (F11.5). Gophna and Porath 1972 (no. 65) is still unread. The "Site 43" snippet is el-Quleh, not Upper Ibziq.
+- Q40 update: no reply from Høgenhaven at 03:50 UTC on 30 September.
