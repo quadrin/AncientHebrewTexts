@@ -1,6 +1,6 @@
 # Reading the list from the inside: how the Copper Scroll was compiled
 
-> **Repository note (added on merge).** The scripts and outputs from `deeper_analysis_code_2026-09-30.zip` are in [`deep_analysis/`](deep_analysis/README.md), which also compares the numbers below with the script outputs. `entry_features_2026-09-30.csv` and the two earlier reports of the series are not in the repository; `deep_analysis/features.py` makes the per-entry features again.
+> **Repository note (added on merge).** The scripts and outputs from `deeper_analysis_code_2026-09-30.zip` are in [`deep_analysis/`](deep_analysis/README.md), which also compares the numbers below with the script outputs. `entry_features_2026-09-30.csv` is not in the repository; `deep_analysis/features.py` makes the per-entry features again. Of the two earlier reports, [the follow-up](sequence_model_followup_2026-09-30.md) is in the repository, without the §8.1 correction below; the first report is not. The next report, [tests on old surveys and plans](leads_on_old_plans_2026-09-30.md), corrects §2.1 and §8.5 on the priority of ha-Melaḥ as a place.
 
 30 September 2026. Third report in this series, after `sequence_model_and_new_leads_2026-09-30.md` and `sequence_model_followup_2026-09-30.md`. Labels: **evidence** (a count or a quotation you can check), **inference** (my reasoning from it), **BK** (background knowledge, not checked here).
 

@@ -1,5 +1,5 @@
 # Made again by build.py and features.py (they hold the Abegg text)
 entries_full.json
 features.json
-# Terrain grid for route_jer.py (made by dem.py, not in the repository)
+# Terrain grid for route_jer.py (made by dem.py from downloaded tiles)
 dem.npz

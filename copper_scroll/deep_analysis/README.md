@@ -6,7 +6,7 @@ The analysis tests the order of the entries in the scroll: whether place names r
 
 ## Running
 
-Python 3 with numpy (all scripts) and scikit-image (`route_jer.py`). Each script finds its inputs relative to its own folder, so it runs from any working directory:
+Python 3 with numpy (all scripts), scikit-image (`route_jer.py`) and Pillow (`dem.py`). Each script finds its inputs relative to its own folder, so it runs from any working directory:
 
 ```
 python3 copper_scroll/deep_analysis/build.py
@@ -18,7 +18,9 @@ python3 copper_scroll/deep_analysis/vocab_blocks.py      # and the others, in an
 
 Run `build.py` and `features.py` first; the other scripts read `features.json`. `vocab_blocks.py`, `changepoint.py`, `splitscan.py`, `rotation.py` and `greek_groups.py` execute the first part of `vocab.py` (the concept map) and do not need its output. `hmm_fine.py` has no inputs.
 
-`route_jer.py` also needs `dem.npz`, a terrain grid (`dem`, with the Web Mercator tile zoom `Z` and origin tiles `tx0`, `ty0`, 256 px per tile). It was made by `dem.py` from an earlier bundle; neither file is in the repository. Put `dem.npz` in this folder or set `DEM_NPZ` to its path.
+`route_jer.py` also needs `dem.npz`, a terrain grid (`dem`, with the Web Mercator tile zoom `Z` and origin tiles `tx0`, `ty0`, 256 px per tile). Run `dem.py` first to make it. It downloads 32 Mapzen/AWS Terrarium tiles. Or put a `dem.npz` in this folder, or set `DEM_NPZ` to its path.
+
+The original `dem.py` came in an earlier bundle and is not in the repository. The `dem.py` here was written on 30 September 2026 from the terrain described in the [follow-up report](../sequence_model_followup_2026-09-30.md) §1: Terrarium tiles at zoom 11 covering 31.55–32.60 N and 35.10–35.62 E. It gives the same 32 tiles and the same elevation range (−423 m to 1,021 m), and `route_jer.py` then gives a `route_jer.json` byte-identical to the delivered one.
 
 ## Scripts
 
@@ -33,6 +35,7 @@ Run `build.py` and `features.py` first; the other scripts read `features.json`. 
 | `splitscan.py` | Rank of the anchor split 35/36 among all splits of 20–56 | `splitscan.json` | §2.2, §4 |
 | `rotation.py` | Rotation (circular shift) test that keeps local runs | `rotation.txt` (printed output) | §0, §2.2, §4 |
 | `greek_groups.py` | Are the Greek-letter gaps change points? (exact, 11,440 placements) | `greek_groups.txt` (printed output) | §5.1 |
+| `dem.py` | Downloads the terrain tiles and writes the grid (added in the repository; see above) | `dem.npz` (not in git) | — |
 | `route_jer.py` | Exact walking-route test for the Jerusalem block and the Jericho block (Tobler cost on the terrain tiles; places from `../tables/phase3_places.csv`) | `route_jer.json` | §5.4 |
 | `hmm_fine.py` | Three-sub-district sequence model for entries 1–35, with two placements of Achor | `hmm_fine.json` | §7 |
 
@@ -47,7 +50,9 @@ Random seeds are fixed in each script. `greek_groups.py` and `route_jer.py` enum
 
 ## Reproduction check
 
-On 30 September 2026 every script except `route_jer.py` was run on the repository at commit `35a9ab5`, first in the bundle's original folder layout and then from this folder. Both runs gave output byte-identical to the delivered `tests_results.json`, `vocab_results.json`, `vocab_blocks.json`, `changepoint.json`, `splitscan.json` and `hmm_fine.json`. `rotation.txt` and `greek_groups.txt` are the printed output of the same run. `route_jer.json` is as delivered; it was not re-run, because `dem.npz` is not available.
+On 30 September 2026 every script except `route_jer.py` was run on the repository at commit `35a9ab5`, first in the bundle's original folder layout and then from this folder. Both runs gave output byte-identical to the delivered `tests_results.json`, `vocab_results.json`, `vocab_blocks.json`, `changepoint.json`, `splitscan.json` and `hmm_fine.json`. `rotation.txt` and `greek_groups.txt` are the printed output of the same run.
+
+Later the same day, `route_jer.py` was run on a `dem.npz` made by `dem.py`. Its output is byte-identical to the delivered `route_jer.json`. Its Jericho block (17.0 h; median 20.3 h; best 10.4 h; p = 0.16) is also the Jericho row of the follow-up report's §1 table, which used 200,000 random orders instead of exact enumeration.
 
 ## The report's numbers and these outputs
 
@@ -70,7 +75,7 @@ Some numbers in the report are not in any output file:
 
 ## Changes from the bundle
 
-Only the file paths changed. The bundle expected the scripts in `cs_work/deep/`, next to a clone `AncientHebrewTexts/`. Each script now starts with two lines that set `D` to its own folder, and reads and writes through `D`. `route_jer.py` also reads `DEM_NPZ`. The analysis code is unchanged.
+Only the file paths changed. The bundle expected the scripts in `cs_work/deep/`, next to a clone `AncientHebrewTexts/`. Each script now starts with two lines that set `D` to its own folder, and reads and writes through `D`. `route_jer.py` also reads `DEM_NPZ`. The analysis code is unchanged. `dem.py` is new (see Running).
 
 ## Text and data
 
