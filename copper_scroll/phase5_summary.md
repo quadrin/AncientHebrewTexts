@@ -101,6 +101,7 @@ Session 2, 2026-09-28. Desk research on published reports and editions only.
 - **Gerizim (57).** The dated steps and cisterns in the sources checked are later (Hadrian's stairway; Byzantine works). Magen's excavation reports were not available, so this is a limit of the evidence checked, not a claim about every installation on the summit.
   - *Follow-up, 2026-09-29:* Magen's NEAEHL Supplement entry (2008, pp. 1742–1748) is free online but not yet read in full. It reports Hellenistic staircases and a courtyard cistern. The Hellenistic city ends about 111 BCE (BK), so their use in the scroll's period needs a check (Q47).
   - *Second run, 2026-09-29:* the NEAEHL entry and *Gerizim* III were read. The three staircases and the mansion cistern are Hellenistic, and no use or repair after about 110 BCE is reported; the city "stood abandoned through the Hasmonean and Roman periods" (p. 1742). They stood as ruins in the scroll's period. The verdict stays medium (F10.1–F10.3).
+  - *Third run, 2026-09-29:* *Gerizim* III adds that a Hasmonean garrison stayed on the mountain into the 70s BCE (Jannaeus coins struck after 80/79 BCE). Nothing ties it to the staircases or the cistern. The verdict stays medium (F11.1, F11.9).
 
 ## 5. The seven "feature unknown" placements (Q25)
 

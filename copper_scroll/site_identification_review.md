@@ -70,3 +70,12 @@ See [source_extractions_2026-09-29.md](source_extractions_2026-09-29.md). No sit
 - **Ibziq (59): possible, low, unchanged.** No conduit is reported at Ibziq or Kh. Salhab; *HA* 40 adds a 1st–2nd-century CE burial cave at Ibziq. *On merge:* the entry 59 section above had already restored Kh. Ibziq to possible, medium after *HA* 40; the current verdict is medium, with Kh. Salhab at low.
 - **Entry 40: possible only, unchanged.** Jeremias dates the Beit Guvrin necropolis "seleukidisch"; DJD III D32 cites Jeremias as an attractive alternative.
 - **Entry 21: medium, unchanged.** Ilan & Amit 2002 p. 385 contains "Archelaus" and "low dam" (HathiTrust word hits); Stacey's wording is unverified.
+
+## Source extractions — 29 September 2026 (third run)
+
+The same eight prompts were run again ([comparison](source_extractions_2026-09-29.md#third-run-the-same-eight-prompts-run-again); files in `registration/extractions_run3/`). No site confidence changes.
+
+- **Gerizim (57): medium, unchanged.** *Gerizim* III adds a Hasmonean garrison on the mountain into the 70s BCE, with no find-spots that tie it to the staircases or the cistern (F11.1, F11.9).
+- **Hyrcania (16, 29, 35): possible, low, unchanged.** The N aqueduct is the 1.95 km Wadi Abu Shuʿla line (Hasmonean); the S aqueduct is the 9 km Qidron line (Herodian) (F11.2). Patrich has the fortress abandoned after Herod's death, so the 1st-c. CE period fit is disputed (F11.3).
+- **Entry 21: medium, unchanged.** Google Books does not find "Archelaus" on pp. 380–386, where HathiTrust did; a scan of p. 385 must decide (F11.4).
+- **Entries 40 and 59: unchanged.** The runs read Jeremias's measurements differently (F11.6). Zertal's Salhab entry shows no channel on the page images (F11.5).

@@ -340,6 +340,19 @@ See [source_extractions_2026-09-29.md](source_extractions_2026-09-29.md). Each e
   - The old *Hadashot* site search (hadashot.iaa.org.il) returns nothing even for a control query during its move to the IAA portal.
 - **Not found online:** *Mount Gerizim Excavations* II (JSP 8); JRA Suppl. 46 on Internet Archive.
 
+## Source extractions, 2026-09-29 (third run)
+
+The same eight prompts, run again in another browser session. Files: `registration/extractions_run3/`; comparison in [source_extractions_2026-09-29.md](source_extractions_2026-09-29.md#third-run-the-same-eight-prompts-run-again). Each file gives its citation, access route and reading mode on its first line.
+
+- **Read in full:**
+  - Magen, Bijovsky & Tzionit, *Mount Gerizim Excavations* III (JSP 19, 2021), JSTOR `j.ctv2bwvt5v`: Sections One (pp. 1–78) and Two (pp. 79–129), text layer. The catalogue (pp. 130–204) was not searched.
+  - Garbrecht & Peleg, *BA* 57.3 (1994), JSTOR 3210411, with every number checked on the page images.
+  - Zissu 2023, JSTOR `jj.10329820.11`.
+- **Page images or full OCR:** Zertal, *Manasseh Hill Country Survey* 2, Google Books `LwawCQAAQBAJ`, pp. 151–153 (preview pages; other pages snippets only); SWP *Memoirs* II, Internet Archive `surveyofwesternp02conduoft`.
+- **Snippets or search only:** *The Aqueducts of Israel* (JRA Suppl. 46), Google Books `GWhoAAAAMAAJ`; Jeremias 1958, Internet Archive `heiligengrberinj0000jere`; DJD III (Texte), Internet Archive `discoveriesinjud0000mbai`. These are different Internet Archive copies from the second run's.
+- **Blocked this time:** the BAS Library (login), HathiTrust search (a bot check), Kotar (server errors), the IAA survey records for the Benjamin survey, and the *Hadashot* search page.
+- **Outreach:** the Gmail check was repeated at about 03:50 UTC on 30 September; still no replies.
+
 ## Text provenance and reuse
 
 Use the available editions as research sources. Keep ancient wording, an editor's restoration, a modern translation and the project's own interpretation distinguishable, with page and line citations. Existing files and historical delivery notes do not establish a blanket permission or prohibition for new publication. Follow [Text and publication](AGENTS.md#text-and-publication); a replacement-transcription search is not a prerequisite for the research.

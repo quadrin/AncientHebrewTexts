@@ -76,3 +76,37 @@ This run worked through the eight follow-up prompts drafted after the [source le
 - A scan of Ilan & Amit 2002 p. 385.
 - The printed Benjamin survey entry for site 143.
 - Zertal vol. 2 pp. 151–153, re-read for Salhab.
+
+## Third run: the same eight prompts, run again
+
+A third run of the same eight prompts was made later on 29 September 2026 (PT), in another browser session. Its files are kept unchanged in [registration/extractions_run3/](registration/extractions_run3/), beside the second run's files, so that the two readings can be compared. The only edit: the outreach file has the email addresses taken out, as in the second run's copy.
+
+The third run could not open three things that the second run read:
+
+- **Magen's NEAEHL entry.** The BAS Library needs a login, and the user-supplied PDF was not used.
+- **HathiTrust.** Its search stopped at a bot check.
+- **The IAA online record for Benjamin survey site 143.**
+
+It read two sources more closely:
+
+- ***Gerizim* III (JSP 19).** Sections One and Two in full text.
+- **Zertal Vol. 2 pp. 151–153 (Kh. Salhab).** Read as page images.
+
+**No site confidence changes.** Findings F11.1–F11.9.
+
+| Prompt | Third-run file | Agreement with the second run | New or different |
+|---|---|---|---|
+| 1. Gerizim (57) | [gerizim_magen_neaehl_extracted.md](registration/extractions_run3/gerizim_magen_neaehl_extracted.md) | Destruction 111–110 BCE; the site not rebuilt; seven stray coins of 7 BCE–68 CE | A Hasmonean garrison until Jannaeus, "possibly even later" (JSP 19 pp. 39–40). 528 Jannaeus coins, 490 of the type struck after 80/79 BCE (p. 105). A Hasmonean fortress on the northern slope (p. 46). No find-spots for either. F11.1 |
+| 2. Hyrcania (16, 29, 35) | [hyrcania_patrich1989_extracted.md](registration/extractions_run3/hyrcania_patrich1989_extracted.md) | Kotar blocked; Patrich 2002 in snippets; "N pools", Hasmonean bridge, Byzantine channel | The volume's summary table (p. 17): a 1.95 km aqueduct from Wadi Abu Shuʿla (Hasmonean) and a 9 km aqueduct from Nahal Qidron (Herodian). Points 8, 16–18, 30–31 and the bridges. F11.2 |
+| 3. Garbrecht & Peleg 1994 | [garbrecht_peleg1994_extracted.md](registration/extractions_run3/garbrecht_peleg1994_extracted.md) | All numbers, including the table on p. 169 | The saddle substructure at Hyrcania is 16.80 m high (p. 168). The regnal dates printed for Jannaeus on p. 170 repeat those of John Hyrcanus I. F11.7 |
+| 4. Zissu 2023 | [zissu2023_extracted.md](registration/extractions_run3/zissu2023_extracted.md) | A synthesis with no coordinates; hewn hiding caves with cisterns in Wadi Qelt–Naḥal Mikhmash (p. 203) | A table of every named cave. Nothing on the Buqeia, Kidron / Mar Saba or Hyrcania caves |
+| 5. Salhab / Ibziq (59) | [entry59_salhab_ibziq_search.md](registration/extractions_run3/entry59_salhab_ibziq_search.md) | No conduit at Salhab or Ibziq; SWP II pp. 231, 237, 240 | Zertal pp. 151–153 read as page images: 30 cisterns and no channel at Salhab; previous survey Gophna and Porath 1972 no. 65. The word "conduit" occurs once in the whole volume, not for these sites. F11.5 |
+| 6. Ilan–Amit 2002 p. 385 (21) | [ilan_amit2002_p385_check.md](registration/extractions_run3/ilan_amit2002_p385_check.md) | Chapter pp. 380–386; no "point 16" in it | **Different:** Google Books' text has no "Archelaus" on pp. 380–386, where the second run's HathiTrust search found it on p. 385. The editors' introduction dates the aqueduct "probably Herodian" (p. 18) and says it "may date back to the Hellenistic period" (p. 38). F11.4 |
+| 7. Entry 40 (Q45) | [entry40_sources_extracted.md](registration/extractions_run3/entry40_sources_extracted.md) | Jeremias pp. 82–86: about 100 "seleukidisch" shaft tombs 2 km north of Beit Guvrin; DJD III p. 268 cites Jeremias, *RB* 67 (1960) pp. 220–222; the Addenda are silent | **Different readings of p. 86:** a depth of "4,389 m" and troughs "1,30 m" long, against "4,89 m" and "1,80 m" in the second run. Different Internet Archive copies. F11.6 |
+| 8. Outreach (Q38, Q40) | [outreach_replies_2026-09-29.md](registration/extractions_run3/outreach_replies_2026-09-29.md) | No replies, no bounces | Checked again at about 03:50 UTC on 30 September. F11.8 |
+
+Gaps that the repository had already closed when the third run listed them:
+
+- **Magen's NEAEHL entry:** read in full in the second run, from a PDF (F10.1).
+- **"Site 43" at Ibziq:** el-Quleh (grid 1893/1979, pp. 193–194). It lies between Lower Ibziq (site 42) and Upper Ibziq (site 44) in Zertal's order. See [entry59_bezek_review.md](entry59_bezek_review.md).
+- **Jeremias's alternative location in *RB* 67 (1960):** already read. It is the "Horite tombs" shaft-tomb necropolis near Beit Guvrin, and Milik's reply in the same volume (pp. 222–223) rated it about equal to Beth-Horon (F8.1).
