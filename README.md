@@ -2,7 +2,7 @@
 
 ## Copper Scroll research
 
-The Copper Scroll project has moved to [quadrin/CopperScroll](https://github.com/quadrin/CopperScroll). Read the [research guide](https://github.com/quadrin/CopperScroll/blob/main/research/README.md), [atlas](https://quadrin.github.io/CopperScroll/atlas-site/), or [scroll reader](https://quadrin.github.io/CopperScroll/web/). The former reader and atlas URLs redirect to their new locations. This repository keeps the separate TIR map search below and the original Copper Scroll snapshot in Git history.
+The Copper Scroll project has moved to [quadrin/CopperScroll](https://github.com/quadrin/CopperScroll). Read the [research guide](https://github.com/quadrin/CopperScroll/blob/main/research/README.md), [atlas and scroll text](https://quadrin.github.io/CopperScroll/). The former reader and atlas URLs redirect to the new homepage or its Scroll view. This repository keeps the separate TIR map search below and the original Copper Scroll snapshot in Git history.
 
 ## TIR map search
 
