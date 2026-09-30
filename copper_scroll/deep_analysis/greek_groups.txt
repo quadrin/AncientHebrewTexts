@@ -1,0 +1,28 @@
+entries ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '12a', '13', '14', '15', '16']
+cut gaps after ['1', '4', '6', '7', '9', '12a', '15']
+combined dissimilarity: cut-minus-noncut = 0.258  exact p = 0.3873 of 11440
+named   changes at  9 of 16 gaps; at cuts 5 of 7; P(>=)=0.286; P(<=)=0.945
+N       changes at  6 of 16 gaps; at cuts 3 of 7; P(>=)=0.549; P(<=)=0.818
+dig     changes at  4 of 16 gaps; at cuts 1 of 7; P(>=)=0.931; P(<=)=0.392
+kkryn   changes at  9 of 16 gaps; at cuts 4 of 7; P(>=)=0.671; P(<=)=0.714
+talent  changes at 12 of 16 gaps; at cuts 6 of 7; P(>=)=0.392; P(<=)=0.931
+gold    changes at  6 of 16 gaps; at cuts 3 of 7; P(>=)=0.549; P(<=)=0.818
+builtT  changes at  4 of 16 gaps; at cuts 1 of 7; P(>=)=0.931; P(<=)=0.392
+table:
+1 {'named': 1, 'N': 0, 'dig': 0, 'kkryn': 1, 'talent': 1, 'gold': 0, 'builtT': 0} ['ruin_mound', 'steps', 'valley_wadi_gorge']
+2 {'named': 0, 'N': 0, 'dig': 0, 'kkryn': 0, 'talent': 0, 'gold': 1, 'builtT': 0} ['ledge_course', 'tomb_monument']
+3 {'named': 0, 'N': 0, 'dig': 0, 'kkryn': 1, 'talent': 1, 'gold': 0, 'builtT': 1} ['cistern', 'court']
+4 {'named': 1, 'N': 1, 'dig': 0, 'kkryn': 0, 'talent': 0, 'gold': 0, 'builtT': 0} ['conduit', 'ruin_mound']
+5 {'named': 0, 'N': 0, 'dig': 0, 'kkryn': 0, 'talent': 1, 'gold': 0, 'builtT': 0} ['pit']
+6 {'named': 1, 'N': 0, 'dig': 0, 'kkryn': 1, 'talent': 1, 'gold': 0, 'builtT': 0} ['cistern', 'steps']
+7 {'named': 0, 'N': 0, 'dig': 0, 'kkryn': 0, 'talent': 0, 'gold': 1, 'builtT': 0} ['building', 'cave', 'ledge_course']
+8 {'named': 0, 'N': 0, 'dig': 0, 'kkryn': 1, 'talent': 1, 'gold': 0, 'builtT': 1} ['chamber', 'cistern', 'court']
+9 {'named': 0, 'N': 0, 'dig': 0, 'kkryn': 1, 'talent': 1, 'gold': 0, 'builtT': 1} ['cistern', 'conduit', 'gate_wall_threshold']
+10 {'named': 0, 'N': 0, 'dig': 0, 'kkryn': 0, 'talent': 0, 'gold': 0, 'builtT': 1} ['cistern', 'gate_wall_threshold', 'rock_stone']
+11 {'named': 1, 'N': 1, 'dig': 1, 'kkryn': 1, 'talent': 1, 'gold': 0, 'builtT': 1} ['corner', 'pool']
+12 {'named': 0, 'N': 0, 'dig': 1, 'kkryn': 0, 'talent': 0, 'gold': 1, 'builtT': 1} ['corner', 'court']
+12a {'named': 0, 'N': 0, 'dig': 1, 'kkryn': 0, 'talent': 1, 'gold': 0, 'builtT': 1} ['corner']
+13 {'named': 1, 'N': 1, 'dig': 0, 'kkryn': 0, 'talent': 0, 'gold': 0, 'builtT': 1} ['corner', 'pit']
+14 {'named': 1, 'N': 1, 'dig': 1, 'kkryn': 0, 'talent': 1, 'gold': 0, 'builtT': 0} ['tomb_monument']
+15 {'named': 1, 'N': 1, 'dig': 0, 'kkryn': 0, 'talent': 1, 'gold': 0, 'builtT': 0} ['cistern', 'pillar_portico']
+16 {'named': 0, 'N': 0, 'dig': 0, 'kkryn': 0, 'talent': 1, 'gold': 0, 'builtT': 0} ['conduit']

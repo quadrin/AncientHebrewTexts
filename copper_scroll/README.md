@@ -67,6 +67,7 @@ The [source extractions of 29 September 2026](source_extractions_2026-09-29.md) 
 | `qumran_stacey2007_review.md` | yes | Stacey 2007 on the phases of the Qumran aqueduct; effect on entries 20–22 |
 | `source_extractions_2026-09-29.md`, `registration/*_extracted.md` | yes | The second run of 29 September 2026: Gerizim (Magen), Hyrcania (Patrich 2002, snippets), Garbrecht & Peleg 1994, Zissu 2023, Salhab/Ibziq, Ilan & Amit p. 385, entry 40 (Jeremias, DJD III) and the outreach status |
 | `registration/extractions_run3/` | yes | The third run of the same eight prompts (29 September 2026), kept beside the second run's files; compared in `source_extractions_2026-09-29.md` (F11.1–F11.9). Email addresses removed from the outreach file |
+| `deep_analysis/` | yes | Code and outputs for the deeper analysis of 30 September 2026: tests of the entry order (name runs, directions, dig depths, vocabulary blocks, change points, Greek-letter gaps, walking routes, a sub-district sequence model). The report is not in the repository. `entries_full.json` and `features.json` are made again by the scripts and are not in git; `route_jer.py` needs a terrain grid (`dem.npz`) that is not in the repository. See [its README](deep_analysis/README.md) |
 | `findings_log.md` | yes | Running log, evidence vs inference, with pages |
 | `open_questions.md` | yes | Running list of open questions |
 | `tables/entry_concordance.csv` | yes | Puech entry ↔ Lefkovits item ↔ Milik item (from Milik 1960) ↔ line range, with boundary notes and other editors' divisions |
