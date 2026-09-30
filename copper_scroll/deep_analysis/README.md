@@ -1,6 +1,6 @@
 # Deeper analysis code (30 September 2026)
 
-Code and outputs for the report `deeper_analysis_2026-09-30.md`. The report itself is not in this folder: the delivered bundle (`deeper_analysis_code_2026-09-30.zip`) held only the scripts and their outputs. The section numbers in the table below refer to that report.
+Code and outputs for the report [*Reading the list from the inside*](../deeper_analysis_2026-09-30.md) (`deeper_analysis_2026-09-30.md`). The scripts and outputs came in `deeper_analysis_code_2026-09-30.zip`; the report came separately. The section numbers in the table below refer to the report.
 
 The analysis tests the order of the entries in the scroll: whether place names recur in runs, whether direction words, dig depths and vocabulary change between blocks of entries, whether the Greek-letter gaps mark changes, and whether the Jerusalem and Jericho blocks follow a short walking route.
 
@@ -48,6 +48,25 @@ Random seeds are fixed in each script. `greek_groups.py` and `route_jer.py` enum
 ## Reproduction check
 
 On 30 September 2026 every script except `route_jer.py` was run on the repository at commit `35a9ab5`, first in the bundle's original folder layout and then from this folder. Both runs gave output byte-identical to the delivered `tests_results.json`, `vocab_results.json`, `vocab_blocks.json`, `changepoint.json`, `splitscan.json` and `hmm_fine.json`. `rotation.txt` and `greek_groups.txt` are the printed output of the same run. `route_jer.json` is as delivered; it was not re-run, because `dem.npz` is not available.
+
+## The report's numbers and these outputs
+
+Checked on 30 September 2026. The counts and p-values in §0, §1 (observed and expected pairs), §2, §3.1 (vocabulary, "dig"), §4 (except Spearman), §5 and §7 are in the outputs above, after rounding. The Holm-adjusted values in §11 follow from the listed p-values.
+
+Some numbers in the report are not in any output file:
+
+| Report | Value | Status |
+|---|---|---|
+| §1, §11: T1 p | 3.6 × 10⁻⁶, "exact" | `tests.py` gives the permutation estimate 5 × 10⁻⁶ (1 hit in 200,000 shuffles, as the report says). The exact calculation is not in the bundle |
+| §1: Shallum at 23; Milik's reading of 15 for T1 | 4 pairs, p ≈ 9 × 10⁻⁵ | Not in the scripts; not re-checked |
+| §6, §11: T6 | C(10,5)/C(61,5) ≈ 4 × 10⁻⁵ | Arithmetic checked (4.2 × 10⁻⁵). `tests_results.json` holds a different test: `T6_record.p_cooc` = 2.4 × 10⁻⁴ counts entries (6 with כתבן, entry 8 included), not adjacency |
+| §6, §11: scan of 50–55 | 0.005 | `T6_scan.p` = 0.014 includes entry 8's bare וכתבן (6 occurrences). With the five full phrases only (22, 50, 51, 54, 55), the same scan gives 0.005 (re-checked, 200,000 draws) |
+| §3.1: round sums | Fisher p = 0.017 | Re-checked from the `features.py` talent list: 7 of 13 against 4 of 26, p = 0.0174 |
+| §4: depth against position | Spearman ρ = 0.42, p = 0.031, n = 26 | Re-checked: ρ = 0.424, t = 2.30 on 24 degrees of freedom |
+| §3.1: full spelling ככרין | 7 of the first 16, 4 of the 45 later | Taken from the project's T8 (`phase4_summary.md`). On the Abegg text, the `f_kkryn` flag in `features.py` is true in 6 of the first 16 entries (1, 3, 6, 8, 9, 11) and 8 of the 45 later ones. Only `greek_groups.py` uses the flag, as one of its seven features |
+| §11: independent check | — | The separate agent's code is not in the bundle |
+
+`entry_features_2026-09-30.csv`, named in the report's Data section, is not in the bundle. `features.py` makes the same per-entry features as `features.json`.
 
 ## Changes from the bundle
 
