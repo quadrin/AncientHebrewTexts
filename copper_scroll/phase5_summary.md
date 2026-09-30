@@ -21,7 +21,7 @@ Session 2, 2026-09-28. Desk research on published reports and editions only.
   - the 23 best-supported entries;
   - the "possible" places at medium confidence (ʿAṣla, the Jericho estate and Tell el-Qos, Kh. Ibziq, the Buqeiʿah);
   - four blocks: Tell es-Sultan for Koḥlit, Hyrcania, the Temple enclosure, and the Tekoa–Herodium sector.
-- **Records.** They recorded 254 reports, each with page or URL, report type and period.
+- **Records.** They recorded 254 reports, each with page or URL, report type and period. Seven more were added in the second run of 29 September 2026 (261 in all).
 - **Sources:**
 
   | Source | Coverage |
@@ -100,6 +100,7 @@ Session 2, 2026-09-28. Desk research on published reports and editions only.
 - **Beth Shean (58).** Perennial springs (SWP II) and a dam and pool of the period (*HA-ESI* 2016) move the feature fit from partial to good. The verdict stays medium, because springs are common in the valley and the final mem of the name remains a problem (Q16).
 - **Gerizim (57).** The dated steps and cisterns in the sources checked are later (Hadrian's stairway; Byzantine works). Magen's excavation reports were not available, so this is a limit of the evidence checked, not a claim about every installation on the summit.
   - *Follow-up, 2026-09-29:* Magen's NEAEHL Supplement entry (2008, pp. 1742–1748) is free online but not yet read in full. It reports Hellenistic staircases and a courtyard cistern. The Hellenistic city ends about 111 BCE (BK), so their use in the scroll's period needs a check (Q47).
+  - *Second run, 2026-09-29:* the NEAEHL entry and *Gerizim* III were read. The three staircases and the mansion cistern are Hellenistic, and no use or repair after about 110 BCE is reported; the city "stood abandoned through the Hasmonean and Roman periods" (p. 1742). They stood as ruins in the scroll's period. The verdict stays medium (F10.1–F10.3).
 
 ## 5. The seven "feature unknown" placements (Q25)
 
@@ -117,10 +118,10 @@ Session 2, 2026-09-28. Desk research on published reports and editions only.
 ## 6. Limits
 
 - **Not accessible:** several key reports.
-  - Magen on Gerizim.
+  - Magen on Gerizim. *Read 2026-09-29 (second run):* the NEAEHL entry and *Gerizim* III; *JSP* 8 is still unavailable.
   - Zertal's Manasseh survey (Ibziq). *Read 2026-09-29* (vol. 2): no conduit is reported. With *HA* 40's Roman kokhim tomb, Ibziq stays medium; see [entry59_bezek_review.md](entry59_bezek_review.md) and the follow-up.
   - Hirschfeld's Herodium survey (print only).
-  - Patrich on Mar Saba and Hyrcania. *Located 2026-09-29, not read:* the Hyrcania aqueducts chapter is in the same 1989 Hebrew volume as the Ilan–Amit chapter already obtained; the Mar Saba map is print only.
+  - Patrich on Mar Saba and Hyrcania. *Located 2026-09-29, not read:* the Hyrcania aqueducts chapter is in the same 1989 Hebrew volume as the Ilan–Amit chapter already obtained; the Mar Saba map is print only. *Second run:* the 2002 English chapter was seen in snippets and Garbrecht & Peleg 1994 read in full; the 1989 Hebrew text is still blocked on Kotar.
   - The full Akeldama volume (abstract only). Szanton 2023 has since been read in full; see the review and `sources.md`.
   - Kenyon 1981 (second-hand).
 - **Second-hand only:** the Bethesda excavations (Vincent & Abel; Jeremias), cited through the editors.
@@ -136,4 +137,4 @@ Session 2, 2026-09-28. Desk research on published reports and editions only.
 | `site_identification_review.md` | yes | Revised shortlist, reading conditions, source corrections and limits of precision |
 | `tables/phase5_archaeology_index.csv` | yes | 31 rows: the landmark types each entry requires, whether reports describe them at the site, the period, the Phase 3 and Phase 5 verdicts, the main sources (references only) |
 | `tables/phase5_assessments.csv` | yes | The 37 full assessments, with the reviewers' reasons and the disputed landmark words. Entry 49 carries a correction note from the 2026-09-28 review |
-| `tables/phase5_reports.csv` | yes | All 254 report records with page or URL, type, period and short quotes (20 words or fewer) |
+| `tables/phase5_reports.csv` | yes | All 261 report records (254 from Phase 5, 7 added 2026-09-29) with page or URL, type, period and short quotes (20 words or fewer) |

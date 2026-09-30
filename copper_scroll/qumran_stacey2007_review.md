@@ -58,6 +58,8 @@ On 29 September 2026 the Google Books full-text search of *The Aqueducts of Isra
 
 Neither phrase was found on pp. 380–386. The index may not cover every page, so Stacey's citations remain unconfirmed rather than refuted.
 
+*Later the same day* a HathiTrust page-level search found "Archelaus", "Herod Archelaus" and "low dam" on p. 385 ([registration/ilan_amit2002_p385_check.md](registration/ilan_amit2002_p385_check.md), F10.8). The citations are supported at word level; their wording still needs a scan of the page.
+
 ## Next
 
 The 2002 chapter (*The Aqueducts of Israel*, JRA Suppl. 46, pp. 380–386) is needed for three things:

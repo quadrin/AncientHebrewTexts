@@ -113,3 +113,13 @@ This file addresses the Phase 5 gaps listed in [Q32](open_questions.md) and [pha
 
 - **Entry 21:** confidence unchanged. The two possible heads are a row in `tables/feature_constraints.csv`, and the atlas text for entry 21 cites Stacey 2007. See also the note at the end of [ilan_amit_1989_plan_review.md](ilan_amit_1989_plan_review.md) and F9.7.
 - **Entry 57:** verdict unchanged. The Hellenistic staircases are recorded as a lead (F9.6, Q47).
+
+## Status after the second run (29 September 2026)
+
+The leads above were followed up in [source_extractions_2026-09-29.md](source_extractions_2026-09-29.md):
+
+- Magen's NEAEHL entry on Gerizim was read in full.
+- Garbrecht & Peleg 1994 and *HA* 40 were read.
+- Patrich 2002 was seen in snippets.
+- Ilan–Amit 2002 was word-searched.
+- Patrich 1989 (Kotar) and *JSP* 8 remain unavailable.

@@ -91,6 +91,6 @@ Greenberg and Keinan 2009 (licence L-52/1971) list the site's major periods as R
 
 ## What would discriminate
 
-1. A dated drain or channel at Upper Ibziq or Salhab. Gophna and Porath 1972 (nos. 51–53, 65) and Zori 1977 (nos. 50–51) are the earlier surveys Zertal cites.
+1. A dated drain or channel at Upper Ibziq or Salhab. Gophna and Porath 1972 (nos. 51–53, 65) and Zori 1977 (nos. 50–51) are the earlier surveys Zertal cites. A second run the same day found no channel at either site in SWP, Guérin or Gaß, and neither site is in the IAA online survey ([registration/entry59_salhab_ibziq_search.md](registration/entry59_salhab_ibziq_search.md), F10.7).
 2. The tomb's location relative to the two Ibziq sites, and whether any channel runs near it. *HA* 40 gives no plan; the SOA licence file L-52/1971 may.
 3. An independent reading of XII 8–9, first letter by letter for הבזך against הבור.

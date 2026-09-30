@@ -37,6 +37,8 @@ The [source leads of 29 September 2026](source_leads_2026-09-29.md) locate the r
 
 The [entry 59 review](entry59_bezek_review.md) reads Zertal's survey and *HA* 40. Neither Kh. Ibziq site has a reported conduit. On Zertal's survey alone, Kh. Ibziq was first lowered from medium to low. A 1971 excavation (*HA* 40 p. 22) then showed a kokhim tomb of the 1st–2nd centuries CE there, so Kh. Ibziq stays medium. Kh. Salhab (Zertal's biblical Bezeq) is added to the atlas as a low alternative. The Phase 5 index and summary carry the result. [sources.md](sources.md#sources-checked-2026-09-29-second-batch) records where the remaining reports can be found.
 
+The [source extractions of 29 September 2026](source_extractions_2026-09-29.md) (second run) read Magen's NEAEHL entry on Gerizim, Garbrecht & Peleg 1994 on the desert fortresses, Zissu 2023, *HA* 40 on Ibziq, and Jeremias and DJD III for entry 40. The Hyrcania chapter (Patrich 2002) and Ilan & Amit 2002 p. 385 were read only in snippets or as word searches. Gerizim's steps and cistern are Hellenistic and stood as ruins after about 110 BCE (Q47 answered). No site confidence changes; the extraction files are in `registration/`.
+
 ## Files
 
 | File | In git? | Contents |
@@ -63,6 +65,7 @@ The [entry 59 review](entry59_bezek_review.md) reads Zertal's survey and *HA* 40
 | `source_leads_2026-09-29.md` | yes | Access leads for the Phase 5 gaps (Hyrcania, Gerizim, Ibziq, Herodium, Mar Saba, Ilan–Amit 2002); notes on Stacey 2007 and Zertal's Manasseh survey Vols. 2–4 |
 | `entry59_bezek_review.md` | yes | Entry 59 (XII 8–9): Kh. Ibziq and Kh. Salhab in Zertal's Manasseh survey, Vols. 2–4 |
 | `qumran_stacey2007_review.md` | yes | Stacey 2007 on the phases of the Qumran aqueduct; effect on entries 20–22 |
+| `source_extractions_2026-09-29.md`, `registration/*_extracted.md` | yes | The second run of 29 September 2026: Gerizim (Magen), Hyrcania (Patrich 2002, snippets), Garbrecht & Peleg 1994, Zissu 2023, Salhab/Ibziq, Ilan & Amit p. 385, entry 40 (Jeremias, DJD III) and the outreach status |
 | `findings_log.md` | yes | Running log, evidence vs inference, with pages |
 | `open_questions.md` | yes | Running list of open questions |
 | `tables/entry_concordance.csv` | yes | Puech entry ↔ Lefkovits item ↔ Milik item (from Milik 1960) ↔ line range, with boundary notes and other editors' divisions |
@@ -80,7 +83,7 @@ The [entry 59 review](entry59_bezek_review.md) reads Zertal's survey and *HA* 40
 | `tables/phase4_hypotheses.csv` | yes | Phase 4 hypotheses (H1–H14): proposers with pages, prediction, test, result, verdict |
 | `phase4_records.csv` | **no** | All 212 Phase 4 records (readings, hypotheses, observations) with pages and short quotes |
 | `tables/phase5_archaeology_index.csv` | yes | Phase 5 index (31 rows): landmark types required, whether reported at the site, period, Phase 3 and Phase 5 verdicts, main sources |
-| `tables/phase5_assessments.csv`, `tables/phase5_reports.csv` | yes | The 37 Phase 5 assessments with reasons, and the 254 report records with pages, URLs and short quotes (20 words or fewer) |
+| `tables/phase5_assessments.csv`, `tables/phase5_reports.csv` | yes | The 37 Phase 5 assessments with reasons, and the 261 report records with pages, URLs and short quotes (20 words or fewer) |
 | `phase3_candidates.csv` | **no** | All 292 Phase 3 candidates with the full scoring, reasons with pages, and short quotes |
 | `phase3_entries.csv` | **no** | Per entry: the text's requirements, reading notes, best-supported place, why not the others, and the text's own relative description in each edition (edition quotations; spatial models record their assumptions separately) |
 | `phase3_map1_overview.png`, `phase3_map2_jericho_qumran.png`, `phase3_map3_jerusalem.png` | **no** | The three Phase 3 maps, at site level. Map 2 is built on PEF Sheet XVIII (CC BY-NC-SA 3.0) |

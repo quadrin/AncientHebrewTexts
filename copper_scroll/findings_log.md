@@ -536,5 +536,41 @@ Added on merge with the [entry 59 review](entry59_bezek_review.md) and the [Stac
   - "Archelaus" occurs only on pp. 37 and 53 (introduction); "low dam" occurs only on p. 332, in a note on Hyrcania.
   - The index may not cover pp. 380–386 fully, so this is not a disproof.
   - p. 20 gives the 20 cisterns at Hyrcania a capacity of about 20,000 m³.
-- F9.11 (evidence: Magen, NEAEHL Supplement, BAS Library preview) **Magen dates the destruction of the Gerizim temple and city to about 110 BCE by the coins.** Hellenistic staircases on the summit therefore need evidence of later use before they can serve entry 57 (Q47). A direct browser check shows only the History section without a login; the rest is paywalled. F9.6 and the source leads, which call the entry free online, rest on an automated summary of the page.
+  - *Superseded in part by F10.8:* a HathiTrust page-level search finds both words on p. 385.
+- F9.11 (evidence: Magen, NEAEHL Supplement, BAS Library preview) **Magen dates the destruction of the Gerizim temple and city to about 110 BCE by the coins.** Hellenistic staircases on the summit therefore need evidence of later use before they can serve entry 57 (Q47). A direct browser check shows only the History section without a login; the rest is paywalled. F9.6 and the source leads, which call the entry free online, rest on an automated summary of the page. *The full entry was read later the same day from a PDF extract (F10.1–F10.3); Q47 is answered.*
 
+
+## Source extractions — 2026-09-29 (second run)
+
+See [source_extractions_2026-09-29.md](source_extractions_2026-09-29.md). The extraction files are in `registration/`.
+
+- F10.1 (evidence: Magen, NEAEHL 5 (2008) pp. 1742, 1745–1747) **Gerizim's steps and cistern are Hellenistic, and the city was abandoned after about 110 BCE.**
+  - Three staircases: E1, 15 steps, 8 × 2 m (p. 1745); the precinct's southern wing, 9 m wide, seven steps preserved (pp. 1746–1747); the eastern approach, up to 23 × 34 m, about 57 steps (p. 1747).
+  - The mansion (Area P) has a courtyard cistern in building IV (p. 1745).
+  - "The city and temple stood abandoned through the Hasmonean and Roman periods" (p. 1742). The coins break "from after Jannaeus until the beginning of the fourth century CE" (p. 1747).
+  - No use or repair after 110 BCE is reported for any staircase or for the cistern.
+- F10.2 (evidence: Magen et al., JSP 19 (2021) pp. 58–59, 159) **The period coins are strays, except possibly one group.** Seven coins of 7 BCE–late 1st c. CE are judged to have "came there by chance" (p. 59). Three of them are coins of Festus (58/59 CE) from one locus, L5178, in Area P, the mansion (p. 159). The precinct "had stood almost in their original Hellenistic-period form, until the fourth century CE" (p. 58).
+- F10.3 (inference, medium) **Entry 57 stays best-supported, medium.** Steps and cisterns of the required types stood on the summit in the scroll's period, but as ruins of a city abandoned about 110 BCE. The check moves from "later only" to "earlier (surviving as ruins) and later; not in use in the period". The verdict rests on the name, as before.
+- F10.4 (evidence: Garbrecht & Peleg, *BA* 57 (1994) pp. 164–170) **The fortress water systems, with a comparison table (p. 169).**
+  - Dok: a wadi diversion, a 500 m channel, nine cisterns of about 2,100 m³ (7–11 × 3–5 × 5–7 m). Dok "is apparently the only fort that was not later rebuilt by Herod" (p. 164).
+  - Hyrcania: diversion from two wadis (~2 km, ~9 km); a 112 m saddle bridge in two phases, "possibly" Hasmonean (four lower cisterns) and "possibly" Herodian (twelve upper cisterns); three rock-cut pools of about 18 × 15 × 5 m (about 4,000 m³); 16 cisterns in all, about 16,000 m³ (pp. 168–169).
+  - The article never mentions Qumran.
+- F10.5 (evidence: Patrich, JRA Suppl. 46 (2002) pp. 336–352, snippet images only) **Hyrcania's two aqueducts and its N pools.**
+  - The N aqueduct is "1950 m long" and "almost certainly the earlier" (p. 336).
+  - The aqueduct remains represent "Hasmonean, Herodian, and Byzantine" phases (p. 336), and there is a Byzantine channel at the W and E bridges (p. 338).
+  - "the N pools served as a kind of moat" on the western approach (p. 351).
+  - Feldman counted "20 rock-cut cisterns and 2 built pools", about "20,000 m³" (p. 351).
+  - Patrich 1989 (Hebrew) is still unread (Kotar blocked).
+- F10.6 (inference, low) **Hyrcania stays possible, low for 16, 29 and 35.** Its N pools are a period feature of the type entry 29's "northern reservoir" needs, but the link to entry 29 still rests on the restoration of קי[. The pool counts differ between the sources (Q49).
+- F10.7 (evidence: SWP II pp. 231, 237, 240; Guérin, *Samarie* I p. 355; *HA* 40 (1971) p. 22; Gaß, *WiBiLex* "Besek") **No conduit is reported at Kh. Salhab or Kh. Ibziq.**
+  - Salhab has "numerous cisterns" and silos (Guérin p. 355, quoted by SWP II p. 240).
+  - *HA* 40 reports an excavated burial cave at Kh. Ibziq with lamps and vessels of the 1st–2nd c. CE (p. 22; which Ibziq site is not stated).
+  - Entry 59 stays possible, low. Salhab is still unmapped; Gaß gives N 32°21′15″, E 35°22′25″.
+  - *On merge:* this run did not revisit the confidence, and it adds no evidence against the period fit. The entry 59 review had already restored Kh. Ibziq to possible, medium after *HA* 40 and mapped Salhab from Zertal's grid (F9.8). Gaß's coordinate lies about 130 m from that point. The *HA* 40 report does not name the Ibziq site; Greenberg and Keinan's grid for the licence is the Upper Ibziq point (F9.9).
+- F10.8 (evidence: HathiTrust page-level search of JRA Suppl. 46) **Ilan & Amit 2002 p. 385 contains "Archelaus", "Herod Archelaus" and "low dam".** The Qumran chapter runs pp. 380–386 (inference). Stacey's two citations (DSD 14, nn. 3, 29) are supported at word level; their wording is unverified. "Point 16" is not in the chapter. Entry 21 is unchanged.
+- F10.9 (evidence: Jeremias 1958 pp. 82–86; DJD III p. 268, via Internet Archive search-inside) **Entry 40.**
+  - Jeremias dates the Beit Guvrin shaft-tomb necropolis as "seleukidisch" (Hellenistic) and counts about 100 graves (p. 86).
+  - Milik's D32 prints Beth-Horon and cites Jeremias's *RB* 1960 as "Une localisation alternative, assez attrayante" (p. 268); the Addenda do not return to it.
+  - All three candidates stay possible, low.
+- F10.10 (evidence: Zissu 2023, pp. 185–215) **A synthesis with no coordinates.** Hiding caves between Jericho and the Benjamin slopes (Wadi Qelt, Naḥal Mikhmash) have cut cisterns and were "first hewn out in the Second Temple period" (p. 203). There is nothing on the Buqeia or Kidron / Mar Saba. No entry changes.
+- F10.11 (record) **No replies yet** from Reeder/Jol or Høgenhaven (checked 29 September 2026).

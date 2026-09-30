@@ -806,11 +806,11 @@
           "confidence": "low"
         }
       ],
-      "evidence": "A Hasmonean fortress occupied the summit. The name Doq survives nearby at Ain Duk.",
-      "caution": "Editors disagree over “guard post” and “drying place.” The 2026 plate check leans to the drying place, so the fortress is not the landmark by default. The surviving name does not distinguish the summit from the spring; Q24 remains open.",
+      "evidence": "A Hasmonean fortress occupied the summit, supplied by a wadi diversion, a 500 m channel and nine cisterns. The name Doq survives nearby at Ain Duk.",
+      "caution": "Editors disagree over “guard post” and “drying place.” The 2026 plate check leans to the drying place, so the fortress is not the landmark by default. The surviving name does not distinguish the summit from the spring; Q24 remains open. Garbrecht and Peleg note that Doq was apparently not rebuilt by Herod, so first-century use of the summit is not shown.",
       "landmark": "the corner of a fortress (Milik) or a drying floor (Puech)",
       "period": "in use 1st c. BCE–70 CE (fortress reading)",
-      "sources": "Eshel CSS pp. 92, 100–101; Milik DJD D19; SWP III p. 205; ʿAtiqot 41 (Eisenberg p. 120)",
+      "sources": "Eshel CSS pp. 92, 100–101; Milik DJD D19; SWP III p. 205; ʿAtiqot 41 (Eisenberg p. 120); Garbrecht & Peleg, BA 57 (1994) pp. 164–165",
       "featured": true
     },
     {
@@ -1049,7 +1049,7 @@
         }
       ],
       "evidence": "Under the reading “facing the Sea” (west), which the 2026 plate check favours, Beth-Horon keeps Milik’s textual basis; its name survives at Beit ʿUr, and rock-cut tombs are reported at both villages. Naṭuf rests on the order of the entries.",
-      "caution": "Milik himself later judged the Horite tombs near Beit Guvrin slightly more likely. Puech reads “south”. No chamber facing west, channel or 16-cubit depth is reported anywhere.",
+      "caution": "Milik himself later judged the Horite tombs near Beit Guvrin slightly more likely. Puech reads “south”. Jeremias dates his Beit Guvrin shaft-tomb necropolis only as Seleucid. No chamber facing west, channel or 16-cubit depth is reported anywhere.",
       "landmark": "",
       "period": "Not established in the public archaeology index",
       "sources": "Phase 3 site index; Phase 2 landmark lexicon",
@@ -1468,11 +1468,11 @@
           "confidence": "medium"
         }
       ],
-      "evidence": "The mountain name provides the geographical anchor.",
-      "caution": "The checked steps and cisterns date later. Missing excavation reports prevent a comprehensive judgment about earlier features.",
+      "evidence": "The mountain name provides the geographical anchor. Magen’s excavations found three Hellenistic staircases and a mansion with a courtyard cistern on the summit; they still stood as ruins in the first century.",
+      "caution": "The city was abandoned about 110 BCE, and no use of the steps or cistern is reported before the fourth century CE. Only stray coins of the period were found; three from the mansion area are an open lead. No specific step or pit is identified.",
       "landmark": "a step; an upper pit",
-      "period": "later only in checked sources (Magen reports unavailable)",
-      "sources": "SWP II pp. 187–190; Lefkovits p. 412; Milik DJD p. 274",
+      "period": "earlier (standing as ruins, not in use) and later; stray coins only in the period",
+      "sources": "Magen, NEAEHL 5 (2008) pp. 1742–1747; Magen et al., JSP 19 (2021) pp. 58–59, 159; SWP II pp. 187–190; Lefkovits p. 412; Milik DJD p. 274",
       "featured": false
     },
     {
@@ -1520,10 +1520,10 @@
         }
       ],
       "evidence": "Zertal identifies Eusebius’s two villages called Bezek, 17 miles from Neapolis, with the two Ibziq sites. A kokhim tomb excavated at Kh. Ibziq in 1971 held pottery of the 1st–2nd centuries CE, which fits Puech’s alternative “burial chamber” reading in type. Zertal places the older Bezeq at nearby Kh. Salhab.",
-      "caution": "Zertal’s survey reports cisterns and burial caves but no conduit at either Ibziq site, and few Early Roman sherds on the surface. The place name depends on a disputed reading.",
+      "caution": "Zertal’s survey reports cisterns and burial caves but no conduit at either Ibziq site, and few Early Roman sherds on the surface. No conduit is reported at Kh. Salhab either. The place name depends on a disputed reading.",
       "landmark": "a great conduit",
       "period": "partly: Roman kokhim tomb of the 1st–2nd c. CE (HA 40 p. 22); few Early Roman surface sherds (Upper Ibziq: two ER vessels illustrated; Lower Ibziq from Byzantine)",
-      "sources": "HA 40 (1971) p. 22; Zertal 2008 (MHCS 2) pp. 104–107, 151–153, 191–198; SWP II p. 237; see entry59_bezek_review.md and source_leads_2026-09-29.md",
+      "sources": "HA 40 (1971) p. 22; Zertal 2008 (MHCS 2) pp. 104–107, 151–153, 191–198; SWP II pp. 237, 240; see entry59_bezek_review.md, source_leads_2026-09-29.md and source_extractions_2026-09-29.md",
       "featured": false
     },
     {
